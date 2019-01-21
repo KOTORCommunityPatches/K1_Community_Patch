@@ -13,5 +13,5 @@
 * Added higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 
 ### Changes
-* Cleaned up changes.ini, removing extraneous editor data and orphaned entries
+* Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
 * Edited readme and info RTFs, altering formatting
