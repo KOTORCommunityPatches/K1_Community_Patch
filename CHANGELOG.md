@@ -1,4 +1,5 @@
 # CHANGELOG
+### Additions
 * Added a fix to the skin weights of the male player head PMHC01
 * Added a fix for the commoner Asian male head comm_a_m to restore eye animation
 * Added a fix for clipping collars on female Class 7 (PFBF) and Class 9 (PFBH) armours
@@ -10,3 +11,6 @@
 * Added a fix for the hanging ivy on the walls of the Dantooine enclave landing pad
 * Added a fix for an inaccessible container in The One's compound
 * Added higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
+
+### Changes
+* Cleaned up changes.ini, removing extraneous editor data and orphaned entries
