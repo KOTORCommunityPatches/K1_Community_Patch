@@ -69,11 +69,11 @@ Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 ### DarthParametric:
 * The male player head PMHC01 has some deformation issues along the jawline
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
-* The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
-* The end credits incorrectly scale to screen resolution during the Dark Side ending
-* Multiple fixes for the Endar Spire level models [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
+* The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
+* The end credits don't scale to screen resolution during the Dark Side ending
+* Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris
-* There are missing lightmaps in the entrance of the Taris Upper City cantina [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
+* There are missing lightmaps in the entrance of the Taris Upper City cantina: [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
 * The Council on Dantooine float a few inches off the ground
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * There is an inaccessible container in The One's compound
