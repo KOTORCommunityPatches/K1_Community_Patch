@@ -8,6 +8,8 @@
 
 Original Release Date: 04/17/2018
 
+Current Version Release Date: TBA
+
 ## 1. Description:
 This mod is a compilation of various bugfix mods (as well as a few original fixes) put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who created these mods, and gave me permission to include them in this patch.
 ## 2. Install:
@@ -141,7 +143,7 @@ You may, however, do whatever you want with any of my (A Future Pilot) fixes wit
 * All of the mod authors who have helped make this patch a reality. I can't say it enough - Thank you!
 * Fred Tetra - For creating his awesome KOTOR Tool that makes us modders job a lot easier.
 * Snigaroo - For maintaining awesome mod lists on the /r/kotor subreddit, and for putting up with my many recommendations
-* danil-ch - For the info.rtf template
+* danil-ch - For the original info.rtf template
 * Fair Strides - For bundling up his tools and making them available
 
 **THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/OBSIDIAN ENTERTAINMENT OR LUCASARTS OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
