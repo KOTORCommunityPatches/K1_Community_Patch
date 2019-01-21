@@ -2,6 +2,8 @@
 ## KOTOR 1 Community Patch
 **Maintainer: A Future Pilot**
 
+**Assistant Editors: JCarter426, DarthParametric**
+
 **Contact: afuturepilotis@gmail.com or PM at deadlystream.com**
 
 Original Release Date: 04/17/2018
@@ -139,7 +141,7 @@ You may, however, do whatever you want with any of my (A Future Pilot) fixes wit
 * All of the mod authors who have helped make this patch a reality. I can't say it enough - Thank you!
 * Fred Tetra - For creating his awesome KOTOR Tool that makes us modders job a lot easier.
 * Snigaroo - For maintaining awesome mod lists on the /r/kotor subreddit, and for putting up with my many recommendations
-* danil-ch - For this info.rtf template
+* danil-ch - For the info.rtf template
 * Fair Strides - For bundling up his tools and making them available
 
 **THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/OBSIDIAN ENTERTAINMENT OR LUCASARTS OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
