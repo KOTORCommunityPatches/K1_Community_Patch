@@ -14,3 +14,4 @@
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries
+* Edited readme and info RTFs, altering formatting
