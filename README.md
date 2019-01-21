@@ -1,6 +1,7 @@
 
 ## KOTOR 1 Community Patch
 **Maintainer: A Future Pilot**
+
 **Contact: afuturepilotis@gmail.com or PM at deadlystream.com**
 
 Original Release Date: 04/17/2018
