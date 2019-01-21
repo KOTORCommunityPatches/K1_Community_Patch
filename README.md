@@ -67,6 +67,17 @@ Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Mandalorian armor has several issues: [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174)
  
 ### DarthParametric:
+* The male player head PMHC01 has some deformations issues along the jawline
+* The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
+* The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
+* The end credits incorrectly scale to screen resolution during the Dark Side ending
+* Multiple fixes for the Endar Spire level models [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
+* A stray blaster appears in the middle of a hallway in the Sith Base on Taris
+* There are missing lightmaps in the entrance of the Taris Upper City cantina [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
+* The Council on Dantooine float a few inches off the ground
+* The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
+* There is an inaccessible container in The One's compound
+* Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence
 Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 * Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence
