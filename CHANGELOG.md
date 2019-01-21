@@ -14,4 +14,4 @@
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
-* Edited readme and info RTFs, altering formatting
+* Edited readme and info RTFs, altering formatting and adding updated mod contributions

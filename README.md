@@ -67,7 +67,7 @@ Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Mandalorian armor has several issues: [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174)
  
 ### DarthParametric:
-* The male player head PMHC01 has some deformations issues along the jawline
+* The male player head PMHC01 has some deformation issues along the jawline
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
 * The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
 * The end credits incorrectly scale to screen resolution during the Dark Side ending
