@@ -1,0 +1,2 @@
+# Define Aurora/Odyssey NSS as C (probably the closest)
+*.nss linguist-language=C
