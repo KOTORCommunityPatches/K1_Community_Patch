@@ -1,2 +1,31 @@
 # Define Aurora/Odyssey NSS as C (probably the closest)
 *.nss linguist-language=C
+# Flag compiled scripts, 2DAs, models, textures, GFF, container formats, etc. as binary
+*.ncs binary
+*.mod binary
+*.erf binary
+*.rim binary
+*.mdl binary
+*.mdx binary
+*.tpc binary
+*.tga binary
+*.dds binary
+*.utc binary
+*.utd binary
+*.uti binary
+*.utp binary
+*.uts binary
+*.utt binary
+*.utw binary
+*.dlg binary
+*.git binary
+*.are binary
+*.ifo binary
+*.pth binary
+*.tlk binary
+*.bik binary
+*.2da binary
+*.jrl binary
+*.lip binary
+*.wav binary
+*.wok binary
