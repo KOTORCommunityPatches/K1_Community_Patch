@@ -12,6 +12,7 @@
 * Added a fix for an inaccessible container in The One's compound
 * Added higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Added a fix for some female non-dancer Twi'leks wearing armour instead of plain clothes
+* Added a fix for Helena wearing Jedi robes instead of regular clothes
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
