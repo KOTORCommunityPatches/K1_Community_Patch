@@ -136,12 +136,12 @@ To install, you must run Install.exe TWICE! The first time select "Part 1" and t
 *Under Construction*
  
 ## 4. Uninstall:
-
 Given the complexity of this mod, a clean install of KOTOR is recommended. However, you can check through the installation log file if you wish to undo the changes made.
 
 ## 5. Bugs:
-These are currently known bugs with KOTOR that I'm working on fixing. If you find any others, please let me know!
-https://gist.github.com/Mako88/507e8d3b411683388b1e021f0bdabfe0
+These are the currently known bugs with KOTOR that the K1CP is looking to resolve. If you find any others, please report them.
+
+https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues
 
 ## 6. Permissions:
 Due to this mod being a compilation from many different authors, please do not distribute it.  
