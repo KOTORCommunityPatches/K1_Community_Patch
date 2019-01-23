@@ -46,13 +46,12 @@ To install, you must run Install.exe TWICE! The first time select "Part 1" and t
 * Once Xor appeared, no other messengers could appear: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * If the prisoner in the Sith Academy was interrogated multiple times rapidly, the animation would loop for a long time: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Sith Apprenteces has their soundsets mismatched: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* Sometimes the wrong dialog would play during the Leviathan torture scene: [The Comprehensive KOTOR Bug
-Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* Sometimes the wrong dialog would play during the Leviathan torture scene: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * On board the Yavin Station, when the Trandoshans appear for the first time, some of the dialog options sometimes causes you to be kicked out of the dialog: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 
 ### danil-ch:
 * Some DS responses were unavailable in k_hcar_dialog.dlg: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* Calo Nordâ€™s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some of Bastila's lines regarding her father's holocron were unavailable: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some camera angles were wrong during the Leviathan interrogation: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Bastilla turned off her lightsaber after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
@@ -69,6 +68,7 @@ Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 ### DarthParametric:
 * The male player head PMHC01 has some deformation issues along the jawline
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
+* Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes
 * The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
 * The end credits don't scale to screen resolution during the Dark Side ending
 * Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
@@ -78,10 +78,8 @@ Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * There is an inaccessible container in The One's compound
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
-* Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence
-Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
-* Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence
-Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
+* Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
+* Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 
 ### jc2:
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
@@ -93,10 +91,9 @@ Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequ
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
 
 ### Kexikus:
-* Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings
-1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
-* If doing Juhaniâ€™s dialog in the wrong order, it was possible to block any further progress
-* The second Xor encounter was impossible to start if you first meet him and his ï»¿goons without Juhani in the party
+* Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings 1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
+* If doing Juhani’s dialog in the wrong order, it was possible to block any further progress
+* The second Xor encounter was impossible to start if you first meet him and his ?goons without Juhani in the party
 * The second Xor encounter is unavailable on Tatooine
 
 ### Leilukin:
@@ -129,7 +126,7 @@ Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequ
 * Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
 
 ### Thrak Farelle:
-* Droid classesâ€™ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
+* Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
 
 ### ZimmMaster:
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
