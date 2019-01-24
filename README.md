@@ -137,9 +137,13 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 
 ## 5. Bugs:
-These are the currently known bugs with KOTOR or the mod that the K1CP is looking to resolve. If you find any others, please report them.
+These are the currently known bugs with KOTOR or the mod that the K1CP is looking to resolve: 
 
 https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues
+
+If you find any others, please report them.
+
+https://deadlystream.com/files/file/1258-kotor-1-community-patch
 
 ## 6. Permissions:
 Due to this mod being a compilation from many different authors, please do not distribute it.  
