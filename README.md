@@ -1,5 +1,4 @@
-
-## KOTOR 1 Community Patch
+# KOTOR 1 Community Patch
 **Maintainer: A Future Pilot**
 
 **Assistant Editors: JCarter426, DarthParametric**
@@ -12,9 +11,14 @@ Current Version Release Date: TBA
 
 ## 1. Description:
 This mod is a compilation of various bugfix mods (as well as a few original fixes) put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who created these mods, and gave me permission to include them in this patch.
+
 ## 2. Install:
 To install, you must run Install.exe TWICE! The first time select "Part 1" and the second time select "Part 2".
-## 3. List of included mods and fixes (alphabetical by author):
+
+## 3. Uninstall:
+Given the complexity of this mod, a clean install of KOTOR is recommended. However, you can check through the installation log file if you wish to undo the changes made.
+
+## 4. List of included mods and fixes (alphabetical by author):
 ### A Future Pilot:
 * Respawn tach gland in chest on Kashyyk if player has received quest from Griff
 * Juhani wouldn't spawn in the post-Leviathan scene (Fix found by Kexikus, implemented by AFP)
@@ -132,14 +136,8 @@ To install, you must run Install.exe TWICE! The first time select "Part 1" and t
 ### ZimmMaster:
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 
-## 3. Other Recommended Mods:
-*Under Construction*
- 
-## 4. Uninstall:
-Given the complexity of this mod, a clean install of KOTOR is recommended. However, you can check through the installation log file if you wish to undo the changes made.
-
 ## 5. Bugs:
-These are the currently known bugs with KOTOR that the K1CP is looking to resolve. If you find any others, please report them.
+These are the currently known bugs with KOTOR or the mod that the K1CP is looking to resolve. If you find any others, please report them.
 
 https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues
 
@@ -151,6 +149,7 @@ You may, however, do whatever you want with any of my (A Future Pilot) fixes wit
 ## 7. Credits:
 * All of the mod authors who have helped make this patch a reality. I can't say it enough - Thank you!
 * Fred Tetra - For creating his awesome KOTOR Tool that makes us modders job a lot easier.
+* Stoffe - For creating TSLPatcher
 * Snigaroo - For maintaining awesome mod lists on the /r/kotor subreddit, and for putting up with my many recommendations
 * danil-ch - For the original info.rtf template
 * Fair Strides - For bundling up his tools and making them available
