@@ -15,7 +15,7 @@
 * Added a fix for Helena wearing Jedi robes instead of regular clothes
 * Added a fix for Carth prematurely complaining about being out of the loop
 * Added a workaround/partial fix for the post-Leviathan escape stealth bug
-* Added a fix for Dak respawning the Korriban cantina
+* Added a fix for Dak respawning in the Korriban cantina
 * Replaced broken injection-based Manaan DLGs with pre-patched ones (TSLPatcher can't delete nodes)
 
 ### Changes
