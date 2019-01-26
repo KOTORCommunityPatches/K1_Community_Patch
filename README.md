@@ -91,6 +91,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### JCarter426:
 * Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* Carth was a little too quick to complain about being out of the loop
+* Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)

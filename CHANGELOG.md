@@ -13,6 +13,8 @@
 * Added higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Added a fix for some female non-dancer Twi'leks wearing armour instead of plain clothes
 * Added a fix for Helena wearing Jedi robes instead of regular clothes
+* Added a fix for Carth prematurely complaining about being out of the loop
+* Added a workaround/partial fix for the post-Leviathan escape stealth bug
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
