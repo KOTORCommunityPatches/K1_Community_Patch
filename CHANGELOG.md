@@ -15,6 +15,7 @@
 * Added a fix for Helena wearing Jedi robes instead of regular clothes
 * Added a fix for Carth prematurely complaining about being out of the loop
 * Added a workaround/partial fix for the post-Leviathan escape stealth bug
+* Added a fix for Dak respawning the Korriban cantina
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
