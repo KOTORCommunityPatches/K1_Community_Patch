@@ -17,7 +17,7 @@
 * Added a workaround/partial fix for the post-Leviathan escape stealth bug
 * Added a fix for Dak respawning in the Korriban cantina
 * Replaced broken injection-based Manaan DLGs with pre-patched ones (TSLPatcher can't delete nodes)
-* Added a fix for Jedi in back of Malak cutscene on Deck 1 of the Star Forge issue
+* Added a fix for Jedi being visible in the back of a Malak cutscene on Deck 1 of the Star Forge issue
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
