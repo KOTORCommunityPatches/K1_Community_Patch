@@ -83,6 +83,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * There is an inaccessible container in The One's compound
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge
+* A droid in the Taris sewers had a vocabulator fault (Reported by ebmar)
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 * Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
