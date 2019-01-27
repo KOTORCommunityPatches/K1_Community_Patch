@@ -82,7 +82,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Council on Dantooine float a few inches off the ground
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * There is an inaccessible container in The One's compound
-* The training montage on Dantooine had a number of minor issues
+* The training montage on Dantooine had a number of minor issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
 * A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
