@@ -1,0 +1,358 @@
+# Exported with MDLedit v1.0.102 - BETA from binary source at 27/01/2019 17:49:11 (Local Time)
+# MODEL ASCII
+newmodel M13aa_c01_cam
+setsupermodel M13aa_c01_cam NULL
+classification character
+classification_unk1 0
+ignorefog 0
+setanimationscale 1.0
+compress_quaternions 1
+headlink 0
+
+# GEOM ASCII
+beginmodelgeom M13aa_c01_cam
+  bmin -5.0 -5.0 -1.0
+  bmax 5.0 5.0 10.0
+  radius 7.0
+node dummy M13aa_c01_cam
+  parent NULL
+endnode
+node dummy camerahook
+  parent M13aa_c01_cam
+  position 74.8746 87.8209 6.91421
+  orientation 0.999997 0.00167531 -0.00182403 1.4429
+endnode
+endmodelgeom M13aa_c01_cam
+
+newanim CUT001W M13aa_c01_cam
+  length 7.96667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 74.8746 87.8209 6.87235
+        3.06667 74.8746 87.9659 6.87235
+        7.96667 74.8746 88.1976 6.87235
+      endlist
+      orientationkey
+        0.0 0.999999 0.00147929 0.0 1.44377
+        7.96667 0.999646 -0.0164366 -0.0209398 1.42622
+      endlist
+    endnode
+doneanim CUT001W M13aa_c01_cam
+newanim CUT002W M13aa_c01_cam
+  length 4.43333
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 100.977 35.1089 3.98975
+        4.43333 100.977 35.1503 3.98975
+      endlist
+      orientationkey
+        0.0 1.0 0.0 0.0 1.91989
+        4.43333 1.0 0.0 0.0 1.91989
+      endlist
+    endnode
+doneanim CUT002W M13aa_c01_cam
+newanim CUT003W M13aa_c01_cam
+  length 5.53333
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 84.6277 42.8 6.35
+        5.53333 84.6277 42.8 6.35
+      endlist
+      orientationkey
+        0.0 -0.031879 0.654169 0.755677 3.21521
+        5.53333 -0.031879 0.654169 0.755677 3.21521
+      endlist
+    endnode
+doneanim CUT003W M13aa_c01_cam
+newanim CUT004W M13aa_c01_cam
+  length 5.36667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 85.7398 42.4123 6.1368
+        5.36667 84.8188 42.8124 6.1368
+      endlist
+      orientationkey
+        0.0 0.156969 0.669601 0.725945 2.78266
+        5.36667 -0.00586748 0.657158 0.75373 3.08465
+      endlist
+    endnode
+doneanim CUT004W M13aa_c01_cam
+newanim CUT005W M13aa_c01_cam
+  length 16.0333
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 83.5859 109.444 6.44062
+        7.3 83.2009 107.442 6.39381
+        16.0333 82.4575 105.046 6.33779
+      endlist
+      orientationkey
+        0.0 0.696317 0.514874 0.500046 1.95703
+        7.3 0.436337 0.639112 0.633361 2.34002
+        16.0333 0.0872414 0.723417 0.684877 2.99249
+      endlist
+    endnode
+doneanim CUT005W M13aa_c01_cam
+newanim CUT006W M13aa_c01_cam
+  length 6.66667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 98.5406 33.5652 5.81372
+        6.66667 98.4672 33.5652 5.81372
+      endlist
+      orientationkey
+        0.0 0.937128 -0.247356 -0.246184 1.52733
+        6.66667 0.932257 -0.251427 -0.260156 1.52863
+      endlist
+    endnode
+doneanim CUT006W M13aa_c01_cam
+newanim CUT007W M13aa_c01_cam
+  length 9.56667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 112.223 33.9385 5.60892
+        9.56667 112.225 34.2696 5.57563
+      endlist
+      orientationkey
+        0.0 1.0 0.0 0.0 1.46997
+        9.56667 0.999999 0.00145772 0.0 1.46997
+      endlist
+    endnode
+doneanim CUT007W M13aa_c01_cam
+newanim CUT008W M13aa_c01_cam
+  length 5.4
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 82.0316 81.5038 7.08565
+        5.4 82.0316 81.5038 7.08565
+      endlist
+      orientationkey
+        0.0 0.981308 0.127872 0.143817 1.49651
+        5.4 0.981308 0.127872 0.143817 1.49651
+      endlist
+    endnode
+doneanim CUT008W M13aa_c01_cam
+newanim CUT009W M13aa_c01_cam
+  length 4.16667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 81.9785 84.5427 7.01505
+        4.16667 81.9247 84.5425 7.01222
+      endlist
+      orientationkey
+        0.0 0.568191 0.561386 0.601668 2.0781
+        4.16667 0.568191 0.561386 0.601668 2.0781
+      endlist
+    endnode
+doneanim CUT009W M13aa_c01_cam
+newanim CUT010W M13aa_c01_cam
+  length 0.966667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 81.6241 82.9783 6.99683
+        0.2 81.6275 82.9881 6.99683
+        0.966667 81.6646 83.097 6.99683
+      endlist
+      orientationkey
+        0.0 0.994617 0.0648663 0.0808015 1.49045
+        0.2 0.994617 0.0648663 0.0808015 1.49045
+        0.966667 0.998189 0.0346694 0.049163 1.48651
+      endlist
+    endnode
+doneanim CUT010W M13aa_c01_cam
+newanim CUT011W M13aa_c01_cam
+  length 6.36667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 81.6663 83.1017 6.99683
+        0.9 81.7099 83.2296 6.99683
+        6.36667 81.842 83.2974 6.99683
+      endlist
+      orientationkey
+        0.0 0.998376 0.033231 0.0462797 1.48617
+        0.9 0.999316 0.0188004 0.0318473 1.48444
+        6.36667 0.994617 0.0648663 0.0808015 1.49045
+      endlist
+    endnode
+doneanim CUT011W M13aa_c01_cam
+newanim CUT012W M13aa_c01_cam
+  length 5.53333
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 83.5632 41.8761 6.46342
+        5.53333 83.5767 41.8619 6.45825
+      endlist
+      orientationkey
+        0.0 0.24994 -0.583193 -0.772927 2.58927
+        5.53333 0.24994 -0.583193 -0.772927 2.58927
+      endlist
+    endnode
+doneanim CUT012W M13aa_c01_cam
+newanim CUT013W M13aa_c01_cam
+  length 5.36667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 85.7398 42.4123 6.1368
+        5.36667 84.8188 42.8124 6.1368
+      endlist
+      orientationkey
+        0.0 0.156969 0.669601 0.725945 2.78266
+        5.36667 -0.00586748 0.657158 0.75373 3.08465
+      endlist
+    endnode
+doneanim CUT013W M13aa_c01_cam
+newanim CUT014W M13aa_c01_cam
+  length 5.53333
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 83.5632 41.8761 6.46342
+        5.53333 83.5767 41.8619 6.45825
+      endlist
+      orientationkey
+        0.0 0.24994 -0.583193 -0.772927 2.58927
+        5.53333 0.24994 -0.583193 -0.772927 2.58927
+      endlist
+    endnode
+doneanim CUT014W M13aa_c01_cam
+newanim CUT015W M13aa_c01_cam
+  length 5.36667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 85.7398 42.4123 6.1368
+        5.36667 84.8188 42.8124 6.1368
+      endlist
+      orientationkey
+        0.0 0.156969 0.669601 0.725945 2.78266
+        5.36667 -0.00586748 0.657158 0.75373 3.08465
+      endlist
+    endnode
+doneanim CUT015W M13aa_c01_cam
+newanim CUT016W M13aa_c01_cam
+  length 5.53333
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 83.5632 41.8761 6.46342
+        5.53333 83.5767 41.8619 6.45825
+      endlist
+      orientationkey
+        0.0 0.24994 -0.583193 -0.772927 2.58927
+        5.53333 0.24994 -0.583193 -0.772927 2.58927
+      endlist
+    endnode
+doneanim CUT016W M13aa_c01_cam
+newanim CUT017W M13aa_c01_cam
+  length 5.36667
+  transtime 0.0
+  animroot M13aa_c01_cam
+    node dummy M13aa_c01_cam
+      parent NULL
+    endnode
+    node dummy camerahook
+      parent M13aa_c01_cam
+      positionkey
+        0.0 85.7398 42.4123 6.1368
+        5.36667 84.8188 42.8124 6.1368
+      endlist
+      orientationkey
+        0.0 0.156969 0.669601 0.725945 2.78266
+        5.36667 -0.00586748 0.657158 0.75373 3.08465
+      endlist
+    endnode
+doneanim CUT017W M13aa_c01_cam
+
+donemodel M13aa_c01_cam
