@@ -72,7 +72,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### DarthParametric:
 * The male player head PMHC01 has some deformation issues along the jawline
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
-* Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes
+* Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * Helena wears Jedi robes instead of regular clothes
 * The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
 * The end credits don't scale to screen resolution during the Dark Side ending
@@ -82,8 +82,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Council on Dantooine float a few inches off the ground
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * There is an inaccessible container in The One's compound
-* Some eager Jedi show up a bit too early for their scripted fight on the Star Forge
-* A droid in the Taris sewers had a vocabulator fault (Reported by ebmar)
+* Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
+* A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 * Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
@@ -93,9 +93,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### JCarter426:
 * Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-* Carth was a little too quick to complain about being out of the loop
-* Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix)
-* Dak was a little too fond of the Dreshdae cantina
+* Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
+* Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
+* Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
