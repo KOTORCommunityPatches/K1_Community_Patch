@@ -13,13 +13,14 @@
 * Added a fix for an inaccessible container in The One's compound
 * Added higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Added a fix for some female non-dancer Twi'leks wearing armour instead of plain clothes
+* Added a fix for some female non-dancer Twi'leks in default stripper garb instead of plain clothes
 * Added a fix for Helena wearing Jedi robes instead of regular clothes
 * Added a fix for Carth prematurely complaining about being out of the loop
 * Added a workaround/partial fix for the post-Leviathan escape stealth bug
 * Added a fix for Dak respawning in the Korriban cantina
-* Replaced broken injection-based Manaan DLGs with pre-patched ones (TSLPatcher can't delete nodes)
-* Added a fix for Jedi being visible in the back of a Malak cutscene on Deck 1 of the Star Forge issue
-* Added a fix for a droid with the wrong soundset in the Taris Upper Sewers (reported by ebmar)
+* Replaced broken injection-based Manaan DLGs in previous release with pre-patched ones (TSLPatcher can't delete nodes)
+* Added a fix for Jedi being visible in the back of a Malak cutscene on Deck 1 of the Star Forge
+* Added a fix for a droid with the wrong soundset in the Taris Upper Sewers
 * Added several fixes to the Dantooine training montage
 
 ### Changes
