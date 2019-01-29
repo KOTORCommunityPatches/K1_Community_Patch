@@ -22,6 +22,7 @@
 * Added a fix for Jedi being visible in the back of a Malak cutscene on Deck 1 of the Star Forge
 * Added a fix for a droid with the wrong soundset in the Taris Upper Sewers
 * Added several fixes to the Dantooine training montage
+* Added a fix for the player freezing during the pre-swoop race scene when racing for the Hidden Beks
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
