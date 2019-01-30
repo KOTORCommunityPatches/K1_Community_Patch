@@ -37,6 +37,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Several droids in Davik's Estate have the wrong sound set
 * Calo Nord has different inventories and stats on different planets
 * Yuthura only attacks with one of her lightsabers
+* Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
 
 ### blennus:
 * The XP reward for delivering the box to Motta the Hutt was incorrect: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
