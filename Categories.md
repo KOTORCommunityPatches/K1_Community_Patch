@@ -70,7 +70,7 @@ Things in this category address bugs and other problems that probably weren't in
 * Energy shields don't block electricity: [Energy Shield Damage Fix](http://deadlystream.com/forum/files/file/548-energy-shield-damage-fix/)
 * Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
-
+* The second Xor encounter is unavailable on Tatooine
 
 ## 2. Enhancements
 Things in this category are intended to enhance the game experience. This might mean restoring cut content, improving aesthetic consistency, addressing anything that seemed out of place, or just getting rid of things that annoyed some people. These changes may go a little beyond developer intent, but they only utilize existing game assets.
@@ -84,7 +84,6 @@ Things in this category are intended to enhance the game experience. This might 
 * Helena wears Jedi robes instead of regular clothes
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings 1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
-* The second Xor encounter is unavailable on Tatooine
 * Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
 * Kandon Ark doesn't wear his military suit: [Kandon Ark Fix 1.0](http://deadlystream.com/forum/files/file/1026-kandon-ark-fix/)
 * Queedle is the wrong race considering several different pieces of dialog: [Queedle Fix 1.0](https://deadlystream.com/files/file/1267-queedle-fix/)
