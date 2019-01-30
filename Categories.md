@@ -7,9 +7,8 @@ Things in this category address bugs and other problems that probably weren't in
 * Griff sometimes wouldn't spawn in the Sand People Enclave
 * Belaya attacks with her fists (Reported by Mr Ardvark)
 * Mission has no clothing on when you meet Griff at the spaceport without her in your party
-* Shaardan attacks with a sword (Reported by Mr Ardvark)
 * One of the boxes in the Rakatan Temple is inaccessible
-* Gana Levin's appearance changes and her text dialog doesn't appear
+* Gana Lavin's appearance changes and her text dialog doesn't appear
 * It's possible to get infinite LS points in a conversation loop with Worronzor
 * Several droids in Davik's Estate have the wrong sound set
 * Yuthura only attacks with one of her lightsabers
@@ -89,6 +88,7 @@ Things in this category are intended to enhance the game experience. This might 
 * Queedle is the wrong race considering several different pieces of dialog: [Queedle Fix 1.0](https://deadlystream.com/files/file/1267-queedle-fix/)
 * Sapith crystal uses wrong icon: [Sapith Fix 1.0](http://deadlystream.com/forum/files/file/975-sapith-fix/)
 * Red lightsaber crystal uses wrong icon:  [Red Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/911-red-lightsaber-crystal-fix/)
+* Shaardan attacks with a sword (Reported by Mr Ardvark)
 
 
 ## 3. And the Rest
