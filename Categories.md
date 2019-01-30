@@ -51,7 +51,6 @@ Things in this category address bugs and other problems that probably weren't in
 * A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 * Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
-* Dak Vesser's inventory was wrong
 * Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
 * Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
