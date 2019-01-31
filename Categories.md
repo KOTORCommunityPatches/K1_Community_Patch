@@ -57,7 +57,7 @@ Things in this category address bugs and other problems that probably weren't in
 * Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
 * If doing Juhani’s dialog in the wrong order, it was possible to block any further progress
-* The second Xor encounter was impossible to start if you first meet him and his ?goons without Juhani in the party
+* The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in the party
 * If you've talked with Bastila after kissing her, some dialog isn't available on the Rakatan Temple: [Bastila Romance Scriptfix 1.0](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
 * On the Star Forge if you haven't talked to Bastila after kissing her, some dialog isn't available: [Bastila Romance Scriptfix 1.0](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
 * On the Star Forge, if you have denied the romance, the game acts as if you haven't: [Bastila Romance Scriptfix 1.0](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
