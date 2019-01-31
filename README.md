@@ -108,7 +108,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### Kexikus:
 * Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings 1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
 * If doing Juhani’s dialog in the wrong order, it was possible to block any further progress
-* The second Xor encounter was impossible to start if you first meet him and his ?goons without Juhani in the party
+* The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in the party
 * The second Xor encounter is unavailable on Tatooine
 
 ### Leilukin:
