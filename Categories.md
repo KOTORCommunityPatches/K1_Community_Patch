@@ -69,6 +69,7 @@ Things in this category address bugs and other problems that probably weren't in
 * Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
 * The second Xor encounter is unavailable on Tatooine
+* Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised
 
 ## 2. Enhancements
 Things in this category are intended to enhance the game experience. This might mean restoring cut content, improving aesthetic consistency, addressing anything that seemed out of place, or just getting rid of things that annoyed some people. These changes may go a little beyond developer intent, but they only utilize existing game assets.
