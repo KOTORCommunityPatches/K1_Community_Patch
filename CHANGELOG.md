@@ -25,6 +25,7 @@
 * Added a fix for the player freezing during the pre-swoop race scene when racing for the Hidden Beks
 * Added a fix for Carth not facing Kandon when interjecting during the pre-swoop race dialogue
 * Added a fix for one of Canderous' goons in the Undercity having the wrong soundset
+* Added a fix for Sand People disguises not working after the player used the rapid transit system or loaded from a save while disguised
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
