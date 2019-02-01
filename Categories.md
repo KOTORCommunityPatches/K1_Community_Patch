@@ -70,6 +70,7 @@ Things in this category address bugs and other problems that probably weren't in
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
 * The second Xor encounter is unavailable on Tatooine
 * Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised
+* Some NPCs have wrong or missing sounds in their soundsets
 
 
 ## 2. Enhancements
@@ -100,3 +101,4 @@ This category is for anything else that didn't make the cut for 1 or 2. Any modd
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
+* Trandoshans lack a functioning soundset. New one created from sounds ported from TSL.
