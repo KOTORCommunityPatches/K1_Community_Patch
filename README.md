@@ -1,4 +1,4 @@
-# KOTOR 1 Community Patch
+﻿# KOTOR 1 Community Patch
 **Maintainer: A Future Pilot**
 
 **Assistant Editors: JCarter426, DarthParametric**
@@ -103,6 +103,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
 * Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised (with insight provided by Salk & A Future Pilot) [ISSUE #6](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/6)
+* Security spikes didn’t actually do anything, so they’ve been removed and replaced with credits: [JC's Security Spikes for K1](https://deadlystream.com/files/file/1439-jcs-security-spikes-for-k1/)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
