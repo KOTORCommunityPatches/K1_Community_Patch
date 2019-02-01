@@ -26,7 +26,7 @@
 * Added a fix for Carth not facing Kandon when interjecting during the pre-swoop race dialogue
 * Added a fix for one of Canderous' goons in the Undercity having the wrong soundset
 * Added a fix for Sand People disguises not working after the player used the rapid transit system or loaded from a save while disguised
-* Added a fix for certain NPC soundsets with wrong or missing sounds in their soundsets
+* Added a fix for certain NPC soundsets with wrong or missing sounds
 * Added new soundset for Trandoshans, ported from TSL
 * Replaced security spikes (which did nothing before) with credits
 * Added a fix for the exit in the Sith Base on Taris having the wrong label
