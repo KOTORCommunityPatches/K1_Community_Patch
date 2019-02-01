@@ -71,6 +71,7 @@ Things in this category address bugs and other problems that probably weren't in
 * The second Xor encounter is unavailable on Tatooine
 * Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised
 
+
 ## 2. Enhancements
 Things in this category are intended to enhance the game experience. This might mean restoring cut content, improving aesthetic consistency, addressing anything that seemed out of place, or just getting rid of things that annoyed some people. These changes may go a little beyond developer intent, but they only utilize existing game assets.
 * The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
@@ -89,6 +90,7 @@ Things in this category are intended to enhance the game experience. This might 
 * Sapith crystal uses wrong icon: [Sapith Fix 1.0](http://deadlystream.com/forum/files/file/975-sapith-fix/)
 * Red lightsaber crystal uses wrong icon:  [Red Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/911-red-lightsaber-crystal-fix/)
 * Shaardan attacks with a sword (Reported by Mr Ardvark)
+* Security spikes didn’t actually do anything, so they’ve been removed and replaced with credits: [JC's Security Spikes for K1](https://deadlystream.com/files/file/1439-jcs-security-spikes-for-k1/)
 
 
 ## 3. And the Rest
