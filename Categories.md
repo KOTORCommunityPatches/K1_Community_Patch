@@ -71,6 +71,8 @@ Things in this category address bugs and other problems that probably weren't in
 * The second Xor encounter is unavailable on Tatooine
 * Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised
 * Some NPCs have wrong or missing sounds in their soundsets
+* One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar)
+* The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 
 
 ## 2. Enhancements
@@ -102,3 +104,4 @@ This category is for anything else that didn't make the cut for 1 or 2. Any modd
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 * Trandoshans lack a functioning soundset. New one created from sounds ported from TSL.
+* Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
