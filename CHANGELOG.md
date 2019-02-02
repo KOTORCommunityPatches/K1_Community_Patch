@@ -30,6 +30,8 @@
 * Added new soundset for Trandoshans, ported from TSL
 * Replaced security spikes (which did nothing before) with credits
 * Added a fix for the exit in the Sith Base on Taris having the wrong label
+* Added a fix for Bastila not showing the fourth vision (K1R's fix)
+* Added a fix for the Twi'lek Czerka Liaison Officers on Kashyyyk not resuming their patrols after dialogue
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
