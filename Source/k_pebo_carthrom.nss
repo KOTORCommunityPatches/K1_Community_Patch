@@ -1,0 +1,29 @@
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+	k_pebo_carthrom
+	
+	Carth romance chedk for post-Leviathan scene.
+	
+	The conditions have been changed so the player will be forced to speak to
+	HK-47 during this scene (if they have recruited him) so his storyline isn't
+	left hanging.
+	
+	Returns true if the player has romanced Carth and they've talked to HK.
+	
+	JC 2019-02-01                                                             */
+////////////////////////////////////////////////////////////////////////////////
+
+int StartingConditional() {
+
+int nRomance;
+if( GetGlobalNumber("K_SWG_CARTH") == 13 ) nRomance = 1;
+else nRomance = 0;
+int nHKCheck = GetGlobalBoolean("Ebo_HK47");
+int nReturn;
+if( IsAvailableCreature(NPC_HK_47) ) nReturn = nRomance * nHKCheck;
+else nReturn = nRomance;
+
+return nReturn;
+
+}
