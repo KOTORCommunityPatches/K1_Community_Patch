@@ -33,6 +33,7 @@
 * Added a fix for Bastila not showing the fourth vision (K1R's fix)
 * Added a fix for the Twi'lek Czerka Liaison Officers on Kashyyyk not resuming their patrols after dialogue
 * Adjusted the post-Leviathan scene so the player is forced to talk to HK and therefore doesn't miss his content there
+* Added missing landing gear and ramp to the Ebon Hawk in the Leviathan hangar
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
