@@ -73,6 +73,10 @@ Things in this category address bugs and other problems that probably weren't in
 - Some NPCs have wrong or missing sounds in their soundsets
 - One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar)
 - The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
+- Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
+- Bastila would not show you the fourth vision if you travelled to all four planets before the Leviathan [K1R](https://deadlystream.com/files/file/558-kotor-1-restoration/) [ISSUE #10](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/10)
+- It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
+- The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
 
 
 ## 2. Enhancements
