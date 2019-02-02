@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	k_pebo_carthrom
+	k_pebo_hk47x
 	
 	Post-Leviathan cleanup for HK. Gives him all the stat bonuses he can get if
 	you repair him because you can't repair him after this scene.
@@ -16,8 +16,8 @@ object oOldHide = GetItemInSlot(INVENTORY_SLOT_CARMOUR, oHK);
 object oNewHide = CreateItemOnObject("g_i_crhide012", oHK);
 
 if( GetIsObjectValid(oOldHide) ) {
-        DestroyObject(oOldHide);
-        }
+	DestroyObject(oOldHide);
+	}
 ActionEquipItem(oNewHide, INVENTORY_SLOT_CARMOUR, TRUE);
 SetGlobalBoolean("Ebo_HK47", TRUE);
 
