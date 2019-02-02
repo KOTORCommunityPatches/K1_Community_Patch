@@ -82,6 +82,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Council on Dantooine float a few inches off the ground
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * There is an inaccessible container in The One's compound
+* Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 * Some NPCs have wrong or missing sounds in their soundsets
 * Trandoshans lack a functioning soundset
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
@@ -114,6 +115,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * If doing Juhani’s dialog in the wrong order, it was possible to block any further progress
 * The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in the party
 * The second Xor encounter is unavailable on Tatooine
+
+### KOTOR 1 Restoration Team:
+* Bastila would not show you the fourth vision if you travelled to all four planets before the Leviathan [K1R](https://deadlystream.com/files/file/558-kotor-1-restoration/) [ISSUE #10](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/10)
 
 ### Leilukin:
 * Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
