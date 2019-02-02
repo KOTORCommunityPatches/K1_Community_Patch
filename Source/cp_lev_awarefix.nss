@@ -9,11 +9,11 @@
 	release the rest of the party, as should normally be the case. They remain
 	in stealth in the post-escape sequence and the conversation can become stuck
 	if Carth (or possibly the PC) doesn't have a high enough Awareness to detect
-	the NPC in question when they have to speak a line. This script provides able
+	the NPC in question when they have to speak a line. This script provides a
 	temporary Awareness buff that should allow the NPC to be detected and the
 	conversation to proceed, although the NPC will remain in stealth throughout
 	the conversation. They appear to disappear from the ship post-conversation,
-	but will be available again normally in the party selection upon the next
+	but will be available again normally via the party selection upon the next
 	disembarkation. 
 	
 	Notes by DP. Script by JC. 2019-01-25                                                             */
