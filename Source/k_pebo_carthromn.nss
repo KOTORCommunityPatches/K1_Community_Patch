@@ -3,7 +3,7 @@
 	
 	k_pebo_carthromn
 	
-	Carth romance chedk for post-Leviathan scene.
+	Carth romance check for post-Leviathan scene.
 	
 	The conditions have been changed so the player will be forced to speak to
 	HK-47 during this scene (if they have recruited him) so his storyline isn't
@@ -11,7 +11,7 @@
 	
 	Returns true if the player has NOT romanced Carth and they've talked to HK.
 	
-	JC 2019-02-01                                                             */
+	JC 2019-02-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 int StartingConditional() {
