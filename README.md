@@ -78,6 +78,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The end credits don't scale to screen resolution during the Dark Side ending
 * Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris
+* Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 * There are missing lightmaps in the entrance of the Taris Upper City cantina: [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
 * The Council on Dantooine float a few inches off the ground
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
