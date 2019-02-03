@@ -35,6 +35,7 @@
 * Adjusted the post-Leviathan scene so the player is forced to talk to HK and therefore doesn't miss his content there
 * Added missing landing gear and ramp to the Ebon Hawk in the Leviathan hangar
 * Added more triggers for the second Xor encounter because he would refuse to show unless the player used the rapid transit system
+* Incorporated some of JC's Minor Fixes
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
