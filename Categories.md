@@ -45,12 +45,15 @@ Things in this category address bugs and other problems that probably weren't in
 - Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised
 - Several camera angles on the Star Forge were inconsistent:  [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Several droids in Davik's Estate have the wrong sound set
+- Several textures were missing shader data: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 - Sith Apprentices have their soundsets mismatched: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+- Sith fighter laser were the wrong color: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 - Some camera angles were wrong during the Leviathan interrogation: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Some DS responses were unavailable in k_hcar_dialog.dlg: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
 - Some NPCs have wrong or missing sounds in their soundsets
 - Some of Bastila's lines regarding her father's holocron were unavailable: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+- Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 - Sometimes the wrong dialog would play during the Leviathan torture scene: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Tanis' dialogue on Tatooine was bugged when playing as a female: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
@@ -76,6 +79,7 @@ Things in this category address bugs and other problems that probably weren't in
 - Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 - Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+- Xor refused to show up for the second encounter unless the player used the rapid transit system [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
 - Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Yuthura only attacks with one of her lightsabers
 
