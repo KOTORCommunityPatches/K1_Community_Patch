@@ -70,32 +70,32 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Mandalorian armor has several issues: [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174)
  
 ### DarthParametric:
-* The male player head PMHC01 has some deformation issues along the jawline
-* The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
-* Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
-* Helena wears Jedi robes instead of regular clothes
-* The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
-* The end credits don't scale to screen resolution during the Dark Side ending
 * Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
-* A stray blaster appears in the middle of a hallway in the Sith Base on Taris
-* Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
+* The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
 * There are missing lightmaps in the entrance of the Taris Upper City cantina: [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
-* The Council on Dantooine float a few inches off the ground
-* The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
-* There is an inaccessible container in The One's compound
-* The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
-* Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
+* Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
+* Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
+* A stray blaster appears in the middle of a hallway in the Sith Base on Taris
+* Helena wears Jedi robes instead of regular clothes
+* Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Some NPCs have wrong or missing sounds in their soundsets
+* The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
+* The Council on Dantooine float a few inches off the ground
+* The end credits don't scale to screen resolution during the Dark Side ending
+* The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
+* The male player head PMHC01 has some deformation issues along the jawline
+* There is an inaccessible container in The One's compound
 * Trandoshans lack a functioning soundset
+* A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
+* One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
+* Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
+* Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
+* The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The training montage on Dantooine had a number of minor issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
-* Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
-* One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
-* A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
-* Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
-* Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
-* Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
+* Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
+* Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 
 ### jc2:
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
