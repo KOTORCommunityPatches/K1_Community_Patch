@@ -36,6 +36,7 @@
 * Added missing landing gear and ramp to the Ebon Hawk in the Leviathan hangar
 * Added more triggers for the second Xor encounter because he would refuse to show unless the player used the rapid transit system
 * Incorporated some of JC's Minor Fixes
+* Added a fix for two female Jedi background NPCs in the Dantooine enclave that would stop walking after being talked to
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
