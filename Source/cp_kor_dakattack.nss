@@ -3,8 +3,7 @@
 
 	Fires if the player chooses to kill Dak Vesser in the cantina on Korriban.
 	Fixes an issue with him respawning after being killed.
-	respawn.
-	
+		
 	JC 2019-01-26                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
