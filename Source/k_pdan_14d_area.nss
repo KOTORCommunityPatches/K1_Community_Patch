@@ -11,7 +11,10 @@
 	player to complete the Casus quest even after the Feud quest has been
 	resolved.
 	
-	DP 2019-02-04                                                             */
+	The latest revision also adds checks for whether the front door of the
+	estate is opened and/or unlocked, closing/locking as appropriate.
+	
+	DP 2019-02-05                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 // Globals
@@ -188,6 +191,7 @@ void sub3(object objectParam1, int intParam2, int intParam3);
 int sub2();
 int sub1(object objectParam1, int intParam2);
 
+
 void sub6(int intParam1) {
 	string string1 = (stringGLOB_7 + IntToString(intParam1));
 	location location1 = GetLocation(GetObjectByTag((("WP_" + string1) + "_01"), 0));
@@ -259,6 +263,26 @@ int sub1(object objectParam1, int intParam2) {
 void main() {
 	int int1 = sub1(OBJECT_SELF, 1);
 	object oEntering = GetEnteringObject();
+	object oSanDoor = GetObjectByTag("dan14ad_door01", 0);
+	
+	
+	//
+	// Adding a check for the front door being open, and closing it if so
+	//
+	if (GetIsOpen(oSanDoor))
+		{
+			//YavinHackCloseDoor(oSanDoor);
+			AssignCommand(oSanDoor,ActionCloseDoor(oSanDoor));
+		}
+	//
+	// Locking the front door if the player has previously entered and spoken to Nurik and it is currently unlocked
+	//
+	if ((GetGlobalBoolean("DAN_SAND_REFUSE") == TRUE) && (GetLocked(oSanDoor) == FALSE))
+		{
+			AssignCommand(oSanDoor, SetLocked(oSanDoor, TRUE));
+		}
+	
+	
 	if ((GetIsPC(oEntering) && (GetLoadFromSaveGame() == 0))) {
 		int int5 = (2 - sub2());
 		if ((GetGlobalBoolean("DAN_LEAVE_DONE") && (int1 == 0))) {
@@ -283,7 +307,10 @@ void main() {
 		else {
 			DestroyObject(GetObjectByTag("dan14_c869", 0), 0.0, 0, 0.0);
 		}
-		//if (GetGlobalBoolean("DAN_SAND_REFUSE")) {							// COMMENTING OUT THIS SECTION TO AVOID DESTROYING THE SANDRAL PROTOCOL DROID
+		//
+		// Commenting out the original section that destroys the Sandral protocol droid if the player has entered and spoken to Nurik 
+		//
+		//if (GetGlobalBoolean("DAN_SAND_REFUSE")) {
 		//	DestroyObject(GetObjectByTag("dan14_sdroid", 0), 0.0, 1, 0.0);
 		//}
 		if ((int5 > 0)) {
@@ -291,4 +318,3 @@ void main() {
 		}
 	}
 }
-
