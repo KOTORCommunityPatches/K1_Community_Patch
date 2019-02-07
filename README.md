@@ -113,6 +113,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised (with insight provided by Salk & A Future Pilot) [ISSUE #6](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/6)
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 * Xor refused to show up for the second encounter unless the player used the rapid transit system [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
+* The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
+* The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
