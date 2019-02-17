@@ -40,6 +40,7 @@
 * Fixed some bugs in the Dead Settler quest
 * Changed Casus Sandral's appearance from a generic corpse to something more suitable
 * Added a fix for an NPC in the Leviathan bridge cutscenes that had some deformation issues
+* Added improved commoner clothes textures (variants 01 and 07) ported from TSL
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
