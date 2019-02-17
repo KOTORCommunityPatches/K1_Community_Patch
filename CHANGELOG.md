@@ -39,6 +39,7 @@
 * Added a fix for two female Jedi background NPCs in the Dantooine enclave that would stop walking after being talked to
 * Fixed some bugs in the Dead Settler quest
 * Changed Casus Sandral's appearance from a generic corpse to something more suitable
+* Added a fix for an NPC in the Leviathan bridge cutscenes that had some deformation issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
