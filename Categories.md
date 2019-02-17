@@ -4,6 +4,8 @@
 Things in this category address bugs and other problems that probably weren't intended by the developers.
 - A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 - A line in k_hjuh_dialog.dlg was inaccessible: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+- A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar)
+- A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar)
 - A stray blaster appears in the middle of a hallway in the Sith Base on Taris
 - Bacca's Blade Hilt script would sometimes not allow you to receive it: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Bacca's Blade Hilt was never removed from your inventory: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
@@ -12,6 +14,7 @@ Things in this category address bugs and other problems that probably weren't in
 - Bastilla turned off her lightsaber after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Belaya attacks with her fists (Reported by Mr Ardvark)
 - Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+- Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar)
 - Canderous's personal quest is bugged
 - Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
 - Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
@@ -100,6 +103,8 @@ Things in this category are intended to enhance the game experience. This might 
 - Security spikes didn’t actually do anything, so they’ve been removed and replaced with credits: [JC's Security Spikes for K1](https://deadlystream.com/files/file/1439-jcs-security-spikes-for-k1/)
 - Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings 1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
 - Shaardan attacks with a sword (Reported by Mr Ardvark)
+- The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
+- The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
 - The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 - Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
 
