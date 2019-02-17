@@ -113,6 +113,7 @@ This category is for anything else that didn't make the cut for 1 or 2. Any modd
 - Mandalorian armor has several issues: [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174)
 - Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
 - Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
+- Some poor quality commoner clothes textures were replaced with improved versions ported from TSL [ISSUE #32](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/32)
 - The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 - The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 - Trandoshans lack a functioning soundset. New one created from sounds ported from TSL.
