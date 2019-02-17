@@ -41,7 +41,9 @@
 * Changed Casus Sandral's appearance from a generic corpse to something more suitable
 * Added a fix for an NPC in the Leviathan bridge cutscenes that had some deformation issues
 * Added improved commoner clothes textures (variants 01 and 07) ported from TSL
+* Added a fix for Calo's Rodian prey in the Taris Undercity Apartments not properly drawing their weapons
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
 * Edited readme and info RTFs, altering formatting and adding updated mod contributions
+* Merged separate install for a single UTC (filename clash) into the main install
