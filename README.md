@@ -15,9 +15,9 @@ This mod is a compilation of various bugfix mods (as well as a few original fixe
 ## 2. Install:
 Run INSTALL.exe and select your desired level of installation:
 
-Tier 1 - This category strictly addresses bugs and other problems that probably weren't intended by the developers.
-Tier 2 - This category enhances the game experience. Restoring cut content, aesthetic changes, removing annoyances, etc. Only utilizes existing game assets. Recommended content.
-Tier 3 - This category includes modder-created content, assets ported from TSL, etc. Optional content.
+* Tier 1 - This category strictly addresses bugs and other problems that probably weren't intended by the developers.
+* Tier 2 - This category enhances the game experience. Restoring cut content, aesthetic changes, removing annoyances, etc. Only utilizes existing game assets. Recommended content.
+* Tier 3 - This category includes modder-created content, assets ported from TSL, etc. Optional content.
 
 The Tier you select will also install the previous Tier/s, i.e. selecting Tier 1 will only install Tier 1 content, selecting Tier 2 will install both Tier 1 and Tier 2 content, selecting Tier 3 will install all content.
 
