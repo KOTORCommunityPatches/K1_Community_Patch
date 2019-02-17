@@ -110,6 +110,7 @@ Things in this category are intended to enhance the game experience. This might 
 
 ## 3. And the Rest
 This category is for anything else that didn't make the cut for 1 or 2. Any modder-created content goes here. It might also be something that just isn't as popular, or there may be some technical compatibility concern. We don't really know the criteria yet.
+- Carth is now an equal opportunity complainer when it comes to exploding swoop bikes
 - Mandalorian armor has several issues: [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174)
 - Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
 - Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
