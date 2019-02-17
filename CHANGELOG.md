@@ -43,6 +43,7 @@
 * Added improved commoner clothes textures (variants 01 and 07) ported from TSL
 * Added a fix for Calo's Rodian prey in the Taris Undercity Apartments not properly drawing their weapons
 * Added a fix for one of the Sith female NPCs on the Leviathan bridge having a drawn blaster during a cutscene
+* Added an interjection for Carth in the pre-swoop race scene for the Beks to match his one in the Vulkar version
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
