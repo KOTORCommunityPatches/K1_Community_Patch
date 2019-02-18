@@ -14,7 +14,10 @@
 	The latest revision also adds checks for whether the front door of the
 	estate is opened and/or unlocked, closing/locking as appropriate.
 	
-	DP 2019-02-05                                                             */
+	Updated further to prevent a potential (literal) lockout if the player
+	upsets Rahasia and exits the estate.
+	
+	DP 2019-02-18                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 // Globals
@@ -271,13 +274,12 @@ void main() {
 	//
 	if (GetIsOpen(oSanDoor))
 		{
-			//YavinHackCloseDoor(oSanDoor);
 			AssignCommand(oSanDoor,ActionCloseDoor(oSanDoor));
 		}
 	//
-	// Locking the front door if the player has previously entered and spoken to Nurik and it is currently unlocked
+	// Locking the front door if the player has previously entered and spoken to Nurik, didn't piss off Rahasia, and it is currently unlocked
 	//
-	if ((GetGlobalBoolean("DAN_SAND_REFUSE") == TRUE) && (GetLocked(oSanDoor) == FALSE))
+	if ((GetGlobalBoolean("DAN_SAND_REFUSE") == TRUE) && (GetGlobalBoolean("DAN_HATE_DONE") == FALSE)) && (GetLocked(oSanDoor) == FALSE))
 		{
 			AssignCommand(oSanDoor, SetLocked(oSanDoor, TRUE));
 		}
