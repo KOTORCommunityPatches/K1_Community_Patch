@@ -279,7 +279,7 @@ void main() {
 	//
 	// Locking the front door if the player has previously entered and spoken to Nurik, didn't piss off Rahasia, and it is currently unlocked
 	//
-	if ((GetGlobalBoolean("DAN_SAND_REFUSE") == TRUE) && (GetGlobalBoolean("DAN_HATE_DONE") == FALSE)) && (GetLocked(oSanDoor) == FALSE))
+	if ((GetGlobalBoolean("DAN_SAND_REFUSE") == TRUE) && (GetGlobalBoolean("DAN_HATE_DONE") == FALSE) && (GetLocked(oSanDoor) == FALSE))
 		{
 			AssignCommand(oSanDoor, SetLocked(oSanDoor, TRUE));
 		}
