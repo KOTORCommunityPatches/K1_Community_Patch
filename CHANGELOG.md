@@ -44,6 +44,8 @@
 * Added a fix for Calo's Rodian prey in the Taris Undercity Apartments not properly drawing their weapons
 * Added a fix for one of the Sith female NPCs on the Leviathan bridge having a drawn blaster during a cutscene
 * Added an interjection for Carth in the pre-swoop race scene for the Beks to match his one in the Vulkar version
+* Added a creature-based replacement for the corpse in the Dantooine Murder Mystery quest for improved visual quality
+* Added/edited scripts in the Dantooine Murder Mystery quest to have Handon appear injured and for NPCs to exit when appropriate, plus removed some extraneous fades to black
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
