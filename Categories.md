@@ -91,6 +91,7 @@ Things in this category are intended to enhance the game experience. This might 
 - Calo Nord has different inventories and stats on different planets
 - Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
 - Dune sea miners on Tatooine aren't wearing Czerka gear (Reported by Mr Ardvark)
+- Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only)
 - Helena wears Jedi robes instead of regular clothes
 - Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 - Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
@@ -104,6 +105,7 @@ Things in this category are intended to enhance the game experience. This might 
 - Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings 1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
 - Shaardan attacks with a sword (Reported by Mr Ardvark)
 - The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
+- The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot)
 - The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
 - The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 - Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
