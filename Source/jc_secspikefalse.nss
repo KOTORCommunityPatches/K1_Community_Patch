@@ -1,5 +1,0 @@
-int StartingConditional() {
-
-return FALSE;
-
-}
