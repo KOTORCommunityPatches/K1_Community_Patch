@@ -128,7 +128,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Xor refused to show up for the second encounter unless the player used the rapid transit system [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
 * The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
 * The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
-* During the encounter in the grove on Dantooine, Juhani used a red lightsaber. It didn’t make sense that she would have the time to or care to change the color and back again, so it’s been changed to blue.
 * Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
 
 ### Kainzorus Prime:
