@@ -45,6 +45,8 @@
 * Added an interjection for Carth in the pre-swoop race scene for the Beks to match his one in the Vulkar version
 * Added a creature-based replacement for the corpse in the Dantooine Murder Mystery quest for improved visual quality
 * Added/edited scripts in the Dantooine Murder Mystery quest to have Handon appear injured and for NPCs to exit when appropriate, plus removed some extraneous fades to black
+* Changed Juhani's lightsaber in the grove to blue
+* Added melee proficiency and/or weapons for some Duros on Dantooine that were lacking them
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

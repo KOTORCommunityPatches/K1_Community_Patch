@@ -79,6 +79,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Yuthura only attacks with one of her lightsabers
 - Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings 1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
 - The end credits don't scale to screen resolution during the Dark Side ending
+- Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
 
 # Tier 2
 ## Atmospheric/Lore/Logical Changes
@@ -103,6 +104,7 @@ The issues these address aren't exactly problems, but they still bothered people
 - The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 - Vrook and Zhar wear the wrong color robes: [Vrook and Zhar Fix 1.0](http://deadlystream.com/forum/files/file/896-vrook-and-zhar-fix/)
 - The guards at the Korriban academy are all officers instead of soldiers (part of the Sith Soldier Texture Restoration)
+- During the encounter in the grove on Dantooine, Juhani used a red lightsaber. It didn’t make sense that she would have the time to or care to change the color and back again, so it’s been changed to blue.
 
 ## Annoyance Fixes
 These things annoyed players.
