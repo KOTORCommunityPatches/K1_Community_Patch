@@ -47,6 +47,8 @@
 * Added/edited scripts in the Dantooine Murder Mystery quest to have Handon appear injured and for NPCs to exit when appropriate, plus removed some extraneous fades to black
 * Added melee proficiency and/or weapons for some Duros on Dantooine that were lacking them
 * Added a fix for the blade of Bacca's sword not being properly removed from the player's inventory when giving it to Freyyr in the Lower Shadowlands
+* Switched the appearance for guards in the Sith Academy on Korriban to Sith Soldiers rather than Sith Officers
+* Increased the walking speed of the diving suit on Manaan and the space suit on the Leviathan
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
