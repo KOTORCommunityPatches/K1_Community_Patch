@@ -1,5 +1,4 @@
 # KOTOR 1 Community Patch
-**Previous Release: [v1.7](https://deadlystream.com/files/file/1258-kotor-1-community-patch/)**
 
 **Maintainer: A Future Pilot**
 
@@ -9,7 +8,11 @@
 
 Original Release Date: 2018/04/17
 
-Current Version Release Date: TBA
+Current Version: v1.8
+
+Release Date: TBA
+
+Previous Release: [v1.7](https://deadlystream.com/files/file/1258-kotor-1-community-patch/)
 
 ## 1. Description:
 This mod is a compilation of various bugfix mods (as well as a few original fixes) put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who created these mods, and gave me permission to include them in this patch.
