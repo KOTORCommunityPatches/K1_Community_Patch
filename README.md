@@ -1,5 +1,5 @@
 # KOTOR 1 Community Patch
-**Most Recent Release: [v1.7](https://deadlystream.com/files/file/1258-kotor-1-community-patch/)**
+**Previous Release: [v1.7](https://deadlystream.com/files/file/1258-kotor-1-community-patch/)**
 
 **Maintainer: A Future Pilot**
 
