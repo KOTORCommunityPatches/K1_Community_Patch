@@ -31,6 +31,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ## 4. List of included mods and fixes (alphabetical by author):
 ### A Future Pilot:
+* Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
 * Respawn tach gland in chest on Kashyyk if player has received quest from Griff
 * Juhani wouldn't spawn in the post-Leviathan scene (Fix found by Kexikus, implemented by AFP)
 * Griff sometimes wouldn't spawn in the Sand People Enclave
@@ -48,7 +49,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Several droids in Davik's Estate have the wrong sound set
 * Calo Nord has different inventories and stats on different planets
 * Yuthura only attacks with one of her lightsabers
-* Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
+* Guards in the Sith Academy used the Sith Officer appearance instead of Sith Soldiers
+* Movement in the diving and space suits was extremely slow
 
 ### blennus:
 * The XP reward for delivering the box to Motta the Hutt was incorrect: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
