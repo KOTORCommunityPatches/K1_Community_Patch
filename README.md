@@ -78,11 +78,28 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Mandalorian armor has several issues: [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174)
  
 ### DarthParametric:
+* Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only) [ISSUE #38](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38)
 * Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
 * The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Collar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
 * There are missing lightmaps in the entrance of the Taris Upper City cantina: [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
 * Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
+* A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
+* A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar) [ISSUE #35](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/35)
+* A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar) [ISSUE #36](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/36)
+* Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar) [ISSUE #34](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/34)
+* Carth is now an equal opportunity complainer when it comes to exploding swoop bikes [ISSUE #28](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/28)
+* Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
+* One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
+* Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
+* Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
+* The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
+* The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
+* The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
+* The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
+* The training montage on Dantooine had a number of minor issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
+* Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
+* Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris
 * Helena wears Jedi robes instead of regular clothes
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
@@ -94,23 +111,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The male player head PMHC01 has some deformation issues along the jawline
 * There is an inaccessible container in The One's compound
 * Trandoshans lack a functioning soundset
-* A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
-* A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar) [ISSUE #35](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/35)
-* A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar) [ISSUE #36](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/36)
-* Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar) [ISSUE #34](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/34)
-* Carth is now an equal opportunity complainer when it comes to exploding swoop bikes [ISSUE #28](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/28)
-* Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
-* Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only) [ISSUE #38](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38)
-* One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
-* Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
-* Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
-* The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
-* The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
-* The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
-* The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
-* The training montage on Dantooine had a number of minor issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
-* Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
-* Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 
 ### jc2:
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
