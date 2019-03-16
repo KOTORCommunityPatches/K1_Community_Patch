@@ -89,6 +89,7 @@ The issues these address aren't exactly problems, but they still bothered people
 - Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
 - Dune sea miners on Tatooine aren't wearing Czerka gear (Reported by Mr Ardvark)
 - During the encounter in the grove on Dantooine, Juhani used a red lightsaber. It didn’t make sense that she would have the time to or care to change the color and back again, so it’s been changed to blue.
+- Guards in the Sith Academy used the Sith Officer appearance instead of Sith Soldiers
 - Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only)
 - Helena wears Jedi robes instead of regular clothes
 - Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
@@ -109,7 +110,7 @@ The issues these address aren't exactly problems, but they still bothered people
 
 ## Annoyance Fixes
 These things annoyed players.
-- Faster Scuba
+- Movement in the diving and space suits was extremely slow
 - The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 
 # Tier 3
