@@ -3,7 +3,7 @@
 
 	k_pdan_casus01_2
 	
-	Reward for turning in the diary to the Sandral droid instead of Nurik.\
+	Reward for turning in the diary to the Sandral droid instead of Nurik.
 	
 	Corrects the reward amount.
 	

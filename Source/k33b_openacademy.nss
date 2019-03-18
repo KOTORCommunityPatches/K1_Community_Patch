@@ -3,7 +3,8 @@
 	
 	k33b_openacademy
 	
-	OnEnter script for korr_m33ab.
+	OnEnter script for korr_m33ab (Sith Academy Entrance).
+	
 	Fixes an issue with Xor refusing to appear unless the rapid transit system
 	was used. This fix is attached to every module adjacent to a spaceport, so
 	when the player exits any spaceport the encounter will be set to begin when

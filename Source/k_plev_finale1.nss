@@ -1,3 +1,15 @@
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+	Fired during the Revalation scene on the Leviathan.
+	
+	Original script edit from KOTOR Bug Fix Attempt by danil-ch.
+	
+	Adds a grunt for Malak during the scene.
+	
+	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
+
 void main() {
 	object oBastila = GetObjectByTag("bastila", 0);
 	object oDarthmalak400 = GetObjectByTag("darthmalak400", 0);

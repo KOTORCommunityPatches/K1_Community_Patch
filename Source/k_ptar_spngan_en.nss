@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+	Fired by a trigger in tar_m02ac (Upper City South).
+	
+	A script edit by AFP to make sure Gana Levin has a bark bubble.
+	
+	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
+
 int CheckBoolean(object oTrigger) {
   if(GetIsObjectValid(oTrigger)) {
     int iLocalBool = GetLocalBoolean(oTrigger, 10);

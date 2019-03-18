@@ -1,3 +1,17 @@
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+    Script edit by Kexikus.
+	
+    Fixed trigger. Prievously the conversation would only be started the first
+	time you see Xor even if Juhani is not in the party. Coming back later with
+	her in the party would no longer start the conversation, thus preventing any
+	progress.
+
+	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
+
+
 // Globals
 	int intGLOB_1 = 0;
 	int intGLOB_2 = 1;
@@ -56,8 +70,7 @@ void main() {
 	location location3 = GetLocation(GetObjectByTag("kas_xor2_spawn", 0));
 	location location5 = GetLocation(GetObjectByTag("kas_xor3_spawn", 0));
 	int nGlobal = GetGlobalNumber("K_XOR_AMBUSH");
-  // DSJ: Fixed trigger. Prievously the conversation would only be started the first time you see Xor even if Juhani is not in the party. 
-  //      Coming back later with her in the party would no longer start the conversation, thus preventing any progress.
+
   if (nGlobal == 1) {
     if (sub1(OBJECT_SELF) == 0) {
       sub2(OBJECT_SELF, 1);
@@ -69,4 +82,3 @@ void main() {
   }
 
 }
-

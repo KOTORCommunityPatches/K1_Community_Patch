@@ -1,3 +1,14 @@
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+	Fired during the final showdown in korr_m39aa (Tomb of Naga Sadow).
+	
+	Fix by AFP that makes sure Yuthura uses both of her weapons rather than
+	just one.
+	
+	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
+
 struct structtype1 {
 	int int1;
 	int int3;

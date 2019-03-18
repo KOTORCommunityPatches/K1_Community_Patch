@@ -1,9 +1,15 @@
-//:: k_def_death01
-/*
-    Default On Death Script
-*/
-//:: Created By: Preston Watamaniuk
-//:: Copyright (c) 2002 Bioware Corp.
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+	An edited OnDeath script for Jagi.
+	
+	Original script edit by LiliArch.
+	
+	Adds an event signal to Jagi's OnUserDefine (k_ptat_jagi02) in order to
+	update the quest once he dies.
+	
+	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_switch"
 #include "k_inc_debug"

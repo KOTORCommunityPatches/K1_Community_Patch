@@ -1,17 +1,17 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 
+	Fired by kas25_xbeast_01.dlg in kas_m25aa (Lower Shadowlands).
+
 	Originally from The Comprehensive KOTOR Bug Fix Collection by blennus
-	
-	Fired by kas25_xbeast_01.dlg
-		
+
 	This script is an alteration of the vanilla script that fires if you
 	kill the Great Beast in the Kashyyyk Lower Shadowlands after having
 	completed the main quest on the planet and taken the Dark Side route,
 	siding with Chuundar. The vanilla version of the script only removes
 	the blade from the player's inventory, not the hilt.
 	
-	DP 2019-03-16                                                             */
+	2019-03-18                                                                */
 ////////////////////////////////////////////////////////////////////////////////
 
 void main() {

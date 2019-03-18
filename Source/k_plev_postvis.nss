@@ -1,3 +1,15 @@
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+	Fired during the Revalation scene on the Leviathan.
+	
+	Original script edit from KOTOR Bug Fix Attempt by danil-ch.
+	
+	Prevents sabers from being powered down during the cutscene.
+	
+	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
+
 void sub1(object objectParam1, location locationParam2) {
 	if ((!GetIsObjectValid(objectParam1))) {
 		return;
@@ -25,4 +37,3 @@ void main() {
 	object oDarthMalak400 = GetObjectByTag("DarthMalak400", 0);
 	SetLightsaberPowered(GetObjectByTag("DarthMalak400", 0), 1, 1, 0);
 }
-

@@ -3,7 +3,8 @@
 	
 	cp_m22ab_en
 	
-	OnEnter script for kas_m22ab.
+	OnEnter script for kas_m22ab (The Great Walkway).
+	
 	Fixes an issue with Xor refusing to appear unless the rapid transit system
 	was used. This fix is attached to every module adjacent to a spaceport, so
 	when the player exits any spaceport the encounter will be set to begin when

@@ -1,4 +1,14 @@
-// DSJ: Fixed an issue where the personal part of Juhanis conversation would be locked by progressing too fast in the history part by changing the G_JUHANIH_STATE check from "== 3" to ">= 3".
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+    Script edit by Kexikus.
+	
+	Fixed an issue where the personal part of Juhanis conversation
+	would be locked by progressing too fast in the history part by changing
+	the G_JUHANIH_STATE check from "== 3" to ">= 3".
+
+	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
 
 int StartingConditional()
 {

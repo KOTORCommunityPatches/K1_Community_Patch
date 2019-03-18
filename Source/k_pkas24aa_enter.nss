@@ -1,3 +1,15 @@
+////////////////////////////////////////////////////////////////////////////////
+/*	KOTOR Community Patch
+	
+	This is the OnEnter script for kas_m24aa (Upper Shadowlands).
+	
+	A fix by AFP for the player potentially missing out on getting a Tach
+	gland for Griff's quest if the Czerka bin containing it had previously
+	been looted.
+	
+	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
+
 // Globals
 	int intGLOB_1 = 0;
 	int intGLOB_2 = 1;
@@ -289,4 +301,3 @@ void main() {
 
   DelayCommand(1.0, TachFix());
 }
-
