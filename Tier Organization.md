@@ -88,7 +88,6 @@ The issues these address aren't exactly problems, but they still bothered people
 - Carth is now an equal opportunity complainer when it comes to exploding swoop bikes
 - Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
 - Dune sea miners on Tatooine aren't wearing Czerka gear (Reported by Mr Ardvark)
-- During the encounter in the grove on Dantooine, Juhani used a red lightsaber. It didn’t make sense that she would have the time to or care to change the color and back again, so it’s been changed to blue.
 - Guards in the Sith Academy used the Sith Officer appearance instead of Sith Soldiers
 - Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only)
 - Helena wears Jedi robes instead of regular clothes
