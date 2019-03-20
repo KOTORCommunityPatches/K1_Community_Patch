@@ -135,6 +135,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
 * The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
 * Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
+* Several aliens were very low-quality: [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
