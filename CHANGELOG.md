@@ -50,6 +50,7 @@
 * Switched the appearance for guards in the Sith Academy on Korriban to Sith Soldiers rather than Sith Officers
 * Increased the walking speed of the diving suit on Manaan and the space suit on the Leviathan
 * Added JC's Dense Aliens
+* Added a fix for War Droid racetex variants having their blaster texture overridden by the body texture by swapping out integrated blaster mesh for external reference
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
