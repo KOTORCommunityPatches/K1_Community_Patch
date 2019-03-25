@@ -65,6 +65,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Sith Apprentices have their soundsets mismatched: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Sometimes the wrong dialog would play during the Leviathan torture scene: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * On board the Yavin Station, when the Trandoshans appear for the first time, some of the dialog options sometimes causes you to be kicked out of the dialog: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* When entering Deshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 
 ### danil-ch:
 * Some DS responses were unavailable in k_hcar_dialog.dlg: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
