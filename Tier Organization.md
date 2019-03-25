@@ -5,7 +5,6 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 - A line in k_hjuh_dialog.dlg was inaccessible: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Bacca's Blade Hilt script would sometimes not allow you to receive it: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Canderous's personal quest is bugged
-- Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
 - Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
 - Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
 - Griff sometimes wouldn't spawn in the Sand People Enclave
@@ -31,7 +30,6 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 - The second Xor encounter is unavailable on Tatooine
 - The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in the party
 - The XP reward for delivering the box to Motta the Hutt was incorrect: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-- There is an inaccessible container in The One's compound
 - Xor refused to show up for the second encounter unless the player used the rapid transit system [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
 
 ## Developer Oversight
@@ -46,6 +44,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Belaya attacks with her fists (Reported by Mr Ardvark)
 - Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar)
+- Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
 - Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
 - Elora confesses to Sunry's infidelity automatically if you have Jolee or Bastila in your party: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Energy shields don't block electricity: [Energy Shield Damage Fix](http://deadlystream.com/forum/files/file/548-energy-shield-damage-fix/)
@@ -75,12 +74,14 @@ These are fixes for other issues that were likely unintended. They don't break t
 - The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 - The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
+- There is an inaccessible container in The One's compound
 - Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 - Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
 - Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 - Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 - War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
+- When entering Deshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Yuthura only attacks with one of her lightsabers
 
