@@ -95,7 +95,7 @@ The issues these address aren't exactly problems, but they still bothered people
 - Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only)
 - Helena wears Jedi robes instead of regular clothes
 - Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
-- Jagi wears regular clothes instead of proper armour, and employs Rodian thugs instead of fellow Mandos [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
+- Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
 - Kandon Ark doesn't wear his military suit: [Kandon Ark Fix 1.0](http://deadlystream.com/forum/files/file/1026-kandon-ark-fix/)
 - Many Sith Troopers or Officers had the wrong appearance
 - Queedle is the wrong race considering several different pieces of dialog: [Queedle Fix 1.0](https://deadlystream.com/files/file/1267-queedle-fix/)
