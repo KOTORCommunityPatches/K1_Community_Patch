@@ -1,24 +1,20 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
+
+	Hijacked OnEnter script for manm26ac (West Central).
 	
-	k_pman_locked03
+	The vanilla OnEnter is not able to be decompiled by DeNCS, so the required
+	fixes for the Xor quest are handled before firing the renamed original.
 	
-	OnEnter script for manm26ac.
-	Fixes an issue with Xor refusing to appear unless the rapid transit system
-	was used. This fix is attached to every module adjacent to a spaceport, so
-	when the player exits any spaceport the encounter will be set to begin when
-	they return, via rapid transit or otherwise.
-	
-	JC 2019-04-13                                                             */
+	JC 2019-03-18                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 void main() {
 
-// Execute original script
-ExecuteScript("cp_m26ac_en", OBJECT_SELF, -1);
+// Execute original OnEnter script
+	ExecuteScript("cp_m26ac_en", OBJECT_SELF, (-1));
 // If the first Xor encounter is done, make him appear for the second one
-if( GetGlobalBoolean("K_MESS_JUHANI") == TRUE ) {
-	if( GetGlobalNumber("K_XOR_AMBUSH") < 1 ) SetGlobalNumber("K_XOR_AMBUSH", 1);
+	if ((GetGlobalBoolean("K_MESS_JUHANI") == 1)) {
+		SetGlobalNumber("K_XOR_AMBUSH", 1);
 	}
-	
 }
