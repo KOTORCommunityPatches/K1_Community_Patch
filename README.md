@@ -127,7 +127,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### JCarter426:
 * The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Several textures were missing shader data: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-* Sith fighter laser were the wrong color: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* Sith fighter lasers were the wrong color: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
@@ -140,6 +140,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
 * Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
 * Several aliens were very low-quality: [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
+* The player was briefly visible before the game was supposed to actually start
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)

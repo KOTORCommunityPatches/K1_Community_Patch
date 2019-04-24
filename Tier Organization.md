@@ -84,6 +84,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - When entering Deshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Yuthura only attacks with one of her lightsabers
+- The player was briefly visible before the game was supposed to actually start
 
 # Tier 2
 ## Atmospheric/Lore/Logical Changes
