@@ -141,6 +141,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
 * Several aliens were very low-quality: [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
 * The player was briefly visible before the game was supposed to actually start
+* •	Dia was a member of the attacking with fists club, despite threatening to cut the player (reported by DarthParametric)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)

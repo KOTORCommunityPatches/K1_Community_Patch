@@ -54,6 +54,7 @@
 * Added a fix for a non-functional trigger script for the Sharina conversation on Tatooine
 * Changed Jagi to wear armour instead of clothes, swapped out his Rodian goons for Mando warriors, and address some dialogue facing issues
 * Fixed the fade in at the start of the game so the player wouldn't be visible before they were meant to be
+* Made Dia equip her melee weapon before attacking
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
