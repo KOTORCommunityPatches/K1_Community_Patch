@@ -56,6 +56,7 @@
 * Fixed the fade in at the start of the game so the player wouldn't be visible before they were meant to be
 * Made Dia equip her melee weapon before attacking
 * Made the slave girl in Davik's estate that's supposed to run away run away
+* Fixed the raidii of the gas vents in Davik's estate
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

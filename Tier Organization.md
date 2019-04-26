@@ -85,6 +85,8 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Yuthura only attacks with one of her lightsabers
 - The player was briefly visible before the game was supposed to actually start
+- A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)
+- Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar)
 
 # Tier 2
 ## Atmospheric/Lore/Logical Changes

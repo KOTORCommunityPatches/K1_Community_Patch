@@ -143,6 +143,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The player was briefly visible before the game was supposed to actually start
 * Dia was a member of the attacking with fists club, despite threatening to cut the player (reported by DarthParametric)
 * A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)
+* Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
