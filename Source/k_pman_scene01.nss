@@ -258,6 +258,8 @@ void subMove(object oPM, location lLoc) {
 
 void main() {
 
+// Fire cutscene if we've finished and left the Sandral estate
+if (((GetIsPC(GetEnteringObject()) && GetGlobalBoolean("DAN_LEAVE_DONE")) && sub1())) {
 	location lPC = Location(Vector(333.0,151.0,56.164), 90.0);
 	location lPM1 = Location(Vector(331.0,152.25,56.164), 90.0);
 	location lPM2 = Location(Vector(331.0,153.5,56.164), 90.0);
@@ -289,4 +291,6 @@ void main() {
 	
 	// Start cutscene
 	AssignCommand(GetObjectByTag("dan14_cutscene01", 0), ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", ""));
+	}
+
 }
