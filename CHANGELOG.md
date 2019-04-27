@@ -65,6 +65,7 @@
 * Changed the appearance of one of the Taris Upper City Cantina patrons that had an identical twin standing just a few meters away
 * Made an attempt to get Carth to stop looking longingly at the PC for 30 seconds and face Mission while talking to her in the Undercity
 * Tweaked some geometry in the Manaan cantina level model to patch some gaps
+* Adjusted Canderous' dialogue in the Lower City cantina to prevent him from repeating lines if talk to him again after keeping him waiting
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

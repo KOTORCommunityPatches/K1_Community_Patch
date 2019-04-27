@@ -59,7 +59,6 @@ These are fixes for other issues that were likely unintended. They don't break t
 - It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 - Malak's grunt sound didn't play in the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Mission has no clothing on when you meet Griff at the spaceport without her in your party
-- Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
 - On the Star Forge, the wrong speaker said the "You are wasting your time..." line: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar)
 - Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar)
@@ -75,7 +74,6 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
 - Some NPCs have wrong or missing sounds in their soundsets
 - Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-- The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 - The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 - The end credits don't scale to screen resolution during the Dark Side ending
 - The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
@@ -84,14 +82,12 @@ These are fixes for other issues that were likely unintended. They don't break t
 - The player was briefly visible before the game was supposed to actually start
 - The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 - The Sandpeople Storyteller had an incorrect soundset (reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
-- There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 - There is an inaccessible container in The One's compound
 - Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 - Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
 - Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 - Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-- War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
 - When entering Deshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Yuthura only attacks with one of her lightsabers
@@ -119,6 +115,7 @@ The issues these address aren't exactly problems, but they still bothered people
 - The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot)
 - The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 - The guards at the Korriban academy are all officers instead of soldiers (part of the Sith Soldier Texture Restoration)
+- There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 - Vrook and Zhar wear the wrong color robes: [Vrook and Zhar Fix 1.0](http://deadlystream.com/forum/files/file/896-vrook-and-zhar-fix/)
 - Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
 
@@ -126,6 +123,7 @@ The issues these address aren't exactly problems, but they still bothered people
 These things annoyed players.
 - Movement in the diving and space suits was extremely slow
 - The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+- Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
 
 # Tier 3
 ## Visual Improvements
@@ -134,7 +132,9 @@ Sometimes the game assets aren't great. These changes correct problems with them
 - Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 - Mandalorian armor has several issues (inspired by [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174))
 - Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
+- Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
 - Republic Soldier Fixes
+- The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 - The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Colar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
 - The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
 - The Council on Dantooine float a few inches off the ground
@@ -145,6 +145,7 @@ Sometimes the game assets aren't great. These changes correct problems with them
 - The training montage on Dantooine had a number of minor issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 - The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 - There are missing lightmaps in the entrance of the Taris Upper City cantina: [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
+- War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
 
 ## Ported Content
 Everything here involves content ported from another game.

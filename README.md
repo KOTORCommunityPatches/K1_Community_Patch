@@ -146,6 +146,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar) [ISSUE #49](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/49)
 * Xor refused to show up for the second encounter unless the player used the rapid transit system (and thanks to Salk for a second opinion) [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
 * A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)
+* Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
 * Dia was a member of the attacking with fists club, despite threatening to cut the player (reported by DarthParametric)
 * Several aliens were very low-quality: [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
 * Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
