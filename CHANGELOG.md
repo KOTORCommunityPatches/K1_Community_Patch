@@ -63,6 +63,7 @@
 * Fixed and incorrect soundset for the Sandpeople Storyteller
 * Changed the clothes variation the three drunks in Taris Upper City North wear and tweaked the DLG to reduce facing issues
 * Changed the appearance of one of the Taris Upper City Cantina patrons that had an identical twin standing just a few meters away
+* Made an attempt to get Carth to stop looking longingly at the PC for 30 seconds and face Mission while talking to her in the Undercity
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

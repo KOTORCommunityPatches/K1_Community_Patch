@@ -94,6 +94,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar) [ISSUE #35](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/35)
 * A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar) [ISSUE #36](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/36)
 * Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar) [ISSUE #34](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/34)
+* Carth has some facing issues talking to Mission in the Undercity [ISSUE #67](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/67)
 * Carth is now an equal opportunity complainer when it comes to exploding swoop bikes [ISSUE #28](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/28)
 * Companion interjections in Canderous' conversation in the Upper City Cantina had facing issues [ISSUE #75](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/75)
 * Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)

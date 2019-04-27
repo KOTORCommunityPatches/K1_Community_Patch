@@ -45,6 +45,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Belaya attacks with her fists (Reported by Mr Ardvark)
 - Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar)
+- Carth has some facing issues talking to Mission in the Undercity [ISSUE #67](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/67)
 - Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
 - Companion interjections in Canderous' conversation in the Upper City Cantina had facing issues [ISSUE #75](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/75)
 - Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)
