@@ -58,6 +58,7 @@
 * Made the slave girl in Davik's estate that's supposed to run away run away
 * Fixed the raidii of the gas vents in Davik's estate
 * Forcibly set the camera angle for a line of dialogue by the janitor in the Taris Upper City South Apartments to fix a line being spoken off-screen
+* Forcibly set the camera angle for a line of dialogue by the Bastila in the Zelka Forn conversation (Taris Upper City South) to fix a line being spoken off-screen
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
