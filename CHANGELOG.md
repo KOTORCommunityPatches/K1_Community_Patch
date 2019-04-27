@@ -61,6 +61,7 @@
 * Forcibly set the camera angle for a line of dialogue by the Bastila in the Zelka Forn conversation (Taris Upper City South) to fix a line being spoken off-screen
 * Fixed some companion facing issues during Canderous' recruitment conversation in the Taris Upper City Cantina
 * Fixed and incorrect soundset for the Sandpeople Storyteller
+* Changed the clothes variation the three drunks in Taris Upper City North wear and tweaked the DLG to reduce facing issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
