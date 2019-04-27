@@ -56,6 +56,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - First lightsaber crystal uses wrong icon: [First Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/898-first-lightsaber-crystal-fix/)
 - Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
 - Fixed the height of the workbench on Dantooine
+- Fixed the position of the strongbox in the Taris Lower City apartments (reported by DarthParametric)
 - Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
 - Gana Lavin's appearance changes and her text dialog doesn't appear
 - If the prisoner in the Sith Academy was interrogated multiple times rapidly, the animation would loop for a long time: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
