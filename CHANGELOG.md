@@ -62,6 +62,7 @@
 * Fixed some companion facing issues during Canderous' recruitment conversation in the Taris Upper City Cantina
 * Fixed and incorrect soundset for the Sandpeople Storyteller
 * Changed the clothes variation the three drunks in Taris Upper City North wear and tweaked the DLG to reduce facing issues
+* Changed the appearance of one of the Taris Upper City Cantina patrons that had an identical twin standing just a few meters away
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
