@@ -60,6 +60,7 @@
 * Forcibly set the camera angle for a line of dialogue by the janitor in the Taris Upper City South Apartments to fix a line being spoken off-screen
 * Forcibly set the camera angle for a line of dialogue by the Bastila in the Zelka Forn conversation (Taris Upper City South) to fix a line being spoken off-screen
 * Fixed some companion facing issues during Canderous' recruitment conversation in the Taris Upper City Cantina
+* Fixed and incorrect soundset for the Sandpeople Storyteller
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

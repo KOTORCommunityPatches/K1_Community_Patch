@@ -36,6 +36,7 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 These are fixes for other issues that were likely unintended. They don't break the game, but they are obvious things to fix.
 - A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 - A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar)
+- A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)
 - A stray blaster appears in the middle of a hallway in the Sith Base on Taris
 - Bacca's Blade Hilt was never removed from your inventory: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Bastila and Carth were positioned wrong after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
@@ -60,6 +61,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
 - On the Star Forge, the wrong speaker said the "You are wasting your time..." line: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar)
+- Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar)
 - Several camera angles on the Star Forge were inconsistent:  [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Several droids in Davik's Estate have the wrong sound set
 - Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
@@ -76,7 +78,9 @@ These are fixes for other issues that were likely unintended. They don't break t
 - The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 - The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 - The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+- The player was briefly visible before the game was supposed to actually start
 - The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
+- The Sandpeople Storyteller had an incorrect soundset (reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 - There is an inaccessible container in The One's compound
 - Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 - Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
@@ -87,9 +91,6 @@ These are fixes for other issues that were likely unintended. They don't break t
 - When entering Deshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 - Yuthura only attacks with one of her lightsabers
-- The player was briefly visible before the game was supposed to actually start
-- A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)
-- Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar)
 
 # Tier 2
 ## Atmospheric/Lore/Logical Changes
