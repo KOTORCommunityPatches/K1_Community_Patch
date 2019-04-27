@@ -69,6 +69,7 @@
 * Repositioned two invisible placeables for security terminals in the Taris Sith Base to a more suitable height
 * Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
 * Fixed the height of the workbench on Dantooine
+* Raised the height of the invisible placeable for the Garage Head's desk in the Vulkar base
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
