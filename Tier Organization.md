@@ -34,6 +34,7 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 
 ## Developer Oversight
 These are fixes for other issues that were likely unintended. They don't break the game, but they are obvious things to fix.
+- A couple of selection icons for security terminals in the Taris Sith Base are positioned too low [ISSUE #58](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/58)
 - A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 - A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar)
 - A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)

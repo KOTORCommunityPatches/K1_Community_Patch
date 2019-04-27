@@ -66,6 +66,7 @@
 * Made an attempt to get Carth to stop looking longingly at the PC for 30 seconds and face Mission while talking to her in the Undercity
 * Tweaked some geometry in the Manaan cantina level model to patch some gaps
 * Adjusted Canderous' dialogue in the Lower City cantina to prevent him from repeating lines if talk to him again after keeping him waiting
+* Repositioned two invisible placeables for security terminals in the Taris Sith Base to a more suitable height
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
