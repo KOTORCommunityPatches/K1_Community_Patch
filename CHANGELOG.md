@@ -67,6 +67,8 @@
 * Tweaked some geometry in the Manaan cantina level model to patch some gaps
 * Adjusted Canderous' dialogue in the Lower City cantina to prevent him from repeating lines if talk to him again after keeping him waiting
 * Repositioned two invisible placeables for security terminals in the Taris Sith Base to a more suitable height
+* Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
+* Fixed the height of the workbench on Dantooine
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
