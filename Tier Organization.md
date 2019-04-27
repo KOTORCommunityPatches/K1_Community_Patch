@@ -45,6 +45,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar)
 - Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
+- Companion interjections in Canderous' conversation in the Upper City Cantina had facing issues [ISSUE #75](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/75)
 - Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)
 - Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
 - Elora confesses to Sunry's infidelity automatically if you have Jolee or Bastila in your party: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
