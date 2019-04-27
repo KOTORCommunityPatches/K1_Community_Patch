@@ -72,6 +72,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 - The end credits don't scale to screen resolution during the Dark Side ending
 - The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
+- The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 - The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 - There is an inaccessible container in The One's compound
