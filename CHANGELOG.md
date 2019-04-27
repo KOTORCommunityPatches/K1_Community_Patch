@@ -71,6 +71,7 @@
 * Fixed the height of the workbench on Dantooine
 * Raised the height of the invisible placeable for the Garage Head's desk in the Vulkar base
 * Fixed the position of the strongbox in the Taris Lower City apartments
+* Changed Bolook's skin color from orange to green on account of VO saying so
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

@@ -123,6 +123,7 @@ The issues these address aren't exactly problems, but they still bothered people
 - There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 - Vrook and Zhar wear the wrong color robes: [Vrook and Zhar Fix 1.0](http://deadlystream.com/forum/files/file/896-vrook-and-zhar-fix/)
 - Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
+- Bolook was orange even though voiced dialogue says he's green (reported by DarthParametric)
 
 ## Annoyance Fixes
 These things annoyed players.
