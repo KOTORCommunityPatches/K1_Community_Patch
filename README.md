@@ -104,6 +104,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
+* The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The training montage on Dantooine had a number of minor issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
@@ -125,25 +126,25 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 
 ### JCarter426:
-* The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Several textures were missing shader data: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Sith fighter lasers were the wrong color: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
-* Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
 * Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
-* Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised (with insight provided by Salk & A Future Pilot) [ISSUE #6](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/6)
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
+* Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
+* Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised (with insight provided by Salk & A Future Pilot) [ISSUE #6](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/6)
+* Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar) [ISSUE #49](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/49)
 * Xor refused to show up for the second encounter unless the player used the rapid transit system (and thanks to Salk for a second opinion) [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
+* A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)
+* Dia was a member of the attacking with fists club, despite threatening to cut the player (reported by DarthParametric)
+* Several aliens were very low-quality: [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
+* Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
 * The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
 * The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
-* Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
-* Several aliens were very low-quality: [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
 * The player was briefly visible before the game was supposed to actually start
-* Dia was a member of the attacking with fists club, despite threatening to cut the player (reported by DarthParametric)
-* A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)
-* Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
@@ -213,5 +214,6 @@ You may, however, do whatever you want with any of my (A Future Pilot) fixes wit
 * Snigaroo - For maintaining awesome mod lists on the /r/kotor subreddit, and for putting up with my many recommendations
 * danil-ch - For the original info.rtf template
 * Fair Strides - For bundling up his tools and making them available
+* Many thanks to ebmar and Salk for providing numerous bug reports
 
 **THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/OBSIDIAN ENTERTAINMENT OR LUCASARTS OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
