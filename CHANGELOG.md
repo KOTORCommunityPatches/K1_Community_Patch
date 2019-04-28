@@ -72,6 +72,7 @@
 * Raised the height of the invisible placeable for the Garage Head's desk in the Vulkar base
 * Fixed the position of the strongbox in the Taris Lower City apartments
 * Changed Bolook's skin color from orange to green on account of VO saying so
+* After much wailing and gnashing of teeth, finally got Zhar to face the player post-montage, and stop throwing a tantrum afterwards (thanks to JC)
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
