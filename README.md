@@ -163,6 +163,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
 * The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
 * The player was briefly visible before the game was supposed to actually start
+* The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
 * Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
 
 ### Kainzorus Prime:

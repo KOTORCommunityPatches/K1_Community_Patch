@@ -77,6 +77,7 @@
 * Fixed the upper teeth mesh clipping through the cheeks on the male Twi'lek head
 * Brought Ahlan Matale back down to earth during his rant in the Council chambers
 * Adjusted Vandar's dialogue to prevent him from repeating himself if you talk to him again before investigating the ruins
+* Added a trigger for the scene with Vandar after the player completes the trials to prevent positional wonkiness
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
