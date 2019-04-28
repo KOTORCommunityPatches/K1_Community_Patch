@@ -65,7 +65,7 @@
 * Changed the appearance of one of the Taris Upper City Cantina patrons that had an identical twin standing just a few meters away
 * Made an attempt to get Carth to stop looking longingly at the PC for 30 seconds and face Mission while talking to her in the Undercity
 * Tweaked some geometry in the Manaan cantina level model to patch some gaps
-* Adjusted Canderous' dialogue in the Lower City cantina to prevent him from repeating lines if talk to him again after keeping him waiting
+* Adjusted Canderous' dialogue in the Lower City cantina to prevent him from repeating lines if you talk to him again after keeping him waiting
 * Repositioned two invisible placeables for security terminals in the Taris Sith Base to a more suitable height
 * Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
 * Fixed the height of the workbench on Dantooine
@@ -76,6 +76,7 @@
 * Switched the order of the Taris to Dantooine sequence so the landing movie is played before the conversation, and the EH skybox is Dantooine instead of space
 * Fixed the upper teeth mesh clipping through the cheeks on the male Twi'lek head
 * Brought Ahlan Matale back down to earth during his rant in the Council chambers
+* Adjusted Vandar's dialogue to prevent him from repeating himself if you talk to him again before investigating the ruins
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

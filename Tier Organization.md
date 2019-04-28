@@ -134,6 +134,7 @@ These things annoyed players.
 - Movement in the diving and space suits was extremely slow
 - The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 - Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
+- Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
 
 # Tier 3
 ## Visual Improvements
