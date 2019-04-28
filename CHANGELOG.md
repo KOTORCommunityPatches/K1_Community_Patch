@@ -74,6 +74,7 @@
 * Changed Bolook's skin color from orange to green on account of VO saying so
 * After much wailing and gnashing of teeth, finally got Zhar to face the player post-montage, and stop throwing a tantrum afterwards (thanks to JC)
 * Switched the order of the Taris to Dantooine sequence so the landing movie is played before the conversation, and the EH skybox is Dantooine instead of space
+* Fixed the upper teeth mesh clipping through the cheeks on the male Twi'lek head
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

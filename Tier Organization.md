@@ -82,6 +82,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - The end credits don't scale to screen resolution during the Dark Side ending
 - The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 - The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
+- The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 - The order of events in the Taris to Dantooine sequence didn't match what was implied in the conversation: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/) (Partial) [ISSUE #56](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/56)
 - The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - The player was briefly visible before the game was supposed to actually start

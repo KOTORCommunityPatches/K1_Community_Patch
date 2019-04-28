@@ -112,6 +112,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
+* The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The Sandpeople Storyteller had an incorrect soundset (reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The selection icon for the Garage Head's desk in the Vulkar base is positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
