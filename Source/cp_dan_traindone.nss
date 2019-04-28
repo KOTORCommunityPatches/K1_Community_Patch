@@ -61,7 +61,7 @@ if( GetIsObjectValid(oPM2) ) CP_Jump(oPM2, lPM2);
 void main() {
 
 if( GetIsPC(GetEnteringObject()) && GetGlobalNumber("DAN_JEDI_PLOT") == 7 ) {
-	NoClicksFor(0.75);
+	NoClicksFor(1.0);
 	object oPC = GetFirstPC();
 	location lPC = Location(Vector(103.0, 35.0, 4.0), -45.0);
 	location lPM1 = Location(Vector(103.2, 37.0, 4.0), -45.0);
@@ -70,7 +70,7 @@ if( GetIsPC(GetEnteringObject()) && GetGlobalNumber("DAN_JEDI_PLOT") == 7 ) {
 	DelayCommand(0.75, AssignCommand(oPC, CP_PartyHerder(lPC, lPM1, lPM2)));
 	DelayCommand(0.75, SetGlobalFadeIn(0.0, 1.5, 0.0, 0.0, 0.0));
 	DelayCommand(0.75, AssignCommand(GetObjectByTag("dan13_vandar", 0), ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "")));
-	DestroyObject(OBJECT_SELF, 0.0, FALSE, 0.0);
+	DelayCommand(1.0, DestroyObject(OBJECT_SELF, 0.0, FALSE, 0.0));
 	}
 
 }
