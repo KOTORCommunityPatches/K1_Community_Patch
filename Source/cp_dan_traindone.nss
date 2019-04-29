@@ -4,73 +4,87 @@
 	cp_dan_traindone
 
 	Fired when the player goes to speak to the Council after completing their
-	training.	
+	training.
+	
+	Revised by DP, replacing most of JC's original script with the guts of
+	k_pdan_trig1303, which is the vanilla script used in the post-Revan/Malak
+	ruins exploration dream conversation with the Council (no need to reinvent
+	the wheel, right?).
 	
 	JC 2019-04-28                                                             */
 ////////////////////////////////////////////////////////////////////////////////
-string CP_NPCToTag(int nNPC) {
 
-	string sTag = "";
+// Prototypes
+void CP_PartyHeal();
+void CP_PartyJump(string sNPCTag, string sDialogResRef, object oJumpPoint);
+
+void CP_PartyHeal() {
+	int int1 = 0;
+	object oNPC = GetPartyMemberByIndex(int1);
+	while (GetIsObjectValid(oNPC)) {
+		if ((GetCurrentHitPoints(oNPC) < 1)) {
+			ApplyEffectToObject(0, EffectResurrection(), oNPC, 0.0);
+			ApplyEffectToObject(0, EffectHeal(1), oNPC, 0.0);
+		}
+		(int1++);
+		oNPC = GetPartyMemberByIndex(int1);
+	}
+}
+
+void CP_PartyJump(string sNPCTag, string sDialogResRef, object oJumpPoint) {
 	
-		if( nNPC == 0 ) sTag = "Bastila";
-		if( nNPC == 1 ) sTag = "Cand";
-		if( nNPC == 2 ) sTag = "Carth";
-		if( nNPC == 3 ) sTag = "HK47";
-		if( nNPC == 4 ) sTag = "Jolee";
-		if( nNPC == 5 ) sTag = "Juhani";
-		if( nNPC == 6 ) sTag = "Mission";
-		if( nNPC == 7 ) sTag = "T3M4";
-		if( nNPC == 8 ) sTag = "Zaalbar";
+	object oSpeaker = GetObjectByTag(sNPCTag, 0);
+	object oPC = GetFirstPC();
+	
+	CP_PartyHeal();
+	
+	if ((GetIsObjectValid(oSpeaker) == 1))
+		{
+			if ((oPC == GetPartyMemberByIndex(0)))
+			{
+				AssignCommand(oPC, ClearAllActions());
+				AssignCommand(oSpeaker, ClearAllActions());
+				CancelCombat(oPC);
+				AssignCommand(oSpeaker, ActionStartConversation(oPC, sDialogResRef, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE, "", "", "", "", "", "", FALSE));
+			}
 
-	return sTag;
-}
+			else
+				{
+					object oPM1 = GetPartyMemberByIndex(1);
+					object oPM2 = GetPartyMemberByIndex(2);
+					
+					SetGlobalFadeOut(0.0, 0.0, 0.0, 0.0, 0.0);
+					SetPartyLeader(0xFFFFFFFF);
+					NoClicksFor(0.7);
+					AssignCommand(oPC, ClearAllActions());
+					AssignCommand(oSpeaker, ClearAllActions());
+					CancelCombat(oPC);
 
-void CP_Jump(object oPM, location lLoc) {
- 
-	AssignCommand(oPM, ClearAllActions());
-	AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
-	AssignCommand(oPM, ActionJumpToLocation(lLoc));	
+			if ((GetIsObjectValid(oJumpPoint) == 1))
+				{
+					AssignCommand(oPC, DelayCommand(0.2, JumpToObject(oJumpPoint, 1)));
+					AssignCommand(oPC, DelayCommand(0.4, SetFacingPoint(GetPosition(oSpeaker))));
+				}
 
-}
-
-
-void CP_PartyHerder(location lPC, location lPM1, location lPM2) {
-
-object oPC = GetFirstPC();
-int i = 0;
-// Loop to get first party member
-object oPM1 = OBJECT_INVALID;
-while( !GetIsObjectValid(oPM1) && i <= 8 ) {
-	oPM1 = GetObjectByTag(CP_NPCToTag(i), 0);
-	i++;
-}
-// Loop to get second party member
-object oPM2 = OBJECT_INVALID;
-while( !GetIsObjectValid(oPM2) && i <= 8 ) {
-	oPM2 = GetObjectByTag(CP_NPCToTag(i), 0);
-	i++;
-}
-// Move party into position
-CP_Jump(oPC, lPC);
-if( GetIsObjectValid(oPM1) ) CP_Jump(oPM1, lPM1);
-if( GetIsObjectValid(oPM2) ) CP_Jump(oPM2, lPM2);
-
+			else
+				{
+					AssignCommand(oPC, DelayCommand(0.2, JumpToObject(oSpeaker, 1)));
+				}
+			
+			AssignCommand(oPM1, DelayCommand(0.5, JumpToObject(oPC, 1)));
+			AssignCommand(oPM2, DelayCommand(0.5, JumpToObject(oPC, 1)));
+			AssignCommand(oSpeaker, ActionDoCommand(SetGlobalFadeIn(0.5, 2.0, 0.0, 0.0, 0.0)));
+			AssignCommand(oSpeaker, ActionStartConversation(oPC, sDialogResRef, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE, "", "", "", "", "", "", FALSE));
+		}
+	}
 }
 
 
 void main() {
 
-if( GetIsPC(GetEnteringObject()) && GetGlobalNumber("DAN_JEDI_PLOT") == 7 ) {
-	NoClicksFor(1.0);
-	object oPC = GetFirstPC();
-	location lPC = Location(Vector(103.0, 35.0, 4.0), -45.0);
-	location lPM1 = Location(Vector(103.2, 37.0, 4.0), -45.0);
-	location lPM2 = Location(Vector(101.2, 36.1, 4.0), -45.0);
-	SetGlobalFadeOut(0.0, 0.75, 0.0, 0.0, 0.0);
-	DelayCommand(0.75, AssignCommand(oPC, CP_PartyHerder(lPC, lPM1, lPM2)));
-	DelayCommand(0.75, SetGlobalFadeIn(0.0, 1.5, 0.0, 0.0, 0.0));
-	DelayCommand(0.75, AssignCommand(GetObjectByTag("dan13_vandar", 0), ActionStartConversation(oPC, "", 0, 0, 0, "", "", "", "", "", "")));
-	DelayCommand(1.0, DestroyObject(OBJECT_SELF, 0.0, FALSE, 0.0));
+    if(GetIsPC(GetEnteringObject()) && GetGlobalNumber("DAN_JEDI_PLOT") == 7)
+	{
+		CP_PartyJump("dan13_vandar", "", OBJECT_INVALID);
+		DelayCommand(7.0, DestroyObject(OBJECT_SELF, 0.0, FALSE, 0.0));
 	}
-
 }
