@@ -48,14 +48,14 @@ void main() {
 		SetLocalBoolean(oVandar, 53, TRUE);
 		ActionPauseConversation();
 		CP_PartyMove(oPC, lPCStart, lCounWP, oVandar);
-        if(GetIsObjectValid(oPM1))
-        {
-			CP_PartyMove(oPM1, lPM1Start, lPM1End, oVandar);
-        }
-        if(GetIsObjectValid(oPM2))
-        {
-			CP_PartyMove(oPM2, lPM2Start, lPM2End, oVandar);
-        }
+		if (GetIsObjectValid(oPM1))
+			{
+				CP_PartyMove(oPM1, lPM1Start, lPM1End, oVandar);
+			}
+        if (GetIsObjectValid(oPM2))
+			{
+				CP_PartyMove(oPM2, lPM2Start, lPM2End, oVandar);
+			}
 		ActionWait(6.0);
 		ActionResumeConversation();
 		DelayCommand(2.0, SetDialogPlaceableCamera(37));
