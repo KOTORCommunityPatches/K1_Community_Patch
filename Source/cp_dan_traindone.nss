@@ -21,14 +21,16 @@ void CP_PartyJump(string sNPCTag, string sDialogResRef, object oJumpPoint);
 void CP_PartyHeal() {
 	int int1 = 0;
 	object oNPC = GetPartyMemberByIndex(int1);
-	while (GetIsObjectValid(oNPC)) {
-		if ((GetCurrentHitPoints(oNPC) < 1)) {
-			ApplyEffectToObject(0, EffectResurrection(), oNPC, 0.0);
-			ApplyEffectToObject(0, EffectHeal(1), oNPC, 0.0);
+	while (GetIsObjectValid(oNPC))
+		{
+			if ((GetCurrentHitPoints(oNPC) < 1))
+				{
+					ApplyEffectToObject(0, EffectResurrection(), oNPC, 0.0);
+					ApplyEffectToObject(0, EffectHeal(1), oNPC, 0.0);
+				}
+			(int1++);
+			oNPC = GetPartyMemberByIndex(int1);
 		}
-		(int1++);
-		oNPC = GetPartyMemberByIndex(int1);
-	}
 }
 
 void CP_PartyJump(string sNPCTag, string sDialogResRef, object oJumpPoint) {
@@ -41,12 +43,12 @@ void CP_PartyJump(string sNPCTag, string sDialogResRef, object oJumpPoint) {
 	if ((GetIsObjectValid(oSpeaker) == 1))
 		{
 			if ((oPC == GetPartyMemberByIndex(0)))
-			{
-				AssignCommand(oPC, ClearAllActions());
-				AssignCommand(oSpeaker, ClearAllActions());
-				CancelCombat(oPC);
-				AssignCommand(oSpeaker, ActionStartConversation(oPC, sDialogResRef, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE, "", "", "", "", "", "", FALSE));
-			}
+				{
+					AssignCommand(oPC, ClearAllActions());
+					AssignCommand(oSpeaker, ClearAllActions());
+					CancelCombat(oPC);
+					AssignCommand(oSpeaker, ActionStartConversation(oPC, sDialogResRef, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE, "", "", "", "", "", "", FALSE));
+				}
 
 			else
 				{
@@ -60,7 +62,7 @@ void CP_PartyJump(string sNPCTag, string sDialogResRef, object oJumpPoint) {
 					AssignCommand(oSpeaker, ClearAllActions());
 					CancelCombat(oPC);
 
-			if ((GetIsObjectValid(oJumpPoint) == 1))
+			if ((GetIsObjectValid(oJumpPoint) == TRUE))
 				{
 					AssignCommand(oPC, DelayCommand(0.2, JumpToObject(oJumpPoint, 1)));
 					AssignCommand(oPC, DelayCommand(0.4, SetFacingPoint(GetPosition(oSpeaker))));
@@ -83,8 +85,8 @@ void CP_PartyJump(string sNPCTag, string sDialogResRef, object oJumpPoint) {
 void main() {
 
     if(GetIsPC(GetEnteringObject()) && GetGlobalNumber("DAN_JEDI_PLOT") == 7)
-	{
-		CP_PartyJump("dan13_vandar", "", OBJECT_INVALID);
-		DelayCommand(7.0, DestroyObject(OBJECT_SELF, 0.0, FALSE, 0.0));
-	}
+		{
+			CP_PartyJump("dan13_vandar", "", OBJECT_INVALID);
+			DelayCommand(7.0, DestroyObject(OBJECT_SELF, 0.0, FALSE, 0.0));
+		}
 }
