@@ -163,12 +163,12 @@ void CP_DLGInit(string sNPCTag, string sDLG = "", int nJump = TRUE) {
 
 object oNPC = GetObjectByTag(sNPCTag);
 object oPC = GetFirstPC();
+object oPM1 = GetPartyMemberByIndex(1);
+object oPM2 = GetPartyMemberByIndex(2);
 // NPC must exist
 if (GetIsObjectValid(oNPC) == TRUE) {
 	// If we didn't run our own jump, jump to NPC
 	if( nJump == TRUE ) {
-		object oPM1 = GetPartyMemberByIndex(1);
-		object oPM2 = GetPartyMemberByIndex(2);
 		AssignCommand(oPC, DelayCommand(0.2, JumpToObject(oNPC)));
 		AssignCommand(oPM1, DelayCommand(0.5, JumpToObject(oPC)));
 		AssignCommand(oPM2, DelayCommand(0.5, JumpToObject(oPC)));
