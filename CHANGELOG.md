@@ -78,6 +78,10 @@
 * Brought Ahlan Matale back down to earth during his rant in the Council chambers
 * Adjusted Vandar's dialogue to prevent him from repeating himself if you talk to him again before investigating the ruins
 * Added a trigger for the scene with Vandar after the player completes the trials to prevent positional wonkiness
+* Fixed player facing during the Taris duel introductions
+* Fixed a possible freeze during dialogue with Ajuur in the Taris Upper City cantina
+* Fixed some animations being out of sync with VO during the introduction of opponents in the Taris duels
+* Fixed some monitor placeables not being properly attached to walls in the Taris Upper City Cantina
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
