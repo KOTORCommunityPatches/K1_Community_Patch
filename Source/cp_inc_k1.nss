@@ -173,8 +173,10 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 		AssignCommand(oPM1, DelayCommand(0.5, JumpToObject(oPC)));
 		AssignCommand(oPM2, DelayCommand(0.5, JumpToObject(oPC)));
 		}
-	// Player faces NPC
+	// Party faces NPC
 	AssignCommand(oPC, DelayCommand(0.4, SetFacingPoint(GetPosition(oNPC))));
+	AssignCommand(oPM1, DelayCommand(0.7, SetFacingPoint(GetPosition(oNPC))));
+	AssignCommand(oPM2, DelayCommand(0.7, SetFacingPoint(GetPosition(oNPC))));
 	// Fade in, begin conversation
 	AssignCommand(oNPC, ActionDoCommand(SetGlobalFadeIn(0.5, 2.0)));
 	AssignCommand(oNPC, ActionStartConversation(oPC, sDLG, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
