@@ -66,12 +66,14 @@ int i = 0;
 object oPM1 = OBJECT_INVALID;
 while( !GetIsObjectValid(oPM1) && i <= 8 ) {
 	oPM1 = GetObjectByTag(CP_NPCToTag(i), 0);
+	if( !IsObjectPartyMember(oPM1) ) oPM1 = OBJECT_INVALID;
 	i++;
 }
 // Loop to get second party member
 object oPM2 = OBJECT_INVALID;
 while( !GetIsObjectValid(oPM2) && i <= 8 ) {
 	oPM2 = GetObjectByTag(CP_NPCToTag(i), 0);
+	if( !IsObjectPartyMember(oPM2) ) oPM2 = OBJECT_INVALID;
 	i++;
 }
 // Move party into position
