@@ -107,6 +107,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)
 * Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
 * Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
+* Kandon's pre-swoop race conversation had some aesthetic issues due to sloppy party positioning [ISSUE #62](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62)
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
 * Sharina on Tatooine didn't initiate dialogue with the player as intended (Reported by ebmar) [ISSUE #45](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)

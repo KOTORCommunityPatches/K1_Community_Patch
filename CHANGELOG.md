@@ -82,6 +82,7 @@
 * Fixed a possible freeze during dialogue with Ajuur in the Taris Upper City cantina
 * Fixed some animations being out of sync with VO during the introduction of opponents in the Taris duels
 * Fixed some monitor placeables not being properly attached to walls in the Taris Upper City Cantina
+* Rejigged party positioning during the Black Vulkar pre-swoop race conversation, making the scene a bit nicer
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
