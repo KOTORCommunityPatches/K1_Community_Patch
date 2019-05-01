@@ -10,8 +10,9 @@
 	and, if the former, switches the static camera used for the opening shot.
 	Due to changes made to Kandon's spawn-in scripts (see k_ptar_spawnkand and
 	k_ptar_spwnkand2), jumping the party into pre-set positions, some tweaks were
-	needed to made to Kandon's position on the Lower City side to maintain a
-	suitable spacing. 
+	made to Kandon's position on the Lower City side to maintain a suitable
+	distance from the PC, and the whole scene was pushed a few meters further
+	into the hallway so it didn't trigger instantly on module load.
 
 	DP 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////
@@ -43,7 +44,6 @@ void main() {
 			SetDialogPlaceableCamera(4);
 		}
 	
-	//SetGlobalFadeIn(0.0, 1.0, 0.0, 0.0, 0.0);  //Already handled by CP_DLGInit
 	ActionPauseConversation();
 	AssignCommand(oKandon, ActionMoveToLocation(lTarget, FALSE));
 	AssignCommand(oKandon, SetFacingPoint(GetPosition(oPC)));
