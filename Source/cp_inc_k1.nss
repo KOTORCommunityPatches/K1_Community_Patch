@@ -240,7 +240,7 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 	AssignCommand(oPM2, DelayCommand(0.7, SetFacingPoint(GetPosition(oNPC))));
 	// Fade in, begin conversation
 	AssignCommand(oNPC, ActionDoCommand(SetGlobalFadeIn(fWait, fFade)));
-	AssignCommand(oNPC, ActionStartConversation(oPC, sDLG, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
+	DelayCommand(0.5, AssignCommand(oNPC, ActionStartConversation(oPC, sDLG, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 	}
 
 }
