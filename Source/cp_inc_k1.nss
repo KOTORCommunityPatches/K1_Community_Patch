@@ -129,11 +129,11 @@ else {
 	The next three functions initiate dialogue with an NPC. They should be run
 	in sequence, like so:
 		CP_DLGSetup(sNPCTag);
-		CP_DLGHerder(lPC, lPM1, lPM2);
-		CP_DLGInit(sNPCTag, sDLG, FALSE);
-	for manual jump, or
+		CP_DLGHerder(lPC, lPM1, lPM2, nJump, nRun);
+		CP_DLGInit(sNPCTag, sDLG, FALSE, fWait, fFade);
+	for manual herding, or
 		CP_DLGSetup(sNPCTag);
-		CP_DLGInit(sNPCTag, sDLG, TRUE);
+		CP_DLGInit(sNPCTag, sDLG, TRUE, fWait, fFade);
 	to not bother and automatically jump to the NPC.
 	
 ////////////////////////////////////////////////////////////////////////////////
