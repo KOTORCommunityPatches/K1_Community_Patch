@@ -3,28 +3,27 @@
 	
 	Fired by dan13_zhar.dlg on Entry 102 in danm13 (Jedi Enclave).
 	
-	This an edit of the script that fires right after the conclusion of the
-	training montage. It handles firing another script (k_pdan_player18) to
-	jump the player to Zhar and the fade in for the post-montage conversation.
+	Originally this script handled some of the post-training montage scene
+	setup, but that has now all been folded into k_pdan_cut04. This script
+	is instead now used to ensure the party's facing is correct post-jump.
+	Forcing the companions to walk forwards a meter from their starting
+	positions was the most expedient way to get them to co-operate.
 	
-	It now also tries to get Zhar pointing in the right	direction to properly
-	face the PC instead of looking off to the side, since attempts to do so
-	before the conversation failed to work. This approach is still not perfect.
-	He has a bit of waddle at the start of the conversation to align himself,
-	which has been masked by extending the fade-in a bit longer than is ideal.
-	
-	Addition of the Pause animation command provided by JC to alleviate an
-	issue where Zhar was left frozen post-conversation.
-	
-	DP 2019-04-28                                                             */
+	DP 2019-05-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 void main() {
-    object oZhar = GetObjectByTag("dan13_zhar", 0);
-    object oPCWP = GetObjectByTag("dan13_WP_PC02", 0);
     
-    SetGlobalFadeIn(1.0, 0.5);
-	ExecuteScript("k_pdan_player18", GetFirstPC(), 0xFFFFFFFF);
-	AssignCommand(oZhar, SetFacingPoint(GetPosition(oPCWP)));
-	DelayCommand(0.1, AssignCommand(oZhar, ActionDoCommand(ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.5))));
+	object oPC = GetFirstPC();
+	object oPM1 = GetPartyMemberByIndex(1);
+	object oPM2 = GetPartyMemberByIndex(2);
+	object oZhar = GetObjectByTag("dan13_zhar", 0);
+	location lPM1 = Location(Vector(76.44,48.0,4.925), -90.0);
+	location lPM2 = Location(Vector(76.44,44.65,4.925), -90.0);
+	
+	DelayCommand(0.2, AssignCommand(oPC, SetFacingPoint(GetPosition(oZhar))));
+	DelayCommand(0.1, AssignCommand(oPM1, ClearAllActions()));
+	DelayCommand(0.1, AssignCommand(oPM2, ClearAllActions()));
+	DelayCommand(0.2, AssignCommand(oPM1, ActionMoveToLocation(lPM1, FALSE)));
+	DelayCommand(0.2, AssignCommand(oPM2, ActionMoveToLocation(lPM2, FALSE)));
 }
