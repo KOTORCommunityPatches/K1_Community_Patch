@@ -12,7 +12,9 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
 	
-	Gets the expected tag of a party member based on their ID number (NPC_*).
+	Gets the expected tag of a party member based on their ID number.
+	
+	- nNPC: NPC ID from party table (NPC_*)
 	
 	JC 2019-04-30                                                             */
 ////////////////////////////////////////////////////////////////////////////////
@@ -107,7 +109,7 @@ while( !GetIsObjectValid(oPM2) && i <= 8 ) {
 	i++;
 	}
 // Herd party into position
-if( nJump = TRUE ) {
+if( nJump == TRUE ) {
 	// Jump
 	CP_PartyJump(oPC, lPC);
 	if( GetIsObjectValid(oPM1) ) CP_PartyJump(oPM1, lPM1);
