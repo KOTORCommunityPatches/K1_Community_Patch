@@ -116,8 +116,8 @@ if( nJump = TRUE ) {
 else {
 	// Walk/run
 	CP_PartyMove(oPC, lPC);
-	if( GetIsObjectValid(oPM1) ) CP_PartyMove(oPM1, lPM1, nRun);
-	if( GetIsObjectValid(oPM2) ) CP_PartyMove(oPM2, lPM2, nRun);
+	if( GetIsObjectValid(oPM1) ) CP_PartyMove(oPM1, lPM1);
+	if( GetIsObjectValid(oPM2) ) CP_PartyMove(oPM2, lPM2);
 	}
 
 }
@@ -197,7 +197,7 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 ////////////////////////////////////////////////////////////////////////////////
 void CP_DLGHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE) {
 
-AssignCommand(GetFirstPC(), DelayCommand(0.2, CP_PartyHerder(lPC, lPM1, lPM2, nJump, nRun)));
+AssignCommand(GetFirstPC(), DelayCommand(0.2, CP_PartyHerder(lPC, lPM1, lPM2)));
 
 }
 
