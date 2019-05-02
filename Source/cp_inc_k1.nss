@@ -66,7 +66,7 @@ AssignCommand(oPM, ActionJumpToLocation(lLoc));
 	- lLoc: Location
 	- nRun: TRUE to run, FALSE to walk
 	
-	JC 2019-04-31                                                             */
+	JC 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 void CP_PartyMove(object oPM, location lLoc, int nRun = FALSE) {
  
@@ -88,7 +88,7 @@ AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 	- nJump: If TRUE, jump to locations; if FALSE, move walk or run to them
 	- nRun: TRUE to run, FALSE to walk (does nothing if we're jumping)
 	
-	JC 2019-04-31                                                             */
+	JC 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 void CP_PartyHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE) {
 
@@ -195,11 +195,14 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 	- nJump: If TRUE, jump to locations; if FALSE, move walk or run to them
 	- nRun: TRUE to run, FALSE to walk (does nothing if we're jumping)
 	
-	JC 2019-04-31                                                             */
+	JC 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 void CP_DLGHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE) {
 
-AssignCommand(GetFirstPC(), DelayCommand(0.2, CP_PartyHerder(lPC, lPM1, lPM2, nJump, nRun)));
+float fDelay;
+if( nJump = TRUE ) fDelay = 0.2;
+else fDelay = 0.55;
+AssignCommand(GetFirstPC(), DelayCommand(fDelay, CP_PartyHerder(lPC, lPM1, lPM2, nJump, nRun)));
 
 }
 
@@ -220,7 +223,7 @@ AssignCommand(GetFirstPC(), DelayCommand(0.2, CP_PartyHerder(lPC, lPM1, lPM2, nJ
 			 seconds may leave the setup visible.
 	- fFade: Length of fade in
 	
-	JC 2019-04-31                                                             */
+	JC 2019-05-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 void CP_DLGInit(string sNPCTag, string sDLG = "", int nJump = FALSE, float fWait = 0.5, float fFade = 2.0) {
 
@@ -228,6 +231,9 @@ object oNPC = GetObjectByTag(sNPCTag);
 object oPC = GetFirstPC();
 object oPM1 = GetPartyMemberByIndex(1);
 object oPM2 = GetPartyMemberByIndex(2);
+float fDelay;
+if( nJump == TRUE ) fDelay = 0.4;
+else fDelay = 0.7;
 // NPC must exist
 if (GetIsObjectValid(oNPC) == TRUE) {
 	// If we didn't run our own jump, jump to NPC
@@ -237,9 +243,9 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 		AssignCommand(oPM2, DelayCommand(0.5, JumpToObject(oPC)));
 		}
 	// Party faces NPC
-	AssignCommand(oPC, DelayCommand(0.4, SetFacingPoint(GetPosition(oNPC))));
-	AssignCommand(oPM1, DelayCommand(0.7, SetFacingPoint(GetPosition(oNPC))));
-	AssignCommand(oPM2, DelayCommand(0.7, SetFacingPoint(GetPosition(oNPC))));
+	AssignCommand(oPC, DelayCommand(fDelay, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
+	AssignCommand(oPM1, DelayCommand(fDelay + 0.3, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
+	AssignCommand(oPM2, DelayCommand(fDelay + 0.3, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
 	// Fade in, begin conversation
 	AssignCommand(oNPC, ActionDoCommand(SetGlobalFadeIn(fWait, fFade)));
 	DelayCommand(0.5, AssignCommand(oNPC, ActionStartConversation(oPC, sDLG, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
