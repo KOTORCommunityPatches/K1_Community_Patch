@@ -140,6 +140,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * There is an inaccessible container in The One's compound
 * Trandoshans lack a functioning soundset
 
+### ebmar:
+* Elise was overly flirty (reported by DarthParametric)
+
 ### jc2:
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 

@@ -83,6 +83,7 @@
 * Fixed some animations being out of sync with VO during the introduction of opponents in the Taris duels
 * Fixed some monitor placeables not being properly attached to walls in the Taris Upper City Cantina
 * Rejigged party positioning during the Black Vulkar pre-swoop race conversation, making the scene a bit nicer
+* Changed Elise's initial flirting animation to pleading to better suit the mood
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

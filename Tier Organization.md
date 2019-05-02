@@ -86,8 +86,6 @@ These are fixes for other issues that were likely unintended. They don't break t
 - The end credits don't scale to screen resolution during the Dark Side ending
 - The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 - The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
-- The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
-- The order of events in the Taris to Dantooine sequence didn't match what was implied in the conversation: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/) (Partial) [ISSUE #56](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/56)
 - The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - The player can freeze during conversation with Ajuur in the Taris Upper City cantina: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #88](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/88)
 - The player doesn't face their opponent at the start of matches in the Taris Upper City duel arena: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #76](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/76)
@@ -114,6 +112,7 @@ The issues these address aren't exactly problems, but they still bothered people
 - Carth is now an equal opportunity complainer when it comes to exploding swoop bikes
 - Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
 - Dune sea miners on Tatooine aren't wearing Czerka gear (Reported by Mr Ardvark)
+- Elise was overly flirty (reported by DarthParametric)
 - Guards in the Sith Academy used the Sith Officer appearance instead of Sith Soldiers
 - Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only)
 - Helena wears Jedi robes instead of regular clothes
@@ -131,6 +130,7 @@ The issues these address aren't exactly problems, but they still bothered people
 - The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot)
 - The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 - The guards at the Korriban academy are all officers instead of soldiers (part of the Sith Soldier Texture Restoration)
+- The order of events in the Taris to Dantooine sequence didn't match what was implied in the conversation: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/) (Partial) [ISSUE #56](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/56)
 - There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 - Vrook and Zhar wear the wrong color robes: [Vrook and Zhar Fix 1.0](http://deadlystream.com/forum/files/file/896-vrook-and-zhar-fix/)
 - Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
@@ -160,6 +160,7 @@ Sometimes the game assets aren't great. These changes correct problems with them
 - The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
 - The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 - The male player head PMHC01 has some deformation issues along the jawline
+- The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 - The training montage on Dantooine had a number of minor issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 - The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 - There are missing lightmaps in the entrance of the Taris Upper City cantina: [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
