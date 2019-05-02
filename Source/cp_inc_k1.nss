@@ -200,7 +200,7 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 void CP_DLGHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE) {
 
 float fDelay;
-if( nJump = TRUE ) fDelay = 0.2;
+if( nJump == TRUE ) fDelay = 0.2;
 else fDelay = 0.55;
 AssignCommand(GetFirstPC(), DelayCommand(fDelay, CP_PartyHerder(lPC, lPM1, lPM2, nJump, nRun)));
 
@@ -233,7 +233,7 @@ object oPM1 = GetPartyMemberByIndex(1);
 object oPM2 = GetPartyMemberByIndex(2);
 float fDelay;
 if( nJump == TRUE ) fDelay = 0.4;
-else fDelay = 0.7;
+else fDelay = 0.6;
 // NPC must exist
 if (GetIsObjectValid(oNPC) == TRUE) {
 	// If we didn't run our own jump, jump to NPC
