@@ -85,6 +85,7 @@
 * Rejigged party positioning during the Black Vulkar pre-swoop race conversation, making the scene a bit nicer
 * Changed Elise's initial flirting animation to pleading to better suit the mood
 * Changed the appearance of the guard droids in Davik's estate to Rodians, as they could be gassed, sounded like Rodians, and were generally not droids
+* Made some skin weight adjustments to the fat rolls under the Hutt's chin to reduce clipping issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
