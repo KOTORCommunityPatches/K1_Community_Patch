@@ -118,6 +118,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
+* The initial conversation with Gadon Thek can suffer from poor party positioning due to the desk in the way [ISSUE #70](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)

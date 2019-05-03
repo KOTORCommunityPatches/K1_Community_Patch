@@ -86,6 +86,7 @@
 * Changed Elise's initial flirting animation to pleading to better suit the mood
 * Changed the appearance of the guard droids in Davik's estate to Rodians, as they could be gassed, sounded like Rodians, and were generally not droids
 * Made some skin weight adjustments to the fat rolls under the Hutt's chin to reduce clipping issues
+* Forced Gadon Thek's conversation to directly follow on from Zaerdra's triggered "Hold it right there" outburst to eliminate poor positioning and facing issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
