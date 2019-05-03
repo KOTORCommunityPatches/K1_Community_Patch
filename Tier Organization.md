@@ -60,6 +60,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - Fixed the position of the strongbox in the Taris Lower City apartments (reported by DarthParametric)
 - Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
 - Gana Lavin's appearance changes and her text dialog doesn't appear
+- Handon and Rickard wear the same outfit [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 - If the prisoner in the Sith Academy was interrogated multiple times rapidly, the animation would loop for a long time: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 - It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 - Kandon's pre-swoop race conversation had some aesthetic issues due to sloppy party positioning [ISSUE #62](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62)
@@ -150,6 +151,7 @@ These things annoyed players.
 ## Visual Improvements
 Sometimes the game assets aren't great. These changes correct problems with them, and may require modder-created assets. But the changes are minimal; they just make the game look how it ought to look.
 - A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar)
+- Handon is implied to be overweight and was likely meant to use the fat commoner appearance [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 - Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 - Mandalorian armor has several issues (inspired by [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174))
 - Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
@@ -161,6 +163,7 @@ Sometimes the game assets aren't great. These changes correct problems with them
 - The Council on Dantooine float a few inches off the ground
 - The Ebon Hawk has several holes in its models: [Ebon Hawk K1 Fixes 2.0](http://deadlystream.com/forum/files/file/1134-ebon-hawk-k1-fixes/)
 - The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
+- The fat commoner male model had some UV issues and didn't use the regular commoner clothes textures [ISSUE #90](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/90)
 - The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 - The male player head PMHC01 has some deformation issues along the jawline
 - The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
