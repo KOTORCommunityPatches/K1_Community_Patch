@@ -85,6 +85,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 - The end credits don't scale to screen resolution during the Dark Side ending
 - The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
+- The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 - The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 - The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 - The player can freeze during conversation with Ajuur in the Taris Upper City cantina: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #88](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/88)
