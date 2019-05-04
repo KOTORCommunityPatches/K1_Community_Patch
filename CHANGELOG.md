@@ -88,6 +88,7 @@
 * Made some skin weight adjustments to the fat rolls under the Hutt's chin to reduce clipping issues
 * Forced Gadon Thek's conversation to directly follow on from Zaerdra's triggered "Hold it right there" outburst to eliminate poor positioning and facing issues
 * Made a replacement for the unused fat commoner male model by editing the regular commoner male body to bypass UV issues
+* Shunted one of the Gamorreans in the Taris sewers out of the corner he was skulking in
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
