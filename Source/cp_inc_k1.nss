@@ -126,6 +126,54 @@ else {
 
 
 ////////////////////////////////////////////////////////////////////////////////
+/*	CP_GetPartyMember()
+	
+	Returns a member of the party.
+	
+	This functions similarly to GetPartyMemberByIndex(), except it always uses
+	the same party order and will work inside and outside of dialogues.
+	
+	- nIndex: Which party member (0, 1, or 2)
+	  0 is always the Player Character.
+	  1st and 2nd party members are always in order by ID (NPC_*) which for K1
+	  is also alphabetical.
+	
+	Returns OBJECT_INVALID if there isn't a party member to return.
+	
+	JC 2019-05-04                                                             */
+////////////////////////////////////////////////////////////////////////////////
+object CP_GetPartyMember(int nIndex) {
+
+object oPC = GetFirstPC();
+// 0 returns PC
+if( nIndex == 0 ) return oPC;
+// Otherwise, loop
+int i = 0;
+// Loop to get first party member
+object oPM1 = OBJECT_INVALID;
+while( !GetIsObjectValid(oPM1) && i <= 8 ) {
+	oPM1 = GetObjectByTag(CP_NPCToTag(i), 0);
+	if( !IsObjectPartyMember(oPM1) ) oPM1 = OBJECT_INVALID;
+	i++;
+	}
+// Return 1st party member if that's what we're looking for
+if( nIndex == 1 && GetIsObjectValid(oPM1) ) return oPM1;
+// Loop to get second party member
+object oPM2 = OBJECT_INVALID;
+while( !GetIsObjectValid(oPM2) && i <= 8 ) {
+	oPM2 = GetObjectByTag(CP_NPCToTag(i), 0);
+	if( !IsObjectPartyMember(oPM2) ) oPM2 = OBJECT_INVALID;
+	i++;
+	}
+// Return 2nd party member if that's what we're looking for
+if( nIndex == 2 && GetIsObjectValid(oPM2) ) return oPM2;
+// If nothing worked, return invalid
+return OBJECT_INVALID;
+
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
 /*	A note on dialogues:
 	
 	The next three functions initiate dialogue with an NPC. They should be run
