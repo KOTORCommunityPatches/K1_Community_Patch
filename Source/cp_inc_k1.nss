@@ -300,3 +300,63 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 	}
 
 }
+
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_EquipFirstWeapon()
+	
+	Makes the target creature equip the first weapon in their inventory.
+	
+	- oCreature = Target creature
+	- nInstant = Whether to equip the item instantaneously, TRUE or FALSE
+	
+	JC 2019-05-06                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_EquipFirstWeapon(object oCreature, int nInstant = FALSE) {
+
+object oRWeapon = GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oCreature);
+if( !GetIsObjectValid(oRWeapon) ) {
+	object oItem = GetFirstItemInInventory(oCreature);
+	object oEquip = OBJECT_INVALID;
+	while( GetIsObjectValid(oItem) ) {
+		int nBaseItem = GetBaseItemType(oItem);
+		if( nBaseItem == BASE_ITEM_DOUBLE_BLADED_LIGHTSABER ||
+			nBaseItem == BASE_ITEM_DOUBLE_BLADED_SWORD ||
+			nBaseItem == BASE_ITEM_GAMMOREAN_BATTLEAXE ||
+			nBaseItem == BASE_ITEM_GHAFFI_STICK ||
+			nBaseItem == BASE_ITEM_LIGHTSABER ||
+			nBaseItem == BASE_ITEM_LONG_SWORD ||
+			nBaseItem == BASE_ITEM_QUARTER_STAFF ||
+			nBaseItem == BASE_ITEM_SHORT_LIGHTSABER ||
+			nBaseItem == BASE_ITEM_SHORT_SWORD ||
+			nBaseItem == BASE_ITEM_STUN_BATON ||
+			nBaseItem == BASE_ITEM_VIBRO_BLADE ||
+			nBaseItem == BASE_ITEM_VIBRO_DOUBLE_BLADE ||
+			nBaseItem == BASE_ITEM_VIBRO_SWORD ||
+			nBaseItem == BASE_ITEM_WOOKIE_WARBLADE ||
+			nBaseItem == BASE_ITEM_BLASTER_CARBINE ||
+			nBaseItem == BASE_ITEM_BLASTER_PISTOL ||
+			nBaseItem == BASE_ITEM_BLASTER_RIFLE ||
+			nBaseItem == BASE_ITEM_BOWCASTER ||
+			nBaseItem == BASE_ITEM_DISRUPTER_PISTOL ||
+			nBaseItem == BASE_ITEM_DISRUPTER_RIFLE ||
+			nBaseItem == BASE_ITEM_HEAVY_BLASTER ||
+			nBaseItem == BASE_ITEM_HEAVY_REPEATING_BLASTER ||
+			nBaseItem == BASE_ITEM_HOLD_OUT_BLASTER ||
+			nBaseItem == BASE_ITEM_ION_BLASTER ||
+			nBaseItem == BASE_ITEM_ION_RIFLE ||
+			nBaseItem == BASE_ITEM_REPEATING_BLASTER ||
+			nBaseItem == BASE_ITEM_SONIC_PISTOL ||
+			nBaseItem == BASE_ITEM_SONIC_RIFLE ||
+			nBaseItem == BASE_ITEM_SONIC_PISTOL ) {
+			oEquip = oItem;
+			oItem = OBJECT_INVALID;
+			}
+		else oItem = GetNextItemInInventory(oCreature);
+		}
+	if( GetIsObjectValid(oEquip) ) {
+		AssignCommand(oCreature, ActionEquipItem(oEquip, INVENTORY_SLOT_RIGHTWEAPON, nInstant));
+		}
+	}
+
+}
