@@ -179,6 +179,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The player was briefly visible before the game was supposed to actually start
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
+* The surviving Hrakert scientists had their weapons out all the time
 * Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
 
 ### Kainzorus Prime:
