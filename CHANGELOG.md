@@ -90,6 +90,7 @@
 * Made a replacement for the unused fat commoner male model by editing the regular commoner male body to bypass UV issues
 * Shunted one of the Gamorreans in the Taris sewers out of the corner he was skulking in
 * Unequipped the surviving Hrakert scientists' weapons and made them only equip them in the event of combat
+* Improved Bek reaction time following security alert in the base
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
