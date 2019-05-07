@@ -85,6 +85,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The Sandpeople Storyteller had an incorrect soundset (reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The selection icon for the Garage Head's desk in the Vulkar base is positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The surviving Hrakert scientists had their weapons out all the time
+* The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
 * There is an inaccessible container in The One's compound
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 * Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
@@ -179,7 +180,7 @@ Sometimes the game assets aren't great. These changes correct problems with them
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * The male player head PMHC01 has some deformation issues along the jawline
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
-* The training montage on Dantooine had a number of minor issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
+* The training montage on Dantooine had a number of minor animation issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 * There are missing lightmaps in the entrance of the Taris Upper City cantina: [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
