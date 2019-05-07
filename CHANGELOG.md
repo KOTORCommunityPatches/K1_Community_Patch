@@ -95,6 +95,7 @@
 * Added new dialogue trees for Vandar so the player could continue speaking to him about the usual topics after completing the trials
 * Gave the repairable Vulkar bar droid a blaster rifle
 * Made various changes to the initial Davik conversation to resolve the usual facing and positional crimes
+* Fixed some bad lightmaping on the dais in Davik's throne room
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
