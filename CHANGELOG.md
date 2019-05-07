@@ -91,6 +91,7 @@
 * Shunted one of the Gamorreans in the Taris sewers out of the corner he was skulking in
 * Unequipped the surviving Hrakert scientists' weapons and made them only equip them in the event of combat
 * Improved Bek reaction time following security alert in the base
+* Made Redros equip his weapon for the swoop race brawl
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
