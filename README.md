@@ -183,6 +183,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
 * The surviving Hrakert scientists had their weapons out all the time
 * Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
+* Vandar’s dialogue was locked out after the player completed the trials
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)

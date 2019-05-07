@@ -148,10 +148,14 @@ The issues these address aren't exactly problems, but they still bothered people
 These things annoyed players.
 - Movement in the diving and space suits was extremely slow
 - The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-- Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
-- Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
 
 # Tier 3
+## Cut Content & Enhanced Dialogue
+Content in this section was cut from the game and restored, or otherwise altered to improve the flow of things.
+- Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
+- Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
+- Vandar’s dialogue was locked out after the player completed Dantooine
+
 ## Visual Improvements
 Sometimes the game assets aren't great. These changes correct problems with them, and may require modder-created assets. But the changes are minimal; they just make the game look how it ought to look.
 - A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar)

@@ -92,6 +92,7 @@
 * Unequipped the surviving Hrakert scientists' weapons and made them only equip them in the event of combat
 * Improved Bek reaction time following security alert in the base
 * Made Redros equip his weapon for the swoop race brawl
+* Added new dialogue trees for Vandar so the player could continue speaking to him about the usual topics after completing the trials
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
