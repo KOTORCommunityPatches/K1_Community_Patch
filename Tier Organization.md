@@ -97,6 +97,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 - The player doesn't face their opponent at the start of matches in the Taris Upper City duel arena: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #76](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/76)
 - The player was briefly visible before the game was supposed to actually start
 - The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
+- The repairable Vulkar bar droid lacked a weapon (reported by DarthParametric)
 - The Sandpeople Storyteller had an incorrect soundset (reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 - The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
 - The selection icon for the Garage Head's desk in the Vulkar base is positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
