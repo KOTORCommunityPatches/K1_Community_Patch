@@ -97,6 +97,7 @@
 * Made various changes to the initial Davik conversation to resolve the usual facing and positional crimes
 * Fixed some bad lightmaping on the dais in Davik's throne room
 * Fixed some bad lightmaping on the walls of the Vulkar base's lower level
+* Forced some mooks in the Vulkar base to equip their stored weapons to prevent unarmed attacks
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

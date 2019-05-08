@@ -114,6 +114,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * One of the Gamorreans in the Taris sewers was quietly relaxing in a corner, oblivious to what was going on (Reported by ebmar) [ISSUE #95](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/95)
 * Sharina on Tatooine didn't initiate dialogue with the player as intended (Reported by ebmar) [ISSUE #45](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
+* Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)

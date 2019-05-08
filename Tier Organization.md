@@ -71,6 +71,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Sharina on Tatooine didn't initiate dialogue with the player as intended (Reported by ebmar) [ISSUE #45](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45)
 * Sith Apprentices have their soundsets mismatched: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Sith fighter lasers were the wrong color: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)
 * Some NPCs have wrong or missing sounds in their soundsets
 * Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Some view screen monitors in the Taris Upper City cantina float in mid-air: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #87](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/87)
