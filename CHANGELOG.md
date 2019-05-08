@@ -98,6 +98,9 @@
 * Fixed some bad lightmaping on the dais in Davik's throne room
 * Fixed some bad lightmaping on the walls of the Vulkar base's lower level
 * Forced some mooks in the Vulkar base to equip their stored weapons to prevent unarmed attacks
+* Changed some Twi'lek male appearances in Javyar's cantina to diversify things a bit.
+* Added a new orange Twi'lek male appearance using the unused Twi'lek male body orange handed texture variant
+* Added a new blue Twi'lek male head, ported from TSL
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

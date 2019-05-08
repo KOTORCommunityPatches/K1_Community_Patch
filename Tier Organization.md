@@ -99,6 +99,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 # Tier 2
 ## Atmospheric/Lore/Logical Changes
 The issues these address aren't exactly problems, but they still bothered people. Changes in this category go a bit beyond developer intent, basically player/modder interpretation of how things should have been.
+* All the male Twi'leks in Javyar's Cantina on Taris use the same green head [ISSUE #72](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/72)
 * Carth is now an equal opportunity complainer when it comes to exploding swoop bikes
 * Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
 * Dune sea miners on Tatooine aren't wearing Czerka gear (Reported by Mr Ardvark)
@@ -161,6 +162,7 @@ Content in this section was cut from the game and restored, or otherwise altered
 * Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
 * Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
 * Vandar’s dialogue was locked out after the player completed Dantooine
+* Created a new orange skinned appearance for Twi'lek males from the unused texture variant for the male Twi'lek body
 
 ## Visual Improvements
 Sometimes the game assets aren't great. These changes correct problems with them, and may require modder-created assets. But the changes are minimal; they just make the game look how it ought to look.
@@ -191,6 +193,7 @@ Everything here involves content ported from another game.
 * Dense Aliens [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
 * Some poor quality commoner clothes textures were replaced with improved versions ported from TSL [ISSUE #32](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/32)
 * Trandoshans lack a functioning soundset. New one created from sounds ported from TSL.
+* Added a blue skinned head variant for male Twi'leks ported from TSL
 
 ## Gameplay Tweaks
 These changes affect the gameplay, adjusting it to function how it was intended, or at least however the KOTOR community has deemed to be fairer than what was intended.
