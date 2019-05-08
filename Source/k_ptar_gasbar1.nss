@@ -15,7 +15,7 @@ void main() {
 	SetGlobalNumber("TAR_DAVGAS", (GetGlobalNumber("TAR_DAVGAS") | 2));
 	i = 0;
 	while ((i < 4)) {
-		DelayCommand(fDelay, UT_GasRoom(("tar08_wpgas0_" + IntToString(i)), 5.0, 1));
+		DelayCommand(fDelay, UT_GasRoom(("tar08_wpgas1_" + IntToString(i)), 5.0, 1));
 		(i++);
 	}
 	ActionPauseConversation();
