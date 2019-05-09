@@ -84,7 +84,8 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * The repairable Vulkar bar droid lacked a weapon (reported by DarthParametric)
 * The Sandpeople Storyteller had an incorrect soundset (reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
-* The selection icon for the Garage Head's desk in the Vulkar base is positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
+* The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
+* The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
 * The surviving Hrakert scientists had their weapons out all the time
 * The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
 * There is an inaccessible container in The One's compound

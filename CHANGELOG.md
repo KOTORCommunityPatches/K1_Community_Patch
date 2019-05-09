@@ -101,6 +101,7 @@
 * Changed some Twi'lek male appearances in Javyar's cantina to diversify things a bit.
 * Added a new orange Twi'lek male appearance using the unused Twi'lek male body orange handed texture variant
 * Added a new blue Twi'lek male head, ported from TSL
+* Raised the height of the selection icon for the torture cage release in Davik's estate
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
