@@ -102,6 +102,7 @@
 * Added a new orange Twi'lek male appearance using the unused Twi'lek male body orange handed texture variant
 * Added a new blue Twi'lek male head, ported from TSL
 * Raised the height of the selection icon for the torture cage release in Davik's estate
+* Added/edited some scripts to prevent certain guests and guards in Davik's estate attacking with their fists
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
