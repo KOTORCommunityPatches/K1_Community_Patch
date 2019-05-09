@@ -19,7 +19,9 @@ string sItem = "dan14_diary";
 // diary quest before, and the diary actually exists to be looted
 if( !GetIsObjectValid(GetItemPossessedBy(oPC, sItem)) &&
 	GetGlobalNumber("DAN_CASUS_PLOT") < 2 &&
-	GetIsObjectValid(GetItemPossessedBy(OBJECT_SELF, sItem) );
+	GetIsObjectValid(GetItemPossessedBy(OBJECT_SELF, sItem)) ) {
+	CreateItemOnObject(sItem, oPC, 1);
+	DestroyObject(GetItemPossessedBy(OBJECT_SELF, sItem));
 	}
 
 }
