@@ -101,6 +101,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 # Tier 2
 ## Atmospheric/Lore/Logical Changes
 The issues these address aren't exactly problems, but they still bothered people. Changes in this category go a bit beyond developer intent, basically player/modder interpretation of how things should have been.
+* All the civilians in Davik's estate wore the same outfit [ISSUE #102](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/102)
 * All the male Twi'leks in Javyar's Cantina on Taris use the same green head [ISSUE #72](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/72)
 * Carth is now an equal opportunity complainer when it comes to exploding swoop bikes
 * Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
