@@ -16,12 +16,10 @@ object oPC = GetFirstPC();
 string sItem = "dan14_diary";
 
 // Only give diary if the player didn't loot the diary yet, didn't initiate the
-// diary quest before, and the families are alive
+// diary quest before, and the diary actually exists to be looted
 if( !GetIsObjectValid(GetItemPossessedBy(oPC, sItem)) &&
 	GetGlobalNumber("DAN_CASUS_PLOT") < 2 &&
-	!GetGlobalNumber("DAN_ROMANCE_PLOT") == 7 ){
-	CreateItemOnObject(sItem, oPC, 1);
-	DestroyObject(GetItemPossessedBy(OBJECT_SELF, sItem));
+	GetIsObjectValid(GetItemPossessedBy(OBJECT_SELF, sItem) );
 	}
 
 }

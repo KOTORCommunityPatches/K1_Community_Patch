@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	k_pman_locked03
+	k_pend_area01
 	
 	OnEnter script for ebo_m01aa.
 	Fixes an issue with the fade in not actually fading in at the right time,
