@@ -1,6 +1,38 @@
 # Untracked files to ignore/not include in repo. See https://git-scm.com/docs/gitignore
 
-*.tmp
-
 # RTF MS Word temp file
 ~$*.rtf*
+
+# Flag compiled scripts, 2DAs, models, textures, GFF, container formats, etc. for non-inclusion in public repo
+*.2da
+*.are
+*.bik
+*.dds
+*.dlg
+*.dwk
+*.erf
+*.git
+*.ifo
+*.jrl
+*.lip
+*.mdl
+*.mdx
+*.mod
+*.ncs
+*.pth
+*.pwk
+*.rim
+*.tga
+*.tlk
+*.tpc
+*.utc
+*.utd
+*.uti
+*.utm
+*.utp
+*.uts
+*.utt
+*.utw
+*.wav
+*.wok
+*.tmp
