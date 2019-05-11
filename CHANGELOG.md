@@ -104,6 +104,7 @@
 * Raised the height of the selection icon for the torture cage release in Davik's estate
 * Added/edited some scripts to prevent certain guests and guards in Davik's estate attacking with their fists
 * Diversified the outfits of civilians in Davik's estate
+* Cleaned up some texture blurring and distortion around the mouth of the Krayt Dragon cave on Tatooine
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

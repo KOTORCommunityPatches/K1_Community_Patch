@@ -124,6 +124,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The dais in Davik's throne room had some unsightly lightmap artefacts [ISSUE #97](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/97)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 * The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
+* The entrance of the cave in the Tatooine Eastern Dune Sea suffered from texture blurring and distortion [ISSUE #117](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/117)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
 * The fat commoner male model had some UV issues and didn't use the regular commoner clothes textures [ISSUE #90](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/90)
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)

@@ -78,6 +78,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Some view screen monitors in the Taris Upper City cantina float in mid-air: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #87](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/87)
 * The dais in Davik's throne room had some unsightly lightmap artefacts [ISSUE #97](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/97)
 * The end credits don't scale to screen resolution during the Dark Side ending
+* The entrance of the cave in the Tatooine Eastern Dune Sea suffered from texture blurring and distortion [ISSUE #117](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/117)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
