@@ -1,0 +1,6 @@
+# Untracked files to ignore/not include in repo. See https://git-scm.com/docs/gitignore
+
+*.tmp
+
+# RTF MS Word temp file
+~$*.rtf*
