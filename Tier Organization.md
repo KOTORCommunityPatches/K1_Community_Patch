@@ -80,7 +80,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The end credits don't scale to screen resolution during the Dark Side ending
 * The entrance of the cave in the Tatooine Eastern Dune Sea suffered from texture blurring and distortion [ISSUE #117](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/117)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
-* The forcefield in the Kashyyyk Upper Shadowlands had a gap and grass clipped through the ramp [ISSUE #120](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/120)
+* The forcefield in the Kashyyyk Upper Shadowlands had a gap and grass clipped through the ramp: [Control Panel For Kashyyyk Shadowlands Forcefield](https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/) (Partial) [ISSUE #120](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/120)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
@@ -90,6 +90,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
 * The surviving Hrakert scientists had their weapons out all the time
+* The swaying cables in the Anchorhead droid shop were clipping into some boxes [ISSUE #114](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/114)
 * The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
 * There is an inaccessible container in The One's compound
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
