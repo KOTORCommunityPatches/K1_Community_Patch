@@ -105,6 +105,7 @@
 * Added/edited some scripts to prevent certain guests and guards in Davik's estate attacking with their fists
 * Diversified the outfits of civilians in Davik's estate
 * Cleaned up some texture blurring and distortion around the mouth of the Krayt Dragon cave on Tatooine
+* Fixed a gap in the surrounds of the forcefield in the Upper Shadowlands and pushed the grass back from the ramp to prevent clipping
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

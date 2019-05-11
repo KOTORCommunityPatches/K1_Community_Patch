@@ -80,6 +80,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The end credits don't scale to screen resolution during the Dark Side ending
 * The entrance of the cave in the Tatooine Eastern Dune Sea suffered from texture blurring and distortion [ISSUE #117](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/117)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
+* The forcefield in the Kashyyyk Upper Shadowlands had a gap and grass clipped through the ramp [ISSUE #120](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/120)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)

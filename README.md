@@ -127,6 +127,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The entrance of the cave in the Tatooine Eastern Dune Sea suffered from texture blurring and distortion [ISSUE #117](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/117)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
 * The fat commoner male model had some UV issues and didn't use the regular commoner clothes textures [ISSUE #90](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/90)
+* The forcefield in the Kashyyyk Upper Shadowlands had a gap and grass clipped through the ramp [ISSUE #120](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/120)
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
 * The initial conversation with Davik at his estate had a multitude of positioning and facing issues [ISSUE #57](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57)
 * The initial conversation with Gadon Thek can suffer from poor party positioning due to the desk in the way [ISSUE #70](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70)
