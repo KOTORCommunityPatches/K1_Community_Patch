@@ -10,85 +10,26 @@
 	constructed by examining the byte code and using similar dialogue trigger
 	scripts as a reference.
 	
+	Updated 2019-05-13 to refactor using vanilla and CP utility Include
+	functions, and tweak the positioning a bit.
+	
 	DP 2019-03-24                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
-
-// Globals
-int intGLOB_11 = 10;
-
-// Prototypes
-int subTalkedTo(object oNPCSpeaker);
-void subHealParty();
-void subJump(string oSpeakerTag, string sConvo, object oPCWP);
-
-int subTalkedTo(object oNPCSpeaker) {
-	int iTalkedBool;
-	
-	if (GetIsObjectValid(oNPCSpeaker)) {
-		iTalkedBool = GetLocalBoolean(oNPCSpeaker, intGLOB_11);
-		if ((iTalkedBool > 0)) {
-			return TRUE;
-		}
-	}
-    return FALSE;
-}
-
-void subHealParty() {
-	int int1 = 0;
-	object oParty = GetPartyMemberByIndex(int1);
-	
-	while (GetIsObjectValid(oParty)) {
-		if ((GetCurrentHitPoints(oParty) < 1)) {
-			ApplyEffectToObject(0, EffectResurrection(), oParty, 0.0);
-			ApplyEffectToObject(0, EffectHeal(1), oParty, 0.0);
-		}
-		(int1++);
-		oParty = GetPartyMemberByIndex(int1);
-	}
-}
-
-void subJump(string oSpeakerTag, string sConvo, object oPCWP) {
-	object oSpeaker = GetObjectByTag(oSpeakerTag, 0);
-	object oPC = GetFirstPC();
-	
-	subHealParty();
-	if ((GetIsObjectValid(oSpeaker) == 1)) {
-		if ((oPC == GetPartyMemberByIndex(0))) {
-			AssignCommand(oPC, ClearAllActions());
-			AssignCommand(oSpeaker, ClearAllActions());
-			CancelCombat(oPC);
-			AssignCommand(oSpeaker, ActionStartConversation(oPC, sConvo, 0, 0, 1, "", "", "", "", "", ""));
-		}
-		else {
-			SetGlobalFadeOut(0.0, 0.0, 0.0, 0.0, 0.0);
-			SetPartyLeader(0xFFFFFFFF);
-			object oPM1 = GetPartyMemberByIndex(1);
-			object oPM2 = GetPartyMemberByIndex(2);
-			NoClicksFor(0.7);
-			AssignCommand(oPC, ClearAllActions());
-			AssignCommand(oSpeaker, ClearAllActions());
-			CancelCombat(oPC);
-			if ((GetIsObjectValid(oPCWP) == 1)) {
-				AssignCommand(oPC, DelayCommand(0.2, JumpToObject(oPCWP, 1)));
-				AssignCommand(oPC, DelayCommand(0.4, SetFacingPoint(GetPosition(oSpeaker))));
-			}
-			else {
-				AssignCommand(oPC, DelayCommand(0.2, JumpToObject(oSpeaker, 1)));
-			}
-			AssignCommand(oPM1, DelayCommand(0.5, JumpToObject(oPC, 1)));
-			AssignCommand(oPM2, DelayCommand(0.5, JumpToObject(oPC, 1)));
-			AssignCommand(oSpeaker, ActionDoCommand(SetGlobalFadeIn(0.5, 2.0, 0.0, 0.0, 0.0)));
-			AssignCommand(oSpeaker, ActionStartConversation(oPC, sConvo, 0, 0, 1, "", "", "", "", "", ""));
-		}
-	}
-}
+#include "cp_inc_k1"
 
 void main() {
+
 	object oEntering = GetEnteringObject();
 	object oSharina = GetObjectByTag("tat17_03shari_01", 0);
+	location lPC = Location(Vector(122.75,126.67,3.75), 0.0);
+	location lPM1 = Location(Vector(121.2,125.67,3.75), 0.0);
+	location lPM2 = Location(Vector(121.2,127.67,3.75), 0.0);
 	
-	if ((GetIsPC(oEntering) && (!subTalkedTo(oSharina)))) {
-		subJump("tat17_03shari_01", "", OBJECT_INVALID);
-	}
+	if ((GetIsPC(oEntering) && (!UT_GetTalkedToBooleanFlag(oSharina))))
+		{
+			CP_DLGSetup("tat17_03shari_01");
+			CP_DLGHerder(lPC, lPM1, lPM2, FALSE, FALSE);
+			CP_DLGInit("tat17_03shari_01", "", FALSE, 1.25, 0.85);
+		}
 }
