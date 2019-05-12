@@ -109,6 +109,7 @@
 * Shuffled the boxes behind HK in the Anchorhead droid shop further apart to stop the swaying cable from clipping into them
 * Clamped down on the Viper Kinrath in the Lower Shadowlands dropping unnecessary corpse items
 * Removed some green patches in the lightmaps of the Manaan hotel's entrance hallway that didn't match the scene's lighting
+* Tweaked the Griff conversation in the Sandpeople enclave to fix some facing issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
