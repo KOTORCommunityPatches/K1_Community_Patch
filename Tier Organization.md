@@ -18,7 +18,7 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 * Once Xor appeared, no other messengers could appear: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * One of the boxes in the Rakatan Temple is inaccessible
 * Party members in stealth during the post-_Leviathan_ scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
-* Respawn tach gland in chest on Kashyyk if player has received quest from Griff
+* Respawn tach gland in chest on Kashyyyk if player has received quest from Griff
 * Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised
 * Some DS responses were unavailable in k_hcar_dialog.dlg: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some of Bastila's lines regarding her father's holocron were unavailable: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
@@ -91,6 +91,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The Sandpeople Storyteller had an incorrect soundset (reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
+* The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The surviving Hrakert scientists had their weapons out all the time
 * The swaying cables in the Anchorhead droid shop were clipping into some boxes [ISSUE #114](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/114)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)

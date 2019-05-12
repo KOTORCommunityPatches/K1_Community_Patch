@@ -32,7 +32,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ## 4. List of included mods and fixes (alphabetical by author):
 ### A Future Pilot:
 * Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
-* Respawn tach gland in chest on Kashyyk if player has received quest from Griff
+* Respawn tach gland in chest on Kashyyyk if player has received quest from Griff
 * Juhani wouldn't spawn in the post-Leviathan scene (Fix found by Kexikus, implemented by AFP)
 * Griff sometimes wouldn't spawn in the Sand People Enclave
 * Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
@@ -138,6 +138,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Sandpeople Storyteller had an incorrect soundset (reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
+* The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The swaying cables in the Anchorhead droid shop were clipping into some boxes [ISSUE #114](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/114)
 * The training montage on Dantooine had a number of minor animation issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
