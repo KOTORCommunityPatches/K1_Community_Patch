@@ -111,6 +111,7 @@
 * Removed some green patches in the lightmaps of the Manaan hotel's entrance hallway that didn't match the scene's lighting
 * Tweaked the Griff conversation in the Sandpeople enclave to fix some facing issues
 * Doubled the duration the Kashyyyk Star Map stayed open
+* Gave N_TatComW_F a makeover to fix the worst of its shading/clipping/texture issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
