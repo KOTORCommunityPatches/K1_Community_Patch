@@ -107,6 +107,7 @@
 * Cleaned up some texture blurring and distortion around the mouth of the Krayt Dragon cave on Tatooine
 * Fixed a gap in the surrounds of the forcefield in the Upper Shadowlands and pushed the grass back from the ramp to prevent clipping
 * Shuffled the boxes behind HK in the Anchorhead droid shop further apart to stop the swaying cable from clipping into them
+* Clamped down on the Viper Kinrath in the Lower Shadowlands dropping unnecessary corpse items
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
