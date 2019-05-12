@@ -82,6 +82,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 * The forcefield in the Kashyyyk Upper Shadowlands had a gap and grass clipped through the ramp: [Control Panel For Kashyyyk Shadowlands Forcefield](https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/) (Partial) [ISSUE #120](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/120)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
+* The hallway leading to the Manaan hotel had some incorrect baked lighting colouration [ISSUE #109](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/109)
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 * The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
