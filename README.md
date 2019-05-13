@@ -118,6 +118,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
 * One of the Gamorreans in the Taris sewers was quietly relaxing in a corner, oblivious to what was going on (Reported by ebmar) [ISSUE #95](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/95)
 * Sharina on Tatooine didn't initiate dialogue with the player as intended (Reported by ebmar) [ISSUE #45](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45)
+* Sith fighters outside the Leviathan clipped through the skybox [ISSUE #108](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/108)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
 * Some guests and guards in Davik's estate would attack with their fists [ISSUE #100](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/100)
 * Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)

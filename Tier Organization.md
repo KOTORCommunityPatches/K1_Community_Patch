@@ -129,6 +129,7 @@ The issues these address aren't exactly problems, but they still bothered people
 * Removed Dark Jedi Corpse from Hrakert Rift Station, and moved his inventory to a chest in the Sith Embassy (Reported by Mr Ardvark)
 * Sapith crystal uses wrong icon: [Sapith Fix 1.0](http://deadlystream.com/forum/files/file/975-sapith-fix/)
 * Shaardan attacks with a sword (Reported by Mr Ardvark)
+* Sith fighters outside the Leviathan clipped through the skybox [ISSUE #108](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/108)
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot)
