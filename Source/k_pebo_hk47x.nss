@@ -6,7 +6,7 @@
 	Post-Leviathan cleanup for HK. Gives him all the stat bonuses he can get if
 	you repair him because you can't repair him after this scene.
 	
-	JC 2019-02-02                                                             */
+	JC 2019-05-14                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 void main() {
@@ -18,7 +18,7 @@ object oNewHide = CreateItemOnObject("g_i_crhide012", oHK);
 if( GetIsObjectValid(oOldHide) ) {
 	DestroyObject(oOldHide);
 	}
-ActionEquipItem(oNewHide, INVENTORY_SLOT_CARMOUR, TRUE);
+AssignCommand(oHK, ActionEquipItem(oNewHide, INVENTORY_SLOT_CARMOUR, TRUE));
 SetGlobalBoolean("Ebo_HK47", TRUE);
 
 }
