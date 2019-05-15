@@ -91,6 +91,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The surviving Hrakert scientists had their weapons out all the time
 * The swaying cables in the Anchorhead droid shop were clipping into some boxes [ISSUE #114](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/114)
+* The Tatooine docking bay was missing exit waypoints, causing messengers to fade out in-place instead of leaving [ISSUE #129](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/129)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * There is an inaccessible container in The One's compound
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
@@ -195,7 +196,7 @@ Sometimes the game assets aren't great. These changes correct problems with them
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
 * The male player head PMHC01 has some deformation issues along the jawline
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
-* The Asian female commoner heads (e.g. Elora) and Tatooine white female commoner head (e.g. Sharina) had shading, clipping, and UV problems [ISSUE #126](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/126)
+* The Tatooine white female commoner head (e.g. Sharina) and Asian female commoner heads (e.g. Elora) had shading, clipping, and UV problems [ISSUE #126](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/126)
 * The training montage on Dantooine had a number of minor animation issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)

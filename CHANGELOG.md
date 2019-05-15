@@ -115,6 +115,7 @@
 * Added preemptive fix for a Mando bringing a knife to a gunfight
 * Pushed the Leviathan's skybox further back and added new Sith fighter animations to stop them clipping through the skybox
 * Fixed a gap in the floor and some bad UVs in the entrance of Manaan West Central
+* Added missing K_EXIT / SW_EXIT waypoints to Tatooine docking bay to allow messengers to properly exit the area
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
