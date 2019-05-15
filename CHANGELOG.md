@@ -111,7 +111,7 @@
 * Removed some green patches in the lightmaps of the Manaan hotel's entrance hallway that didn't match the scene's lighting
 * Tweaked the Griff conversation in the Sandpeople enclave to fix some facing issues
 * Doubled the duration the Kashyyyk Star Map stayed open
-* Gave N_TatComW_F a makeover to fix the worst of its shading/clipping/texture issues
+* Gave the comm_a_f/comm_a_f2/N_TatComW_F heads a makeover to fix the worst of their shading/clipping/texture issues
 * Added preemptive fix for a Mando bringing a knife to a gunfight
 * Pushed the Leviathan's skybox further back and added new Sith fighter animations to stop them clipping through the skybox
 
