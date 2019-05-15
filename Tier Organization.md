@@ -55,6 +55,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Fixed the position of the strongbox in the Taris Lower City apartments (reported by DarthParametric) [ISSUE #68](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/68)
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
 * Gana Lavin's appearance changes and her text dialog doesn't appear
+* Gaps in the Leviathan Prison Block walkmesh allowed targeting (and shooting) certain enemies through walls [ISSUE #132](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/132)
 * Griff's conversation in the Sandpeople enclave had a few facing issues [ISSUE #116](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/116)
 * Handon and Rickard wear the same outfit [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 * Hidden Beks didn’t react quickly to intruders (reported by DarthParametric) [ISSUE #71](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/71)
