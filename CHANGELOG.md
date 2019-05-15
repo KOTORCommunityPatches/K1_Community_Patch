@@ -114,7 +114,7 @@
 * Gave the comm_a_f/comm_a_f2/N_TatComW_F heads a makeover to fix the worst of their shading/clipping/texture issues
 * Added preemptive fix for a Mando bringing a knife to a gunfight
 * Pushed the Leviathan's skybox further back and added new Sith fighter animations to stop them clipping through the skybox
-
+* Fixed a gap in the floor and some bad UVs in the entrance of Manaan West Central
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
