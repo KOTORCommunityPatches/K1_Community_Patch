@@ -78,14 +78,9 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Some NPCs have wrong or missing sounds in their soundsets
 * Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Some view screen monitors in the Taris Upper City cantina float in mid-air: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #87](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/87)
-* The dais in Davik's throne room had some unsightly lightmap artefacts [ISSUE #97](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/97)
 * The end credits don't scale to screen resolution during the Dark Side ending
-* The entrance of the cave in the Tatooine Eastern Dune Sea suffered from texture blurring and distortion [ISSUE #117](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/117)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
-* The forcefield in the Kashyyyk Upper Shadowlands had a gap and grass clipped through the ramp: [Control Panel For Kashyyyk Shadowlands Forcefield](https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/) (Partial) [ISSUE #120](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/120)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
-* The hallway leading to the Manaan hotel had some incorrect baked lighting colouration [ISSUE #109](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/109)
-* The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 * The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * The repairable Vulkar bar droid lacked a weapon (reported by DarthParametric)
@@ -95,9 +90,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The surviving Hrakert scientists had their weapons out all the time
 * The swaying cables in the Anchorhead droid shop were clipping into some boxes [ISSUE #114](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/114)
-* The Tatooine white female commoner head (Sharina) had shading, clipping, and UV problems [ISSUE #126](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/126)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
-* The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
 * There is an inaccessible container in The One's compound
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 * Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
@@ -118,6 +111,7 @@ The issues these address aren't exactly problems, but they still bothered people
 * Elise was overly flirty (reported by DarthParametric)
 * Guards in the Sith Academy used the Sith Officer appearance instead of Sith Soldiers
 * Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only)
+* Handon is implied to be overweight and was likely meant to use the fat commoner appearance [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 * Helena wears Jedi robes instead of regular clothes
 * Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
 * Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
@@ -129,7 +123,6 @@ The issues these address aren't exactly problems, but they still bothered people
 * Removed Dark Jedi Corpse from Hrakert Rift Station, and moved his inventory to a chest in the Sith Embassy (Reported by Mr Ardvark)
 * Sapith crystal uses wrong icon: [Sapith Fix 1.0](http://deadlystream.com/forum/files/file/975-sapith-fix/)
 * Shaardan attacks with a sword (Reported by Mr Ardvark)
-* Sith fighters outside the Leviathan clipped through the skybox [ISSUE #108](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/108)
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot)
@@ -170,33 +163,40 @@ These might be considered subjective alterations in some cases, but are done wit
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
 
 # Tier 3
-## Cut Content & Enhanced Dialogue
-Content in this section was cut from the game and restored, or otherwise altered to improve the flow of things.
+## Enhanced Conversations
+Dialogue trees have been altered to reduce repetition and improve the flow of things, and in some cases to restore cut or inaccessible content.
 * Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
 * Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
 * Vandar’s dialogue was locked out after the player completed Dantooine
-* Created a new orange skinned appearance for Twi'lek males from the unused texture variant for the male Twi'lek body
 
 ## Visual Improvements
 Sometimes the game assets aren't great. These changes correct problems with them, and may require modder-created assets. But the changes are minimal; they just make the game look how it ought to look.
 * A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar)
-* Handon is implied to be overweight and was likely meant to use the fat commoner appearance [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
+* Created a new orange skinned appearance for Twi'lek males from the unused texture variant for the male Twi'lek body
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Mandalorian armor has several issues (inspired by [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174))
 * Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
 * Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
 * Republic Soldier Fixes
+* Sith fighters outside the Leviathan clipped through the skybox [ISSUE #108](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/108)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 * The collars on female Class 7 (PFBF) and Class 9 (PFBH) armours clip into some heads: [Female Armour Colar Fix 1.0](https://deadlystream.com/files/file/1425-female-armour-collar-fix)
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
 * The Council on Dantooine float a few inches off the ground
+* The dais in Davik's throne room had some unsightly lightmap artefacts [ISSUE #97](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/97)
 * The Ebon Hawk has several holes in its models: [Ebon Hawk K1 Fixes 2.0](http://deadlystream.com/forum/files/file/1134-ebon-hawk-k1-fixes/)
 * The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
+* The entrance of the cave in the Tatooine Eastern Dune Sea suffered from texture blurring and distortion [ISSUE #117](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/117)
 * The fat commoner male model had some UV issues and didn't use the regular commoner clothes textures [ISSUE #90](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/90)
+* The forcefield in the Kashyyyk Upper Shadowlands had a gap and grass clipped through the ramp: [Control Panel For Kashyyyk Shadowlands Forcefield](https://deadlystream.com/files/file/1427-control-panel-for-kashyyyk-shadowlands-forcefield/) (Partial) [ISSUE #120](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/120)
+* The hallway leading to the Manaan hotel had some incorrect baked lighting colouration [ISSUE #109](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/109)
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
+* The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
 * The male player head PMHC01 has some deformation issues along the jawline
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
+* The Tatooine white female commoner head (Sharina) had shading, clipping, and UV problems [ISSUE #126](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/126)
 * The training montage on Dantooine had a number of minor animation issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
+* The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 * There are missing lightmaps in the entrance of the Taris Upper City cantina: [Taris Upper City Cantina Entrance Wall Panel Fix 1.0](https://deadlystream.com/files/file/1345-taris-upper-city-cantina-entrance-wall-panel-fix)
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
