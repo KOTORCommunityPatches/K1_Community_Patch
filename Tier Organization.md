@@ -155,6 +155,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * Several camera angles on the Star Forge were inconsistent:  [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some camera angles were wrong during the Leviathan interrogation: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
+* The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 * The initial conversation with Davik at his estate had a multitude of positioning and facing issues [ISSUE #57](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57)
 * The initial conversation with Gadon Thek can suffer from poor party positioning due to the desk in the way [ISSUE #70](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70)
