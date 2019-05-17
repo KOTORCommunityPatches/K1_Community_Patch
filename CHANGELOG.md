@@ -121,6 +121,9 @@
 * Merged the cutscene of the shark attack victim into a single animation and added additional keyframes to move shark and victim off-screen at the end
 * Added a generic OnSpawn to have an NPC equip a ranged weapon (or melee weapon if no ranged) from their inventory
 * Made a few Sith technicians on the Leviathan equip their weapons on spawning to prevent the attacking with fists issue
+* Made a raft of changes to the Sith prisoner interrogation in the Manaan Republic Embassy, fixing facing, skipping lines, camera angle issues, etc.
+* Curtailed the patrol route of the Selkath security droid in the entrance of the Manaan Republic Embassy to stop it freaking out companions during conversation with Roland
+* Turned off the force cage the Sith prisoner in the Manaan Republic Embassy was in once he is no longer present
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
