@@ -98,6 +98,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/) (Partial)
 * A couple of selection icons for security terminals in the Taris Sith Base are positioned too low [ISSUE #58](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/58)
 * A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
+* A few Sith technicians on the Leviathan attacked with their fists instead of equipping weapons [ISSUE #147](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/147)
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar) [ISSUE #35](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/35)
 * A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar) [ISSUE #36](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/36)
 * Ahlan Matale was able to channel his rage in order to use Force levitation in the Council chambers [ISSUE #55](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55)
