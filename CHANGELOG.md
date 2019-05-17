@@ -119,6 +119,7 @@
 * Plugged a couple of gaps in adjoining walkmeshes in the Leviathan Prison Block that were allowing targeting/shooting of enemies through walls
 * Moved a swoop fan minor NPC on Manaan that was blocking a triggered conversation with a Sith on module entry
 * Merged the cutscene of the shark attack victim into a single animation and added additional keyframes to move shark and victim off-screen at the end
+* Added a generic OnSpawn to have an NPC equip a ranged weapon (or melee weapon if no ranged) from their inventory
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
