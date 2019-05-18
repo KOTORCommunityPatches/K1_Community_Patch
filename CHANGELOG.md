@@ -125,6 +125,7 @@
 * Curtailed the patrol route of the Selkath security droid in the entrance of the Manaan Republic Embassy to stop it freaking out companions during conversation with Roland
 * Turned off the force cage the Sith prisoner in the Manaan Republic Embassy was in once he is no longer present
 * Moved a crate in the back of the Hidden Bek base that was clipping into a wall
+* Moved the swoop records computer panel in Manaan Ahto East to stop it clipping into a wall
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
