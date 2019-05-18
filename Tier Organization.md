@@ -69,6 +69,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Mission has no clothing on when you meet Griff at the spaceport without her in your party
 * On the Star Forge, the wrong speaker said the "You are wasting your time..." line: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar)
+* One of the bounty hunters in Javyar's cantina was secretly a computer in disguise (Reported by JCarter426) [ISSUE #133](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/133)
 * One of the Gamorreans in the Taris sewers was quietly relaxing in a corner, oblivious to what was going on (Reported by ebmar) [ISSUE #95](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/95)
 * Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (reported by ebmar)
 * Several droids in Davik's Estate have the wrong sound set
