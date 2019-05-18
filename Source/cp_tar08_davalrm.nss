@@ -26,142 +26,10 @@ struct structtype1 {
 };
 
 // Globals
-	int intGLOB_1 = 0;
-	int intGLOB_2 = 1;
-	int intGLOB_3 = 2;
-	int intGLOB_4 = 3;
-	int intGLOB_5 = 4;
-	int intGLOB_6 = 5;
-	int intGLOB_7 = 6;
-	int intGLOB_8 = 7;
-	int intGLOB_9 = 8;
-	int intGLOB_10 = 9;
-	int intGLOB_11 = 10;
-	int intGLOB_12 = 11;
-	int intGLOB_13 = 12;
-	int intGLOB_14 = 13;
-	int intGLOB_15 = 14;
-	int intGLOB_16 = 15;
-	int intGLOB_17 = 16;
-	int intGLOB_18 = 17;
-	int intGLOB_19 = 18;
-	int intGLOB_20 = 19;
-	int intGLOB_21 = 1100;
-	int intGLOB_22 = (-6);
-	int intGLOB_23 = (-5);
-	int intGLOB_24 = (-4);
-	int intGLOB_25 = (-2);
-	int intGLOB_26 = (-1);
-	int intGLOB_27 = 0;
-	int intGLOB_28 = 1;
-	int intGLOB_29 = 2;
-	int intGLOB_30 = 3;
-	int intGLOB_31 = 4;
-	int intGLOB_32 = 5;
-	int intGLOB_33 = 6;
-	int intGLOB_34 = 3;
-	int intGLOB_35 = 4;
-	int intGLOB_36 = 5;
-	int intGLOB_37 = 6;
-	int intGLOB_38 = 7;
-	int intGLOB_39 = 1;
-	int intGLOB_40 = 2;
-	int intGLOB_41 = 3;
-	int intGLOB_42 = 4;
-	int intGLOB_43 = 5;
-	int intGLOB_44 = 6;
-	int intGLOB_45 = 7;
-	int intGLOB_46 = 8;
-	int intGLOB_47 = 9;
-	int intGLOB_48 = 10;
-	int intGLOB_49 = 11;
-	int intGLOB_50 = 12;
-	int intGLOB_51 = 13;
-	int intGLOB_52 = 14;
-	int intGLOB_53 = 15;
-	int intGLOB_54 = 16;
-	int intGLOB_55 = 17;
-	int intGLOB_56 = 18;
-	int intGLOB_57 = 19;
-	int intGLOB_58 = 20;
-	int intGLOB_59 = 21;
-	int intGLOB_60 = 22;
-	int intGLOB_61 = 23;
-	int intGLOB_62 = 24;
-	int intGLOB_63 = 25;
-	int intGLOB_64 = 26;
-	int intGLOB_65 = 27;
-	int intGLOB_66 = 28;
-	int intGLOB_67 = 29;
-	int intGLOB_68 = 30;
-	int intGLOB_69 = 59;
-	int intGLOB_70 = 0;
-	int intGLOB_71 = 1;
-	int intGLOB_72 = 2;
-	int intGLOB_73 = 29;
-	int intGLOB_74 = 30;
-	int intGLOB_75 = 34;
-	int intGLOB_76 = 35;
-	int intGLOB_77 = 36;
-	int intGLOB_78 = 37;
-	int intGLOB_79 = 38;
-	int intGLOB_80 = 39;
-	int intGLOB_81 = 41;
-	int intGLOB_82 = 42;
-	int intGLOB_83 = 46;
-	int intGLOB_84 = 47;
-	int intGLOB_85 = 15;
-	int intGLOB_86 = 10;
-	int intGLOB_87 = 5;
-	int intGLOB_88 = 2;
-	struct structtype1 structGLOB_1;
-	int intGLOB_98 = 1;
-	int intGLOB_99 = 2;
-	int intGLOB_100 = 3;
-	int intGLOB_101 = 20;
-	int intGLOB_102 = 21;
-	int intGLOB_103 = 22;
-	int intGLOB_104 = 23;
-	int intGLOB_105 = 24;
-	int intGLOB_106 = 25;
-	int intGLOB_107 = 26;
-	int intGLOB_108 = 27;
-	int intGLOB_109 = 28;
-	int intGLOB_110 = 31;
-	int intGLOB_111 = 32;
-	int intGLOB_112 = 33;
-	int intGLOB_113 = 40;
-	int intGLOB_114 = 43;
-	int intGLOB_115 = 44;
-	int intGLOB_116 = 45;
-	int intGLOB_117 = 48;
-	int intGLOB_118 = 49;
-	int intGLOB_119 = 50;
-	int intGLOB_120 = 51;
-	int intGLOB_121 = 52;
-	int intGLOB_122 = 53;
-	int intGLOB_123 = 54;
-	int intGLOB_124 = 55;
-	int intGLOB_125 = 56;
-	int intGLOB_126 = 57;
-	int intGLOB_127 = 58;
-	int intGLOB_128 = 60;
-	int intGLOB_129 = 61;
-	int intGLOB_130 = 62;
-	int intGLOB_131 = 63;
-	int intGLOB_132 = 64;
-	int intGLOB_133 = 65;
-	int intGLOB_134 = 66;
-	int intGLOB_135 = 67;
-	int intGLOB_136 = 68;
-	int intGLOB_137 = 69;
-	int intGLOB_138 = 70;
-	int intGLOB_139 = 71;
-	int intGLOB_140 = 72;
-	int intGLOB_141 = 1;
-	int intGLOB_142 = 2;
-	int intGLOB_143 = 3;
-	int intGLOB_144 = 4;
+	int 1 = 1;
+	int 2 = 2;
+	int 3 = 3;
+	int 4 = 4;
 
 // Prototypes
 void sub80(string stringParam1, int intParam2, int intParam3, float floatParam4);
@@ -264,15 +132,15 @@ void sub79() {
 			else {
 				if ((((nRandom == 4) || (nRandom == 5)) && (GetRacialType(OBJECT_SELF) != 5))) {
 					if ((GetGender(OBJECT_SELF) == 0)) {
-						sub11(intGLOB_73, 0);
+						sub11(29, 0);
 						ActionPlayAnimation(24, 1.0, 20.4);
-						ActionDoCommand(sub11(intGLOB_73, 1));
+						ActionDoCommand(sub11(29, 1));
 					}
 					else {
 						if ((GetGender(OBJECT_SELF) == 1)) {
-							sub11(intGLOB_73, 0);
+							sub11(29, 0);
 							ActionPlayAnimation(24, 1.0, 13.3);
-							ActionDoCommand(sub11(intGLOB_73, 1));
+							ActionDoCommand(sub11(29, 1));
 						}
 					}
 				}
@@ -286,9 +154,9 @@ void sub79() {
 						}
 						else {
 							if ((nRandom == 8)) {
-								sub11(intGLOB_73, 0);
+								sub11(29, 0);
 								ActionPlayAnimation(1, 1.0, 5.0);
-								ActionDoCommand(sub11(intGLOB_73, 1));
+								ActionDoCommand(sub11(29, 1));
 							}
 						}
 					}
@@ -300,15 +168,15 @@ void sub79() {
 
 int sub78(int intParam1, int intParam2) {
 	int int1;
-	int int2 = sub8(intGLOB_81);
+	int int2 = sub8(41);
 	if (((intParam1 == intParam2) && (int2 == 0))) {
 		int1 = (-1);
-		sub11(intGLOB_81, 1);
+		sub11(41, 1);
 	}
 	else {
 		if (((intParam2 == 1) && (int2 == 1))) {
 			int1 = 1;
-			sub11(intGLOB_81, 0);
+			sub11(41, 0);
 		}
 		else {
 			if ((int2 == 0)) {
@@ -325,19 +193,19 @@ int sub78(int intParam1, int intParam2) {
 }
 
 void sub77() {
-	if ((!sub8(intGLOB_82))) {
+	if ((!sub8(42))) {
 		string string1 = "POST_";
 		string string2 = "WP_";
 		string string3;
-		int nLocal = GetLocalNumber(OBJECT_SELF, intGLOB_70);
-		int int4 = GetLocalNumber(OBJECT_SELF, intGLOB_71);
-		int int6 = GetLocalNumber(OBJECT_SELF, intGLOB_72);
+		int nLocal = GetLocalNumber(OBJECT_SELF, 0);
+		int int4 = GetLocalNumber(OBJECT_SELF, 1);
+		int int6 = GetLocalNumber(OBJECT_SELF, 2);
 		if (((nLocal < 10) && (nLocal > 0))) {
 			string3 = ("0" + IntToString(nLocal));
 		}
 		else {
 			if ((nLocal == 0)) {
-				if (sub8(intGLOB_79)) {
+				if (sub8(38)) {
 					nLocal = (Random(int4) + 1);
 					if ((nLocal < 10)) {
 						string3 = ("0" + IntToString(nLocal));
@@ -386,27 +254,27 @@ void sub77() {
 			string9 = (string1 + GetTag(OBJECT_SELF));
 		}
 		object object3 = GetWaypointByTag(string9);
-		int int14 = sub8(intGLOB_80);
+		int int14 = sub8(39);
 		if ((GetDistanceToObject2D(object3) <= 2.5)) {
 			int int16;
-			if (sub8(intGLOB_79)) {
+			if (sub8(38)) {
 				nLocal = (Random(int4) + 1);
 			}
 			else {
-				if (((nLocal < int4) && (!sub8(intGLOB_79)))) {
+				if (((nLocal < int4) && (!sub8(38)))) {
 					int16 = sub78(int4, nLocal);
 					nLocal = (nLocal + int16);
 				}
 				else {
 					if ((nLocal == int4)) {
 						int16 = sub78(int4, nLocal);
-						if (sub8(intGLOB_75)) {
-							sub11(intGLOB_82, 1);
+						if (sub8(34)) {
+							sub11(42, 1);
 						}
 						else {
-							if (sub8(intGLOB_76)) {
+							if (sub8(35)) {
 								nLocal = 1;
-								sub11(intGLOB_81, 0);
+								sub11(41, 0);
 							}
 							else {
 								nLocal = (nLocal + int16);
@@ -418,15 +286,15 @@ void sub77() {
 		}
 		if (GetIsObjectValid(GetWaypointByTag(string9))) {
 			int nRandom;
-			if (sub8(intGLOB_78)) {
+			if (sub8(37)) {
 				nRandom = d3(1);
 			}
 			else {
-				if (sub8(intGLOB_83)) {
+				if (sub8(46)) {
 					nRandom = (d6(1) + 6);
 				}
 				else {
-					if (sub8(intGLOB_84)) {
+					if (sub8(47)) {
 						nRandom = d12(1);
 					}
 					else {
@@ -441,11 +309,11 @@ void sub77() {
 			if ((float3 < 30.0)) {
 				float3 = 30.0;
 			}
-			ActionForceMoveToObject(object3, sub8(intGLOB_80), 2.5, float3);
-			if (sub8(intGLOB_73)) {
+			ActionForceMoveToObject(object3, sub8(39), 2.5, float3);
+			if (sub8(29)) {
 				ActionDoCommand(sub79());
 			}
-			SetLocalNumber(OBJECT_SELF, intGLOB_70, nLocal);
+			SetLocalNumber(OBJECT_SELF, 0, nLocal);
 			if ((string2 != "UNKNOWN")) {
 				ActionDoCommand(sub77());
 			}
@@ -462,7 +330,7 @@ void sub76(string stringParam1) {
 int sub75(object objectParam1) {
 	string string1 = (("WP_" + GetTag(objectParam1)) + "_01");
 	string string3 = ("POST_" + GetTag(objectParam1));
-	int nLocal = GetLocalNumber(objectParam1, intGLOB_72);
+	int nLocal = GetLocalNumber(objectParam1, 2);
 	string string5;
 	if ((nLocal < 10)) {
 		string5 = ("0" + IntToString(nLocal));
@@ -532,13 +400,13 @@ int sub73() {
 
 int sub72() {
 	sub4(("GENERIC DEBUG *************** Post DCR Checks for " + sub5(OBJECT_SELF)));
-	if ((sub8(intGLOB_128) && (!sub8(intGLOB_129)))) {
+	if ((sub8(60) && (!sub8(61)))) {
 		if (sub73()) {
 			return 1;
 		}
 	}
 	else {
-		if (sub8(intGLOB_129)) {
+		if (sub8(61)) {
 			sub4("GENERIC DEBUG *************** Clear 1000");
 			ClearAllActions();
 			return 1;
@@ -643,17 +511,17 @@ int sub70(object objectParam1) {
 	if ((GetRacialType(OBJECT_SELF) == 5)) {
 		return sub33(OBJECT_INVALID);
 	}
-	if (sub16(intGLOB_144, OBJECT_SELF)) {
+	if (sub16(4, OBJECT_SELF)) {
 		return 1;
 	}
 	if (GetIsObjectValid(object1)) {
-		if (sub16(intGLOB_142, object1)) {
+		if (sub16(2, object1)) {
 			return 1;
 		}
 	}
 	object object4 = sub15();
 	if (GetIsObjectValid(object4)) {
-		if (sub16(intGLOB_143, object4)) {
+		if (sub16(3, object4)) {
 			return 1;
 		}
 	}
@@ -661,10 +529,10 @@ int sub70(object objectParam1) {
 	sub4(("GENERIC DEBUG *************** Jedi Support AI: AOE Target = " + sub10(GetIsObjectValid(object3))));
 	if (GetIsObjectValid(object3)) {
 		if ((GetRacialType(object3) == 5)) {
-			talent1 = sub24(intGLOB_29, 1);
+			talent1 = sub24(2, 1);
 		}
 		else {
-			talent1 = sub24(intGLOB_29, 0);
+			talent1 = sub24(2, 0);
 		}
 	}
 	else {
@@ -674,10 +542,10 @@ int sub70(object objectParam1) {
 		if (GetIsObjectValid(object3)) {
 			sub4(("GENERIC DEBUG *************** Jedi Support AI: Valid oTarget Set As = " + sub5(object3)));
 			if ((GetRacialType(object3) == 5)) {
-				talent1 = sub24(intGLOB_30, 1);
+				talent1 = sub24(3, 1);
 			}
 			else {
-				talent1 = sub24(intGLOB_30, 0);
+				talent1 = sub24(3, 0);
 			}
 		}
 	}
@@ -756,19 +624,19 @@ int sub67(int intParam1) {
 		while ((int1 == 0)) {
 			if ((sub19(OBJECT_SELF) == 1)) {
 				if ((nRandom == 1)) {
-					nRandom = intGLOB_44;
+					nRandom = 6;
 				}
 				else {
 					if ((nRandom == 2)) {
-						nRandom = intGLOB_46;
+						nRandom = 8;
 					}
 					else {
 						if ((nRandom == 3)) {
-							nRandom = intGLOB_45;
+							nRandom = 7;
 						}
 						else {
 							if ((nRandom == 4)) {
-								nRandom = intGLOB_43;
+								nRandom = 5;
 							}
 						}
 					}
@@ -777,19 +645,19 @@ int sub67(int intParam1) {
 			else {
 				if ((sub19(OBJECT_SELF) == 2)) {
 					if ((nRandom == 1)) {
-						nRandom = intGLOB_40;
+						nRandom = 2;
 					}
 					else {
 						if ((nRandom == 2)) {
-							nRandom = intGLOB_42;
+							nRandom = 4;
 						}
 						else {
 							if ((nRandom == 3)) {
-								nRandom = intGLOB_41;
+								nRandom = 3;
 							}
 							else {
 								if ((nRandom == 4)) {
-									nRandom = intGLOB_39;
+									nRandom = 1;
 								}
 							}
 						}
@@ -813,34 +681,34 @@ int sub66(int intParam1) {
 	int nRandom = d6(1);
 	while ((int1 == 0)) {
 		if ((nRandom == 1)) {
-			nRandom = intGLOB_40;
+			nRandom = 2;
 		}
 		else {
 			if ((nRandom == 2)) {
-				nRandom = intGLOB_42;
+				nRandom = 4;
 			}
 			else {
 				if ((nRandom == 3)) {
-					nRandom = intGLOB_41;
+					nRandom = 3;
 				}
 				else {
 					if ((nRandom == 4)) {
-						nRandom = intGLOB_39;
+						nRandom = 1;
 					}
 					else {
 						if (((nRandom == 5) || (nRandom == 6))) {
 							if (((IsObjectPartyMember(OBJECT_SELF) && (GetNPCAIStyle(OBJECT_SELF) == 5)) || (!IsObjectPartyMember(OBJECT_SELF)))) {
 								if ((nRandom == 5)) {
-									nRandom = intGLOB_66;
+									nRandom = 28;
 								}
 								else {
 									if ((nRandom == 6)) {
-										nRandom = intGLOB_67;
+										nRandom = 29;
 									}
 								}
 							}
 							else {
-								nRandom = intGLOB_68;
+								nRandom = 30;
 							}
 						}
 					}
@@ -1041,14 +909,14 @@ int sub53() {
 }
 
 talent sub52(int intParam1) {
-	SetLocalBoolean(OBJECT_SELF, intGLOB_69, 0);
-	int nLocal = GetLocalNumber(OBJECT_SELF, intGLOB_35);
+	SetLocalBoolean(OBJECT_SELF, 59, 0);
+	int nLocal = GetLocalNumber(OBJECT_SELF, 4);
 	talent talFeat;
 	talent talent2;
 	int nTalent = (-1);
 	int int4 = 0;
 	int int5 = 0;
-	if ((intParam1 == intGLOB_52)) {
+	if ((intParam1 == 14)) {
 		if ((nLocal == 1)) {
 			nTalent = sub53();
 		}
@@ -1062,7 +930,7 @@ talent sub52(int intParam1) {
 		}
 	}
 	else {
-		if ((intParam1 == intGLOB_53)) {
+		if ((intParam1 == 15)) {
 			if ((nLocal == 1)) {
 				nTalent = sub56();
 				int5 = 1;
@@ -1079,7 +947,7 @@ talent sub52(int intParam1) {
 			}
 		}
 		else {
-			if ((intParam1 == intGLOB_54)) {
+			if ((intParam1 == 16)) {
 				if ((nLocal == 1)) {
 					nTalent = sub59();
 				}
@@ -1095,7 +963,7 @@ talent sub52(int intParam1) {
 				}
 			}
 			else {
-				if ((intParam1 == intGLOB_55)) {
+				if ((intParam1 == 17)) {
 					if ((nLocal == 1)) {
 						nTalent = sub60();
 					}
@@ -1111,7 +979,7 @@ talent sub52(int intParam1) {
 					}
 				}
 				else {
-					if ((intParam1 == intGLOB_56)) {
+					if ((intParam1 == 18)) {
 						if ((nLocal == 1)) {
 							nTalent = sub53();
 						}
@@ -1126,7 +994,7 @@ talent sub52(int intParam1) {
 						}
 					}
 					else {
-						if ((intParam1 == intGLOB_57)) {
+						if ((intParam1 == 19)) {
 							if ((nLocal == 1)) {
 								nTalent = sub61();
 							}
@@ -1140,7 +1008,7 @@ talent sub52(int intParam1) {
 							}
 						}
 						else {
-							if ((intParam1 == intGLOB_58)) {
+							if ((intParam1 == 20)) {
 								if ((nLocal == 1)) {
 									nTalent = sub59();
 								}
@@ -1154,7 +1022,7 @@ talent sub52(int intParam1) {
 								}
 							}
 							else {
-								if ((intParam1 == intGLOB_59)) {
+								if ((intParam1 == 21)) {
 									if ((nLocal == 1)) {
 										nTalent = sub60();
 									}
@@ -1168,7 +1036,7 @@ talent sub52(int intParam1) {
 									}
 								}
 								else {
-									if ((intParam1 == intGLOB_60)) {
+									if ((intParam1 == 22)) {
 										if ((nLocal == 1)) {
 											nTalent = sub53();
 										}
@@ -1182,7 +1050,7 @@ talent sub52(int intParam1) {
 										}
 									}
 									else {
-										if ((intParam1 == intGLOB_61)) {
+										if ((intParam1 == 23)) {
 											if ((nLocal == 1)) {
 												nTalent = sub58();
 												int4 = 1;
@@ -1198,7 +1066,7 @@ talent sub52(int intParam1) {
 											}
 										}
 										else {
-											if ((intParam1 == intGLOB_62)) {
+											if ((intParam1 == 24)) {
 												if ((nLocal == 1)) {
 													nTalent = sub63();
 												}
@@ -1212,7 +1080,7 @@ talent sub52(int intParam1) {
 												}
 											}
 											else {
-												if ((intParam1 == intGLOB_63)) {
+												if ((intParam1 == 25)) {
 													if ((nLocal == 1)) {
 														nTalent = sub58();
 														int4 = 1;
@@ -1228,7 +1096,7 @@ talent sub52(int intParam1) {
 													}
 												}
 												else {
-													if ((intParam1 == intGLOB_64)) {
+													if ((intParam1 == 26)) {
 														if ((nLocal == 1)) {
 															nTalent = sub61();
 														}
@@ -1243,7 +1111,7 @@ talent sub52(int intParam1) {
 														}
 													}
 													else {
-														if ((intParam1 == intGLOB_65)) {
+														if ((intParam1 == 27)) {
 															if ((nLocal == 1)) {
 																nTalent = sub63();
 															}
@@ -1258,53 +1126,53 @@ talent sub52(int intParam1) {
 															}
 														}
 														else {
-															if ((intParam1 == intGLOB_43)) {
+															if ((intParam1 == 5)) {
 																nTalent = sub58();
 																int4 = 1;
 															}
 															else {
-																if ((intParam1 == intGLOB_44)) {
+																if ((intParam1 == 6)) {
 																	if (((nLocal == 1) || (nLocal == 2))) {
 																		nTalent = sub58();
 																		int4 = 1;
 																	}
 																}
 																else {
-																	if ((intParam1 == intGLOB_45)) {
+																	if ((intParam1 == 7)) {
 																		if (((nLocal == 1) || (nLocal == 2))) {
 																			nTalent = sub58();
 																			int4 = 1;
 																		}
 																	}
 																	else {
-																		if (((intParam1 == intGLOB_46) || (intParam1 == intGLOB_42))) {
+																		if (((intParam1 == 8) || (intParam1 == 4))) {
 																			sub4("GENERIC DEBUG *************** Melee/Ranged Breather");
 																		}
 																		else {
-																			if ((intParam1 == intGLOB_39)) {
+																			if ((intParam1 == 1)) {
 																				nTalent = sub65();
 																				int4 = 1;
 																			}
 																			else {
-																				if ((intParam1 == intGLOB_40)) {
+																				if ((intParam1 == 2)) {
 																					if (((nLocal == 1) || (nLocal == 2))) {
 																						nTalent = sub65();
 																						int4 = 1;
 																					}
 																				}
 																				else {
-																					if ((intParam1 == intGLOB_41)) {
+																					if ((intParam1 == 3)) {
 																						if (((nLocal == 1) || (nLocal == 2))) {
 																							nTalent = sub65();
 																							int4 = 1;
 																						}
 																					}
 																					else {
-																						if ((intParam1 == intGLOB_47)) {
+																						if ((intParam1 == 9)) {
 																							talFeat = GetCreatureTalentRandom(63743, OBJECT_SELF, 0);
 																						}
 																						else {
-																							if ((intParam1 == intGLOB_48)) {
+																							if ((intParam1 == 10)) {
 																								if ((nLocal == 1)) {
 																									talFeat = GetCreatureTalentRandom(63743, OBJECT_SELF, 0);
 																								}
@@ -1313,7 +1181,7 @@ talent sub52(int intParam1) {
 																								}
 																							}
 																							else {
-																								if ((intParam1 == intGLOB_49)) {
+																								if ((intParam1 == 11)) {
 																									if ((nLocal == 1)) {
 																										talFeat = GetCreatureTalentRandom(63743, OBJECT_SELF, 0);
 																									}
@@ -1322,7 +1190,7 @@ talent sub52(int intParam1) {
 																									}
 																								}
 																								else {
-																									if ((intParam1 == intGLOB_50)) {
+																									if ((intParam1 == 12)) {
 																										if ((nLocal == 1)) {
 																											talFeat = GetCreatureTalentRandom(63743, OBJECT_SELF, 0);
 																										}
@@ -1334,7 +1202,7 @@ talent sub52(int intParam1) {
 																										}
 																									}
 																									else {
-																										if ((intParam1 == intGLOB_51)) {
+																										if ((intParam1 == 13)) {
 																											if ((nLocal == 1)) {
 																												talFeat = GetCreatureTalentRandom(61951, OBJECT_SELF, 0);
 																											}
@@ -1346,7 +1214,7 @@ talent sub52(int intParam1) {
 																											}
 																										}
 																										else {
-																											if ((intParam1 == intGLOB_66)) {
+																											if ((intParam1 == 28)) {
 																												if ((nLocal == 1)) {
 																													nTalent = sub65();
 																													int4 = 1;
@@ -1360,7 +1228,7 @@ talent sub52(int intParam1) {
 																												}
 																											}
 																											else {
-																												if ((intParam1 == intGLOB_67)) {
+																												if ((intParam1 == 29)) {
 																													if ((nLocal == 1)) {
 																														talFeat = GetCreatureTalentRandom(32768, OBJECT_SELF, 0);
 																													}
@@ -1400,7 +1268,7 @@ talent sub52(int intParam1) {
 		}
 	}
 	(nLocal++);
-	SetLocalNumber(OBJECT_SELF, intGLOB_35, nLocal);
+	SetLocalNumber(OBJECT_SELF, 4, nLocal);
 	if (((!GetIsTalentValid(talFeat)) || (!GetCreatureHasTalent(talFeat, OBJECT_SELF)))) {
 		if (((nTalent != (-1)) && (int4 == 0))) {
 			talFeat = TalentSpell(nTalent);
@@ -1421,115 +1289,115 @@ talent sub52(int intParam1) {
 }
 
 string sub51(int intParam1) {
-	if ((intParam1 == intGLOB_39)) {
+	if ((intParam1 == 1)) {
 		return "SW_COMBO_RANGED_FEROCIOUS";
 	}
 	else {
-		if ((intParam1 == intGLOB_40)) {
+		if ((intParam1 == 2)) {
 			return "SW_COMBO_RANGED_AGGRESSIVE";
 		}
 		else {
-			if ((intParam1 == intGLOB_41)) {
+			if ((intParam1 == 3)) {
 				return "SW_COMBO_RANGED_DISCIPLINED";
 			}
 			else {
-				if ((intParam1 == intGLOB_42)) {
+				if ((intParam1 == 4)) {
 					return "SW_COMBO_RANGED_CAUTIOUS";
 				}
 				else {
-					if ((intParam1 == intGLOB_43)) {
+					if ((intParam1 == 5)) {
 						return "SW_COMBO_MELEE_FEROCIOUS";
 					}
 					else {
-						if ((intParam1 == intGLOB_44)) {
+						if ((intParam1 == 6)) {
 							return "SW_COMBO_MELEE_AGGRESSIVE";
 						}
 						else {
-							if ((intParam1 == intGLOB_45)) {
+							if ((intParam1 == 7)) {
 								return "SW_COMBO_MELEE_DISCIPLINED";
 							}
 							else {
-								if ((intParam1 == intGLOB_46)) {
+								if ((intParam1 == 8)) {
 									return "SW_COMBO_MELEE_CAUTIOUS";
 								}
 								else {
-									if ((intParam1 == intGLOB_47)) {
+									if ((intParam1 == 9)) {
 										return "SW_COMBO_BUFF_PARTY";
 									}
 									else {
-										if ((intParam1 == intGLOB_48)) {
+										if ((intParam1 == 10)) {
 											return "SW_COMBO_BUFF_DEBILITATE";
 										}
 										else {
-											if ((intParam1 == intGLOB_49)) {
+											if ((intParam1 == 11)) {
 												return "SW_COMBO_BUFF_DAMAGE";
 											}
 											else {
-												if ((intParam1 == intGLOB_50)) {
+												if ((intParam1 == 12)) {
 													return "SW_COMBO_BUFF_DEBILITATE_DESTROY";
 												}
 												else {
-													if ((intParam1 == intGLOB_51)) {
+													if ((intParam1 == 13)) {
 														return "SW_COMBO_SUPRESS_DEBILITATE_DESTROY";
 													}
 													else {
-														if ((intParam1 == intGLOB_52)) {
+														if ((intParam1 == 14)) {
 															return "SW_COMBO_SITH_ATTACK";
 														}
 														else {
-															if ((intParam1 == intGLOB_53)) {
+															if ((intParam1 == 15)) {
 																return "SW_COMBO_BUFF_ATTACK";
 															}
 															else {
-																if ((intParam1 == intGLOB_54)) {
+																if ((intParam1 == 16)) {
 																	return "SW_COMBO_SITH_CONFOUND";
 																}
 																else {
-																	if ((intParam1 == intGLOB_55)) {
+																	if ((intParam1 == 17)) {
 																		return "SW_COMBO_JEDI_SMITE";
 																	}
 																	else {
-																		if ((intParam1 == intGLOB_56)) {
+																		if ((intParam1 == 18)) {
 																			return "SW_COMBO_SITH_TAUNT";
 																		}
 																		else {
-																			if ((intParam1 == intGLOB_57)) {
+																			if ((intParam1 == 19)) {
 																				return "SW_COMBO_SITH_BLADE";
 																			}
 																			else {
-																				if ((intParam1 == intGLOB_58)) {
+																				if ((intParam1 == 20)) {
 																					return "SW_COMBO_SITH_CRUSH";
 																				}
 																				else {
-																					if ((intParam1 == intGLOB_59)) {
+																					if ((intParam1 == 21)) {
 																						return "SW_COMBO_JEDI_CRUSH";
 																					}
 																					else {
-																						if ((intParam1 == intGLOB_60)) {
+																						if ((intParam1 == 22)) {
 																							return "SW_COMBO_SITH_BRUTALIZE";
 																						}
 																						else {
-																							if ((intParam1 == intGLOB_61)) {
+																							if ((intParam1 == 23)) {
 																								return "SW_COMBO_SITH_DRAIN";
 																							}
 																							else {
-																								if ((intParam1 == intGLOB_62)) {
+																								if ((intParam1 == 24)) {
 																									return "SW_COMBO_SITH_ESCAPE";
 																								}
 																								else {
-																									if ((intParam1 == intGLOB_63)) {
+																									if ((intParam1 == 25)) {
 																										return "SW_COMBO_JEDI_BLITZ";
 																									}
 																									else {
-																										if ((intParam1 == intGLOB_64)) {
+																										if ((intParam1 == 26)) {
 																											return "SW_COMBO_SITH_SPIKE";
 																										}
 																										else {
-																											if ((intParam1 == intGLOB_65)) {
+																											if ((intParam1 == 27)) {
 																												return "SW_COMBO_SITH_SCYTHE";
 																											}
 																											else {
-																												if ((intParam1 == intGLOB_66)) {
+																												if ((intParam1 == 28)) {
 																													return "SW_COMBO_DROID_UTILITIES";
 																												}
 																											}
@@ -1655,40 +1523,40 @@ int sub38() {
 }
 
 int sub37(int intParam1) {
-	if ((intParam1 == intGLOB_68)) {
+	if ((intParam1 == 30)) {
 		return 0;
 	}
 	talent talRandom;
 	talent talent2;
-	if ((((intParam1 == intGLOB_43) || (intParam1 == intGLOB_44)) || (intParam1 == intGLOB_45))) {
+	if ((((intParam1 == 5) || (intParam1 == 6)) || (intParam1 == 7))) {
 		talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 		if ((GetIsTalentValid(talRandom) && GetCreatureHasTalent(talRandom, OBJECT_SELF))) {
 			return 1;
 		}
 	}
 	else {
-		if ((intParam1 == intGLOB_42)) {
+		if ((intParam1 == 4)) {
 			return 1;
 		}
 		else {
-			if ((((intParam1 == intGLOB_39) || (intParam1 == intGLOB_40)) || (intParam1 == intGLOB_41))) {
+			if ((((intParam1 == 1) || (intParam1 == 2)) || (intParam1 == 3))) {
 				if (((((((((GetHasFeat(31, OBJECT_SELF) || GetHasFeat(20, OBJECT_SELF)) || GetHasFeat(77, OBJECT_SELF)) || GetHasFeat(29, OBJECT_SELF)) || GetHasFeat(18, OBJECT_SELF)) || GetHasFeat(82, OBJECT_SELF)) || GetHasFeat(30, OBJECT_SELF)) || GetHasFeat(26, OBJECT_SELF)) || GetHasFeat(92, OBJECT_SELF))) {
 					return 1;
 				}
 			}
 			else {
-				if ((intParam1 == intGLOB_46)) {
+				if ((intParam1 == 8)) {
 					return 1;
 				}
 				else {
-					if ((intParam1 == intGLOB_47)) {
+					if ((intParam1 == 9)) {
 						talRandom = GetCreatureTalentRandom(63743, OBJECT_SELF, 0);
 						if ((GetIsTalentValid(talRandom) && GetCreatureHasTalent(talRandom, OBJECT_SELF))) {
 							return 1;
 						}
 					}
 					else {
-						if ((intParam1 == intGLOB_48)) {
+						if ((intParam1 == 10)) {
 							talRandom = GetCreatureTalentRandom(63743, OBJECT_SELF, 0);
 							talent2 = GetCreatureTalentRandom(62207, OBJECT_SELF, 0);
 							if ((((GetIsTalentValid(talRandom) && GetIsTalentValid(talent2)) && GetCreatureHasTalent(talRandom, OBJECT_SELF)) && GetCreatureHasTalent(talent2, OBJECT_SELF))) {
@@ -1696,14 +1564,14 @@ int sub37(int intParam1) {
 							}
 						}
 						else {
-							if ((intParam1 == intGLOB_49)) {
+							if ((intParam1 == 11)) {
 								talRandom = GetCreatureTalentRandom(63743, OBJECT_SELF, 0);
 								if ((GetIsTalentValid(talRandom) && sub38())) {
 									return 1;
 								}
 							}
 							else {
-								if ((intParam1 == intGLOB_50)) {
+								if ((intParam1 == 12)) {
 									talRandom = GetCreatureTalentRandom(63743, OBJECT_SELF, 0);
 									talent2 = GetCreatureTalentRandom(62207, OBJECT_SELF, 0);
 									if (((GetIsTalentValid(talRandom) && GetIsTalentValid(talent2)) && sub38())) {
@@ -1711,7 +1579,7 @@ int sub37(int intParam1) {
 									}
 								}
 								else {
-									if ((intParam1 == intGLOB_51)) {
+									if ((intParam1 == 13)) {
 										talRandom = GetCreatureTalentRandom(65327, OBJECT_SELF, 0);
 										talent2 = GetCreatureTalentRandom(62207, OBJECT_SELF, 0);
 										if (((GetIsTalentValid(talRandom) && GetIsTalentValid(talent2)) && sub38())) {
@@ -1719,99 +1587,99 @@ int sub37(int intParam1) {
 										}
 									}
 									else {
-										if ((intParam1 == intGLOB_52)) {
+										if ((intParam1 == 14)) {
 											if (((sub39() && sub40()) && sub41())) {
 												return 1;
 											}
 										}
 										else {
-											if ((intParam1 == intGLOB_53)) {
+											if ((intParam1 == 15)) {
 												talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 												if (((sub42() && sub43()) && GetIsTalentValid(talRandom))) {
 													return 1;
 												}
 											}
 											else {
-												if ((intParam1 == intGLOB_54)) {
+												if ((intParam1 == 16)) {
 													talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 													if ((sub44() && GetIsTalentValid(talRandom))) {
 														return 1;
 													}
 												}
 												else {
-													if ((intParam1 == intGLOB_55)) {
+													if ((intParam1 == 17)) {
 														talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 														if ((sub45() && GetIsTalentValid(talRandom))) {
 															return 1;
 														}
 													}
 													else {
-														if ((intParam1 == intGLOB_56)) {
+														if ((intParam1 == 18)) {
 															talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 															if (((sub40() && sub46()) && GetIsTalentValid(talRandom))) {
 																return 1;
 															}
 														}
 														else {
-															if ((intParam1 == intGLOB_57)) {
+															if ((intParam1 == 19)) {
 																if (((sub46() && sub39()) && sub47())) {
 																	return 1;
 																}
 															}
 															else {
-																if ((intParam1 == intGLOB_58)) {
+																if ((intParam1 == 20)) {
 																	if (((sub44() && sub39()) && sub41())) {
 																		return 1;
 																	}
 																}
 																else {
-																	if ((intParam1 == intGLOB_59)) {
+																	if ((intParam1 == 21)) {
 																		if (((sub45() && sub39()) && sub41())) {
 																			return 1;
 																		}
 																	}
 																	else {
-																		if ((intParam1 == intGLOB_59)) {
+																		if ((intParam1 == 21)) {
 																			if (((sub40() && sub48()) && sub39())) {
 																				return 1;
 																			}
 																		}
 																		else {
-																			if ((intParam1 == intGLOB_61)) {
+																			if ((intParam1 == 23)) {
 																				talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 																				if ((sub48() && GetIsTalentValid(talRandom))) {
 																					return 1;
 																				}
 																			}
 																			else {
-																				if ((intParam1 == intGLOB_62)) {
+																				if ((intParam1 == 24)) {
 																					if (((sub48() && sub39()) && sub47())) {
 																						return 1;
 																					}
 																				}
 																				else {
-																					if ((intParam1 == intGLOB_63)) {
+																					if ((intParam1 == 25)) {
 																						talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 																						if ((sub39() && GetIsTalentValid(talRandom))) {
 																							return 1;
 																						}
 																					}
 																					else {
-																						if ((intParam1 == intGLOB_64)) {
+																						if ((intParam1 == 26)) {
 																							talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 																							if (((sub39() && sub46()) && GetIsTalentValid(talRandom))) {
 																								return 1;
 																							}
 																						}
 																						else {
-																							if ((intParam1 == intGLOB_65)) {
+																							if ((intParam1 == 27)) {
 																								talRandom = GetCreatureTalentRandom(4356, OBJECT_SELF, 0);
 																								if (((sub48() && sub49()) && GetIsTalentValid(talRandom))) {
 																									return 1;
 																								}
 																							}
 																							else {
-																								if (((intParam1 == intGLOB_66) || (intParam1 == intGLOB_67))) {
+																								if (((intParam1 == 28) || (intParam1 == 29))) {
 																									object oLArmItem = GetItemInSlot(7, OBJECT_SELF);
 																									object oRArmItem = GetItemInSlot(8, OBJECT_SELF);
 																									sub4(((("GENERIC DEBUG *************** Droid Items = " + sub5(oLArmItem)) + " / ") + sub5(oRArmItem)));
@@ -1854,19 +1722,19 @@ int sub36(int intParam1) {
 		if ((intParam1 == 0)) {
 			nRandom = (Random(23) + 1);
 			if (((nRandom == 1) || (nRandom == 2))) {
-				return intGLOB_43;
+				return 5;
 			}
 			else {
 				if (((nRandom == 3) || (nRandom == 4))) {
-					return intGLOB_44;
+					return 6;
 				}
 				else {
 					if (((nRandom == 5) || (nRandom == 6))) {
-						return intGLOB_45;
+						return 7;
 					}
 					else {
 						if ((((nRandom == 7) || (nRandom == 8)) || (nRandom == 9))) {
-							return intGLOB_46;
+							return 8;
 						}
 						else {
 							if (((nRandom >= 10) || (nRandom <= 24))) {
@@ -1893,30 +1761,30 @@ talent sub35(int intParam1) {
 	int nNPCStyle = GetNPCAIStyle(OBJECT_SELF);
 	sub4("GENERIC DEBUG *************** Starting GetComboMove");
 	if (((structGLOB_1.int13 == 4) || (structGLOB_1.int13 == 0))) {
-		SetLocalNumber(OBJECT_SELF, intGLOB_35, 0);
-		SetLocalNumber(OBJECT_SELF, intGLOB_34, 0);
+		SetLocalNumber(OBJECT_SELF, 4, 0);
+		SetLocalNumber(OBJECT_SELF, 3, 0);
 		nRandom = d6(1);
 		if ((nRandom > 0)) {
 			if ((((GetLevelByClass(4, OBJECT_SELF) > 0) || (GetLevelByClass(3, OBJECT_SELF) > 0)) || (GetLevelByClass(5, OBJECT_SELF) > 0))) {
 				int2 = sub36(intParam1);
 				sub4(("GENERIC DEBUG *************** Starting Jedi Combo " + sub51(int2)));
-				SetLocalNumber(OBJECT_SELF, intGLOB_35, 1);
-				SetLocalNumber(OBJECT_SELF, intGLOB_34, int2);
+				SetLocalNumber(OBJECT_SELF, 4, 1);
+				SetLocalNumber(OBJECT_SELF, 3, int2);
 				return sub52(int2);
 			}
 			else {
 				if (((GetLevelByClass(6, OBJECT_SELF) > 0) || (GetLevelByClass(7, OBJECT_SELF) > 0))) {
 					int2 = sub66(intParam1);
 					sub4(("GENERIC DEBUG *************** Starting Droid Combo " + sub51(int2)));
-					SetLocalNumber(OBJECT_SELF, intGLOB_35, 1);
-					SetLocalNumber(OBJECT_SELF, intGLOB_34, int2);
+					SetLocalNumber(OBJECT_SELF, 4, 1);
+					SetLocalNumber(OBJECT_SELF, 3, int2);
 					return sub52(int2);
 				}
 				else {
 					int2 = sub67(intParam1);
 					sub4(("GENERIC DEBUG *************** Starting NPC Combo " + sub51(int2)));
-					SetLocalNumber(OBJECT_SELF, intGLOB_35, 1);
-					SetLocalNumber(OBJECT_SELF, intGLOB_34, int2);
+					SetLocalNumber(OBJECT_SELF, 4, 1);
+					SetLocalNumber(OBJECT_SELF, 3, int2);
 					return sub52(int2);
 				}
 			}
@@ -1969,18 +1837,18 @@ int sub33(object objectParam1) {
 	talent talent1;
 	oNPC = sub34();
 	if (GetIsObjectValid(oNPC)) {
-		if (sub16(intGLOB_142, oNPC)) {
+		if (sub16(2, oNPC)) {
 			return 1;
 		}
 	}
 	oNPC = sub15();
 	if (GetIsObjectValid(oNPC)) {
-		if (sub16(intGLOB_143, oNPC)) {
+		if (sub16(3, oNPC)) {
 			return 1;
 		}
 	}
 	talent1 = sub35(0);
-	int nLocalBool = GetLocalBoolean(OBJECT_SELF, intGLOB_69);
+	int nLocalBool = GetLocalBoolean(OBJECT_SELF, 59);
 	if ((nLocalBool == 1)) {
 		if ((GetNPCAIStyle(OBJECT_SELF) == 5)) {
 			oNPC = GetPartyMemberByIndex(0);
@@ -2138,7 +2006,7 @@ int sub30() {
 			sub4("GENERIC DEBUG *************** Boss AI: Get Boss Combat Move AI Droid");
 			int1 = 1;
 		}
-		talent1 = sub24(intGLOB_30, int1);
+		talent1 = sub24(3, int1);
 		talent1 = sub31(object1, talent1);
 		talent1 = sub32(object1, talent1);
 		sub4(("GENERIC DEBUG *************** Boss AI: Target = " + sub10(GetIsObjectValid(object1))));
@@ -2180,7 +2048,7 @@ int sub28() {
 		if ((GetRacialType(object1) == 5)) {
 			(int2 == 1);
 		}
-		talent1 = sub24(intGLOB_29, int2);
+		talent1 = sub24(2, int2);
 		if (GetIsTalentValid(talent1)) {
 			ClearAllActions();
 			ActionUseTalentOnObject(talent1, object1);
@@ -2632,21 +2500,21 @@ talent sub24(int intParam1, int intParam2) {
 	talent talent1;
 	talent talRandom;
 	int int1 = 0;
-	if (((intParam1 == intGLOB_28) || (intParam1 == intGLOB_32))) {
+	if (((intParam1 == 1) || (intParam1 == 5))) {
 		talRandom = sub25(intParam2);
 		if (GetIsTalentValid(talRandom)) {
 			sub4("GENERIC DEBUG *************** Boss AI: Grenade Talent Chosen");
 			return talRandom;
 		}
 	}
-	if (((intParam1 == intGLOB_29) || (intParam1 == intGLOB_32))) {
+	if (((intParam1 == 2) || (intParam1 == 5))) {
 		talRandom = sub26(intParam2);
 		if (GetIsTalentValid(talRandom)) {
 			sub4("GENERIC DEBUG *************** Boss AI: AOE Force Power Talent Chosen");
 			return talRandom;
 		}
 	}
-	if (((intParam1 == intGLOB_30) || (intParam1 == intGLOB_32))) {
+	if (((intParam1 == 3) || (intParam1 == 5))) {
 		if ((d100(1) > 50)) {
 			talRandom = sub27(intParam2);
 			if (GetIsTalentValid(talRandom)) {
@@ -2672,7 +2540,7 @@ talent sub24(int intParam1, int intParam2) {
 		}
 	}
 	else {
-		if (((intParam1 == intGLOB_31) || (intParam1 == intGLOB_32))) {
+		if (((intParam1 == 4) || (intParam1 == 5))) {
 			if ((d100(1) > 70)) {
 				talRandom = sub27(intParam2);
 				if (GetIsTalentValid(talRandom)) {
@@ -2753,7 +2621,7 @@ int sub20() {
 		if ((GetRacialType(object1) == 5)) {
 			(int2 == 1);
 		}
-		talent1 = sub24(intGLOB_28, int2);
+		talent1 = sub24(1, int2);
 		if (GetIsTalentValid(talent1)) {
 			sub4("GENERIC DEBUG *************** Clear 1460");
 			ClearAllActions();
@@ -2942,11 +2810,11 @@ int sub16(int intParam1, object objectParam2) {
 		int int2;
 		int int3 = 0;
 		int int4 = 0;
-		if ((intParam1 == intGLOB_141)) {
+		if ((intParam1 == 1)) {
 			int2 = 61473;
 		}
 		else {
-			if ((intParam1 == intGLOB_142)) {
+			if ((intParam1 == 2)) {
 				talSpell = TalentSpell(28);
 				talent2 = TalentSpell(10);
 				talent3 = TalentSpell(67);
@@ -2967,7 +2835,7 @@ int sub16(int intParam1, object objectParam2) {
 				}
 			}
 			else {
-				if ((intParam1 == intGLOB_143)) {
+				if ((intParam1 == 3)) {
 					sub4(("GENERIC DEBUG *************** Starting Heal Talent Checks " + sub5(OBJECT_SELF)));
 					talSpell = TalentSpell(28);
 					talent2 = TalentSpell(10);
@@ -3024,7 +2892,7 @@ int sub16(int intParam1, object objectParam2) {
 					}
 				}
 				else {
-					if ((intParam1 == intGLOB_144)) {
+					if ((intParam1 == 4)) {
 						talSpell = TalentSpell(36);
 						talent2 = TalentSpell(33);
 						talent3 = TalentSpell(22);
@@ -3140,7 +3008,7 @@ int sub14(object objectParam1) {
 	sub4("GENERIC DEBUG *************** Boss AI Start");
 	object object1 = sub15();
 	if (GetIsObjectValid(object1)) {
-		if (sub16(intGLOB_143, object1)) {
+		if (sub16(3, object1)) {
 			return 1;
 		}
 	}
@@ -3231,8 +3099,8 @@ int sub13() {
 
 int sub12() {
 	int int1 = 0;
-	if (((sub8(intGLOB_135) == 0) && (!IsObjectPartyMember(OBJECT_SELF)))) {
-		if (((GetHitDice(GetFirstPC()) >= 15) || sub8(intGLOB_132))) {
+	if (((sub8(67) == 0) && (!IsObjectPartyMember(OBJECT_SELF)))) {
+		if (((GetHitDice(GetFirstPC()) >= 15) || sub8(64))) {
 			talent talSpell = TalentSpell(41);
 			talent talent3 = TalentSpell(20);
 			talent talent5;
@@ -3251,7 +3119,7 @@ int sub12() {
 				ClearAllActions();
 				ActionUseTalentOnObject(talent5, OBJECT_SELF);
 			}
-			sub11(intGLOB_135, 1);
+			sub11(67, 1);
 		}
 	}
 	return int1;
@@ -3267,8 +3135,8 @@ string sub10(int intParam1) {
 
 int sub9() {
 	sub4("GENERIC DEBUG *************** Starting Forcefield Search");
-	sub4(((("GENERIC DEBUG *************** Shield Boolean (" + sub10(intGLOB_133)) + ") = ") + sub10(sub8(intGLOB_133))));
-	if (((sub8(intGLOB_133) == 0) && (!IsObjectPartyMember(OBJECT_SELF)))) {
+	sub4(((("GENERIC DEBUG *************** Shield Boolean (" + sub10(65)) + ") = ") + sub10(sub8(65))));
+	if (((sub8(65) == 0) && (!IsObjectPartyMember(OBJECT_SELF)))) {
 		int int4;
 		int int5;
 		int int6 = 0;
@@ -3294,11 +3162,11 @@ int sub9() {
 			sub4("GENERIC DEBUG *************** Clear 1700");
 			ClearAllActions();
 			ActionUseTalentOnObject(talSpell, OBJECT_SELF);
-			sub11(intGLOB_133, 1);
+			sub11(65, 1);
 			return 1;
 		}
 		else {
-			sub11(intGLOB_133, 1);
+			sub11(65, 1);
 			return 0;
 		}
 	}
@@ -3357,8 +3225,8 @@ void sub6() {
 			structGLOB_1.int5 = GetCategoryFromTalent(talFeat);
 		}
 	}
-	structGLOB_1.int13 = GetLocalNumber(OBJECT_SELF, intGLOB_35);
-	structGLOB_1.int15 = GetLocalNumber(OBJECT_SELF, intGLOB_34);
+	structGLOB_1.int13 = GetLocalNumber(OBJECT_SELF, 4);
+	structGLOB_1.int15 = GetLocalNumber(OBJECT_SELF, 3);
 }
 
 string sub5(object objectParam1) {
@@ -3380,7 +3248,7 @@ void sub3(object objectParam1) {
 		int nStyle = GetPartyAIStyle();
 		int nNPCStyle = GetNPCAIStyle(OBJECT_SELF);
 		sub4(("GENERIC DEBUG *************** AI STYLE = " + sub7(OBJECT_SELF)));
-		if (((((!sub8(intGLOB_128)) && (!sub8(intGLOB_129))) && (!sub8(intGLOB_130))) && (!GetUserActionsPending()))) {
+		if (((((!sub8(60)) && (!sub8(61))) && (!sub8(62))) && (!GetUserActionsPending()))) {
 		if (((GetPartyMemberByIndex(0) != OBJECT_SELF) && (!GetPlayerRestrictMode(OBJECT_SELF)))) {
 			if (((IsObjectPartyMember(OBJECT_SELF) && (!GetPlayerRestrictMode(OBJECT_SELF))) || (!IsObjectPartyMember(OBJECT_SELF)))) {
 				if ((nNPCStyle == 2)) {
@@ -3405,12 +3273,12 @@ void sub3(object objectParam1) {
 				if ((sub12() == 1)) {
 					return;
 				}
-				if ((sub8(intGLOB_138) == 1)) {
+				if ((sub8(70) == 1)) {
 					if ((sub13() == 1)) {
 						return;
 					}
 				}
-				if ((sub8(intGLOB_132) == 1)) {
+				if ((sub8(64) == 1)) {
 					if ((sub14(objectParam1) == 1)) {
 						return;
 					}
