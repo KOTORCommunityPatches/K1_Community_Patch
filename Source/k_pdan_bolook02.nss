@@ -30,6 +30,6 @@ void main() {
 	DestroyObject(oBolook, 0.0, FALSE, 0.0);
 	DestroyObject(oDroid, 0.0, FALSE, 0.0);
 	DestroyObject(oPlaceable, 0.0, FALSE, 0.0);
-	AssignCommand(oCorpse,SetIsDestroyable(TRUE,FALSE,FALSE));
-	DelayCommand(0.1, DestroyObject(oCorpse, 0.0, FALSE, 0.0));
+	AssignCommand(oCorpse,SetIsDestroyable(TRUE));
+	DestroyObject(oCorpse, 0.0, FALSE, 0.0);
 }
