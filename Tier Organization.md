@@ -51,6 +51,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar)
 * Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
 * Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
+* During the Sandral-Matale Feud, the player had the option to claim Ahlan Matale had offered a reward, even if no such conversation took place
 * Elora confesses to Sunry's infidelity automatically if you have Jolee or Bastila in your party: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Energy shields don't block electricity: [Energy Shield Damage Fix](http://deadlystream.com/forum/files/file/548-energy-shield-damage-fix/)
 * First lightsaber crystal uses wrong icon: [First Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/898-first-lightsaber-crystal-fix/)
@@ -64,6 +65,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Handon and Rickard wear the same outfit [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 * Hidden Beks didn’t react quickly to intruders (reported by DarthParametric) [ISSUE #71](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/71)
 * In rare instances, a Mandalorian on Dantooine could try to use a Final Fantasy gunblade [ISSUE #111](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111)
+* It was possible to interact with a transformer in the Sith base—though it did nothing of particular interest
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 * Malak's grunt sound didn't play in the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)

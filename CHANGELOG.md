@@ -131,6 +131,8 @@
 * Replaced almost all the soundsets for Hrakert Station UTCs, mostly Selkath using droid soundsets
 * Set Bandon's Dark Jedi offsiders to neutral to prevent them getting twitchy before their boss is ready to fight
 * Switched previous hard overwrite of Hrakert Station GIT to patcher setup
+* Added a conditional script for one player response during the Sandral-Matale Feud so it's only available if the player spoke to Ahlan Matale about a reward
+* Made a transformer in the Sith base on Taris non-interactable
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
