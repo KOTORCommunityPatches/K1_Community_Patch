@@ -127,6 +127,9 @@
 * Moved a crate in the back of the Hidden Bek base that was clipping into a wall
 * Moved the swoop records computer panel in Manaan Ahto East to stop it clipping into a wall
 * Set the DLG for a bounty hunter in Javyar's cantina to human instead of computer
+* Added a party jump and static camera to fix the issue with the Hrakert Station merc going out of frame when playing the Horror animation
+* Replaced almost all the soundsets for Hrakert Station UTCs, mostly Selkath using droid soundsets
+* Set Bandon's Dark Jedi offsiders to neutral to prevent them getting twitchy before their boss is ready to fight
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

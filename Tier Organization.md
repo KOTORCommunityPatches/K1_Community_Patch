@@ -43,6 +43,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris (reported by Salk)
 * Ahlan Matale was able to channel his rage in order to use Force levitation in the Council chambers [ISSUE #55](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55)
 * Bacca's Blade Hilt was never removed from your inventory: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* Bandon's lackeys in Hrakert Station were keen to start the fight right away, forgetting the rule of bad guy monologuing [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * Bastila would not show you the fourth vision if you travelled to all four planets before the Leviathan [K1R](https://deadlystream.com/files/file/558-kotor-1-restoration/) [ISSUE #10](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/10)
 * Bastilla turned off her lightsaber after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Belaya attacks with her fists (Reported by Mr Ardvark)
@@ -67,6 +68,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Malak's grunt sound didn't play in the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)
 * Mission has no clothing on when you meet Griff at the spaceport without her in your party
+* Nearly everyone/thing in Hrakert Station had the wrong soundset [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * On the Star Forge, the wrong speaker said the "You are wasting your time..." line: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar)
 * One of the bounty hunters in Javyar's cantina was secretly a computer in disguise (Reported by JCarter426) [ISSUE #133](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/133)
@@ -166,6 +168,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The initial conversation with Davik at his estate had a multitude of positioning and facing issues [ISSUE #57](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57)
 * The initial conversation with Gadon Thek can suffer from poor party positioning due to the desk in the way [ISSUE #70](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70)
 * The interrogation of the prisoner in the Manaan Republic Embassy had various facing issues, problems with the force cage visibility in certain camera angles, and a line that skipped [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
+* The merc in Hrakert Station would go out of frame every time he performed the Horror animation [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * The player can freeze during conversation with Ajuur in the Taris Upper City cantina: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #88](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/88)
 * The player doesn't face their opponent at the start of matches in the Taris Upper City duel arena: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #76](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/76)
 * The player was briefly visible before the game was supposed to actually start
