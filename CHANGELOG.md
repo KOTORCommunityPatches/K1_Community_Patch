@@ -130,6 +130,7 @@
 * Added a party jump and static camera to fix the issue with the Hrakert Station merc going out of frame when playing the Horror animation
 * Replaced almost all the soundsets for Hrakert Station UTCs, mostly Selkath using droid soundsets
 * Set Bandon's Dark Jedi offsiders to neutral to prevent them getting twitchy before their boss is ready to fight
+* Switched previous hard overwrite of Hrakert Station GIT to patcher setup
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
