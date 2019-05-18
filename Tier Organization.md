@@ -34,6 +34,7 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 ## Developer Oversight
 These are fixes for other issues that were likely unintended. They don't break the game, but they are obvious things to fix.
 * A couple of selection icons for security terminals in the Taris Sith Base are positioned too low [ISSUE #58](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/58)
+* A crate in the Hidden Bek base was clipping into a wall (Reported by JCarter426) [ISSUE #150](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/150)
 * A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 * A few Sith technicians on the Leviathan attacked with their fists instead of equipping weapons [ISSUE #147](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/147
 * A random swoop fan on Manaan was getting in the way of a Sith extorting people for money (reported by DarthParametric) [ISSUE #140](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/140)

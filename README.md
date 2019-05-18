@@ -97,6 +97,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/) (Partial)
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/) (Partial)
 * A couple of selection icons for security terminals in the Taris Sith Base are positioned too low [ISSUE #58](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/58)
+* A crate in the Hidden Bek base was clipping into a wall (Reported by JCarter426) [ISSUE #150](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/150)
 * A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 * A few Sith technicians on the Leviathan attacked with their fists instead of equipping weapons [ISSUE #147](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/147)
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar) [ISSUE #35](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/35)
