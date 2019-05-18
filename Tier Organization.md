@@ -89,6 +89,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Some view screen monitors in the Taris Upper City cantina float in mid-air: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #87](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/87)
 * The end credits don't scale to screen resolution during the Dark Side ending
+* The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (reported by DarthParametric)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
