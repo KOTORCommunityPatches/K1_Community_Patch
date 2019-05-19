@@ -24,13 +24,6 @@
 
 #include "k_inc_dan"
 
-// Prototypes
-int EliseState();
-
-int EliseState() {
-	return (GetGlobalNumber("DAN_ELISE_PLOT") == TRUE);
-}
-
 void main() {
 
 	int int1 = UT_GetPlotBooleanFlag(OBJECT_SELF, TRUE);
@@ -66,7 +59,7 @@ void main() {
 				oPdan_swdroid = GetObjectByTag("pdan_swdroid", int8);
 			}
 		}
-		if (EliseState()) {
+		if (ElisePlotStarted()) {
 			PlaceNPC("dan14_c869", "");
 			if ((UT_GetPlotBooleanFlag(OBJECT_SELF, 7) == 0)) {
 				UT_SetPlotBooleanFlag(OBJECT_SELF, 7, 1);
