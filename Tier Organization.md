@@ -188,6 +188,7 @@ Dialogue trees have been altered to reduce repetition and improve the flow of th
 * Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
 * Vandar repeated dialogue if you spoke to him again before investigating the ruins (reported by DarthParametric)
 * Vandar’s dialogue was locked out after the player completed Dantooine
+* Elora’s exposition was unnecessary if the player had already heard about Sunry's situation from Jordo (with assistance from DarthParametric & ebmar)
 
 ## Visual Improvements
 Sometimes the game assets aren't great. These changes correct problems with them, and may require modder-created assets. But the changes are minimal; they just make the game look how it ought to look.
