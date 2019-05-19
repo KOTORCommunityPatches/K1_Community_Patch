@@ -307,8 +307,8 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 	
 	Makes the target creature equip the first weapon in their inventory.
 	
-	- oCreature = Target creature
-	- nInstant = Whether to equip the item instantaneously, TRUE or FALSE
+	- oCreature: Target creature
+	- nInstant: Whether to equip the item instantaneously, TRUE or FALSE
 	
 	JC 2019-05-06                                                             */
 ////////////////////////////////////////////////////////////////////////////////
@@ -357,6 +357,35 @@ if( !GetIsObjectValid(oRWeapon) ) {
 	if( GetIsObjectValid(oEquip) ) {
 		AssignCommand(oCreature, ActionEquipItem(oEquip, INVENTORY_SLOT_RIGHTWEAPON, nInstant));
 		}
+	}
+
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_DestroyCreatures()
+	
+	Destroys all creatures in the area with the given tag.
+	
+	- sTag: Tag of creatures we want to destroy
+	
+	JC 2019-05-19                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_DestroyCreatures(string sTag) {
+
+int i = 0;
+for(;;) {
+	i++;
+	object oCreature = GetNearestObjectByTag(sTag, GetFirstPC(), i);
+	if( GetIsObjectValid(oCreature) ){
+		// Safety condition to prevent the destruction of a party member
+		// (because that breaks the game)
+		if( !IsObjectPartyMember(oCreature) ) {
+			AssignCommand(oCreature, SetIsDestroyable(TRUE, FALSE, FALSE));
+			DestroyObject(oCreature, 0.0, FALSE);
+			}
+		}
+	else break;
 	}
 
 }
