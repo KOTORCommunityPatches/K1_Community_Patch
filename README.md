@@ -205,7 +205,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (reported by DarthParametric)
 * Dia was a member of the attacking with fists club, despite threatening to cut the player (reported by DarthParametric)
 * During the Sandral-Matale Feud, the player had the option to claim Ahlan Matale had offered a reward, even if no such conversation took place
-* Elora’s exposition was unnecessary if the player had already heard about Sunry's situation from Jordo (with assistance from DarthParametric & ebmar)
+* Elora’s exposition was unnecessary if the player had already heard about Sunry's situation from Davin (with assistance from DarthParametric & ebmar)
 * Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
 * Fixed the height of the workbench on Dantooine
 * Fixed the position of the strongbox in the Taris Lower City apartments (reported by DarthParametric)
