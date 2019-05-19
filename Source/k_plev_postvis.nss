@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	Fired during the Revalation scene on the Leviathan.
+	Fired during the Revelation scene on the Leviathan.
 	
 	Original script edit from KOTOR Bug Fix Attempt by danil-ch.
 	

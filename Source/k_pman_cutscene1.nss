@@ -12,16 +12,20 @@
 
 #include "cp_inc_k1"
 
-int SetTrig() {
+// Prototypes
+int PlotState();
+
+int PlotState() {
 	
-	int int1;
+	int nState;
 	
 	if ((UT_GetPlotBooleanFlag(OBJECT_SELF, 0) == FALSE))
 		{
-			int1 = 1;
+			nState = TRUE;
 			UT_SetPlotBooleanFlag(OBJECT_SELF, 0, TRUE);
 		}
-	return int1;
+
+	return nState;
 }
 
 void main() {
@@ -30,7 +34,7 @@ void main() {
 	object oPC = GetFirstPC();
 	location lPC = Location(Vector(149.0,44.3,6.1), 137.0);
 	
-	if ((IsObjectPartyMember(oEntering) && SetTrig()))
+	if ((IsObjectPartyMember(oEntering) && PlotState()))
 		{
 			SetGlobalFadeOut();
 			CP_PartyJump(oPC, lPC);

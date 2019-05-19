@@ -5,7 +5,7 @@
 	with weapons in their inventory equip a weapon (ranged, falling back to a
 	melee weapon if no ranged weapon is found) as soon as they are spawned.
 	This is an attempt to prevent the attacking with fists issue. Afterwards
-	it just runs the vanilla k_def_spawn01 script.
+	it just runs the contents of the vanilla k_def_spawn01 script.
 	
 	DP 2019-05-17                                                             */
 ////////////////////////////////////////////////////////////////////////////////
