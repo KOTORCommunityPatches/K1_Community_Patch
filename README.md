@@ -119,6 +119,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * In rare instances, a Mandalorian on Dantooine could try to use a Final Fantasy gunblade [ISSUE #111](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111)
 * It was possible to repeatedly attempt to blackmail Roland Wann after the events of Hrakert Station for infinite DS points [ISSUE #106](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/106)
 * Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
+* Jolee's stunt double was briefly visible when he joined the party [ISSUE #122](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122)
 * Kandon's pre-swoop race conversation had some aesthetic issues due to sloppy party positioning [ISSUE #62](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62)
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)
 * Nearly everyone/thing in Hrakert Station had the wrong soundset [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
