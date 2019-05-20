@@ -139,6 +139,7 @@
 * Tweaked Elora's dialogue to remove some lines if the player already heard about Sunry's situation from Davin
 * Fixed some bad lightmap UVs on the floor of the training room in the Manaan Sith Base
 * Tweaked the script that adds Jolee to the party in the Upper Shadowlands to hide the switch between NPC and Party versions
+* Made some alterations to make Trask stay in the same spot when he joins the party instead of jumping behind the player
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

@@ -181,6 +181,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The player was briefly visible before the game was supposed to actually start
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
+* Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
 
