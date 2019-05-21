@@ -140,6 +140,7 @@
 * Fixed some bad lightmap UVs on the floor of the training room in the Manaan Sith Base
 * Tweaked the script that adds Jolee to the party in the Upper Shadowlands to hide the switch between NPC and Party versions
 * Made some alterations to make Trask stay in the same spot when he joins the party instead of jumping behind the player
+* Replaced an incorrect supermodel reference in one of Vandar's cutscene stunt models that was causing some animation issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
