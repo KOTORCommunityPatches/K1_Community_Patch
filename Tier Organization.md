@@ -108,6 +108,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The Tatooine docking bay was missing exit waypoints, causing messengers to fade out in-place instead of leaving [ISSUE #129](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/129)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * There is an inaccessible container in The One's compound
+* Turrets in the Rakatan Temple used the Bith soundset (for some reason) [ISSUE #171](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/171)
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 * Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
 * Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
