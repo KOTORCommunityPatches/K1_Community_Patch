@@ -124,6 +124,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)
 * Nearly everyone/thing in Hrakert Station had the wrong soundset [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
+* One of the Czerka guards in the Tatooine docking bay would get in the way of messenger conversations [ISSUE #177](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/177)
 * One of the Gamorreans in the Taris sewers was quietly relaxing in a corner, oblivious to what was going on (Reported by ebmar) [ISSUE #95](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/95)
 * Sharina on Tatooine didn't initiate dialogue with the player as intended (Reported by ebmar) [ISSUE #45](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45)
 * Sith fighters outside the Leviathan clipped through the skybox [ISSUE #108](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/108)

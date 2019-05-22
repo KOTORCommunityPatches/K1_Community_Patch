@@ -122,18 +122,20 @@ These are fixes for other issues that were likely unintended. They don't break t
 The issues these address aren't exactly problems, but they still bothered people. Changes in this category go a bit beyond developer intent, basically player/modder interpretation of how things should have been.
 * All the civilians in Davik's estate wore the same outfit [ISSUE #102](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/102)
 * All the male Twi'leks in Javyar's Cantina on Taris use the same green head [ISSUE #72](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/72)
+* Bolook was orange even though voiced dialogue says he's green (reported by DarthParametric)
 * Carth is now an equal opportunity complainer when it comes to exploding swoop bikes
 * Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
 * Dune sea miners on Tatooine aren't wearing Czerka gear (Reported by Mr Ardvark)
 * Elise was overly flirty (reported by DarthParametric)
 * Guards in the Sith Academy used the Sith Officer appearance instead of Sith Soldiers
-* Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only)
 * Handon is implied to be overweight and was likely meant to use the fat commoner appearance [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
+* Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only)
 * Helena wears Jedi robes instead of regular clothes
 * Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
 * Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
 * Kandon Ark doesn't wear his military suit: [Kandon Ark Fix 1.0](http://deadlystream.com/forum/files/file/1026-kandon-ark-fix/)
 * Many Sith Troopers or Officers had the wrong appearance
+* One of the Czerka guards in the Tatooine docking bay would get in the way of messenger conversations [ISSUE #177](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/177)
 * Queedle is the wrong race considering several different pieces of dialog: [Queedle Fix 1.0](https://deadlystream.com/files/file/1267-queedle-fix/)
 * Red lightsaber crystal uses wrong icon:  [Red Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/911-red-lightsaber-crystal-fix/)
 * Redros was slow to equip a weapon for the brawl after the swoop race (reported by DarthParametric)
@@ -152,7 +154,6 @@ The issues these address aren't exactly problems, but they still bothered people
 * There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 * Vrook and Zhar wear the wrong color robes: [Vrook and Zhar Fix 1.0](http://deadlystream.com/forum/files/file/896-vrook-and-zhar-fix/)
 * Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
-* Bolook was orange even though voiced dialogue says he's green (reported by DarthParametric)
 
 ## Annoyance Fixes
 These things annoyed players.
