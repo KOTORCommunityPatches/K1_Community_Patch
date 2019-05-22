@@ -142,6 +142,7 @@
 * Made some alterations to make Trask stay in the same spot when he joins the party instead of jumping behind the player
 * Replaced an incorrect supermodel reference in one of Vandar's cutscene stunt models that was causing some animation issues
 * Moved the patrol waypoints of one of the Czerka guards in the Tatooine docking bay to prevent him walking through the middle of messenger conversations
+* Nudged the camera position sideways in the jawless Malak cutscene to keep the reveal from being spoiled early in widescreen resolutions
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
