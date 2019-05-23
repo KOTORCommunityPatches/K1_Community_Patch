@@ -144,7 +144,7 @@
 * Moved the patrol waypoints of one of the Czerka guards in the Tatooine docking bay to prevent him walking through the middle of messenger conversations
 * Nudged the camera position sideways in the jawless Malak cutscene to keep the reveal from being spoiled early in widescreen resolutions
 * Changed the Rakatan Temple turret soundsets from Bith to none
-* Fixed a typo that prevented Karal & Crattis from commenting on the Kashyyyk situation
+* Fixed a typo that prevented various NPCs from commenting on the Kashyyyk situation
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

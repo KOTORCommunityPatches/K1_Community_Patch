@@ -2,7 +2,7 @@
 ## Bug Fixes
 These are the most critical fixes. If a bug is on this list, it isn't just a minor annoyance, but actually prevents you from playing the game the way it was meant to be played * restricting access to content, making it impossible to complete quests, and so on.
 * A line in k_hjuh_dialog.dlg was inaccessible: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* A typo prevented Karal & Crattis from commenting on the Kashyyyk situation
+* A typo prevented various NPCs from commenting on the Kashyyyk situation
 * Bacca's Blade Hilt script would sometimes not allow you to receive it: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Canderous's personal quest is bugged
 * Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
