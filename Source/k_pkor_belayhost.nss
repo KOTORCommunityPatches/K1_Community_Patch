@@ -12,10 +12,8 @@
 void main() {
   
 	object oPC = GetFirstPC();
-  
-	ChangeToStandardFaction(OBJECT_SELF, 1);
-
-  ActionEquipMostDamagingMelee();
-
-	DelayCommand(0.5, ActionAttack(oPC, 0));
+	
+	ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_HOSTILE_1);
+	ActionEquipMostDamagingMelee();
+	DelayCommand(0.5, ActionAttack(oPC, FALSE));
 }
