@@ -111,6 +111,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Carth is now an equal opportunity complainer when it comes to exploding swoop bikes [ISSUE #28](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/28)
 * Companion interjections in Canderous' conversation in the Upper City Cantina had facing issues [ISSUE #75](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/75)
 * Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)
+* During the jawless Malak cutscene, the admiral has some clipping issues with his left arm and eyeballs [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * During the jawless Malak cutscene, the surprise is given away early in widescreen due to the extra screen width [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * Gaps in the Leviathan Prison Block walkmesh allowed targeting (and shooting) certain enemies through walls [ISSUE #132](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/132)
 * Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
