@@ -146,6 +146,7 @@
 * Changed the Rakatan Temple turret soundsets from Bith to none
 * Fixed a typo that prevented various NPCs from commenting on the Kashyyyk situation
 * Edited the stunt model for the admiral in the jawless Malak cutscene to reduce clipping issues with his left arm and eyeballs
+* Corrected the final wager value of pazaak player Kudos (the guy in Fazza's hunting lodge on Tatooine) from 50 to 500 credits
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
