@@ -24,14 +24,14 @@ void main() {
 				{
 					SetGlobalFadeOut();
 					PlayMovie("01A");
-					SetReturnStrref(0, 32228, 0);
+					SetReturnStrref(FALSE, 32228, 0); //String 32228 is "Return To Hideout". Should technically be 38550, "Transit Disabled", instead.
 					SetGlobalNumber("K_CURRENT_PLANET", 5);
 					SpawnStartingEquipment();
 					SetGlobalFadeOut();
 					NoClicksFor(1.0);
 					DelayCommand(0.1, SetGlobalFadeIn(0.9, 1.5));
 					DelayCommand(0.1, AssignCommand(GetTrask(), ActionStartConversation(GetFirstPC(), "m01aa_c01", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
-					SetMinOneHP(GetFirstPC(), 1);
+					SetMinOneHP(GetFirstPC(), TRUE);
 				}
 		}
 }
