@@ -128,6 +128,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
 * One of the Czerka guards in the Tatooine docking bay would get in the way of messenger conversations [ISSUE #177](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/177)
 * One of the Gamorreans in the Taris sewers was quietly relaxing in a corner, oblivious to what was going on (Reported by ebmar) [ISSUE #95](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/95)
+* One of the seated officers on Dodonna's capital ship was levitating next to their chair (Reported by Kexikus) [ISSUE #187](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/187)
 * Sharina on Tatooine didn't initiate dialogue with the player as intended (Reported by ebmar) [ISSUE #45](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45)
 * Sith fighters outside the Leviathan clipped through the skybox [ISSUE #108](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/108)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
