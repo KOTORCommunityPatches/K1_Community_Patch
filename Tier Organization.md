@@ -10,12 +10,12 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 * Griff sometimes wouldn't spawn in the Sand People Enclave
 * If doing Juhani’s dialog in the wrong order, it was possible to block any further progress
 * If you force persuaded Ignus, he wouldn't testify on your behalf: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* If you've talked with Bastila after kissing her, some dialog isn't available on the Rakatan Temple: [Bastila Romance Scriptfix 1.0](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
+* If you've talked with Bastila after kissing her, some dialog isn't available on the Rakatan Temple: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
 * It's possible to get infinite LS points in a conversation loop with Worronzor
 * Juhani wouldn't spawn in the post-_Leviathan_ scene (Fix found by Kexikus, implemented by AFP)
 * On board the Yavin Station, when the Trandoshans appear for the first time, some of the dialog options sometimes causes you to be kicked out of the dialog: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* On the Star Forge if you haven't talked to Bastila after kissing her, some dialog isn't available: [Bastila Romance Scriptfix 1.0](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
-* On the Star Forge, if you have denied the romance, the game acts as if you haven't: [Bastila Romance Scriptfix 1.0](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
+* On the Star Forge if you haven't talked to Bastila after kissing her, some dialog isn't available: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
+* On the Star Forge, if you have denied the romance, the game acts as if you haven't: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
 * Once Xor appeared, no other messengers could appear: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * One of the boxes in the Rakatan Temple is inaccessible
 * Party members in stealth during the post-_Leviathan_ scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
