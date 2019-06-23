@@ -149,6 +149,9 @@
 * Corrected the final wager value of pazaak player Kudos (the guy in Fazza's hunting lodge on Tatooine) from 50 to 500 credits
 * Fixed a positional offset in the stunt model for a seated officer on Dodonna's ship causing them to float in mid-air
 * Added additional script from the v1.1 update of Markus Ramikin's Bastila Romance Scriptfix mod
+* Wrangled party when entering the Elder's compound on Lehon
+* Prevented some characters in the Elder's compound on Lehon from attacking with their fists
+* Adjusted party positioning and facing when activating the Rakatan computer in the Elder's compound on Lehon
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
