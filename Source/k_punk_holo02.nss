@@ -31,15 +31,15 @@ void main() {
 	SetGlobalFadeOut();
 	ActionPauseConversation();
 	
+	CP_PartyJump(oPM0, lPM0);
+	CP_PartyJump(oPM1, lPM1);
+	CP_PartyJump(oPM2, lPM2);
+	
 	CreateObject(OBJECT_TYPE_CREATURE, "holo", GetLocation(oHoloWP), FALSE);
 	
 	DelayCommand(0.1, AssignCommand(GetObjectByTag("holo", 0), ClearAllActions()));
 	DelayCommand(0.2, AssignCommand(GetObjectByTag("holo", 0), SetCommandable(TRUE, OBJECT_SELF)));
-	DelayCommand(0.3, AssignCommand(GetObjectByTag("holo", 0), SetFacingPoint(GetPosition(oComp))));
-	
-	CP_PartyJump(oPM0, lPM0);
-	CP_PartyJump(oPM1, lPM1);
-	CP_PartyJump(oPM2, lPM2);
+	DelayCommand(0.3, AssignCommand(GetObjectByTag("holo", 0), SetFacingPoint(Vector(52.76,173.5,18.0))));
 	
 	DelayCommand(0.1, AssignCommand(oPM0, ClearAllActions()));
 	DelayCommand(0.2, AssignCommand(oPM0, SetFacingPoint(GetPosition(GetObjectByTag("holo", 0)))));
