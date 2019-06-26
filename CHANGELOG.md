@@ -153,6 +153,7 @@
 * Prevented some characters in the Elder's compound on Lehon from attacking with their fists
 * Adjusted party positioning and facing when activating the Rakatan computer in the Elder's compound on Lehon
 * Fixed the party bumping into each other like drunk teens during the cutscene after giving the sacred tome to The One on Lehon
+* Added missing sound Event to Malak's taunt animation for his saber flourish
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
