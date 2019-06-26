@@ -156,6 +156,7 @@
 * Added missing sound Event to Malak's taunt animation for his saber flourish
 * Gated off asking HK about restoring memories post-Leviathan after the first time
 * Disabled screen blurring effect for Force/Knight/Master Speed
+* Added new soundset for DS Juhani in the Grove, removing her Republic/Jedi-related barks
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
