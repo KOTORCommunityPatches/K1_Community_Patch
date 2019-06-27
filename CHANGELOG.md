@@ -157,6 +157,7 @@
 * Gated off asking HK about restoring memories post-Leviathan after the first time
 * Disabled screen blurring effect for Force/Knight/Master Speed
 * Added new soundset for DS Juhani in the Grove, removing her Republic/Jedi-related barks
+* Switched some Sith Elite Troopers in Manaan hangar bay to the proper appearances
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
