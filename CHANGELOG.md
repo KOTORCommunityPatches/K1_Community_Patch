@@ -163,6 +163,7 @@
 * Tweaked the initial scene when boarding the Star Forge to account for widescreen framing
 * Forced the party to turn around before the droids burst in on Deck 1 of the Star Forge
 * Changed listener tags in Thalia May's DLG in the Korriban Shyrack Caves to prevent her turning her back on the party
+* Fixed global generic droid templates to use the proper soundsets for their type instead of the Bantha soundset
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
