@@ -159,6 +159,7 @@
 * Added new soundset for DS Juhani in the Grove, removing her Republic/Jedi-related barks
 * Switched some Sith Elite Troopers in Manaan hangar bay to the proper appearances
 * Moved some troopers in the Manaan Sith Base so they would see the party entering the room properly
+* Made a host of edits to the stunt animations for the LS ending cutscene to improve it for widescreen resolutions
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
