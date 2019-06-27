@@ -178,6 +178,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)
 * During the jawless Malak cutscene, the admiral has some clipping issues with his left arm and eyeballs [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * During the jawless Malak cutscene, the surprise is given away early in widescreen due to the extra screen width [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
+* During the scene on Deck 1 of the Star Forge when the droids burst in, the party members are still facing the door [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * If the prisoner in the Sith Academy was interrogated multiple times rapidly, the animation would loop for a long time: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Kandon's pre-swoop race conversation had some aesthetic issues due to sloppy party positioning [ISSUE #62](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62)
 * Opponents in the Taris duel ring played their intro animations out of sync with their introduction: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #89](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/89)
@@ -198,6 +199,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
+* When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * Your party can be seen in the background of the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
 

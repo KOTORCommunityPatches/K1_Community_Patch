@@ -160,6 +160,8 @@
 * Switched some Sith Elite Troopers in Manaan hangar bay to the proper appearances
 * Moved some troopers in the Manaan Sith Base so they would see the party entering the room properly
 * Made a host of edits to the stunt animations for the LS ending cutscene to improve it for widescreen resolutions
+* Tweaked the initial scene when boarding the Star Forge to account for widescreen framing
+* Forced the party to turn around before the droids burst in on Deck 1 of the Star Forge
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

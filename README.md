@@ -114,6 +114,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
 * During the jawless Malak cutscene, the admiral has some clipping issues with his left arm and eyeballs [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * During the jawless Malak cutscene, the surprise is given away early in widescreen due to the extra screen width [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
+* During the scene on Deck 1 of the Star Forge when the droids burst in, the party members are still facing the door [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * Gaps in the Leviathan Prison Block walkmesh allowed targeting (and shooting) certain enemies through walls [ISSUE #132](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/132)
 * Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
 * Griff's conversation in the Sandpeople enclave had a few facing issues [ISSUE #116](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/116)
@@ -180,6 +181,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 * Vandar had some stunt animation issues in one of the final cutscenes due to a bad supermodel reference [ISSUE #178](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/178)
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
+* When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris (Reported by Salk)
 * Helena wears Jedi robes instead of regular clothes
