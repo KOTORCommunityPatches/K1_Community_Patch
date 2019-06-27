@@ -161,6 +161,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 * The merc in Hrakert Station would go out of frame every time he performed the Horror animation [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
+* The Mysterious Man on Manaan would speak one of his lines off-screen and was briefly visible running away after the conversation ended [ISSUE #138](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/138)
 * The party would bump into each other and get confused during the cutscene after giving the sacred tome to The One [ISSUE #170](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/170)
 * The player could repeatedly ask HK about restoring memories post-Leviathan, despite being told there were no more to restore [ISSUE #175](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/175)
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
