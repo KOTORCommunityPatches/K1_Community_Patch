@@ -162,6 +162,7 @@
 * Made a host of edits to the stunt animations for the LS ending cutscene to improve it for widescreen resolutions
 * Tweaked the initial scene when boarding the Star Forge to account for widescreen framing
 * Forced the party to turn around before the droids burst in on Deck 1 of the Star Forge
+* Changed listener tags in Thalia May's DLG in the Korriban Shyrack Caves to prevent her turning her back on the party
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
