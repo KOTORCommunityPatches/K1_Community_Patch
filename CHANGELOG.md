@@ -158,6 +158,7 @@
 * Disabled screen blurring effect for Force/Knight/Master Speed
 * Added new soundset for DS Juhani in the Grove, removing her Republic/Jedi-related barks
 * Switched some Sith Elite Troopers in Manaan hangar bay to the proper appearances
+* Moved some troopers in the Manaan Sith Base so they would see the party entering the room properly
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
