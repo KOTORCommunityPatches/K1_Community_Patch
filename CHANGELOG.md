@@ -165,6 +165,7 @@
 * Changed listener tags in Thalia May's DLG in the Korriban Shyrack Caves to prevent her turning her back on the party
 * Fixed global generic droid templates to use the proper soundsets for their type instead of the Bantha soundset
 * Fixed an off-screen line by the Mysterious Man on Manaan and prevented him being visible after the conversation finished
+* Remapped distorted UVs for a section of cliff edge in Korriban's Valley of the Dark Lords
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
