@@ -203,7 +203,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * A couple of troopers in the Manaan Sith Base were slacking off in a corner instead of doing their duty [ISSUE #184](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/184)
 * A random swoop fan on Manaan was getting in the way of a Sith extorting people for money (reported by DarthParametric) [ISSUE #140](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/140)
 * After the cutscene in the Korriban Academy where a student duels with a captive, combat music would continue to play [ISSUE #190](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/190)
-* Elise was overly flirty (reported by DarthParametric)
+* Elise was overly flirty (reported by DarthParametric) [ISSUE #54](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/54)
 * One of the bounty hunters in Javyar's cantina was secretly a computer in disguise (Reported by JCarter426) [ISSUE #133](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/133)
 * Some Sith Elite Troopers in the Manaan hangar bay incorrectly used the Officer appearance (Reported by JCarter426) [ISSUE #183](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/183)
 * The hallway leading to the Manaan hotel had some incorrect baked lighting colouration [ISSUE #109](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/109)
