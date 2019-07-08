@@ -176,6 +176,7 @@ These things annoyed players.
 ## Conversation and Cutscene Adjustments
 These might be considered subjective alterations in some cases, but are done with the intention of enhancing the cinematic feel of conversations and cutscenes by fixing facing and positional issues, changing/adding camera angles, etc.
 * Bastila and Carth were positioned wrong after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Carth had no respect for the dead, talking over the top of a death cry on the Leviathan bridge [ISSUE #131](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131)
 * Carth has some facing issues talking to Mission in the Undercity [ISSUE #67](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/67)
 * Companion interjections in Canderous' conversation in the Upper City Cantina had facing issues [ISSUE #75](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/75)
 * Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)

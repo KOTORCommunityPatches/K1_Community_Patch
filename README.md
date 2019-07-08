@@ -107,6 +107,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * All the male Twi'leks in Javyar's Cantina on Taris use the same green head [ISSUE #72](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/72)
 * Bandon's lackeys in Hrakert Station were keen to start the fight right away, forgetting the rule of bad guy monologuing [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar) [ISSUE #34](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/34)
+* Carth had no respect for the dead, talking over the top of a death cry on the Leviathan bridge [ISSUE #131](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131)
 * Carth has some facing issues talking to Mission in the Undercity [ISSUE #67](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/67)
 * Carth is now an equal opportunity complainer when it comes to exploding swoop bikes [ISSUE #28](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/28)
 * Companion interjections in Canderous' conversation in the Upper City Cantina had facing issues [ISSUE #75](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/75)
