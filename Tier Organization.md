@@ -43,6 +43,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar)
 * A slave girl in Davik’s estate stood still and disappeared instead of running away (reported by DarthParametric)
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris (reported by Salk)
+* After the cutscene in the Korriban Academy where a student duels with a captive, combat music would continue to play [ISSUE #190](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/190)
 * Ahlan Matale was able to channel his rage in order to use Force levitation in the Council chambers [ISSUE #55](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55)
 * Bacca's Blade Hilt was never removed from your inventory: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Bandon's lackeys in Hrakert Station were keen to start the fight right away, forgetting the rule of bad guy monologuing [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
