@@ -167,7 +167,7 @@
 * Fixed an off-screen line by the Mysterious Man on Manaan and prevented him being visible after the conversation finished
 * Remapped distorted UVs for a section of cliff edge in Korriban's Valley of the Dark Lords
 * Swapped incorrect script reference in Korriban academy duel scene causing endless combat music
-* Stopped Carth talking over Saul Karath's death cry on the bridge of the Leviathan
+* Gave Saul Karath an on-screen death on the bridge of the Leviathan and stopped Carth talking over his death cry
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
