@@ -168,6 +168,7 @@
 * Remapped distorted UVs for a section of cliff edge in Korriban's Valley of the Dark Lords
 * Swapped incorrect script reference in Korriban academy duel scene causing endless combat music
 * Gave Saul Karath an on-screen death on the bridge of the Leviathan and stopped Carth talking over his death cry
+* Made changes to the exploding pillar scene in the Tomb of Ajunta Pall on Korriban to prevent AI and UI issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
