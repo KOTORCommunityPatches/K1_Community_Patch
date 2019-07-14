@@ -117,6 +117,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * During the jawless Malak cutscene, the admiral has some clipping issues with his left arm and eyeballs [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * During the jawless Malak cutscene, the surprise is given away early in widescreen due to the extra screen width [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * During the scene on Deck 1 of the Star Forge when the droids burst in, the party members are still facing the door [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
+* Dustil's conversation in the Korriban Academy had some facing issues with Carth and the player [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Gaps in the Leviathan Prison Block walkmesh allowed targeting (and shooting) certain enemies through walls [ISSUE #132](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/132)
 * Generic droids incorrectly used the Bantha soundset (Reported by ebmar) [ISSUE #159](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/159)
 * Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
