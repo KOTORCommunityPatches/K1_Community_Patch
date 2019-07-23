@@ -242,6 +242,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Fixed the position of the strongbox in the Taris Lower City apartments (reported by DarthParametric)
 * Hidden Beks didn’t react quickly to intruders (reported by DarthParametric)
 * It was possible to interact with a transformer in the Sith base on Taris—though it did nothing of particular interest
+* Killing Dustil before completing Carth's quest would leave its status unresolved (with additions by DarthParametric) [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * Pazaak player Kudos on Tatooine would only bet 50 credits instead of 500 for the final matches
 * Redros was slow to equip a weapon for the brawl after the swoop race (reported by DarthParametric)
 * Several aliens were very low-quality: [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
