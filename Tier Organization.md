@@ -100,6 +100,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Some Sith Elite Troopers in the Manaan hangar bay incorrectly used the Officer appearance (Reported by JCarter426) [ISSUE #183](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/183)
 * Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Some view screen monitors in the Taris Upper City cantina float in mid-air: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #87](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/87)
+* The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (with input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The Elder's compound on Lehon had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
 * The end credits don't scale to screen resolution during the Dark Side ending
 * The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (reported by DarthParametric)

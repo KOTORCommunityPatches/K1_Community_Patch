@@ -142,6 +142,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some guests and guards in Davik's estate would attack with their fists [ISSUE #100](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/100)
 * Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
+* The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (with input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
