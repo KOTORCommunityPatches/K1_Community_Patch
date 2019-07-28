@@ -173,6 +173,7 @@
 * Edited Dustil's conversation in the Korriban Academy to jump the party and fix some facing issues with Carth and the player
 * Added a new OnDeath script for Dustil to account for killing him at different stages of Carth's personal quest
 * Set the DLG for the ancient computer in the Korriban Tomb of Tulak Hord to skippable and fixed the door opening animation playing too fast
+* Made numerous edits to the DLG and scripts for the Jorak Uln scenes in the Korriban Tomb of Tulak Hord to improve aesthetics and fix minor issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

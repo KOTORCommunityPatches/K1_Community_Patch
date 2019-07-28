@@ -200,6 +200,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The initial conversation with Davik at his estate had a multitude of positioning and facing issues [ISSUE #57](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57)
 * The initial conversation with Gadon Thek can suffer from poor party positioning due to the desk in the way [ISSUE #70](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70)
 * The interrogation of the prisoner in the Manaan Republic Embassy had various facing issues, problems with the force cage visibility in certain camera angles, and a line that skipped [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
+* The Jorak Uln encounter in the Korriban Tomb of Tulak Hord had various cosmetic issues and occasionally missing companions [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
 * The merc in Hrakert Station would go out of frame every time he performed the Horror animation [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * The Mysterious Man on Manaan would speak one of his lines off-screen and was briefly visible running away after the conversation ended [ISSUE #138](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/138)
