@@ -16,22 +16,22 @@
 	
 	- nNPC: NPC ID from party table (NPC_*)
 	
-	JC 2019-04-30                                                             */
+	JC 2019-07-29                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 string CP_NPCToTag(int nNPC) {
 
-string sTag = "";	
-if( nNPC == 0 ) sTag = "Bastila";
-if( nNPC == 1 ) sTag = "Cand";
-if( nNPC == 2 ) sTag = "Carth";
-if( nNPC == 3 ) sTag = "HK47";
-if( nNPC == 4 ) sTag = "Jolee";
-if( nNPC == 5 ) sTag = "Juhani";
-if( nNPC == 6 ) sTag = "Mission";
-if( nNPC == 7 ) sTag = "T3M4";
-if( nNPC == 8 ) sTag = "Zaalbar";
-
-return sTag;
+switch( nNPC ) {
+	case NPC_BASTILA: return "Bastila";
+	case NPC_CANDEROUS: return "Canderous";
+	case NPC_CARTH: return "Carth";
+	case NPC_HK_47: return "HK47";
+	case NPC_JOLEE: return "Jolee";
+	case NPC_JUHANI: return "Juhani";
+	case NPC_MISSION: return "Mission";
+	case NPC_T3_M4: return "T3M4";
+	case NPC_ZAALBAR: return "Zaalbar";
+	}
+return "";
 
 }
 
@@ -310,7 +310,7 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 	- oCreature: Target creature
 	- nInstant: Whether to equip the item instantaneously, TRUE or FALSE
 	
-	JC 2019-05-06                                                             */
+	JC 2019-07-29                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 void CP_EquipFirstWeapon(object oCreature, int nInstant = FALSE) {
 
@@ -320,39 +320,43 @@ if( !GetIsObjectValid(oRWeapon) ) {
 	object oEquip = OBJECT_INVALID;
 	while( GetIsObjectValid(oItem) ) {
 		int nBaseItem = GetBaseItemType(oItem);
-		if( nBaseItem == BASE_ITEM_DOUBLE_BLADED_LIGHTSABER ||
-			nBaseItem == BASE_ITEM_DOUBLE_BLADED_SWORD ||
-			nBaseItem == BASE_ITEM_GAMMOREAN_BATTLEAXE ||
-			nBaseItem == BASE_ITEM_GHAFFI_STICK ||
-			nBaseItem == BASE_ITEM_LIGHTSABER ||
-			nBaseItem == BASE_ITEM_LONG_SWORD ||
-			nBaseItem == BASE_ITEM_QUARTER_STAFF ||
-			nBaseItem == BASE_ITEM_SHORT_LIGHTSABER ||
-			nBaseItem == BASE_ITEM_SHORT_SWORD ||
-			nBaseItem == BASE_ITEM_STUN_BATON ||
-			nBaseItem == BASE_ITEM_VIBRO_BLADE ||
-			nBaseItem == BASE_ITEM_VIBRO_DOUBLE_BLADE ||
-			nBaseItem == BASE_ITEM_VIBRO_SWORD ||
-			nBaseItem == BASE_ITEM_WOOKIE_WARBLADE ||
-			nBaseItem == BASE_ITEM_BLASTER_CARBINE ||
-			nBaseItem == BASE_ITEM_BLASTER_PISTOL ||
-			nBaseItem == BASE_ITEM_BLASTER_RIFLE ||
-			nBaseItem == BASE_ITEM_BOWCASTER ||
-			nBaseItem == BASE_ITEM_DISRUPTER_PISTOL ||
-			nBaseItem == BASE_ITEM_DISRUPTER_RIFLE ||
-			nBaseItem == BASE_ITEM_HEAVY_BLASTER ||
-			nBaseItem == BASE_ITEM_HEAVY_REPEATING_BLASTER ||
-			nBaseItem == BASE_ITEM_HOLD_OUT_BLASTER ||
-			nBaseItem == BASE_ITEM_ION_BLASTER ||
-			nBaseItem == BASE_ITEM_ION_RIFLE ||
-			nBaseItem == BASE_ITEM_REPEATING_BLASTER ||
-			nBaseItem == BASE_ITEM_SONIC_PISTOL ||
-			nBaseItem == BASE_ITEM_SONIC_RIFLE ||
-			nBaseItem == BASE_ITEM_SONIC_PISTOL ) {
-			oEquip = oItem;
-			oItem = OBJECT_INVALID;
+		switch( nBaseItem ) {
+			case BASE_ITEM_DOUBLE_BLADED_LIGHTSABER:
+			case BASE_ITEM_DOUBLE_BLADED_SWORD:
+			case BASE_ITEM_GAMMOREAN_BATTLEAXE:
+			case BASE_ITEM_GHAFFI_STICK:
+			case BASE_ITEM_LIGHTSABER:
+			case BASE_ITEM_LONG_SWORD:
+			case BASE_ITEM_QUARTER_STAFF:
+			case BASE_ITEM_SHORT_LIGHTSABER:
+			case BASE_ITEM_SHORT_SWORD:
+			case BASE_ITEM_STUN_BATON:
+			case BASE_ITEM_VIBRO_BLADE:
+			case BASE_ITEM_VIBRO_DOUBLE_BLADE:
+			case BASE_ITEM_VIBRO_SWORD:
+			case BASE_ITEM_WOOKIE_WARBLADE:
+			case BASE_ITEM_BLASTER_CARBINE:
+			case BASE_ITEM_BLASTER_PISTOL:
+			case BASE_ITEM_BLASTER_RIFLE:
+			case BASE_ITEM_BOWCASTER:
+			case BASE_ITEM_DISRUPTER_PISTOL:
+			case BASE_ITEM_DISRUPTER_RIFLE:
+			case BASE_ITEM_HEAVY_BLASTER:
+			case BASE_ITEM_HEAVY_REPEATING_BLASTER:
+			case BASE_ITEM_HOLD_OUT_BLASTER:
+			case BASE_ITEM_ION_BLASTER:
+			case BASE_ITEM_ION_RIFLE:
+			case BASE_ITEM_REPEATING_BLASTER:
+			case BASE_ITEM_SONIC_PISTOL:
+			case BASE_ITEM_SONIC_RIFLE:
+			case BASE_ITEM_SONIC_PISTOL:
+				oEquip = oItem;
+				oItem = OBJECT_INVALID;
+				break;
+			default:
+				oItem = GetNextItemInInventory(oCreature);
+				break;
 			}
-		else oItem = GetNextItemInInventory(oCreature);
 		}
 	if( GetIsObjectValid(oEquip) ) {
 		AssignCommand(oCreature, ActionEquipItem(oEquip, INVENTORY_SLOT_RIGHTWEAPON, nInstant));
