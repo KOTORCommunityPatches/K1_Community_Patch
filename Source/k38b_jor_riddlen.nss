@@ -6,8 +6,8 @@
 	This script fires whenever the player answers a question incorrectly (or
 	refuses to answer), causing Jorak to shock them with lightning. Some of
 	the timings were adjusted to better match the effects to the animations
-	and the screams were replaced with player voice versions. The sleeping
-	anims for Mekel and the companions was also lengthened, as per the other
+	and the screams were replaced with player soundset versions. The sleeping
+	anims for Mekel and the companions were also lengthened, as per the other
 	scripts modified in this scene.
 	
 	See also cp_k38_jorakbow, cp_k38_slander, k_pkor_animstun, k_pkor_forceslep,

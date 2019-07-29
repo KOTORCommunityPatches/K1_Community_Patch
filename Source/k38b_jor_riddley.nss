@@ -5,7 +5,7 @@
 	
 	This script fires whenever the player answers a question correctly, causing
 	Jorak to shock Mekel with lightning. Some of the timings were adjusted to
-	better match the effects to the animations and the scream were replaced
+	better match the effects to the animations and the scream was replaced
 	with one of Trask's. Additionally, Mekel was given a MinOneHP flag in order
 	to prevent him being killed instantly on the third occasion he is shocked,
 	before the VFXs have a chance to display. The sleeping anims for the player
