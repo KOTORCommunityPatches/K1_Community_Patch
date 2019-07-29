@@ -58,6 +58,7 @@ void main() {
 			AssignCommand(oPM1, ToggleAI(SW_FLAG_AI_OFF, FALSE));
 			DelayCommand(0.1, AssignCommand(oPM1, ClearAllEffects()));
 			DelayCommand(0.1, AssignCommand(oPM1, ClearAllActions()));
+			DelayCommand(0.2, AssignCommand(oPM1, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE)));
 			
 			if (((GetTag(oPM1) == "HK47") || (GetTag(oPM1) == "T3M4")))
 				{
@@ -66,7 +67,8 @@ void main() {
 					DelayCommand(0.2, UT_HealNPC(oPM1));
 				}
 			
-			DelayCommand(0.5, AssignCommand(oPM1, ActionMoveToObject(oPC, FALSE, 3.0)));
+			DelayCommand(0.5, AssignCommand(oPM1, ClearAllActions()));
+			DelayCommand(0.6, AssignCommand(oPM1, ActionMoveToObject(oPC, FALSE, 3.0)));
 		}
 	
 	if (GetIsObjectValid(oPM2))
@@ -74,6 +76,7 @@ void main() {
 			AssignCommand(oPM2, ToggleAI(SW_FLAG_AI_OFF, FALSE));
 			DelayCommand(0.1, AssignCommand(oPM2, ClearAllEffects()));
 			DelayCommand(0.1, AssignCommand(oPM2, ClearAllActions()));
+			DelayCommand(0.2, AssignCommand(oPM2, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE)));
 			
 			if (((GetTag(oPM2) == "HK47") || (GetTag(oPM2) == "T3M4")))
 				{
@@ -82,7 +85,8 @@ void main() {
 					DelayCommand(0.2, UT_HealNPC(oPM2));
 				}
 			
-			DelayCommand(0.5, AssignCommand(oPM2, ActionMoveToObject(oPC, FALSE, 3.0)));
+			DelayCommand(0.5, AssignCommand(oPM2, ClearAllActions()));
+			DelayCommand(0.6, AssignCommand(oPM2, ActionMoveToObject(oPC, FALSE, 3.0)));
 		}
 	
 	DelayCommand(0.6, ActionResumeConversation());

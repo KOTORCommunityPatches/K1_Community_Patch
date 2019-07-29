@@ -30,13 +30,13 @@ void main() {
 	
 	AssignCommand(oPM0, ClearAllActions());
 	AssignCommand(oPM0, SetFacing(DIRECTION_EAST));
-	AssignCommand(oPM0, ActionPlayAnimation(ANIMATION_LOOPING_PRONE, 1.0, 30.0));
+	AssignCommand(oPM0, ActionPlayAnimation(ANIMATION_LOOPING_PRONE, 1.0, 90.0));
 	
 	if (((GetTag(oPM1) != "HK47") && (GetTag(oPM1) != "T3M4")))
 		{
 			AssignCommand(oPM1, ClearAllActions());
 			AssignCommand(oPM1, SetFacing(DIRECTION_EAST));
-			AssignCommand(oPM1, ActionPlayAnimation(ANIMATION_LOOPING_PRONE, 1.0, 30.0));
+			AssignCommand(oPM1, ActionPlayAnimation(ANIMATION_LOOPING_PRONE, 1.0, 90.0));
 		}
 	else
 		{
@@ -52,7 +52,7 @@ void main() {
 		{
 			AssignCommand(oPM2, ClearAllActions());
 			AssignCommand(oPM2, SetFacing(DIRECTION_EAST));
-			AssignCommand(oPM2, ActionPlayAnimation(ANIMATION_LOOPING_PRONE, 1.0, 30.0));
+			AssignCommand(oPM2, ActionPlayAnimation(ANIMATION_LOOPING_PRONE, 1.0, 90.0));
 		}
 	else
 		{

@@ -27,7 +27,5 @@ void main() {
 	
 	AssignCommand(oJorak, ActionMoveToLocation(lJorak, TRUE));
 	
-	AssignCommand(oJorak, SetFacingPoint(GetPosition(oPC)));
-	
 	ActionResumeConversation();
 }

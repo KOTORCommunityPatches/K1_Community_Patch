@@ -29,8 +29,6 @@ void main() {
 	
 	ActionPauseConversation();
 	
-	SetGlobalFadeIn(0.0, 1.5);
-	
 	MusicBackgroundStop(oArea);
 	DelayCommand(0.1, MusicBattlePlay(oArea));
 	
