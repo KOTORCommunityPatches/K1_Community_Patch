@@ -22,7 +22,7 @@ string CP_NPCToTag(int nNPC) {
 
 switch( nNPC ) {
 	case NPC_BASTILA: return "Bastila";
-	case NPC_CANDEROUS: return "Canderous";
+	case NPC_CANDEROUS: return "Cand";
 	case NPC_CARTH: return "Carth";
 	case NPC_HK_47: return "HK47";
 	case NPC_JOLEE: return "Jolee";
