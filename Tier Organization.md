@@ -211,6 +211,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The player was briefly visible before the game was supposed to actually start
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
+* The two pre-training conversations with the Jedi Council on Dantooine had various facing issues [ISSUE #151](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151)
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
 * When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)

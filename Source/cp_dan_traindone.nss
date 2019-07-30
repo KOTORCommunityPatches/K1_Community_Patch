@@ -1,14 +1,19 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	cp_dan_traindone
+	Fired by cp_dan_traindone.utt in danm13 (Dantooine Jedi Enclave).
 
 	Fired when the player goes to speak to the Council after completing their
 	training.
 	
-	2019-05-02 Revised by DP, replacing JC's original script, and merging in
-	the contents of the one previously added to dan13_vandar.dlg, with the new
-	CP include function equivalents. See also cp_dan_vandgrove.
+	Updated 2019-05-02. Revised by DP, replacing JC's original script, and merging
+	in the contents of the one previously added to dan13_vandar.dlg, with the new
+	CP include function equivalents.
+	
+	Updated 2019-07-30 to adjust the party end locations to more closely match
+	the vanilla positioning for improved static camera framing consistency. 
+	
+	See also cp_dan_vandgrove.
 	
 	JC 2019-04-28                                                             */
 ////////////////////////////////////////////////////////////////////////////////
