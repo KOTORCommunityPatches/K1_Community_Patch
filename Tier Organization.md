@@ -175,6 +175,7 @@ The issues these address aren't exactly problems, but they still bothered people
 These things annoyed players.
 * Movement in the diving and space suits was extremely slow
 * The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* The Tach in Kashyyyk's Shadowlands had an obnoxiously loud screech (with input from "robot ears" AFP) [ISSUE #127](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/127)
 
 ## Conversation and Cutscene Adjustments
 These might be considered subjective alterations in some cases, but are done with the intention of enhancing the cinematic feel of conversations and cutscenes by fixing facing and positional issues, changing/adding camera angles, etc.

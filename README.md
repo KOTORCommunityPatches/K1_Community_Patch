@@ -215,6 +215,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some Sith Elite Troopers in the Manaan hangar bay incorrectly used the Officer appearance (Reported by JCarter426) [ISSUE #183](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/183)
 * The hallway leading to the Manaan hotel had some incorrect baked lighting colouration [ISSUE #109](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/109)
 * The swoop records computer panel in Manaan Ahto East was clipping into the wall [ISSUE #155](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/155)
+* The Tach in Kashyyyk's Shadowlands had an obnoxiously loud screech (with input from "robot ears" AFP) [ISSUE #127](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/127)
 
 ### jc2:
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
