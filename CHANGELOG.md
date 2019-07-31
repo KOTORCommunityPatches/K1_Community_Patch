@@ -176,7 +176,6 @@
 * Made numerous edits to the DLG and scripts for the Jorak Uln scenes in the Korriban Tomb of Tulak Hord to improve aesthetics and fix minor issues
 * Reduced the Tach sound effect by -10dB to make it more bearable
 * Purged the two pre-training conversations with the Jedi Council on Dantooine of facing issues
-* Corrected misspelled booleans in conditional checks for the Karal Karr and Crattis Yurkal DLGs on Dantooine
 * Fixed some non-visible subtitles by Canderous and Jolee due to a Delay value of 0 on those nodes in the relevant DLGs
 
 ### Changes
