@@ -218,6 +218,10 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The swoop records computer panel in Manaan Ahto East was clipping into the wall [ISSUE #155](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/155)
 * The Tach in Kashyyyk's Shadowlands had an obnoxiously loud screech (with input from "robot ears" AFP) [ISSUE #127](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/127)
 
+### Gimmick5000:
+* One of Canderous' lines when recounting his backstory had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
+* One of Jolee's lines in the post-crash conversation on Lehon had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
+
 ### jc2:
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 

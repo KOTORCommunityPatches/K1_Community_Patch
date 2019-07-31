@@ -17,6 +17,8 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 * On the Star Forge if you haven't talked to Bastila after kissing her, some dialog isn't available: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
 * On the Star Forge, if you have denied the romance, the game acts as if you haven't: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
 * Once Xor appeared, no other messengers could appear: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* One of Canderous' lines when recounting his backstory had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
+* One of Jolee's lines in the post-crash conversation on Lehon had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
 * One of the boxes in the Rakatan Temple is inaccessible
 * Party members in stealth during the post-_Leviathan_ scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
 * Respawn tach gland in chest on Kashyyyk if player has received quest from Griff
