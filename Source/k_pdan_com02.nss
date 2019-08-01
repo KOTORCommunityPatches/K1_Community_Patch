@@ -1,21 +1,27 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	Fired by dan13_karal.dlg in danm13 (Dantooine Jedi Enclave).
+	k_pdan_com02
 	
-	This is a conditional for one of Karal Karr's conversation nodes about Kashyyyk.
-	The vanilla script had a misspelled boolean name.
+	Fired by dan_13_karal.dlg in danm13 (Dantooine Jedi Enclave).
+	
+	Conditional script for Karal Karr's gossip about Kashyyyk. 
+	
+	Corrected a typo on the global boolean name that prevented this script from
+	ever returning true.
+	
+	Note: The corresponding NCS in the Community Patch was fixed by hex editing.
+	This source script is provided for reference, but wasn't actually used.
 	
 	JC 2019-07-31                                                             */
 ////////////////////////////////////////////////////////////////////////////////
-
 int StartingConditional() {
 	
-	int nState = ((GetGlobalBoolean("DAN_KARALC_DONE") == FALSE) && (GetGlobalBoolean("kas_ChuundarDead") == TRUE));
-	
-	if (nState)
-		{
-			SetGlobalBoolean("DAN_KARALC_DONE", TRUE);
-		}
-	return nState;
+int nFlag = ((GetGlobalBoolean("DAN_KARALC_DONE") == FALSE) && (GetGlobalBoolean("kas_ChuundarDead") == TRUE));
+
+if( nFlag )
+	SetGlobalBoolean("DAN_KARALC_DONE", TRUE);
+
+return nFlag;
+
 }
