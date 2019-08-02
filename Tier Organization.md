@@ -214,6 +214,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The player was briefly visible before the game was supposed to actually start
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
+* The Star Map opening sequence in the Dantooine Ruins was split in two instead of being one continuous scene [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105)
 * The two pre-training conversations with the Jedi Council on Dantooine had various facing issues [ISSUE #151](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151)
 * There were some facing and camera angle issues during the overseer droid conversation in the Dantooine Ruins [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105) [ISSUE #152](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/152)
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
