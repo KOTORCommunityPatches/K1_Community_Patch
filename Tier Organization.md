@@ -55,6 +55,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar)
 * Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
+* Chuundar's dialogue specified an incorrect animation for one of his lines (reported by Salk) [ISSUE #193](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/193)
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
 * Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
 * During the Sandral-Matale Feud, the player had the option to claim Ahlan Matale had offered a reward, even if no such conversation took place

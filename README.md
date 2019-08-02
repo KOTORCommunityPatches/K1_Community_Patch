@@ -110,6 +110,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Carth had no respect for the dead, talking over the top of a death cry on the Leviathan bridge [ISSUE #131](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131)
 * Carth has some facing issues talking to Mission in the Undercity [ISSUE #67](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/67)
 * Carth is now an equal opportunity complainer when it comes to exploding swoop bikes [ISSUE #28](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/28)
+* Chuundar's dialogue specified an incorrect animation for one of his lines (reported by Salk) [ISSUE #193](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/193)
 * Companion interjections in Canderous' conversation in the Upper City Cantina had facing issues [ISSUE #75](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/75)
 * Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)
 * Companions interjecting during the conversation with Yuthura in the Korriban Dreshdae cantina faced the player instead of her [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)

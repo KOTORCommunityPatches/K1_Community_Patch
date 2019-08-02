@@ -180,6 +180,7 @@
 * Edited the conversation with the overseer droid in the Dantooine Ruins to improve facing and camera angles
 * Merged the two separate Star Map cutscenes in the Dantooine Ruins into a single scene
 * Edited the post-Ruins conversation with the Dantooine Jedi Council to fix various issues
+* Switched an invalid animation number in Chuundar's DLG
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
