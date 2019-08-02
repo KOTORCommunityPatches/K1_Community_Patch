@@ -3,24 +3,25 @@
 	
 	Fired by dan13_vandar.dlg in danm13 (Dantooine Jedi Enclave).
 
-	This script is fired at the start of the second and third conversations
-	with the Council, after the vision of Revan and Malak in the ruins and
-	discovery the Star Map, respectively. It jumps the player to the entrance
-	of the chamber, then runs them to the Council. The original script only
-	directed the player, so this has been revised to also herd the party members
-	into specific positions.
+	This script is fired during the fade-out when Vandar tells the party to
+	return the Hawk while the Council discuss the Star Map. The vanilla script
+	was just a delay, but this version also pre-jumps the party into position
+	to run back towards the Council and re-orients the Council. Additionally,
+	Vandar is given a few commands to try and cure him looking in the wrong
+	direction on the following node (only partially successful).
 	
-	Updated 2019-08-02 to adjust the party end locations to more closely match
-	the vanilla positioning for improved static camera framing consistency and
-	add a brief fade-in to mask the initial jump.
+	See also k_pdan_vandar03, k_pdan_vandar05, and k_pdan_vandar06.
 
-	DP 2019-05-02                                                             */
+	DP 2019-08-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
 
 void main() {
 	
+	object oPC = GetFirstPC();
+	object oPM1 = CP_GetPartyMember(1);
+	object oPM2 = CP_GetPartyMember(2);
 	object oVandar = GetObjectByTag("dan13_vandar", 0);
 	object oVrook = GetObjectByTag("dan13_vrook", 0);
 	object oZhar = GetObjectByTag("dan13_zhar", 0);
@@ -34,15 +35,14 @@ void main() {
 	
 	ActionPauseConversation();
 	
-	SetGlobalFadeOut();
-	SetGlobalFadeIn(0.0, 0.5);
-	
-	//Jump the party into position for the initial shot
+	//Jump the party into position for the next shot
 	CP_PartyHerder(lPCStart, lPM1Start, lPM2Start, TRUE, FALSE);
 	
 	//Make the Council members face the PC'S destination
 	AssignCommand(oVandar, SetCommandable(TRUE, OBJECT_SELF));
 	DelayCommand(0.1, AssignCommand(oVandar, SetFacingPoint(GetPositionFromLocation(lPC))));
+	DelayCommand(0.2, AssignCommand(oVandar, ClearAllActions()));
+	DelayCommand(0.3, AssignCommand(oVandar, PlayAnimation(ANIMATION_LOOPING_TALK_NORMAL, 1.0, -1.0)));
 	AssignCommand(oVrook, SetCommandable(TRUE, OBJECT_SELF));
 	DelayCommand(0.1, AssignCommand(oVrook, SetFacingPoint(GetPositionFromLocation(lPC))));
 	AssignCommand(oZhar, SetCommandable(TRUE, OBJECT_SELF));
@@ -50,10 +50,10 @@ void main() {
 	AssignCommand(oDorak, SetCommandable(TRUE, OBJECT_SELF));
 	DelayCommand(0.1, AssignCommand(oDorak, SetFacingPoint(GetPositionFromLocation(lPC))));
 	
-	//Run the party to the Council
-	DelayCommand(0.5, CP_DLGHerder(lPC, lPM1, lPM2, FALSE, TRUE));
+	//Make the party face their destinations
+	DelayCommand(0.6, AssignCommand(oPC, SetFacingPoint(GetPositionFromLocation(lPC))));
+	DelayCommand(0.6, AssignCommand(oPM1, SetFacingPoint(GetPositionFromLocation(lPM1))));
+	DelayCommand(0.6, AssignCommand(oPM2, SetFacingPoint(GetPositionFromLocation(lPM2))));
 	
-	DelayCommand(2.0, SetDialogPlaceableCamera(37));
-	
-	DelayCommand(6.0, ActionResumeConversation());
+	DelayCommand(1.0, ActionResumeConversation());
 }

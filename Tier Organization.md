@@ -213,6 +213,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The player doesn't face their opponent at the start of matches in the Taris Upper City duel arena: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #76](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/76)
 * The player was briefly visible before the game was supposed to actually start
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
+* The post-Ruins conversation with the Jedi Council on Dantooine had various facing and aesthetic issues [ISSUE #104](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/104)
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (reported by DarthParametric)
 * The Star Map opening sequence in the Dantooine Ruins was split in two instead of being one continuous scene [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105)
 * The two pre-training conversations with the Jedi Council on Dantooine had various facing issues [ISSUE #151](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151)
