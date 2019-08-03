@@ -50,10 +50,10 @@ void main() {
 												{
 													if ((nEvent == 1007))
 														{
-															object oTukMook = GetObjectByTag("kor36_tukatahen1", 0);
-															object oTukQueen = GetObjectByTag("kor36_tukatahen2", 0);
+															object oTukMook1 = GetObjectByTag("kor36_tukatahen1", 0);
+															object oTukMook2 = GetObjectByTag("kor36_tukatahen2", 0);
 															
-															if ((GetIsDead(oTukMook) && GetIsDead(oTukQueen)))
+															if ((GetIsDead(oTukMook1) && GetIsDead(oTukMook2)))
 																{
 																	object oPC = GetFirstPC();
 																	//location lQuuen = GetLocation(OBJECT_SELF);
