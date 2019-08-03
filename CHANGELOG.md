@@ -181,6 +181,7 @@
 * Merged the two separate Star Map cutscenes in the Dantooine Ruins into a single scene
 * Edited the post-Ruins conversation with the Dantooine Jedi Council to fix various issues
 * Switched an invalid animation number in Chuundar's DLG
+* Locked the door to the Tomb of Naga Sadow in the Korriban Valley of the Dark Lords
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

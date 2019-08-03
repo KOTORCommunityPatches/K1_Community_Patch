@@ -167,6 +167,7 @@ The issues these address aren't exactly problems, but they still bothered people
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot)
 * The Czerka miners next to the sandcrawler in the Tatooine Dune Sea never leave, despite saying they will soon (Suggested by ebmar) [ISSUE #115](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/115)
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
+* The door to the Tomb of Naga Sadow in the Korriban Valley of the Dark Lords is unlocked for some reason [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
 * The guards at the Korriban academy are all officers instead of soldiers (part of the Sith Soldier Texture Restoration)
 * The order of events in the Taris to Dantooine sequence didn't match what was implied in the conversation: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/) (Partial) [ISSUE #56](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/56)
