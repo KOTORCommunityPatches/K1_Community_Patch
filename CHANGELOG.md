@@ -187,6 +187,7 @@
 * Wrangled Tuk'ata mother and friends in the Korriban Valley of the Dark Lords to stop them running into each other like drunken teenagers
 * Fixed facing and camera issues in the dialogue with the surviving scientists Kono and Sami
 * Gave the Sith student Tariga gender reassignment therapy
+* Prevented Lashowe from accidentally burning her own face off with her saber in the post-Tuk'ata mother conversation in the Korriban Valley of the Dark Lords
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
