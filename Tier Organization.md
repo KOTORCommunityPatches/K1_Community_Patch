@@ -63,6 +63,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Elora confesses to Sunry's infidelity automatically if you have Jolee or Bastila in your party: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Energy shields don't block electricity: [Energy Shield Damage Fix](http://deadlystream.com/forum/files/file/548-energy-shield-damage-fix/)
 * First lightsaber crystal uses wrong icon: [First Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/898-first-lightsaber-crystal-fix/)
+* Fixed Elise’s walking pace when she exits so she runs away when upset and walks away otherwise
 * Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
 * Fixed the height of the workbench on Dantooine
 * Fixed the position of the strongbox in the Taris Lower City apartments (reported by DarthParametric) [ISSUE #68](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/68)
@@ -128,7 +129,6 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * There is an inaccessible container in The One's compound
 * Turrets in the Rakatan Temple used the Bith soundset (for some reason) [ISSUE #171](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/171)
-* Two of the shopkeepers on Dantooine had conversation nodes about Kashyyyk blocked by incorrect boolean names
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 * Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
 * Two Sith are standing too close in the Taris destruction sequence: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/)

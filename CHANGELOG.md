@@ -183,6 +183,7 @@
 * Switched an invalid animation number in Chuundar's DLG
 * Locked the door to the Tomb of Naga Sadow in the Korriban Valley of the Dark Lords
 * Edited the OnUserDefine of the Tuk'ata Mother in the Korriban Valley of the Dark Lords to remove an incorrect placeable reference
+* Fixed Elise’s walking pace when she exits so she runs away when upset and walks away otherwise
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
