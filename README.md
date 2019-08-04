@@ -265,6 +265,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (reported by ebmar)
 * The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
 * The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
+* The dialogue with the surviving scientists Kono and Sami had several facing and camera issues (reported by DarthParametric)
 * The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (reported by DarthParametric)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The player was briefly visible before the game was supposed to actually start
