@@ -184,6 +184,7 @@
 * Locked the door to the Tomb of Naga Sadow in the Korriban Valley of the Dark Lords
 * Edited the OnUserDefine of the Tuk'ata Mother in the Korriban Valley of the Dark Lords to remove an incorrect placeable reference
 * Fixed Elise’s walking pace when she exits so she runs away when upset and walks away otherwise
+* Wrangled Tuk'ata mother and friends in the Korriban Valley of the Dark Lords to stop them running into each other like drunken teenagers
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
