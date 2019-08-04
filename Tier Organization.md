@@ -173,6 +173,7 @@ The issues these address aren't exactly problems, but they still bothered people
 * The guards at the Korriban academy are all officers instead of soldiers (part of the Sith Soldier Texture Restoration)
 * The order of events in the Taris to Dantooine sequence didn't match what was implied in the conversation: [Taris Escape Sequence Adjustments 1.1](http://deadlystream.com/forum/files/file/1192-taris-escape-sequence-adjustments/) (Partial) [ISSUE #56](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/56)
 * The Selkath security probe droid in the Manaan Republic Embassy entrance would cause party members to constantly reposition while talking to Roland Wann [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
+* The Sith student Tariga had a male appearance and voice, contrary to Tamlen's description of her (reported by ebmar)
 * There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 * Vrook and Zhar wear the wrong color robes: [Vrook and Zhar Fix 1.0](http://deadlystream.com/forum/files/file/896-vrook-and-zhar-fix/)
 * Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)

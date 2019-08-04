@@ -186,6 +186,7 @@
 * Fixed Elise’s walking pace when she exits so she runs away when upset and walks away otherwise
 * Wrangled Tuk'ata mother and friends in the Korriban Valley of the Dark Lords to stop them running into each other like drunken teenagers
 * Fixed facing and camera issues in the dialogue with the surviving scientists Kono and Sami
+* Gave the Sith student Tariga gender reassignment therapy
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
