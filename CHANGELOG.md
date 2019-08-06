@@ -190,6 +190,7 @@
 * Prevented Lashowe from accidentally burning her own face off with her saber in the post-Tuk'ata mother conversation in the Korriban Valley of the Dark Lords
 * Reinstated some incorrectly applied starting conditionals for Tyvark's DLG on Manaan
 * Wrangled the party for the first conversation with Yuthura inside the Korriban Academy
+* Resolved some issues trying to give a datapad to Adrenas in the Korriban Academy
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

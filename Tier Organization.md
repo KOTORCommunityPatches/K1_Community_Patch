@@ -71,6 +71,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Gana Lavin's appearance changes and her text dialog doesn't appear
 * Gaps in the Leviathan Prison Block walkmesh allowed targeting (and shooting) certain enemies through walls [ISSUE #132](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/132)
 * Generic droids incorrectly used the Bantha soundset (Reported by ebmar) [ISSUE #159](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/159)
+* Giving Uthar's datapad to Adrenas in the Korriban Academy had some problems, possibly not removing it from the player's inventory [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Griff's conversation in the Sandpeople enclave had a few facing issues [ISSUE #116](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/116)
 * Handon and Rickard wear the same outfit [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 * Hidden Beks didn’t react quickly to intruders (reported by DarthParametric) [ISSUE #71](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/71)
