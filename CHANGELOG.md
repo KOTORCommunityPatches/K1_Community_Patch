@@ -193,6 +193,7 @@
 * Resolved some issues trying to give a datapad to Adrenas in the Korriban Academy
 * Added some listener tags to Uthar's DLG in the Korriban Academy to prevent facing issues during the Shaardan handing in a fake sword cutscene
 * Checked for (and removed) Shaardan's corpse in the pre-final trial conversation with Uthar in the Korriban Academy
+* Edited Uthar's conversation in the Korriban Academy to remove the salute, swap the party leaving for a fade-out, and change the running for the back door to a walk
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

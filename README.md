@@ -203,6 +203,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 * Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 * Tyvark's conversation on Manaan had some incorrectly configured checks on available lines (Reported by Salk) [ISSUE #194](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/194)
+* Uthar's conversation in the Korriban Sith Academy had some issues with party wrangling, departures, and inappropriate saluting [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Vandar had some stunt animation issues in one of the final cutscenes due to a bad supermodel reference [ISSUE #178](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/178)
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
 * When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
