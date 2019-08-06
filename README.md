@@ -149,6 +149,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (with input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
+* The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
 * The Czerka miners next to the sandcrawler in the Tatooine Dune Sea never leave, despite saying they will soon (Suggested by ebmar) [ISSUE #115](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/115)
 * The dais in Davik's throne room had some unsightly lightmap artefacts [ISSUE #97](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/97)

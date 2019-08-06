@@ -206,6 +206,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * Some camera angles were wrong during the Leviathan interrogation: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
 * The dialogue with the surviving scientists Kono and Sami had several facing and camera issues (reported by DarthParametric)
+* The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 * The final cutscene for the Light Side ending had a raft of issues with stunt animations and framing in widescreen resolutions [ISSUE #186](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/186)
