@@ -160,6 +160,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The exploding pillar in the Tomb of Ajunta Pall on Korriban could cause permanent disabling of AI for companions and suffered from UI glitches during the cutscene [ISSUE #164](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164)
 * The fat commoner male model had some UV issues and didn't use the regular commoner clothes textures [ISSUE #90](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/90)
 * The final cutscene for the Light Side ending had a raft of issues with stunt animations and framing in widescreen resolutions [ISSUE #186](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/186)
+* The first conversation with Yuthura inside the Korriban Academy could leave the party jumbled, causing facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The floor of the training room in the Manaan Sith Base had some lightmap UV issues [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
 * The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
