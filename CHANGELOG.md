@@ -195,6 +195,7 @@
 * Checked for (and removed) Shaardan's corpse in the pre-final trial conversation with Uthar in the Korriban Academy
 * Edited Uthar's conversation in the Korriban Academy to remove the salute, swap the party leaving for a fade-out, and change the running for the back door to a walk
 * Moved the party out of the way during Uthar's introductory cutscene in the Korriban Academy and stopped him bowing to the students
+* Jumped wandering NPCs in the Korriban Academy to the edge of the room whenever a conversation with Uthar commences
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

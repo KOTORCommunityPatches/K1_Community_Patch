@@ -206,6 +206,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Tyvark's conversation on Manaan had some incorrectly configured checks on available lines (Reported by Salk) [ISSUE #194](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/194)
 * Uthar's conversation in the Korriban Sith Academy had some issues with party wrangling, departures, and inappropriate saluting [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Vandar had some stunt animation issues in one of the final cutscenes due to a bad supermodel reference [ISSUE #178](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/178)
+* Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
 * When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
