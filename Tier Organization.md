@@ -127,6 +127,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The swaying cables in the Anchorhead droid shop were clipping into some boxes [ISSUE #114](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/114)
 * The swoop records computer panel in Manaan Ahto East was clipping into the wall [ISSUE #155](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/155)
 * The Tatooine docking bay was missing exit waypoints, causing messengers to fade out in-place instead of leaving [ISSUE #129](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/129)
+* The Twi'lek females in Dreshdae on Korriban all use the dancer appearance, running around half-naked [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The Valley of the Dark Lords on Korriban had some distorted UVs on the cliff edge (Reported by djh269) [ISSUE #191](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/191)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * There is an inaccessible container in The One's compound

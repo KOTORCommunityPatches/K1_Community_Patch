@@ -197,6 +197,7 @@
 * Moved the party out of the way during Uthar's introductory cutscene in the Korriban Academy and stopped him bowing to the students
 * Jumped wandering NPCs in the Korriban Academy to the edge of the room whenever a conversation with Uthar commences
 * Swapped the clothing variation on one of the two pilots in the Korriban Dreshdae cantina
+* Changed the Twi'lek females in Dreshdae on Korriban from stripper to clothed appearances
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
