@@ -65,7 +65,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Sith Apprentices have their soundsets mismatched: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Sometimes the wrong dialog would play during the Leviathan torture scene: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * On board the Yavin Station, when the Trandoshans appear for the first time, some of the dialog options sometimes causes you to be kicked out of the dialog: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* When entering Deshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* When entering Dreshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 
 ### danil-ch:
 * Some DS responses were unavailable in k_hcar_dialog.dlg: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
@@ -202,6 +202,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
 * Turrets in the Rakatan Temple used the Bith soundset (for some reason) [ISSUE #171](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/171)
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
+* Two pilots standing right next to each other in the Korriban Dreshdae cantina wear the same clothes [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 * Tyvark's conversation on Manaan had some incorrectly configured checks on available lines (Reported by Salk) [ISSUE #194](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/194)
 * Uthar's conversation in the Korriban Sith Academy had some issues with party wrangling, departures, and inappropriate saluting [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
