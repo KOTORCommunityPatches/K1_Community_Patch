@@ -143,6 +143,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * When entering Dreshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* Yuthura and Uthar wear different outfits in the Sith Academy on Korriban compared to elsewhere [ISSUE #197](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/197) Partial: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Yuthura only attacks with one of her lightsabers
 
 # Tier 2

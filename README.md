@@ -251,6 +251,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Various fixes on Korriban: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* Yuthura and Uthar wear different outfits in the Sith Academy on Korriban compared to elsewhere [ISSUE #197](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/197) Partial: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
 * Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
