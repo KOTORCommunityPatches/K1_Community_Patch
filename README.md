@@ -135,6 +135,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Juhani in the Grove lacked a soundset (Suggested by JCarter426) [ISSUE #41](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/41)
 * Kandon's pre-swoop race conversation had some aesthetic issues due to sloppy party positioning [ISSUE #62](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62)
 * Lashowe could occasionally forget elementary lightsaber safety in the post-Tuk'ata mother conversation in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
+* Lashowe did a quick outfit change on Korriban between harassing the player in Dreshdae and appearing in the Academy [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)
 * Nearly everyone/thing in Hrakert Station had the wrong soundset [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)

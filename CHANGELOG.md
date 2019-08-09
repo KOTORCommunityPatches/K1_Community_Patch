@@ -199,6 +199,7 @@
 * Swapped the clothing variation on one of the two pilots in the Korriban Dreshdae cantina
 * Changed the Twi'lek females in Dreshdae on Korriban from stripper to clothed appearances
 * Wrangled the party for the confrontation with Lashowe in Dreshdae on Korriban
+* Swapped Lashowe's dark uniform in Dreshdae on Korriban to the light one to match her other appearances
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

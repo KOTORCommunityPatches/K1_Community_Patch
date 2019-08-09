@@ -83,6 +83,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Juhani in the Grove lacked a soundset (Suggested by JCarter426) [ISSUE #41](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/41)
 * Killing Dustil before completing Carth's quest would leave its status unresolved (with additions by DarthParametric) [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * Lashowe could occasionally forget elementary lightsaber safety in the post-Tuk'ata mother conversation in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
+* Lashowe did a quick outfit change on Korriban between harassing the player in Dreshdae and appearing in the Academy [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Malak's grunt sound didn't play in the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)
 * Mission has no clothing on when you meet Griff at the spaceport without her in your party
