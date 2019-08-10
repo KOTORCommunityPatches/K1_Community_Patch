@@ -204,6 +204,7 @@
 * Tweaked Sith guards outside the academy to match the ones inside the academy
 * Incorporated fixes from the latest update of JC's Korriban: Back in Back
 * Massaged the intro cutscene for the Tomb of Naga Sadow on Korriban to remove a delay and resolve some facing issues
+* Fixed some facing issues during the final scene in the Tomb of Naga Sadow on Korriban and helped Uthar figure out how to use a door
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

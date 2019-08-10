@@ -228,6 +228,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
 * The dialogue with the surviving scientists Kono and Sami had several facing and camera issues (reported by DarthParametric)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
+* The final confrontation in the Tomb of Naga Sadow on Korriban had various facing issues and pathing issues with a door (with input from ebmar) [ISSUE #167](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167)
 * The final cutscene for the Light Side ending had a raft of issues with stunt animations and framing in widescreen resolutions [ISSUE #186](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/186)
 * The first conversation with Yuthura inside the Korriban Academy could leave the party jumbled, causing facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The initial conversation with Davik at his estate had a multitude of positioning and facing issues [ISSUE #57](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57)
