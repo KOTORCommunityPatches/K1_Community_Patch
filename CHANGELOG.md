@@ -4,7 +4,6 @@
 * Added a fix to the skin weights of the male player head PMHC01
 * Added a fix for the commoner Asian male head comm_a_m to restore eye animation
 * Added a fix for clipping collars on female Class 7 (PFBF) and Class 9 (PFBH) armours
-* Added a fix for the credits incorrectly scaling during the Dark Side ending
 * Added a number of model fixes for the Endar Spire to address various geometry issues
 * Added a fix for a stray blaster appearing in the middle of a hallway in the Sith Base on Taris
 * Added a fix for missing lightmaps in the entrance of the Taris Upper City cantina

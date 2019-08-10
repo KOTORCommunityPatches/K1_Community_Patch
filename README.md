@@ -223,7 +223,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some NPCs have wrong or missing sounds in their soundsets
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
 * The Council on Dantooine float a few inches off the ground
-* The end credits don't scale to screen resolution during the Dark Side ending
 * The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * The male player head PMHC01 has some deformation issues along the jawline
 * There is an inaccessible container in The One's compound

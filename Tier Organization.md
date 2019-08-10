@@ -119,7 +119,6 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The character Adrenas was lacking a soundset: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * The character Hijata had the wrong appearance and dialogue: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * The Elder's compound on Lehon had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
-* The end credits don't scale to screen resolution during the Dark Side ending
 * The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (reported by DarthParametric)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 * The exploding pillar in the Tomb of Ajunta Pall on Korriban could cause permanent disabling of AI for companions and suffered from UI glitches during the cutscene [ISSUE #164](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164)
