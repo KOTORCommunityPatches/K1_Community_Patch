@@ -261,7 +261,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The character Hijata had the wrong appearance and dialogue: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Korriban NPCs that loop animations—students meditating in the academy and archaeologists digging in the valley—would turn to face the player while still doing their animations: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Dak wouldn't drop his stuff if killed in the Valley: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-* Several aliens were very low-quality: [JC's Dense Aliens](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
+* Several aliens were very low-quality: [JC's Dense Aliens for K1](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
 * A typo prevented various NPCs from commenting on the Kashyyyk situation: [JC's Jedi Tailor for K1](https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/)
 * The Republic soldier body models have been improved: [JC's Republic Soldier Fix for K1](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/) (with DarthParametric lending a hand)
 * The Sith student Tariga had a male appearance and voice, contrary to Tamlen's description of her: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/) (reported by ebmar)
