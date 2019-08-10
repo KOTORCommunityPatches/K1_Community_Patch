@@ -173,6 +173,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The initial conversation with Davik at his estate had a multitude of positioning and facing issues [ISSUE #57](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57)
 * The initial conversation with Gadon Thek can suffer from poor party positioning due to the desk in the way [ISSUE #70](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70)
 * The interrogation of the prisoner in the Manaan Republic Embassy had various facing issues, problems with the force cage visibility in certain camera angles, and a line that skipped [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
+* The introductory cutscene for the Tomb of Naga Sadow on Korriban had a long delay at the start and facing issues between Uthar and Yuthura [ISSUE #167](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 * The Jorak Uln encounter in the Korriban Tomb of Tulak Hord had various cosmetic issues and occasionally missing companions [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
