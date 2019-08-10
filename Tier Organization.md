@@ -112,7 +112,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)
 * Some NPCs have wrong or missing sounds in their soundsets
 * Some Sith Elite Troopers in the Manaan hangar bay incorrectly used the Officer appearance (Reported by JCarter426) [ISSUE #183](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/183)
-* Some Sith students’ genders were incorrect: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* Some Sith Korriban NPCs' genders were incorrect: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.0](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * Some view screen monitors in the Taris Upper City cantina float in mid-air: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #87](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/87)
 * The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (with input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
