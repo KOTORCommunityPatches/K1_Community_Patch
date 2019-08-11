@@ -191,7 +191,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The screen blurring VFX for Force/Knight/Master Speed was really obnoxious at modern resolutions [ISSUE #99](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/99)
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
-* The selection icon for Uthar's bed in the Korriban Sith Academy was positioned too low [ISSUE #199](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/199)
 * The Selkath security probe droid in the Manaan Republic Embassy entrance would cause party members to constantly reposition while talking to Roland Wann [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The Star Map opening sequence in the Dantooine Ruins was split in two instead of being one continuous scene [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105)
