@@ -35,8 +35,6 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 * Xor refused to show up for the second encounter unless the player used the rapid transit system [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
 
 
-
-
 ## Developer Oversight
 These are fixes for other issues that were likely unintended. They don't break the game, but they are obvious things to fix.
 * A couple of selection icons for security terminals in the Taris Sith Base are positioned too low [ISSUE #58](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/58)
@@ -118,6 +116,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (with input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The character Adrenas was lacking a soundset: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * The character Hijata had the wrong appearance and dialogue: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* The datapad for Dustil's quest could still be obtained after the Sith Academy on Korriban went hostile, making Carth look out of touch [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * The Elder's compound on Lehon had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
 * The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (reported by DarthParametric)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
@@ -150,6 +149,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Vandar had some stunt animation issues in one of the final cutscenes due to a bad supermodel reference [ISSUE #178](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/178)
 * Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * When entering Dreshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* When entering the Sith Academy on Korriban post-Tomb of Ajunta Pall, the rejoined party members could end up scattered [ISSUE #200](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200)
 * Yuthura and Uthar wear different outfits in the Sith Academy on Korriban compared to elsewhere [ISSUE #197](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/197) Partial: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Yuthura only attacks with one of her lightsabers
 
