@@ -207,6 +207,8 @@
 * Herded the party more efficiently when returning to the Sith Academy on Korriban post-Tomb of Naga Sadow
 * Removed Dustil's datapad from Uthar's quarters once the Sith Academy on Korriban goes hostile
 * Added a missing stage update for Dustil's quest when taking the datapad found in Uthar's room in the Sith Academy on Korriban and prevented multiple triggers of the related conversation
+* Incorporated JC's Republic Soldier Fix
+* Equipped Tariga and a couple other Sith students with lightsabers
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

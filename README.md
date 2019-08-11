@@ -268,6 +268,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * A typo prevented various NPCs from commenting on the Kashyyyk situation: [JC's Jedi Tailor for K1](https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/)
 * The Republic soldier body models have been improved: [JC's Republic Soldier Fix for K1](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/) (with DarthParametric lending a hand)
 * The Sith student Tariga had a male appearance and voice, contrary to Tamlen's description of her: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/) (reported by ebmar)
+* Tariga and a couple other Sith students attacked with no weapons but their fists: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/) (reported by DarthParametric) [ISSUE #201](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/201)
 * Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
 * Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
