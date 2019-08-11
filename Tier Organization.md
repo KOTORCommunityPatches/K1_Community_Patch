@@ -61,6 +61,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Dak wouldn't drop his stuff if killed in the Valley: [JC's Korriban: Back in Black for K1](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
 * Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
+* Dustil's quest state didn't update properly when the datapad in Uthar's room in the Korriban Sith Academy was found and the footlocker containing it could trigger Carth's conversation repeatedly [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * During the Sandral-Matale Feud, the player had the option to claim Ahlan Matale had offered a reward, even if no such conversation took place
 * Elora confesses to Sunry's infidelity automatically if you have Jolee or Bastila in your party: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Energy shields don't block electricity: [Energy Shield Damage Fix](http://deadlystream.com/forum/files/file/548-energy-shield-damage-fix/)

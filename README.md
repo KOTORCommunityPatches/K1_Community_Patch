@@ -121,6 +121,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * During the scene on Deck 1 of the Star Forge when the droids burst in, the party members are still facing the door [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * During Uthar's introductory cutscene when first entering the Korriban Sith Academy the party members could get in the way and Uthar bowed inappropriately [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Dustil's conversation in the Korriban Academy had some facing issues with Carth and the player [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
+* Dustil's quest state didn't update properly when the datapad in Uthar's room in the Korriban Sith Academy was found and the footlocker containing it could trigger Carth's conversation repeatedly [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * Gaps in the Leviathan Prison Block walkmesh allowed targeting (and shooting) certain enemies through walls [ISSUE #132](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/132)
 * Generic droids incorrectly used the Bantha soundset (Reported by ebmar) [ISSUE #159](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/159)
 * Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
