@@ -18,13 +18,7 @@ Previous Release: [v1.7](https://deadlystream.com/files/file/1258-kotor-1-commun
 This mod is a compilation of various bugfix mods (as well as a few original fixes) put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who created these mods, and gave me permission to include them in this patch.
 
 ## 2. Install:
-Run INSTALL.exe and select your desired level of installation:
-
-* Tier 1 - This category strictly addresses bugs and other problems that probably weren't intended by the developers.
-* Tier 2 - This category enhances the game experience. Restoring cut content, aesthetic changes, removing annoyances, etc. Only utilizes existing game assets. Recommended content.
-* Tier 3 - This category includes modder-created content, assets ported from TSL, etc. Optional content.
-
-The Tier you select will also install the previous Tier/s, i.e. selecting Tier 1 will only install Tier 1 content, selecting Tier 2 will install both Tier 1 and Tier 2 content, selecting Tier 3 will install all content.
+Run INSTALL.exe and navigate to your K1 install folder. Generally speaking, this mod should be installed before anything else, except mods that do hard edits/overwrites of TLK or MOD (module) files.
 
 ## 3. Uninstall:
 Given the complexity of this mod, a clean install of KOTOR is recommended. However, you can check through the installation log file if you wish to undo the changes made.

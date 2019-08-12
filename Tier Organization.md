@@ -1,6 +1,6 @@
 # Tier 1
 ## Bug Fixes
-These are the most critical fixes. If a bug is on this list, it isn't just a minor annoyance, but actually prevents you from playing the game the way it was meant to be played * restricting access to content, making it impossible to complete quests, and so on.
+These are the most critical fixes. If a bug is on this list, it isn't just a minor annoyance, but actually prevents you from playing the game the way it was meant to be played™, restricting access to content, making it impossible to complete quests, and so on.
 * A line in k_hjuh_dialog.dlg was inaccessible: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * A typo prevented various NPCs from commenting on the Kashyyyk situation
 * Bacca's Blade Hilt script would sometimes not allow you to receive it: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
@@ -34,14 +34,13 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 * The XP reward for delivering the box to Motta the Hutt was incorrect: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Xor refused to show up for the second encounter unless the player used the rapid transit system [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
 
-
 ## Developer Oversight
 These are fixes for other issues that were likely unintended. They don't break the game, but they are obvious things to fix.
 * A couple of selection icons for security terminals in the Taris Sith Base are positioned too low [ISSUE #58](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/58)
 * A couple of troopers in the Manaan Sith Base were slacking off in a corner instead of doing their duty [ISSUE #184](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/184)
 * A crate in the Hidden Bek base was clipping into a wall (Reported by JCarter426) [ISSUE #150](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/150)
 * A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
-* A few Sith technicians on the Leviathan attacked with their fists instead of equipping weapons [ISSUE #147](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/147
+* A few Sith technicians on the Leviathan attacked with their fists instead of equipping weapons [ISSUE #147](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/147)
 * A placeable bench can occasionally be unintentionally spawned when fighting the Tuk'ata Mother in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * A random swoop fan on Manaan was getting in the way of a Sith extorting people for money (reported by DarthParametric) [ISSUE #140](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/140)
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar)
