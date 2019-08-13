@@ -209,6 +209,7 @@
 * Added a missing stage update for Dustil's quest when taking the datapad found in Uthar's room in the Sith Academy on Korriban and prevented multiple triggers of the related conversation
 * Incorporated JC's Republic Soldier Fix
 * Equipped Tariga and a couple other Sith students with lightsabers
+* Prevented re-entering the Vulkar base on Taris post-swoop race (and the Bek base if Gadon is dead)
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
