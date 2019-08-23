@@ -210,6 +210,7 @@
 * Incorporated JC's Republic Soldier Fix
 * Equipped Tariga and a couple other Sith students with lightsabers
 * Prevented re-entering the Vulkar base on Taris post-swoop race (and the Bek base if Gadon is dead)
+* Fixed the momentary fade-in before the intro cutscene in the Korriban Tomb of Naga Sadow starts
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
