@@ -129,6 +129,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * The player could repeatedly ask HK about restoring memories post-Leviathan, despite being told there were no more to restore [ISSUE #175](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/175)
 * The repairable Vulkar bar droid lacked a weapon (Reported by DarthParametric)
+* The reward from Roland Wann in Manaan East Central for completing Hrakert Station was meant to include a sonic rifle (Reported by djh269) [ISSUE #209](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/209)
 * The Sandpeople Storyteller had an incorrect soundset (Reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
