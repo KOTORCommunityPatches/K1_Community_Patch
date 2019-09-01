@@ -235,6 +235,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Elise was overly flirty (Reported by DarthParametric) [ISSUE #54](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/54)
 * One of the bounty hunters in Javyar's cantina was secretly a computer in disguise (Reported by JCarter426) [ISSUE #133](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/133)
 * Some Sith Elite Troopers in the Manaan hangar bay incorrectly used the Officer appearance (Reported by JCarter426) [ISSUE #183](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/183)
+* The Genoharadan in the final enounter in the Tatooine Dune Sea had a number of incorrect soundsets [ISSUE #215](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/215)
 * The hallway leading to the Manaan hotel had some incorrect baked lighting colouration [ISSUE #109](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/109)
 * The swoop records computer panel in Manaan Ahto East was clipping into the wall [ISSUE #155](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/155)
 * The Tach in Kashyyyk's Shadowlands had an obnoxiously loud screech (with input from "robot ears" AFP) [ISSUE #127](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/127)
