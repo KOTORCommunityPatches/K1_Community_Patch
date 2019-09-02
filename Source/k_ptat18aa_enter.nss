@@ -9,10 +9,17 @@
 	quest at the Sandpeople enclave (either peacefully or violently). If both
 	cases are true, the miners are removed, since their dialogue indicates they
 	plan on evacuating back to Anchorhead soon after the player has rescued them.
-	See also cp_tat18aa_enter.
+	See also cp_m18aa_en.
 	
-	DP 2019-05-19                                                             */
+	DP 2019-05-19
+	
+	Edited to include the Sand People reputation fix so it gets set correctly on
+	module load.
+	
+	JC 2019-05-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
+#include "cp_inc_tat"
+
 
 void main() {
 	
@@ -39,4 +46,8 @@ void main() {
 					oMinerGrunt = GetObjectByTag("tat18_13craw1_01", nCount);
 				}
 		}
+
+// Sand People reputation fix
+CP_SandRepFix();
+
 }
