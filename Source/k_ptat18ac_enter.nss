@@ -3,7 +3,7 @@
 
 	k_ptat18ac_enter
 	
-	Enter script for tat_m18ab.
+	Enter script for tat_m18ac.
 	
 	Fixes an issue with the Sand People	hostility state not being set correctly
 	when the module loads.
