@@ -16,7 +16,7 @@
 	Edited to include the Sand People reputation fix so it gets set correctly on
 	module load.
 	
-	JC 2019-05-19                                                             */
+	JC 2019-09-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 #include "cp_inc_tat"
 
