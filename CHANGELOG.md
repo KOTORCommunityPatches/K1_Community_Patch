@@ -214,6 +214,7 @@
 * Edited the conditionals that check how many Tach glands the player has when talking to the Czerka officer in the Kashyyyk Upper Shadowlands to count the stack size properly
 * Corrected an invalid ResRef in Roland Wann's reward script in Manaan East Central
 * Swapped some incorrect soundsets for the Geonharadan in their final encounter in the Tatooine Dune Sea
+* Added a safety net for squishy players getting ambushed by the Gamorreans in the Tatooine Dune Sea, reducing the mine damage based on their current health
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
