@@ -148,6 +148,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (With input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
+* The conversation with Gorwooken in The Great Walkway on Kashyyyk had an incorrect check for Jolee being present (Reported by Salk) [ISSUE #214](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/214)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
