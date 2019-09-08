@@ -16,7 +16,7 @@
 	Edited to include the Sand People reputation fix so it gets set correctly on
 	module load.
 	
-	JC 2019-09-02                                                             */
+	JC 2019-09-08                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 #include "cp_inc_tat"
 
@@ -47,6 +47,8 @@ void main() {
 				}
 		}
 
+// Execute original script
+ExecuteScript("cp_m18aa_en", OBJECT_SELF, -1);
 // Sand People reputation fix
 CP_SandRepFix();
 
