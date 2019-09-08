@@ -101,6 +101,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Ahlan Matale was able to channel his rage in order to use Force levitation in the Council chambers [ISSUE #55](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55)
 * All the civilians in Davik's estate wore the same outfit [ISSUE #102](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/102)
 * All the male Twi'leks in Javyar's Cantina on Taris use the same green head [ISSUE #72](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/72)
+* Assault droids in the Manaan Hrakert Station lacked the programming to use basic weapons (reported by Sniggles) [ISSUE #223](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/223)
 * Bandon's lackeys in Hrakert Station were keen to start the fight right away, forgetting the rule of bad guy monologuing [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar) [ISSUE #34](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/34)
 * Carth had no respect for the dead, talking over the top of a death cry on the Leviathan bridge [ISSUE #131](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131)
