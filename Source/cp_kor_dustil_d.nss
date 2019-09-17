@@ -3,10 +3,17 @@
 
 	Dustil's OnDeath script. Ensures Carth will realize Dustil is dead.
 	
-	Updated 2019-07-13 to add journal entry checks/updates for the "Finding
-	Dustil" quest to account for killing Dustil at various different stages.
+	JC 2019-01-26
 	
-	JC 2019-01-26                                                             */
+////////////////////////////////////////////////////////////////////////////////
+
+	Updated to add journal entry checks/updates for the "Finding Dustil" quest
+	to account for killing Dustil at various different stages.
+	
+	Issue #4: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4
+	
+	DP 2019-07-13                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_switch"

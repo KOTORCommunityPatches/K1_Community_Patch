@@ -9,6 +9,9 @@
 	This script an added EbdDialogue script for Handon to turn his injured
 	idle animation back on after the player has finished talking to him.
 	
+	Issue #38: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

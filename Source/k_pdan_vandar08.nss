@@ -12,6 +12,9 @@
 	
 	See also k_pdan_vandar03, k_pdan_vandar05, and k_pdan_vandar06.
 
+	Issue #104: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/104
+
 	DP 2019-08-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

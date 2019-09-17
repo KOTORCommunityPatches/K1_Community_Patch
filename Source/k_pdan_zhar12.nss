@@ -9,6 +9,9 @@
 	Forcing the companions to walk forwards a meter from their starting
 	positions was the most expedient way to get them to co-operate.
 	
+	Issue #83: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83
+	
 	DP 2019-05-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -8,6 +8,9 @@
 	in order to get the Council to properly face the player, and the switch
 	from the overhead camera to the Zhar closeup was done sooner.
 	
+	Issue #151: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151
+	
 	DP 2019-07-29                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

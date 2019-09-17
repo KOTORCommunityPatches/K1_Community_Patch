@@ -9,6 +9,9 @@
 	the vanilla scene, both Handon and Rickard stand around despite being
 	told they can leave if the other is solely accused by the player.
 	
+	Issue #38: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

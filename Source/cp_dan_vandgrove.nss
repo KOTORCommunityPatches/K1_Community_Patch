@@ -19,6 +19,9 @@
 	to Vandar before Zhar and thus initiates the conversation manually. This
 	is primarily for the killing Juhani route, since there are player responses
 	in that instance.
+	
+	Issue #151: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151
 
 	DP 2019-05-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////

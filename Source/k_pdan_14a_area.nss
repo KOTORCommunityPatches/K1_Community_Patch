@@ -12,6 +12,9 @@
 	
 	2019-05-19 Updated to streamline code using vanilla include functions.
 	
+	Issue #29: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29
+	
 	JC 2019-04-13                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

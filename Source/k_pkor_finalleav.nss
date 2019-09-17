@@ -10,6 +10,9 @@
 	are walked away at the same time just in case they happen to be in-frame
 	(and most likely blocking the shot).
 	
+	Issue #162: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162
+	
 	DP 2019-08-07                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

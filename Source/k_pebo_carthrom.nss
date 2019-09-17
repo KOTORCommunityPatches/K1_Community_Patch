@@ -11,19 +11,21 @@
 	
 	Returns true if the player has romanced Carth and they've talked to HK.
 	
+	Issue #3: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3
+	
 	JC 2019-02-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 int StartingConditional() {
 
-int nRomance;
-if( GetGlobalNumber("K_SWG_CARTH") == 13 ) nRomance = 1;
-else nRomance = 0;
-int nHKCheck = GetGlobalBoolean("Ebo_HK47");
-int nReturn;
-if( IsAvailableCreature(NPC_HK_47) ) nReturn = nRomance * nHKCheck;
-else nReturn = nRomance;
+	int nRomance;
+	if( GetGlobalNumber("K_SWG_CARTH") == 13 ) nRomance = 1;
+	else nRomance = 0;
+	int nHKCheck = GetGlobalBoolean("Ebo_HK47");
+	int nReturn;
+	if( IsAvailableCreature(NPC_HK_47) ) nReturn = nRomance * nHKCheck;
+	else nReturn = nRomance;
 
-return nReturn;
-
+	return nReturn;
 }

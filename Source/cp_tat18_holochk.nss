@@ -9,6 +9,9 @@
 	will check the placeable for a dupe and destroy it, now that the DLG is
 	gated behind the player already possessing the holocron.
 	
+	Issue #219: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/219
+	
 	DP 2019-09-05                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -10,6 +10,9 @@
 	
 	See also k_pkas_yespoach1.
 	
+	Issue #212: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/212
+	
 	DP 2019-08-24                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -8,6 +8,9 @@
 	on this line in order to set a boolean to prevent a repeatable DS gain
 	exploit.
 	
+	Issue #106: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/106
+	
 	DP 2019-05-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

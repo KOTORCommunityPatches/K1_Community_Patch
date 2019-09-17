@@ -7,6 +7,9 @@
 	In order to remove a long delay on the initial node looking at a closed
 	door, the node this script fires on has had its delay increased slightly.
 	
+	Issue #167: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167
+	
 	DP 2019-08-10                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

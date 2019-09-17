@@ -10,6 +10,9 @@
 	and k_pdan_player18), but those functions have now all been rolled into
 	this script.
 	
+	Issue #83: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83
+	
 	DP 2019-05-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -31,7 +34,7 @@ void main() {
 	
 	NoClicksFor(1.5);
 	
-	SetGlobalFadeOut(0.0, 0.0, 0.0, 0.0, 0.0);
+	SetGlobalFadeOut();
 	
 	//Zhar previously jumped into place by k_pdan_vandar01
 	DelayCommand(0.1, AssignCommand(oZhar, ClearAllActions()));

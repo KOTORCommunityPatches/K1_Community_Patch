@@ -11,6 +11,9 @@
 	quest stage to reflect that you found the datapad, which doesn't seem to
 	happen otherwise.
 	
+	Issue #4: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4
+	
 	DP 2019-08-11                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

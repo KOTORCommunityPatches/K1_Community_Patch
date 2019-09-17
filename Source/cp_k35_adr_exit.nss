@@ -14,6 +14,9 @@
 	
 	See also cp_k35_adr_datpd.
 	
+	Issue #162: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162
+	
 	DP 2019-08-06                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

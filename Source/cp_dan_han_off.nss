@@ -12,6 +12,9 @@
 	This is to prevent the TALK_FORCEFUL animations specified by the DLG
 	for Handon's subsequent lines being overridden.
 	
+	Issue #38: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

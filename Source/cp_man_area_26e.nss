@@ -4,7 +4,12 @@
 	Vanilla OnEnter script for manm26ae (Manaan East Central).
 	
 	This script is not able to be decompiled by DeNCS, so byte code is all that
-	is available. See k_pman_area_26e.nss for further details.
+	is available. 
+	
+	See k_pman_area_26e.nss for further details.
+	
+	Issue #137: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137
 	
 	2019-05-18                                                                */
 ////////////////////////////////////////////////////////////////////////////////

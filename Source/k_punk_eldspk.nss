@@ -13,6 +13,9 @@
 	Having a party member as party leader can cause the PC to freak out once the
 	conversation ends.
 	
+	Issue #169: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169
+	
 	DP 2019-06-22                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

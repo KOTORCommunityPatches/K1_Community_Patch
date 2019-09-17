@@ -9,6 +9,9 @@
 	summons the nearest guards. Done to prevent the attacking with fists AI
 	problem. See also cp_tar08_davalrm.
 
+	Issue #100: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/100
+
 	DP 2019-05-09                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

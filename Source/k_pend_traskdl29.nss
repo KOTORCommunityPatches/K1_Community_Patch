@@ -11,6 +11,9 @@
 	him back to the position that NPC Trask was standing in for the sake of
 	consistency. See also cp_end_trasksp_d and k_pend_reset.
 	
+	Issue #86: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86
+	
 	DP 2019-05-20                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -13,6 +13,9 @@
 	
 	See also k_pkor_sithjoin.
 	
+	Issue #162: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167
+	
 	DP 2019-08-07                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

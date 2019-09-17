@@ -8,6 +8,8 @@
 	remove the mining crew once they have both been talked to and the
 	Sandpeople situation has been resolved.
 	
+	Issue #115: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/115
 	
 	DP 2019-05-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////

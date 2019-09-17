@@ -11,6 +11,9 @@
 	edit the module entry point and starting trigger geometry, since the jump
 	is covered by a fade-in.
 	
+	Issue #167: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167
+	
 	DP 2019-08-23                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

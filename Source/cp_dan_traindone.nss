@@ -6,16 +6,22 @@
 	Fired when the player goes to speak to the Council after completing their
 	training.
 	
-	Updated 2019-05-02. Revised by DP, replacing JC's original script, and merging
-	in the contents of the one previously added to dan13_vandar.dlg, with the new
-	CP include function equivalents.
+	JC 2019-04-28
+	
+////////////////////////////////////////////////////////////////////////////////
+	
+	Replaced JC's original script, merging in the contents of the one previously
+	added to dan13_vandar.dlg, with the new CP include function equivalents.
 	
 	Updated 2019-07-30 to adjust the party end locations to more closely match
 	the vanilla positioning for improved static camera framing consistency. 
 	
 	See also cp_dan_vandgrove.
 	
-	JC 2019-04-28                                                             */
+	Issue #151: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151
+	
+	DP 2019-05-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -32,9 +38,10 @@ void main() {
 	
 	if(GetIsPC(oEntering) && GetGlobalNumber("DAN_JEDI_PLOT") == 7)
 		{
-			//Since the trigger location puts the starting point of the party very
-			//close to the Council, jump them back a bit to allow time for an approach
 			SetGlobalFadeOut();
+			
+			// Since the trigger location puts the starting point of the party very
+			// close to the Council, jump them back a bit to allow time for an approach
 			CP_PartyHerder(lPCStart, lPM1Start, lPM2Start, TRUE, FALSE);
 			
 			CP_DLGSetup("dan13_vandar");

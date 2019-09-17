@@ -7,6 +7,12 @@
 	eaten by a Firaxan shark. Edited to add in a more controlled fade-in,
 	since changes to the DLG messed up the original one.
 	
+	See also cp_m28ab_cut001w, cp_m28ab_cut002w, cp_m28ab_cut003w, cp_m28ab_cut004w,
+	cp_m28ab_cut005w
+	
+	Issue #143: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143
+	
 	DP 2019-05-16                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

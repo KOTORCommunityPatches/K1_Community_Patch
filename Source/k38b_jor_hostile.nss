@@ -15,6 +15,9 @@
 	k38b_jor_gastrap, k38b_jor_givetab, k38b_init_jorak, k38b_init_jorak1,
 	k38b_jor_riddlen, and k38b_jor_riddley.
 	
+	Issue #165: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165
+	
 	DP 2019-07-28                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

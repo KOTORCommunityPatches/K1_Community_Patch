@@ -12,8 +12,7 @@
 
 void main() {
 
-ActionEquipMostDamagingMelee(OBJECT_INVALID, FALSE);
-DelayCommand(0.2,ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_HOSTILE_1));
-DelayCommand(0.3,GN_DetermineCombatRound());
-
+	ActionEquipMostDamagingMelee(OBJECT_INVALID, FALSE);
+	DelayCommand(0.2,ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_HOSTILE_1));
+	DelayCommand(0.3,GN_DetermineCombatRound());
 }

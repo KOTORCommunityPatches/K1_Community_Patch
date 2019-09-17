@@ -11,6 +11,9 @@
 	
 	See also k36_las_hostile.
 
+	Issue #163: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163
+
 	DP 2019-08-04                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

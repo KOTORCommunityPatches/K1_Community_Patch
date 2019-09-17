@@ -8,8 +8,12 @@
 	hostile. Because an issue was encountered where the Mando equipped a
 	sword while shooting the farmer in the middle of the cutscene, it was
 	decided that the best solution was to remove the sword before the cutscene
-	starts, then add it back before combat with the player commences. See
-	also k_pdan_mand55.
+	starts, then add it back before combat with the player commences. 
+	
+	See also k_pdan_mand55.
+	
+	Issue #111: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111
 	
 	DP 2019-05-12                                                             */
 ////////////////////////////////////////////////////////////////////////////////

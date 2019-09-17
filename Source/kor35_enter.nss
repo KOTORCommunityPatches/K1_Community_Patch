@@ -10,6 +10,12 @@
 	back to the rear entrance properly, rather than leaving one stranded
 	in the central chamber.
 	
+	Issue #200: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200
+	
+	Issue #4: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4
+	
 	DP 2019-08-11                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

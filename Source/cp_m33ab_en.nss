@@ -7,15 +7,13 @@
 	
 	2019-05-19 Updated to streamline code using vanilla include functions.
 	
+	Issue #29: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29
+	
 	2019-03-18                                                                */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_utility"
-
-// Prototypes
-void PlaceNPC(int iType, string sTag, location lLocation);
-int PlotState();
-
 
 void PlaceNPC(int iType, string sTag, location lLocation) {
 	object oNPC = CreateObject(iType, sTag, lLocation, 0);

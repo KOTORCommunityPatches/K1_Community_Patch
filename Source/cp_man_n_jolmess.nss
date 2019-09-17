@@ -8,9 +8,9 @@
 	
 	JC 2019-05-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
+
 int StartingConditional() {
 
-if( !GetGlobalBoolean("K_MESS_JOLEE") ) return TRUE;
-return FALSE;
-
+	if( !GetGlobalBoolean("K_MESS_JOLEE") ) return TRUE;
+	return FALSE;
 }

@@ -13,6 +13,9 @@
 	would complain about being "left out of the loop" if the player talked to
 	him before talking to the Jedi Council.
 	
+	Issue #2: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2
+	
 	JC 2019-01-25                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -20,14 +23,16 @@
 
 int StartingConditional() {
 
-int iResult = GetGlobalNumber("K_SWG_CARTH");
-int nLevel = GetHitDice(GetFirstPC());
-int nLastLevel = GetGlobalNumber("K_SWG_CARTH_LEVEL");
-int nPlot = GetGlobalNumber("DAN_PLANET_PLOT");
+	int iResult = GetGlobalNumber("K_SWG_CARTH");
+	int nLevel = GetHitDice(GetFirstPC());
+	int nLastLevel = GetGlobalNumber("K_SWG_CARTH_LEVEL");
+	int nPlot = GetGlobalNumber("DAN_PLANET_PLOT");
 
-if( iResult == 5 && nPlot >= 2 && nLevel > nLastLevel ) {
-	return TRUE;
-	}
-return FALSE;
+	if (iResult == 5 && nPlot >= 2 && nLevel > nLastLevel)
+		{
+			return TRUE;
+		}
+	
+	return FALSE;
 
 }

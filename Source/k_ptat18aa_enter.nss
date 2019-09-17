@@ -11,13 +11,25 @@
 	plan on evacuating back to Anchorhead soon after the player has rescued them.
 	See also cp_m18aa_en.
 	
+	Issue #115: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/115
+	
 	DP 2019-05-19
+	
+////////////////////////////////////////////////////////////////////////////////
 	
 	Edited to include the Sand People reputation fix so it gets set correctly on
 	module load.
 	
+	Issue #217: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/217
+	
+	Issue #21: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/21
+	
 	JC 2019-09-08                                                             */
 ////////////////////////////////////////////////////////////////////////////////
+
 #include "cp_inc_tat"
 
 
@@ -47,9 +59,9 @@ void main() {
 				}
 		}
 
-// Execute original script
-ExecuteScript("cp_m18aa_en", OBJECT_SELF, -1);
-// Sand People reputation fix
-CP_SandRepFix();
-
+	// Execute original script
+	ExecuteScript("cp_m18aa_en", OBJECT_SELF, -1);
+	
+	// Sand People reputation fix
+	CP_SandRepFix();
 }

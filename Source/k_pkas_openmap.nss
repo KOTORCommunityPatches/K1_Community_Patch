@@ -16,6 +16,9 @@
 	
 	2019-05-19 Updated to streamline code using vanilla include functions.
 
+	Issue #123: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123
+
 	DP 2019-05-13                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -58,7 +61,9 @@ void SetStarMap(int bValue) {
 }
 
 void main() {
+	
 	object oKas25_starmap = GetObjectByTag("kas25_starmap", 0);
+	
 	SetGlobalBoolean("kas_ComputerDown", 1);
 	SetStarMap(1);
 	CreateItemOnObject("kas_starpad", GetFirstPC(), 1);

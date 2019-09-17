@@ -7,10 +7,17 @@
 	
 	Fires a standalone DLG to re-enable some unused lines for Bastila.
 	
-	Edited 2019-09-05 to add an additional check that the player has the
-	holocron in their possession before initiating the dialogue.
+	2019-03-18
 	
-	2019-03-18                                                                */
+////////////////////////////////////////////////////////////////////////////////
+	
+	Edited to add an additional check that the player actually has the holocron
+	in their possession before initiating the dialogue.
+	
+	Issue #219: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/219
+	
+	DP 2019-09-05                                                                */
 ////////////////////////////////////////////////////////////////////////////////
 
 void main() {

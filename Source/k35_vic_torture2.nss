@@ -14,4 +14,3 @@
 void main() {
 	SetGlobalNumber("KOR_THRESHOLD", (GetGlobalNumber("KOR_THRESHOLD") + 2));
 }
-

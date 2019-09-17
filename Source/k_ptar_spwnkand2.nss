@@ -13,7 +13,11 @@
 	versions of this script. This one is fired by the trigger at the Lower City
 	entrance, the other is at the sewers elevator (although, seriously, does
 	anyone actually go the super long way around and enter by the sewers again?).
+	
 	See also k_ptar_spawnkand.
+
+	Issue #62: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62
 
 	DP 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////

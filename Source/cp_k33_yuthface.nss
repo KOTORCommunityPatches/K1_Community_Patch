@@ -7,6 +7,9 @@
 	force them to face Yuthura, since by default they tend to face the player
 	instead.
 	
+	Issue #160: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160
+	
 	DP 2019-07-15                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -6,7 +6,12 @@
 	This is a hijacked OnEnter for East Central, since DeNCS can't decompile
 	the vanilla script. It simply checks for the presence of the Sith prisoner
 	in the Republic embassy. If he is no longer there, then the force cage
-	he was in is deactivated. See also cp_man_area_26e (bytecode only).
+	he was in is deactivated. 
+	
+	See also cp_man_area_26e (bytecode only).
+	
+	Issue #137: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137
 	
 	DP 2019-05-17                                                             */
 ////////////////////////////////////////////////////////////////////////////////

@@ -9,6 +9,9 @@
 	when they spawn in order to prevent them attacking with their fists. It
 	simply issues that command and then fires their original OnSpawn.
 
+	Issue #64: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64
+
 	DP 2019-05-08                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -17,6 +20,7 @@
 void main() {
 
 	AssignCommand(OBJECT_SELF, CP_EquipFirstWeapon(OBJECT_SELF));
+	
 	//Fire original OnSpawn
 	DelayCommand(0.2, ExecuteScript("k_ptar_ambcom_sp", OBJECT_SELF, -1));
 }

@@ -9,10 +9,10 @@
 	2019-03-18                                                                */
 ////////////////////////////////////////////////////////////////////////////////
 
-void main() 
-{
-object oA = GetObjectByTag("k45_door_malak");
-SetMinOneHP(oA, 1);
-
-ActionLockObject(oA);
+void main() {
+	
+	object oDoor = GetObjectByTag("k45_door_malak");
+	
+	SetMinOneHP(oDoor, TRUE);
+	ActionLockObject(oDoor);
 }

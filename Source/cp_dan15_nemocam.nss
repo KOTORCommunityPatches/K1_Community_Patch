@@ -10,6 +10,9 @@
 	cut to the Nemo camera around halfway through when it mentions the one that
 	was found to be unworthy.
 	
+	Issue #105: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105
+	
 	DP 2019-07-31                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -3,7 +3,7 @@
 	
     Script edit by Kexikus.
 	
-    Fixed trigger. Prievously the conversation would only be started the first
+    Fixed trigger. Previously the conversation would only be started the first
 	time you see Xor even if Juhani is not in the party. Coming back later with
 	her in the party would no longer start the conversation, thus preventing any
 	progress.

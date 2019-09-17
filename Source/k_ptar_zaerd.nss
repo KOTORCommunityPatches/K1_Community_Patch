@@ -16,6 +16,9 @@
 	initiates Gadon's dialogue right after Zaerdra's finishes, having previously
 	jumped the party into a more desirable position (see k_ptar_zaeclg_en).
 
+	Issue #70: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70
+
 	DP 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -29,5 +32,5 @@ void main() {
 	AssignCommand(oPC, DelayCommand(0.1, SetFacingPoint(GetPosition(oGadon))));
 	AssignCommand(oPM1, DelayCommand(0.1, SetFacingPoint(GetPosition(oGadon))));
 	AssignCommand(oPM2, DelayCommand(0.1, SetFacingPoint(GetPosition(oGadon))));
-	AssignCommand(oGadon, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE, "", "", "", "", "", "", FALSE));
+	AssignCommand(oGadon, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
 }

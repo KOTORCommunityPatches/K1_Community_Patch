@@ -6,6 +6,9 @@
 	Simple script to ensure Canderous is facing the right person at various
 	points during the opening conversation with Davik.
 
+	Issue #57: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57
+
 	DP 2019-05-07                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

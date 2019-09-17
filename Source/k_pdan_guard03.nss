@@ -12,6 +12,12 @@
 	
 	See also k_pdan_guard04.
 	
+	Issue #105: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105
+	
+	Issue #152: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/152
+	
 	DP 2019-07-31                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

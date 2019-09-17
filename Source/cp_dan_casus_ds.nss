@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 
-	Fired by dan14_cutscene.dlg on Entry 62.
+	Fired by dan14_cutscene.dlg in danm14ad (Dantooine Sandral Grounds).
 	
 	This script is an alternative to the vanilla k_pdan_clean01 which is fired
 	at the end of each branch of the final Sandral-Matale Feud DLG. By default,
@@ -13,6 +13,9 @@
 	tell Nurik about the corpse/diary when you enter his estate. For this branch
 	of the DLG, if the player has the Casus quest active then it will now be
 	closed with a new DS-specific journal entry.
+	
+	Issue #27: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/27
 	
 	DP 2019-02-04                                                             */
 ////////////////////////////////////////////////////////////////////////////////

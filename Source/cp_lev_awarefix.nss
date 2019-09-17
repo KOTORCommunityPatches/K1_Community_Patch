@@ -16,7 +16,10 @@
 	but will be available again normally via the party selection upon the next
 	disembarkation. 
 	
-	Notes by DP. Script by JC. 2019-01-25                                                             */
+	Issue #9: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9
+	
+	JC 2019-01-25                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 void CP_AwarenessBoost(object oTarget, float fDuration) {

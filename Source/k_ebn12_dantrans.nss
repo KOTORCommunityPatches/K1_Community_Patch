@@ -9,18 +9,21 @@
 	is now played before the conversation, since it is heavily implied that
 	the conversation is taking place after having already landed on Dantooine.
 	
+	Issue #56: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/56
+	
 	DP 2019-04-28                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
-// Prototypes
-void sub1();
-
-void sub1() {
+void LoadDan() {
+	
 	SetGlobalNumber("K_CURRENT_PLANET", 15);
-	StartNewModule("danm13", "", "", "", "", "", "", "");
+	StartNewModule("danm13");
 }
 
 void main() {
-	SetGlobalBoolean("k_vis_Dantooine", 1);
-	sub1();
+	
+	SetGlobalBoolean("k_vis_Dantooine", TRUE);
+	
+	LoadDan();
 }

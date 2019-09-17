@@ -10,6 +10,9 @@
 	This script is an added OnHeartbeat script for Handon to make sure his
 	injured idle animation plays whenever it has been flagged to be on.
 	
+	Issue #38: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

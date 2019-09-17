@@ -8,6 +8,9 @@
 	eye while asking her a question. Tune in next week to see if he manages
 	to sort himself out.
 	
+	Issue #67: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/67
+	
 	DP 2019-04-27                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

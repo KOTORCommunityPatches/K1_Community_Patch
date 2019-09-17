@@ -9,6 +9,9 @@
 	the addition of a new static camera to better sell the idea they were running
 	off to fight the Dark Jedi.
 	
+	Issue #173: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173
+	
 	DP 2019-06-27                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

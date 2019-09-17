@@ -11,6 +11,9 @@
 	Curiously, this script is global, despite being completely module-specific
 	in functionality.
 
+	Issue #142: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142
+
 	DP 2019-05-18                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -24,9 +27,9 @@ void main()
 	location lPM2 = Location(Vector(135.6,185.7,5.25), 180.0);
 	
     if(GetIsPC(oOpen))
-    {
-        CP_DLGSetup("man28_merc");
-		CP_DLGHerder(lPC, lPM1, lPM2, TRUE, FALSE);
-		CP_DLGInit("man28_merc", "", FALSE, 0.5, 1.0);
-    }
+		{
+			CP_DLGSetup("man28_merc");
+			CP_DLGHerder(lPC, lPM1, lPM2, TRUE, FALSE);
+			CP_DLGInit("man28_merc", "", FALSE, 0.5, 1.0);
+		}
 }

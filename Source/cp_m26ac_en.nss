@@ -6,6 +6,9 @@
 	This script is not able to be decompiled by DeNCS, so byte code is all that
 	is available. See k_pman_locked03.nss for further details.
 	
+	Issue #29: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29
+	
 	2019-03-18                                                                */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -6,6 +6,15 @@
 	This script is not able to be decompiled by DeNCS, so byte code is all that
 	is available. See k_ptat18aa_enter for further details.
 	
+	Issue #115: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/115
+	
+	Issue #217: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/217
+	
+	Issue #21: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/21
+	
 	DP 2019-05-12                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

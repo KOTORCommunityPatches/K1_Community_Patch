@@ -10,6 +10,9 @@
 	
 	See also k_pkor_lashturn1, k_pkor_lashturn2, cp_kor33_fcelash, and k33_las_initconv.
 	
+	Issue #160: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160
+	
 	DP 2019-08-09                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

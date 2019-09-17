@@ -13,6 +13,9 @@
 	made to Kandon's position on the Lower City side to maintain a suitable
 	distance from the PC, and the whole scene was pushed a few meters further
 	into the hallway so it didn't trigger instantly on module load.
+	
+	Issue #62: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62
 
 	DP 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////

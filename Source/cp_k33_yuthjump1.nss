@@ -9,6 +9,9 @@
 	
 	See also cp_k33_yuthjump2.
 	
+	Issue #160: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160
+	
 	DP 2019-07-14                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -12,6 +12,9 @@
 	for the summoned guards was also slightly changed to push them out of sight
 	around the corners to mask them popping out of thin air.
 	
+	Issue #169: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169
+	
 	DP 2019-06-21                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -5,8 +5,12 @@
 	
 	Gas vent in Davik's estate. Fixes the radius value.
 	
+	Issue #101: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/101
+	
 	JC 2019-04-26                                                             */
 ////////////////////////////////////////////////////////////////////////////////
+
 #include "k_inc_utility"
 
 void main() {

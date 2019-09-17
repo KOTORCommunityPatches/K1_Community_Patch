@@ -16,6 +16,9 @@
 	be noted that a Deadly Frag Mine only does 54 damage, with a chance for
 	a Reflex save for half damage.
 	
+	Issue #216: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/216
+	
 	DP 2019-09-06                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

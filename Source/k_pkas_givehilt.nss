@@ -15,6 +15,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 void main() {
+	
 	object oSpeaker = GetPCSpeaker();
 	
 	CreateItemOnObject("kas25_swordhilt", oSpeaker, 1);

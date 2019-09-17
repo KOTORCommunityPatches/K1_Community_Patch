@@ -11,6 +11,9 @@
 	the - at this stage - now destroyed NPC Trask. See also k_pend_traskdl29
 	and cp_end_trasksp_d.
 	
+	Issue #86: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86
+	
 	DP 2019-05-20                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -9,6 +9,9 @@
 	door animation to skip frames. The addition of NoClicksFor should prevent
 	that occurring.
 	
+	Issue #165: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165
+	
 	DP 2019-07-27                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

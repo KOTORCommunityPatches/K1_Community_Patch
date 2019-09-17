@@ -2,13 +2,22 @@
 /*	KOTOR Community Patch
 
 	Vanilla OnHeartbeat script for tat_m18aa (Dune Sea). Fired by hijacked
-    replacement. Refer to k_ptat18aa_heart.nss for details.
+    replacement. 
+	
+	Refer to k_ptat18aa_heart.nss for details.
+	
+	Issue #217: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/217
+	
+	Issue #21: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/21
 	
 	2019-03-18                                                                */
 ////////////////////////////////////////////////////////////////////////////////
 
 
 void main() {
+	
 	object oNPC = GetPartyMemberByIndex(0);
 	object object3 = GetPartyMemberByIndex(1);
 	object object5 = GetPartyMemberByIndex(2);
@@ -16,6 +25,7 @@ void main() {
 	int int1 = 0;
 	int int2 = 0;
 	int int3 = 0;
+	
 	if ((((GetTag(oNPC) == "HK47") || (GetTag(oNPC) == "T3M4")) || (GetTag(GetItemInSlot(1, oNPC)) == "tat17_sandperdis"))) {
 		int1 = 1;
 	}

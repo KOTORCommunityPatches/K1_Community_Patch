@@ -11,14 +11,19 @@
 	the initial spawn in. The walk and second location is handled by
 	k_pdan_alhan07, which is fired by dan13_ahlan.dlg.
 	
+	Issue #55: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55
+	
 	DP 2019-04-28                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_utility"
 
 void main() {
+	
 	int int1 = GetUserDefinedEventNumber();
 	string string1 = "dan13_wp_ahlan";
+	
 	switch (int1) {
 		case 0:
 			ActionPlayAnimation(ANIMATION_LOOPING_PAUSE3, 1.0, 0.0);

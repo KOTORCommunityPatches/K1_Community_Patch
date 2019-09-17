@@ -7,12 +7,15 @@
 	room as part of the Finding Dustil quest. The original script was lacking
 	in the checks it did, since it didn't check that the PC had the datapad,
 	or whether the conversation with Carth had already been triggered previously.
-	Both are now included, as part of changes to deal with Dustil being killed
+	Both are now included as part of changes to deal with Dustil being killed
 	before the quest was resolved (in this instance, destroying the datapad if
 	the Academy has turned hostile post-Tomb of Naga Sadow). Some additional
 	provision for dealing with Carth being out of range has also been added,
 	since pathfinding is so terrible and the quest state is now updated via that
 	dialogue.
+	
+	Issue #4: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4
 	
 	DP 2019-08-11                                                             */
 ////////////////////////////////////////////////////////////////////////////////

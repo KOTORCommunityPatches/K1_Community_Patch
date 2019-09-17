@@ -10,6 +10,9 @@
 	in line with Yuthura, and her waypoints have been tweaked in a GIT edit to
 	fine tune her positioning.
 	
+	Issue #167: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167
+	
 	DP 2019-08-10                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

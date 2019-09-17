@@ -10,6 +10,9 @@
 	of KOTOR's conversations. Sets the party in predefined positions for better
 	and more consistent framing in conjunction with some added static cameras.
 
+	Issue #57: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57
+
 	DP 2019-05-05                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

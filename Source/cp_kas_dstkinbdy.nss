@@ -18,6 +18,9 @@
 	than trying to track the quest state, which is a bit all over the place
 	due to the different LS/DS routes.
 
+	Issue #124: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124
+
 	DP 2019-05-12                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

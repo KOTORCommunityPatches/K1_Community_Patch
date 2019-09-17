@@ -7,6 +7,9 @@
 	fake sword of Ajunta Pall the player gave him. His corpse is now set as
 	non-destroyable so it can be removed in a later script.
 	
+	Issue #162: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162
+	
 	DP 2019-08-07                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

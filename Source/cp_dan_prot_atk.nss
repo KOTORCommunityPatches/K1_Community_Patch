@@ -10,6 +10,9 @@
 	completed. In the DS "kill everyone" outcome of the Feud, the droid is
 	destroyed and the Casus quest is set to a new closed state (see cp_dan_casus_ds).
 	
+	Issue #27: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/27
+	
 	DP 2019-02-04                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

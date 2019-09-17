@@ -9,6 +9,9 @@
 	
 	See also k_pdan_cut50, k_pdan_cut51, k_pdan_starmap02, and cp_dan15_facemap.
 	
+	Issue #105: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105
+	
 	DP 2019-08-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

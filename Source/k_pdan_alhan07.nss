@@ -11,6 +11,9 @@
 	the walk and second location. The initial spawn in is handled by his
 	OnUserDefine script (k_pdan_alhan_d).
 	
+	Issue #55: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55
+	
 	DP 2019-04-28                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

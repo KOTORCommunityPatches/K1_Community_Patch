@@ -11,6 +11,9 @@
 	him to rotate in place. In order to smooth this out, he is now commanded to
 	move to the door and open it before proceeding to the exit.
 	
+	Issue #167: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167
+	
 	DP 2019-08-10                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

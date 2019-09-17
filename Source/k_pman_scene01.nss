@@ -12,6 +12,9 @@
 	
 	Updated 2019-05-19 to refactor using CP Include functions.
 	
+	Issue #112: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/112
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

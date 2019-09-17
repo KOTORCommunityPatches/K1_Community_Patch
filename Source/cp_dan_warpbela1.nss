@@ -11,10 +11,14 @@
 	hiccups. Leaving them to make their own way back proved sufficient
 	and alleviated the need for an additional script.
 	
+	Issue #16: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16
+	
 	DP 2019-02-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 void main() {
+	
 	location lBela = Location(Vector(223.0,83.0,12.64), 0.0);
 	location lJedi = Location(Vector(223.0,68.0,12.64), 0.0);
 	object oBela = GetObjectByTag("dan13_belaya", 0);

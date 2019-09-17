@@ -9,6 +9,9 @@
 	
 	See also k_ptar_a05ab_en.
 	
+	Issue #203: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/203
+	
 	DP 2019-08-13                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

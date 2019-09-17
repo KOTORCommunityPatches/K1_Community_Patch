@@ -11,6 +11,9 @@
 	2019-05-19 Updated to streamline code with vanilla include functions and
 	correct the name of the parent module.
 	
+	Issue #48: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/48
+	
 	JC 2019-04-24                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

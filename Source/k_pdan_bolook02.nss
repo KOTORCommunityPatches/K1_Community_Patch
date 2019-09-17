@@ -7,8 +7,14 @@
 	quest to add in an appropriate reference to the new creature-based
 	corpse added by K1CP.
 	
+	Issue #37: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37
+	
 	Updated 2019-05-11 to set the corpse UTC to destroyable first to
 	enable it being removed.
+	
+	Issue #50: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/50
 	
 	DP 2019-04-27                                                             */
 ////////////////////////////////////////////////////////////////////////////////

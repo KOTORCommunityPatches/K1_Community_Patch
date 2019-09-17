@@ -13,19 +13,18 @@
 	Updated 2019-04-28 to add a custom spawn position for the creature-based
 	corpse, thanks to JC, to fix an issue with it floating off the ground.
 	
+	Updated 2019-09-17 to switch to vanilla include functions.
+	
+	Issue #37: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37
+	
+	Issue #51: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/51
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
-// Prototypes
-void PlaceNPC(string sTag, string sLocation = "");
-
-void PlaceNPC(string sTag, string sLocation = "")
-{
-    if(!GetIsObjectValid(GetObjectByTag(sTag)))
-    {
-        CreateObject(OBJECT_TYPE_CREATURE,sTag,GetLocation(GetObjectByTag("POST_" + sTag + sLocation)));
-    }
-}
+#include "k_inc_dan"
 
 void main() {
 	

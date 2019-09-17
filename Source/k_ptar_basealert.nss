@@ -6,23 +6,31 @@
 	Fires if the player goes to assassinate Gadon, making the Beks hostile.
 	Edited to make the Beks equip their weapons properly.
 	
+	Issue #71: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/71
+	
 	JC 2019-05-06                                                             */
 ////////////////////////////////////////////////////////////////////////////////
+
 #include "k_inc_generic"
 #include "cp_inc_k1"
 
 void main() {
 
-object oAreaObject = GetFirstObjectInArea(OBJECT_INVALID, 1);
-while( GetIsObjectValid(oAreaObject) ) {
-	if( !IsObjectPartyMember(oAreaObject) ) {
-		AssignCommand(oAreaObject, ClearAllActions());
-		AssignCommand(oAreaObject, CP_EquipFirstWeapon(oAreaObject));
-		DelayCommand(0.2, ChangeToStandardFaction(oAreaObject, 1));
-		DelayCommand(0.3, AssignCommand(oAreaObject, GN_DetermineCombatRound(OBJECT_INVALID)));
-		}
-	oAreaObject = GetNextObjectInArea(OBJECT_INVALID, 1);
+	object oAreaObject = GetFirstObjectInArea(OBJECT_INVALID, 1);
+	
+	while( GetIsObjectValid(oAreaObject) )
+	{
+		if( !IsObjectPartyMember(oAreaObject) )
+			{
+				AssignCommand(oAreaObject, ClearAllActions());
+				AssignCommand(oAreaObject, CP_EquipFirstWeapon(oAreaObject));
+				DelayCommand(0.2, ChangeToStandardFaction(oAreaObject, 1));
+				DelayCommand(0.3, AssignCommand(oAreaObject, GN_DetermineCombatRound(OBJECT_INVALID)));
+			}
+		oAreaObject = GetNextObjectInArea(OBJECT_INVALID, 1);
 	}
-SetGlobalBoolean("TAR_BEKSHOSTILE", 1);
+	
+	SetGlobalBoolean("TAR_BEKSHOSTILE", 1);
 
 }

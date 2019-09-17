@@ -7,9 +7,10 @@
 	
 	JC 2019-04-29                                                             */
 ////////////////////////////////////////////////////////////////////////////////
+
 void main() {
 
-object oVandar = GetObjectByTag("dan13_vandar", 0);
-SetLocalBoolean(oVandar, 49, TRUE);
-
+	object oVandar = GetObjectByTag("dan13_vandar", 0);
+	
+	SetLocalBoolean(oVandar, 49, TRUE);
 }

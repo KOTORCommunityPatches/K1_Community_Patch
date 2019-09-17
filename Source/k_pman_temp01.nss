@@ -8,6 +8,9 @@
 	rifle in the vanilla script (g_w_sonicrfl003) is invalid, so this has been
 	changed to point to the nearest valid equivalent (Arkanian Sonic Rifle).
 	
+	Issue #209: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/209
+	
 	DP 2019-08-24                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

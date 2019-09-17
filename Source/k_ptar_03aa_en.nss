@@ -10,6 +10,9 @@
 	
 	See also k_ptar_vuldoor and k_ptar_bekalert.
 	
+	Issue #203: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/203
+	
 	DP 2019-08-13                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

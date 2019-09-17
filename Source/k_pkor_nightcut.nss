@@ -8,6 +8,9 @@
 	been added to clean up Shaardan's corpse if he was killed by Uthar
 	after the player gave him a fake sword of Ajunta Pall.
 	
+	Issue #162: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162
+	
 	DP 2019-08-07                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

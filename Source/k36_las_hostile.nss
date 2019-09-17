@@ -9,6 +9,9 @@
 	
 	See also k_pkor_las36!plt.
 
+	Issue #163: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163
+
 	DP 2019-08-04                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

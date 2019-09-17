@@ -3,12 +3,15 @@
 
 	k_ptar_davslav01
 	
-	OnClosed for dan14aa_casus
+	Fired by tar08_davguest82.dlg in tar_m08aa (Taris Davik's Estate).
 	
 	Slave girl runs away when her date night is interrupted.
 	
+	Issue # N/A
+	
 	JC 2019-02-25                                                             */
 ////////////////////////////////////////////////////////////////////////////////
+
 void CP_SlaveFlee() {
     ActionForceMoveToObject(GetWaypointByTag("tar08_wpslaveesc"), TRUE, 1.0, 30.0);
     ActionDoCommand(SetCommandable(1, OBJECT_SELF));

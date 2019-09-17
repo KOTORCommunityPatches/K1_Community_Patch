@@ -11,6 +11,9 @@
 	
 	See also k_pkor_utharmove.
 	
+	Issue #167: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167
+	
 	DP 2019-08-10                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -4,8 +4,11 @@
 	Module OnEnter for korr_m39aa (Korriban Tomb of Naga Sadow)
 	
 	This is the OnEnter which has been edited to cure the really annoying
-	momentary fade-in that happens between the module loading the initial
-	cutscene starting when first entering with Uthar and Yuthura.
+	momentary fade-in that happens between the module loading and the
+	initial cutscene starting when first entering with Uthar and Yuthura.
+	
+	Issue #167: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167
 	
 	DP 2019-08-23                                                             */
 ////////////////////////////////////////////////////////////////////////////////

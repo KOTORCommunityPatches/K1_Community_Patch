@@ -11,6 +11,9 @@
 	to play out a new death animation added via a stunt model. The death cry has
 	been changed using one of the player soundset files. See also k_plev_killsaul.
 	
+	Issue #131: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131
+	
 	DP 2019-07-09                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

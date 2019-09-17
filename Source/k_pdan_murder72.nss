@@ -13,6 +13,9 @@
 	original notes, the edited version now forces Handon to perform the injured
 	idle animation when finished.
 	
+	Issue #38: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -20,7 +23,6 @@ void JC_HANDON_WOUND() {
 
 	AssignCommand(OBJECT_SELF, ActionPlayAnimation(28, 1.0, 6.0));
 	SetLocalBoolean(OBJECT_SELF, 51, TRUE);
-
 }
 
 

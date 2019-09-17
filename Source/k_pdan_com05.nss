@@ -17,13 +17,13 @@
 	
 	JC 2019-07-31                                                             */
 ////////////////////////////////////////////////////////////////////////////////
+
 int StartingConditional() {
 
-int nFlag = ((GetGlobalBoolean("DAN_CRATISC_DONE") == FALSE) && (GetGlobalBoolean("kas_ChuundarDead") == TRUE));
+	int nFlag = ((GetGlobalBoolean("DAN_CRATISC_DONE") == FALSE) && (GetGlobalBoolean("kas_ChuundarDead") == TRUE));
 
-if( nFlag )
-	SetGlobalBoolean("DAN_CRATISC_DONE", TRUE);
+	if( nFlag )
+		SetGlobalBoolean("DAN_CRATISC_DONE", TRUE);
 
-return nFlag;
-
+	return nFlag;
 }

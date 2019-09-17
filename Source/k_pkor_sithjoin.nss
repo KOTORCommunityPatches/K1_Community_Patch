@@ -13,6 +13,9 @@
 	
 	See also k_pkor_uth_talk.
 	
+	Issue #162: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162
+	
 	DP 2019-08-07                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

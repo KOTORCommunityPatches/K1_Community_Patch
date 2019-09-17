@@ -13,6 +13,9 @@
 	
 	See also k_pkor_therangen, k_pkor_ther_blow, and k_pkor_droidhost.
 	
+	Issue #164: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164
+	
 	DP 2019-07-12                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

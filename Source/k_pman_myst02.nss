@@ -8,8 +8,12 @@
 	his selection icon being visible after the conversation finishes, the fade
 	out that was originally in the DLG has been removed and added to this script
 	to provide more control. He is now jumped across the module once the fade out
-	has happened, and destroyed by the script on the subsequent entry. See also
-	k_pman_myst03.
+	has happened, and destroyed by the script on the subsequent entry. 
+	
+	See also k_pman_myst03.
+	
+	Issue #138: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/138
 	
 	DP 2019-06-28                                                             */
 ////////////////////////////////////////////////////////////////////////////////

@@ -15,15 +15,20 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 void main() {
+	
 	object oSpeaker = GetPCSpeaker();
 	object oBlade = GetItemPossessedBy(GetFirstPC(), "kas25_swordblade");
 	object oHilt = GetItemPossessedBy(GetFirstPC(), "kas25_swordhilt");
 	
-	if (GetIsObjectValid(oBlade)) {
-		ActionDoCommand(DestroyObject(oBlade, 0.0, FALSE, 0.0));
-	}
-	if (GetIsObjectValid(oHilt)) {
-		ActionDoCommand(DestroyObject(oHilt, 0.0, FALSE, 0.0));
-	}
+	if (GetIsObjectValid(oBlade))
+		{
+			ActionDoCommand(DestroyObject(oBlade, 0.0, FALSE, 0.0));
+		}
+	
+	if (GetIsObjectValid(oHilt))
+		{
+			ActionDoCommand(DestroyObject(oHilt, 0.0, FALSE, 0.0));
+		}
+	
 	CreateItemOnObject("G_w_Vbroswrd05", oSpeaker, 1);
 }

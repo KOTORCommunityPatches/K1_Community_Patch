@@ -9,6 +9,9 @@
 	2019-05-19 Updated to streamline code using vanilla include functions and
 	add in additional command to make sure the corpse is destroyed.
 	
+	Issue #37: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

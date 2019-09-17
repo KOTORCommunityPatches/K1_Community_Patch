@@ -11,6 +11,9 @@
 	line, and this script destroys him off-screen and spawns in a dummy corpse
 	and invisible placeable to store his lootable items. See also k_plev_journal.
 	
+	Issue #131: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131
+	
 	DP 2019-07-09                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

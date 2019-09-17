@@ -12,6 +12,9 @@
 	to jump NPC Jolee behind some scenery before knocking him on the head, and
 	adding in a brief fade out/in to hide the jump.
 
+	Issue #122: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122
+
 	DP 2019-05-20                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

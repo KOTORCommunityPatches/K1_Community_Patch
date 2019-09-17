@@ -10,6 +10,9 @@
 	
 	See also cp_tar05_elebrk.
 	
+	Issue #203: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/203
+	
 	DP 2019-08-13                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

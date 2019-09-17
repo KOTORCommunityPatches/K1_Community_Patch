@@ -7,7 +7,12 @@
 	It turns the player controlled character (and thus any companions) 180° to
 	face the door closing and locking behind them. The only change is to turn
 	the party back around again (off-screen) so that they aren't still staring
-	at the door in the subsequent scenes. See also k_psta_doorx1 and k_psta_doorx2.
+	at the door in the subsequent scenes. 
+	
+	See also k_psta_doorx1 and k_psta_doorx2.
+	
+	Issue #173: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173
 	
 	DP 2019-06-27                                                             */
 ////////////////////////////////////////////////////////////////////////////////

@@ -9,6 +9,9 @@
 	This script is an edit of Handon's OnDialogue script to switch off his
 	injured idle animation while the player is talking to him.
 	
+	Issue #38: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38
+	
 	DP 2019-02-19                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

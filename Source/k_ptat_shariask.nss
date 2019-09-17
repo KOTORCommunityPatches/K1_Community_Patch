@@ -13,6 +13,9 @@
 	Updated 2019-05-13 to refactor using vanilla and CP utility Include
 	functions, and tweak the positioning a bit.
 	
+	Issue #45: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45
+	
 	DP 2019-03-24                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

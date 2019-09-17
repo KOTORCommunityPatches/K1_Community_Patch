@@ -13,6 +13,9 @@
 	only used for the second and third scenes in this conversation, and during
 	the	second the party is entirely off-screen.
 
+	Issue #57: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57
+
 	DP 2019-05-07                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

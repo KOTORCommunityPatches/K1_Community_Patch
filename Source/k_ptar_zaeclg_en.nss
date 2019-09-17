@@ -9,6 +9,9 @@
 	desirable position, in conjunction with chaining Gadon's conversation
 	on directly to the end (see k_ptar_zaerd).
 
+	Issue #70: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70
+
 	DP 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

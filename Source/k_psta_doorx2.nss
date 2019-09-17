@@ -6,8 +6,12 @@
 	This script is the second of two that blow the side doors of the room the
 	party is in and send in attack droids. The original script was set up for
 	the party still facing the door behind them, but since this has been changed,
-	the head turning animation needed to be swapped. See also k_psta_doorx1 and
-	k_psta_actwait3.
+	the head turning animation needed to be swapped. 
+	
+	See also k_psta_doorx1 and k_psta_actwait3.
+	
+	Issue #173: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173
 	
 	DP 2019-06-27                                                             */
 ////////////////////////////////////////////////////////////////////////////////

@@ -12,6 +12,9 @@
 	holo not properly facing each other, but this is about as good as it will
 	get.
 	
+	Issue #169: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169
+	
 	DP 2019-06-23                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

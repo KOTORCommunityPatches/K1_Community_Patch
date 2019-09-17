@@ -12,6 +12,9 @@
 	
 	Originally part of DP's "Taris Dueling Arena Adjustment" mod.
 	
+	Issue #76: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/76
+	
 	DP 2019-04-30                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

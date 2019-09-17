@@ -9,6 +9,9 @@
 	configurable CP Include party herding functions to forcibly position
 	them in more desirable locations.
 	
+	Issue #162: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162
+	
 	DP 2019-08-06                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

@@ -14,6 +14,9 @@
 	the vanilla positioning for improved static camera framing consistency and
 	add a brief fade-in to mask the initial jump.
 
+	Issue #151: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151
+
 	DP 2019-05-02                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

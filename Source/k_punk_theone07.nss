@@ -12,6 +12,9 @@
 	
 	See also k_punk_theone06 and cp_unk_onepmwarp.
 	
+	Issue #170: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/170
+	
 	DP 2019-06-26                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

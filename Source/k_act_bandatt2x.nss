@@ -9,6 +9,9 @@
 	That exposed an error in the vanilla script, which used incorrect tags and
 	thus failed to turn one of the mooks hostile. 
 
+	Issue #224: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/224
+
 	DP 2019-09-08                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 

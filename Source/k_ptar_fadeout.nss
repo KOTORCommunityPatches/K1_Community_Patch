@@ -9,6 +9,9 @@
 	PC so they aren't pointing in an odd direction and preventing the player
 	from skipping the line, which can cause some cutscene screwiness.
 
+	Issue #62: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62
+	
 	DP 2019-05-01                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
