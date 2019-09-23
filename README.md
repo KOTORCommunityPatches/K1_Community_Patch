@@ -186,6 +186,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The post-Ruins conversation with the Jedi Council on Dantooine had various facing and aesthetic issues [ISSUE #104](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/104)
 * The reward from Roland Wann in Manaan East Central for completing Hrakert Station was meant to include a sonic rifle (Reported by djh269) [ISSUE #209](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/209)
+* The rogue Assassin Droid in the Korriban Tomb of Marka Ragnos would get inexplicably angry if the player had too many stealth belts [ISSUE #280](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/280)
 * The Sandpeople Storyteller had an incorrect soundset (Reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The screen blurring VFX for Force/Knight/Master Speed was really obnoxious at modern resolutions [ISSUE #99](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/99)
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
