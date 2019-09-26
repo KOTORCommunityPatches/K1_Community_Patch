@@ -220,6 +220,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When entering the Sith Academy on Korriban post-Tomb of Ajunta Pall, the rejoined party members could end up scattered [ISSUE #200](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200)
 * When selling Tach glands to the Czerka officer in the Kashyyyk Lower Shadowlands, the scripts that checked how many you had couldn't count (Reported by Salk) [ISSUE #212](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/212)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
+* Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris (Reported by Salk)
 * Helena wears Jedi robes instead of regular clothes

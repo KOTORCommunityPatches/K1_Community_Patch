@@ -218,6 +218,7 @@
 * Changed an incorrect starting conditional checking for Jolee in the Gorwooken DLG in The Great Walkway on Kashyyyk
 * Gave the assault droids in Manaan Hrakert Station feats to use their equipped weapons
 * Fixed an issue with the rogue Assassin Droid in the Korriban Tomb of Marka Ragnos when carrying extra stealth belts
+* Removed an item duplication exploit when Zaalbar is removed from the party on Kashyyyk
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
