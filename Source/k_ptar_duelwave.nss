@@ -44,15 +44,17 @@ void main() {
 			fIntroTime = 15.0;
 			break;
 		case 6:
-			sub1("BENDAK MAD", 5, 5, 1.0);
 			oOpponent = GetObjectByTag("Bendakstar021", 0);
 			fIntroTime = 17.0;
 			break;
 	}
 
-	AssignCommand(oOpponent, ClearAllActions());
-	DelayCommand(fIntroTime, AssignCommand(oOpponent, ActionPlayAnimation(ANIMATION_FIREFORGET_VICTORY1, 0.5, 0.0)));
 	ActionPauseConversation();
-	ActionWait(fIntroTime);
-	ActionResumeConversation();
+	
+	AssignCommand(oOpponent, ClearAllActions());
+	DelayCommand(fIntroTime, AssignCommand(oOpponent, ActionPlayAnimation(ANIMATION_FIREFORGET_VICTORY1, 0.5)));
+	
+	// 2019-09-28 Added an extended delay to ensure the animation plays
+	// out fully before the scene cuts to the shot of the player
+	DelayCommand((fIntroTime + 2.67), ActionResumeConversation());
 }
