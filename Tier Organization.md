@@ -85,6 +85,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 * It was possible to repeatedly attempt to blackmail Roland Wann after the events of Hrakert Station for infinite DS points [ISSUE #106](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/106)
 * Jolee's stunt double was briefly visible when he joined the party [ISSUE #122](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122)
+* Juhani displays a typical cat-like disdain on the Ebon Hawk, facing away from the doorway of her hidey-hole [ISSUE #290](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/290)
 * Juhani in the Grove lacked a soundset (Suggested by JCarter426) [ISSUE #41](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/41)
 * Killing Dustil before completing Carth's quest would leave its status unresolved (with additions by DarthParametric) [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * Korriban NPCs that loop animations—students meditating in the academy and archaeologists digging in the valley—would turn to face the player while still doing their animations: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
