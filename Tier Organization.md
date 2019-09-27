@@ -93,6 +93,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Lashowe did a quick outfit change on Korriban between harassing the player in Dreshdae and appearing in the Academy [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Malak's grunt sound didn't play in the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)
+* Mission can be seen frozen in the background during one line in the conversation with Lena [ISSUE #263](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/263)
 * Mission has no clothing on when you meet Griff at the spaceport without her in your party
 * Nearly everyone/thing in Hrakert Station had the wrong soundset [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * On the Star Forge, the wrong speaker said the "You are wasting your time..." line: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)

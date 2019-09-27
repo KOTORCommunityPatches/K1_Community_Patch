@@ -221,6 +221,7 @@
 * Removed an item duplication exploit when Zaalbar is removed from the party on Kashyyyk
 * Added a script to properly remove any Gizka on the Ebon Hawk before the Star Forge
 * Made Juhani less antisocial, facing the doorway of the broom closet she skulks in on the Ebon Hawk
+* Prevented Mission from freezing in the background during Lena's conversation
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
