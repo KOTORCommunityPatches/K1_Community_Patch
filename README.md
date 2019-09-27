@@ -208,6 +208,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
 * There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
+* There is a visible gap in the wall behind the beds in the Taris Upper City hideout [ISSUE #231](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/231)
 * There were some facing and camera angle issues during the overseer droid conversation in the Dantooine Ruins [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105) [ISSUE #152](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/152)
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
 * Turrets in the Rakatan Temple used the Bith soundset (for some reason) [ISSUE #171](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/171)
