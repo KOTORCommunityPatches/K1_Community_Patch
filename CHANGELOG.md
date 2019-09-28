@@ -224,6 +224,7 @@
 * Prevented Mission from freezing in the background during Lena's conversation
 * Removed a gap in the wall behind the beds in the Taris Upper City hideout
 * Gave the player a reaction to their announcement in the Taris Upper City Cantina duels to match that of their opponents
+* Added party jumping to the conversation with Canderous in the Taris Lower City cantina to bring it in line with changes made to the sister conversation in the Upper City cantina
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
