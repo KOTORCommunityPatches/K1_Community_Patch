@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	Fired by lev40_saul402.dlg on Entry 11 in lev_m40ad (Leviathan Bridge).
+	Fired by lev40_saul402.dlg in lev_m40ad (Leviathan Bridge).
 	
 	This script fires on Carth's "Damn you, Saul! Damn you!" line after Saul
 	dies. The vanilla script applied a death effect to Saul, but that causes
@@ -9,7 +9,9 @@
 	his soundset death cry right when Carth is speaking his line. To get around
 	this, Saul's death is now faked with a new stunt animation on the previous
 	line, and this script destroys him off-screen and spawns in a dummy corpse
-	and invisible placeable to store his lootable items. See also k_plev_journal.
+	and invisible placeable to store his lootable items. 
+	
+	See also cp_lev_crthfacwt, k_plev_journal, k_plev_playpron2.
 	
 	Issue #131: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131
