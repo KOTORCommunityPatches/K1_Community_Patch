@@ -15,6 +15,9 @@
 	
 	Updated 2019-09-17 to switch to vanilla include functions.
 	
+	Updated 2019-09-29 to add in a NoClicksFor to limit the likelihood of the
+	corpse spawning in t-posed when clicking through Boolook's dialogue.
+	
 	Issue #37: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37
 	
@@ -31,6 +34,8 @@ void main() {
 	location lCorpse = GetLocation(GetObjectByTag("POST_dan14_corpse", 0));
 	location lSpawn = Location(Vector(326.6, 423.9, 61.3), 230.0);
 
+	NoClicksFor(2.5);
+	
 	PlaceNPC("dan14_handon", "");
 	PlaceNPC("dan14_rickard", "");
 	PlaceNPC("dan14_idroid", "");
