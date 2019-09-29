@@ -27,11 +27,10 @@
 	Issue #21: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/21
 	
-	JC 2019-09-08                                                             */
+	JC 2019-09-29                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_tat"
-
 
 void main() {
 	
@@ -64,4 +63,5 @@ void main() {
 	
 	// Sand People reputation fix
 	CP_SandRepFix();
+	
 }

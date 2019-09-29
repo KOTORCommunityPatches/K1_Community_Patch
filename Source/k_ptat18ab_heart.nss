@@ -14,7 +14,7 @@
 	Issue #21: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/21
 	
-	JC 2019-09-01                                                             */
+	JC 2019-09-29                                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_tat"
@@ -22,4 +22,5 @@
 void main() {
 
 	CP_SandRepFix();
+	
 }
