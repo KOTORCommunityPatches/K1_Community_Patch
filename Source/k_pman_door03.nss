@@ -10,7 +10,10 @@
 	
 	Curiously, this script is global, despite being completely module-specific
 	in functionality.
-
+	
+	Updated 2019-09-29 to address a bit of minor clipping in certain wide shots
+	by pushing the party members back about a metre.
+	
 	Issue #142: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142
 
@@ -23,8 +26,8 @@ void main()
 {
     object oOpen = GetLastOpenedBy();
 	location lPC = Location(Vector(133.6,183.5,5.25), 180.0);
-	location lPM1 = Location(Vector(131.6,185.7,5.25), 180.0);
-	location lPM2 = Location(Vector(135.6,185.7,5.25), 180.0);
+	location lPM1 = Location(Vector(131.6,186.5,5.25), 180.0);
+	location lPM2 = Location(Vector(135.6,186.5,5.25), 180.0);
 	
     if(GetIsPC(oOpen))
 		{
