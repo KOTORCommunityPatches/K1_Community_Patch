@@ -228,6 +228,7 @@
 * Fixed off-screen companion interjections in the Zaerdra conversation when returning to the Taris Hidden Bek base post-swoop race
 * Fixed non-wandering wandering mooks when returning to the Taris Hidden Bek base post-swoop race
 * Edited the VIS for the Taris Black Vulkar Base (Upper) to make the kitchen and elevator room visible to each other
+* Cleaned up the Dantooine Sandral Estate foyer conversations once and for all (hopefully)
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

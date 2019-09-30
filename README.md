@@ -154,6 +154,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The conversation with Canderous in the Taris Lower City cantina could have facing issues due to a scattered party [ISSUE #251](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/251)
 * The conversation with Gorwooken in The Great Walkway on Kashyyyk had an incorrect check for Jolee being present (Reported by Salk) [ISSUE #214](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/214)
+* The conversation with Nurik and Rahasia in the Dantooine Sandral Estate had a number of facing and positioning issues [ISSUE #259](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/259)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
