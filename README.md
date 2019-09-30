@@ -233,6 +233,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When returning to the Taris Hidden Bek base post-swoop race, the wandering Bek mooks would be standing around idle until speaking to someone [ISSUE #254](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/254)
 * When selling Tach glands to the Czerka officer in the Kashyyyk Lower Shadowlands, the scripts that checked how many you had couldn't count (Reported by Salk) [ISSUE #212](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/212)
 * When standing in the entrance of the kitchen in the Taris Black Vulkar base, the elevator room wasn't rendered (and vice-versa) [ISSUE #238](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/238)
+* When talking to Freyyr in the Kashyyyk Lower Shadowlands, some of the companion interjections could be spoken off-screen [ISSUE #269](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/269)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)

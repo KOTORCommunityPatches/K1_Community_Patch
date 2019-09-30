@@ -234,6 +234,7 @@
 * Lightened the skin tone of Griff's hands to match his head
 * Prevented a Gamorrean vanishing when running away in the Tatooine Dune Sea ambush cutscene
 * Fixed some off-screen lines by the Protocol Officer in the Tatooine Czerka Office
+* Fixed off-screen companion interjections in the Freyyr conversation in the Kashyyyk Lower Shadowlands
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
