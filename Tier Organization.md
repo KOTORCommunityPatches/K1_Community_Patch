@@ -25,6 +25,7 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 * Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised
 * Some DS responses were unavailable in k_hcar_dialog.dlg: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some of Bastila's lines regarding her father's holocron were unavailable: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Some of the companion personal quest messengers on Dantooine liked to play hide and seek inside Aratech Mercantile [ISSUE #262](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/262)
 * Sometimes the wrong dialog would play during the _Leviathan_ torture scene: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Tanis' dialogue on Tatooine was bugged when playing as a female: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered

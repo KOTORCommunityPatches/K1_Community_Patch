@@ -229,6 +229,7 @@
 * Fixed non-wandering wandering mooks when returning to the Taris Hidden Bek base post-swoop race
 * Edited the VIS for the Taris Black Vulkar Base (Upper) to make the kitchen and elevator room visible to each other
 * Cleaned up the Dantooine Sandral Estate foyer conversations once and for all (hopefully)
+* Implemented a check (and hopefully a fix) for messengers trapped in the closet on Dantooine
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
