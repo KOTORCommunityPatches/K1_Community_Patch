@@ -243,6 +243,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The conversation with Canderous in the Taris Lower City cantina could have facing issues due to a scattered party [ISSUE #251](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/251)
 * The conversation with Nurik and Rahasia in the Dantooine Sandral Estate had a number of facing and positioning issues [ISSUE #259](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/259)
+* The conversation with Maana in Tatooine Anchorhead had some facing issues during Bastila's interjections [ISSUE #261](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/261)
 * The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
 * The dialogue with the surviving scientists Kono and Sami had several facing and camera issues (Reported by DarthParametric)

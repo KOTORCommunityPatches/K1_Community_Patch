@@ -230,6 +230,7 @@
 * Edited the VIS for the Taris Black Vulkar Base (Upper) to make the kitchen and elevator room visible to each other
 * Cleaned up the Dantooine Sandral Estate foyer conversations once and for all (hopefully)
 * Implemented a check (and hopefully a fix) for messengers trapped in the closet on Dantooine
+* Herded the party and altered some camera angles for the Maana conversation in Tatooine Anchorhead
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
