@@ -161,6 +161,8 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * When entering Dreshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * When entering the Sith Academy on Korriban post-Tomb of Ajunta Pall, the rejoined party members could end up scattered [ISSUE #200](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200)
+* When returning to the Taris Hidden Bek base post-swoop race, Mission and Carth's interjections in the conversation with Zaerdra were off-screen [ISSUE #254](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/254)
+* When returning to the Taris Hidden Bek base post-swoop race, the wandering Bek mooks would be standing around idle until speaking to someone [ISSUE #254](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/254)
 * When selling Tach glands to the Czerka officer in the Kashyyyk Lower Shadowlands, the scripts that checked how many you had couldn't count (Reported by Salk) [ISSUE #212](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/212)
 * Yuthura and Uthar wear different outfits in the Sith Academy on Korriban compared to elsewhere [ISSUE #197](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/197) Partial: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Yuthura only attacks with one of her lightsabers

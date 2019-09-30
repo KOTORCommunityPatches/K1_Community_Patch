@@ -225,6 +225,8 @@
 * Removed a gap in the wall behind the beds in the Taris Upper City hideout
 * Gave the player a reaction to their announcement in the Taris Upper City Cantina duels to match that of their opponents
 * Added party jumping to the conversation with Canderous in the Taris Lower City cantina to bring it in line with changes made to the sister conversation in the Upper City cantina
+* Fixed off-screen companion interjections in the Zaerdra conversation when returning to the Taris Hidden Bek base post-swoop race
+* Fixed non-wandering wandering mooks when returning to the Taris Hidden Bek base post-swoop race
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
