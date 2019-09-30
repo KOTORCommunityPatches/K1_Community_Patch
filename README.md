@@ -130,6 +130,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * In rare instances, a Mandalorian on Dantooine could try to use a Final Fantasy gunblade [ISSUE #111](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111)
 * It was possible to repeatedly attempt to blackmail Roland Wann after the events of Hrakert Station for infinite DS points [ISSUE #106](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/106)
 * Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
+* Jolee could speak one of his lines off-screen when talking to his personal quest messenger, Davin [ISSUE #270](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/270)
 * Jolee's stunt double was briefly visible when he joined the party [ISSUE #122](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122)
 * Juhani displays a typical cat-like disdain on the Ebon Hawk, facing away from the doorway of her hidey-hole [ISSUE #290](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/290)
 * Juhani in the Grove lacked a soundset (Suggested by JCarter426) [ISSUE #41](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/41)
