@@ -227,6 +227,7 @@
 * Added party jumping to the conversation with Canderous in the Taris Lower City cantina to bring it in line with changes made to the sister conversation in the Upper City cantina
 * Fixed off-screen companion interjections in the Zaerdra conversation when returning to the Taris Hidden Bek base post-swoop race
 * Fixed non-wandering wandering mooks when returning to the Taris Hidden Bek base post-swoop race
+* Edited the VIS for the Taris Black Vulkar Base (Upper) to make the kitchen and elevator room visible to each other
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
