@@ -81,6 +81,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Griff's conversation in the Sandpeople enclave had a few facing issues [ISSUE #116](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/116)
 * Handon and Rickard wear the same outfit [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 * Hidden Beks didn’t react quickly to intruders (Reported by DarthParametric) [ISSUE #71](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/71)
+* If you cause the Gamorreans ambushing you in the Tatooine Dune Sea to run away, one of them disappears before the scene fades out [ISSUE #264](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/264)
 * In rare instances, a Mandalorian on Dantooine could try to use a Final Fantasy gunblade [ISSUE #111](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111)
 * It was possible to interact with a transformer in the Sith base—though it did nothing of particular interest
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
