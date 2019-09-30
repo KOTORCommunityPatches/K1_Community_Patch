@@ -393,3 +393,103 @@ for(;;) {
 	}
 
 }
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_HasNeverTriggered()
+	
+	Returns true is a trigger has not been fired yet. Intended for one shot
+	triggers. Stolen from vanilla planet includes to cut down on the number
+	of includes called in our custom scripts.
+	
+	DP 2019-09-30                                                             */
+////////////////////////////////////////////////////////////////////////////////
+int CP_HasNeverTriggered() {
+	
+	int bReturn;
+	
+	if (UT_GetPlotBooleanFlag(OBJECT_SELF,SW_PLOT_BOOLEAN_01) == FALSE)
+		{
+			bReturn = TRUE;
+			UT_SetPlotBooleanFlag(OBJECT_SELF,SW_PLOT_BOOLEAN_01,TRUE);
+		}
+	
+	return bReturn;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_JumpMessenger()
+	
+	Modified version of the Messenger spawning function called in the various
+	landing zone modules. It checks for any Messenger that spawned but didn't
+	properly fire its DLG. Sometimes they get stuck for some reason, like on
+	Dantooine where they can hide in Aratech Mercantile. If any such example
+	is found, it will attempt to force them to initiate their DLG. If none
+	are present, it will proceed to the vanilla function (UT_SpawnMessenger).
+	
+	DP 2019-09-30                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_JumpMessenger() {
+	
+	object oPC = GetFirstPC();
+	object oDavin = GetObjectByTag("g_davink", 0);
+	object oJagi = GetObjectByTag("g_jagi", 0);
+	object oJordo = GetObjectByTag("g_jordo", 0);
+	object oLena = GetObjectByTag("g_lena", 0);
+	object oMalare = GetObjectByTag("g_malare", 0);
+	object oXor = GetObjectByTag("g_xor", 0);
+	object oZiagrom = GetObjectByTag("g_Ziagrom", 0);
+	
+	if (GetGlobalBoolean("K_MESS_JOLEE") && IsNPCPartyMember(NPC_JOLEE) && GetIsObjectValid(oDavin))
+		{
+			NoClicksFor(0.6);
+			SetCommandable(TRUE, oDavin);
+			AssignCommand(oDavin, ClearAllActions());
+			DelayCommand(0.5, AssignCommand(oDavin, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+		}
+		else if (GetGlobalBoolean("K_MESS_CANDEROUS") && IsNPCPartyMember(NPC_CANDEROUS) && GetIsObjectValid(oJagi))
+			{
+				NoClicksFor(0.6);
+				SetCommandable(TRUE, oJagi);
+				AssignCommand(oJagi, ClearAllActions());
+				DelayCommand(0.5, AssignCommand(oJagi, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+			}
+			else if (GetGlobalBoolean("K_MESS_CARTH") && IsNPCPartyMember(NPC_CARTH) && GetIsObjectValid(oJordo))
+				{
+					NoClicksFor(0.6);
+					SetCommandable(TRUE, oJordo);
+					AssignCommand(oJordo, ClearAllActions());
+					DelayCommand(0.5, AssignCommand(oJordo, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+				}
+				else if (GetGlobalBoolean("K_MESS_MISSION") && IsNPCPartyMember(NPC_MISSION) && GetIsObjectValid(oLena))
+					{
+						NoClicksFor(0.6);
+						SetCommandable(TRUE, oLena);
+						AssignCommand(oLena, ClearAllActions());
+						DelayCommand(0.5, AssignCommand(oLena, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+					}
+					else if (GetGlobalBoolean("K_MESS_BASTILA") && IsNPCPartyMember(NPC_BASTILA) && GetIsObjectValid(oMalare))
+						{
+							NoClicksFor(0.6);
+							SetCommandable(TRUE, oMalare);
+							AssignCommand(oMalare, ClearAllActions());
+							DelayCommand(0.5, AssignCommand(oMalare, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+						}
+						else if (GetGlobalBoolean("K_MESS_JUHANI") && IsNPCPartyMember(NPC_JUHANI) && GetIsObjectValid(oXor))
+							{
+								NoClicksFor(0.6);
+								SetCommandable(TRUE, oXor);
+								AssignCommand(oXor, ClearAllActions());
+								DelayCommand(0.5, AssignCommand(oXor, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+							}
+							else if (GetGlobalBoolean("K_MESS_ZIAGROM") && GetIsObjectValid(oZiagrom))
+								{
+									NoClicksFor(0.6);
+									SetCommandable(TRUE, oZiagrom);
+									AssignCommand(oZiagrom, ClearAllActions());
+									DelayCommand(0.5, AssignCommand(oZiagrom, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+								}
+								else 
+									{
+										UT_SpawnMessenger();
+									}
+}
