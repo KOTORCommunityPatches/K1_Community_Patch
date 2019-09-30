@@ -291,6 +291,7 @@ Dialogue trees have been altered to reduce repetition and improve the flow of th
 Sometimes the game assets aren't great. These changes correct problems with them, and may require modder-created assets. But the changes are minimal; they just make the game look how it ought to look.
 * A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar)
 * Created a new orange skinned appearance for Twi'lek males from the unused texture variant for the male Twi'lek body
+* Griff Vao's hands were a much darker shade of blue than his head (Reported by DarthParametric) [ISSUE #266](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/266)
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * Mandalorian armor has several issues (inspired by [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174))
 * Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)

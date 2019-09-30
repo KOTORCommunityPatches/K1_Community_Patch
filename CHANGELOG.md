@@ -231,6 +231,7 @@
 * Cleaned up the Dantooine Sandral Estate foyer conversations once and for all (hopefully)
 * Implemented a check (and hopefully a fix) for messengers trapped in the closet on Dantooine
 * Herded the party and altered some camera angles for the Maana conversation in Tatooine Anchorhead
+* Lightened the skin tone of Griff's hands to match his head
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
