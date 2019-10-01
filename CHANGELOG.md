@@ -148,10 +148,10 @@
 * Corrected the final wager value of pazaak player Kudos (the guy in Fazza's hunting lodge on Tatooine) from 50 to 500 credits
 * Fixed a positional offset in the stunt model for a seated officer on Dodonna's ship causing them to float in mid-air
 * Added additional script from the v1.1 update of Markus Ramikin's Bastila Romance Scriptfix mod
-* Wrangled party when entering the Elder's compound on Lehon
-* Prevented some characters in the Elder's compound on Lehon from attacking with their fists
-* Adjusted party positioning and facing when activating the Rakatan computer in the Elder's compound on Lehon
-* Fixed the party bumping into each other like drunk teens during the cutscene after giving the sacred tome to The One on Lehon
+* Wrangled party when entering the Elder's compound on the Unknown World
+* Prevented some characters in the Elder's compound on the Unknown World from attacking with their fists
+* Adjusted party positioning and facing when activating the Rakatan computer in the Elder's compound on the Unknown World
+* Fixed the party bumping into each other like drunk teens during the cutscene after giving the sacred tome to The One on the Unknown World
 * Added missing sound Event to Malak's taunt animation for his saber flourish
 * Gated off asking HK about restoring memories post-Leviathan after the first time
 * Disabled screen blurring effect for Force/Knight/Master Speed
@@ -239,6 +239,7 @@
 * Jumped party for Nilko conversation in Manaan Ahto West and cut straight to the point, skipping the "come speak to me" intro
 * Gave Gonto Yas in Manaan Ahto West a different outfit
 * Jumped the party if Juhani was present when talking to Dak in the Korriban Valley of the Dark Lords to prevent facing issues
+* Added listener tags to fix facing issues with the two Dark Jedi in the Unknown World Temple
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

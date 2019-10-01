@@ -169,7 +169,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The door to the Tomb of Naga Sadow in the Korriban Valley of the Dark Lords is unlocked for some reason [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 * The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
-* The Elder's compound on Lehon had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
+* The Elder's compound on the Unknown World had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
 * The entrance of the cave in the Tatooine Eastern Dune Sea suffered from texture blurring and distortion [ISSUE #117](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/117)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
 * The exploding pillar in the Tomb of Ajunta Pall on Korriban could cause permanent disabling of AI for companions and suffered from UI glitches during the cutscene [ISSUE #164](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164)
@@ -211,6 +211,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Tuk'ata mother's posse in the Korriban Valley of the Dark Lords face in odd directions and run into each other [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * The training montage on Dantooine had a number of minor animation issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * The Twi'lek females in Dreshdae on Korriban all use the dancer appearance, running around half-naked [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
+* The two Dark Jedi in the Unknown World Temple that stop to chat look at each other instead of the player [ISSUE #288](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/288)
 * The two pre-training conversations with the Jedi Council on Dantooine had various facing issues [ISSUE #151](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151)
 * The Valley of the Dark Lords on Korriban had some distorted UVs on the cliff edge (Reported by djh269) [ISSUE #191](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/191)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
@@ -267,7 +268,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### Gimmick5000:
 * One of Canderous' lines when recounting his backstory had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
-* One of Jolee's lines in the post-crash conversation on Lehon had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
+* One of Jolee's lines in the post-crash conversation on the Unknown World had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
 
 ### jc2:
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)

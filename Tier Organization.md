@@ -18,7 +18,7 @@ These are the most critical fixes. If a bug is on this list, it isn't just a min
 * On the Star Forge, if you have denied the romance, the game acts as if you haven't: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
 * Once Xor appeared, no other messengers could appear: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * One of Canderous' lines when recounting his backstory had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
-* One of Jolee's lines in the post-crash conversation on Lehon had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
+* One of Jolee's lines in the post-crash conversation on the Unknown World had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
 * One of the boxes in the Rakatan Temple is inaccessible
 * Party members in stealth during the post-_Leviathan_ scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
 * Respawn tach gland in chest on Kashyyyk if player has received quest from Griff
@@ -128,7 +128,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The character Hijata had the wrong appearance and dialogue: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * The conversation with Gorwooken in The Great Walkway on Kashyyyk had an incorrect check for Jolee being present (Reported by Salk) [ISSUE #214](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/214)
 * The datapad for Dustil's quest could still be obtained after the Sith Academy on Korriban went hostile, making Carth look out of touch [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
-* The Elder's compound on Lehon had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
+* The Elder's compound on the Unknown World had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
 * The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (Reported by DarthParametric)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 * The exploding pillar in the Tomb of Ajunta Pall on Korriban could cause permanent disabling of AI for companions and suffered from UI glitches during the cutscene [ISSUE #164](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164)
@@ -150,6 +150,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The swoop records computer panel in Manaan Ahto East was clipping into the wall [ISSUE #155](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/155)
 * The Tatooine docking bay was missing exit waypoints, causing messengers to fade out in-place instead of leaving [ISSUE #129](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/129)
 * The Twi'lek females in Dreshdae on Korriban all use the dancer appearance, running around half-naked [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
+* The two Dark Jedi in the Unknown World Temple that stop to chat look at each other instead of the player [ISSUE #288](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/288)
 * The Valley of the Dark Lords on Korriban had some distorted UVs on the cliff edge (Reported by djh269) [ISSUE #191](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/191)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * There is a visible gap in the wall behind the beds in the Taris Upper City hideout [ISSUE #231](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/231)
