@@ -238,6 +238,7 @@
 * Fixed Jolee speaking lines off-screen in Davin's conversation
 * Jumped party for Nilko conversation in Manaan Ahto West and cut straight to the point, skipping the "come speak to me" intro
 * Gave Gonto Yas in Manaan Ahto West a different outfit
+* Jumped the party if Juhani was present when talking to Dak in the Korriban Valley of the Dark Lords to prevent facing issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

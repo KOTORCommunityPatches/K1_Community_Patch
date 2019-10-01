@@ -236,6 +236,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When selling Tach glands to the Czerka officer in the Kashyyyk Lower Shadowlands, the scripts that checked how many you had couldn't count (Reported by Salk) [ISSUE #212](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/212)
 * When speaking to Nilko Bwaas in Manaan Ahto West, the companion interjections had various facing and positioning issues [ISSUE #272](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/272)
 * When standing in the entrance of the kitchen in the Taris Black Vulkar base, the elevator room wasn't rendered (and vice-versa) [ISSUE #238](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/238)
+* When talking to Dak in the Korriban Valley of the Dark Lords, Juhani had some facing issues on her interjections [ISSUE #281](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/281)
 * When talking to Freyyr in the Kashyyyk Lower Shadowlands, some of the companion interjections could be spoken off-screen [ISSUE #269](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/269)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
