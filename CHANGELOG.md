@@ -237,6 +237,7 @@
 * Fixed off-screen companion interjections in the Freyyr conversation in the Kashyyyk Lower Shadowlands
 * Fixed Jolee speaking lines off-screen in Davin's conversation
 * Jumped party for Nilko conversation in Manaan Ahto West and cut straight to the point, skipping the "come speak to me" intro
+* Gave Gonto Yas in Manaan Ahto West a different outfit
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
