@@ -240,6 +240,7 @@
 * Gave Gonto Yas in Manaan Ahto West a different outfit
 * Jumped the party if Juhani was present when talking to Dak in the Korriban Valley of the Dark Lords to prevent facing issues
 * Added listener tags to fix facing issues with the two Dark Jedi in the Unknown World Temple
+* Tweaked the fight scene with The One on the Unknown World to hide some bad textures and tighten up the timings
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
