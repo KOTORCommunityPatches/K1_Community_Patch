@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	OnEnter for manm26ae (Manaan East Central).
@@ -13,18 +13,30 @@
 	Issue #137: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137
 	
-	DP 2019-05-17                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-05-17
+	
+//////////////////////////////////////////////////////////////////////////////////
+	
+	Updated to change the check to deactivate the cage from the prisoner still
+	being valid to checking the global for the Sith Base being sealed. The former
+	method would seemingly fail at the first attempt, since it would check before
+	the original OnEnter managed to destroy it. Based on the bytecode, checking
+	the global is what the original does to destroy the prisoner in the first place.
+	
+	Issue #137: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137
+	
+	DP 2019-10-01																*/
+//////////////////////////////////////////////////////////////////////////////////
 
 void main() {
 
 	object oFCage = GetObjectByTag("cp_m26ae_fccage", 0);
-	object oSith = GetObjectByTag("man26_sithpris", 0);
 	
 	// Execute original OnEnter
 	ExecuteScript("cp_man_area_26e", OBJECT_SELF, -1);
 	
-	if(!GetIsObjectValid(oSith))
+	if (GetGlobalBoolean("MAN_SITHBASE_SEALED"))
 		{
 			AssignCommand(oFCage,ActionPlayAnimation(ANIMATION_PLACEABLE_OPEN));
 		}
