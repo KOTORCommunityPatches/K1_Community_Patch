@@ -245,6 +245,7 @@
 * Jumped the party for the Mandalorian ambush on the Unknown World to alleviate pathing issues
 * Edited the Kashyyyk Great Walkway walkmesh outside the village gate to prevent the player clipping into the walls
 * Jumped the party when entering the Taris Sith Base for the first time
+* Overhauled the party jump script, fixed some freezing, and corrected an incorrect listener tag for the Helena conversation in the Tatooine Cantina
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
