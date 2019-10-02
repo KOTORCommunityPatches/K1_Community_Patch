@@ -242,6 +242,7 @@
 * Added listener tags to fix facing issues with the two Dark Jedi in the Unknown World Temple
 * Tweaked the fight scene with The One on the Unknown World to hide some bad textures and tighten up the timings
 * Adjusted the scene with the Duros on the Unknown World Central Beach to fix an out of frame character, camera wiggle, and missing fade-out
+* Jumped the party for the Mandalorian ambush on the Unknown World to alleviate pathing issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

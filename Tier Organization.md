@@ -264,6 +264,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The introductory cutscene for the Tomb of Naga Sadow on Korriban had a long delay at the start and facing issues between Uthar and Yuthura (With input from ebmar) [ISSUE #167](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167)
 * The Jorak Uln encounter in the Korriban Tomb of Tulak Hord had various cosmetic issues and occasionally missing companions [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
+* The Mandalorian ambush scene in the Unknown World Temple Exterior had some pathing issues, causing party members to get in the way [ISSUE #286](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/286)
 * The merc in Hrakert Station would go out of frame every time he performed the Horror animation [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * The Mysterious Man on Manaan would speak one of his lines off-screen and was briefly visible running away after the conversation ended [ISSUE #138](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/138)
 * The party would bump into each other and get confused during the cutscene after giving the sacred tome to The One [ISSUE #170](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/170)
