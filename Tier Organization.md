@@ -135,6 +135,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 * The exploding pillar in the Tomb of Ajunta Pall on Korriban could cause permanent disabling of AI for companions and suffered from UI glitches during the cutscene [ISSUE #164](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164)
 * The floor of the training room in the Manaan Sith Base had some lightmap UV issues [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
+* The generic doors inside the Taris Black Vulkar Base weren't at full health [ISSUE #237](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/237)
 * The Genoharadan in the final enounter in the Tatooine Dune Sea had a number of incorrect soundsets [ISSUE #215](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/215)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
