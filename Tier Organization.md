@@ -131,6 +131,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The conversation with Gorwooken in The Great Walkway on Kashyyyk had an incorrect check for Jolee being present (Reported by Salk) [ISSUE #214](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/214)
 * The datapad for Dustil's quest could still be obtained after the Sith Academy on Korriban went hostile, making Carth look out of touch [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * The Elder's compound on the Unknown World had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
+* The elevator to the Garage in the Taris Black Vulkar Base had the wrong label [ISSUE #245](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/245)
 * The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (Reported by DarthParametric)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat)
 * The exploding pillar in the Tomb of Ajunta Pall on Korriban could cause permanent disabling of AI for companions and suffered from UI glitches during the cutscene [ISSUE #164](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164)
