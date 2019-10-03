@@ -131,6 +131,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The character Hijata had the wrong appearance and dialogue: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * The conversation with Gorwooken in The Great Walkway on Kashyyyk had an incorrect check for Jolee being present (Reported by Salk) [ISSUE #214](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/214)
 * The datapad for Dustil's quest could still be obtained after the Sith Academy on Korriban went hostile, making Carth look out of touch [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
+* The doors in the Taris Sewers didn't retract the lower section fully into the ground, leaving a little nub exposed [ISSUE #236](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/236)
 * The Elder's compound on the Unknown World had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
 * The elevator to the Garage in the Taris Black Vulkar Base had the wrong label [ISSUE #245](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/245)
 * The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (Reported by DarthParametric)

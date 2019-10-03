@@ -172,6 +172,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The dais in Davik's throne room had some unsightly lightmap artefacts [ISSUE #97](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/97)
 * The datapad for Dustil's quest could still be obtained after the Sith Academy on Korriban went hostile, making Carth look out of touch [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * The door to the Tomb of Naga Sadow in the Korriban Valley of the Dark Lords is unlocked for some reason [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
+* The doors in the Taris Sewers didn't retract the lower section fully into the ground, leaving a little nub exposed [ISSUE #236](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/236)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 * The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
 * The Elder's compound on the Unknown World had some characters attacking with fists and issues with party positioning/facing [ISSUE #169](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169)
