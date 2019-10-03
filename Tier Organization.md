@@ -49,6 +49,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris (Reported by Salk)
 * A Wookiee female in the Kashyyyk Village of Rwookrrorro had out of place VO for one line (Reported by Salk) [ISSUE #206](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/206)
 * After completing the swoop race on Taris it was possible to re-enter the Vulkar base, which was unintended behaviour [ISSUE #203](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/203)
+* After having gained sufficient prestige in the Korriban Sith Academy, any outstanding prestige quests remain open (Reported by Sniggles) [ISSUE #225](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/225)
 * After the cutscene in the Korriban Academy where a student duels with a captive, combat music would continue to play [ISSUE #190](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/190)
 * Ahlan Matale was able to channel his rage in order to use Force levitation in the Council chambers [ISSUE #55](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55)
 * Assault droids in the Manaan Hrakert Station lacked the programming to use basic weapons (reported by Sniggles) [ISSUE #223](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/223)

@@ -99,6 +99,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar) [ISSUE #36](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/36)
 * A Wookiee female in the Kashyyyk Village of Rwookrrorro had out of place VO for one line (Reported by Salk) [ISSUE #206](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/206)
 * After completing the swoop race on Taris it was possible to re-enter the Vulkar base, which was unintended behaviour [ISSUE #203](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/203)
+* After having gained sufficient prestige in the Korriban Sith Academy, any outstanding prestige quests remain open (Reported by Sniggles) [ISSUE #225](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/225)
 * Ahlan Matale was able to channel his rage in order to use Force levitation in the Council chambers [ISSUE #55](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55)
 * All the civilians in Davik's estate wore the same outfit [ISSUE #102](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/102)
 * All the male Twi'leks in Javyar's Cantina on Taris use the same green head [ISSUE #72](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/72)
