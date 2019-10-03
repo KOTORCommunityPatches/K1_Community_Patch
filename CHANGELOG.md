@@ -252,6 +252,7 @@
 * Gave the Rodian bounty hunter in the Taris Lower City cantina the proficiency to use his equipped weapon
 * Edited the Taris Sewer door model (TarisDoor5) to make the lower section retract further when open
 * Removed any open prestige quests in the Korriban Sith Academy once Uthar takes you to the tomb
+* Stopped the tech in the Manaan East Central Republic Embassy from air-typing (at least when facing away from his terminal anyway)
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
