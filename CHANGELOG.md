@@ -249,6 +249,7 @@
 * Topped up the health of injured doors in the Taris Black Vulkar Base
 * Changed the label on the transition to the Garage in the Taris Black Vulkar Base to the correct one
 * Swapped the VO for a line by a Wookiee female in the Kashyyyk Village of Rwookrrorro to better fit the context
+* Gave the Rodian bounty hunter in the Taris Lower City cantina the proficiency to use his equipped weapon
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
