@@ -47,6 +47,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar)
 * A slave girl in Davik’s estate stood still and disappeared instead of running away (Reported by DarthParametric)
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris (Reported by Salk)
+* A Wookiee female in the Kashyyyk Village of Rwookrrorro had out of place VO for one line (Reported by Salk) [ISSUE #206](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/206)
 * After completing the swoop race on Taris it was possible to re-enter the Vulkar base, which was unintended behaviour [ISSUE #203](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/203)
 * After the cutscene in the Korriban Academy where a student duels with a captive, combat music would continue to play [ISSUE #190](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/190)
 * Ahlan Matale was able to channel his rage in order to use Force levitation in the Council chambers [ISSUE #55](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55)
