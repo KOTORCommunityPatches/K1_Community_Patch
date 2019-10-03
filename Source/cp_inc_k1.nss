@@ -416,6 +416,46 @@ int CP_HasNeverTriggered() {
 	return bReturn;
 }
 
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_HasNeverTalkedTo()
+	
+	Returns true if the creature/object has not been talked to yet. An all-in-one
+	alternative to the UT_Set/GetTalkedToBooleanFlag functions that can work with
+	the vanilla k_con_talkedto starting conditional script.
+	
+	DP 2019-10-03                                                             */
+////////////////////////////////////////////////////////////////////////////////
+int CP_HasNeverTalkedTo() {
+	
+	int bReturn;
+	
+	if (UT_GetPlotBooleanFlag(OBJECT_SELF,SW_PLOT_HAS_TALKED_TO) == FALSE)
+		{
+			bReturn = TRUE;
+			UT_SetPlotBooleanFlag(OBJECT_SELF,SW_PLOT_HAS_TALKED_TO,TRUE);
+		}
+	
+	return bReturn;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_DisableAI()
+	
+	A function to allow toggling creature AI. Useful when you need to prevent
+	them doing something like ambient animations, etc.
+	
+	The index (62) is SW_FLAG_AI_OFF. 
+	
+	FALSE - Default state. AI is active.
+	TRUE - AI is disabled. Should be re-enabled before combat.
+	
+	DP 2019-10-03                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_DisableAI(int nState) {
+	SetLocalBoolean(OBJECT_SELF, 62, nState);
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 /*	CP_JumpMessenger()
 	
