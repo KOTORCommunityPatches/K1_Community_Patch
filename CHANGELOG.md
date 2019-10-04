@@ -254,6 +254,7 @@
 * Removed any open prestige quests in the Korriban Sith Academy once Uthar takes you to the tomb
 * Stopped the tech in the Manaan East Central Republic Embassy from air-typing (at least when facing away from his terminal anyway)
 * Prevented Kandon's girlfriend from staring at him when entering the final room of the Taris Black Vulkar Base Garage
+* Corrected some facing issues in the post-crash cutscene in the Ebon Hawk when arriving on the Unknown World
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

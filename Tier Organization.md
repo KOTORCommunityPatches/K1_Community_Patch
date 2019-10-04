@@ -256,6 +256,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * Several camera angles on the Star Forge were inconsistent:  [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some camera angles were wrong during the Leviathan interrogation: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
+* The cutscene in the Ebon Hawk after arriving on the Unknown World had various facing issues (With input from ebmar) [ISSUE #174](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/174)
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The confrontation with The One when siding with The Elders on the Unknown World had some timing issues and bad textures due to widescreen [ISSUE #287](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/287)
 * The conversation with Canderous in the Taris Lower City cantina could have facing issues due to a scattered party [ISSUE #251](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/251)
