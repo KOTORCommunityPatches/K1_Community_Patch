@@ -45,6 +45,6 @@ void main() {
 			
 			DelayCommand(1.0, CP_DLGSetup("KandonArk101"));
 			DelayCommand(1.0, CP_DLGHerder(lPC, lPM1, lPM2));
-			DelayCommand(1.0, CP_DLGInit("KandonArk101", "tar10_kandon01", FALSE, 1.0, 2.0));
+			DelayCommand(1.0, CP_DLGInit("KandonArk101", "tar10_kandon01", FALSE, 1.5, 2.0));
 		}
 }
