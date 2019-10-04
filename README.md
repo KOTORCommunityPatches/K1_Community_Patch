@@ -247,6 +247,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
 * When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * When entering the Sith Academy on Korriban post-Tomb of Ajunta Pall, the rejoined party members could end up scattered [ISSUE #200](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200)
+* When entering the Tatooine Dune Sea for the first time, the herd of Wraid don't patrol around like they are supposed to [ISSUE #294](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/294)
 * When handing in Gaffi sticks to the Protocol Officer in the Tatooine Czerka Office, some of her lines could be spoken off-screen [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * When returning to the Taris Hidden Bek base post-swoop race, Mission and Carth's interjections in the conversation with Zaerdra were off-screen [ISSUE #254](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/254)
 * When returning to the Taris Hidden Bek base post-swoop race, the wandering Bek mooks would be standing around idle until speaking to someone [ISSUE #254](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/254)

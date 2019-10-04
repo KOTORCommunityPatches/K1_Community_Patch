@@ -175,6 +175,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * When entering Dreshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * When entering the Sith Academy on Korriban post-Tomb of Ajunta Pall, the rejoined party members could end up scattered [ISSUE #200](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200)
+* When entering the Tatooine Dune Sea for the first time, the herd of Wraid don't patrol around like they are supposed to [ISSUE #294](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/294)
 * When handing in Gaffi sticks to the Protocol Officer in the Tatooine Czerka Office, some of her lines could be spoken off-screen [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * When returning to the Taris Hidden Bek base post-swoop race, Mission and Carth's interjections in the conversation with Zaerdra were off-screen [ISSUE #254](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/254)
 * When returning to the Taris Hidden Bek base post-swoop race, the wandering Bek mooks would be standing around idle until speaking to someone [ISSUE #254](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/254)
