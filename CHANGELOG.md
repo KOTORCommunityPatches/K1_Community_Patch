@@ -256,6 +256,7 @@
 * Prevented Kandon's girlfriend from staring at him when entering the final room of the Taris Black Vulkar Base Garage
 * Corrected some facing issues in the post-crash cutscene in the Ebon Hawk when arriving on the Unknown World
 * Cured the first herd of Wraid in the Tatooine Dune Sea of their lethargy, making them patrol around
+* Edited the UVs of generic Wookiees to fix incorrect mouthbox and tongue textures
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

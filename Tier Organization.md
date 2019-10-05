@@ -79,6 +79,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Gana Lavin's appearance changes and her text dialog doesn't appear
 * Gaps in the Leviathan Prison Block walkmesh allowed targeting (and shooting) certain enemies through walls [ISSUE #132](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/132)
 * Generic droids incorrectly used the Bantha soundset (Reported by ebmar) [ISSUE #159](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/159)
+* Generic Wookiees, males and females, had an incorrect texture assignment on their mouth interiors and males had an invisible tongue (Reported by ebmar) [ISSUE #295](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/295)
 * Giving Uthar's datapad to Adrenas in the Korriban Academy had some problems, possibly not removing it from the player's inventory [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Gizka could infest the Ebon Hawk until the very end of the game unless you poisoned them or offloaded them on Manaan [ISSUE #289](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/289)
 * Gonto Yas in the Manaan Ahto West mercenary enclave wears the same outfit as the NPC standing right next to him [ISSUE #277](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/277)
