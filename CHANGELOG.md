@@ -258,6 +258,8 @@
 * Cured the first herd of Wraid in the Tatooine Dune Sea of their lethargy, making them patrol around
 * Edited the UVs of generic Wookiees to fix incorrect mouthbox and tongue textures
 * Tweaked the conversation for the gate guard in the Tatooine Sand People Territory to fix facing issues and hide the guard being destroyed
+* Started the guard conversation straight away on entering the Tatooine Sand People Enclave for the first time, jumped the party, added clothes when removing disguises
+* Changed the party positioning for the conversations with the Chieftain in the Tatooine Sand People Enclave to resolve some facing issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
