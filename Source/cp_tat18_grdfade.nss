@@ -7,7 +7,7 @@
 	to the Chieftain in the Enclave to mask the guard visibly being destroyed
 	before the module transition.
 	
-	See also k_ptat_chiefitem, k_ptat_sandpush.
+	See also k_ptat_sandpush.
 	
 	Issue #292: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/292
