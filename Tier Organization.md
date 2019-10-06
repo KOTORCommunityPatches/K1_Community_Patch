@@ -298,6 +298,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
 * Uthar's conversation in the Korriban Sith Academy had some issues with party wrangling, departures, and inappropriate saluting [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
+* When returning to the gate guard with the moisture vaporators in the Tatooine Sand People Territory, there were various facing issues [ISSUE #292](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/292)
 * When speaking to Nilko Bwaas in Manaan Ahto West, the companion interjections had various facing and positioning issues [ISSUE #272](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/272)
 * When talking to Dak in the Korriban Valley of the Dark Lords, Juhani had some facing issues on her interjections [ISSUE #281](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/281)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
