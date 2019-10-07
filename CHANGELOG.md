@@ -260,6 +260,7 @@
 * Tweaked the conversation for the gate guard in the Tatooine Sand People Territory to fix facing issues and hide the guard being destroyed
 * Started the guard conversation straight away on entering the Tatooine Sand People Enclave for the first time, jumped the party, added clothes when removing disguises
 * Changed the party positioning for the conversations with the Chieftain in the Tatooine Sand People Enclave to resolve some facing issues
+* Forced set dynamic camera angles for the Sherruk conversation in the Dantooine Grove to prevent the camera ending up in the weeds
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

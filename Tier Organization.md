@@ -144,6 +144,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The Genoharadan in the final enounter in the Tatooine Dune Sea had a number of incorrect soundsets [ISSUE #215](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/215)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
+* The opening shot of the scene with Sherruk in the Dantooine Grove could randomly have the camera buried in the grass [ISSUE #258](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/258)
 * The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * The player could repeatedly ask HK about restoring memories post-Leviathan, despite being told there were no more to restore [ISSUE #175](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/175)
 * The repairable Vulkar bar droid lacked a weapon (Reported by DarthParametric)
