@@ -292,6 +292,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The player was briefly visible before the game was supposed to actually start
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The post-Ruins conversation with the Jedi Council on Dantooine had various facing and aesthetic issues [ISSUE #104](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/104)
+* The scene in the Taris Upper City South Apartments where the party is approached by a messenger from Canderous had some issues due to party positioning [ISSUE #247](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/247)
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (Reported by DarthParametric)
 * The Star Map opening sequence in the Dantooine Ruins was split in two instead of being one continuous scene [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105)
 * The stranded Duros scene on the Unknown World Central Beach had a character out of shot, suffered from camera wiggle, and was missing a fade-out [ISSUE #285](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/285)

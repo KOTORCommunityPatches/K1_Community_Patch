@@ -262,6 +262,7 @@
 * Changed the party positioning for the conversations with the Chieftain in the Tatooine Sand People Enclave to resolve some facing issues
 * Forced set dynamic camera angles for the Sherruk conversation in the Dantooine Grove to prevent the camera ending up in the weeds
 * Added some stray journal entries to the list of removals when arriving on the Unknown World
+* Tweaked the messenger from Canderous scene in the Taris Upper City South Apartments, herding the party and adjusting the camera angle of the opening shot
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
