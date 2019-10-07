@@ -175,6 +175,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Tyvark's conversation on Manaan had some incorrectly configured checks on available lines (Reported by Salk) [ISSUE #194](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/194)
 * Vandar had some stunt animation issues in one of the final cutscenes due to a bad supermodel reference [ISSUE #178](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/178)
 * Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
+* When arriving on the Unknown World, most extraneous journal entries were removed but a few still remained [ISSUE #227](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/227)
 * When entering Dreshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * When entering the Sith Academy on Korriban post-Tomb of Ajunta Pall, the rejoined party members could end up scattered [ISSUE #200](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200)
 * When entering the Tatooine Dune Sea for the first time, the herd of Wraid don't patrol around like they are supposed to [ISSUE #294](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/294)
