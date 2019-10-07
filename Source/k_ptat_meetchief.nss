@@ -62,6 +62,8 @@ void main() {
 	
 	ActionPauseConversation();
 	
+	SetGlobalBoolean("tat_TuskenSuit", FALSE);
+	
 	oTorsoItem = GetItemInSlot(INVENTORY_SLOT_BODY, oParty1);
 
 	if (GetTag(oTorsoItem) == "tat17_sandperdis")
