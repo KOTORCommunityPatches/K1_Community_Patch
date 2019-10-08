@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by unk42_eldspk2.utt in unk_m42aa (Unknown World Elder's Settlement).
@@ -16,51 +16,42 @@
 	Issue #169: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/169
 	
-	DP 2019-06-22                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-06-22
+	
+//////////////////////////////////////////////////////////////////////////////////
+	
+	Revised the code to skip straight to jumping the party into their final positions
+	since, unlike with the first trigger, on the second triggered conversation there
+	is no opening wide shot to show the party walking in.
+	
+	DP 2019-10-09																*/
+//////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
 
 void main() {
 	
 	object oEntering = GetEnteringObject();
-	object oPC = GetFirstPC();
-	object oPM1 = CP_GetPartyMember(1);
-	object oPM2 = CP_GetPartyMember(2);
-	location lPM1Start = Location(Vector(54.0,26.0,16.165), 90.0);
-	location lPM2Start = Location(Vector(51.0,26.0,16.165), 90.0);
-	location lPM1End = Location(Vector(54.5,34.0,16.165), 90.0);
-	location lPM2End = Location(Vector(51.25,34.0,16.165), 90.0);
+	location lPC = Location(Vector(52.875,36.5,16.165), 90.0);
+	location lPM1 = Location(Vector(54.5,34.0,16.165), 90.0);
+	location lPM2 = Location(Vector(51.25,34.0,16.165), 90.0);
 	
 	SetPartyLeader(NPC_PLAYER);
 	
-	if ((((GetIsPC(oEntering) == TRUE) && (UT_GetTalkedToBooleanFlag(OBJECT_SELF) == FALSE)) && (GetGlobalBoolean("Unk_One_Dead") == TRUE)))
+	if (GetIsPC(oEntering) && CP_HasNeverTriggered() && GetGlobalBoolean("Unk_One_Dead"))
 		{
-			if (GetIsObjectValid(oPM1))
+			HoldWorldFadeInForDialog();
+			
+			CP_PartyHerder(lPC, lPM1, lPM2);
+			
+			if (!GetGlobalBoolean("Unk_RedHostile"))
 				{
-					CP_PartyJump(oPM1, lPM1Start);
+					NoClicksFor(3.0);
+					CP_DLGInit("unk42_redelder");
 				}
-			
-			if (GetIsObjectValid(oPM2))
-				{
-					CP_PartyJump(oPM2, lPM2Start);
-				}
-			
-			UT_SetTalkedToBooleanFlag(OBJECT_SELF, TRUE);
-			
-			if ((!GetGlobalBoolean("Unk_RedHostile")))
-				{
-					AssignCommand(GetObjectByTag("unk42_redelder", 0), ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, FALSE));
-					
-					if (GetIsObjectValid(oPM1))
-						{
-							DelayCommand(2.2, AssignCommand(oPM1, ActionMoveToLocation(lPM1End, FALSE)));
-						}
-			
-					if (GetIsObjectValid(oPM2))
-						{
-							DelayCommand(2.2, AssignCommand(oPM2, ActionMoveToLocation(lPM2End, FALSE)));
-						}
-				}
+				else
+					{
+						SetGlobalFadeIn(0.5, 1.5);
+					}
 		}
 }
