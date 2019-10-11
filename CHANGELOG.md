@@ -264,6 +264,7 @@
 * Added some stray journal entries to the list of removals when arriving on the Unknown World
 * Tweaked the messenger from Canderous scene in the Taris Upper City South Apartments, herding the party and adjusting the camera angle of the opening shot
 * Edited the Trask sacrifice scene on the Endar Spire to hide some of the engine's crimes
+* Removed an item duplication exploit after fighting Brejik on the Taris Swoop Platform
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

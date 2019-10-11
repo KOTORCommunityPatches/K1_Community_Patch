@@ -136,6 +136,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * If you cause the Gamorreans ambushing you in the Tatooine Dune Sea to run away, one of them disappears before the scene fades out [ISSUE #264](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/264)
 * In rare instances, a Mandalorian on Dantooine could try to use a Final Fantasy gunblade [ISSUE #111](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111)
 * It was possible to clip into the walls on either side of the Wookiee village gate on the Kashyyyk Great Walkway (Reported by Salk) [ISSUE #291](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/291)
+* It was possible to duplicate Brejik's unique items after the fight on the Taris Swoop Platform (Reported by 134340Goat) [ISSUE #298](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/298)
 * It was possible to repeatedly attempt to blackmail Roland Wann after the events of Hrakert Station for infinite DS points [ISSUE #106](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/106)
 * Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
 * Jolee could speak one of his lines off-screen when talking to his personal quest messenger, Davin [ISSUE #270](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/270)
