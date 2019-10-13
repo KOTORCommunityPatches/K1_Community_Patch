@@ -265,6 +265,7 @@
 * Tweaked the messenger from Canderous scene in the Taris Upper City South Apartments, herding the party and adjusting the camera angle of the opening shot
 * Edited the Trask sacrifice scene on the Endar Spire to hide some of the engine's crimes
 * Removed an item duplication exploit after fighting Brejik on the Taris Swoop Platform
+* Fixed an off-screen interjection by Carth when speaking to Largo in the Taris Upper City North Apartments
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
