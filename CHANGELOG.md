@@ -268,6 +268,7 @@
 * Fixed an off-screen interjection by Carth when speaking to Largo in the Taris Upper City North Apartments
 * Plugged some gaps and removed lightmap light bleed in a couple of corners of the entrance area of Manaan West Central
 * Fixed a script incorrectly set as a starting conditional in a background NPC's DLG in Manaan East Central
+* Tweaked party jump positions in the Tatooine Eastern Dune Sea star map scene to resolve facing issues
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
