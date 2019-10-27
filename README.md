@@ -339,7 +339,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Fixed Elise’s walking pace when she exits so she runs away when upset and walks away otherwise
 * Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
 * Fixed the height of the workbench on Dantooine
-* Fixed the position of the strongbox in the Taris Lower City apartments (Reported by DarthParametric)
+* Fixed the position of the strongbox in the Taris Lower City apartments (Reported by DarthParametric) [ISSUE #68](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/68)
 * Hidden Beks didn’t react quickly to intruders (Reported by DarthParametric)
 * It was possible to interact with a transformer in the Sith base on Taris—though it did nothing of particular interest
 * Killing Dustil before completing Carth's quest would leave its status unresolved (with additions by DarthParametric) [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
