@@ -151,6 +151,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Mission can be seen frozen in the background during one line in the conversation with Lena [ISSUE #263](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/263)
 * Nearly everyone/thing in Hrakert Station had the wrong soundset [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar) [ISSUE #19](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/19)
+* One of the background NPCs in Manaan East Central had an incorrect script assignment in their dialogue (Reported by Salk) [ISSUE #317](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/317)
 * One of the Czerka guards in the Tatooine docking bay would get in the way of messenger conversations [ISSUE #177](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/177)
 * One of the Gamorreans in the Taris sewers was quietly relaxing in a corner, oblivious to what was going on (Reported by ebmar) [ISSUE #95](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/95)
 * One of the seated officers on Dodonna's capital ship was levitating next to their chair (Reported by Kexikus) [ISSUE #187](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/187)

@@ -267,6 +267,7 @@
 * Removed an item duplication exploit after fighting Brejik on the Taris Swoop Platform
 * Fixed an off-screen interjection by Carth when speaking to Largo in the Taris Upper City North Apartments
 * Plugged some gaps and removed lightmap light bleed in a couple of corners of the entrance area of Manaan West Central
+* Fixed a script incorrectly set as a starting conditional in a background NPC's DLG in Manaan East Central
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

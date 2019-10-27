@@ -108,6 +108,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Nearly everyone/thing in Hrakert Station had the wrong soundset [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * On the Star Forge, the wrong speaker said the "You are wasting your time..." line: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * One of Canderous' goons in the Undercity had the wrong soundset (Reported by ebmar)
+* One of the background NPCs in Manaan East Central had an incorrect script assignment in their dialogue (Reported by Salk) [ISSUE #317](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/317)
 * One of the bounty hunters in Javyar's cantina was secretly a computer in disguise (Reported by JCarter426) [ISSUE #133](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/133)
 * One of the Gamorreans in the Taris sewers was quietly relaxing in a corner, oblivious to what was going on (Reported by ebmar) [ISSUE #95](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/95)
 * One of the seated officers on Dodonna's capital ship was levitating next to their chair (Reported by Kexikus) [ISSUE #187](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/187)
