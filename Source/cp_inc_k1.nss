@@ -78,6 +78,26 @@ AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 
 
 ////////////////////////////////////////////////////////////////////////////////
+/*	CP_PartyMoveObject()
+	
+	Companion function to CP_PartyMove that uses ActionMoveToObject instead of
+	ActionMoveToLocation. Used for party herding.
+	
+	- oPM: Party member (or any creature)
+	- oMoveTo: Object to move to (typically a waypoint)
+	- nRun: TRUE to run, FALSE to walk
+	
+	DP 2019-10-31                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE) {
+ 
+	AssignCommand(oPM, ClearAllActions());
+	AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
+	AssignCommand(oPM, ActionMoveToObject(oMoveTo, nRun));
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyHerder()
 	
 	Herds the party into specified locations.
