@@ -403,6 +403,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### Red Hessian:
 * Desert wraids and shyraks use wrong texture: [Desert Wraid & Shyrack Texture Fix](http://deadlystream.com/forum/files/file/323-desert-wraid-shyrack-texture-fix/)
 
+### Salk:
+* A guard droid in the Manaan West Central foyer had its back legs clipping into the wall [ISSUE #302](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/302)
+
 ### Thrak Farelle:
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
 
