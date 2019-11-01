@@ -270,6 +270,7 @@
 * Fixed a script incorrectly set as a starting conditional in a background NPC's DLG in Manaan East Central
 * Tweaked party jump positions in the Tatooine Eastern Dune Sea star map scene to resolve facing issues
 * Stopped Matrik using the Force to plant his bombs in the Taris Lower City Apartments
+* Gave the Duros guards in Davik's Estate on Taris the correct soundset
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
