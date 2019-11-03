@@ -9,10 +9,11 @@
 	the party into more favourable positions, since the conversation had the usual
 	problems with facing.
 	
-	Updated 2019-11-03 to add in a check for Maana being present, since Bastila's
-	quest may not have advanced sufficiently to spawn him before the player visits
-	Tatooine the first time, potentially flagging the trigger and thus preventing
-	it firing the conversation properly on a subsequent visit.
+	Updated 2019-11-03 to add in a check for Maana being present and revised the
+	triggered boolean, since Bastila's quest may not have advanced sufficiently to
+	spawn him before the player visits Tatooine the first time, potentially flagging
+	the trigger and thus preventing it firing the conversation as intended on any
+	subsequent visit.
 	
 	Issue #261: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/261
@@ -30,8 +31,10 @@ void main() {
 	location lPM1 = Location(Vector(123.474,119.928,3.75), 315.0);
 	location lPM2 = Location(Vector(120.873,117.504,3.75), 315.0);
 	
-	if (GetIsPC(oEntering) && GetIsObjectValid(oMaana) && CP_HasNeverTriggered())
+	if (GetIsPC(oEntering) && GetIsObjectValid(oMaana) && !UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01))
 		{
+			UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01, TRUE);
+			
 			SetGlobalFadeOut();
 			
 			NoClicksFor(1.5);
