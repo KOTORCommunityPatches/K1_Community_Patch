@@ -243,6 +243,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Valley of the Dark Lords on Korriban had some distorted UVs on the cliff edge (Reported by djh269) [ISSUE #191](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/191)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
+* The witnesses in the Sunry murder trial in Manaan Ahto West had different appearances than the first time you meet them (Reported by KnifeMaster) [ISSUE #318](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/318)
 * There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 * There is a visible gap in the wall behind the beds in the Taris Upper City hideout [ISSUE #231](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/231)
 * There were some facing and camera angle issues during the overseer droid conversation in the Dantooine Ruins [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105) [ISSUE #152](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/152)
@@ -433,6 +434,6 @@ You may, however, do whatever you want with any of my (A Future Pilot) fixes wit
 * Snigaroo - For maintaining awesome mod lists on the /r/kotor subreddit, and for putting up with my many recommendations
 * danil-ch - For the original info.rtf template
 * Fair Strides - For bundling up his tools and making them available
-* Many thanks to ebmar and Salk for providing numerous bug reports
+* Many thanks to ebmar, Salk, and KnifeMaster for providing numerous bug reports
 
 **THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/OBSIDIAN ENTERTAINMENT OR LUCASARTS OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
