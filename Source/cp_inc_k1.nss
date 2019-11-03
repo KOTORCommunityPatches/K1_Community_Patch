@@ -57,6 +57,25 @@ AssignCommand(oPM, ActionJumpToLocation(lLoc));
 
 
 ////////////////////////////////////////////////////////////////////////////////
+/*	CP_PartyJumpObject()
+	
+	Companion function to CP_PartyJump that uses ActionMoveToObject instead of
+	ActionMoveToLocation. Used for party herding.
+	
+	- oPM: Party member (or any creature)
+	- oJumpTo: Object to jump to (typically a waypoint)
+	
+	DP 2019-11-03                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_PartyJumpObject(object oPM, object oJumpTo) {
+ 
+	AssignCommand(oPM, ClearAllActions());
+	AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
+	AssignCommand(oPM, ActionJumpToObject(oJumpTo));
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyMove()
 	
 	Has a creature clear all actions and then walk or run to a location. Used
