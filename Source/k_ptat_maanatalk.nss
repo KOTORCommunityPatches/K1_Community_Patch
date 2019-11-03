@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by tat17_maanatalk.utt in tat_m17aa (Tatooine Anchorhead).
@@ -8,6 +8,11 @@
 	be anything special going on looking at the bytecode. Reconstructed to jump
 	the party into more favourable positions, since the conversation had the usual
 	problems with facing.
+	
+	Updated 2019-11-03 to add in a check for Maana being present, since Bastila's
+	quest may not have advanced sufficiently to spawn him before the player visits
+	Tatooine the first time, potentially flagging the trigger and thus preventing
+	it firing the conversation properly on a subsequent visit.
 	
 	Issue #261: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/261
@@ -20,11 +25,12 @@
 void main() {
 
 	object oEntering = GetEnteringObject();
+	object oMaana = GetObjectByTag("tat17aa_bastplot", 0);
 	location lPC = Location(Vector(123.682,117.075,3.75), 315.0);
 	location lPM1 = Location(Vector(123.474,119.928,3.75), 315.0);
 	location lPM2 = Location(Vector(120.873,117.504,3.75), 315.0);
 	
-	if (GetIsPC(oEntering) && CP_HasNeverTriggered())
+	if (GetIsPC(oEntering) && GetIsObjectValid(oMaana) && CP_HasNeverTriggered())
 		{
 			SetGlobalFadeOut();
 			
