@@ -223,6 +223,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Sandpeople Storyteller had an incorrect soundset (Reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The scene in the Taris Upper City South Apartments where the party is approached by a messenger from Canderous had some issues due to party positioning [ISSUE #247](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/247)
 * The scene of Matrik faking his own death in the Taris Lower City Apartments had some issues with the explosives placement, SFX timing, conversation positioning/facing, etc. (Reported by KnifeMaster) [ISSUE #300](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/300)
+* The scene with the conservationist after emerging from the Czerka office in Anchorhead on Tatooine left the party a bit scattered [ISSUE #309](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/309)
 * The screen blurring VFX for Force/Knight/Master Speed was really obnoxious at modern resolutions [ISSUE #99](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/99)
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
