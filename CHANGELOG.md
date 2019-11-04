@@ -274,6 +274,7 @@
 * Moved a guard droid in the Manaan West Central foyer to stop it clipping into a wall
 * Changed the appearances for Firith and Gluupor in the Sunry murder trial in Manaan Ahto West to match their ones in the hotel
 * Jumped the party for the scene with the conservationist after leaving the Czerka office in Anchorhead
+* Jumped the party when talking to Griff in the Tatooine Czerka office to prevent Mission skating across the floor
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
