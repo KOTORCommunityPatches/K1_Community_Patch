@@ -259,6 +259,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Vandar had some stunt animation issues in one of the final cutscenes due to a bad supermodel reference [ISSUE #178](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/178)
 * Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
+* When arriving on Tatooine for the first time, there were a few issues in the conversation with the Czerka customs officer [ISSUE #308](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/308)
 * When arriving on the Unknown World, most extraneous journal entries were removed but a few still remained [ISSUE #227](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/227)
 * When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
 * When entering the Sith Academy on Korriban post-Tomb of Ajunta Pall, the rejoined party members could end up scattered [ISSUE #200](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200)
