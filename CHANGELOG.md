@@ -276,6 +276,7 @@
 * Jumped the party for the scene with the conservationist after leaving the Czerka office in Anchorhead
 * Jumped the party when talking to Griff in the Tatooine Czerka office to prevent Mission skating across the floor
 * Jumped the party when arriving on Tatooine for the first time and fixed some convo issues with the customs officer
+* Adjusted the Bek vs Vulkar cutscene when first entering Taris Lower City to give a Bek some armour, jump the party, and prevent dialogue skipping
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
