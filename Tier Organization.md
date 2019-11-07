@@ -159,6 +159,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The Sandpeople Storyteller had an incorrect soundset (Reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
+* The Sith soldiers in the Taris Upper City North Apartments could be a little too dedicated to searching for stolen uniforms, even doing so when in combat (Reported by Salk) [ISSUE #326](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/326)
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The surviving Hrakert scientists had their weapons out all the time
 * The swaying cables in the Anchorhead droid shop were clipping into some boxes [ISSUE #114](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/114)

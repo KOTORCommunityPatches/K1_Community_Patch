@@ -277,6 +277,7 @@
 * Jumped the party when talking to Griff in the Tatooine Czerka office to prevent Mission skating across the floor
 * Jumped the party when arriving on Tatooine for the first time and fixed some convo issues with the customs officer
 * Adjusted the Bek vs Vulkar cutscene when first entering Taris Lower City to give a Bek some armour, jump the party, and prevent dialogue skipping
+* Tweaked a script to prevent the Sith soldiers in the Taris Upper City North Apartments from playing their search animation after turning hostile
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
