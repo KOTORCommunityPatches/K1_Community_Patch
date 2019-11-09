@@ -12,6 +12,10 @@
 	Updated 2019-10-03 to replace the party member definitions with the K1CP Include
 	functions to streamline the code.
 	
+	Updated 2019-11-09 to revise the moving of the party with a modified function,
+	since the vanilla script on the previous node removes any companions from the
+	active party, thus causing the Include functions to skip them.
+	
 	Issue #162: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162
 	
@@ -79,29 +83,51 @@ void CP_JrlCheck() {
 		}
 }
 
+// A modified version of CP_PartyHerder that removes the IsObjectPartyMember check, since
+// any companions are removed from the party on the previous node by k_pkor_partyleav
+void CP_WalkParty(location lPC, location lPM1, location lPM2) {
+
+	object oPC = GetFirstPC();
+	int i = 0;
+	
+	object oPM1 = OBJECT_INVALID;
+	
+	while (!GetIsObjectValid(oPM1) && i <= 8)
+		{
+			oPM1 = GetObjectByTag(CP_NPCToTag(i), 0);
+			i++;
+		}
+	
+	object oPM2 = OBJECT_INVALID;
+	
+	while (!GetIsObjectValid(oPM2) && i <= 8)
+		{
+			oPM2 = GetObjectByTag(CP_NPCToTag(i), 0);
+			i++;
+		}
+	
+	CP_PartyMove(oPC, lPC, FALSE);
+	if (GetIsObjectValid(oPM1)) CP_PartyMove(oPM1, lPM1, FALSE);
+	if (GetIsObjectValid(oPM2)) CP_PartyMove(oPM2, lPM2, FALSE);
+}
+
 void main() {
 	
 	object oPC = GetFirstPC();
-	object oPM1 = CP_GetPartyMember(1);
-	object oPM2 = CP_GetPartyMember(2);
-	location lPC = Location(Vector(120.0,92.5,3.15), 90.0);
 	location lUthar = Location(Vector(123.0,92.5,3.15), 90.0);
+	location lPC = Location(Vector(120.0,92.5,3.15), 90.0);
 	location lPM1 = Location(Vector(101.0,71.25,3.15), 180.0);
 	location lPM2 = Location(Vector(101.0,74.25,3.15), 180.0);
 	
 	ActionPauseConversation();
 	
-	SetGlobalFadeOut(3.0, 1.5);
+	SetGlobalFadeOut(2.5, 1.5);
 	
-	ActionMoveToLocation(lUthar, FALSE);
-	AssignCommand(oPC, ActionMoveToLocation(lPC, FALSE));
-	AssignCommand(oPM1, ActionMoveToLocation(lPM1, FALSE));
-	AssignCommand(oPM2, ActionMoveToLocation(lPM2, FALSE));
+	CP_PartyMove(OBJECT_SELF, lUthar, FALSE);
+	CP_WalkParty(lPC, lPM1, lPM2);
 	
-	DelayCommand(4.4, AssignCommand(oPC, ClearAllActions()));
-	DelayCommand(4.5, AssignCommand(oPC, ActionJumpToLocation(lPC)));
-	DelayCommand(4.4, ClearAllActions());
-	DelayCommand(4.5, ActionJumpToLocation(lUthar));
+	DelayCommand(4.3, CP_PartyJump(OBJECT_SELF, lUthar));
+	DelayCommand(4.3, CP_PartyJump(oPC, lPC));
 	
 	CP_JrlCheck();
 	
