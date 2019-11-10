@@ -279,6 +279,7 @@
 * Adjusted the Bek vs Vulkar cutscene when first entering Taris Lower City to give a Bek some armour, jump the party, and prevent dialogue skipping
 * Tweaked a script to prevent the Sith soldiers in the Taris Upper City North Apartments from playing their search animation after turning hostile
 * Swapped the soundsets for the Duros survivors on the Unknown World Central Beach to the correct ones
+* Prevented a Rodian sitter in Manaan Ahto West from clipping into a table
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

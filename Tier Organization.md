@@ -45,6 +45,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * A guard droid in the Manaan West Central foyer had its back legs clipping into the wall [ISSUE #302](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/302)
 * A placeable bench can occasionally be unintentionally spawned when fighting the Tuk'ata Mother in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * A random swoop fan on Manaan was getting in the way of a Sith extorting people for money (Reported by DarthParametric) [ISSUE #140](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/140)
+* A Rodian "sitter" in the Mercenary Enclave in Manaan Ahto West was clipping into a table [ISSUE #328](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/328)
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar)
 * A slave girl in Davik’s estate stood still and disappeared instead of running away (Reported by DarthParametric)
 * A stray blaster appears in the middle of a hallway in the Sith Base on Taris (Reported by Salk)
