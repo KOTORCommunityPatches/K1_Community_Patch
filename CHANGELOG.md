@@ -280,6 +280,7 @@
 * Tweaked a script to prevent the Sith soldiers in the Taris Upper City North Apartments from playing their search animation after turning hostile
 * Swapped the soundsets for the Duros survivors on the Unknown World Central Beach to the correct ones
 * Prevented a Rodian sitter in Manaan Ahto West from clipping into a table
+* Switched the animation used by the surrendering Vulkar in the Taris Black Vulkar Base to something more appropriate
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
