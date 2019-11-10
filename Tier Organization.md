@@ -268,6 +268,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * If the prisoner in the Sith Academy was interrogated multiple times rapidly, the animation would loop for a long time: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Kandon's girlfriend couldn't take her eyes off him during the confrontation in the Taris Black Vulkar Base Garage [ISSUE #241](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/241)
 * Kandon's pre-swoop race conversation had some aesthetic issues due to sloppy party positioning [ISSUE #62](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62)
+* Master of the Korriban Sith Academy Uthar Wynn was using Sith sorcery in order to stand up faster than should be humanly possible [ISSUE #341](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/341)
 * Mission could sometimes skate across the floor when interjecting in the conversation with Griff in the Czerka office on Tatooine [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * Opponents in the Taris duel ring played their intro animations out of sync with their introduction: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #89](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/89)
 * Several camera angles on the Star Forge were inconsistent:  [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)

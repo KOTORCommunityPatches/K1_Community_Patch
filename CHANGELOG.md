@@ -281,6 +281,7 @@
 * Swapped the soundsets for the Duros survivors on the Unknown World Central Beach to the correct ones
 * Prevented a Rodian sitter in Manaan Ahto West from clipping into a table
 * Switched the animation used by the surrendering Vulkar in the Taris Black Vulkar Base to something more appropriate
+* Forced Uthar in the Korriban Sith Academy to play a transitional animation when standing up
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

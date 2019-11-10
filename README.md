@@ -300,6 +300,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * After the cutscene in the Korriban Academy where a student duels with a captive, combat music would continue to play [ISSUE #190](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/190)
 * Elise was overly flirty (Reported by DarthParametric) [ISSUE #54](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/54)
 * Griff Vao's hands were a much darker shade of blue than his head (Reported by DarthParametric) [ISSUE #266](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/266)
+* Master of the Korriban Sith Academy Uthar Wynn was using Sith sorcery in order to stand up faster than should be humanly possible [ISSUE #341](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/341)
 * One of the bounty hunters in Javyar's cantina was secretly a computer in disguise (Reported by JCarter426) [ISSUE #133](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/133)
 * Some Sith Elite Troopers in the Manaan hangar bay incorrectly used the Officer appearance (Reported by JCarter426) [ISSUE #183](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/183)
 * The Genoharadan in the final enounter in the Tatooine Dune Sea had a number of incorrect soundsets [ISSUE #215](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/215)
