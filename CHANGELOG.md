@@ -284,6 +284,7 @@
 * Forced Uthar in the Korriban Sith Academy to play a transitional animation when standing up
 * Prevented the initial scene when entering the puzzle room in the Unknown World Temple Catacombs from playing more than once
 * Corrected some starting conditional scripts preventing some ambient NPC barks on Manaan from playing
+* Removed Lorgal's corpse in the Manaan East Central Republic Embassy on subsequent module loads
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
