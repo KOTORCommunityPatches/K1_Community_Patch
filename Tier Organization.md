@@ -64,6 +64,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar)
 * Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
+* Certain ambient NPC barks on Manaan would fail to trigger due to some incorrect scripts [ISSUE #342](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/342)
 * Chuundar's dialogue specified an incorrect animation for one of his lines (Reported by Salk) [ISSUE #193](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/193)
 * Dak wouldn't drop his stuff if killed in the Valley: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
