@@ -287,6 +287,7 @@ These might be considered subjective alterations in some cases, but are done wit
 * The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
 * The dialogue with the surviving scientists Kono and Sami had several facing and camera issues (Reported by DarthParametric)
+* The doubting Sith in the Korriban Sith Academy, Kel Algwinn, had a single talent - standing up really fast [ISSUE #343](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/343)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 * The final confrontation in the Tomb of Naga Sadow on Korriban had various facing issues and pathing issues with a door (With input from ebmar) [ISSUE #167](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167)
 * The final cutscene for the Light Side ending had a raft of issues with stunt animations and framing in widescreen resolutions [ISSUE #186](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/186)

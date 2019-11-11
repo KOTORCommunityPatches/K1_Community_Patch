@@ -305,6 +305,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Master of the Korriban Sith Academy Uthar Wynn was using Sith sorcery in order to stand up faster than should be humanly possible [ISSUE #341](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/341)
 * One of the bounty hunters in Javyar's cantina was secretly a computer in disguise (Reported by JCarter426) [ISSUE #133](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/133)
 * Some Sith Elite Troopers in the Manaan hangar bay incorrectly used the Officer appearance (Reported by JCarter426) [ISSUE #183](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/183)
+* The doubting Sith in the Korriban Sith Academy, Kel Algwinn, had a single talent - standing up really fast [ISSUE #343](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/343)
 * The Genoharadan in the final enounter in the Tatooine Dune Sea had a number of incorrect soundsets [ISSUE #215](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/215)
 * The hallway leading to the Manaan hotel had some incorrect baked lighting colouration [ISSUE #109](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/109)
 * The swoop records computer panel in Manaan Ahto East was clipping into the wall [ISSUE #155](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/155)
