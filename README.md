@@ -150,6 +150,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Lashowe could occasionally forget elementary lightsaber safety in the post-Tuk'ata mother conversation in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * Lashowe did a quick outfit change on Korriban between harassing the player in Dreshdae and appearing in the Academy [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)
+* Matrik in the Taris Lower City Apartments had the wrong soundset (Reported by KnifeMaster) [ISSUE #331](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/331)
 * Mission can be seen frozen in the background during one line in the conversation with Lena [ISSUE #263](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/263)
 * Mission could sometimes skate across the floor when interjecting in the conversation with Griff in the Czerka office on Tatooine [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * Nearly everyone/thing in Hrakert Station had the wrong soundset [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)

@@ -286,6 +286,7 @@
 * Corrected some starting conditional scripts preventing some ambient NPC barks on Manaan from playing
 * Removed Lorgal's corpse in the Manaan East Central Republic Embassy on subsequent module loads
 * Cured Kel Algwinn in the Korriban Sith Academy of his tendency to stand up instantly
+* Switched the soundset for Matrik in the Taris Lower City Apartments to a Twi'lek male
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
