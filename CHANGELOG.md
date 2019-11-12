@@ -287,6 +287,7 @@
 * Removed Lorgal's corpse in the Manaan East Central Republic Embassy on subsequent module loads
 * Cured Kel Algwinn in the Korriban Sith Academy of his tendency to stand up instantly
 * Switched the soundset for Matrik in the Taris Lower City Apartments to a Twi'lek male
+* Prevented the door to the Sith Master's room in the Unknown World Temple Main Floor from being accessible prematurely
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

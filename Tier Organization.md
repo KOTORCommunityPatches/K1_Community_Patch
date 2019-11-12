@@ -96,6 +96,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * It was possible to interact with a transformer in the Sith base—though it did nothing of particular interest
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 * It was possible to repeatedly attempt to blackmail Roland Wann after the events of Hrakert Station for infinite DS points [ISSUE #106](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/106)
+* It was possible to trigger the cutscene with the Sith Master in the Unknown World Temple Main Floor while still in combat with the two Dark Jedi outside (Reported by KnifeMaster) [ISSUE #325](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/325)
 * Jolee could speak one of his lines off-screen when talking to his personal quest messenger, Davin [ISSUE #270](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/270)
 * Jolee's stunt double was briefly visible when he joined the party [ISSUE #122](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122)
 * Juhani displays a typical cat-like disdain on the Ebon Hawk, facing away from the doorway of her hidey-hole [ISSUE #290](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/290)
