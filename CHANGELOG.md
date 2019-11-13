@@ -288,6 +288,7 @@
 * Cured Kel Algwinn in the Korriban Sith Academy of his tendency to stand up instantly
 * Switched the soundset for Matrik in the Taris Lower City Apartments to a Twi'lek male
 * Prevented the door to the Sith Master's room in the Unknown World Temple Main Floor from being accessible prematurely
+* Created racial variants for the smuggler appearance to match the skin tone of the hands to the head used
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

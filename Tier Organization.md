@@ -374,6 +374,7 @@ Sometimes the game assets aren't great. These changes correct problems with them
 * The quality of the Sith soldier placeable texture has been improved based on the higher-resolution Sith soldier NPC texture [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * The screen blurring VFX for Force/Knight/Master Speed was really obnoxious at modern resolutions [ISSUE #99](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/99)
 * The Republic soldier body models have been improved: [JC's Republic Soldier Fix for K1](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/) (with DarthParametric lending a hand)
+* The smuggler NPC appearance lacked proper racial variants, resulting in mismatched hand and head skin tones (Reported by KnifeMaster) [ISSUE #319](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/319)
 * The Tatooine white female commoner head (e.g. Sharina) and Asian female commoner heads (e.g. Elora) had shading, clipping, and UV problems [ISSUE #126](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/126)
 * The training montage on Dantooine had a number of minor animation issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
