@@ -45,6 +45,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Yuthura only attacks with one of her lightsabers
 * Guards in the Sith Academy used the Sith Officer appearance instead of Sith Soldiers
 * Movement in the diving and space suits was extremely slow
+* The fog in the Taris cantinas was thick enough to cut with a knife
 
 ### blennus:
 * The XP reward for delivering the box to Motta the Hutt was incorrect: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
