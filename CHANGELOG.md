@@ -1,5 +1,5 @@
 # CHANGELOG
-## v1.8 - TBA 2019
+## v1.8 - December 02, 2019
 ### Additions
 * Added a fix to the skin weights of the male player head PMHC01
 * Added a fix for the commoner Asian male head comm_a_m to restore eye animation
