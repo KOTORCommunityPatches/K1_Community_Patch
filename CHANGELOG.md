@@ -92,7 +92,7 @@
 * Improved Bek reaction time following security alert in the base
 * Made Redros equip his weapon for the swoop race brawl
 * Added new dialogue trees for Vandar so the player could continue speaking to him about the usual topics after completing the trials
-* Gave the repairable Vulkar bar droid a blaster rifle
+* Gave the repairable Vulkar bar droid a blaster rifle and disabled its plot flag
 * Made various changes to the initial Davik conversation to resolve the usual facing and positional crimes
 * Fixed some bad lightmaping on the dais in Davik's throne room
 * Fixed some bad lightmaping on the walls of the Vulkar base's lower level

@@ -374,7 +374,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The encounter with Sasha could be done repeatedly, resulting in a dark side point exploit (Reported by DarthParametric)
 * The guard droids in Davik’s estate could be gassed and weren’t very droid-like
 * The player was briefly visible before the game was supposed to actually start
-* The repairable Vulkar bar droid lacked a weapon (Reported by DarthParametric)
+* The repairable bar droid in the Black Vulkar base lacked a weapon and was immortal (Reported by DarthParametric & 2woke4ufgt) [ISSUE #63](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/63)
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (Reported by DarthParametric)
 * The Sith student Tariga had a male appearance and voice, contrary to Tamlen's description of her (Reported by ebmar)
 * The surviving Hrakert scientists had their weapons out all the time

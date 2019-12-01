@@ -157,7 +157,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The opening shot of the scene with Sherruk in the Dantooine Grove could randomly have the camera buried in the grass [ISSUE #258](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/258)
 * The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * The player could repeatedly ask HK about restoring memories post-Leviathan, despite being told there were no more to restore [ISSUE #175](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/175)
-* The repairable Vulkar bar droid lacked a weapon (Reported by DarthParametric)
+* The repairable bar droid in the Black Vulkar base lacked a weapon and was immortal (Reported by DarthParametric & 2woke4ufgt) [ISSUE #63](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/63)
 * The reward from Roland Wann in Manaan East Central for completing Hrakert Station was meant to include a sonic rifle (Reported by djh269) [ISSUE #209](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/209)
 * The Rodian bounty hunter in the Taris Lower City cantina apparently skipped weapons training at bounty hunter school [ISSUE #234](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/234)
 * The rogue Assassin Droid in the Korriban Tomb of Marka Ragnos would get inexplicably angry if the player had too many stealth belts [ISSUE #280](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/280)
