@@ -290,6 +290,7 @@
 * Prevented the door to the Sith Master's room in the Unknown World Temple Main Floor from being accessible prematurely
 * Created racial variants for the smuggler appearance to match the skin tone of the hands to the head used
 * Removed sharp objects from the player during the post-race scenes in the Taris Swoop Platform to prevent injury
+* Made Jolee and Juhani wear their unique clothing when they first join the party
 
 ### Changes
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)

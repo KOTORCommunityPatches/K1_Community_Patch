@@ -223,6 +223,7 @@ The issues these address aren't exactly problems, but they still bothered people
 * Helena wears Jedi robes instead of regular clothes
 * Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
 * Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
+* Jolee and Juhani both wear Jedi robes when they join the party instead of their unique outfits
 * Kandon Ark doesn't wear his military suit: [Kandon Ark Fix 1.0](http://deadlystream.com/forum/files/file/1026-kandon-ark-fix/)
 * Many Sith Troopers or Officers had the wrong appearance
 * One of the Czerka guards in the Tatooine docking bay would get in the way of messenger conversations [ISSUE #177](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/177)
