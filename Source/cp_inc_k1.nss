@@ -518,49 +518,49 @@ void CP_JumpMessenger() {
 	object oXor = GetObjectByTag("g_xor", 0);
 	object oZiagrom = GetObjectByTag("g_Ziagrom", 0);
 	
-	if (GetGlobalBoolean("K_MESS_JOLEE") && IsNPCPartyMember(NPC_JOLEE) && GetIsObjectValid(oDavin))
+	if (!GetGlobalBoolean("K_MESS_JOLEE") && IsNPCPartyMember(NPC_JOLEE) && GetIsObjectValid(oDavin))
 		{
 			NoClicksFor(0.6);
 			SetCommandable(TRUE, oDavin);
 			AssignCommand(oDavin, ClearAllActions());
 			DelayCommand(0.5, AssignCommand(oDavin, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 		}
-		else if (GetGlobalBoolean("K_MESS_CANDEROUS") && IsNPCPartyMember(NPC_CANDEROUS) && GetIsObjectValid(oJagi))
+		else if (!GetGlobalBoolean("K_MESS_CANDEROUS") && IsNPCPartyMember(NPC_CANDEROUS) && GetIsObjectValid(oJagi))
 			{
 				NoClicksFor(0.6);
 				SetCommandable(TRUE, oJagi);
 				AssignCommand(oJagi, ClearAllActions());
 				DelayCommand(0.5, AssignCommand(oJagi, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 			}
-			else if (GetGlobalBoolean("K_MESS_CARTH") && IsNPCPartyMember(NPC_CARTH) && GetIsObjectValid(oJordo))
+			else if (!GetGlobalBoolean("K_MESS_CARTH") && IsNPCPartyMember(NPC_CARTH) && GetIsObjectValid(oJordo))
 				{
 					NoClicksFor(0.6);
 					SetCommandable(TRUE, oJordo);
 					AssignCommand(oJordo, ClearAllActions());
 					DelayCommand(0.5, AssignCommand(oJordo, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 				}
-				else if (GetGlobalBoolean("K_MESS_MISSION") && IsNPCPartyMember(NPC_MISSION) && GetIsObjectValid(oLena))
+				else if (!GetGlobalBoolean("K_MESS_MISSION") && IsNPCPartyMember(NPC_MISSION) && GetIsObjectValid(oLena))
 					{
 						NoClicksFor(0.6);
 						SetCommandable(TRUE, oLena);
 						AssignCommand(oLena, ClearAllActions());
 						DelayCommand(0.5, AssignCommand(oLena, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 					}
-					else if (GetGlobalBoolean("K_MESS_BASTILA") && IsNPCPartyMember(NPC_BASTILA) && GetIsObjectValid(oMalare))
+					else if (!GetGlobalBoolean("K_MESS_BASTILA") && IsNPCPartyMember(NPC_BASTILA) && GetIsObjectValid(oMalare))
 						{
 							NoClicksFor(0.6);
 							SetCommandable(TRUE, oMalare);
 							AssignCommand(oMalare, ClearAllActions());
 							DelayCommand(0.5, AssignCommand(oMalare, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 						}
-						else if (GetGlobalBoolean("K_MESS_JUHANI") && IsNPCPartyMember(NPC_JUHANI) && GetIsObjectValid(oXor))
+						else if (!GetGlobalBoolean("K_MESS_JUHANI") && IsNPCPartyMember(NPC_JUHANI) && GetIsObjectValid(oXor))
 							{
 								NoClicksFor(0.6);
 								SetCommandable(TRUE, oXor);
 								AssignCommand(oXor, ClearAllActions());
 								DelayCommand(0.5, AssignCommand(oXor, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 							}
-							else if (GetGlobalBoolean("K_MESS_ZIAGROM") && GetIsObjectValid(oZiagrom))
+							else if (!GetGlobalBoolean("K_MESS_ZIAGROM") && GetIsObjectValid(oZiagrom))
 								{
 									NoClicksFor(0.6);
 									SetCommandable(TRUE, oZiagrom);
