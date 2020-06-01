@@ -7,6 +7,7 @@
 **Contact: afuturepilotis@gmail.com or PM at deadlystream.com**
 
 Original Release Date: *April 17, 2018*
+
 Prior Version Release Date: *December 02, 2019*
 
 Current Version: *v1.9*
