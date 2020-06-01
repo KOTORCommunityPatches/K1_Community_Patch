@@ -1,4 +1,11 @@
 # CHANGELOG
+## v1.9 - TBA
+### Additions
+
+
+### Changes
+
+
 ## v1.8 - December 02, 2019
 ### Additions
 * Added a fix to the skin weights of the male player head PMHC01

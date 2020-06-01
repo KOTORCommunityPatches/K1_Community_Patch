@@ -6,11 +6,12 @@
 
 **Contact: afuturepilotis@gmail.com or PM at deadlystream.com**
 
-Original Release Date: *2018/04/17*
+Original Release Date: *April 17, 2018*
+Prior Version Release Date: *December 02, 2019*
 
-Current Version: *v1.8*
+Current Version: *v1.9*
 
-Release Date: *December 02, 2019*
+Release Date: *TBA*
 
 ## 1. Description:
 This mod is a compilation of various bugfix mods (as well as a few original fixes) put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who created these mods, and gave me permission to include them in this patch.
