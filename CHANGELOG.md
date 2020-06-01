@@ -1,7 +1,7 @@
 # CHANGELOG
 ## v1.9 - TBA
 ### Additions
-
+* Adjusted some SFX timings in the Taris Upper Sewers cutscene of the Rancor eating a grenade to sync more closely with the VFX
 
 ### Changes
 

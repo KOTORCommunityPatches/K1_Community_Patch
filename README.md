@@ -171,6 +171,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * Some of the companion personal quest messengers on Dantooine liked to play hide and seek inside Aratech Mercantile [ISSUE #262](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/262)
+* Sound effects during the Rancor cutscene in the Taris Upper Sewers were desynced from the VFX (Reported by A Future Pilot) [ISSUE #362](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/362)
 * The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (With input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
