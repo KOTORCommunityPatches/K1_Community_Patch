@@ -5,6 +5,7 @@
 * Changed an incorrect animation reference in Shaardan's intro cutscene in Korriban Dreshdae
 * Fixed a flag placeable in the Elder's Compound on Lehon that was floating above the ground
 * Repositioned the selection icon for the Sith Embassy transport on Manaan
+* Switched the appearance of the Duros prisoner in the Taris Sith Base to match his apartment appearance
 
 ### Changes
 
