@@ -3,6 +3,7 @@
 ### Additions
 * Adjusted some SFX timings in the Taris Upper Sewers cutscene of the Rancor eating a grenade to sync more closely with the VFX
 * Changed an incorrect animation reference in Shaardan's intro cutscene in Korriban Dreshdae
+* Fixed a flag placeable in the Elder's Compound on Lehon that was floating above the ground
 
 ### Changes
 

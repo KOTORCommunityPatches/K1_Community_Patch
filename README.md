@@ -306,6 +306,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### ebmar:
 * A couple of troopers in the Manaan Sith Base were slacking off in a corner instead of doing their duty [ISSUE #184](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/184)
+* A flag in the Elder's Compound on the Unknown World was floating above the ground [ISSUE #354](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/354)
 * A random swoop fan on Manaan was getting in the way of a Sith extorting people for money (Reported by DarthParametric) [ISSUE #140](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/140)
 * After the cutscene in the Korriban Academy where a student duels with a captive, combat music would continue to play [ISSUE #190](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/190)
 * Elise was overly flirty (Reported by DarthParametric) [ISSUE #54](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/54)

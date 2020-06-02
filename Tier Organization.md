@@ -42,6 +42,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * A crate in the Hidden Bek base was clipping into a wall (Reported by JCarter426) [ISSUE #150](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/150)
 * A droid in the Taris sewers had a vocabulator fault (Reported by ebmar) [ISSUE #15](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/15)
 * A few Sith technicians on the Leviathan attacked with their fists instead of equipping weapons [ISSUE #147](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/147)
+* A flag in the Elder's Compound on the Unknown World was floating above the ground [ISSUE #354](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/354)
 * A guard droid in the Manaan West Central foyer had its back legs clipping into the wall [ISSUE #302](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/302)
 * A placeable bench can occasionally be unintentionally spawned when fighting the Tuk'ata Mother in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * A random swoop fan on Manaan was getting in the way of a Sith extorting people for money (Reported by DarthParametric) [ISSUE #140](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/140)
