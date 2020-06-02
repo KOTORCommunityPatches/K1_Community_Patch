@@ -428,6 +428,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### Salk:
 * A guard droid in the Manaan West Central foyer had its back legs clipping into the wall [ISSUE #302](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/302)
 * Certain ambient NPC barks on Manaan would fail to trigger due to some incorrect scripts [ISSUE #342](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/342)
+* The selection icon for the Sith Embassy transport on Manaan was misaligned [ISSUE #352](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/352)
 
 ### Thrak Farelle:
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)

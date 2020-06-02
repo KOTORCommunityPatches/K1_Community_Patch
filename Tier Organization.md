@@ -164,6 +164,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The rogue Assassin Droid in the Korriban Tomb of Marka Ragnos would get inexplicably angry if the player had too many stealth belts [ISSUE #280](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/280)
 * The Sandpeople Storyteller had an incorrect soundset (Reported by ebmar) [ISSUE #69](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/69)
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
+* The selection icon for the Sith Embassy transport on Manaan was misaligned [ISSUE #352](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/352)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
 * The Sith soldiers in the Taris Upper City North Apartments could be a little too dedicated to searching for stolen uniforms, even doing so when in combat (Reported by Salk) [ISSUE #326](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/326)
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
