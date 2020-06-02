@@ -174,6 +174,7 @@ These are fixes for other issues that were likely unintended. They don't break t
 * The swoop records computer panel in Manaan Ahto East was clipping into the wall [ISSUE #155](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/155)
 * The Tatooine docking bay was missing exit waypoints, causing messengers to fade out in-place instead of leaving [ISSUE #129](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/129)
 * The technician in the Republic Embassy in Manaan East Central was an avid typist, doing so in conversations and in mid-air [ISSUE #273](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/273)
+* The temple interior on the Unknown World was missing several lamp models [K1 Temple Main Floor - Missing Lamps Fix 1.0](https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/) [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
 * The Twi'lek females in Dreshdae on Korriban all use the dancer appearance, running around half-naked [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The two Dark Jedi in the Unknown World Temple that stop to chat look at each other instead of the player [ISSUE #288](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/288)
 * The Valley of the Dark Lords on Korriban had some distorted UVs on the cliff edge (Reported by djh269) [ISSUE #191](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/191)

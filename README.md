@@ -306,6 +306,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Trandoshans lack a functioning soundset
 
 ### ebmar:
+* The temple interior on the Unknown World was missing several lamp models [K1 Temple Main Floor - Missing Lamps Fix 1.0](https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/) [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
 * A couple of troopers in the Manaan Sith Base were slacking off in a corner instead of doing their duty [ISSUE #184](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/184)
 * A flag in the Elder's Compound on the Unknown World was floating above the ground [ISSUE #354](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/354)
 * A random swoop fan on Manaan was getting in the way of a Sith extorting people for money (Reported by DarthParametric) [ISSUE #140](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/140)

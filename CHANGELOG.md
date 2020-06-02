@@ -3,9 +3,10 @@
 ### Additions
 * Adjusted some SFX timings in the Taris Upper Sewers cutscene of the Rancor eating a grenade to sync more closely with the VFX
 * Changed an incorrect animation reference in Shaardan's intro cutscene in Korriban Dreshdae
-* Fixed a flag placeable in the Elder's Compound on Lehon that was floating above the ground
+* Fixed a flag placeable in the Elder's Compound on the Unknown World that was floating above the ground
 * Repositioned the selection icon for the Sith Embassy transport on Manaan
 * Switched the appearance of the Duros prisoner in the Taris Sith Base to match his apartment appearance
+* Added some missing lamp models to the Unknown World temple interior and tweaked the orientation of some pillar placeables
 
 ### Changes
 
