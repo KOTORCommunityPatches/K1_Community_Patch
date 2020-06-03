@@ -8,6 +8,7 @@
 * Switched the appearance of the Duros prisoner in the Taris Sith Base to match his apartment appearance
 * Added some missing lamp models to the Unknown World temple interior and tweaked the orientation of some pillar placeables
 * Removed an extraneous yell from Calo Nord during his demise cutscene in Davik's hangar on Taris
+* Fixed an incorrect credit deduction bug in the Sarna/Yun conversations in the Taris Upper City Cantina
 
 ### Changes
 
