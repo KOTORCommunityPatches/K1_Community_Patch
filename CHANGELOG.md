@@ -7,6 +7,7 @@
 * Repositioned the selection icon for the Sith Embassy transport on Manaan
 * Switched the appearance of the Duros prisoner in the Taris Sith Base to match his apartment appearance
 * Added some missing lamp models to the Unknown World temple interior and tweaked the orientation of some pillar placeables
+* Removed an extraneous yell from Calo Nord during his demise cutscene in Davik's hangar on Taris
 
 ### Changes
 
