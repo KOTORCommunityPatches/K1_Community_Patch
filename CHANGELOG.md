@@ -13,9 +13,10 @@
 * Swapped the class skills for Consular and Sentinel
 * Removed a repeated VO line from Komad in the Tatooine Eastern Dune Sea and adjusted the cropping on another
 * Herded the party and prevented the speaking party member looking at the ground during the Zaalbar-less scene at the start of the Great Walkway on Kashyyyk
+* Plugged some holes in the ceiling of the training room in the Manaan Sith Base
 
 ### Changes
-
+* Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
 
 ## v1.8 - December 02, 2019
 ### Additions
