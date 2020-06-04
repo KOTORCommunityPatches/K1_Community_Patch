@@ -153,6 +153,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Juhani in the Grove lacked a soundset (Suggested by JCarter426) [ISSUE #41](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/41)
 * Kandon's girlfriend couldn't take her eyes off him during the confrontation in the Taris Black Vulkar Base Garage [ISSUE #241](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/241)
 * Kandon's pre-swoop race conversation had some aesthetic issues due to sloppy party positioning [ISSUE #62](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62)
+* Komad's hail when returning with the Bantha herd in the Tatooine Eastern Dune Sea repeated the same VO twice (Reported by KnifeMaster) [ISSUE #340](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/340)
 * Lashowe could occasionally forget elementary lightsaber safety in the post-Tuk'ata mother conversation in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * Lashowe did a quick outfit change on Korriban between harassing the player in Dreshdae and appearing in the Academy [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Manaan's Port Official had a gap along the grate in in front of his kiosk, along with some bad UVs around the edge [ISSUE #134](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/134)
