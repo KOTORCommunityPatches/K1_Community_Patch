@@ -281,6 +281,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When arriving on Tatooine for the first time, there were a few issues in the conversation with the Czerka customs officer [ISSUE #308](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/308)
 * When arriving on the Unknown World, most extraneous journal entries were removed but a few still remained [ISSUE #227](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/227)
 * When boarding the Star Forge, the Jedi strike team can be seen only running to the edge of the screen in widescreen resolutions [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
+* When entering the Great Walkway on Kashyyyk, the scene without Zaalbar had the speaking party member looking at the ground [ISSUE #332](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/332)
 * When entering the Sith Academy on Korriban post-Tomb of Ajunta Pall, the rejoined party members could end up scattered [ISSUE #200](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200)
 * When entering the Tatooine Dune Sea for the first time, the herd of Wraid don't patrol around like they are supposed to [ISSUE #294](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/294)
 * When entering the Tatooine Sand People Enclave for the first time, the guard cutscene didn't trigger straight away and had various issues [ISSUE #296](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/296)

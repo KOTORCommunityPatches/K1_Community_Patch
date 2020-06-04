@@ -12,6 +12,7 @@
 * Stopped the party from backtracking through the outer hull walkway on the Leviathan to prevent being stuck in the space suit appearance
 * Swapped the class skills for Consular and Sentinel
 * Removed a repeated VO line from Komad in the Tatooine Eastern Dune Sea and adjusted the cropping on another
+* Herded the party and prevented the speaking party member looking at the ground during the Zaalbar-less scene at the start of the Great Walkway on Kashyyyk
 
 ### Changes
 
