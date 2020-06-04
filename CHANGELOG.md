@@ -10,6 +10,7 @@
 * Removed an extraneous yell from Calo Nord during his demise cutscene in Davik's hangar on Taris
 * Fixed an incorrect credit deduction bug in the Sarna/Yun conversations in the Taris Upper City Cantina
 * Stopped the party from backtracking through the outer hull walkway on the Leviathan to prevent being stuck in the space suit appearance
+* Swapped the class skills for Consular and Sentinel
 
 ### Changes
 

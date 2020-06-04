@@ -77,6 +77,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Several camera angles on the Star Forge were inconsistent:  [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 
 ### darthbdaman:
+* The Jedi Sentinel and Consular classes appeared to have their class skill assignments swapped: [Consular Sentinel Class Skill Swap 1.0](https://deadlystream.com/files/file/854-consular-sentinel-class-skill-swap/) [ISSUE #381](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/381)
 * Mandalorian armor has several issues: [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174)
  
 ### DarthParametric:
