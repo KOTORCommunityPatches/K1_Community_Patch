@@ -14,6 +14,7 @@
 * Removed a repeated VO line from Komad in the Tatooine Eastern Dune Sea and adjusted the cropping on another
 * Herded the party and prevented the speaking party member looking at the ground during the Zaalbar-less scene at the start of the Great Walkway on Kashyyyk
 * Plugged some holes in the ceiling of the training room in the Manaan Sith Base
+* Addressed a number of problems with Eli and Matton in the Kashyyyk Landing Pad, including a potential soft-lock, duplicate outfits, a missing DLG line, and lack of continuance between some scenes
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

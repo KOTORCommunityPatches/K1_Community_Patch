@@ -181,6 +181,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The confrontation with The One when siding with The Elders on the Unknown World had some timing issues and bad textures due to widescreen [ISSUE #287](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/287)
 * The conversation with Canderous in the Taris Lower City cantina could have facing issues due to a scattered party [ISSUE #251](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/251)
+* The conversation with Eli and Matton in the Kashyyyk Landing Pad had numerous problems, including a potential soft-lock (With input from Salk and JCarter426) [ISSUE #118](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/118)
 * The conversation with Gorwooken in The Great Walkway on Kashyyyk had an incorrect check for Jolee being present (Reported by Salk) [ISSUE #214](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/214)
 * The conversation with Helena in the Tatooine Cantina had lots of facing/framing issues [ISSUE #208](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/208)
 * The conversation with Maana in Tatooine Anchorhead had some facing issues during Bastila's interjections [ISSUE #261](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/261)
