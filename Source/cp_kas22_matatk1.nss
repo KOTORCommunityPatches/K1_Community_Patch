@@ -31,9 +31,6 @@ void main() {
 	// 0 = SW_PLOT_BOOLEAN_01
 	SetLocalBoolean(OBJECT_SELF, 0, TRUE);
 	
-	// Set a local for Eli's OnDeath to check against
-	SetLocalBoolean(OBJECT_SELF, 58, TRUE);
-	
 	// Standing so close to Eli apparently cramps Matton's combat style, so move him back a bit.
 	ActionMoveToLocation(lMatt, FALSE);
 	
