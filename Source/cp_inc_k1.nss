@@ -50,7 +50,7 @@ return "";
 void CP_PartyJump(object oPM, location lLoc) {
  
 AssignCommand(oPM, ClearAllActions());
-AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
+// AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));  // Disabling this for now, as it seems to be inducing a weird walking speed bug - DP 2020/06/10
 AssignCommand(oPM, ActionJumpToLocation(lLoc));	
 
 }
@@ -70,7 +70,7 @@ AssignCommand(oPM, ActionJumpToLocation(lLoc));
 void CP_PartyJumpObject(object oPM, object oJumpTo) {
  
 	AssignCommand(oPM, ClearAllActions());
-	AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
+	//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));  // Disabling this for now, as it seems to be inducing a weird walking speed bug - DP 2020/06/10
 	AssignCommand(oPM, ActionJumpToObject(oJumpTo));
 }
 
@@ -90,7 +90,7 @@ void CP_PartyJumpObject(object oPM, object oJumpTo) {
 void CP_PartyMove(object oPM, location lLoc, int nRun = FALSE) {
  
 AssignCommand(oPM, ClearAllActions());
-AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
+//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));  // Disabling this for now, as it seems to be inducing a weird walking speed bug - DP 2020/06/10
 AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 
 }
@@ -111,7 +111,7 @@ AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE) {
  
 	AssignCommand(oPM, ClearAllActions());
-	AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
+	//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));  // Disabling this for now, as it seems to be inducing a weird walking speed bug - DP 2020/06/10
 	AssignCommand(oPM, ActionMoveToObject(oMoveTo, nRun));
 }
 
