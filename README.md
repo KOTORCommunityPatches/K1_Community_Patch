@@ -152,6 +152,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Jolee's stunt double was briefly visible when he joined the party [ISSUE #122](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122)
 * Juhani displays a typical cat-like disdain on the Ebon Hawk, facing away from the doorway of her hidey-hole [ISSUE #290](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/290)
 * Juhani in the Grove lacked a soundset (Suggested by JCarter426) [ISSUE #41](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/41)
+* Juhani's current state wasn't stored properly when the Ebon Hawk module was loaded [ISSUE #393](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/393)
 * Kandon's girlfriend couldn't take her eyes off him during the confrontation in the Taris Black Vulkar Base Garage [ISSUE #241](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/241)
 * Kandon's pre-swoop race conversation had some aesthetic issues due to sloppy party positioning [ISSUE #62](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/62)
 * Komad's hail when returning with the Bantha herd in the Tatooine Eastern Dune Sea repeated the same VO twice (Reported by KnifeMaster) [ISSUE #340](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/340)
