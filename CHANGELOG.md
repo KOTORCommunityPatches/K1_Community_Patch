@@ -18,6 +18,7 @@
 * Fixed numerous issues with the springing Zaalbar from prison scene in the Taris Lower Sewers, correcting facing, herding the party, changing camera angles, and correcting one of Mission's lines that had contradictory information
 * Tweaked the hood of the cutscene Revan model to prevent certain hair models clipping through
 * Fixed some incorrect skin weights on Admiral Dodonna's body model
+* Revised the scene where Mission opens the forcefield in the Taris Lower Sewers so that she interacts with the terminal
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
