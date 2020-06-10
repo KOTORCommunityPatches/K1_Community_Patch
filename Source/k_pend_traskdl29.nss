@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by end_trask01.dlg in end_m01aa (Endar Spire Command Module).
@@ -9,13 +9,15 @@
 	move him out of the way for Party Trask to stand in his place. Because
 	the Party Trask would spawn in behind the player, it was desirable to jump
 	him back to the position that NPC Trask was standing in for the sake of
-	consistency. See also cp_end_trasksp_d and k_pend_reset.
+	consistency. 
+	
+	See also cp_end01_pcjump, cp_end_trasksp_d, k_pend_reset.
 	
 	Issue #86: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86
 	
-	DP 2019-05-20                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-05-20																*/
+//////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
 

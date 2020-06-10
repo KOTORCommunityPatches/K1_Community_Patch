@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by k_pend_traskdl29 in end_m01aa (Endar Spire Command Module).
@@ -8,14 +8,15 @@
 	script also had the new Party Trask initiate dialogue. Because the
 	new Party Trask would spawn behind the player, delays were needed
 	which necessitated moving those commands out from scripts owned by
-	the - at this stage - now destroyed NPC Trask. See also k_pend_traskdl29
-	and cp_end_trasksp_d.
+	the - at this stage - now destroyed NPC Trask. 
+	
+	See also cp_end01_pcjump, k_pend_traskdl29, cp_end_trasksp_d.
 	
 	Issue #86: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86
 	
-	DP 2019-05-20                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-05-20																*/
+//////////////////////////////////////////////////////////////////////////////////
 
 void main() {
 	
