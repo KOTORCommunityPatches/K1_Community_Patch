@@ -1,0 +1,16 @@
+M01aa_08c 3
+  M01aa_06a
+  M01aa_07a
+  StuntRoom01aa1
+M01aa_07a 3
+  M01aa_06a
+  M01aa_08c
+  StuntRoom01aa1
+StuntRoom01aa1 3
+  M01aa_06a
+  M01aa_07a
+  M01aa_08c
+M01aa_06a 3
+  M01aa_07a
+  M01aa_08c
+  StuntRoom01aa1

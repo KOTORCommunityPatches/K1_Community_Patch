@@ -1,0 +1,4 @@
+islightmap 1
+compresstexture 0
+mipmap 0
+downsamplemax 0

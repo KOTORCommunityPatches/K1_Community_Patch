@@ -1,0 +1,18 @@
+#MAXLAYOUT ASCII
+filedependancy m41az.max
+beginlayout
+   roomcount 8
+      M41ad_03i 131.25 131.25 150.0
+      M41ad_03b 213.75 187.5 75.0
+      M41ad_03d 262.5 165.0 75.0
+      M41ad_03f 285.962 131.25 75.0
+      M41ad_03c 255.0 82.5 75.0
+      M41ad_03a 217.5 112.5 75.0
+	  M41ad_03j 78.75 131.25 225.0
+      StuntRoom41ad 240.0 145.0 36.0
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 2
+      M41ad_03a Door_01 0 258.0 131.25 39.05 0.707107 0.0 0.0 -0.707107
+      M41ad_03a Door_02 0 265.552 131.25 39.05 0.707107 0.0 0.0 -0.707107
+donelayout

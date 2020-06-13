@@ -1,0 +1,16 @@
+M40ad_25a 3
+  M40ad_08d
+  StuntRoom40d
+  M40ad_777
+M40ad_08d 3
+  M40ad_25a
+  StuntRoom40d
+  M40ad_777
+StuntRoom40d 3
+  M40ad_25a
+  M40ad_08d
+  M40ad_777
+M40ad_777 3
+  M40ad_08d
+  StuntRoom40d
+  M40ad_25a
