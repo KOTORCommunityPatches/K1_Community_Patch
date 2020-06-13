@@ -1,6 +1,6 @@
-# Define Aurora/Odyssey NSS as C (probably the closest)
+# Define Aurora/Odyssey NSS as C (probably the closest).
 *.nss linguist-language=C
-# Flag compiled scripts, 2DAs, models, textures, GFF, container formats, etc. as binary
+# Flag compiled scripts, 2DAs, models, textures, GFF, container formats, etc. as binary.
 *.2da binary
 *.are binary
 *.bik binary
@@ -9,21 +9,26 @@
 *.dwk binary
 *.erf binary
 *.git binary
+*.gui binary
 *.ifo binary
 *.jrl binary
 *.lip binary
 *.mdl binary
 *.mdx binary
 *.mod binary
+*.mp3 binary
 *.ncs binary
 *.pth binary
 *.pwk binary
 *.rim binary
+*.rtf binary
+*.ssf binary
 *.tga binary
 *.tlk binary
 *.tpc binary
 *.utc binary
 *.utd binary
+*.ute binary
 *.uti binary
 *.utm binary
 *.utp binary
@@ -32,9 +37,16 @@
 *.utw binary
 *.wav binary
 *.wok binary
-*.rtf binary
-# Flag any text files to have Windows-style EOL to prevent crashes (apparently Odyssey does not like Unix-style)
+# Flag any text files to have Windows-style EOL to prevent crashes (apparently Odyssey does not like Unix-style).
 *.lyt text eol=crlf
 *.nss text eol=crlf
 *.txi text eol=crlf
 *.vis text eol=crlf
+# Flag items for exclusion from the source archives automatically created during a release. This also affects the "download repository"
+# zip, but that's like a safety feature, excluding people that don't know how to clone and thus probably shouldn't be using the dev build.
+/tslpatchdata export-ignore
+.editorconfig export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+Readme.rtf export-ignore
+Changelog.rtf export-ignore
