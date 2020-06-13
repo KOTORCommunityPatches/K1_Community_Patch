@@ -20,6 +20,7 @@
 * Fixed some incorrect skin weights on Admiral Dodonna's body model
 * Revised the scene where Mission opens the forcefield in the Taris Lower Sewers so that she interacts with the terminal
 * Replaced a function in one of the Ebon Hawk's module scripts to store Juhani's state in line with the other party members
+* Trimmed the silences from the beginning of Bastila's post-vision cutscene lines
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

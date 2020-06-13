@@ -113,6 +113,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Assault droids in the Manaan Hrakert Station lacked the programming to use basic weapons (reported by Sniggles) [ISSUE #223](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/223)
 * Bandon's lackeys in Hrakert Station were keen to start the fight right away, forgetting the rule of bad guy monologuing [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * Bastila had doubled-up speaker and listener tags in one of the DLG nodes for the conversation with Helena in the Tatooine Cantina (Reported by Gimmick5000) [ISSUE #208](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/208)
+* Bastila's post-vision cutscene lines all had extended silences at the beginning, which made for awkward pauses [ISSUE #256](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/256)
 * Calo gets a bit too shouty during the hangar confrontation scene in Davik's estate on Taris (Reported by A Future Pilot) [ISSUE #368](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/368)
 * Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar) [ISSUE #34](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/34)
 * Carth had no respect for the dead, talking over the top of a death cry on the Leviathan bridge [ISSUE #131](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131)
