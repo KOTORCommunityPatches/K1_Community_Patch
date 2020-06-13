@@ -452,7 +452,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
 
 ## 5. Bugs:
-These are the currently known bugs with KOTOR or the mod that the K1CP is looking to resolve: 
+These are the currently known bugs/issues with KOTOR or the mod that the K1CP is looking to resolve: 
 
 https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues
 
@@ -461,17 +461,19 @@ If you find any others, please report them.
 https://deadlystream.com/files/file/1258-kotor-1-community-patch
 
 ## 6. Permissions:
-Due to this mod being a compilation from many different authors, please do not distribute it.  
+Due to this mod being a compilation from many different authors, please do not distribute/rehost it.
 
-You may, however, do whatever you want with any of my (A Future Pilot) fixes with or without credit. (Though I'd appreciate credit if you can).
+You may, however, do whatever you want with any of A Future Pilot's fixes with or without credit (though AFP would appreciate credit if you can).
 
 ## 7. Credits:
-* All of the mod authors who have helped make this patch a reality. I can't say it enough - Thank you!
-* Fred Tetra - For creating his awesome KOTOR Tool that makes us modders job a lot easier.
-* Stoffe - For creating TSLPatcher
-* Snigaroo - For maintaining awesome mod lists on the /r/kotor subreddit, and for putting up with my many recommendations
-* danil-ch - For the original info.rtf template
-* Fair Strides - For bundling up his tools and making them available
-* Many thanks to ebmar, Salk, and KnifeMaster for providing numerous bug reports
+* All of the mod authors who have helped make this patch a reality - Thank you! Especially for agreeing to wider distribution outside of Deadly Stream.
+* Fred Tetra - For KOTOR Tool.
+* Stoffe - For TSLPatcher.
+* bead-v - For MDLEdit and KOTORMax.
+* ndix UR - For TGA2TPC and TPCView.
+* Fair Strides - For various tools and updates to older tools.
+* Snigaroo - For maintaining mod lists on the /r/kotor subreddit, and for putting up with AFP's many recommendations.
+* danil-ch - For the original info.rtf template.
+* Many thanks to ebmar, Salk, and KnifeMaster for providing numerous bug reports and beta testing certain fixes.
 
 **THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/OBSIDIAN ENTERTAINMENT OR LUCASARTS OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
