@@ -21,6 +21,8 @@
 * Revised the scene where Mission opens the forcefield in the Taris Lower Sewers so that she interacts with the terminal
 * Replaced a function in one of the Ebon Hawk's module scripts to store Juhani's state in line with the other party members
 * Trimmed the silences from the beginning of Bastila's post-vision cutscene lines
+* Moved a blaster on the Jedi corpse in the Krayt cave in the Tatooine Eastern Dune Sea to a different nearby corpse
+* Changed the green lightsaber crystal drop on Korriban from the Torturer in the Academy to the Qel-Droma Robes corpse in the Shyrack Caves
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
