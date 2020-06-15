@@ -1,74 +1,63 @@
 //////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
-
-	Module OnEnter for tat_m20aa (Tatooine Sand People Enclave).
-
-	Giff spawn fix by A Future Pilot. Fixes an issue with Griff not spawning.
-	I bloody hate Griff.
 	
-	See also cp_m20aa_en.
-
-//////////////////////////////////////////////////////////////////////////////////
-
-	Sand People hostility fix. Fixes an issue with the Sand People hostility state
-	not being set correctly after the player uses the rapid transit system or loads
-	from a save while disguised.
-
-	Issue #217: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/217
+	Module OnEnter script for tat_m20aa (Tatooine Sand People Enclave).
+	
+	This is the OnEnter for the Sand People Enclave, now combined with the contents
+	of the vanilla script thanks to clues from AmanoJyaku on getting DeNCS to
+	decompile the original. It addresses issues with Griff failing to spawn when
+	intended, holds the module fade-in when returning to the Chief with the moisture
+	vaporators, and includes the Sand People reputation fix so it gets set correctly
+	on module load.
 	
 	Issue #21: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/21
 	
-	JC 2019-09-29
-	
-//////////////////////////////////////////////////////////////////////////////////
-	
-	Added in a check for the player returning with the vaporators, holding the
-	fade-in on module transition until the conversation begins if so.
+	Issue #217: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/217
 	
 	Issue #293: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/293
 	
-	DP 2019-10-06																*/
+	AFP ??? / JC 2019-09-29 / DP 2019-10-06 / DP 2020-06-15						*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_tat"
 
-void CP_ChiefVapReturn() {
+void SpawnGriff() {
 	
-	object oPC = GetFirstPC();
-	object oVaporator = GetItemPossessedBy(oPC, "tat17_vaporator");
-	
-	if (GetIsObjectValid(oVaporator))
-		{
-			HoldWorldFadeInForDialog();
-		}
-}
-
-void CP_GriffFix() {
-	
-	if (GetGlobalNumber("Mis_MissionTalk") == 9 && !GetIsObjectValid(GetObjectByTag("tat20_griff")))
-		{	
-			CreateObject(OBJECT_TYPE_CREATURE, "tat20_griff", GetLocation(GetWaypointByTag("tat20_wp_griff")));
-			CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 0)));
-			CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 1)));
-			CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 2)));
-			CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 3)));
-		}
+	CreateObject(OBJECT_TYPE_CREATURE, "tat20_griff", GetLocation(GetWaypointByTag("tat20_wp_griff")));
+	CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 0)));
+	CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 1)));
+	CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 2)));
+	CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 3)));
 }
 
 void main() {
 	
-	// Hold the fade-in until the convo starts if the player has the moisture vaporators
-	CP_ChiefVapReturn();
+	object oPC = GetFirstPC();
+	object oVaporator = GetItemPossessedBy(oPC, "tat17_vaporator");
+	object oChief = GetObjectByTag("tat20_09chief_01", 0);
+	int SW_PLOT_BOOLEAN_01 = 0;
 	
-	// Execute original script
-	ExecuteScript("cp_m20aa_en", OBJECT_SELF, -1);
+	SetGlobalNumber("tat_AreaLocator", 4);
 	
-	// Sand People reputation fix
+	if (GetIsObjectValid(oVaporator) == TRUE)
+		{
+			HoldWorldFadeInForDialog();
+			NoClicksFor(0.7);
+			DelayCommand(0.5, AssignCommand(oChief, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+		}
+	
+	// Original vanilla Griff check which could fail.
+	//if (GetGlobalNumber("Mis_MissionTalk") == 9 && GetGriffSpawnLocal() == FALSE)
+	if (GetGlobalNumber("Mis_MissionTalk") == 9 && !GetIsObjectValid(GetObjectByTag("tat20_griff")))
+		{
+			// SetGriffSpawnLocal(TRUE);
+			// Still set the boolean in case it is used elsewhere, but cut out extraneous include guff.
+			SetLocalBoolean(OBJECT_SELF, SW_PLOT_BOOLEAN_01, TRUE);
+			DelayCommand(1.0, SpawnGriff());
+		}
+	
 	CP_SandRepFix();
-
-	// If we've talked to the Czerka officer about Griff and Griff hasn't already spawned
-	DelayCommand(2.0, CP_GriffFix());
 }

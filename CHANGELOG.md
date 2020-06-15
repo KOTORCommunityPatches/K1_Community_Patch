@@ -29,6 +29,7 @@
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
 * Revised the wrangling of party Trask's spawn-in on the Endar Spire, forcibly jumping the player to try and finally eliminate Trask randomly teleporting
+* Merged some hijacked module OnEnter/Heartbeat scripts after finding a method to decompile the vanilla scripts
 
 ## v1.8 - December 02, 2019
 ### Additions

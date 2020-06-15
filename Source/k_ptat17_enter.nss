@@ -1,30 +1,44 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	k_ptat17_enter
+	Module OnEnter script for tat_m17aa (Tatooine Anchorhead).
 	
-	OnEnter script for tat_m17aa.
-	Fixes an issue with Xor refusing to appear unless the rapid transit system
-	was used. This fix is attached to every module adjacent to a spaceport, so
-	when the player exits any spaceport the encounter will be set to begin when
-	they return, via rapid transit or otherwise.
+	This is the OnEnter for Anchorhead, now combined with the contents of the
+	vanilla script thanks to clues from AmanoJyaku on getting DeNCS to decompile
+	the original. Fixes an issue with Xor refusing to appear unless the rapid
+	transit system was used. This fix is attached to every module adjacent to a
+	spaceport, so when the player exits any spaceport the encounter will be set
+	to begin when they return, via rapid transit or otherwise.
 	
-	See also cp_m17aa_en.
-	
-	Issue #29: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29
-	
-	JC 2019-04-13                                                             */
+	JC 2019-04-13 / DP 2020-06-15                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
-void main() {
+#include "k_inc_tat"
 
-	// Execute original script
-	ExecuteScript("cp_m17aa_en", OBJECT_SELF, -1);
+void main() {
 	
-	// If the first Xor encounter is done, make him appear for the second one
-	if( GetGlobalBoolean("K_MESS_JUHANI") == TRUE )
+	object oEntering = GetEnteringObject();
+	object oPC = GetFirstPC();
+	object oSandFaction = GetObjectByTag("tat18_tuskanfac", 0);
+	
+	if (IsObjectPartyMember(oEntering) == TRUE)
 		{
-			if( GetGlobalNumber("K_XOR_AMBUSH") < 1 ) SetGlobalNumber("K_XOR_AMBUSH", 1);
+			if (GetGlobalBoolean("tat_TuskenSuit") == TRUE)
+				{
+					AdjustReputation(oPC, oSandFaction, (-50));
+					SetGlobalBoolean("tat_TuskenSuit", FALSE);
+				}
+			
+			// If the first Xor encounter is done, make him appear for the second one.
+			if (GetGlobalBoolean("K_MESS_JUHANI") == TRUE)
+				{
+					if (GetGlobalNumber("K_XOR_AMBUSH") < 1)
+						{
+							SetGlobalNumber("K_XOR_AMBUSH", 1);
+						}
+				}
+			
+			DelayCommand(0.1, RemoveSandpeopleDisguise());
+			RevealMap();
 		}
 }
