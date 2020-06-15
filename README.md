@@ -193,6 +193,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The conversation with Nurik and Rahasia in the Dantooine Sandral Estate had a number of facing and positioning issues [ISSUE #259](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/259)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The cutscene in the Ebon Hawk after arriving on the Unknown World had various facing issues (With input from ebmar) [ISSUE #174](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/174)
+* The cutscene of Calo Nord in the Lower City Cantina had some facing issues and an incorrect number of SFX (Reported by A Future Pilot) [ISSUE #359](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/359)
 * The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
 * The Czerka miners next to the sandcrawler in the Tatooine Dune Sea never leave, despite saying they will soon (Suggested by ebmar) [ISSUE #115](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/115)
