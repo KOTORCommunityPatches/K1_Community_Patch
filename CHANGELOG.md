@@ -24,6 +24,7 @@
 * Moved a blaster on the Jedi corpse in the Krayt cave in the Tatooine Eastern Dune Sea to a different nearby corpse
 * Changed the green lightsaber crystal drop on Korriban from the Torturer in the Academy to the Qel-Droma Robes corpse in the Shyrack Caves
 * Tweaked the Calo vs Vulkars cutscene in the Taris Lower City Cantina to add missing SFX, make him dual wield, and fix some clipping issues
+* Forced Ithorak in the Manaan Docking Bay to equip his weapon before initiating combat and corrected his soundset
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

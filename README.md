@@ -149,6 +149,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * It was possible to duplicate Brejik's unique items after the fight on the Taris Swoop Platform (Reported by 134340Goat) [ISSUE #298](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/298)
 * It was possible to repeatedly attempt to blackmail Roland Wann after the events of Hrakert Station for infinite DS points [ISSUE #106](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/106)
 * It was possible to trigger the cutscene with the Sith Master in the Unknown World Temple Main Floor while still in combat with the two Dark Jedi outside (Reported by KnifeMaster) [ISSUE #325](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/325)
+* Ithorak fought with his fists and used the wrong soundset when attacked in the Manaan Docking Bay (Reported by Salk) [ISSUE #398](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/398)
 * Jagi wears regular clothes instead of proper armour, employs Rodian thugs instead of fellow Mandos, and has some conversation facing issues [ISSUE #47](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/47)
 * Jolee could speak one of his lines off-screen when talking to his personal quest messenger, Davin [ISSUE #270](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/270)
 * Jolee's stunt double was briefly visible when he joined the party [ISSUE #122](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122)
