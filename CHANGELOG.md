@@ -26,6 +26,7 @@
 * Tweaked the Calo vs Vulkars cutscene in the Taris Lower City Cantina to add missing SFX, make him dual wield, and fix some clipping issues
 * Forced Ithorak in the Manaan Docking Bay to equip his weapon before initiating combat and corrected his soundset
 * Changed the appearance of one of the thugs accompanying Hulas in the Tatooine Dune Sea to give him a different outfit
+* Switched a number of plot-related doors across Taris to use keys in order to remove the unnecessary security UI
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
