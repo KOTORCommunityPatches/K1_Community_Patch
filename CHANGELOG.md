@@ -30,6 +30,7 @@
 * Enlarged the trigger outside the Taris Sith Base entrance and altered the scripts to prevent the scene of T3 opening the door failing to fire correctly
 * Addressed a number of facing issues during the finale of the Taris swoop race, made Brejik wait to equip his blaster, and prevented the swoop fans from being removed prematurely
 * Edited player head PFHB03 to fix clipping, UV issues, and odd geometry
+* Changed ambient colour value for referenced lamp model in the Unknown World Temple interior to account for no lightmapping
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
