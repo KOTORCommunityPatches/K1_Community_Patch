@@ -234,7 +234,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The introductory cutscene for the Tomb of Naga Sadow on Korriban had a long delay at the start and facing issues between Uthar and Yuthura (With input from ebmar) [ISSUE #167](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 * The Jorak Uln encounter in the Korriban Tomb of Tulak Hord had various cosmetic issues and occasionally missing companions [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
-* The lamps in the Unknown World Temple interior could appear black in certain spots due to no inherent lightmapping [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
+* The lamps in the Unknown World Temple interior could appear black in certain spots due to no inherent lightmapping and had some geometry holes [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 * The Mandalorian ambush scene in the Unknown World Temple Exterior had some pathing issues, causing party members to get in the way [ISSUE #286](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/286)
