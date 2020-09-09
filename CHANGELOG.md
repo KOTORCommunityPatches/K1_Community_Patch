@@ -33,6 +33,7 @@
 * Changed ambient colour value for referenced lamp model in the Unknown World Temple interior to account for no lightmapping and fixed some sloppy geometry
 * Edited player head PFHB04 to fix sloppy eyeball UVs
 * Added some backfaces to various pipes in the Taris Black Vulkar base to prevent culling issues
+* Added speaker tag to Taris Upper Sewers cutscene so the Rancor's snorting would be properly attributed
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
