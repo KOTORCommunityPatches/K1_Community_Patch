@@ -35,6 +35,7 @@
 * Added some backfaces to various pipes in the Taris Black Vulkar base to prevent culling issues
 * Added speaker tag to Taris Upper Sewers cutscene so the Rancor's snorting would be properly attributed
 * Changed corpse pile placeable in the Taris Upper Sewers so it is destroyed after the Rancor is dead, and added a filter to the Give Item UI to only show relevant items
+* Temporarily disabled the AI of the droids in the Korriban Tomb of Ajunta Pall to prevent them activating prematurely, and stopped them reorienting on the player if clicked on
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
