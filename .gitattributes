@@ -1,5 +1,7 @@
 # Define Aurora/Odyssey NSS as C (probably the closest).
 *.nss linguist-language=C
+# Define RTF as documentation to remove them from the language stats
+*.rtf linguist-documentation
 # Flag compiled scripts, 2DAs, models, textures, GFF, container formats, etc. as binary.
 *.2da binary
 *.are binary
