@@ -139,6 +139,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)
 * Giving Uthar's datapad to Adrenas in the Korriban Academy had some problems, possibly not removing it from the player's inventory [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Gizka could infest the Ebon Hawk until the very end of the game unless you poisoned them or offloaded them on Manaan [ISSUE #289](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/289)
+* Gonto Yas in the Manaan Ahto West mercenary enclave could unintentionally play more Pazaak matches beyond his loss limit after a certain point in the main plot (Reported by Phunkie_J) [ISSUE #422](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/422)
 * Gonto Yas in the Manaan Ahto West mercenary enclave wears the same outfit as the NPC standing right next to him [ISSUE #277](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/277)
 * Griff's conversation in the Sandpeople enclave had a few facing issues [ISSUE #116](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/116)
 * Handon and Rickard wear the same outfit [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
