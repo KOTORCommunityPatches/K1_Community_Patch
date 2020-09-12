@@ -230,6 +230,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The first conversation with Yuthura inside the Korriban Academy could leave the party jumbled, causing facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The floor of the training room in the Manaan Sith Base had some lightmap UV issues [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
 * The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
+* The footlockers in Uthar's room in the Korriban Sith Academy were oddly positioned/oriented (Reported by Salk) [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The Gamorreans setting an ambush in the Tatooine Dune Sea used a super frag mine, which could wipe out low health players (Reported by JCarter426) [ISSUE #216](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/216)
 * The generic doors inside the Taris Black Vulkar Base weren't at full health [ISSUE #237](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/237)
 * The green lightsaber crystal available on Korriban seemed to have an inappropriate guardian, so was moved to a more fitting resting place (Reported by djh269) [ISSUE #210](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/210)
@@ -462,6 +463,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### Salk:
 * A guard droid in the Manaan West Central foyer had its back legs clipping into the wall [ISSUE #302](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/302)
 * Certain ambient NPC barks on Manaan would fail to trigger due to some incorrect scripts [ISSUE #342](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/342)
+* Numerous placeables inside the back entrance of the Korriban Sith Academy were facing in completely wrong directions [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The selection icon for the Sith Embassy transport on Manaan was misaligned [ISSUE #352](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/352)
 
 ### Thrak Farelle:
