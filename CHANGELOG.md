@@ -37,6 +37,7 @@
 * Changed corpse pile placeable in the Taris Upper Sewers so it is destroyed after the Rancor is dead, and added a filter to the Give Item UI to only show relevant items
 * Temporarily disabled the AI of the droids in the Korriban Tomb of Ajunta Pall to prevent them activating prematurely, and stopped them reorienting on the player if clicked on
 * Removed an unintended exploit in Gonto Yas's dialogue on Manaan that allowed players to bypass his Pazaak match loss limit
+* Corrected one of the endgame Admiral Dodonna cutscenes to use proper speaker labels in the subtitles
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
