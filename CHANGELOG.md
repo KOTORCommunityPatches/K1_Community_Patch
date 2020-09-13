@@ -41,6 +41,7 @@
 * Prevented the party from staring at the floor during the initial cutscene of the showdown with Saul Karath on the Leviathan Bridge
 * Adjusted the rotation of various placeables in the Korriban Sith Academy that were facing in awkward (or plain wrong) directions
 * Changed the description of the pass card in the Taris Black Vulkar Base (Upper) to more correctly reflect its intended purpose
+* Made the player the listener in the final conversation after defeating Dark Side Bastila on the Star Forge to prevent her talking to herself
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

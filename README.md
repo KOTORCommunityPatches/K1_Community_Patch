@@ -225,6 +225,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The female player head PFHB03 had some clipping issues with its eyelids, poor UVs for the eyeballs, and an oddly bumpy scalp (Reported by Dark Hope and La Ingobernable) [ISSUE #401](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/401)
 * The female player head PFHB04 had some misaligned UVs for the eyeballs (Reported by Dark Hope) [ISSUE #402](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/402)
 * The final confrontation in the Tomb of Naga Sadow on Korriban had various facing issues and pathing issues with a door (With input from ebmar) [ISSUE #167](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167)
+* The final conversation with Bastila on the Star Forge for Light Side players had her talking to herself (Reported by nt7788) [ISSUE #420](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/420)
 * The final cutscene for the Light Side ending had a raft of issues with stunt animations and framing in widescreen resolutions [ISSUE #186](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/186)
 * The finale of the swoop race on Taris had a number of issues with facing and various aesthetics [ISSUE #345](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/345)
 * The first conversation with Yuthura inside the Korriban Academy could leave the party jumbled, causing facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
