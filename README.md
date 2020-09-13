@@ -26,59 +26,59 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ## 4. List of included mods and fixes (alphabetical by author):
 ### A Future Pilot:
 * Many background NPCs use "lite" models [K1 Lite Upgrader 1.3](https://deadlystream.com/files/file/1291-k1-lite-upgrader/)
-* Respawn tach gland in chest on Kashyyyk if player has received quest from Griff
-* Juhani wouldn't spawn in the post-Leviathan scene (Fix found by Kexikus, implemented by AFP)
-* Griff sometimes wouldn't spawn in the Sand People Enclave
-* Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
-* Dune sea miners on Tatooine aren't wearing Czerka gear (Reported by Mr Ardvark)
 * Belaya attacks with her fists (Reported by Mr Ardvark)
-* Removed Dark Jedi Corpse from Hrakert Rift Station, and moved his inventory to a chest in the Sith Embassy (Reported by Mr Ardvark)
-* Mission has no clothing on when you meet Griff at the spaceport without her in your party
-* Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
-* Shaardan attacks with a sword (Reported by Mr Ardvark)
-* One of the boxes in the Rakatan Temple is inaccessible
-* Gana Lavin's appearance changes and her text dialog doesn't appear
-* It's possible to get infinite LS points in a conversation loop with Worronzor
-* Many Sith Troopers or Officers had the wrong appearance
-* Several droids in Davik's Estate have the wrong sound set
 * Calo Nord has different inventories and stats on different planets
-* Yuthura only attacks with one of her lightsabers
+* Czerka employees on Korriban wear Sith uniforms (Reported by Mr Ardvark)
+* Dune sea miners on Tatooine aren't wearing Czerka gear (Reported by Mr Ardvark)
+* Gana Lavin's appearance changes and her text dialog doesn't appear
+* Griff sometimes wouldn't spawn in the Sand People Enclave
 * Guards in the Sith Academy used the Sith Officer appearance instead of Sith Soldiers
-* Movement in the diving and space suits was extremely slow
-* The fog in the Taris cantinas was thick enough to cut with a knife
+* Infected Republic Soldier on Taris wears a combat suit (Reported by Mr Ardvark)
+* It's possible to get infinite LS points in a conversation loop with Worronzor
 * Jolee and Juhani both wear Jedi robes when they join the party instead of their unique outfits
+* Juhani wouldn't spawn in the post-Leviathan scene (Fix found by Kexikus, implemented by AFP)
+* Many Sith Troopers or Officers had the wrong appearance
+* Mission has no clothing on when you meet Griff at the spaceport without her in your party
+* Movement in the diving and space suits was extremely slow
+* One of the boxes in the Rakatan Temple is inaccessible
+* Removed Dark Jedi Corpse from Hrakert Rift Station, and moved his inventory to a chest in the Sith Embassy (Reported by Mr Ardvark)
+* Respawn tach gland in chest on Kashyyyk if player has received quest from Griff
+* Several droids in Davik's Estate have the wrong sound set
+* Shaardan attacks with a sword (Reported by Mr Ardvark)
+* The fog in the Taris cantinas was thick enough to cut with a knife
+* Yuthura only attacks with one of her lightsabers
 
 ### blennus:
-* The XP reward for delivering the box to Motta the Hutt was incorrect: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* Tanis' dialogue on Tatooine was bugged when playing as a female: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Bacca's Blade Hilt script would sometimes not allow you to receive it: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Bacca's Blade Hilt was never removed from your inventory: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Elora confesses to Sunry's infidelity automatically if you have Jolee or Bastila in your party: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* If you force persuaded Ignus, he wouldn't testify on your behalf: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* The Iridorian's dialog script would stop you in the middle of the dialog choice: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* Once Xor appeared, no other messengers could appear: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * If the prisoner in the Sith Academy was interrogated multiple times rapidly, the animation would loop for a long time: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* If you force persuaded Ignus, he wouldn't testify on your behalf: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* On board the Yavin Station, when the Trandoshans appear for the first time, some of the dialog options sometimes causes you to be kicked out of the dialog: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* Once Xor appeared, no other messengers could appear: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Sith Apprentices have their soundsets mismatched: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * Sometimes the wrong dialog would play during the Leviathan torture scene: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
-* On board the Yavin Station, when the Trandoshans appear for the first time, some of the dialog options sometimes causes you to be kicked out of the dialog: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* Tanis' dialogue on Tatooine was bugged when playing as a female: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* The Iridorian's dialog script would stop you in the middle of the dialog choice: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
+* The XP reward for delivering the box to Motta the Hutt was incorrect: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 * When entering Dreshdae, certain sound effects that play during the cutscene may continue playing after they should have stopped: [The Comprehensive KOTOR Bug Fix Collection](https://www.nexusmods.com/kotor/mods/75)
 
 ### danil-ch:
-* Some DS responses were unavailable in k_hcar_dialog.dlg: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* Some of Bastila's lines regarding her father's holocron were unavailable: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* Some camera angles were wrong during the Leviathan interrogation: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* Bastila turned off her lightsaber after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* Bastila and Carth were positioned wrong after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* Malak's grunt sound didn't play in the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
-* On the Star Forge, the wrong speaker said the "You are wasting your time..." line: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * A line in k_hjuh_dialog.dlg was inaccessible: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Bastila and Carth were positioned wrong after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Bastila turned off her lightsaber after the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Calo Nord’s soundset was broken: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Malak's grunt sound didn't play in the Revelation cutscene: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* On the Star Forge, the wrong speaker said the "You are wasting your time..." line: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 * Several camera angles on the Star Forge were inconsistent:  [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Some camera angles were wrong during the Leviathan interrogation: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Some DS responses were unavailable in k_hcar_dialog.dlg: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* Some of Bastila's lines regarding her father's holocron were unavailable: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
+* The pause animation on the Star Forge when confronting Bastila had the wrong participant: [KOTOR Bug Fix Attempt 1.1](http://deadlystream.com/forum/files/file/470-kotor-bug-fix-attempt/)
 
 ### darthbdaman:
-* The Jedi Sentinel and Consular classes appeared to have their class skill assignments swapped: [Consular Sentinel Class Skill Swap 1.0](https://deadlystream.com/files/file/854-consular-sentinel-class-skill-swap/) [ISSUE #381](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/381)
 * Mandalorian armor has several issues: [Mandalorian Armor Fixes](https://www.nexusmods.com/kotor/mods/1174)
+* The Jedi Sentinel and Consular classes appeared to have their class skill assignments swapped: [Consular Sentinel Class Skill Swap 1.0](https://deadlystream.com/files/file/854-consular-sentinel-class-skill-swap/) [ISSUE #381](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/381)
  
 ### DarthParametric:
 * Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only) [ISSUE #38](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38)
@@ -102,6 +102,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * A Rodian "sitter" in the Mercenary Enclave in Manaan Ahto West was clipping into a table [ISSUE #328](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/328)
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar) [ISSUE #35](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/35)
 * A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar) [ISSUE #36](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/36)
+* A stray blaster appears in the middle of a hallway in the Sith Base on Taris (Reported by Salk)
 * A Wookiee female in the Kashyyyk Village of Rwookrrorro had out of place VO for one line (Reported by Salk) [ISSUE #206](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/206)
 * Admiral Dodonna's model had some bad deformation around her left shoulder (Reported by ebmar) [ISSUE #391](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/391)
 * After completing the swoop race on Taris it was possible to re-enter the Vulkar base, which was unintended behaviour [ISSUE #203](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/203)
@@ -145,6 +146,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Griff's conversation in the Sandpeople enclave had a few facing issues [ISSUE #116](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/116)
 * Handon and Rickard wear the same outfit [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 * Handon is implied to be overweight and was likely meant to use the fat commoner appearance [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
+* Helena wears Jedi robes instead of regular clothes
+* Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * If you cause the Gamorreans ambushing you in the Tatooine Dune Sea to run away, one of them disappears before the scene fades out [ISSUE #264](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/264)
 * In rare instances, a Mandalorian on Dantooine could try to use a Final Fantasy gunblade [ISSUE #111](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111)
 * It was possible to clip into the walls on either side of the Wookiee village gate on the Kashyyyk Great Walkway (Reported by Salk) [ISSUE #291](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/291)
@@ -183,12 +186,14 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some guests and guards in Davik's estate would attack with their fists [ISSUE #100](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/100)
 * Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
+* Some NPCs have wrong or missing sounds in their soundsets
 * Some of the companion personal quest messengers on Dantooine liked to play hide and seek inside Aratech Mercantile [ISSUE #262](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/262)
 * Sound effects during the Rancor cutscene in the Taris Upper Sewers were desynced from the VFX (Reported by A Future Pilot) [ISSUE #362](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/362)
 * Swapped a spurious animation reference for a working one in Shaardan's Korriban Dreshdae intro cutscene (Reported by Salk) [ISSUE #385](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/385)
 * The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (With input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The Black Vulkar base on Taris had some pipes that lacked backfaces, leading to some noticeable geometry culling issues [ISSUE #410](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/410)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
+* The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The confrontation with The One when siding with The Elders on the Unknown World had some timing issues and bad textures due to widescreen [ISSUE #287](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/287)
 * The conversation with Canderous in the Taris Lower City cantina could have facing issues due to a scattered party [ISSUE #251](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/251)
@@ -199,6 +204,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The conversation with Nurik and Rahasia in the Dantooine Sandral Estate had a number of facing and positioning issues [ISSUE #259](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/259)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The corpse pile in the Taris Upper Sewers erroneously remained interactive after the Rancor was dead, and the Give Item UI was cluttered with the player's full inventory (With input from JCarter426) [ISSUE #430](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/430)
+* The Council on Dantooine float a few inches off the ground
 * The cutscene in the Ebon Hawk after arriving on the Unknown World had various facing issues (With input from ebmar) [ISSUE #174](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/174)
 * The cutscene of Calo Nord in the Lower City Cantina had some facing issues and an incorrect number of SFX (Reported by A Future Pilot) [ISSUE #359](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/359)
 * The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
@@ -230,11 +236,12 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The finale of the swoop race on Taris had a number of issues with facing and various aesthetics [ISSUE #345](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/345)
 * The first conversation with Yuthura inside the Korriban Academy could leave the party jumbled, causing facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The floor of the training room in the Manaan Sith Base had some lightmap UV issues [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
-* The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
 * The footlockers in Uthar's room in the Korriban Sith Academy were oddly positioned/oriented (Reported by Salk) [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
+* The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
 * The Gamorreans setting an ambush in the Tatooine Dune Sea used a super frag mine, which could wipe out low health players (Reported by JCarter426) [ISSUE #216](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/216)
 * The generic doors inside the Taris Black Vulkar Base weren't at full health [ISSUE #237](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/237)
 * The green lightsaber crystal available on Korriban seemed to have an inappropriate guardian, so was moved to a more fitting resting place (Reported by djh269) [ISSUE #210](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/210)
+* The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
 * The Hutt model's many neck rolls caused some clipping issues during talking and other animations [ISSUE #80](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/80)
 * The initial conversation with Davik at his estate had a multitude of positioning and facing issues [ISSUE #57](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57)
 * The initial conversation with Gadon Thek can suffer from poor party positioning due to the desk in the way [ISSUE #70](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70)
@@ -245,6 +252,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Jorak Uln encounter in the Korriban Tomb of Tulak Hord had various cosmetic issues and occasionally missing companions [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The lamps in the Unknown World Temple interior could appear black in certain spots due to no inherent lightmapping and had some geometry holes [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
+* The male player head PMHC01 has some deformation issues along the jawline
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 * The Mandalorian ambush scene in the Unknown World Temple Exterior had some pathing issues, causing party members to get in the way [ISSUE #286](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/286)
 * The merc in Hrakert Station would go out of frame every time he performed the Horror animation [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
@@ -282,9 +290,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Tatooine docking bay was missing exit waypoints, causing messengers to fade out in-place instead of leaving [ISSUE #129](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/129)
 * The Tatooine white female commoner head (e.g. Sharina) and Asian female commoner heads (e.g. Elora) had shading, clipping, and UV problems [ISSUE #126](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/126)
 * The technician in the Republic Embassy in Manaan East Central was an avid typist, doing so in conversations and in mid-air [ISSUE #273](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/273)
-* The Tuk'ata mother's posse in the Korriban Valley of the Dark Lords face in odd directions and run into each other [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * The training montage on Dantooine had a number of minor animation issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * The training room in the Manaan Sith Base had some gaps in the ceiling (Reported by ebmar) [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
+* The Tuk'ata mother's posse in the Korriban Valley of the Dark Lords face in odd directions and run into each other [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * The Twi'lek females in Dreshdae on Korriban all use the dancer appearance, running around half-naked [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The two Dark Jedi in the Unknown World Temple that stop to chat look at each other instead of the player [ISSUE #288](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/288)
 * The two pre-training conversations with the Jedi Council on Dantooine had various facing issues [ISSUE #151](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151)
@@ -294,7 +302,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The witnesses in the Sunry murder trial in Manaan Ahto West had different appearances than the first time you meet them (Reported by KnifeMaster) [ISSUE #318](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/318)
 * There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 * There is a visible gap in the wall behind the beds in the Taris Upper City hideout [ISSUE #231](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/231)
+* There is an inaccessible container in The One's compound
 * There were some facing and camera angle issues during the overseer droid conversation in the Dantooine Ruins [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105) [ISSUE #152](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/152)
+* Trandoshans lack a functioning soundset
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
 * Turrets in the Rakatan Temple used the Bith soundset (for some reason) [ISSUE #171](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/171)
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
@@ -323,22 +333,12 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When speaking to Largo in the Taris Upper City North Apartments, one of Carth's interjections was off-screen (Reported by KnifeMaster) [ISSUE #299](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/299)
 * When speaking to Nilko Bwaas in Manaan Ahto West, the companion interjections had various facing and positioning issues [ISSUE #272](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/272)
 * When standing in the entrance of the kitchen in the Taris Black Vulkar base, the elevator room wasn't rendered (and vice-versa) [ISSUE #238](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/238)
+* When taking T3 to the Taris Sith Base entrance, it was possible to bypass the trigger that played the scene of him opening the door [ISSUE #400](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/400)
 * When talking to Dak in the Korriban Valley of the Dark Lords, Juhani had some facing issues on her interjections [ISSUE #281](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/281)
 * When talking to Freyyr in the Kashyyyk Lower Shadowlands, some of the companion interjections could be spoken off-screen [ISSUE #269](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/269)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
-* When taking T3 to the Taris Sith Base entrance, it was possible to bypass the trigger that played the scene of him opening the door [ISSUE #400](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/400)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
-* A stray blaster appears in the middle of a hallway in the Sith Base on Taris (Reported by Salk)
-* Helena wears Jedi robes instead of regular clothes
-* Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
-* Some NPCs have wrong or missing sounds in their soundsets
-* The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
-* The Council on Dantooine float a few inches off the ground
-* The hanging ivy on the walls of the Dantooine enclave landing pad has a couple of positional issues
-* The male player head PMHC01 has some deformation issues along the jawline
-* There is an inaccessible container in The One's compound
-* Trandoshans lack a functioning soundset
 
 ### ebmar:
 * The temple interior on the Unknown World was missing several lamp models [K1 Temple Main Floor - Missing Lamps Fix 1.0](https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/) [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
@@ -365,36 +365,31 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The door on the Star Forge that closes the PC in with the droids was bashable: [Star Forge Door Fix 1.50](https://deadlystream.com/files/file/1195-star-forge-door-fix/)
 
 ### JCarter426:
-* The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-* Several textures were missing shader data: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-* Sith fighter lasers were the wrong color: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-* Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-* Some male commoner clothing variants have been improved: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-* The quality of the Sith soldier placeable texture has been improved based on the higher-resolution Sith soldier NPC texture [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
-* Yuthura and Uthar wear different outfits in the Sith Academy on Korriban compared to elsewhere [ISSUE #197](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/197) Partial: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-* Calo’s entourage on Korriban had the appearance of officers but trooper soundsets: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* A typo prevented various NPCs from commenting on the Kashyyyk situation: [JC's Jedi Tailor for K1 1.1](https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/)
 * Bandon’s entourage of Dark Jedi on Korriban looked like regular officers: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-* Some guards on Korriban had weapons in their inventory, but not equipped: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-* The character Adrenas was lacking a soundset: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-* Some Korriban NPCs' genders were incorrect: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-* The character Hijata had the wrong appearance and dialogue: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* Calo’s entourage on Korriban had the appearance of officers but trooper soundsets: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Dak wouldn't drop his stuff if killed in the Valley: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * Korriban NPCs that loop animations—students meditating in the academy and archaeologists digging in the valley—would turn to face the player while still doing their animations: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
-* The Sith student Tariga had a male appearance and voice, contrary to Tamlen's description of her: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/) (Reported by ebmar)
-* Tariga and a couple other Sith students attacked with no weapons but their fists: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/) (Reported by DarthParametric) [ISSUE #201](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/201)
 * Several aliens were very low-quality: [JC's Dense Aliens for K1](https://deadlystream.com/files/file/1290-jcs-dense-aliens-for-k1/)
-* A typo prevented various NPCs from commenting on the Kashyyyk situation: [JC's Jedi Tailor for K1 1.1](https://deadlystream.com/files/file/1477-jcs-jedi-tailor-for-k1/)
+* Several textures were missing shader data: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* Sith fighter lasers were the wrong color: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* Some guards on Korriban had weapons in their inventory, but not equipped: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* Some Korriban NPCs' genders were incorrect: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* Some male commoner clothing variants have been improved: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* Some stunt modules were missing geometry: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* Tariga and a couple other Sith students attacked with no weapons but their fists: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/) (Reported by DarthParametric) [ISSUE #201](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/201)
+* The character Adrenas was lacking a soundset: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* The character Hijata had the wrong appearance and dialogue: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
+* The quality of the Sith soldier placeable texture has been improved based on the higher-resolution Sith soldier NPC texture [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
 * The Republic soldier body models have been improved: [JC's Republic Soldier Fix for K1 1.3](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/) (with DarthParametric lending a hand)
-* Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
-* Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
-* It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
-* Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
-* Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised (with insight provided by Salk & A Future Pilot) [ISSUE #6](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/6)
-* Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (Reported by ebmar) [ISSUE #49](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/49)
-* Xor refused to show up for the second encounter unless the player used the rapid transit system (and thanks to Salk for a second opinion) [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
+* The security camera dialog on Manaan was extremely annoying: [JC's Minor Fixes for K1 1.1](https://deadlystream.com/files/file/1333-jcs-minor-fixes-for-k1/)
+* The Sith student Tariga had a male appearance and voice, contrary to Tamlen's description of her: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/) (Reported by ebmar)
+* Yuthura and Uthar wear different outfits in the Sith Academy on Korriban compared to elsewhere [ISSUE #197](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/197) Partial: [JC's Korriban: Back in Black for K1 2.2](https://deadlystream.com/files/file/1293-jcs-korriban-back-in-black-for-k1/)
 * A slave girl in Davik’s estate stood still and disappeared instead of running away (Reported by DarthParametric)
 * Bolook was orange even though voiced dialogue says he's green (Reported by DarthParametric)
 * Canderous would repeat dialogue if you kept him waiting after speaking to him in the Lower City cantina (Reported by DarthParametric)
+* Carth was a little too quick to complain about being out of the loop [ISSUE #2](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/2)
+* Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
 * Dia was a member of the attacking with fists club, despite threatening to cut the player (Reported by DarthParametric)
 * During the Sandral-Matale Feud, the player had the option to claim Ahlan Matale had offered a reward, even if no such conversation took place
 * Elora’s exposition was unnecessary if the player had already heard about Sunry's situation from Davin (with assistance from DarthParametric & ebmar)
@@ -404,9 +399,13 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Fixed the position of the strongbox in the Taris Lower City apartments (Reported by DarthParametric) [ISSUE #68](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/68)
 * Hidden Beks didn’t react quickly to intruders (Reported by DarthParametric)
 * It was possible to interact with a transformer in the Sith base on Taris—though it did nothing of particular interest
+* It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 * Killing Dustil before completing Carth's quest would leave its status unresolved (with additions by DarthParametric) [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
+* Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
 * Pazaak player Kudos on Tatooine would only bet 50 credits instead of 500 for the final matches
 * Redros was slow to equip a weapon for the brawl after the swoop race (Reported by DarthParametric)
+* Sand People disguises would misbehave if the player used the rapid transit system or loaded from a save while disguised (with insight provided by Salk & A Future Pilot) [ISSUE #6](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/6)
+* Security terminals in Davik’s estate would gas you even if you weren’t inside the target room (Reported by ebmar) [ISSUE #49](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/49)
 * Several Duros on Dantooine lacked melee weapons and/or the proficiency to use them (Reported by ebmar)
 * The appearance of Casus’ body didn’t suit him or the conditions of his death (suggested by DarthParametric)
 * The Dead Settler quest had several bugs and it was possible to miss out on some items depending on if and when it was triggered
@@ -418,8 +417,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The scene with Vandar after the player completes the trials could be a little wonky, so it has been given a new trigger to ensure the party stands in logical places (Reported by DarthParametric)
 * The Sith student Tariga had a male appearance and voice, contrary to Tamlen's description of her (Reported by ebmar)
 * The surviving Hrakert scientists had their weapons out all the time
-* Vandar repeated dialogue if you spoke to him again before investigating the ruins (Reported by DarthParametric)
 * Vandar’s dialogue was locked out after the player completed the trials
+* Vandar repeated dialogue if you spoke to him again before investigating the ruins (Reported by DarthParametric)
+* Xor refused to show up for the second encounter unless the player used the rapid transit system (and thanks to Salk for a second opinion) [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
@@ -427,8 +427,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### Kexikus:
 * Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings 1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
 * If doing Juhani’s dialog in the wrong order, it was possible to block any further progress
-* The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in the party
 * The second Xor encounter is unavailable on Tatooine
+* The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in the party
 
 ### KOTOR 1 Restoration Team:
 * Bastila would not show you the fourth vision if you travelled to all four planets before the Leviathan [K1R](https://deadlystream.com/files/file/558-kotor-1-restoration/) [ISSUE #10](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/10)
@@ -445,13 +445,13 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * On the Star Forge, if you have denied the romance, the game acts as if you haven't: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)
 
 ### N-DReW25:
-* Sapith crystal uses wrong icon: [Sapith Fix 1.0](http://deadlystream.com/forum/files/file/975-sapith-fix/)
 * First lightsaber crystal uses wrong icon: [First Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/898-first-lightsaber-crystal-fix/)
-* Red lightsaber crystal uses wrong icon:  [Red Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/911-red-lightsaber-crystal-fix/)
-* Vrook and Zhar wear the wrong color robes: [Vrook and Zhar Fix 1.0](http://deadlystream.com/forum/files/file/896-vrook-and-zhar-fix/)
-* Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
 * Kandon Ark doesn't wear his military suit: [Kandon Ark Fix 1.0](http://deadlystream.com/forum/files/file/1026-kandon-ark-fix/)
 * Queedle is the wrong race considering several different pieces of dialog: [Queedle Fix 1.0](https://deadlystream.com/files/file/1267-queedle-fix/)
+* Red lightsaber crystal uses wrong icon:  [Red Lightsaber Crystal Fix 1.0](http://deadlystream.com/forum/files/file/911-red-lightsaber-crystal-fix/)
+* Sapith crystal uses wrong icon: [Sapith Fix 1.0](http://deadlystream.com/forum/files/file/975-sapith-fix/)
+* Two Sith archaeologists are female instead of male: [Male Sith Archaeologist Restoration 1.0](http://deadlystream.com/forum/files/file/1204-male-sith-archaeologist-restoration/)
+* Vrook and Zhar wear the wrong color robes: [Vrook and Zhar Fix 1.0](http://deadlystream.com/forum/files/file/896-vrook-and-zhar-fix/)
 
 ### ndix UR:
 * The Ebon Hawk has several holes in its models: [Ebon Hawk K1 Fixes 2.0](http://deadlystream.com/forum/files/file/1134-ebon-hawk-k1-fixes/)
