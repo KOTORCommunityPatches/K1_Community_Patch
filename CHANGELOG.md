@@ -42,6 +42,7 @@
 * Adjusted the rotation of various placeables in the Korriban Sith Academy that were facing in awkward (or plain wrong) directions
 * Changed the description of the pass card in the Taris Black Vulkar Base (Upper) to more correctly reflect its intended purpose
 * Made the player the listener in the final conversation after defeating Dark Side Bastila on the Star Forge to prevent her talking to herself
+* Trimmed a repetitive phrase from one of lines used by the Twi'lek messenger that appears after winning the swoop race on Taris
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

@@ -294,6 +294,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The training room in the Manaan Sith Base had some gaps in the ceiling (Reported by ebmar) [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
 * The Tuk'ata mother's posse in the Korriban Valley of the Dark Lords face in odd directions and run into each other [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * The Twi'lek females in Dreshdae on Korriban all use the dancer appearance, running around half-naked [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
+* The Twi'lek messenger that appears after winning the swoop race on Taris had consecutive lines where he repeated the same phrase (Reported by A Future Pilot) [ISSUE #247](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/247)
 * The two Dark Jedi in the Unknown World Temple that stop to chat look at each other instead of the player [ISSUE #288](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/288)
 * The two pre-training conversations with the Jedi Council on Dantooine had various facing issues [ISSUE #151](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151)
 * The Valley of the Dark Lords on Korriban had some distorted UVs on the cliff edge (Reported by djh269) [ISSUE #191](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/191)
