@@ -7,20 +7,22 @@
 	showdown with Saul Karath on the bridge. Since this scene is now initiated
 	by Saul himself and not the invisible placeable, an extra command to set
 	the Talked To boolean on that needs to be added so that the post-fight scene
-	triggers correctly. Additionally, Carth and Bastila have their head orientation
-	locked for the scene to resolve the nagging habit of companions staring at
-	the player rather the the speaker (even after being removed from the party,
-	apparently). Now Carth will finally look his arch-nemesis Saul directly	in
-	the eyes during their fateful confrontation, rather than spending the duration
-	of it staring at the player's ass.
+	triggers correctly. Additionally, Carth and Bastila have their AI disabled
+	and Carth has his head orientation locked for the scene to resolve the nagging
+	habit of companions staring at the player rather the the speaker (even after
+	being removed from the party, apparently). Now Carth will finally look his
+	arch-nemesis Saul directly in the eyes during their fateful confrontation,
+	rather than spending the duration of it staring at the player's ass.
 	
 	See also cp_lev40_hdunlck, k_plev_brdgcs_en.
 	
-	Issue #332: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/332
+	Issue #417: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/417
 	
 	DP 2020-09-12																*/
 //////////////////////////////////////////////////////////////////////////////////
+
+#include "cp_inc_k1"
 
 void main() {
 	
@@ -40,6 +42,9 @@ void main() {
 	RemovePartyMember(NPC_CARTH);
 	RemovePartyMember(NPC_BASTILA);
 	
+	AssignCommand(oCarth, CP_DisableAI(TRUE));
+	AssignCommand(oBast, CP_DisableAI(TRUE));
+	
 	AssignCommand(oCarth, SetFacing(DIRECTION_EAST));
 	AssignCommand(oBast, SetFacing(DIRECTION_EAST));
 	
@@ -47,7 +52,6 @@ void main() {
 	AssignCommand(oCarth, JumpToLocation(lCarth));
 	AssignCommand(oBast, JumpToLocation(lBast));
 	
-	SetLockHeadFollowInDialog(oBast, TRUE);
 	SetLockHeadFollowInDialog(oCarth, TRUE);
 	
 	DelayCommand(2.0, SetLocalBoolean(oInvis, SW_PLOT_HAS_TALKED_TO, TRUE));
