@@ -45,6 +45,7 @@
 * Trimmed a repetitive phrase from one of lines used by the Twi'lek messenger that appears after winning the swoop race on Taris
 * Prevented one of Bastila's lines during the Leviathan interrogation scene skipping if the player was female
 * Edited Dark Side transition textures for player head PFHB02 to fix incorrect duplicated irises
+* Changed a camera angle during The One's initial conversation on the Unknown World to prevent a line being spoken off-screen
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

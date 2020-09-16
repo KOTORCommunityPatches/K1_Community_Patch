@@ -128,6 +128,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Companions interjecting during the conversation with Yuthura in the Korriban Dreshdae cantina faced the player instead of her [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/293)
 * Conversations with the Chieftain in the Tatooine Sand People Enclave had various facing issues due to party positioning [ISSUE #293](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
+* During the initial conversation with The One on the Unknown World, he would speak one of his lines off-screen [ISSUE #339](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/339)
 * During the initial cutscene of the showdown on the Leviathan Bridge, the party members would insist on looking at the floor (Reported by Salk) [ISSUE #417](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/417)
 * During the jawless Malak cutscene, the admiral has some clipping issues with his left arm and eyeballs [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * During the jawless Malak cutscene, the surprise is given away early in widescreen due to the extra screen width [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
