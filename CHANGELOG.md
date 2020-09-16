@@ -44,6 +44,7 @@
 * Made the player the listener in the final conversation after defeating Dark Side Bastila on the Star Forge to prevent her talking to herself
 * Trimmed a repetitive phrase from one of lines used by the Twi'lek messenger that appears after winning the swoop race on Taris
 * Prevented one of Bastila's lines during the Leviathan interrogation scene skipping if the player was female
+* Edited Dark Side transition textures for player head PFHB02 to fix incorrect duplicated irises
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
