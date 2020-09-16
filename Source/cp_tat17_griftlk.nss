@@ -8,6 +8,8 @@
 	skating across the floor if she interjected at the same time as she was trying
 	to walk towards the PC from across the room as part of the companion AI.
 	
+	See also k_ptat_greettalk.
+	
 	Issue #265: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265
 	

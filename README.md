@@ -339,6 +339,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When taking T3 to the Taris Sith Base entrance, it was possible to bypass the trigger that played the scene of him opening the door [ISSUE #400](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/400)
 * When talking to Dak in the Korriban Valley of the Dark Lords, Juhani had some facing issues on her interjections [ISSUE #281](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/281)
 * When talking to Freyyr in the Kashyyyk Lower Shadowlands, some of the companion interjections could be spoken off-screen [ISSUE #269](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/269)
+* When talking to Greeta about Griff in the Tatooine Czerka Office, Mission could skate along the floor during her interjection [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
