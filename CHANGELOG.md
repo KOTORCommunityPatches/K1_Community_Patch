@@ -47,6 +47,7 @@
 * Edited Dark Side transition textures for player head PFHB02 to fix incorrect duplicated irises
 * Changed a camera angle during The One's initial conversation on the Unknown World to prevent a line being spoken off-screen
 * Jumped the party when talking to Greeta about Griff in the Tatooine Czerka Office to prevent Mission skating across the floor
+* Adjusted the global party banter trigger script to account for the delay in Carth's "out of the loop" conversation
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
