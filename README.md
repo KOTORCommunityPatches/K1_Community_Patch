@@ -471,6 +471,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Certain ambient NPC barks on Manaan would fail to trigger due to some incorrect scripts [ISSUE #342](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/342)
 * Numerous placeables inside the back entrance of the Korriban Sith Academy were facing in completely wrong directions [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * One of Bastila's lines in the post-interrogation scene on the Leviathan could skip if the player was female [ISSUE #405](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/405)
+* The global level scaling script didn't account for differences between a creature's current and max hit points [ISSUE #435](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/435)
 * The selection icon for the Sith Embassy transport on Manaan was misaligned [ISSUE #352](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/352)
 
 ### Thrak Farelle:

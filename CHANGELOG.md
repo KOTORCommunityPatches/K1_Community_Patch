@@ -48,6 +48,7 @@
 * Changed a camera angle during The One's initial conversation on the Unknown World to prevent a line being spoken off-screen
 * Jumped the party when talking to Greeta about Griff in the Tatooine Czerka Office to prevent Mission skating across the floor
 * Adjusted the global party banter trigger script to account for the delay in Carth's "out of the loop" conversation
+* Amended global level scaling buff script to ensure that a creature's current hit point and new max hit points match
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
