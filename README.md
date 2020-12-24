@@ -190,6 +190,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * Some NPCs have wrong or missing sounds in their soundsets
 * Some of the companion personal quest messengers on Dantooine liked to play hide and seek inside Aratech Mercantile [ISSUE #262](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/262)
+* Some wall pillars in the Unknown World temple had some gaps in their geometry (Reported by ancient-animal) [ISSUE #453](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/453)
 * Sound effects during the Rancor cutscene in the Taris Upper Sewers were desynced from the VFX (Reported by A Future Pilot) [ISSUE #362](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/362)
 * Swapped a spurious animation reference for a working one in Shaardan's Korriban Dreshdae intro cutscene (Reported by Salk) [ISSUE #385](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/385)
 * The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (With input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)

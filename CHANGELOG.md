@@ -51,6 +51,7 @@
 * Amended global level scaling buff script to ensure that a creature's current hit point and new max hit points match
 * Reduced the maximum walk speed for player characters to prevent power walking during cutscenes
 * Closed a gap around the doorway in one of the side rooms in Davik's estate on Taris
+* Fixed some gaps around a couple of wall pillars in the Unknown World temple main floor
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
