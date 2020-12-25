@@ -16,7 +16,11 @@
 	Issue #86: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86
 	
-	DP 2019-05-20																*/
+	DP 2019-05-20
+	
+	Edited to reduce the chance of button mashing breaking things.
+	
+	JC 2020-12-25															*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -32,10 +36,10 @@ void main() {
 			
 			SetGlobalFadeOut();
 			
+			NoClicksFor(0.3);
 			DelayCommand(0.1, CP_PartyJump(OBJECT_SELF, lHallway));
-			
 			DelayCommand(0.3, ShowPartySelectionGUI("k_pend_reset", 0, -1));
-			
+			DelayCommand(0.3, NoClicksFor(0.2));
 			DelayCommand(0.4, DestroyObject(OBJECT_SELF, 0.0, TRUE, 0.0));
 		}
 }
