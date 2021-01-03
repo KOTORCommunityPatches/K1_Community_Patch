@@ -53,6 +53,7 @@
 * Closed a gap around the doorway in one of the side rooms in Davik's estate on Taris
 * Fixed some gaps around a couple of wall pillars in the Unknown World temple main floor
 * Replaced some of Bastila's duplicate lines that were sped up and/or pitch shifted with the original version
+* Corrected how random loot is spawned in a few corpse placeables in the Kashyyyk Upper Shadowlands
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

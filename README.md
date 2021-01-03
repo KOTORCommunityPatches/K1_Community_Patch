@@ -185,6 +185,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Shaardan's corpse could lay around stinking up the place while getting ready for the final trial in the Korriban Sith Academy [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Sharina on Tatooine didn't initiate dialogue with the player as intended (Reported by ebmar) [ISSUE #45](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45)
 * Sith fighters outside the Leviathan clipped through the skybox [ISSUE #108](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/108)
+* Some corpses in the Kashyyyk Upper Shadowlands didn't spawn their random loot correctly (Reported by ancient-animal and with input from JCarter426) [ISSUE #455](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/455)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
 * Some guests and guards in Davik's estate would attack with their fists [ISSUE #100](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/100)
 * Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)
