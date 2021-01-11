@@ -54,6 +54,7 @@
 * Fixed some gaps around a couple of wall pillars in the Unknown World temple main floor
 * Replaced some of Bastila's duplicate lines that were sped up and/or pitch shifted with the original version
 * Corrected how random loot is spawned in a few corpse placeables in the Kashyyyk Upper Shadowlands
+* Adjusted the position of a tree mesh in the Kashyyyk Great Walkway to eliminate a gap
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
