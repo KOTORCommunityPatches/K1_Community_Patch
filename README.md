@@ -347,6 +347,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When talking to Greeta about Griff in the Tatooine Czerka Office, Mission could skate along the floor during her interjection [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
+* Zaalbar's return to the party on Kashyyyk briefly revealed his stunt double (Reported by StellarExile and ancient-animal) [ISSUE #460](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/460)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
 
 ### ebmar:
