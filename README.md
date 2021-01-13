@@ -208,6 +208,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The conversation with Helena in the Tatooine Cantina had lots of facing/framing issues [ISSUE #208](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/208)
 * The conversation with Maana in Tatooine Anchorhead had some facing issues during Bastila's interjections [ISSUE #261](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/261)
 * The conversation with Nurik and Rahasia in the Dantooine Sandral Estate had a number of facing and positioning issues [ISSUE #259](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/259)
+* The conversations with Chuundar and Freyyr in the Chieftain's Hall on Kashyyyk had numerous facing, party positioning, and camera clipping issues [ISSUE #121](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/121)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The corpse pile in the Taris Upper Sewers erroneously remained interactive after the Rancor was dead, and the Give Item UI was cluttered with the player's full inventory (With input from JCarter426) [ISSUE #430](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/430)
 * The Council on Dantooine float a few inches off the ground

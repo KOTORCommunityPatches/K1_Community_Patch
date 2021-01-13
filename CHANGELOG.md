@@ -56,6 +56,7 @@
 * Corrected how random loot is spawned in a few corpse placeables in the Kashyyyk Upper Shadowlands
 * Adjusted the position of a tree mesh in the Kashyyyk Great Walkway to eliminate a gap
 * Made changes to Zaalbar's return in the Chieftain's Hall on Kashyyyk to hide the swap between the stunt and party versions
+* Added speaker/listener tags to the Freyyr and Chuundar conversations to resolve various facing issues in the Chieftain's Hall on Kashyyyk
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
