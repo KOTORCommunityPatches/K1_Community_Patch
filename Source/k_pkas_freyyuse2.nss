@@ -68,6 +68,7 @@ void main() {
 					CP_PartyJump(oZaal, lZaal);
 					
 					DelayCommand(0.9, AssignCommand(oPC, SetFacingPoint(GetPositionFromLocation(lFrey))));
+					DelayCommand(1.0, AssignCommand(oPC, ActionPlayAnimation(ANIMATION_LOOPING_LISTEN, 1.0, 0.5)));
 					DelayCommand(0.9, AssignCommand(oPM1, SetFacingPoint(GetPositionFromLocation(lFrey))));
 					DelayCommand(0.9, AssignCommand(oPM2, SetFacingPoint(GetPositionFromLocation(lFrey))));
 					
