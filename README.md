@@ -151,6 +151,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Handon is implied to be overweight and was likely meant to use the fat commoner appearance [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 * Helena wears Jedi robes instead of regular clothes
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
+* HK-47's stunt double was briefly visible when adding him to the party immediately in the Tatooine Droid Shop [ISSUE #310](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/310)
 * If you cause the Gamorreans ambushing you in the Tatooine Dune Sea to run away, one of them disappears before the scene fades out [ISSUE #264](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/264)
 * In rare instances, a Mandalorian on Dantooine could try to use a Final Fantasy gunblade [ISSUE #111](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111)
 * It was possible to clip into the walls on either side of the Wookiee village gate on the Kashyyyk Great Walkway (Reported by Salk) [ISSUE #291](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/291)
@@ -209,6 +210,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The conversation with Maana in Tatooine Anchorhead had some facing issues during Bastila's interjections [ISSUE #261](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/261)
 * The conversation with Nurik and Rahasia in the Dantooine Sandral Estate had a number of facing and positioning issues [ISSUE #259](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/259)
 * The conversations with Chuundar and Freyyr in the Chieftain's Hall on Kashyyyk had numerous facing, party positioning, and camera clipping issues [ISSUE #121](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/121)
+* The conversations with Yuka Laka and HK-47 in the Tatooine Droid Shop had numerous facing and party positioning issues [ISSUE #310](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/310)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The corpse pile in the Taris Upper Sewers erroneously remained interactive after the Rancor was dead, and the Give Item UI was cluttered with the player's full inventory (With input from JCarter426) [ISSUE #430](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/430)
 * The Council on Dantooine float a few inches off the ground
