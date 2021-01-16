@@ -59,6 +59,7 @@
 * Added speaker/listener tags to the Freyyr and Chuundar conversations to resolve various facing issues in the Chieftain's Hall on Kashyyyk
 * Addressed some facing and party wrangling issues in the Yuka Laka and HK-47 conversations in the Tatooine Droid Shop
 * Camouflaged the swap between stunt and party versions of HK-47 when adding him to the party after buying him in the Tatooine Droid Shop
+* Wrangled the party into proper positions based on the entry point, cleaned up some facing, and tweaked some camera angles during the cutscene in the foyer of the Sith Base on Manaan
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
