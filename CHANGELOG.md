@@ -61,6 +61,7 @@
 * Camouflaged the swap between stunt and party versions of HK-47 when adding him to the party after buying him in the Tatooine Droid Shop
 * Wrangled the party into proper positions based on the entry point, cleaned up some facing, and tweaked some camera angles during the cutscene in the foyer of the Sith Base on Manaan
 * Gave a Sith captain in the Manaan Sith Base the correct soundset for his appearance
+* Swapped the appearance of the training droids in the Manaan Sith Base to match their soundset and template name
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

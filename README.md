@@ -371,6 +371,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The hallway leading to the Manaan hotel had some incorrect baked lighting colouration [ISSUE #109](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/109)
 * The swoop records computer panel in Manaan Ahto East was clipping into the wall [ISSUE #155](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/155)
 * The Tach in Kashyyyk's Shadowlands had an obnoxiously loud screech (with input from "robot ears" AFP) [ISSUE #127](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/127)
+* The training droids in the Manaan Sith Base seem like they were intended to look like probe droids, not war droids [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
 
 ### Gimmick5000:
 * One of Canderous' lines when recounting his backstory had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
