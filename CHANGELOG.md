@@ -62,6 +62,9 @@
 * Wrangled the party into proper positions based on the entry point, cleaned up some facing, and tweaked some camera angles during the cutscene in the foyer of the Sith Base on Manaan
 * Gave a Sith captain in the Manaan Sith Base the correct soundset for his appearance
 * Swapped the appearance of the training droids in the Manaan Sith Base to match their soundset and template name
+* Cleaned up the party's positioning during the player's arrest outside the Sith base in Manaan Ahto East
+* Changed the variant of the war droids used by Selkath security during the player's arrest outside the Sith base in Manaan Ahto East to differentiate them from the Sith droids
+* Delayed the spawn-in of a replacement Sith war droid outside the Sith base in Manaan Ahto East until after the player's trial
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
