@@ -201,6 +201,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Swapped a spurious animation reference for a working one in Shaardan's Korriban Dreshdae intro cutscene (Reported by Salk) [ISSUE #385](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/385)
 * The ancient computer in the Korriban Tomb of Tulak Hord had an unskippable interface, causing excessive delays (With input from ebmar) [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The Black Vulkar base on Taris had some pipes that lacked backfaces, leading to some noticeable geometry culling issues [ISSUE #410](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/410)
+* The camera could clip through the observation window of Yavin Station [ISSUE #461](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/461)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
@@ -272,6 +273,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The party could be a bit scrambled when entering the Taris Sith Base for the first time and talking to the receptionist [ISSUE #253](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/253)
 * The party would bump into each other and get confused during the cutscene after giving the sacred tome to The One [ISSUE #170](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/170)
 * The pass card in the Taris Black Vulkar base had a description that didn't correctly indicate its actual purpose (Reported by A Future Pilot) [ISSUE #365](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/365)
+* The player could clip outside the level when running up against the end of the observation window walkway in Yavin Station (Reported by ZeldaTheSwordsman) [ISSUE #461](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/461)
 * The player could end up broke when repeatedly failing to persuade Sarna/Yun to accept a cheaper bribe in the Taris Upper City Cantina (Reported by Kattmandu) [ISSUE #388](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/388)
 * The player could repeatedly ask HK about restoring memories post-Leviathan, despite being told there were no more to restore [ISSUE #175](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/175)
 * The player didn't react to their announcement in the Taris Upper City Cantina duels like their opponents did: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #243](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/243)
