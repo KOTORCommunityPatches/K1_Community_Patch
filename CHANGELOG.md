@@ -66,6 +66,7 @@
 * Changed the variant of the war droids used by Selkath security during the player's arrest outside the Sith base in Manaan Ahto East to differentiate them from the Sith droids
 * Delayed the spawn-in of a replacement Sith war droid outside the Sith base in Manaan Ahto East until after the player's trial
 * Adjusted the walkmesh for the Yavin station to prevent the player escaping the level and the camera clipping through the observation window
+* Tweaked Jolee's global dialogue to prevent him talking about Rakatan influence on the Wookiees before having opened the Kashyyyk Star Map
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -342,7 +343,7 @@
 * Fixed an off-screen interjection by Carth when speaking to Largo in the Taris Upper City North Apartments
 * Plugged some gaps and removed lightmap light bleed in a couple of corners of the entrance area of Manaan West Central
 * Fixed a script incorrectly set as a starting conditional in a background NPC's DLG in Manaan East Central
-* Tweaked party jump positions in the Tatooine Eastern Dune Sea star map scene to resolve facing issues
+* Tweaked party jump positions in the Tatooine Eastern Dune Sea Star Map scene to resolve facing issues
 * Stopped Matrik using the Force to plant his bombs in the Taris Lower City Apartments
 * Gave the Duros guards in Davik's Estate on Taris the correct soundset
 * Moved a guard droid in the Manaan West Central foyer to stop it clipping into a wall
