@@ -68,6 +68,7 @@
 * Adjusted the walkmesh for the Yavin station to prevent the player escaping the level and the camera clipping through the observation window
 * Tweaked Jolee's global dialogue to prevent him talking about Rakatan influence on the Wookiees before having opened the Kashyyyk Star Map
 * Edited female Republic officer head model to correct offset pivot for left eyelid mesh and remove spurious skin weights
+* Added a check to Ebon Hawk exit script to force the player character as party leader
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
