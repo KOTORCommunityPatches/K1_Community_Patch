@@ -75,6 +75,7 @@
 * Revised the wrangling of party Trask's spawn-in on the Endar Spire, forcibly jumping the player to try and finally eliminate Trask randomly teleporting
 * Merged some hijacked module OnEnter/Heartbeat scripts after finding a method to decompile the vanilla scripts
 * Tweaked the exit script for the Dantooine Murder Mystery quest to better hide the NPCs being destroyed under the fade-out
+* Fixed clashing row ID assignment for the Knight and Master speed blur removal configs
 
 ## v1.8 - December 02, 2019
 ### Additions
