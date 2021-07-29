@@ -76,6 +76,7 @@
 * Merged some hijacked module OnEnter/Heartbeat scripts after finding a method to decompile the vanilla scripts
 * Tweaked the exit script for the Dantooine Murder Mystery quest to better hide the NPCs being destroyed under the fade-out
 * Fixed clashing row ID assignment for the Knight and Master speed blur removal configs
+* Removed some in-DLG forced animations for Bastila and Carth when talking to Zelka Forn in the Taris medical clinic that were causing a pause, switched to scripted anims
 
 ## v1.8 - December 02, 2019
 ### Additions
