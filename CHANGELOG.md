@@ -69,6 +69,7 @@
 * Tweaked Jolee's global dialogue to prevent him talking about Rakatan influence on the Wookiees before having opened the Kashyyyk Star Map
 * Edited female Republic officer head model to correct offset pivot for left eyelid mesh and remove spurious skin weights
 * Added a check to Ebon Hawk exit script to force the player character as party leader
+* Revised the OnUsed script for the galaxy map in the Ebon Hawk when crashed on the Unknown World to avoid displaying an empty bark bubble
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

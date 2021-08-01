@@ -252,6 +252,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The floor of the training room in the Manaan Sith Base had some lightmap UV issues [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
 * The footlockers in Uthar's room in the Korriban Sith Academy were oddly positioned/oriented (Reported by Salk) [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
+* The galaxy map in the crashed Ebon Hawk could briefly show an empty bark bubble when accessed [ISSUE #471](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/471)
 * The Gamorreans setting an ambush in the Tatooine Dune Sea used a super frag mine, which could wipe out low health players (Reported by JCarter426) [ISSUE #216](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/216)
 * The generic doors inside the Taris Black Vulkar Base weren't at full health [ISSUE #237](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/237)
 * The green lightsaber crystal available on Korriban seemed to have an inappropriate guardian, so was moved to a more fitting resting place (Reported by djh269) [ISSUE #210](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/210)
