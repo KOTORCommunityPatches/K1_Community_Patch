@@ -136,6 +136,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * During the jawless Malak cutscene, the admiral has some clipping issues with his left arm and eyeballs [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * During the jawless Malak cutscene, the surprise is given away early in widescreen due to the extra screen width [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
 * During the scene on Deck 1 of the Star Forge when the droids burst in, the party members are still facing the door [ISSUE #173](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173)
+* During the scene with Mission in the Taris Undercity, the player could spin in place if not the party leader (Reported by Salk) [ISSUE #472](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/472)
 * During Trask's final cutscene on the Endar Spire, he suddenly has a sword appear mid-scene and there were various animation issues [ISSUE #230](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/230)
 * During Uthar's introductory cutscene when first entering the Korriban Sith Academy the party members could get in the way and Uthar bowed inappropriately [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Dustil's conversation in the Korriban Academy had some facing issues with Carth and the player [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)

@@ -70,6 +70,7 @@
 * Edited female Republic officer head model to correct offset pivot for left eyelid mesh and remove spurious skin weights
 * Added a check to Ebon Hawk exit script to force the player character as party leader
 * Revised the OnUsed script for the galaxy map in the Ebon Hawk when crashed on the Unknown World to avoid displaying an empty bark bubble
+* Herded the party during the meeting with Mission in the Taris Undercity and cleaned up her integration into the party post-scene
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -78,6 +79,7 @@
 * Tweaked the exit script for the Dantooine Murder Mystery quest to better hide the NPCs being destroyed under the fade-out
 * Fixed clashing row ID assignment for the Knight and Master speed blur removal configs
 * Removed some in-DLG forced animations for Bastila and Carth when talking to Zelka Forn in the Taris medical clinic that were causing a pause, switched to scripted anims
+* Removed the now deprecated facing script for Carth during the meeting with Mission in the Taris Undercity
 
 ## v1.8 - December 02, 2019
 ### Additions
