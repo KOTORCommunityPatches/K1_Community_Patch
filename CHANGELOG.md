@@ -71,6 +71,7 @@
 * Added a check to Ebon Hawk exit script to force the player character as party leader
 * Revised the OnUsed script for the galaxy map in the Ebon Hawk when crashed on the Unknown World to avoid displaying an empty bark bubble
 * Herded the party during the meeting with Mission in the Taris Undercity and cleaned up her integration into the party post-scene
+* Edited one of HK-47's lines in the Tomb of Tulak Hord of Korriban referring to the player as "he", regardless of their gender
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
