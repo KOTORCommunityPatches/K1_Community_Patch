@@ -10,7 +10,17 @@
 	spaceport, so when the player exits any spaceport the encounter will be set
 	to begin when they return, via rapid transit or otherwise.
 	
-	JC 2019-04-13 / DP 2020-06-15                                             */
+	2021-10-21 Updated to add an additional provision to prevent an erroneous
+	duplicate encounter happening when fast travelling back to the Hawk after
+	having already dealt with Xor's ambush.
+	
+	Issue #29: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29
+	
+	Issue #468: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/468
+	
+	JC 2019-04-13 / DP 2020-06-15 / DP 2021-10-21                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_tat"
@@ -35,6 +45,9 @@ void main() {
 					if (GetGlobalNumber("K_XOR_AMBUSH") < 1)
 						{
 							SetGlobalNumber("K_XOR_AMBUSH", 1);
+							// Prevent k_sup_gohawk duplicating the attack again the
+							// next time the player fast travels to the Ebon Hawk.
+							SetGlobalBoolean("K_XOR_AMBUSH_FIX", TRUE);
 						}
 				}
 			

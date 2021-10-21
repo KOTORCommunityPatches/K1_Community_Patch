@@ -12,10 +12,17 @@
 	
 	2019-05-19 Updated to streamline code using vanilla include functions.
 	
+	2021-10-21 Updated to add an additional provision to prevent an erroneous
+	duplicate encounter happening when fast travelling back to the Hawk after
+	having already dealt with Xor's ambush.
+	
 	Issue #29: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29
 	
-	JC 2019-04-13                                                             */
+	Issue #468: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/468
+	
+	JC 2019-04-13 / DP 2021-10-21                                             */
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_dan"
@@ -82,6 +89,12 @@ void main() {
 	// Added Xor fix ~JC
 	if( GetGlobalBoolean("K_MESS_JUHANI") == TRUE )
 		{
-			if( GetGlobalNumber("K_XOR_AMBUSH") < 1 ) SetGlobalNumber("K_XOR_AMBUSH", 1);
+			if (GetGlobalNumber("K_XOR_AMBUSH") < 1)
+				{
+					SetGlobalNumber("K_XOR_AMBUSH", 1);
+					// Prevent k_sup_gohawk duplicating the attack again the
+					// next time the player fast travels to the Ebon Hawk.
+					SetGlobalBoolean("K_XOR_AMBUSH_FIX", TRUE);
+				}
 		}
 }

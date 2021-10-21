@@ -446,7 +446,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The surviving Hrakert scientists had their weapons out all the time
 * Vandar’s dialogue was locked out after the player completed the trials
 * Vandar repeated dialogue if you spoke to him again before investigating the ruins (Reported by DarthParametric)
-* Xor refused to show up for the second encounter unless the player used the rapid transit system (and thanks to Salk for a second opinion) [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
+* Xor refused to show up for the second encounter unless the player used the rapid transit system (With input from Salk and HuntersRun1) [ISSUE #29](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/29)
 
 ### Kainzorus Prime:
 * Focus and proficiency feat icons are switched: [[KotOR] Fixed Proficiency/Focus Feat Icons 1.0](http://deadlystream.com/forum/files/file/421-kotor-fixed-proficiencyfocus-feat-icons/)
