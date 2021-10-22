@@ -499,6 +499,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Lashowe was air typing in front of her console in the Korriban Sith Academy [ISSUE #423](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/423)
 * Numerous placeables inside the back entrance of the Korriban Sith Academy were facing in completely wrong directions [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * One of Bastila's lines in the post-interrogation scene on the Leviathan could skip if the player was female [ISSUE #405](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/405)
+* Some minor dialogue was unavailable in the Korriban Sith Academy due to an incorrect script [ISSUE #421](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/421)
 * The global level scaling script didn't account for differences between a creature's current and max hit points [ISSUE #435](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/435)
 * The player and party members had a tendency to walk overly fast during cutscenes (With input from JCarter426) [ISSUE #445](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/445)
 * The selection icon for the Sith Embassy transport on Manaan was misaligned [ISSUE #352](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/352)

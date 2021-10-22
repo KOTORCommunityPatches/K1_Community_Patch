@@ -77,6 +77,7 @@
 * Adjusted the walkmesh for Manaan East Central to properly conform to the arches in the central corridor
 * Reduced left/right brow bone influence on PFHC01 to avoid the eyelids clipping during certain facial animations
 * Revised some minor Mandalorian variant appearance values, such as body bag type and footstep sounds
+* Corrected a starting conditional script that prevented some minor dialogue nodes appearing in the Korriban Sith Academy
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
