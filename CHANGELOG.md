@@ -74,6 +74,7 @@
 * Edited one of HK-47's lines in the Tomb of Tulak Hord of Korriban referring to the player as "he", regardless of their gender
 * Moved Lashowe a little closer to her console in the Korriban Sith Academy so she didn't need to rely on the Force to activate the keypad
 * Prevented an infinite XP exploit when repeatedly asking Yuthura about the Sith Code in the Korriban Sith Academy
+* Adjusted the walkmesh for Manaan East Central to properly conform to the pillars in the central corridor
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
