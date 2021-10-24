@@ -88,6 +88,7 @@
 * Removed some in-DLG forced animations for Bastila and Carth when talking to Zelka Forn in the Taris medical clinic that were causing a pause, switched to scripted anims
 * Removed the now deprecated facing script for Carth during the meeting with Mission in the Taris Undercity
 * Revised OnEnter scripts that set up the Xor ambush to prevent an unintentional duplication when fast travelling to the Hawk afterwards
+* Corrected the alternative version of the fight scene with The One on the Unknown World that was partial broken by a missing script
 
 ## v1.8 - December 02, 2019
 ### Additions
