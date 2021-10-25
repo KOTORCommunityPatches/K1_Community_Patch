@@ -79,6 +79,7 @@
 * Revised some minor Mandalorian variant appearance values, such as body bag type and footstep sounds
 * Corrected a starting conditional script that prevented some minor dialogue nodes appearing in the Korriban Sith Academy
 * Wrangled the party during the initial cutscene of the first time meeting The One on the Unknown World to keep the party members under control
+* Some plot-related doors in the temple on the Unknown World were edited to remove the Security UI since they should not be sliceable
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
