@@ -332,6 +332,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Trandoshans lack a functioning soundset
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
 * Turrets in the Rakatan Temple used the Bith soundset (for some reason) [ISSUE #171](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/171)
+* Two Black Vulkar lieutenants in the upper level of the Black Vulkar base on Taris dropped duplicate pass cards (Reported by A Future Pilot) [ISSUE #364](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/364)
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
 * Two pilots standing right next to each other in the Korriban Dreshdae cantina wear the same clothes [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
