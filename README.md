@@ -167,6 +167,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Jolee could speak one of his lines off-screen when talking to his personal quest messenger, Davin [ISSUE #270](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/270)
 * Jolee could talk about certain Kashyyyk Star Map revelations before the map was found (Reported by zamend229) [ISSUE #446](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/446)
 * Jolee's stunt double was briefly visible when he joined the party [ISSUE #122](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122)
+* Journal entries for Jolee and Juhani's personal quests could remain even after the showdown on the temple roof on the Unknown World (Reported by OverDrone) [ISSUE #424](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/424)
 * Juhani displays a typical cat-like disdain on the Ebon Hawk, facing away from the doorway of her hidey-hole [ISSUE #290](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/290)
 * Juhani in the Grove lacked a soundset (Suggested by JCarter426) [ISSUE #41](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/41)
 * Juhani's current state wasn't stored properly when the Ebon Hawk module was loaded [ISSUE #393](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/393)

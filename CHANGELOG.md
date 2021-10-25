@@ -82,6 +82,7 @@
 * Some plot-related doors in the temple on the Unknown World were edited to remove the Security UI since they should not be sliceable
 * Prevented an unnecessary duplicate pass card dropping in the upper level of the Taris Black Vulkar Base
 * Added a missing dialogue node when reinitiating conversation with Bastila on the Star Forge
+* Removed extraneous Jolee and Juhani journal entries after siding with Bastila on the Unknown World
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
