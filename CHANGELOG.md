@@ -83,6 +83,8 @@
 * Prevented an unnecessary duplicate pass card dropping in the upper level of the Taris Black Vulkar Base
 * Added a missing dialogue node when reinitiating conversation with Bastila on the Star Forge
 * Removed extraneous Jolee and Juhani journal entries after siding with Bastila on the Unknown World
+* Prevented Vandar using the flirt animation when asking the player about the Sandrals and Matales being wiped out in the Dantooine Jedi Enclave
+* Added a starting conditional to replies in Vandar's Dantooine Jedi Enclave DLG to prevent the player asking what to do about the Sandral/Matale feud after it was already resolved
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
