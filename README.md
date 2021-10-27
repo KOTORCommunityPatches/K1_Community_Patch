@@ -128,6 +128,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Companion interjections in Canderous' conversation in the Upper City Cantina had facing issues [ISSUE #75](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/75)
 * Companion interjections in Zelka Forn's conversation could be spoken off-screen [ISSUE #78](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/78)
 * Companions interjecting during the conversation with Yuthura in the Korriban Dreshdae cantina faced the player instead of her [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/293)
+* Completing the Promised Land quest in the Taris Undercity could leave the Infected Outcasts quest unresolvable (Reported by unknown Reddit user) [ISSUE #439](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/439)
 * Conversations with the Chieftain in the Tatooine Sand People Enclave had various facing issues due to party positioning [ISSUE #293](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
 * During the arrest outside the Sith base in Manaan Ahto East, party members could end up standing in front of the player [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
