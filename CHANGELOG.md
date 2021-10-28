@@ -86,6 +86,7 @@
 * Prevented Vandar using the flirt animation when asking the player about the Sandrals and Matales being wiped out in the Dantooine Jedi Enclave
 * Added a starting conditional to replies in Vandar's Dantooine Jedi Enclave DLG to prevent the player asking what to do about the Sandral/Matale feud after it was already resolved
 * Resolving the Promised Land quest in the Taris Undercity could leave the Infected Outcasts quest in an orphaned state
+* Adjusted Vandar's body model UVs to fix some inappropriate texture assignments and reduce stretching
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

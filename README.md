@@ -343,6 +343,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Uthar's conversation in the Korriban Sith Academy had some issues with party wrangling, departures, and inappropriate saluting [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Vandar had an inappropriate animation in the Dantooine Jedi Enclave when asking the player about the Sandrals and Matales being wiped out [ISSUE #480](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/480)
 * Vandar had some stunt animation issues in one of the final cutscenes due to a bad supermodel reference [ISSUE #178](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/178)
+* Vandar had some texture stretching and bad texture assignments due to a poor UV layout (Reported by N-DReW25) [ISSUE #479](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/479)
 * Various plot-related doors across Taris showed the security UI when they were not intended to be directly unlockable [ISSUE #396](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/396)
 * Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
