@@ -87,6 +87,7 @@
 * Added a starting conditional to replies in Vandar's Dantooine Jedi Enclave DLG to prevent the player asking what to do about the Sandral/Matale feud after it was already resolved
 * Resolving the Promised Land quest in the Taris Undercity could leave the Infected Outcasts quest in an orphaned state
 * Adjusted Vandar's body model UVs to fix some inappropriate texture assignments and reduce stretching
+* Corrected the missing teeth texture for Korriban Sith Academy student Mekel's head model
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
