@@ -11,10 +11,14 @@
 	search animation even after going hostile. It has been changed to directly set
 	them hostile to hopefully avoid any lag in them getting the commands.
 	
+	2021-10-29 - Updated to add in a move order to prevent the third trooper from
+	potentially failing to engage due to not being able to see the player or Carth
+	out in the corridor.
+	
 	Issue #326: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/326
 	
-	DP 2019-11-07																*/
+	DP 2019-11-07 / DP 2021-10-29												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_utility"
@@ -29,7 +33,8 @@ void CP_Hostile(string sTag, int nIndex) {
 	
 	AssignCommand(oSith, ClearAllActions());
 	DelayCommand(0.1, AssignCommand(oSith, ActionEquipMostDamagingRanged(OBJECT_INVALID)));
-	DelayCommand(0.2, ChangeToStandardFaction(oSith, STANDARD_FACTION_HOSTILE_1));
+	DelayCommand(0.2, AssignCommand(oSith, ActionMoveToObject(GetFirstPC(), TRUE, 3.0)));
+	DelayCommand(0.4, ChangeToStandardFaction(oSith, STANDARD_FACTION_HOSTILE_1));
 	DelayCommand(0.5, AssignCommand(oSith, GN_DetermineCombatRound(OBJECT_INVALID)));
 }
 
