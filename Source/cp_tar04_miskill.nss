@@ -10,12 +10,13 @@
 	under the cover of the fadeout. Once the fadein starts, party Mission walks
 	over to her designated party position behind the player.
 	
-	See also cp_tar04_miskill, k_ptar_addmissio, k_ptar_miscrt_en, k_ptar_misrun.
+	See also k_ptar_addmissio, k_ptar_desmis, k_ptar_hdfate_ud, k_ptar_miscrt_en,
+	k_ptar_misrun, k_ptar_rakrun.
 	
 	Issue #472: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/472
 	
-	DP 2021-09-20																*/
+	DP 2021-10-30																*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -26,14 +27,27 @@ void main() {
 
 	if (nUser == 891) // CUSTOM K1CP WOODSHED EVENT
 		{
-			location lMissJmp = Location(Vector(256.90,216.71,3.00), 229.19);
-			location lMissWlk = Location(Vector(256.00,212.00,3.00), 59.19);
 			location lWoodshed = Location(Vector(200.0,240.0,3.00), 229.19);
+			location lMissJmp;
+			location lMissWlk;
 			
 			SetGlobalFadeIn(0.5, 2.0);
 			
 			// Jump stunt Mission (0th Mission in the module) out behind the woodshed.
 			CP_PartyJump(GetObjectByTag("Mission", 0), lWoodshed);
+			
+			// Check which of the two triggers initiated the scene to determine where party
+			// Mission should jump and walk to.
+			if (!UT_GetPlotBooleanFlag(GetObjectByTag("cp_tar04_missspl"), SW_PLOT_BOOLEAN_05))
+				{
+					lMissJmp = Location(Vector(269.50,202.50,3.00), 190.00);
+					lMissWlk = Location(Vector(263.44,203.47,3.00), 2.95);
+				}
+				else
+					{
+						lMissJmp = Location(Vector(254.00,220.50,3.00), 220.00);
+						lMissWlk = Location(Vector(251.32,215.17,3.00), 50.87);
+					}
 			
 			// Jump party Mission to where stunt Mission used to be standing.
 			DelayCommand(0.5, CP_PartyJump(GetObjectByTag("Mission", 1), lMissJmp));
