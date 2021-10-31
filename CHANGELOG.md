@@ -91,6 +91,7 @@
 * Ensured that the line by the crazed merc in Manaan Hrakert Station about returning to the surface fired under the correct circumstances
 * Made sure the player was facing the trooper at the door during the Sith interrogation scene in the Taris Upper City North Apartments
 * Reduced some of the duplication amongst male NPC appearances in the Taris Upper City Cantina
+* Prevented camera clipping and the party running into each other when chasing Vorn Daasraad's droid in the Tatooine Sand People Territory
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
