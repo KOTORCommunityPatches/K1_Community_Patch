@@ -93,6 +93,7 @@
 * Reduced some of the duplication amongst male NPC appearances in the Taris Upper City Cantina
 * Prevented camera clipping and the party running into each other when chasing Vorn Daasraad's droid in the Tatooine Sand People Territory
 * Corrected some facing issues during conversations with Igear in the Taris Undercity
+* Tweaked the Bastila showdown on the Unknown World Temple Summit to correct facing, wrangle the party, and ensure proper lightsaber safety
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -103,7 +104,7 @@
 * Removed some in-DLG forced animations for Bastila and Carth when talking to Zelka Forn in the Taris medical clinic that were causing a pause, switched to scripted anims
 * Removed the now deprecated facing script for Carth during the meeting with Mission in the Taris Undercity
 * Revised OnEnter scripts that set up the Xor ambush to prevent an unintentional duplication when fast travelling to the Hawk afterwards
-* Corrected the alternative version of the fight scene with The One on the Unknown World that was partial broken by a missing script
+* Corrected the alternative version of the fight scene with The One on the Unknown World that was partially broken by a missing script
 * Made sure the third trooper in the Sith interrogation team in the Taris Upper City Apartments attacked when ordered
 
 ## v1.8 - December 02, 2019

@@ -307,6 +307,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The selection icon for the Garage Head's desk in the Vulkar base was positioned too low [ISSUE #60](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/60)
 * The selection icon for the torture cage release switch in Davik's estate was positioned too low [ISSUE #103](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/103)
 * The Selkath security probe droid in the Manaan Republic Embassy entrance would cause party members to constantly reposition while talking to Roland Wann [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
+* The showdown on the Unknown World Temple Summit had a number of small cosmetic issues [ISSUE #484](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/484)
 * The Sith soldiers in the Taris Upper City North Apartments could be a little too dedicated to searching for stolen uniforms, even doing so when in combat (Reported by Salk) [ISSUE #326](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/326)
 * The smuggler NPC appearance lacked proper racial variants, resulting in mismatched hand and head skin tones (Reported by KnifeMaster) [ISSUE #319](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/319)
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
