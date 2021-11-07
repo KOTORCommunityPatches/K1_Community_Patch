@@ -97,6 +97,7 @@
 * Edited the female child head and body models to reduce some clipping with the eyelids and skirt
 * Corrected some spurious skin weight assignments for the female Republic soldier head model
 * Changed one of the quest updates for the Leviathan prison break to the correct one
+* Corrected starting conditional for having the Sith base passcard when talking to the interrogator in the Republic base in Manaan East Central
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
