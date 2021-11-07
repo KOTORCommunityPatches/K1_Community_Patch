@@ -521,6 +521,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The player and party members had a tendency to walk overly fast during cutscenes (With input from JCarter426) [ISSUE #445](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/445)
 * The selection icon for the Sith Embassy transport on Manaan was misaligned [ISSUE #352](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/352)
 * When reinitiating conversation with Bastila on the Star Forge, you could break her concentration [ISSUE #458](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/458)
+* When selecting T3 for the Leviathan prison break, one DLG branch updated the quest to the wrong stage [ISSUE #485](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/485)
 
 ### Thrak Farelle:
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
