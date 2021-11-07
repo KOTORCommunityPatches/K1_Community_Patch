@@ -95,6 +95,7 @@
 * Corrected some facing issues during conversations with Igear in the Taris Undercity
 * Tweaked the Bastila showdown on the Unknown World Temple Summit to correct facing, wrangle the party, and ensure proper lightsaber safety
 * Edited the female child head and body models to reduce some clipping with the eyelids and skirt
+* Corrected some spurious skin weight assignments for the female Republic soldier head model
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
