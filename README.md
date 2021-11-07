@@ -249,6 +249,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
 * The exploding pillar in the Tomb of Ajunta Pall on Korriban could cause permanent disabling of AI for companions and suffered from UI glitches during the cutscene [ISSUE #164](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164)
 * The fat commoner male model had some UV issues and didn't use the regular commoner clothes textures [ISSUE #90](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/90)
+* The female child head and body models had some clipping with the eyelids and skirt during certain animations (Reported by N-DReW25) [ISSUE #483](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/483)
 * The female player head PFHB03 had some clipping issues with its eyelids, poor UVs for the eyeballs, and an oddly bumpy scalp (Reported by Dark Hope and La Ingobernable) [ISSUE #401](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/401)
 * The female player head PFHB04 had some misaligned UVs for the eyeballs (Reported by Dark Hope) [ISSUE #402](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/402)
 * The female player head PFHC01 had some eyelid clipping issues during certain facial animations (Reported by LaIngobernable) [ISSUE #467](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/467)
