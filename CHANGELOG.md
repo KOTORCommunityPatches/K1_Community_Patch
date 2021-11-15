@@ -98,6 +98,7 @@
 * Corrected some spurious skin weight assignments for the female Republic soldier head model
 * Changed one of the quest updates for the Leviathan prison break to the correct one
 * Corrected starting conditional for having the Sith base passcard when talking to the interrogator in the Republic base in Manaan East Central
+* Herded party, prevented NPCs running into each other, and forced entry direction during the post-ending cutscenes in the Kashyyyk Landing Pad
 
 ### Changes
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
