@@ -27,6 +27,10 @@ void main() {
 	object oPM1 = GetPartyMemberByIndex(1);
 	object oPM2 = GetPartyMemberByIndex(2);
 	object oJanos = GetObjectByTag("kas22_xxjanos_02", 0);
+	object oWookiee01 = GetObjectByTag("kas22_wookcap_02", 0);
+	object oWookiee02 = GetObjectByTag("kas22_wookcap_03", 0);
+	object oGuard01 = GetObjectByTag("kas22_capczer_01", 0);
+	object oGuard02 = GetObjectByTag("kas22_capczer_02", 0);
 	object oTrigger01 = GetNearestObjectByTag("kas22_capttrig", OBJECT_SELF, 1);
 	object oTrigger02 = GetNearestObjectByTag("kas22_capttrig", OBJECT_SELF, 2);
 	object oWP05 = GetObjectByTag("kas22_captwook5", 0);
@@ -38,11 +42,6 @@ void main() {
 	location lPM2 = Location(Vector(162.94,81.79,60.65), -11.25);
 	
 	CP_PartyHerder(lPC, lPM1, lPM2);
-	
-	object oWookiee01 = GetObjectByTag("kas22_wookcap_02", 0);
-	object oWookiee02 = GetObjectByTag("kas22_wookcap_03", 0);
-	object oGuard01 = GetObjectByTag("kas22_capczer_01", 0);
-	object oGuard02 = GetObjectByTag("kas22_capczer_02", 0);
 	
 	SetGlobalFadeIn(0.0, 3.0);
 	
