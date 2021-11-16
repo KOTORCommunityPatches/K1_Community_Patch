@@ -99,8 +99,9 @@
 * Changed one of the quest updates for the Leviathan prison break to the correct one
 * Corrected starting conditional for having the Sith base passcard when talking to the interrogator in the Republic base in Manaan East Central
 * Herded party, prevented NPCs running into each other, and forced entry direction during the post-ending cutscenes in the Kashyyyk Landing Pad
+* Repositioned the party and the hostile Rakata during the first encounter on the Unknown World Central Beach
 
-### Changes
+### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
 * Revised the wrangling of party Trask's spawn-in on the Endar Spire, forcibly jumping the player to try and finally eliminate Trask randomly teleporting
 * Merged some hijacked module OnEnter/Heartbeat scripts after finding a method to decompile the vanilla scripts
@@ -405,7 +406,7 @@
 * Removed sharp objects from the player during the post-race scenes in the Taris Swoop Platform to prevent injury
 * Made Jolee and Juhani wear their unique clothing when they first join the party
 
-### Changes
+### Changes/Updates/Revisions
 * Cleaned up changes.ini, removing extraneous editor data and orphaned entries (removed ~2,000 lines)
 * Edited readme and info RTFs, altering formatting and adding updated mod contributions
 * Merged separate install for a single UTC (filename clash) into the main install
