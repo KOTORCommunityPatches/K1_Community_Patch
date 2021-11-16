@@ -10,10 +10,13 @@
 	in the new module. A simple check has been added to always make the player the
 	party leader.
 	
+	Updated 2021-11-16 to correct the Unknown World condition, since that should
+	omit the starting waypoint.
+	
 	Issue #466: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/466
 	
-	DP 2021-05-23																*/
+	DP 2021-05-23 / DP 2021-11-16												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 void main() {
@@ -60,7 +63,7 @@ void main() {
 									}
 									else if (nGlobal == 45) // UNKNOWN WORLD
 										{
-											StartNewModule("unk_m41aa", "k_unk_ebon_hawk_transition");
+											StartNewModule("unk_m41aa");
 										}
 										else if (nGlobal == 50) // STAR FORGE
 											{
