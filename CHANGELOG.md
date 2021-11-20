@@ -113,6 +113,7 @@
 * Corrected the alternative version of the fight scene with The One on the Unknown World that was partially broken by a missing script
 * Made sure the third trooper in the Sith interrogation team in the Taris Upper City Apartments attacked when ordered
 * Revised post-Leviathan stealthed NPC fix, which still wasn't working, with a (hopefully) foolproof approach
+* Patched some remaining holes still visible in the Ebon Hawk in the Leviathan Hangar Bay
 
 ## v1.8 - December 02, 2019
 ### Additions
