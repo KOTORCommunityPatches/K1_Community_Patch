@@ -100,6 +100,7 @@
 * Corrected starting conditional for having the Sith base passcard when talking to the interrogator in the Republic base in Manaan East Central
 * Herded party, prevented NPCs running into each other, and forced entry direction during the post-ending cutscenes in the Kashyyyk Landing Pad
 * Repositioned the party and the hostile Rakata during the first encounter on the Unknown World Central Beach
+* Corrected scripts for injured Wookiee in the Kashyyyk Lower Shadowlands to grant the Upari amulet and properly account for the party's healing abilities
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
