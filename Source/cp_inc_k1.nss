@@ -9,6 +9,65 @@
 #include "k_inc_utility"
 
 
+// Hard-coded faction values that aren't declared in nwscript.nss
+int STANDARD_FACTION_CZERKA              = 18;
+int STANDARD_FACTION_ZONE_CONTROLLER     = 19;
+int STANDARD_FACTION_SACRIFICE           = 20;
+
+
+// Gets the expected tag of a party member based on their ID number.
+string CP_NPCToTag(int nNPC);
+
+// Has a creature clear all actions and then jump to a location.
+void CP_PartyJump(object oPM, location lLoc);
+
+// Has a creature clear all actions and then jump to an object.
+void CP_PartyJumpObject(object oPM, object oJumpTo);
+
+// Has a creature clear all actions and then walk or run to a location.
+void CP_PartyMove(object oPM, location lLoc, int nRun = FALSE);
+
+// Has a creature clear all actions and then walk or run to an object.
+void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE);
+
+// Jumps/walks/runs the entire party to the specified locations.
+void CP_PartyHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE);
+
+// Alternative to GetPartyMemberByIndex that always returns party members in the same order.
+object CP_GetPartyMember(int nIndex);
+
+// Prepares party for a conversation.
+void CP_DLGSetup(string sNPCTag);
+
+// Alternative to CP_PartyHerder specifically designed for use with conversations.
+void CP_DLGHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE);
+
+// Initiates dialogue with NPC with party herding options.
+void CP_DLGInit(string sNPCTag, string sDLG = "", int nJump = FALSE, float fWait = 0.5, float fFade = 2.0);
+
+// Makes the target creature equip the first weapon in their inventory.
+void CP_EquipFirstWeapon(object oCreature, int nInstant = FALSE);
+
+// Destroys all creatures in the area with the given tag.
+void CP_DestroyCreatures(string sTag);
+
+// One-shot check and set plot flag function for use with triggers.
+int CP_HasNeverTriggered();
+
+// One-shot check and set SW_PLOT_HAS_TALKED_TO plot flag function for use with NPCs.
+int CP_HasNeverTalkedTo();
+
+// Allows toggling creature AI on and off.
+void CP_DisableAI(int nState);
+
+// Modified version of the Messenger spawning function called in the various landing zone modules.
+void CP_JumpMessenger();
+
+// Duplicates an NPC's equipment in the desired slots into the player's inventory.
+void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap = TRUE, int nHead = TRUE, int nTorso = TRUE, int nGloves = TRUE, int nRShield = TRUE, int nLShield = TRUE, int nImplant = TRUE, int nBelt = TRUE);
+
+
+
 ////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
 	
@@ -50,7 +109,7 @@ return "";
 void CP_PartyJump(object oPM, location lLoc) {
  
 AssignCommand(oPM, ClearAllActions());
-// AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));  // Disabling this for now, as it seems to be inducing a weird walking speed bug - DP 2020/06/10
+//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
 AssignCommand(oPM, ActionJumpToLocation(lLoc));	
 
 }
@@ -70,7 +129,7 @@ AssignCommand(oPM, ActionJumpToLocation(lLoc));
 void CP_PartyJumpObject(object oPM, object oJumpTo) {
  
 	AssignCommand(oPM, ClearAllActions());
-	//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));  // Disabling this for now, as it seems to be inducing a weird walking speed bug - DP 2020/06/10
+	//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
 	AssignCommand(oPM, ActionJumpToObject(oJumpTo));
 }
 
@@ -90,7 +149,7 @@ void CP_PartyJumpObject(object oPM, object oJumpTo) {
 void CP_PartyMove(object oPM, location lLoc, int nRun = FALSE) {
  
 AssignCommand(oPM, ClearAllActions());
-//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));  // Disabling this for now, as it seems to be inducing a weird walking speed bug - DP 2020/06/10
+//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
 AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 
 }
@@ -111,7 +170,7 @@ AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE) {
  
 	AssignCommand(oPM, ClearAllActions());
-	//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));  // Disabling this for now, as it seems to be inducing a weird walking speed bug - DP 2020/06/10
+	//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
 	AssignCommand(oPM, ActionMoveToObject(oMoveTo, nRun));
 }
 
@@ -571,4 +630,71 @@ void CP_JumpMessenger() {
 									{
 										UT_SpawnMessenger();
 									}
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_DupeEquipment()
+	
+	Duplicates a copy of an NPC's equipped items into the target's inventory.
+	Intended for use when an NPC is forcibly removed from the party temporarily
+	or permanently in a cutscene, such as Bastila on the Leviathan.
+	
+	DP 2021-11-03                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap = TRUE, int nHead = TRUE, int nTorso = TRUE, int nGloves = TRUE, int nRShield = TRUE, int nLShield = TRUE, int nImplant = TRUE, int nBelt = TRUE) {
+	
+	object oNPC_RWeap = GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oNPC);
+	object oNPC_LWeap = GetItemInSlot(INVENTORY_SLOT_LEFTWEAPON, oNPC);
+	object oNPC_Head = GetItemInSlot(INVENTORY_SLOT_HEAD, oNPC);
+	object oNPC_Torso = GetItemInSlot(INVENTORY_SLOT_BODY, oNPC);
+	object oNPC_Gloves = GetItemInSlot(INVENTORY_SLOT_HANDS, oNPC);
+	object oNPC_RShield = GetItemInSlot(INVENTORY_SLOT_RIGHTARM, oNPC);
+	object oNPC_LShield = GetItemInSlot(INVENTORY_SLOT_LEFTARM, oNPC);
+	object oNPC_Implant = GetItemInSlot(INVENTORY_SLOT_IMPLANT, oNPC);
+	object oNPC_Belt = GetItemInSlot(INVENTORY_SLOT_BELT, oNPC);
+	
+	if (nRWeap && GetIsObjectValid(oNPC_RWeap))
+		{
+			CreateItemOnObject(GetTag(oNPC_RWeap), oGive, 1);
+		}
+	
+	if (nLWeap && GetIsObjectValid(oNPC_LWeap))
+		{
+			CreateItemOnObject(GetTag(oNPC_LWeap), oGive, 1);
+		}
+	
+	if (nHead && GetIsObjectValid(oNPC_Head))
+		{
+			CreateItemOnObject(GetTag(oNPC_Head), oGive, 1);
+		}
+	
+	if (nTorso && GetIsObjectValid(oNPC_Torso))
+		{
+			CreateItemOnObject(GetTag(oNPC_Torso), oGive, 1);
+		}
+	
+	if (nGloves && GetIsObjectValid(oNPC_Gloves))
+		{
+			CreateItemOnObject(GetTag(oNPC_Gloves), oGive, 1);
+		}
+	
+	if (nRShield && GetIsObjectValid(oNPC_RShield))
+		{
+			CreateItemOnObject(GetTag(oNPC_RShield), oGive, 1);
+		}
+	
+	if (nLShield && GetIsObjectValid(oNPC_LShield))
+		{
+			CreateItemOnObject(GetTag(oNPC_LShield), oGive, 1);
+		}
+	
+	if (nImplant && GetIsObjectValid(oNPC_Implant))
+		{
+			CreateItemOnObject(GetTag(oNPC_Implant), oGive, 1);
+		}
+	
+	if (nBelt && GetIsObjectValid(oNPC_Belt))
+		{
+			CreateItemOnObject(GetTag(oNPC_Belt), oGive, 1);
+		}
 }

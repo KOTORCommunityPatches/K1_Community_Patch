@@ -101,6 +101,7 @@
 * Herded party, prevented NPCs running into each other, and forced entry direction during the post-ending cutscenes in the Kashyyyk Landing Pad
 * Repositioned the party and the hostile Rakata during the first encounter on the Unknown World Central Beach
 * Corrected scripts for injured Wookiee in the Kashyyyk Lower Shadowlands to grant the Upari amulet and properly account for the party's healing abilities
+* Revised the Unknown World Central Beach post-temple scenes, cleaning up party positioning, facing, camera angles, etc.
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -115,6 +116,7 @@
 * Made sure the third trooper in the Sith interrogation team in the Taris Upper City Apartments attacked when ordered
 * Revised post-Leviathan stealthed NPC fix, which still wasn't working, with a (hopefully) foolproof approach
 * Patched some remaining holes still visible in the Ebon Hawk in the Leviathan Hangar Bay
+* Added an equipment duplication function to the K1CP include
 
 ## v1.8 - December 02, 2019
 ### Additions
