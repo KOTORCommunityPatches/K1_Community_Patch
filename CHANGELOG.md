@@ -103,6 +103,7 @@
 * Corrected scripts for injured Wookiee in the Kashyyyk Lower Shadowlands to grant the Upari amulet and properly account for the party's healing abilities
 * Revised the Unknown World Central Beach post-temple scenes, cleaning up party positioning, facing, camera angles, etc.
 * Added a neutral creature exclusion to the master AI script to prevent spurious responses to hostile creature AI shouts
+* Removed security icons from non-unlockable doors in the Leviathan Hangar Bay
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
