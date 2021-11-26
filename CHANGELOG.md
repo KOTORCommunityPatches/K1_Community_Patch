@@ -104,6 +104,7 @@
 * Revised the Unknown World Central Beach post-temple scenes, cleaning up party positioning, facing, camera angles, etc.
 * Added a neutral creature exclusion to the master AI script to prevent spurious responses to hostile creature AI shouts
 * Removed security icons from non-unlockable doors in the Leviathan Hangar Bay
+* Made sure that Bastila returned all her gear at the end of the Malak showdown scene in the Leviathan Hangar Bay 
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -119,6 +120,7 @@
 * Revised post-Leviathan stealthed NPC fix, which still wasn't working, with a (hopefully) foolproof approach
 * Patched some remaining holes still visible in the Ebon Hawk in the Leviathan Hangar Bay
 * Added an equipment duplication function to the K1CP include
+* Extended the existing powered saber blade overrides in the Malak showdown scene in the Leviathan Hangar Bay to include the player
 
 ## v1.8 - December 02, 2019
 ### Additions
