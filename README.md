@@ -160,6 +160,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * HK-47's stunt double was briefly visible when adding him to the party immediately in the Tatooine Droid Shop [ISSUE #310](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/310)
 * If you cause the Gamorreans ambushing you in the Tatooine Dune Sea to run away, one of them disappears before the scene fades out [ISSUE #264](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/264)
 * In rare instances, a Mandalorian on Dantooine could try to use a Final Fantasy gunblade [ISSUE #111](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/111)
+* In the final cutscene in the Leviathan Hangar Bay, a player with Force Speed would reach the Hawk too quickly and stand around [ISSUE #130](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/130)
 * In the Tomb of Tulak Hord on Korriban, one of HK-47's lines refers to the player as "he", regardless of their gender (Reported by N-DReW25, with input from ebmar) [ISSUE #474](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/474)
 * It was possible to clip into the walls on either side of the Wookiee village gate on the Kashyyyk Great Walkway (Reported by Salk) [ISSUE #291](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/291)
 * It was possible to duplicate Brejik's unique items after the fight on the Taris Swoop Platform (Reported by 134340Goat) [ISSUE #298](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/298)

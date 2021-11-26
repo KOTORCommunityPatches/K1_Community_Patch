@@ -105,6 +105,7 @@
 * Added a neutral creature exclusion to the master AI script to prevent spurious responses to hostile creature AI shouts
 * Removed security icons from non-unlockable doors in the Leviathan Hangar Bay
 * Made sure that Bastila returned all her gear at the end of the Malak showdown scene in the Leviathan Hangar Bay 
+* Tweaked the final cutscene in the Leviathan Hangar Bay to slow down the PC and fade-out sooner
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
