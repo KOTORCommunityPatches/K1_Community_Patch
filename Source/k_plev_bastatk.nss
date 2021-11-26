@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	Fired by lev40_darthmala2.dlg in lev_m40ac (Leviathan Hangar Bay).
+	Fired by lev40_carth.dlg in lev_m40ac (Leviathan Hangar Bay).
 	
 	As part of returning Bastila's equipped gear at the end of the Malak showdown
 	on the Leviathan, she now only equips a stunt saber if she doesn't already

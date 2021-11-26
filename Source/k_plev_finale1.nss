@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	Fired by lev40_darthmala2.dlg in lev_m40ac (Leviathan Hangar Bay).
+	Fired by lev40_carth.dlg in lev_m40ac (Leviathan Hangar Bay).
 	
 	Original script edit from KOTOR Bug Fix Attempt by danil-ch. Adds a grunt
 	for Malak during the showdown on the Leviathan.
