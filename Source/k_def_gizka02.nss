@@ -8,6 +8,11 @@
 	been slightly altered to cancel combat and clear off all VFX (like activated
 	energy shields) for all party members before the conversation starts.
 	
+	Updated 2021-11-27 to force Mission and Zaalbar's corpses to be permanent and
+	non-selectable, to prevent any loot double dipping if the player exits the
+	Hawk again. Necessitated a switch of checks for firing the post-death Bastila
+	conversation, since they now remain valid objects.
+	
 	See also cp_unk41_csface1, cp_unk41_csface2, cp_unk41_csface3, cp_unk41_csface4,
 	cp_unk41_csface5, cp_unk41_csface6, cp_unk41_misdies, cp_unk41_pause1s,
 	k_punk_carrun, k_punk_finale01, k_punk_finale02, k_punk_finale05, k_punk_finale06,
@@ -18,9 +23,8 @@
 	Issue #168: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/168
 	
-	DP 2021-11-23																*/
+	DP 2021-11-23 / DP 2021-11-27												*/
 //////////////////////////////////////////////////////////////////////////////////
-
 
 #include "k_inc_utility"
 
@@ -40,12 +44,27 @@ void main() {
 	object oMiss = GetObjectByTag("mission", 0);
 	object oZaal = GetObjectByTag("zaalbar", 0);
 	object oInvis = GetObjectByTag("invish", 0);
+	object oArea = GetArea(OBJECT_SELF);
 	int nUser = GetUserDefinedEventNumber();
 
 	if (nUser == 1001) // HEARTBEAT
 		{
-			if (!IsAvailableCreature(NPC_MISSION) && GetGlobalNumber("G_FinalChoice") == 1 && !GetIsObjectValid(oMiss) && !GetIsObjectValid(oZaal))
+			// If on the DS route and chose to kill Mission and Zaalbar, make their corpses permanent.
+			if (!GetLocalBoolean(oArea, 50) && !IsAvailableCreature(NPC_MISSION) && !IsAvailableCreature(NPC_ZAALBAR) && GetGlobalNumber("G_FinalChoice") == 1)
 				{
+					SetLocalBoolean(oArea, 50, TRUE);
+					
+					// Make Mission and Zaalbar's corpses permanent.
+					AssignCommand(oMiss, SetIsDestroyable(FALSE, FALSE, FALSE));
+					AssignCommand(oZaal, SetIsDestroyable(FALSE, FALSE, FALSE));
+				}
+			
+			// Once Mission and Zaalbar are dead, run the Bastila conversation and transition to the Hawk.
+			if (!GetLocalBoolean(oArea, 51) && !IsAvailableCreature(NPC_MISSION) && !IsAvailableCreature(NPC_ZAALBAR) && GetGlobalNumber("G_FinalChoice") == 1
+			&& GetIsDead(oMiss) && GetIsDead(oZaal))
+				{
+					SetLocalBoolean(oArea, 51, TRUE);
+					
 					SetPartyLeader(NPC_PLAYER);
 					
 					CP_ClearNPC(oPC);
