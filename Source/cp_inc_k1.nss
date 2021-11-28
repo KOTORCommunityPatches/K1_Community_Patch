@@ -564,7 +564,10 @@ void CP_DisableAI(int nState) {
 	is found, it will attempt to force them to initiate their DLG. If none
 	are present, it will proceed to the vanilla function (UT_SpawnMessenger).
 	
-	DP 2019-09-30                                                             */
+	Updated 2020-11-28 to correct the function (again) to finally work as
+	intended and properly initiate a scene with a pre-spawned messenger.
+	
+	DP 2019-09-30 / DP 2020-11-28                                             */
 ////////////////////////////////////////////////////////////////////////////////
 void CP_JumpMessenger() {
 	
@@ -577,51 +580,58 @@ void CP_JumpMessenger() {
 	object oXor = GetObjectByTag("g_xor", 0);
 	object oZiagrom = GetObjectByTag("g_Ziagrom", 0);
 	
-	if (!GetGlobalBoolean("K_MESS_JOLEE") && IsNPCPartyMember(NPC_JOLEE) && GetIsObjectValid(oDavin))
+	if (GetGlobalBoolean("K_MESS_JOLEE") && IsNPCPartyMember(NPC_JOLEE) && GetIsObjectValid(oDavin) && !GetLocalBoolean(OBJECT_SELF, 50))
 		{
 			NoClicksFor(0.6);
+			SetLocalBoolean(OBJECT_SELF, 50, TRUE);
 			SetCommandable(TRUE, oDavin);
 			AssignCommand(oDavin, ClearAllActions());
 			DelayCommand(0.5, AssignCommand(oDavin, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 		}
-		else if (!GetGlobalBoolean("K_MESS_CANDEROUS") && IsNPCPartyMember(NPC_CANDEROUS) && GetIsObjectValid(oJagi))
+		else if (GetGlobalBoolean("K_MESS_CANDEROUS") && IsNPCPartyMember(NPC_CANDEROUS) && GetIsObjectValid(oJagi) && !GetLocalBoolean(OBJECT_SELF, 51))
 			{
 				NoClicksFor(0.6);
+				SetLocalBoolean(OBJECT_SELF, 51, TRUE);
 				SetCommandable(TRUE, oJagi);
 				AssignCommand(oJagi, ClearAllActions());
 				DelayCommand(0.5, AssignCommand(oJagi, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 			}
-			else if (!GetGlobalBoolean("K_MESS_CARTH") && IsNPCPartyMember(NPC_CARTH) && GetIsObjectValid(oJordo))
+			else if (GetGlobalBoolean("K_MESS_CARTH") && IsNPCPartyMember(NPC_CARTH) && GetIsObjectValid(oJordo) && !GetLocalBoolean(OBJECT_SELF, 52))
 				{
 					NoClicksFor(0.6);
+					SetLocalBoolean(OBJECT_SELF, 52, TRUE);
 					SetCommandable(TRUE, oJordo);
 					AssignCommand(oJordo, ClearAllActions());
 					DelayCommand(0.5, AssignCommand(oJordo, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 				}
-				else if (!GetGlobalBoolean("K_MESS_MISSION") && IsNPCPartyMember(NPC_MISSION) && GetIsObjectValid(oLena))
+				else if (GetGlobalBoolean("K_MESS_MISSION") && IsNPCPartyMember(NPC_MISSION) && GetIsObjectValid(oLena) && !GetLocalBoolean(OBJECT_SELF, 53))
 					{
 						NoClicksFor(0.6);
+						SetLocalBoolean(OBJECT_SELF, 53, TRUE);
 						SetCommandable(TRUE, oLena);
 						AssignCommand(oLena, ClearAllActions());
 						DelayCommand(0.5, AssignCommand(oLena, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 					}
-					else if (!GetGlobalBoolean("K_MESS_BASTILA") && IsNPCPartyMember(NPC_BASTILA) && GetIsObjectValid(oMalare))
+					else if (GetGlobalBoolean("K_MESS_BASTILA") && IsNPCPartyMember(NPC_BASTILA) && GetIsObjectValid(oMalare) && !GetLocalBoolean(OBJECT_SELF, 54))
 						{
 							NoClicksFor(0.6);
+							SetLocalBoolean(OBJECT_SELF, 54, TRUE);
 							SetCommandable(TRUE, oMalare);
 							AssignCommand(oMalare, ClearAllActions());
 							DelayCommand(0.5, AssignCommand(oMalare, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 						}
-						else if (!GetGlobalBoolean("K_MESS_JUHANI") && IsNPCPartyMember(NPC_JUHANI) && GetIsObjectValid(oXor))
+						else if (GetGlobalBoolean("K_MESS_JUHANI") && IsNPCPartyMember(NPC_JUHANI) && GetIsObjectValid(oXor) && !GetLocalBoolean(OBJECT_SELF, 55))
 							{
 								NoClicksFor(0.6);
+								SetLocalBoolean(OBJECT_SELF, 55, TRUE);
 								SetCommandable(TRUE, oXor);
 								AssignCommand(oXor, ClearAllActions());
 								DelayCommand(0.5, AssignCommand(oXor, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 							}
-							else if (!GetGlobalBoolean("K_MESS_ZIAGROM") && GetIsObjectValid(oZiagrom))
+							else if (GetGlobalBoolean("K_MESS_ZIAGROM") && GetIsObjectValid(oZiagrom) && !GetLocalBoolean(OBJECT_SELF, 56))
 								{
 									NoClicksFor(0.6);
+									SetLocalBoolean(OBJECT_SELF, 56, TRUE);
 									SetCommandable(TRUE, oZiagrom);
 									AssignCommand(oZiagrom, ClearAllActions());
 									DelayCommand(0.5, AssignCommand(oZiagrom, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
