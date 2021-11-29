@@ -66,7 +66,8 @@ void CP_JumpMessenger();
 // Duplicates an NPC's equipment in the desired slots into the player's inventory.
 void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap = TRUE, int nHead = TRUE, int nTorso = TRUE, int nGloves = TRUE, int nRShield = TRUE, int nLShield = TRUE, int nImplant = TRUE, int nBelt = TRUE);
 
-
+// Commands an NPC to perform an uninterruptible move to a given location and face the associated direction.
+void CP_ReturnToBase(location lLoc, int nRun = FALSE);
 
 ////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
@@ -713,4 +714,23 @@ void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap =
 		{
 			CreateItemOnObject(GetTag(oNPC_Belt), oGive, 1);
 		}
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_ReturnToBase()
+	
+	Forces an NPC to return to a specific location and face in that direction.
+	Intended for having NPCs return to their starting point post-combat, or
+	after a cutscene. Modified after TAR_PlotMoveObject in k_inc_tar, using a
+	location instead of an object and adding in a facing command.
+	
+	DP 2021-11-29                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_ReturnToBase(location lLoc, int nRun = FALSE) {
+	ClearAllActions();
+	ActionMoveToLocation(lLoc, nRun);
+	ActionDoCommand(SetFacing(GetFacingFromLocation(lLoc)));
+	ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.1);
+	ActionDoCommand(SetCommandable(TRUE));
+	SetCommandable(FALSE);
 }
