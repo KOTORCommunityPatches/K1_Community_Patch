@@ -10,8 +10,12 @@
 	vaporators, and includes the Sand People reputation fix so it gets set correctly
 	on module load.
 	
-	Issue #21: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/21
+	Updated 2021/11/29 to remove the delay from the Griff spawning function (used in
+	the vanilla function) after experiencing a repeated spawning of Griff and his
+	guards. Griff function moved out to include.
+	
+	Issue #6: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/6
 	
 	Issue #217: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/217
@@ -19,26 +23,19 @@
 	Issue #293: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/293
 	
-	AFP ??? / JC 2019-09-29 / DP 2019-10-06 / DP 2020-06-15						*/
+	Issue #512: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/512
+	
+	AFP ??? / JC 2019-09-29 / DP 2019-10-06 / DP 2020-06-15 / DP 2021/11/29		*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_tat"
-
-void SpawnGriff() {
-	
-	CreateObject(OBJECT_TYPE_CREATURE, "tat20_griff", GetLocation(GetWaypointByTag("tat20_wp_griff")));
-	CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 0)));
-	CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 1)));
-	CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 2)));
-	CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 3)));
-}
 
 void main() {
 	
 	object oPC = GetFirstPC();
 	object oVaporator = GetItemPossessedBy(oPC, "tat17_vaporator");
 	object oChief = GetObjectByTag("tat20_09chief_01", 0);
-	int SW_PLOT_BOOLEAN_01 = 0;
 	
 	SetGlobalNumber("tat_AreaLocator", 4);
 	
@@ -49,15 +46,7 @@ void main() {
 			DelayCommand(0.5, AssignCommand(oChief, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 		}
 	
-	// Original vanilla Griff check which could fail.
-	//if (GetGlobalNumber("Mis_MissionTalk") == 9 && GetGriffSpawnLocal() == FALSE)
-	if (GetGlobalNumber("Mis_MissionTalk") == 9 && !GetIsObjectValid(GetObjectByTag("tat20_griff")))
-		{
-			// SetGriffSpawnLocal(TRUE);
-			// Still set the boolean in case it is used elsewhere, but cut out extraneous include guff.
-			SetLocalBoolean(OBJECT_SELF, SW_PLOT_BOOLEAN_01, TRUE);
-			DelayCommand(1.0, SpawnGriff());
-		}
+	CP_SpawnGriff();
 	
 	CP_SandRepFix();
 }
