@@ -107,6 +107,7 @@
 * Made sure that Bastila returned all her gear at the end of the Malak showdown scene in the Leviathan Hangar Bay 
 * Tweaked the final cutscene in the Leviathan Hangar Bay to slow down the PC and fade-out sooner
 * Adjusted the return to base function of the Hidden Bek door guard in Taris Lower City to ensure she adopted her original facing
+* Made the Czerka miners next to the sandcrawler in the Tatooine Dune Sea return to their starting points after the Sand People attack is over
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
