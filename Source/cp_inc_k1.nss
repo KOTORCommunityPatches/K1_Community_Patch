@@ -564,10 +564,16 @@ void CP_DisableAI(int nState) {
 	is found, it will attempt to force them to initiate their DLG. If none
 	are present, it will proceed to the vanilla function (UT_SpawnMessenger).
 	
-	Updated 2020-11-28 to correct the function (again) to finally work as
-	intended and properly initiate a scene with a pre-spawned messenger.
+	Updated 2020-11-29 to correct the function (again) to finally work as
+	intended and properly initiate a scene with a stranded messenger without
+	accidentally re-triggering an already properly completed conversation.
 	
-	DP 2019-09-30 / DP 2020-11-28                                             */
+	See also k_messenger_plot.
+	
+	Issue #262: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/262
+	
+	DP 2019-09-30 / DP 2021-11-29                                             */
 ////////////////////////////////////////////////////////////////////////////////
 void CP_JumpMessenger() {
 	
@@ -580,7 +586,7 @@ void CP_JumpMessenger() {
 	object oXor = GetObjectByTag("g_xor", 0);
 	object oZiagrom = GetObjectByTag("g_Ziagrom", 0);
 	
-	if (GetGlobalBoolean("K_MESS_JOLEE") && IsNPCPartyMember(NPC_JOLEE) && GetIsObjectValid(oDavin) && !GetLocalBoolean(OBJECT_SELF, 50))
+	if (GetGlobalBoolean("K_MESS_JOLEE") && IsNPCPartyMember(NPC_JOLEE) && GetIsObjectValid(oDavin) && !GetIsInConversation(oDavin) && !GetLocalBoolean(OBJECT_SELF, 50) && !GetLocalBoolean(oDavin, 50))
 		{
 			NoClicksFor(0.6);
 			SetLocalBoolean(OBJECT_SELF, 50, TRUE);
@@ -588,7 +594,7 @@ void CP_JumpMessenger() {
 			AssignCommand(oDavin, ClearAllActions());
 			DelayCommand(0.5, AssignCommand(oDavin, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 		}
-		else if (GetGlobalBoolean("K_MESS_CANDEROUS") && IsNPCPartyMember(NPC_CANDEROUS) && GetIsObjectValid(oJagi) && !GetLocalBoolean(OBJECT_SELF, 51))
+		else if (GetGlobalBoolean("K_MESS_CANDEROUS") && IsNPCPartyMember(NPC_CANDEROUS) && GetIsObjectValid(oJagi) && !GetIsInConversation(oJagi) && !GetLocalBoolean(OBJECT_SELF, 51) && !GetLocalBoolean(oJagi, 50))
 			{
 				NoClicksFor(0.6);
 				SetLocalBoolean(OBJECT_SELF, 51, TRUE);
@@ -596,7 +602,7 @@ void CP_JumpMessenger() {
 				AssignCommand(oJagi, ClearAllActions());
 				DelayCommand(0.5, AssignCommand(oJagi, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 			}
-			else if (GetGlobalBoolean("K_MESS_CARTH") && IsNPCPartyMember(NPC_CARTH) && GetIsObjectValid(oJordo) && !GetLocalBoolean(OBJECT_SELF, 52))
+			else if (GetGlobalBoolean("K_MESS_CARTH") && IsNPCPartyMember(NPC_CARTH) && GetIsObjectValid(oJordo) && !GetIsInConversation(oJordo) && !GetLocalBoolean(OBJECT_SELF, 52) && !GetLocalBoolean(oJordo, 50))
 				{
 					NoClicksFor(0.6);
 					SetLocalBoolean(OBJECT_SELF, 52, TRUE);
@@ -604,7 +610,7 @@ void CP_JumpMessenger() {
 					AssignCommand(oJordo, ClearAllActions());
 					DelayCommand(0.5, AssignCommand(oJordo, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 				}
-				else if (GetGlobalBoolean("K_MESS_MISSION") && IsNPCPartyMember(NPC_MISSION) && GetIsObjectValid(oLena) && !GetLocalBoolean(OBJECT_SELF, 53))
+				else if (GetGlobalBoolean("K_MESS_MISSION") && IsNPCPartyMember(NPC_MISSION) && GetIsObjectValid(oLena) && !GetIsInConversation(oLena) && !GetLocalBoolean(OBJECT_SELF, 53) && !GetLocalBoolean(oLena, 50))
 					{
 						NoClicksFor(0.6);
 						SetLocalBoolean(OBJECT_SELF, 53, TRUE);
@@ -612,7 +618,7 @@ void CP_JumpMessenger() {
 						AssignCommand(oLena, ClearAllActions());
 						DelayCommand(0.5, AssignCommand(oLena, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 					}
-					else if (GetGlobalBoolean("K_MESS_BASTILA") && IsNPCPartyMember(NPC_BASTILA) && GetIsObjectValid(oMalare) && !GetLocalBoolean(OBJECT_SELF, 54))
+					else if (GetGlobalBoolean("K_MESS_BASTILA") && IsNPCPartyMember(NPC_BASTILA) && GetIsObjectValid(oMalare) && !GetIsInConversation(oMalare) && !GetLocalBoolean(OBJECT_SELF, 54) && !GetLocalBoolean(oMalare, 50))
 						{
 							NoClicksFor(0.6);
 							SetLocalBoolean(OBJECT_SELF, 54, TRUE);
@@ -620,7 +626,7 @@ void CP_JumpMessenger() {
 							AssignCommand(oMalare, ClearAllActions());
 							DelayCommand(0.5, AssignCommand(oMalare, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 						}
-						else if (GetGlobalBoolean("K_MESS_JUHANI") && IsNPCPartyMember(NPC_JUHANI) && GetIsObjectValid(oXor) && !GetLocalBoolean(OBJECT_SELF, 55))
+						else if (GetGlobalBoolean("K_MESS_JUHANI") && IsNPCPartyMember(NPC_JUHANI) && GetIsObjectValid(oXor) && !GetIsInConversation(oXor) && !GetLocalBoolean(OBJECT_SELF, 55) && !GetLocalBoolean(oXor, 50))
 							{
 								NoClicksFor(0.6);
 								SetLocalBoolean(OBJECT_SELF, 55, TRUE);
@@ -628,7 +634,7 @@ void CP_JumpMessenger() {
 								AssignCommand(oXor, ClearAllActions());
 								DelayCommand(0.5, AssignCommand(oXor, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 							}
-							else if (GetGlobalBoolean("K_MESS_ZIAGROM") && GetIsObjectValid(oZiagrom) && !GetLocalBoolean(OBJECT_SELF, 56))
+							else if (GetGlobalBoolean("K_MESS_ZIAGROM") && GetIsObjectValid(oZiagrom) && !GetIsInConversation(oZiagrom) && !GetLocalBoolean(OBJECT_SELF, 56) && !GetLocalBoolean(oZiagrom, 50))
 								{
 									NoClicksFor(0.6);
 									SetLocalBoolean(OBJECT_SELF, 56, TRUE);
