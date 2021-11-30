@@ -343,6 +343,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
 * The war droids used by Selkath security during the arrest outside the Sith base in Manaan Ahto East looked identical to the Sith droids [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
+* The white commoner female head (e.g. Belaya) had extremely pointy ear lobes [ISSUE #503](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/503)
 * The witnesses in the Sunry murder trial in Manaan Ahto West had different appearances than the first time you meet them (Reported by KnifeMaster) [ISSUE #318](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/318)
 * There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 * There is a visible gap in the wall behind the beds in the Taris Upper City hideout [ISSUE #231](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/231)
