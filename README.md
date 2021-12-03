@@ -284,6 +284,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The injured Wookiee in the Kashyyyk Lower Shadowlands had some inconsistencies with the scripts related to healing him [ISSUE #486](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/486)
 * The interrogation of the prisoner in the Manaan Republic Embassy had various facing issues, problems with the force cage visibility in certain camera angles, and a line that skipped [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
 * The introductory cutscene for the Tomb of Naga Sadow on Korriban had a long delay at the start and facing issues between Uthar and Yuthura (With input from ebmar) [ISSUE #167](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167)
+* The Jagi that appeared in the Tatooine Dune Sea was a stunt double that didn't update the quest correctly [ISSUE #518](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/518)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 * The Jorak Uln encounter in the Korriban Tomb of Tulak Hord had various cosmetic issues and occasionally missing companions [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The lamps in the Unknown World Temple interior could appear black in certain spots due to no inherent lightmapping and had some geometry holes [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
@@ -495,9 +496,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### Leilukin:
 * Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
-
-### LiliArch:
-* Canderous's personal quest is bugged
 
 ### Markus Ramikin:
 * If you've talked with Bastila after kissing her, some dialog isn't available on the Rakatan Temple: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)

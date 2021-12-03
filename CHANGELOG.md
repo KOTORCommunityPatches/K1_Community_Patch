@@ -109,6 +109,7 @@
 * Adjusted the return to base function of the Hidden Bek door guard in Taris Lower City to ensure she adopted her original facing
 * Made the Czerka miners next to the sandcrawler in the Tatooine Dune Sea return to their starting points after the Sand People attack is over
 * Edited the white commoner female head model (e.g. Belaya) to make the ear lobes less prominent
+* Made sure the correct version of Jagi spawns in the Tatooine Dune Sea for the showdown with Canderous
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -125,6 +126,7 @@
 * Patched some remaining holes still visible in the Ebon Hawk in the Leviathan Hangar Bay
 * Added an equipment duplication function to the K1CP include
 * Extended the existing powered saber blade overrides in the Malak showdown scene in the Leviathan Hangar Bay to include the player
+* Removed previous Jagi quest fix on Tatooine, since it wasn't actually doing anything
 
 ## v1.8 - December 02, 2019
 ### Additions
