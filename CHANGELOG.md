@@ -127,6 +127,7 @@
 * Added an equipment duplication function to the K1CP include
 * Extended the existing powered saber blade overrides in the Malak showdown scene in the Leviathan Hangar Bay to include the player
 * Removed previous Jagi quest fix on Tatooine, since it wasn't actually doing anything
+* Revised Saul Karath model to use the vanilla talk animation to prevent odd deformation
 
 ## v1.8 - December 02, 2019
 ### Additions
