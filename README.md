@@ -545,7 +545,7 @@ These are the currently known bugs/issues with KOTOR or the mod that the K1CP is
 
 https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues
 
-If you find any others, please report them.
+Please report any bugs or other problems on the Github issue page or Deadly Stream.
 
 https://deadlystream.com/files/file/1258-kotor-1-community-patch
 
@@ -554,15 +554,19 @@ Due to this mod being a compilation from many different authors, please do not d
 
 You may, however, do whatever you want with any of A Future Pilot's fixes with or without credit (though AFP would appreciate credit if you can).
 
-## 7. Credits:
-* All of the mod authors who have helped make this patch a reality - Thank you! Especially for agreeing to wider distribution outside of Deadly Stream.
-* Fred Tetra - For KOTOR Tool.
-* Stoffe - For TSLPatcher.
-* bead-v - For MDLEdit and KOTORMax.
-* ndix UR - For TGA2TPC and TPCView.
-* Fair Strides - For various tools and updates to older tools.
-* Snigaroo - For maintaining mod lists on the /r/kotor subreddit, and for putting up with AFP's many recommendations.
-* danil-ch - For the original info.rtf template.
-* Many thanks to ebmar, Salk, and KnifeMaster for providing numerous bug reports and beta testing certain fixes.
+## 7. Special Thanks/Acknowledgements:
+* All of the mod authors who have helped make this patch a reality - thank you! - especially for agreeing to distribution outside of Deadly Stream
+* Fred Tetra - For KOTOR Tool
+* tk102 - For DLGEditor and K-GFF
+* JdNoa/Dashus - For DeNCS
+* Stoffe - For TSLPatcher
+* bead-v - For MDLEdit and KOTORMax
+* ndix UR - For TGA2TPC, TPCView, and MDLOps v1.0+
+* seedhartha - For KOTORBlender fork for Blender 2.8+
+* Fair Strides - For various tools and updates to older tools
+* DrMcCoy - For Xoreos Tools
+* Snigaroo - For maintaining mod builds on the /r/kotor subreddit
+* danil-ch - For the original info.rtf template
+* Many thanks to ebmar, Salk, and KnifeMaster for providing numerous bug reports and beta testing certain fixes
 
 **THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/OBSIDIAN ENTERTAINMENT OR LUCASARTS OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
