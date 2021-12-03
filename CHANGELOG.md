@@ -110,6 +110,7 @@
 * Made the Czerka miners next to the sandcrawler in the Tatooine Dune Sea return to their starting points after the Sand People attack is over
 * Edited the white commoner female head model (e.g. Belaya) to make the ear lobes less prominent
 * Made sure the correct version of Jagi spawns in the Tatooine Dune Sea for the showdown with Canderous
+* Gave Malak his unique saber for all his cutscenes on the Star Forge where he had a generic hilt
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

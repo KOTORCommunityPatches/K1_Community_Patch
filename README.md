@@ -132,6 +132,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Completing the Promised Land quest in the Taris Undercity could leave the Infected Outcasts quest unresolvable (Reported by unknown Reddit user) [ISSUE #439](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/439)
 * Conversations with the Chieftain in the Tatooine Sand People Enclave had various facing issues due to party positioning [ISSUE #293](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
+* Darth Malak misplaced his unique lightsaber for all his cutscenes on the Star Forge Decks 1, 2, and 3 [ISSUE #533](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/533)
 * During the arrest outside the Sith base in Manaan Ahto East, party members could end up standing in front of the player [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
 * During the initial conversation with The One on the Unknown World, he would speak one of his lines off-screen [ISSUE #339](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/339)
 * During the initial cutscene of the showdown on the Leviathan Bridge, the party members would insist on looking at the floor (Reported by Salk) [ISSUE #417](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/417)
