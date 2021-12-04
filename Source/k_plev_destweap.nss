@@ -10,12 +10,16 @@
 	player. If she has it, the stunt saber is destroyed first to make sure it
 	isn't accidentally given to the player.
 	
+	Updated 2021/12/04 to power down Bastila and Malak's sabers to prevent them
+	being heard in the background manually powering down during Carth's subsequent
+	dialogue.
+	
 	See also k_plev_bastatk, k_plev_finale1, k_plev_malakmov2, k_plev_pause.
 	
 	Issue #419: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/419
 	
-	DP 2021/11/26																*/
+	DP 2021/11/26 / DP 2021/12/04												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 void CP_GiveEquipment(object oNPC) {
@@ -47,11 +51,9 @@ void main() {
 	
 	NoClicksFor(3.25);
 	
-	CancelCombat(oMalak);
-	AssignCommand(oMalak, ClearAllActions());
-	
-	CancelCombat(oBastila);
-	AssignCommand(oBastila, ClearAllActions());
+	// Force Malak and Bastila's sabers to be powered down so you don't hear them in the background.
+	SetLightsaberPowered(oBastila, TRUE, FALSE, FALSE);
+	SetLightsaberPowered(oMalak, TRUE, FALSE, FALSE);
 	
 	// Destroy Bastila's stunt weapon, if applicable.
 	DelayCommand(1.0, DestroyObject(oBastSaber));
