@@ -112,6 +112,7 @@
 * Made sure the correct version of Jagi spawns in the Tatooine Dune Sea for the showdown with Canderous
 * Gave Malak his unique saber for all his cutscenes on the Star Forge where he had a generic hilt
 * Tweaked initial cutscene for the injured Wookiee in the Kashyyyk Lower Shadowlands and destroyed the Mando datapads at quest conclusion
+* Removed extra synthesised odours and the Bek datapad once the Rancor in the Taris Upper Sewers has been dealt with
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
