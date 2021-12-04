@@ -113,6 +113,7 @@
 * Gave Malak his unique saber for all his cutscenes on the Star Forge where he had a generic hilt
 * Tweaked initial cutscene for the injured Wookiee in the Kashyyyk Lower Shadowlands and destroyed the Mando datapads at quest conclusion
 * Removed extra synthesised odours and the Bek datapad once the Rancor in the Taris Upper Sewers has been dealt with
+* Jumped player and Trask and adjusted camera for level-up conversation on the bridge of the Endar Spire Command Module
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
