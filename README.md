@@ -400,6 +400,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When talking to Freyyr in the Kashyyyk Lower Shadowlands, some of the companion interjections could be spoken off-screen [ISSUE #269](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/269)
 * When talking to Greeta about Griff in the Tatooine Czerka Office, Mission could skate along the floor during her interjection [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
+* Xor's final encounter was extremely buggy, prone to ending in an unresolvable broken state (Reported by Yulaw9460) [ISSUE #397](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/397)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
 * Zaalbar's return to the party on Kashyyyk briefly revealed his stunt double (Reported by StellarExile and ancient-animal) [ISSUE #460](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/460)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
@@ -494,7 +495,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Several quests aren't properly ended if you are banned from Manaan: [Proper Manaan Quest Endings 1.0](http://deadlystream.com/forum/files/file/557-proper-manaan-quest-endings/)
 * If doing Juhani’s dialog in the wrong order, it was possible to block any further progress
 * The second Xor encounter is unavailable on Tatooine
-* The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in the party
 
 ### KOTOR 1 Restoration Team:
 * Bastila would not show you the fourth vision if you travelled to all four planets before the Leviathan [K1R](https://deadlystream.com/files/file/558-kotor-1-restoration/) [ISSUE #10](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/10)

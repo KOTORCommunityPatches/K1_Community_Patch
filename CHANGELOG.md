@@ -114,6 +114,7 @@
 * Tweaked initial cutscene for the injured Wookiee in the Kashyyyk Lower Shadowlands and destroyed the Mando datapads at quest conclusion
 * Removed extra synthesised odours and the Bek datapad once the Rancor in the Taris Upper Sewers has been dealt with
 * Jumped player and Trask and adjusted camera for level-up conversation on the bridge of the Endar Spire Command Module
+* Made adjustments to final Xor encounter to (hopefully) prevent it being left in a broken state
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -132,6 +133,7 @@
 * Extended the existing powered saber blade overrides in the Malak showdown scene in the Leviathan Hangar Bay to include the player
 * Removed previous Jagi quest fix on Tatooine, since it wasn't actually doing anything
 * Revised Saul Karath model to use the vanilla talk animation to prevent odd deformation
+* Replaced previous trigger script fix for Xor final encounter with an all-new implementation
 
 ## v1.8 - December 02, 2019
 ### Additions
