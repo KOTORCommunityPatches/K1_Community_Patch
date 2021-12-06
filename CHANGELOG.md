@@ -136,6 +136,7 @@
 * Replaced previous trigger script fix for Xor final encounter with an all-new implementation
 * Corrected the Casus-related nodes in the replacement DLG for the droid in the Dantooine Sandral Grounds
 * Added hide masks and weapons flags to the pre-swoop race scenes on Taris
+* Tweaked the Dantooine Ruins scenes with the Overseer droid and Star Map to remove Force Speed, prevent player freezing, and stop Bastila looking at the ground
 
 ## v1.8 - December 02, 2019
 ### Additions

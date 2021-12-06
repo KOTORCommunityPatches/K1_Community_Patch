@@ -12,6 +12,10 @@
 	Updated 2019-10-27 to remove the player's orientation locking and tweak the
 	facing angles to minimise some undesirable camera angles.
 	
+	Updated 2020-12-06 to remove Force Speed from the player and Bastila, if it
+	is present, to prevent them walking too quickly. Also switched to the include
+	function for disabling AI (removed requirement for k_inc_generic).
+	
 	See also k_pdan_guard04.
 	
 	Issue #105: 
@@ -20,11 +24,10 @@
 	Issue #152: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/152
 	
-	DP 2019-07-31																*/
+	DP 2019-07-31 / DP 2021-12-06												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
-#include "k_inc_generic"
 
 void main() {
 	
@@ -35,10 +38,16 @@ void main() {
 	location lBast = Location(Vector(148.181,132.0,4.417), 135.0);
 	location lPM2 = Location(Vector(146.981,129.0,4.417), 90.0);
 	
+	// Strip off Force Speed, if present, to prevent power walking.
+	AssignCommand(oPC, ClearAllEffects());
+	AssignCommand(oBast, ClearAllEffects());
+	
 	CP_PartyMove(oPC, lPC, FALSE);
 	DelayCommand(0.5, AssignCommand(oPC, ActionDoCommand(SetFacing(45.0))));
+	DelayCommand(0.6, AssignCommand(oPC, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 1.0)));
 	
-	SetLocalBoolean(oBast, SW_FLAG_AI_OFF, TRUE);
+	// Disable Bastila's AI.
+	AssignCommand(oBast, CP_DisableAI(TRUE));
 	
 	CP_PartyMove(oBast, lBast, FALSE);
 	DelayCommand(0.5, AssignCommand(oBast, ActionDoCommand(SetFacing(135.0))));

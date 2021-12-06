@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by cp_dan15_starmap.dlg in danm15 (Dantooine Ruins).
@@ -8,13 +8,18 @@
 	setting some globals and making the Star Map play its animations. It now also
 	positions the party in front of the map for the following conversation.
 	
-	See also k_pdan_cut50, k_pdan_cut51, k_pdan_starmap05, and cp_dan15_facemap.
+	Updated 2020-12-06 to jump the party to the Star Map under the cover of the
+	static camera focused on the map animation rather than waiting for them to
+	walk to it.
+	
+	See also cp_dan15_facemap, cp_dan15_mapstrt, k_pdan_cut50, k_pdan_cut51,
+	k_pdan_starmap05.
 	
 	Issue #105: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105
 	
-	DP 2019-08-01                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-08-01 / DP 2021-12-06												*/
+//////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
 
@@ -22,7 +27,6 @@ void main() {
 	
 	object oPC = GetFirstPC();
 	object oBast = GetObjectByTag("bastila", 0);
-	object oPM1 = CP_GetPartyMember(1);
 	object oPM2 = CP_GetPartyMember(2);
 	object oStarmap = GetObjectByTag("dan15_starmap", 0);
 	location lPC = Location(Vector(146.129,187.5,4.417), 55.0);
@@ -44,23 +48,12 @@ void main() {
 	AssignCommand(oStarmap, ActionPlayAnimation(ANIMATION_PLACEABLE_ACTIVATE));
 	AssignCommand(oStarmap, ActionPlayAnimation(ANIMATION_PLACEABLE_ANIMLOOP01));
 	
-	AssignCommand(oPC, ClearAllActions());
-	AssignCommand(oPC, ActionMoveToLocation(lPC, FALSE));
+	CP_PartyJump(oPC, lPC);
+	CP_PartyJump(oBast, lBast);
 	
-	AssignCommand(oBast, ClearAllActions());
-	AssignCommand(oBast, ActionMoveToLocation(lBast, FALSE));
-	
-	if (GetTag(oPM1) != "bastila")
-		{
-			AssignCommand(oPM1, ClearAllActions());
-			AssignCommand(oPM1, ActionMoveToLocation(lPM2, FALSE));
-		}
-	
-	if (GetTag(oPM2) != "bastila")
-		{
-			AssignCommand(oPM2, ClearAllActions());
-			AssignCommand(oPM2, ActionMoveToLocation(lPM2, FALSE));
-		}
+	// Since Bastila will always be returned as PM1 by the CP_GetPartyMember Include function due
+	// to the alphabetical order of the NPC IDs, we can simply call PM2 with no further checks.
+	CP_PartyJump(oPM2, lPM2);
 	
 	DelayCommand(6.0, ActionResumeConversation());
 }
