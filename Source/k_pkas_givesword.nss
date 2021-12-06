@@ -13,12 +13,18 @@
 	operations is switched, and stunt Zaalbar is jumped into a side bay to keep him
 	out of sight while he is being knocked on the head.
 	
+	Updated 2020-12-06 to give Freyyr a facing command to make sure he isn't left
+	facing off to one side post-conversation due to his lines with Zaalbar.
+	
 	See also cp_kas23_zaaladd, k_pkas_chuunrew.
+	
+	Issue #121: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/121
 	
 	Issue #460: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/460
 	
-	DP 2021-01-12																*/
+	DP 2021-01-12 / DP 2021-12-06												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -26,9 +32,14 @@
 void main() {
 	
 	object oStuntZaal = GetObjectByTag("Zaalbar", 0);
+	object oFreyyr = GetObjectByTag("kas23_freyyr_01", 0);
 	location lWoodshed = Location(Vector(33.40,8.82,3.75), 51.33);
 	
 	SetGlobalFadeOut();
+	
+	AssignCommand(oFreyyr, ClearAllActions());
+	AssignCommand(oFreyyr, SetFacing(56.25));
+	DelayCommand(0.2, AssignCommand(oFreyyr, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 1.0)));
 	
 	SetGlobalBoolean("tat_ZaalbarTaken", FALSE);
 	SetNPCSelectability(NPC_ZAALBAR, TRUE);
