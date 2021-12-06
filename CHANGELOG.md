@@ -135,6 +135,7 @@
 * Revised Saul Karath model to use the vanilla talk animation to prevent odd deformation
 * Replaced previous trigger script fix for Xor final encounter with an all-new implementation
 * Corrected the Casus-related nodes in the replacement DLG for the droid in the Dantooine Sandral Grounds
+* Added hide masks and weapons flags to the pre-swoop race scenes on Taris
 
 ## v1.8 - December 02, 2019
 ### Additions
