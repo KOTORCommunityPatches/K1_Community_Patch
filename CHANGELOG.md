@@ -115,6 +115,7 @@
 * Removed extra synthesised odours and the Bek datapad once the Rancor in the Taris Upper Sewers has been dealt with
 * Jumped player and Trask and adjusted camera for level-up conversation on the bridge of the Endar Spire Command Module
 * Made adjustments to final Xor encounter to (hopefully) prevent it being left in a broken state
+* Herded party for the scene with Chorrawl in the Kashyyyk Great Walkway after having agreed to help Freyyr
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
