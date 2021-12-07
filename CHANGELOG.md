@@ -139,6 +139,7 @@
 * Corrected the Casus-related nodes in the replacement DLG for the droid in the Dantooine Sandral Grounds
 * Added hide masks and weapons flags to the pre-swoop race scenes on Taris
 * Tweaked the Dantooine Ruins scenes with the Overseer droid and Star Map to remove Force Speed, prevent player freezing, and stop Bastila looking at the ground
+* Corrected Carth's facing, hid masks and weapons, and tried to prevent the three Troopers failing to turn up during/after Saul's second cutscene on the Leviathan Bridge
 
 ## v1.8 - December 02, 2019
 ### Additions
