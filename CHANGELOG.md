@@ -142,6 +142,7 @@
 * Corrected Carth's facing, hid masks and weapons, and tried to prevent the three Troopers failing to turn up during/after Saul's second cutscene on the Leviathan Bridge
 * Hid masks and weapons in the Jorak Uln scenes in the Korriban Tomb of Tulak Hord
 * Tweaked Czerka Rep and Griff's conversations in the Tatooine Czerka Office
+* Jumped party for subsequent Nilko Bwaas conversation in Manaan Ahto West
 
 ## v1.8 - December 02, 2019
 ### Additions
