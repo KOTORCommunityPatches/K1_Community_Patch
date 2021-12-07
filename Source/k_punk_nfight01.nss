@@ -8,6 +8,9 @@
 	the beach. The vanilla waypoints left the PC far ahead of the other two party
 	members and out of shot, so the party has been wrangled into better positions.
 	
+	Updated 2021-12-07 to remove Force Speed from the party in order not to mess
+	up the shot timings and reduced the shot length.
+	
 	See also k_punk_nfight05, k_punk_nfight06.
 	
 	Issue #168: 
@@ -31,10 +34,17 @@ void main() {
 	
 	SetGlobalFadeIn(0.0, 0.75);
 	
-	CP_PartyMove(oPC, lPC);
-	DelayCommand(0.5, CP_PartyMove(oPM1, lPM1));
-	DelayCommand(0.75, CP_PartyMove(oPM2, lPM2));
+	NoClicksFor(3.0);
 	
-	ActionWait(4.25);
+	// Strip off Force Speed.
+	AssignCommand(oPC, ClearAllEffects());
+	AssignCommand(oPM1, ClearAllEffects());
+	AssignCommand(oPM2, ClearAllEffects());
+	
+	CP_PartyMove(oPC, lPC);
+	CP_PartyMove(oPM1, lPM1);
+	CP_PartyMove(oPM2, lPM2);
+	
+	ActionWait(3.0);
 	ActionResumeConversation();
 }
