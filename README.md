@@ -197,6 +197,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * One of the seated officers on Dodonna's capital ship was levitating next to their chair (Reported by Kexikus) [ISSUE #187](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/187)
 * One of the thugs working for Hulas liked the boss a little too much, wearing the same outfit (Reported by Salk) [ISSUE #399](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/399)
 * One of the trees just outside the Wookiee village in the Kashyyyk Great Walkway had a gap in its trunk (Reported by Kexikus) [ISSUE #415](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/415)
+* One of the wall textures in the Taris Hidden Bek Base had a noticeable seam where it tiled [ISSUE #496](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/496)
 * Players using the female head PFHC05 could see some clipping of the ponytail during the final portion of the revelation cutscene (Reported by LiliArch) [ISSUE #390](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/390)
 * Repeatedly asking Yuthura about the Sith Code in the Korriban Sith Academy lead to an infinite XP exploit (Reported by TriWald3) [ISSUE #413](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/413)
 * Shaardan's corpse could lay around stinking up the place while getting ready for the final trial in the Korriban Sith Academy [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
