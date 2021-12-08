@@ -239,6 +239,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the Rancor in the Taris Upper Sewers lacked a proper speaker tag, resulting the corpse pile snorting (Reported by agreydawn) [ISSUE #418](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/418)
 * The cutscene of the survivor being eaten by a Firaxan shark on the Manaan sea floor had a few technical issues [ISSUE #143](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/143)
+* The cutscene with Calo Nord on the Leviathan Bridge ended abruptly [ISSUE #509](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/509)
 * The Czerka miners next to the sandcrawler in the Tatooine Dune Sea could end up out of position after the Sand People attach was over [ISSUE #510](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/510)
 * The Czerka miners next to the sandcrawler in the Tatooine Dune Sea never leave, despite saying they will soon (Suggested by ebmar) [ISSUE #115](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/115)
 * The dais in Davik's throne room had some unsightly lightmap artefacts [ISSUE #97](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/97)

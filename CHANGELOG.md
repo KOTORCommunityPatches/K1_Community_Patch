@@ -120,6 +120,7 @@
 * Jumped the party when talking to the Storyteller and prevented him repeating one history in the Tatooine Sandpeople Enclave
 * Jumped the party when Gurney accosts player about Rakghoul serum in Taris Upper City South and changed some camera angles
 * Tweaked a wall texture in the Taris Hidden Bek Base to make it tile seamlessly
+* Added a short delay to the end of the Calo Nord scene on the (stunt) Leviathan Bridge
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
