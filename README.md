@@ -376,6 +376,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Various plot-related doors across Taris showed the security UI when they were not intended to be directly unlockable [ISSUE #396](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/396)
 * Wandering NPCs in the Korriban Sith Academy could end up in the way whenever conversing with Uthar [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * War Droid texture variants didn't properly display the blaster texture (Reported by Sith Holocron) [ISSUE #46](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/46)
+* When arriving on Dantooine, the Twisted Rancor Trio datapad wasn't destroyed like the other Taris items [ISSUE #504](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/504)
 * When arriving on Tatooine for the first time, there were a few issues in the conversation with the Czerka customs officer [ISSUE #308](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/308)
 * When arriving on the Unknown World, most extraneous journal entries were removed but a few still remained [ISSUE #227](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/227)
 * When Bastila departs on the Leviathan, she only leaves behind her weapon, not her other equipped gear (Reported by Salk, with input from JCarter426) [ISSUE #419](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/419)

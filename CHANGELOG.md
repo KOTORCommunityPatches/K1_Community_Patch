@@ -122,6 +122,7 @@
 * Tweaked a wall texture in the Taris Hidden Bek Base to make it tile seamlessly
 * Added a short delay to the end of the Calo Nord scene on the (stunt) Leviathan Bridge
 * Sent Lurze to the nearest exit and stopped him skating along the floor in Korriban Dreshdae
+* Destroyed Twisted Rancor Trio datapad along with other Taris items when entering the Dantooine Jedi Enclave
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
