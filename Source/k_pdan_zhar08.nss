@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by dan13_zhar.dlg in danm13 (Dantooine Jedi Enclave).
@@ -8,11 +8,16 @@
 	in order to get the Council to properly face the player, and the switch
 	from the overhead camera to the Zhar closeup was done sooner.
 	
+	Updated 2021-12-09 to strip Force Speed off the player, if applicable.
+	
 	Issue #151: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151
 	
-	DP 2019-07-29                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	Issue #505: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/505
+	
+	DP 2019-07-29 / DP 2021-12-09												*/
+//////////////////////////////////////////////////////////////////////////////////
 
 void main() {
 	
@@ -26,6 +31,7 @@ void main() {
 	
 	ActionPauseConversation();
 	
+	AssignCommand(oPC, ClearAllEffects());
 	AssignCommand(oPC, ClearAllActions());
 	AssignCommand(oPC, ActionJumpToObject(WP_Start));
 	AssignCommand(oPC, ActionMoveToLocation(lWP_End, TRUE));

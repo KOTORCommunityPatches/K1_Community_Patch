@@ -151,6 +151,7 @@
 * Tweaked Czerka Rep and Griff's conversations in the Tatooine Czerka Office
 * Jumped the party for subsequent Nilko Bwaas conversation in Manaan Ahto West
 * Jumped the party for Matrik convos in the Taris Lower City Apartments (East)
+* Removed Force Speed from the party before the various Council conversations in the Dantooine Jedi Enclave
 
 ## v1.8 - December 02, 2019
 ### Additions
