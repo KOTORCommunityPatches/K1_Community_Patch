@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	Starting condition dan13_vandar.dlg / dan13_vrook.dlg in danm13 (Dantooine
+	Starting condition for dan13_vandar.dlg / dan13_vrook.dlg in danm13 (Dantooine
 	Jedi Enclave).
 	
 	This is a replacement starting conditional for the player's lines asking both
