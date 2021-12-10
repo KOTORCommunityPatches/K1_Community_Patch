@@ -318,6 +318,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The player could repeatedly ask Vandar in the Dantooine Jedi Enclave what to do about the Sandral/Matale feud, even after it was resolved [ISSUE #480](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/480)
 * The player didn't face Carth during the initial scene in the Taris Hideout [ISSUE #491](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/491)
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
+* The post-Leviathan scene on the Ebon Hawk had a number of facing and camera angle issues, and the party didn't take off their masks [ISSUE #527](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/527)
 * The post-Ruins conversation with the Jedi Council on Dantooine had various facing and aesthetic issues [ISSUE #104](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/104)
 * The Rakatan computer terminals in the Unknown World Temple Main Floor used the modern rather than ancient interface [ISSUE #534](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/534)
 * The reward from Roland Wann in Manaan East Central for completing Hrakert Station was meant to include a sonic rifle (Reported by djh269) [ISSUE #209](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/209)
