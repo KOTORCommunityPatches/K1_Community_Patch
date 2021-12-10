@@ -40,11 +40,13 @@ void main() {
 			// Mission should jump and walk to.
 			if (!UT_GetPlotBooleanFlag(GetObjectByTag("cp_tar04_missspl"), SW_PLOT_BOOLEAN_05))
 				{
+					// Right trigger fired.
 					lMissJmp = Location(Vector(269.50,202.50,3.00), 190.00);
 					lMissWlk = Location(Vector(263.44,203.47,3.00), 2.95);
 				}
 				else
 					{
+						// Left trigger fired.
 						lMissJmp = Location(Vector(254.00,220.50,3.00), 220.00);
 						lMissWlk = Location(Vector(251.32,215.17,3.00), 50.87);
 					}

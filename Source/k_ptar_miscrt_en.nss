@@ -13,13 +13,16 @@
 	into position on either the left or right side of the gate. This prevents
 	some issues with Mission navigating to the party from her spawn point.
 	
+	Updated 2021-12-10 to switch the PM1/2 jump positions for the righthand
+	trigger to try and prevent the initial shot clipping through their head.
+	
 	See also cp_tar04_miskill, k_ptar_addmissio, k_ptar_desmis, k_ptar_hdfate_ud,
 	k_ptar_misrun, k_ptar_rakrun.
 	
 	Issue #472: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/472
 	
-	DP 2021-10-30																*/
+	DP 2021-10-30 / DP 2021-12-10												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
