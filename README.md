@@ -319,6 +319,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The player didn't face Carth during the initial scene in the Taris Hideout [ISSUE #491](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/491)
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The post-Ruins conversation with the Jedi Council on Dantooine had various facing and aesthetic issues [ISSUE #104](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/104)
+* The Rakatan computer terminals in the Unknown World Temple Main Floor used the modern rather than ancient interface [ISSUE #534](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/534)
 * The reward from Roland Wann in Manaan East Central for completing Hrakert Station was meant to include a sonic rifle (Reported by djh269) [ISSUE #209](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/209)
 * The Rodian bounty hunter in the Taris Lower City cantina apparently skipped weapons training at bounty hunter school [ISSUE #234](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/234)
 * The rogue Assassin Droid in the Korriban Tomb of Marka Ragnos would get inexplicably angry if the player had too many stealth belts [ISSUE #280](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/280)

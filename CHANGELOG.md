@@ -128,6 +128,7 @@
 * Removed Security UI from airlock doors and the main door between the Command Deck and Bridge on the Leviathan
 * Faced player towards Carth after waking up in the initial scene in the Taris Hideout
 * Prevented player freezing after the workbench tutorial in the Taris Hideout
+* Switched Rakata computer terminals in the Unknown World Temple Main Floor to use the ancient instead of modern interface
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
