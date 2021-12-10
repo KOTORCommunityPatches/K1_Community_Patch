@@ -10,15 +10,18 @@
 	under the cover of the fadeout. Once the fadein starts, party Mission walks
 	over to her designated party position behind the player.
 	
+	Updated 2021-12-10 to switch the PM1/2 jump positions to try and prevent the
+	initial shot clipping through their head, necessitating switching Mission's
+	destination to the opposite location.
+	
 	See also k_ptar_addmissio, k_ptar_desmis, k_ptar_hdfate_ud, k_ptar_miscrt_en,
 	k_ptar_misrun, k_ptar_rakrun.
 	
 	Issue #472: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/472
 	
-	DP 2021-10-30																*/
+	DP 2021-10-30 / DP 2021-12-10												*/
 //////////////////////////////////////////////////////////////////////////////////
-
 #include "cp_inc_k1"
 
 void main() {
@@ -42,13 +45,13 @@ void main() {
 				{
 					// Right trigger fired.
 					lMissJmp = Location(Vector(269.50,202.50,3.00), 190.00);
-					lMissWlk = Location(Vector(263.44,203.47,3.00), 2.95);
+					lMissWlk = Location(Vector(264.49,198.98,3.00), 22.95);
 				}
 				else
 					{
 						// Left trigger fired.
 						lMissJmp = Location(Vector(254.00,220.50,3.00), 220.00);
-						lMissWlk = Location(Vector(251.32,215.17,3.00), 50.87);
+						lMissWlk = Location(Vector(248.29,218.65,3.00), 30.87);
 					}
 			
 			// Jump party Mission to where stunt Mission used to be standing.
