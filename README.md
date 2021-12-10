@@ -206,6 +206,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Sharina on Tatooine didn't initiate dialogue with the player as intended (Reported by ebmar) [ISSUE #45](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/45)
 * Sith fighters outside the Leviathan clipped through the skybox [ISSUE #108](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/108)
 * Some corpses in the Kashyyyk Upper Shadowlands didn't spawn their random loot correctly (Reported by ancient-animal and with input from JCarter426) [ISSUE #455](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/455)
+* Some doors in the Leviathan Command Deck and Bridge showed a Security icon when they were not meant to be unlockable [ISSUE #525](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/525)
 * Some doors in the Leviathan Hangar Bay showed a Security icon when they were not meant to be unlockable [ISSUE #488](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/488)
 * Some eager Jedi show up a bit too early for their scripted fight on the Star Forge [ISSUE #5](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/5)
 * Some guests and guards in Davik's estate would attack with their fists [ISSUE #100](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/100)

@@ -125,6 +125,7 @@
 * Destroyed Twisted Rancor Trio datapad along with other Taris items when entering the Dantooine Jedi Enclave
 * Prevented asking Vrook and Vandar in the Dantooine Jedi Enclave about the Mando raiders after the situation was resolved
 * Added provision for level capped players accessing the conversations for Jolee and Canderous, and removed Unknown World requirement from final Canderous branch
+* Removed Security UI from airlock doors and the main door between the Command Deck and Bridge on the Leviathan
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
