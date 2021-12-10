@@ -156,6 +156,7 @@
 * Jumped the party for subsequent Nilko Bwaas conversation in Manaan Ahto West
 * Jumped the party for Matrik convos in the Taris Lower City Apartments (East)
 * Removed Force Speed from the party before the various Council conversations in the Dantooine Jedi Enclave
+* Jumped the party for the Sith patrol scene in the Taris Undercity, preventing the Troopers from getting too close
 
 ## v1.8 - December 02, 2019
 ### Additions
