@@ -131,6 +131,7 @@
 * Switched Rakata computer terminals in the Unknown World Temple Main Floor to use the ancient instead of modern interface
 * Repositioned the waypoints for the party jump when exiting the airlock on the Leviathan Bridge so the party is facing the right way
 * Repositioned the party and hid weapons/masks for the post-Leviathan scene on the Ebon Hawk
+* Jumped party, fixed facing, and accounted for triggering from the opposite side for Sith thugs and murderer scenes in Korriban Dreshdae
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
