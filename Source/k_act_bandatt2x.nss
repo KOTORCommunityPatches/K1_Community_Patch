@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by man_k_h_bandon.dlg in manm28aa (Manaan Hrakert Station).
@@ -7,44 +7,40 @@
 	It is also intended to turn his mooks hostile as well. In the vanilla game
 	they were already set to hostile by default, but this was changed for K1CP.
 	That exposed an error in the vanilla script, which used incorrect tags and
-	thus failed to turn one of the mooks hostile. 
+	thus failed to turn one of the mooks hostile.
+	
+	Updated 2021-12-11 to add GN_DetermineCombatRound to the party members, so
+	they don't just stand around watching. Additionally simplified the original
+	method to turn the mooks hostile. Apparently past me hadn't properly grasped
+	the nth concept.
+	
+	Issue #142: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142
 
-	Issue #224: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/224
+	DP 2019-09-08 / DP 2021-12-11												*/
+//////////////////////////////////////////////////////////////////////////////////
 
-	DP 2019-09-08                                                             */
-////////////////////////////////////////////////////////////////////////////////
-
+#include "cp_inc_k1"
 #include "k_inc_generic"
+
+void CP_TurnHostile(object oNPC) {
+	ChangeToStandardFaction(oNPC, STANDARD_FACTION_HOSTILE_1);
+	DelayCommand(0.5, AssignCommand(oNPC, ClearAllActions()));
+	DelayCommand(0.5, AssignCommand(oNPC, GN_DetermineCombatRound(OBJECT_INVALID)));
+}
 
 void main() {
 	
-	int nMook = 0;
-	object oLackeyA = GetObjectByTag("g_darkjedi02", nMook);
-	object oLackeyB = GetObjectByTag("g_darkjedi02", nMook);
+	object oPM1 = CP_GetPartyMember(1);
+	object oPM2 = CP_GetPartyMember(2);
+	object oBandon = GetObjectByTag("g_bandon", 0);
+	object oLackeyA = GetObjectByTag("g_darkjedi02", 0);
+	object oLackeyB = GetObjectByTag("g_darkjedi02", 1);
 	
-	while ((GetIsObjectValid(oLackeyA) || GetIsObjectValid(oLackeyB)))
-		{
-			if (GetIsObjectValid(oLackeyA))
-				{
-					ChangeToStandardFaction(oLackeyA, STANDARD_FACTION_HOSTILE_1);
-					DelayCommand(0.5, AssignCommand(oLackeyA, ClearAllActions()));
-					DelayCommand(0.5, AssignCommand(oLackeyA, GN_DetermineCombatRound(OBJECT_INVALID)));
-				}
-			if (GetIsObjectValid(oLackeyB))
-				{
-					ChangeToStandardFaction(oLackeyB, STANDARD_FACTION_HOSTILE_1);
-					DelayCommand(0.5, AssignCommand(oLackeyB, ClearAllActions()));
-					DelayCommand(0.5, AssignCommand(oLackeyB, GN_DetermineCombatRound(OBJECT_INVALID)));
-				}
-			(nMook++);
-			
-			oLackeyA = GetObjectByTag("g_darkjedi02", nMook);
-			oLackeyB = GetObjectByTag("g_darkjedi02", nMook);
-		}
+	CP_TurnHostile(oBandon);
+	CP_TurnHostile(oLackeyA);
+	CP_TurnHostile(oLackeyB);
 	
-	ChangeToStandardFaction(GetObjectByTag("g_bandon", 0), STANDARD_FACTION_HOSTILE_1);
-	
-	DelayCommand(0.5, ClearAllActions());
-	DelayCommand(0.5, GN_DetermineCombatRound(OBJECT_INVALID));
+	DelayCommand(0.6, AssignCommand(oPM1, GN_DetermineCombatRound(OBJECT_INVALID)));
+	DelayCommand(0.6, AssignCommand(oPM2, GN_DetermineCombatRound(OBJECT_INVALID)));
 }
