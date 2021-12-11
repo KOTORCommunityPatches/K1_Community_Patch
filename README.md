@@ -364,7 +364,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
 * There is a visible gap in the wall behind the beds in the Taris Upper City hideout [ISSUE #231](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/231)
 * There is an inaccessible container in The One's compound
-* There was an gap around the doorway in one of the side rooms in Davik's estate on Taris (Reported by ancient-animal) [ISSUE #452](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/452)
+* There was a gap around the doorway in one of the side rooms in Davik's estate on Taris (Reported by ancient-animal) [ISSUE #452](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/452)
+* There was a vine near the Rakatan hologram platform in the Kashyyyk Lower Shadowlands that was hogging the camera [ISSUE #537](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/537)
 * There were some facing and camera angle issues during the overseer droid conversation in the Dantooine Ruins [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105) [ISSUE #152](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/152)
 * There were some invisible pillars along the walls of the central corridor in Manaan East Central (Reported by N-DReW25) [ISSUE #476](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/476)
 * Trandoshans lack a functioning soundset
