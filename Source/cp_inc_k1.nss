@@ -69,6 +69,9 @@ void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap =
 // Commands an NPC to perform an uninterruptible move to a given location and face the associated direction.
 void CP_ReturnToBase(location lLoc, int nRun = FALSE);
 
+// Commands an NPC to face towards the specified target object.
+void CP_FaceNPC(object oNPC, object oFace);
+
 ////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
 	
@@ -733,4 +736,18 @@ void CP_ReturnToBase(location lLoc, int nRun = FALSE) {
 	ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.1);
 	ActionDoCommand(SetCommandable(TRUE));
 	SetCommandable(FALSE);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/*	CP_FaceNPC()
+	
+	Forces an NPC to face towards the specified target object. Then briefly
+	plays an animation in order to force the reorientation and prevent the
+	freezing that can sometimes happen in DLGs.
+	
+	DP 2021-12-12                                                             */
+////////////////////////////////////////////////////////////////////////////////
+void CP_FaceNPC(object oNPC, object oFace) {
+	AssignCommand(oNPC, ActionDoCommand(SetFacingPoint(GetPosition(oFace))));
+	DelayCommand(0.2, AssignCommand(oNPC, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.1)));
 }
