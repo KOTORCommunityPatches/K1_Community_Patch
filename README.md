@@ -371,6 +371,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * There were some invisible pillars along the walls of the central corridor in Manaan East Central (Reported by N-DReW25) [ISSUE #476](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/476)
 * Trandoshans lack a functioning soundset
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
+* Trask's head model had some shading errors around the eyes and his eyelids were a bit twitchy [ISSUE #490](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/490)
 * Turrets in the Rakatan Temple used the Bith soundset (for some reason) [ISSUE #171](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/171)
 * Two Black Vulkar lieutenants in the upper level of the Black Vulkar base on Taris dropped duplicate pass cards (Reported by A Future Pilot) [ISSUE #364](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/364)
 * Two Czerka supply containers in the Kashyyyk Great Walkway clipped into a wall [ISSUE #514](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/514)
