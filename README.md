@@ -135,6 +135,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
 * Darth Malak misplaced his unique lightsaber for all his cutscenes on the Star Forge Decks 1, 2, and 3 [ISSUE #533](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/533)
 * During the arrest outside the Sith base in Manaan Ahto East, party members could end up standing in front of the player [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
+* During the credits sequence of the Dark Side ending, you could still hear the wind sound effects from the background of the previous cutscene [ISSUE #538](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/538)
 * During the initial conversation with The One on the Unknown World, he would speak one of his lines off-screen [ISSUE #339](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/339)
 * During the initial cutscene of the showdown on the Leviathan Bridge, the party members would insist on looking at the floor (Reported by Salk) [ISSUE #417](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/417)
 * During the jawless Malak cutscene, the admiral has some clipping issues with his left arm and eyeballs [ISSUE #181](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/181)
