@@ -135,6 +135,7 @@
 * Tweaked party jumps when talking to the Rakatan hologram in the Kashyyyk Lower Shadowlands to prevent freezing
 * Moved some of the vines near the Rakatan hologram platform in the Kashyyyk Lower Shadowlands to stop them blocking shots during the conversation
 * Stopped module background ambient sound effects playing over the credits sequence for the Dark Side ending
+* Corrected facing and made party members attack in the first encounter with the Black Rakata in Unknown World North Beach if already working for the Elders
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
