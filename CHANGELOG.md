@@ -138,6 +138,7 @@
 * Corrected facing and made party members attack in the first encounter with the Black Rakata in Unknown World North Beach if already working for the Elders
 * Adjusted some camera angles and party positioning for the Trandoshan encounters in Yavin Station
 * Edited Trask's head model to fix shading errors around the eyes and tweak the eyelid positions
+* Appended envmap TXI data to Bastila's clothing texture to prevent transparency
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
