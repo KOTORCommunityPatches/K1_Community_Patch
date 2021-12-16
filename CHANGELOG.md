@@ -139,6 +139,7 @@
 * Adjusted some camera angles and party positioning for the Trandoshan encounters in Yavin Station
 * Edited Trask's head model to fix shading errors around the eyes and tweak the eyelid positions
 * Appended envmap TXI data to Bastila's clothing texture to prevent transparency
+* Prevented subtitles from disappearing from a Rodian's line during the scene with Calo Nord in Taris Lower City Apartments (West)
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
