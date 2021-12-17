@@ -1,38 +1,35 @@
 //////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 
-	Fired by kor35_utharwynn.dlg in korr_m35aa (Korriban Sith Academy)
+	Fired by kor35_utharwynn.dlg in korr_m35aa (Korriban Sith Academy).
 	
-	This script is fired when Uthar and the player leave for the Tomb of Naga Sadow.
-	They originally ran towards the back entrance, which seemed a bit odd, so they
-	now take a more relaxed approach. Additionally, any party members (actually
-	removed from the party by an earlier script) are walked away at the same time
-	just in case they happen to be in-frame (and most likely blocking the shot).
+	This script is fired when Uthar and the player leave for the Tomb of Naga
+	Sadow. They originally ran towards the back entrance, which seemed a bit odd,
+	so they now take a more relaxed approach. Additionally, any party members
+	(actually removed from the party by an earlier script) are walked away at the
+	same time just in case they happen to be in-frame (and most likely blocking
+	the shot).
 	
 	Updated 2019-10-03 to replace the party member definitions with the K1CP Include
-	functions to streamline the code.
+	functions to streamline the code. Additionally added in the removal of any
+	prestige quests that weren't submitted to Uthar, since these have no closed
+	state post-Tomb of	Naga Sadow to account for not having handed them in. They
+	do get removed when reaching the Unknown World, but if you do Korriban early
+	then they will be filling up your journal until then.
 	
 	Updated 2019-11-09 to revise the moving of the party with a modified function,
 	since the vanilla script on the previous node removes any companions from the
 	active party, thus causing the Include functions to skip them.
 	
+	Updated 2021-12-17 to make sure Force Speed is clear off, if applied.
+	
 	Issue #162: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162
-	
-	DP 2019-08-07
-	
-//////////////////////////////////////////////////////////////////////////////////
-	
-	Additionally added in the removal of any prestige quests that weren't submitted
-	to Uthar, since these have no closed state post-Tomb of	Naga Sadow to account
-	for not having handed them in. They do get removed when reaching the Unknown
-	World, but if you do Korriban early then they will be filling up your journal
-	until then.
 	
 	Issue #225: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/225
 	
-	DP 2019-10-03																*/
+	DP 2019-08-07 / DP 2019-10-03 / DP 2019-11-09 / DP 2021-12-17				*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -84,7 +81,7 @@ void CP_JrlCheck() {
 }
 
 // A modified version of CP_PartyHerder that removes the IsObjectPartyMember check, since
-// any companions are removed from the party on the previous node by k_pkor_partyleav
+// any companions are removed from the party on the previous node by k_pkor_partyleav.
 void CP_WalkParty(location lPC, location lPM1, location lPM2) {
 
 	object oPC = GetFirstPC();
@@ -122,6 +119,8 @@ void main() {
 	ActionPauseConversation();
 	
 	SetGlobalFadeOut(2.5, 1.5);
+	
+	AssignCommand(oPC, ClearAllEffects());
 	
 	CP_PartyMove(OBJECT_SELF, lUthar, FALSE);
 	CP_WalkParty(lPC, lPM1, lPM2);
