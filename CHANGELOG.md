@@ -171,6 +171,7 @@
 * Removed Force Speed from the party before the various Council conversations in the Dantooine Jedi Enclave
 * Jumped the party for the Sith patrol scene in the Taris Undercity, preventing the Troopers from getting too close
 * Extended opening shot length and ensured party members attacked in the Bandon showdown in Manaan Hrakert Station
+* Removed player appearance.2da walk changes since they were deprecated and conflicting with creaturespeed.2da changes
 
 ## v1.8 - December 02, 2019
 ### Additions

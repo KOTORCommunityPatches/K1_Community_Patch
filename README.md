@@ -571,9 +571,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### Thrak Farelle:
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
 
-### ZimmMaster:
-* The walking animation doesn't look good: [Movement Animation Fix for both KOTOR and TSL](http://deadlystream.com/forum/files/file/465-movement-animation-fix-for-both-kotor-and-tsl/)
-
 ## 5. Bugs:
 These are the currently known bugs/issues with KOTOR or the mod that the K1CP is looking to resolve: 
 
