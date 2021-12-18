@@ -218,6 +218,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some mooks in the Vulkar base attack with their fists instead of equipping weapons first [ISSUE #64](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/64)
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * Some NPCs have wrong or missing sounds in their soundsets
+* Some of Juhani's lines were spoken off-screen during her first encounter with Xor [ISSUE #556](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/556)
 * Some of the companion personal quest messengers on Dantooine liked to play hide and seek inside Aratech Mercantile [ISSUE #262](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/262)
 * Some wall pillars in the Unknown World temple had some gaps in their geometry (Reported by ancient-animal) [ISSUE #453](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/453)
 * Sound effects during the Rancor cutscene in the Taris Upper Sewers were desynced from the VFX (Reported by A Future Pilot) [ISSUE #362](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/362)
