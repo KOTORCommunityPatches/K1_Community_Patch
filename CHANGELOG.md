@@ -142,6 +142,7 @@
 * Prevented subtitles from disappearing from a Rodian's line during the scene with Calo Nord in Taris Lower City Apartments (West)
 * Added hide masks/weapons flags to the pre-Leviathan scene on the Ebon Hawk
 * Adjusted the sparks emitter for the War Droid in the dead animation so that the sparks don't fire backwards
+* Prevented Duros in Taris Upper City South Apartments from freezing after the post-Sith raid conversation
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

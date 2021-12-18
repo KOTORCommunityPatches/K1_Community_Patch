@@ -258,6 +258,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The droids in the Tomb of Ajunta Pall on Korriban could activate prematurely when the player used Critical Strike attacks on the Tuk'ata, and would reorient on the player if clicked on (With input from JCarter426) [ISSUE #431](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/431)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
 * The Duros guards in Davik's Estate on Taris had the wrong soundset [ISSUE #311](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/311)
+* The Duros in the Taris Upper City South Apartments could freeze at the end of the conversation after the Sith raid [ISSUE #540](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/540)
 * The Duros prisoner in the Sith Base on Taris uses the wrong appearance (Reported by KnifeMaster and ecdye) [ISSUE #373](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/373)
 * The Duros survivors on the Unknown World Central Beach had the wrong soundset [ISSUE #337](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/337)
 * The Ebon Hawk model in the Leviathan hangar was missing landing gear and access ramp [ISSUE #30](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/30)
