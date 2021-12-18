@@ -429,6 +429,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When talking to the Rakatan hologram in the Kashyyyk Lower Shadowlands, the player could freeze and the hologram could get stuck in an animation [ISSUE #346](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/346)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * When the party exited the airlock on the Leviathan Bridge, they'd end up facing back the way they just came [ISSUE #526](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/526)
+* When War Droids were defeated, the sparks from their torso shot out behind them instead of forwards [ISSUE #492](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/492)
 * Xor's final encounter was extremely buggy, prone to ending in an unresolvable broken state (Reported by Yulaw9460) [ISSUE #397](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/397)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
 * Zaalbar's return to the party on Kashyyyk briefly revealed his stunt double (Reported by StellarExile and ancient-animal) [ISSUE #460](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/460)
