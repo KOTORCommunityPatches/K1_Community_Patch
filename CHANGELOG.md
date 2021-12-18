@@ -145,6 +145,7 @@
 * Prevented Duros in Taris Upper City South Apartments from freezing after the post-Sith raid conversation
 * Prevented DLG for Zuulan's speeder in Dantooine Matale Grounds from exiting when choosing to use a mine and not having one
 * Changed invisible placeable name for Zuulan's speeder DLG in Dantooine Matale Grounds since it showed up in the Feedback panel
+* Changed placeable name for the Gamorrean ambush in the Tatooine Dune Sea since it showed up in the Feedback panel
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

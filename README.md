@@ -305,6 +305,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Jorak Uln encounter in the Korriban Tomb of Tulak Hord had various cosmetic issues and occasionally missing companions [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
 * The lamps in the Unknown World Temple interior could appear black in certain spots due to no inherent lightmapping and had some geometry holes [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
+* The name of the invisible placeable for the Gamorrean ambush in the Tatooine Dune Sea showed up in the Feedback screen [ISSUE #552](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/552)
 * The male player head PMHC01 has some deformation issues along the jawline
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 * The Mandalorian ambush scene in the Unknown World Temple Exterior had some pathing issues, causing party members to get in the way [ISSUE #286](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/286)
