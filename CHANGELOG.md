@@ -173,6 +173,7 @@
 * Extended opening shot length and ensured party members attacked in the Bandon showdown in Manaan Hrakert Station
 * Removed player appearance.2da walk changes since they were deprecated and conflicting with creaturespeed.2da changes
 * Stripped Force Speed from player during the walk with Uthar in the Korriban Sith Academy when leaving for the Tomb of Naga Sadow
+* Prevented party from being in their underwear and T-posing if choosing to attack when entering the Tatooine Sand People Enclave the first time
 
 ## v1.8 - December 02, 2019
 ### Additions
