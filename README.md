@@ -1,8 +1,8 @@
 # KOTOR 1 Community Patch
 
-**Maintainer: A Future Pilot**
+**Original Mod Development/Inception: A Future Pilot**
 
-**Assistant Editors: JCarter426, DarthParametric**
+**Current Editor/Maintainer: DarthParametric**
 
 **Contact: afuturepilotis@gmail.com or PM at deadlystream.com**
 
@@ -12,7 +12,7 @@ Prior Version Release Date: *December 02, 2019*
 
 Current Version: *v1.9.0*
 
-Release Date: *TBA*
+Release Date: *December 20, 2021*
 
 ## 1. Description:
 This mod is a compilation of various bugfix mods (as well as a few original fixes) put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who created these mods, and gave me permission to include them in this patch.
