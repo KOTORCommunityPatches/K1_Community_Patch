@@ -1,5 +1,5 @@
 # CHANGELOG
-## v1.9 - December 20, 2021
+## v1.9.1 - December 22, 2021
 ### Additions
 * Adjusted some SFX timings in the Taris Upper Sewers cutscene of the Rancor eating a grenade to sync more closely with the VFX
 * Changed an incorrect animation reference in Shaardan's intro cutscene in Korriban Dreshdae
