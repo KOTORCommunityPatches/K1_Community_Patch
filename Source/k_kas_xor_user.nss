@@ -72,7 +72,7 @@ void main() {
 			if (GetCurrentHitPoints(OBJECT_SELF) <= 20)
 				{
 					// If his mooks are dead and Xor is the last man standing, surrender and trigger his final cutscene.
-					if (!GetIsObjectValid(oThugA) && !GetIsObjectValid(oThugB) || GetIsDead(oThugA) && GetIsDead(oThugB))
+					if ( (!GetIsObjectValid(oThugA) || GetIsDead(oThugA)) && (!GetIsObjectValid(oThugB) || GetIsDead(oThugB)) )
 						{
 							SetGlobalFadeOut();
 							
