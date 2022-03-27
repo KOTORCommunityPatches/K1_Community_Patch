@@ -11,6 +11,10 @@
 	in some cases, resulting in the quest breaking, so it has tweaked to hopefully
 	prevent that.
 	
+	Updated 2022-03-27 to add in an alternative OnDeath check to account for
+	killing both mooks simultaneously, which could result in the final cutscene
+	not firing. Hopefully resolved for realsies this time.
+	
 	See also cp_xor_ptyjmpend, k_kas_xorattack, k_kas_xor_user.
 
 	Issue #8: 
@@ -66,6 +70,7 @@ void main() {
 		{
 			object oOtherMook;
 			
+			// Since both mooks share this script, work out which one is which.
 			if (GetTag(OBJECT_SELF) == "kas_xor2")
 				{
 					oOtherMook = GetObjectByTag("kas_xor3", 0);
@@ -75,7 +80,8 @@ void main() {
 						oOtherMook = GetObjectByTag("kas_xor2", 0);
 					}
 			
-			if (!GetIsObjectValid(oOtherMook) && UT_GetTalkedToBooleanFlag(oXor))
+			// Check if the other mook is also dead, and fire the final cutscene if so.
+			if (!GetIsObjectValid(oOtherMook) && UT_GetTalkedToBooleanFlag(oXor) || GetIsDead(oOtherMook) && UT_GetTalkedToBooleanFlag(oXor))
 				{
 					SetGlobalFadeOut();
 					
