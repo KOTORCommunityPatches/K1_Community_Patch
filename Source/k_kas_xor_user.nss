@@ -14,6 +14,10 @@
 	tweaked to work with an added party herding script that fires at the start
 	of the post-combat scene.
 	
+	Updated 2022-03-27 to amend the check for the mooks being dead, since there
+	is apparently some specific issue with the Selkath mooks on Manaan remaining
+	as valid objects post-death that doesn't happen on other planets.
+	
 	See also cp_xor_ptyjmpend, k_kas_xorattack, k_kas_xorthug_ud.
 
 	Issue #8: 
@@ -22,7 +26,7 @@
 	Issue #397: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/397
 	
-	DP 2021-12-06																*/
+	DP 2021-12-06 / DP 2022-03-27												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_utility"
@@ -64,41 +68,45 @@ void main() {
 		}
 	else if(nUser == 1006) // DAMAGED
 		{
-			// If his mooks are dead and Xor is the last man standing, surrender and trigger a conversation once his HP gets low.
-			if (GetCurrentHitPoints(OBJECT_SELF) <= 20 && !GetIsObjectValid(oThugA) && !GetIsObjectValid(oThugB))
+			// Once Xor hits his minimum HP.
+			if (GetCurrentHitPoints(OBJECT_SELF) <= 20)
 				{
-					SetGlobalFadeOut();
-					
-					NoClicksFor(1.5);
-					
-					SetPartyLeader(NPC_PLAYER);
-					
-					CP_ClearNPC(OBJECT_SELF);
-					ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL);
-					DelayCommand(0.4, SurrenderToEnemies());
-					
-					CP_ClearNPC(oPM0);
-					CP_ClearNPC(oPM1);
-					CP_ClearNPC(oPM2);
-					
-					AdjustReputation(GetFirstPC(), OBJECT_SELF, 100);
-					
-					DelayCommand(1.0, AssignCommand(GetObjectByTag("invis_xor_conv", 0), ActionStartConversation(OBJECT_SELF, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+					// If his mooks are dead and Xor is the last man standing, surrender and trigger his final cutscene.
+					if (!GetIsObjectValid(oThugA) && !GetIsObjectValid(oThugB) || GetIsDead(oThugA) && GetIsDead(oThugB))
+						{
+							SetGlobalFadeOut();
+							
+							NoClicksFor(1.5);
+							
+							SetPartyLeader(NPC_PLAYER);
+							
+							CP_ClearNPC(OBJECT_SELF);
+							ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL);
+							DelayCommand(0.4, SurrenderToEnemies());
+							
+							CP_ClearNPC(oPM0);
+							CP_ClearNPC(oPM1);
+							CP_ClearNPC(oPM2);
+							
+							AdjustReputation(GetFirstPC(), OBJECT_SELF, 100);
+							
+							DelayCommand(1.0, AssignCommand(GetObjectByTag("invis_xor_conv", 0), ActionStartConversation(OBJECT_SELF, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+						}
+						// If Xor goes down first, have him surrender and rely on the OnDeath event of the mooks to trigger the conversation once both of them are killed.
+						else
+							{
+								// Checked by the OnDeath event of the mooks. See k_kas_xorthug_ud.
+								UT_SetTalkedToBooleanFlag(OBJECT_SELF, TRUE);
+								
+								// Turn off his AI.
+								SetLocalBoolean(OBJECT_SELF, 62, TRUE);
+								
+								CP_ClearNPC(OBJECT_SELF);
+								ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL);
+								DelayCommand(0.4, SurrenderToEnemies());
+								DelayCommand(0.8, PlayAnimation(ANIMATION_LOOPING_LISTEN_INJURED, 1.0, -1.0));
+							}
 				}
-				// If Xor hits his minimum HP first, have him surrender and rely on the OnDeath event of the mooks to trigger the conversation once both of them are killed.
-				else if (GetCurrentHitPoints(OBJECT_SELF) <= 20)
-					{
-						// Checked by the OnDeath event of the mooks. See k_kas_xorthug_ud.
-						UT_SetTalkedToBooleanFlag(OBJECT_SELF, TRUE);
-						
-						// Turn off his AI.
-						SetLocalBoolean(OBJECT_SELF, 62, TRUE);
-						
-						CP_ClearNPC(OBJECT_SELF);
-						ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL);
-						DelayCommand(0.4, SurrenderToEnemies());
-						DelayCommand(0.8, PlayAnimation(ANIMATION_LOOPING_LISTEN_INJURED, 1.0, -1.0));
-					}
 		}
 	else if(nUser == 1007) // DEATH
 		{
