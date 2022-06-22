@@ -11,7 +11,7 @@
 * Switched the Rancor pen doors in The One's Settlement on the Unknown World to use keys in order to remove the unnecessary Security UI
 
 ### Changes/Updates/Revisions
-
+* Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
 
 ## v1.9.2 - March 27, 2022
 ### Additions

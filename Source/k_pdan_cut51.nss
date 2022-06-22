@@ -15,13 +15,19 @@
 	delay a tad to better mask the cutscene start and switched the DLG owner to
 	Bastila to prevent her looking at the floor.
 	
+	Updated 2022-06-22 to move the NoClicksFor to the top as a preventative
+	measure against potential sequence breaks.
+	
 	See also cp_dan15_facemap, cp_dan15_mapstrt, k_pdan_cut50, k_pdan_starmap02,
 	k_pdan_starmap05.
 	
 	Issue #105: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105
 	
-	DP 2019-08-01 / DP 2021-12-06												*/
+	Issue #590: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/590
+	
+	DP 2019-08-01 / DP 2021-12-06 / DP 2022-06-22								*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -38,10 +44,10 @@ void main() {
 	
 	if (!UT_GetTalkedToBooleanFlag(OBJECT_SELF))
 		{
+			NoClicksFor(1.5);
+			
 			SetGlobalFadeOut();
 			SetGlobalFadeIn(1.0, 0.5);
-			
-			NoClicksFor(1.5);
 			
 			UT_SetTalkedToBooleanFlag(OBJECT_SELF, TRUE);
 			
