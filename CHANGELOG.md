@@ -14,6 +14,7 @@
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
+* Revised the pre-Leviathan scene on the Ebon Hawk to properly hide Carth's equipped mask
 
 ## v1.9.2 - March 27, 2022
 ### Additions
