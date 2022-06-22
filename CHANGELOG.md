@@ -6,6 +6,7 @@
 * Prevented the inadvertent removal of the first journal entry of the "Dwindling Supplies" quest on the Ebon Hawk
 * Destroyed the moisture vaporators after giving them to the Chieftain in the Tatooine Sand People Enclave to prevent them dropping as loot if the Sand People turn hostile
 * Corrected the orientation of the walkmesh for the force cage placeable
+* Prevented the cutscene of the party approaching the ruins in the Dantooine Jedi Enclave Courtyard from triggering without Bastila in the party
 
 ### Changes/Updates/Revisions
 
