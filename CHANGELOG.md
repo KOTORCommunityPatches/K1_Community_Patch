@@ -7,6 +7,7 @@
 * Destroyed the moisture vaporators after giving them to the Chieftain in the Tatooine Sand People Enclave to prevent them dropping as loot if the Sand People turn hostile
 * Corrected the orientation of the walkmesh for the force cage placeable
 * Prevented the cutscene of the party approaching the ruins in the Dantooine Jedi Enclave Courtyard from triggering without Bastila in the party
+* Switched a number of plot-related doors in the Leviathan Prison Block to use keys in order to remove the unnecessary Security UI
 
 ### Changes/Updates/Revisions
 
