@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	cp_inc_k1
 
 	Include script for K1 Community Patch		
-	                                                                          */
-////////////////////////////////////////////////////////////////////////////////
+																				*/
+//////////////////////////////////////////////////////////////////////////////////
 #include "k_inc_utility"
 
 
@@ -72,15 +72,15 @@ void CP_ReturnToBase(location lLoc, int nRun = FALSE);
 // Commands an NPC to face towards the specified target object.
 void CP_FaceNPC(object oNPC, object oFace);
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
 	
 	Gets the expected tag of a party member based on their ID number.
 	
 	- nNPC: NPC ID from party table (NPC_*)
 	
-	JC 2019-07-29                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-07-29																*/
+//////////////////////////////////////////////////////////////////////////////////
 string CP_NPCToTag(int nNPC) {
 
 switch( nNPC ) {
@@ -99,7 +99,7 @@ return "";
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyJump()
 	
 	Has a creature clear all actions and then jump to a location. Used for party
@@ -108,8 +108,8 @@ return "";
 	- oPM: Party member (or any creature)
 	- lLoc: Location
 	
-	JC 2019-04-30                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-04-30																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_PartyJump(object oPM, location lLoc) {
  
 AssignCommand(oPM, ClearAllActions());
@@ -119,7 +119,7 @@ AssignCommand(oPM, ActionJumpToLocation(lLoc));
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyJumpObject()
 	
 	Companion function to CP_PartyJump that uses ActionMoveToObject instead of
@@ -128,8 +128,8 @@ AssignCommand(oPM, ActionJumpToLocation(lLoc));
 	- oPM: Party member (or any creature)
 	- oJumpTo: Object to jump to (typically a waypoint)
 	
-	DP 2019-11-03                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-11-03																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_PartyJumpObject(object oPM, object oJumpTo) {
  
 	AssignCommand(oPM, ClearAllActions());
@@ -138,7 +138,7 @@ void CP_PartyJumpObject(object oPM, object oJumpTo) {
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyMove()
 	
 	Has a creature clear all actions and then walk or run to a location. Used
@@ -148,8 +148,8 @@ void CP_PartyJumpObject(object oPM, object oJumpTo) {
 	- lLoc: Location
 	- nRun: TRUE to run, FALSE to walk
 	
-	JC 2019-05-01                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-05-01																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_PartyMove(object oPM, location lLoc, int nRun = FALSE) {
  
 AssignCommand(oPM, ClearAllActions());
@@ -159,7 +159,7 @@ AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyMoveObject()
 	
 	Companion function to CP_PartyMove that uses ActionMoveToObject instead of
@@ -169,8 +169,8 @@ AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 	- oMoveTo: Object to move to (typically a waypoint)
 	- nRun: TRUE to run, FALSE to walk
 	
-	DP 2019-10-31                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-10-31																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE) {
  
 	AssignCommand(oPM, ClearAllActions());
@@ -179,7 +179,7 @@ void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE) {
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyHerder()
 	
 	Herds the party into specified locations.
@@ -190,8 +190,8 @@ void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE) {
 	- nJump: If TRUE, jump to locations; if FALSE, move walk or run to them
 	- nRun: TRUE to run, FALSE to walk (does nothing if we're jumping)
 	
-	JC 2019-05-01                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-05-01																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_PartyHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE) {
 
 object oPC = GetFirstPC();
@@ -227,7 +227,7 @@ else {
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_GetPartyMember()
 	
 	Returns a member of the party.
@@ -242,8 +242,8 @@ else {
 	
 	Returns OBJECT_INVALID if there isn't a party member to return.
 	
-	JC 2019-05-04                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-05-04																*/
+//////////////////////////////////////////////////////////////////////////////////
 object CP_GetPartyMember(int nIndex) {
 
 object oPC = GetFirstPC();
@@ -275,7 +275,7 @@ return OBJECT_INVALID;
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	A note on dialogues:
 	
 	The next three functions initiate dialogue with an NPC. They should be run
@@ -288,9 +288,9 @@ return OBJECT_INVALID;
 		CP_DLGInit(sNPCTag, sDLG, TRUE, fWait, fFade);
 	to not bother and automatically jump to the NPC.
 	
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_DLGSetup()
 	
 	Heals the party up and cancels all player and NPC actions so they're ready
@@ -300,8 +300,8 @@ return OBJECT_INVALID;
 	
 	- sNPCTag: Tag of NPC to talk to
 	
-	JC 2019-04-30                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-04-30																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_DLGSetup(string sNPCTag) {
 
 object oNPC = GetObjectByTag(sNPCTag);
@@ -331,7 +331,7 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_DLGHerder()
 	
 	Executes CP_PartyHerder for dialogues. Timed to work with CP_DLGStart() and
@@ -345,8 +345,8 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 	- nJump: If TRUE, jump to locations; if FALSE, move walk or run to them
 	- nRun: TRUE to run, FALSE to walk (does nothing if we're jumping)
 	
-	JC 2019-05-01                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-05-01																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_DLGHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE) {
 
 float fDelay;
@@ -357,7 +357,7 @@ AssignCommand(GetFirstPC(), DelayCommand(fDelay, CP_PartyHerder(lPC, lPM1, lPM2,
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_DLGInit()
 	
 	Initiates dialogue with NPC. Allows for manual herding (run before this
@@ -373,8 +373,8 @@ AssignCommand(GetFirstPC(), DelayCommand(fDelay, CP_PartyHerder(lPC, lPM1, lPM2,
 			 seconds may leave the setup visible.
 	- fFade: Length of fade in
 	
-	JC 2019-05-02                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-05-02																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_DLGInit(string sNPCTag, string sDLG = "", int nJump = FALSE, float fWait = 0.5, float fFade = 2.0) {
 
 object oNPC = GetObjectByTag(sNPCTag);
@@ -404,7 +404,7 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_EquipFirstWeapon()
 	
 	Makes the target creature equip the first weapon in their inventory.
@@ -412,8 +412,8 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 	- oCreature: Target creature
 	- nInstant: Whether to equip the item instantaneously, TRUE or FALSE
 	
-	JC 2019-07-29                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-07-29																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_EquipFirstWeapon(object oCreature, int nInstant = FALSE) {
 
 object oRWeapon = GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oCreature);
@@ -468,15 +468,15 @@ if( !GetIsObjectValid(oRWeapon) ) {
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_DestroyCreatures()
 	
 	Destroys all creatures in the area with the given tag.
 	
 	- sTag: Tag of creatures we want to destroy
 	
-	JC 2019-05-19                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	JC 2019-05-19																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_DestroyCreatures(string sTag) {
 
 int i = 0;
@@ -496,52 +496,56 @@ for(;;) {
 
 }
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_HasNeverTriggered()
 	
 	Returns true is a trigger has not been fired yet. Intended for one shot
 	triggers. Stolen from vanilla planet includes to cut down on the number
 	of includes called in our custom scripts.
 	
-	DP 2019-09-30                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	Updated 2022-06-22 to switch the initial check from FALSE to not TRUE.
+	
+	DP 2019-09-30 / DP 2022-06-22												*/
+//////////////////////////////////////////////////////////////////////////////////
 int CP_HasNeverTriggered() {
 	
-	int bReturn;
+	int bReturn = FALSE;
 	
-	if (UT_GetPlotBooleanFlag(OBJECT_SELF,SW_PLOT_BOOLEAN_01) == FALSE)
+	if (!UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01))
 		{
 			bReturn = TRUE;
-			UT_SetPlotBooleanFlag(OBJECT_SELF,SW_PLOT_BOOLEAN_01,TRUE);
+			UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01, TRUE);
 		}
 	
 	return bReturn;
 }
 
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_HasNeverTalkedTo()
 	
 	Returns true if the creature/object has not been talked to yet. An all-in-one
 	alternative to the UT_Set/GetTalkedToBooleanFlag functions that can work with
 	the vanilla k_con_talkedto starting conditional script.
 	
-	DP 2019-10-03                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	Updated 2022-06-22 to switch the initial check from FALSE to not TRUE.
+	
+	DP 2019-10-03 / DP 2022-06-22												*/
+//////////////////////////////////////////////////////////////////////////////////
 int CP_HasNeverTalkedTo() {
 	
-	int bReturn;
+	int bReturn = FALSE;
 	
-	if (UT_GetPlotBooleanFlag(OBJECT_SELF,SW_PLOT_HAS_TALKED_TO) == FALSE)
+	if (!UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO))
 		{
 			bReturn = TRUE;
-			UT_SetPlotBooleanFlag(OBJECT_SELF,SW_PLOT_HAS_TALKED_TO,TRUE);
+			UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO, TRUE);
 		}
 	
 	return bReturn;
 }
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_DisableAI()
 	
 	A function to allow toggling creature AI. Useful when you need to prevent
@@ -552,13 +556,13 @@ int CP_HasNeverTalkedTo() {
 	FALSE - Default state. AI is active.
 	TRUE - AI is disabled. Should be re-enabled before combat.
 	
-	DP 2019-10-03                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-10-03																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_DisableAI(int nState) {
 	SetLocalBoolean(OBJECT_SELF, 62, nState);
 }
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_JumpMessenger()
 	
 	Modified version of the Messenger spawning function called in the various
@@ -577,8 +581,8 @@ void CP_DisableAI(int nState) {
 	Issue #262: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/262
 	
-	DP 2019-09-30 / DP 2021-11-29                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-09-30 / DP 2021-11-29												*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_JumpMessenger() {
 	
 	object oPC = GetFirstPC();
@@ -652,15 +656,15 @@ void CP_JumpMessenger() {
 									}
 }
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_DupeEquipment()
 	
 	Duplicates a copy of an NPC's equipped items into the target's inventory.
 	Intended for use when an NPC is forcibly removed from the party temporarily
 	or permanently in a cutscene, such as Bastila on the Leviathan.
 	
-	DP 2021-11-03                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2021-11-03																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap = TRUE, int nHead = TRUE, int nTorso = TRUE, int nGloves = TRUE, int nRShield = TRUE, int nLShield = TRUE, int nImplant = TRUE, int nBelt = TRUE) {
 	
 	object oNPC_RWeap = GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oNPC);
@@ -719,7 +723,7 @@ void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap =
 		}
 }
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_ReturnToBase()
 	
 	Forces an NPC to return to a specific location and face in that direction.
@@ -727,8 +731,8 @@ void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap =
 	after a cutscene. Modified after TAR_PlotMoveObject in k_inc_tar, using a
 	location instead of an object and adding in a facing command.
 	
-	DP 2021-11-29                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2021-11-29																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_ReturnToBase(location lLoc, int nRun = FALSE) {
 	ClearAllActions();
 	ActionMoveToLocation(lLoc, nRun);
@@ -738,15 +742,15 @@ void CP_ReturnToBase(location lLoc, int nRun = FALSE) {
 	SetCommandable(FALSE);
 }
 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_FaceNPC()
 	
 	Forces an NPC to face towards the specified target object. Then briefly
 	plays an animation in order to force the reorientation and prevent the
 	freezing that can sometimes happen in DLGs.
 	
-	DP 2021-12-12                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2021-12-12																*/
+//////////////////////////////////////////////////////////////////////////////////
 void CP_FaceNPC(object oNPC, object oFace) {
 	AssignCommand(oNPC, ActionDoCommand(SetFacingPoint(GetPosition(oFace))));
 	DelayCommand(0.2, AssignCommand(oNPC, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.1)));
