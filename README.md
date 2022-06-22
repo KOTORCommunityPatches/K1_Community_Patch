@@ -255,6 +255,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Czerka miners next to the sandcrawler in the Tatooine Dune Sea could end up out of position after the Sand People attach was over [ISSUE #510](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/510)
 * The Czerka miners next to the sandcrawler in the Tatooine Dune Sea never leave, despite saying they will soon (Suggested by ebmar) [ISSUE #115](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/115)
 * The dais in Davik's throne room had some unsightly lightmap artefacts [ISSUE #97](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/97)
+* The Dark Side underwear texture for the male Scoundrel was incorrect, using Saul Karath's body texture (Reported by ebmar) [ISSUE #564](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/564)
 * The datapad for Dustil's quest could still be obtained after the Sith Academy on Korriban went hostile, making Carth look out of touch [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * The door guard for the Hidden Beks in the Taris Lower City could be left facing the wrong direction after helping out in combat [ISSUE #498](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/498)
 * The door to the Tomb of Naga Sadow in the Korriban Valley of the Dark Lords is unlocked for some reason [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
