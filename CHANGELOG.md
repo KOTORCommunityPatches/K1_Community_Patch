@@ -1,4 +1,13 @@
 # CHANGELOG
+## v1.10.0 - TBA
+### Additions
+
+* Adjusted the eyelid and mouthbox UVs for the old black male head 2 to move them from the beard texture
+* Prevented the inadvertent removal of the first journal entry of the "Dwindling Supplies" quest on the Ebon Hawk
+
+### Changes/Updates/Revisions
+
+
 ## v1.9.2 - March 27, 2022
 ### Additions
 * Adjusted some SFX timings in the Taris Upper Sewers cutscene of the Rancor eating a grenade to sync more closely with the VFX
@@ -148,7 +157,6 @@
 * Changed invisible placeable name for the Gamorrean ambush in the Tatooine Dune Sea since it showed up in the Feedback panel
 * Gave Jordo a Czerka uniform and fixed some camera angles and speaker/listener tags for his messenger conversation with Carth
 * Added some speaker/listener tags and changed some camera angles in Xor's messenger conversation with Juhani
-* Adjusted the eyelid and mouthbox UVs for the old black male head 2 to move them from the beard texture
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap

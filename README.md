@@ -8,11 +8,11 @@
 
 Original Release Date: *April 17, 2018*
 
-Prior Version Release Date: *December 02, 2019*
+Prior Version Release Date: *March 27, 2022*
 
-Current Version: *v1.9.2*
+Current Version: *v1.10.0*
 
-Release Date: *March 27, 2022*
+Release Date: *TBA*
 
 ## 1. Description:
 This mod is a compilation of various bugfix mods (as well as a few original fixes) put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who created these mods, and gave me permission to include them in this patch.
@@ -296,6 +296,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The initial conversation with Davik at his estate had a multitude of positioning and facing issues [ISSUE #57](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/57)
 * The initial conversation with Gadon Thek can suffer from poor party positioning due to the desk in the way [ISSUE #70](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70)
 * The initial cutscene when entering Taris Lower City for the first time only shows the player, has a Bek in plain clothes, and can experience some skipped lines [ISSUE #233](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/233)
+* The initial journal entry for the "Dwindling Supplies" quest on the Ebon Hawk was incorrectly removed before being shown (Reported by La Ingobernable) [ISSUE #633](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/633)
 * The injured Wookiee in the Kashyyyk Lower Shadowlands didn't grant the Rough-Cut Upari Amulet as intended (Reported by Kaidon Jorn) [ISSUE #486](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/486)
 * The injured Wookiee in the Kashyyyk Lower Shadowlands had some inconsistencies with the scripts related to healing him [ISSUE #486](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/486)
 * The injured Wookiee's introductory cutscene in the Kashyyyk Lower Shadowlands had a bad camera angle, causing clipping [ISSUE #486](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/486)
