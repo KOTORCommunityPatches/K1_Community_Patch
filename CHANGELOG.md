@@ -13,6 +13,7 @@
 * Replaced the incorrect Dark Side underwear texture for the male Scoundrel with the Xbox version
 * Corrected the texture assignment for the first Rodian appearance
 * Plugged some gaps in the Leviathan Hangar central hallway
+* Switched the appearances of a Republic Soldier and Officer in the group arguing with the Sith in Manaan East Central
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
