@@ -12,6 +12,7 @@
 * Made the Rakatan hologram in the Kashyyyk Lower Shadowlands immortal to prevent it being killed as collateral damage by the guard droids
 * Replaced the incorrect Dark Side underwear texture for the male Scoundrel with the Xbox version
 * Corrected the texture assignment for the first Rodian appearance
+* Plugged some gaps in the Leviathan Hangar central hallway
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break

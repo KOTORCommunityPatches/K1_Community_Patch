@@ -385,6 +385,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * There was a gap around the doorway in one of the side rooms in Davik's estate on Taris (Reported by ancient-animal) [ISSUE #452](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/452)
 * There was a vine near the Rakatan hologram platform in the Kashyyyk Lower Shadowlands that was hogging the camera [ISSUE #537](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/537)
 * There were some facing and camera angle issues during the overseer droid conversation in the Dantooine Ruins [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105) [ISSUE #152](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/152)
+* There were some gaps in the walls of the central corridor of the Leviathan Hangar (Reported by La Ingobernable) [ISSUE #637](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/637)
 * There were some invisible pillars along the walls of the central corridor in Manaan East Central (Reported by N-DReW25) [ISSUE #476](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/476)
 * Trandoshans lack a functioning soundset
 * Trask used Force teleportation to zip across the room when joining the party on the Endar Spire (Reported by ebmar) [ISSUE #86](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/86)
