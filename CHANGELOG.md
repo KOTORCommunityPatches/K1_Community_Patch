@@ -14,6 +14,8 @@
 * Corrected the texture assignment for the first Rodian appearance
 * Plugged some gaps in the Leviathan Hangar central hallway
 * Switched the appearances of a Republic Soldier and Officer in the group arguing with the Sith in Manaan East Central
+* Removed the plot flag from the rough-cut Upari amulet gained in the Kashyyyk Lower Shadowlands
+* Removed the plot flags from Ajunta Pall's sword and the Naga Sadow ceremonial lightsaber when returning to the Korriban Sith Academy post-final trial
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -368,11 +370,11 @@
 * Fixed global generic droid templates to use the proper soundsets for their type instead of the Bantha soundset
 * Fixed an off-screen line by the Mysterious Man on Manaan and prevented him being visible after the conversation finished
 * Remapped distorted UVs for a section of cliff edge in Korriban's Valley of the Dark Lords
-* Swapped incorrect script reference in Korriban Academy duel scene causing endless combat music
+* Swapped incorrect script reference in Korriban Sith Academy duel scene causing endless combat music
 * Gave Saul Karath an on-screen death on the bridge of the Leviathan and stopped Carth talking over his death cry
 * Made changes to the exploding pillar scene in the Tomb of Ajunta Pall on Korriban to prevent AI and UI issues
 * Jumped the party for Yuthura's conversation in the Dreshdae cantina and forced companions to face her on their interjections
-* Edited Dustil's conversation in the Korriban Academy to jump the party and fix some facing issues with Carth and the player
+* Edited Dustil's conversation in the Korriban Sith Academy to jump the party and fix some facing issues with Carth and the player
 * Added a new OnDeath script for Dustil to account for killing him at different stages of Carth's personal quest
 * Set the DLG for the ancient computer in the Korriban Tomb of Tulak Hord to skippable and fixed the door opening animation playing too fast
 * Made numerous edits to the DLG and scripts for the Jorak Uln scenes in the Korriban Tomb of Tulak Hord to improve aesthetics and fix minor issues
@@ -391,13 +393,13 @@
 * Gave the Sith student Tariga gender reassignment therapy
 * Prevented Lashowe from accidentally burning her own face off with her saber in the post-Tuk'ata mother conversation in the Korriban Valley of the Dark Lords
 * Reinstated some incorrectly applied starting conditionals for Tyvark's DLG on Manaan
-* Wrangled the party for the first conversation with Yuthura inside the Korriban Academy
-* Resolved some issues trying to give a datapad to Adrenas in the Korriban Academy
-* Added some listener tags to Uthar's DLG in the Korriban Academy to prevent facing issues during the Shaardan handing in a fake sword cutscene
-* Checked for (and removed) Shaardan's corpse in the pre-final trial conversation with Uthar in the Korriban Academy
-* Edited Uthar's conversation in the Korriban Academy to remove the salute, swap the party leaving for a fade-out, and change the running for the back door to a walk
-* Moved the party out of the way during Uthar's introductory cutscene in the Korriban Academy and stopped him bowing to the students
-* Jumped wandering NPCs in the Korriban Academy to the edge of the room whenever a conversation with Uthar commences
+* Wrangled the party for the first conversation with Yuthura inside the Korriban Sith Academy
+* Resolved some issues trying to give a datapad to Adrenas in the Korriban Sith Academy
+* Added some listener tags to Uthar's DLG in the Korriban Sith Academy to prevent facing issues during the Shaardan handing in a fake sword cutscene
+* Checked for (and removed) Shaardan's corpse in the pre-final trial conversation with Uthar in the Korriban Sith Academy
+* Edited Uthar's conversation in the Korriban Sith Academy to remove the salute, swap the party leaving for a fade-out, and change the running for the back door to a walk
+* Moved the party out of the way during Uthar's introductory cutscene in the Korriban Sith Academy and stopped him bowing to the students
+* Jumped wandering NPCs in the Korriban Sith Academy to the edge of the room whenever a conversation with Uthar commences
 * Swapped the clothing variation on one of the two pilots in the Korriban Dreshdae cantina
 * Changed the Twi'lek females in Dreshdae on Korriban from stripper to clothed appearances
 * Wrangled the party for the confrontation with Lashowe in Dreshdae on Korriban

@@ -1,30 +1,23 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 
 	Module OnEnter for korr_m35aa (Korriban Sith Academy)
 	
-	This is the OnEnter script for the Academy. A few changes have been made
-	to deal with various issues. The datapad in Uthar's room for the Finding
-	Dustil quest is now destroyed if the Academy has turned hostile. Party
-	members being added back post-Tomb of Naga Sadow are now both jumped
-	back to the rear entrance properly, rather than leaving one stranded
-	in the central chamber.
+	This is the OnEnter script for the Academy. A few changes have been made to
+	deal with various issues. The datapad in Uthar's room for the Finding Dustil
+	quest is now destroyed if the Academy has turned hostile. Party members being
+	added back post-Tomb of Naga Sadow are now both jumped back to the rear
+	entrance properly, rather than leaving one stranded in the central chamber.
 	
-	Issue #200: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/200
+	Updated 2022-06-23 to check for Ajunta Pall's sword and the Naga Sadow saber
+	and remove the plot flags from them. Additionally cleaned up the code a little
+	and switched to some CP include functions.
 	
-	Issue #4: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4
-	
-	DP 2019-08-11                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-08-11 / DP 2022-06-23												*/
+//////////////////////////////////////////////////////////////////////////////////
 
-#include "k_inc_utility"
+#include "cp_inc_k1"
 #include "k_inc_generic"
-
-void ToggleAI(int nState) {
-	SetLocalBoolean(OBJECT_SELF, SW_FLAG_AI_OFF, nState);
-}
 
 int GetFlag() {
 	return UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01);
@@ -45,7 +38,7 @@ void DestroyDatapad() {
 	
 	if (GetIsObjectValid(oUthLocker))
 		{
-			while (GetIsObjectValid(oItem) == TRUE)
+			while (GetIsObjectValid(oItem))
 				{
 					if (GetTag(oItem) == "datapad")
 						{
@@ -59,33 +52,64 @@ void DestroyDatapad() {
 }
 
 void JumpParty() {
-
 	object oPC = GetFirstPC();
-	object oPM1 = GetPartyMemberByIndex(1);
-	object oPM2 = GetPartyMemberByIndex(2);
+	object oPM1 = CP_GetPartyMember(1);
+	object oPM2 = CP_GetPartyMember(2);
 	location lPM1 = Location(Vector(119.25,150.0,0.15), 90.0);
 	location lPM2 = Location(Vector(123.75,150.0,0.15), 90.0);
-				
-	AssignCommand(oPM1, ToggleAI(TRUE));
-	AssignCommand(oPM2, ToggleAI(TRUE));
-				
+	
+	AssignCommand(oPM1, CP_DisableAI(TRUE));
+	AssignCommand(oPM2, CP_DisableAI(TRUE));
+	
 	DelayCommand(0.1, UT_TeleportPartyMember(oPM1, lPM1));
 	DelayCommand(0.1, UT_TeleportPartyMember(oPM2, lPM2));
-				
-	DelayCommand(0.2, AssignCommand(oPM1, ToggleAI(FALSE)));
-	DelayCommand(0.2, AssignCommand(oPM2, ToggleAI(FALSE)));
+	
+	DelayCommand(0.2, AssignCommand(oPM1, CP_DisableAI(FALSE)));
+	DelayCommand(0.2, AssignCommand(oPM2, CP_DisableAI(FALSE)));
 	
 	DelayCommand(0.3, AssignCommand(oPM1, ActionMoveToObject(oPC, TRUE, 2.0)));
 	DelayCommand(0.3, AssignCommand(oPM2, ActionMoveToObject(oPC, TRUE, 2.0)));
 }
 
+void RemoveItemPlotFlags() {
+	object oPC = GetFirstPC();
+	object oPM1 = CP_GetPartyMember(1);
+	object oPM2 = CP_GetPartyMember(2);
+	object oSword_PC = GetItemPossessedBy(oPC, "k37_itm_freedont");
+	object oSword_PM1 = GetItemPossessedBy(oPM1, "k37_itm_freedont");
+	object oSword_PM2 = GetItemPossessedBy(oPM2, "k37_itm_freedont");
+	object oSaber = GetItemPossessedBy(oPC, "k39_itm_cersaber");
+	
+	if (GetIsObjectValid(oSword_PC))
+		{
+			SetPlotFlag(oSword_PC, FALSE);
+		}
+	
+	if (GetIsObjectValid(oSword_PM1))
+		{
+			SetPlotFlag(oSword_PM1, FALSE);
+		}
+	
+	if (GetIsObjectValid(oSword_PM2))
+		{
+			SetPlotFlag(oSword_PM2, FALSE);
+		}
+	
+	if (GetIsObjectValid(oSaber))
+		{
+			SetPlotFlag(oSaber, FALSE);
+		}
+}
+
 void main() {
 	
 	object oPC = GetFirstPC();
+	object oEntering = GetEnteringObject();
+	int nGlobal = GetGlobalNumber("KOR_FINAL_TEST");
 	
-	if ((GetEnteringObject() == oPC))
+	if (oEntering == oPC)
 	{
-		if (((GetGlobalNumber("KOR_SHAARDAN_SWORD") == 2) && (GetGlobalNumber("KOR33_SHAARDAN") != 5)))
+		if (GetGlobalNumber("KOR_SHAARDAN_SWORD") == 2 && GetGlobalNumber("KOR33_SHAARDAN") != 5)
 			{
 				object oShaardanA = GetObjectByTag("kor35_shaardan", 0);
 				
@@ -98,27 +122,27 @@ void main() {
 					}
 			}
 		
-		if ((ShaardanStatus() >= 4))
+		if (ShaardanStatus() >= 4)
 			{
 				object oShaardanB = GetObjectByTag("kor35_shaardan", 0);
 				
 				if (GetIsObjectValid(oShaardanB))
-				{
-					DestroyObject(oShaardanB);
-				}
+					{
+						DestroyObject(oShaardanB);
+					}
 			}
 		
-		object oLashowe = GetObjectByTag("kor35_lashowe", 0);
-		
-		if ((GetGlobalNumber("KOR_LASHOWE_PLOT") >= 5))
+		if (GetGlobalNumber("KOR_LASHOWE_PLOT") >= 5)
 			{
+				object oLashowe = GetObjectByTag("kor35_lashowe", 0);
+				
 				if (GetIsObjectValid(oLashowe))
 					{
 						DestroyObject(oLashowe);
 					}
 			}
 		
-		if (((GetGlobalNumber("KOR_MEKEL_KILLED") >= 1) || (GetGlobalBoolean("KOR_MEKEL_LIGHT") == TRUE)))
+		if (GetGlobalNumber("KOR_MEKEL_KILLED") >= 1 || GetGlobalBoolean("KOR_MEKEL_LIGHT"))
 			{
 				object oMekel = GetObjectByTag("kor35_mekel", 0);
 				
@@ -128,7 +152,7 @@ void main() {
 					}
 			}
 		
-		if (((GetGlobalNumber("KOR_DANEL") == 2) && (DustilStatus() == FALSE)))
+		if (GetGlobalNumber("KOR_DANEL") == 2 && !DustilStatus())
 			{
 				object oWP_Locker = GetObjectByTag("k35_way_locker", 0);
 				object oWP_Dustil = GetObjectByTag("k35_way_dustil", 0);
@@ -141,22 +165,21 @@ void main() {
 				CreateObject(OBJECT_TYPE_PLACEABLE, "k35_uthar_ftlckr", lLocker);
 			}
 		
-		int nGlobal = GetGlobalNumber("KOR_FINAL_TEST");
-		
-		if (((nGlobal > 3) && (!GetFlag())))
+		if (nGlobal > 3 && !GetFlag())
 			{
+				int nCount;
+				int nNPCID;
+				string sNPC;
+				
 				SetGlobalBoolean("KOR_ADD_PARTY", TRUE);
 				
 				UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01, TRUE);
 				
-				int nCount;
-				int nNPCID;
-				string sNPC;
 				nCount = 0;
 				
-				while ((nCount < GetGlobalNumber("KOR_REMOVE_PCS")))
+				while (nCount < GetGlobalNumber("KOR_REMOVE_PCS"))
 					{
-						nNPCID = GetGlobalNumber(("KOR_REMOVE_PC" + IntToString(nCount)));
+						nNPCID = GetGlobalNumber("KOR_REMOVE_PC" + IntToString(nCount));
 						
 						switch (nNPCID)
 							{
@@ -190,15 +213,19 @@ void main() {
 							}
 						
 						AddPartyMember(nNPCID, GetObjectByTag(sNPC, 0));
-						(nCount++);
+						
+						nCount++;
 					}
 				
 				// Delay the party jumping to make sure they have been
 				// properly added back first by the above loop.
 				DelayCommand(0.5, JumpParty());
+				
+				// Remove the plot flags from Ajunta Pall's sword and the Naga Sadow lightsaber.
+				DelayCommand(1.0, RemoveItemPlotFlags());
 			}
 		
-		if (((nGlobal == 4) || (nGlobal == 7)))
+		if (nGlobal == 4 || nGlobal == 7)
 			{
 				object oUtharA = GetObjectByTag("kor35_utharwynn", 0);
 				object oYuthuraA = GetObjectByTag("kor35_yuthura", 0);
@@ -219,62 +246,55 @@ void main() {
 						DestroyObject(oAdrenasA);
 					}
 			}
-		
-			else
+			else if (nGlobal == 5)
 				{
-					if ((nGlobal == 5))
+					object oAdrenasB = GetObjectByTag("kor35_adrenas", 0);
+					object oUtharB = GetObjectByTag("kor35_utharwynn", 0);
+					
+					if (GetIsObjectValid(oAdrenasB))
 						{
-							object oAdrenasB = GetObjectByTag("kor35_adrenas", 0);
-							
-							if (GetIsObjectValid(oAdrenasB))
-								{
-									DestroyObject(oAdrenasB);
-								}
-							object oUtharB = GetObjectByTag("kor35_utharwynn", 0);
-							
-							if (GetIsObjectValid(oUtharB))
-								{
-									DestroyObject(oUtharB);
-								}
+							DestroyObject(oAdrenasB);
 						}
-						else
-							{
-								if ((nGlobal == 6))
-									{
-										object oYuthuraB = GetObjectByTag("kor35_yuthura", 0);
-										object oAdrenasC = GetObjectByTag("kor35_adrenas", 0);
-										object oUtharC = GetObjectByTag("kor35_utharwynn", 0);
-										object oWP_Uthar = GetObjectByTag("k35_way_utharstt", 0);
-										
-										if (GetIsObjectValid(oYuthuraB))
-											{
-												DestroyObject(oYuthuraB);
-											}
-										
-										if (GetIsObjectValid(oAdrenasC))
-											{
-												DestroyObject(oAdrenasC);
-											}
-										
-										AssignCommand(oUtharC, ActionJumpToObject(oWP_Uthar));
-									}
-							}
+					
+					if (GetIsObjectValid(oUtharB))
+						{
+							DestroyObject(oUtharB);
+						}
 				}
+				else if (nGlobal == 6)
+					{
+						object oYuthuraB = GetObjectByTag("kor35_yuthura", 0);
+						object oAdrenasC = GetObjectByTag("kor35_adrenas", 0);
+						object oUtharC = GetObjectByTag("kor35_utharwynn", 0);
+						object oWP_Uthar = GetObjectByTag("k35_way_utharstt", 0);
+						
+						if (GetIsObjectValid(oYuthuraB))
+							{
+								DestroyObject(oYuthuraB);
+							}
+						
+						if (GetIsObjectValid(oAdrenasC))
+							{
+								DestroyObject(oAdrenasC);
+							}
+						
+						AssignCommand(oUtharC, ActionJumpToObject(oWP_Uthar));
+					}
 		
 		if (GetGlobalBoolean("KOR_END_HOSTILE"))
 			{
 				SetGlobalFadeOut(0.0, 2.0);
 				
-				object oCaptive9 = GetNearestObjectByTag("kor35_captive9", OBJECT_SELF, 1);
+				object oCaptive = GetNearestObjectByTag("kor35_captive9", OBJECT_SELF, 1);
 				object oVictim = GetObjectByTag("kor35_victim", 0);
 				object oDuelist = GetObjectByTag("kor35_sithduel", 0);
 				object oDroid = GetObjectByTag("kor35_deaddroid", 0);
 				object oComp = GetObjectByTag("kor35_duelcomp", 0);
 				object oTorturer = GetObjectByTag("kor35_torturer", 0);
 				
-				if (GetIsObjectValid(oCaptive9))
+				if (GetIsObjectValid(oCaptive))
 					{
-						DestroyObject(oCaptive9);
+						DestroyObject(oCaptive);
 					}
 				
 				if (GetIsObjectValid(oVictim))
@@ -287,7 +307,7 @@ void main() {
 						DestroyObject(oDuelist);
 					}
 				
-				if ((!GetIsDead(oDroid)))
+				if (!GetIsDead(oDroid))
 					{
 						ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectDeath(), oDroid);
 					}
