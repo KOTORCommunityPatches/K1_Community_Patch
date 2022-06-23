@@ -287,6 +287,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The final scenes on the Unknown World Central Beach post-temple had a range of issues with party positioning, facing, camera angles, etc. [ISSUE #168](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/168)
 * The finale of the swoop race on Taris had a number of issues with facing and various aesthetics [ISSUE #345](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/345)
 * The first conversation with Yuthura inside the Korriban Academy could leave the party jumbled, causing facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
+* The first Rodian appearance used the wrong texture (Reported by N-DReW25) [ISSUE #582](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/582)
 * The floor of the training room in the Manaan Sith Base had some lightmap UV issues [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
 * The footlockers in Uthar's room in the Korriban Sith Academy were oddly positioned/oriented (Reported by Salk) [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
