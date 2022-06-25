@@ -17,6 +17,7 @@
 * Removed the plot flag from the rough-cut Upari amulet gained in the Kashyyyk Lower Shadowlands
 * Removed the plot flags from Ajunta Pall's sword and the Naga Sadow ceremonial lightsaber when returning to the Korriban Sith Academy post-final trial
 * Prevented the "Invisible Mandalorians" journal entry on the Unknown World being orphaned if the Rakata turned hostile before completing it
+* Changed the ambient behaviour of one of Calo Nord's thugs when encountering him in the Korriban Valley of the Dark Lords
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
