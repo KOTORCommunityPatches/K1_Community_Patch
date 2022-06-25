@@ -10,15 +10,26 @@
 	has been changed to having Saul initiate the scene with player, which (mostly)
 	resolves the problem.
 	
+	Updated 2022-06-25 to run a ClearAllEffects on the party to strip off any
+	Force Speed to prevent power walking. Also corrected original issue number.
+	
 	See also cp_lev40_hdunlck, k_plev_saulcs0.
 	
-	Issue #332: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/332
+	Issue #417: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/417
 	
-	DP 2020-09-12																*/
+	Issue #648: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/648
+	
+	DP 2020-09-12 / DP 2022-06-25												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
+
+void ClearNPC() {
+	ClearAllEffects();
+	ClearAllActions();
+}
 
 void main() {
 	
@@ -34,9 +45,9 @@ void main() {
 				{
 					NoClicksFor(0.7);
 					
-					AssignCommand(oPC, ClearAllActions());
-					AssignCommand(oBast, ClearAllActions());
-					AssignCommand(oCarth, ClearAllActions());
+					AssignCommand(oPC, ClearNPC());
+					AssignCommand(oBast, ClearNPC());
+					AssignCommand(oCarth, ClearNPC());
 					
 					DelayCommand(0.5, AssignCommand(oSaul, ActionStartConversation(oPC, "lev40_saul402", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 				}
