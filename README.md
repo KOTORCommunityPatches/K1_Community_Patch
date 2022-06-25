@@ -336,6 +336,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The player would suffer stage fright right before racing for the Hidden Beks [ISSUE #12](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/12)
 * The post-Leviathan scene on the Ebon Hawk had a number of facing and camera angle issues, and the party didn't take off their masks [ISSUE #527](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/527)
 * The post-Ruins conversation with the Jedi Council on Dantooine had various facing and aesthetic issues [ISSUE #104](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/104)
+* The quest "Invisible Mandalorians" on the Unknown World could be left unresolved if The One turned hostile (Reported by La Ingobernable) [ISSUE #647](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/647)
 * The Rakatan computer terminals in the Unknown World Temple Main Floor used the modern rather than ancient interface [ISSUE #534](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/534)
 * The Rakatan hologram in the Kashyyyk Lower Shadowlands could accidentally be killed by its guard droids (Reported by martixy) [ISSUE #584](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/584)
 * The Rancor pen gates in The One's Settlement on the Unknown World showed a Security icon when they were not meant to be unlockable (Reported by La Ingobernable) [ISSUE #600](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/600)
