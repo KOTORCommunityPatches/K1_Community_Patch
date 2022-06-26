@@ -586,6 +586,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some minor dialogue was unavailable in the Korriban Sith Academy due to an incorrect script [ISSUE #421](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/421)
 * The global level scaling script didn't account for differences between a creature's current and max hit points [ISSUE #435](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/435)
 * The player and party members had a tendency to walk overly fast during cutscenes (With input from JCarter426) [ISSUE #445](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/445)
+* The player could report to Hulas in Manaan East Central about failing to kill Zuulan even when he was dead post-Leviathan (Reported by La Ingobernable) [ISSUE #639](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/639)
 * The selection icon for the Sith Embassy transport on Manaan was misaligned [ISSUE #352](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/352)
 * When reinitiating conversation with Bastila on the Star Forge, you could break her concentration [ISSUE #458](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/458)
 * When selecting T3 for the Leviathan prison break, one DLG branch updated the quest to the wrong stage [ISSUE #485](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/485)
