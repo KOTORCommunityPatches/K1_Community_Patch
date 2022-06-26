@@ -22,6 +22,7 @@
 * Adjusted room geometry in the Unknown World Temple Main Floor to prevent light bleed and camera clipping around the Lower Catacombs doorway, plugged gaps in the walls
 * Adjusted room geometry in the Unknown World Temple Summit to prevent light bleed, added static doors to empty doorways
 * Added some static doors to the end cutscene stunt versions of the Unknown World Temple Summit and exterior
+* Repositioned the GWing placeable on the Unknown World Temple Summit to provide more room to access the containers behind it
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break

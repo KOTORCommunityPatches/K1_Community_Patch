@@ -123,6 +123,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Bastila's "How can I help?" line had a couple of variants that were sped up/pitch shifted and sounded odd (Reported by ancient-animal) [ISSUE #451](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/451)
 * Bastila's clothing had some unintended transparency due to a missing reference to an environment map [ISSUE #545](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/545)
 * Bastila's post-vision cutscene lines all had extended silences at the beginning, which made for awkward pauses [ISSUE #256](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/256)
+* Bastila's shuttle on the Unknown World Temple Summit was a bit too close to the walls (Reported by La Ingobernable) [ISSUE #644](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/644)
 * Calo gets a bit too shouty during the hangar confrontation scene in Davik's estate on Taris (Reported by A Future Pilot) [ISSUE #368](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/368)
 * Calo's Rodian prey in the Undercity Apartments didn't draw their blasters (Reported by ebmar) [ISSUE #34](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/34)
 * Carth had no respect for the dead, talking over the top of a death cry on the Leviathan bridge [ISSUE #131](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/131)
