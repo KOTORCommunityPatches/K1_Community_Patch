@@ -19,6 +19,7 @@
 * Prevented the "Invisible Mandalorians" journal entry on the Unknown World being orphaned if the Rakata turned hostile before completing it
 * Changed the ambient behaviour of one of Calo Nord's thugs when encountering him in the Korriban Valley of the Dark Lords
 * Corrected the starting conditional for reporting back to Hulas in Manaan East Central about Zuulan post-Leviathan
+* Adjusted room geometry in the Unknown World Temple Main Floor to prevent light bleed and camera clipping around the Lower Catacombs doorway, plugged gaps in the walls
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
