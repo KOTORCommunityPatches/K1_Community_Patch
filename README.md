@@ -376,6 +376,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Twi'lek messenger that appears after winning the swoop race on Taris had consecutive lines where he repeated the same phrase (Reported by A Future Pilot) [ISSUE #247](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/247)
 * The two Dark Jedi in the Unknown World Temple that stop to chat look at each other instead of the player [ISSUE #288](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/288)
 * The two pre-training conversations with the Jedi Council on Dantooine had various facing issues [ISSUE #151](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/151)
+* The Unknown World Temple in the end cutscenes lacked some static doors to fill empty doorways (Reported by N-DReW25) [ISSUE #643](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/643)
 * The Unknown World Temple Main Floor had some gaps in the walls, camera clipping, and light bleed around a doorway (Reported by La Ingobernable) [ISSUE #643](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/643)
 * The Unknown World Temple Summit had light bleed around a doorway and lacked some static doors (Reported by La Ingobernable) [ISSUE #643](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/643)
 * The Valley of the Dark Lords on Korriban had some distorted UVs on the cliff edge (Reported by djh269) [ISSUE #191](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/191)
