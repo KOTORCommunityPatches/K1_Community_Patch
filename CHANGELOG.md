@@ -24,6 +24,7 @@
 * Added some static doors to the end cutscene stunt versions of the Unknown World Temple Summit and exterior
 * Repositioned the GWing placeable on the Unknown World Temple Summit to provide more room to access the containers behind it
 * Swapped some incorrect soundset assignments for Rakghouls and droids in the Taris Lower and Upper Sewers
+* Made the Sith officers in the DS end cutscene in the Unknown World Temple Summit face the right direction and play their correct animations
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
