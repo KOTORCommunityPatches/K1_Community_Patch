@@ -25,7 +25,8 @@
 * Repositioned the GWing placeable on the Unknown World Temple Summit to provide more room to access the containers behind it
 * Swapped some incorrect soundset assignments for Rakghouls and droids in the Taris Lower and Upper Sewers
 * Made the Sith officers in the DS end cutscene in the Unknown World Temple Summit face the right direction and play their correct animations
-* Replaced low poly Sith fighter meshes in the Manaan Hangar Bay and rebaked the lightmap for their support pillars
+* Replaced low poly Sith fighter meshes in the Manaan Docking Bay and rebaked the lightmap for their support pillars
+* Removed unnecessary Security UI from the Sith hangar door in the Manaan Docking Bay
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -372,7 +373,7 @@
 * Gated off asking HK about restoring memories post-Leviathan after the first time
 * Disabled screen blurring effect for Force/Knight/Master Speed
 * Added new soundset for DS Juhani in the Grove, removing her Republic/Jedi-related barks
-* Switched some Sith Elite Troopers in Manaan hangar bay to the proper appearances
+* Switched some Sith Elite Troopers in Manaan Docking Bay to the proper appearances
 * Moved some troopers in the Manaan Sith Base so they would see the party entering the room properly
 * Made a host of edits to the stunt animations for the LS ending cutscene to improve it for widescreen resolutions
 * Tweaked the initial scene when boarding the Star Forge to account for widescreen framing
