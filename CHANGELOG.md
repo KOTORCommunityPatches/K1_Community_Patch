@@ -27,6 +27,9 @@
 * Made the Sith officers in the DS end cutscene in the Unknown World Temple Summit face the right direction and play their correct animations
 * Replaced low poly Sith fighter meshes in the Manaan Docking Bay and rebaked the lightmap for their support pillars
 * Removed unnecessary Security UI from the Sith hangar door in the Manaan Docking Bay
+* Corrected Dark Side transitions for female player head PFHA04
+* Corrected Dark Side transitions for female player head PFHC01
+* Corrected Dark Side transitions for female player head PFHC03
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
