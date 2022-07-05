@@ -366,6 +366,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The showdown on the Unknown World Temple Summit had a number of small cosmetic issues [ISSUE #484](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/484)
 * The Sith fighters inside the Manaan Docking Bay we low poly and had a number of gaps in their geometry (Reported by La Ingobernable) [ISSUE #621](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/621)
 * The Sith soldiers in the Taris Upper City North Apartments could be a little too dedicated to searching for stolen uniforms, even doing so when in combat (Reported by Salk) [ISSUE #326](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/326)
+* The Sith soldiers patrolling Taris Upper City South didn't use bark bubbles, causing pauses when exiting dialogue (Reported by Salk) [ISSUE #566](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/566)
 * The smuggler NPC appearance lacked proper racial variants, resulting in mismatched hand and head skin tones (Reported by KnifeMaster) [ISSUE #319](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/319)
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The Star Map opening sequence in the Dantooine Ruins was split in two instead of being one continuous scene [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105)

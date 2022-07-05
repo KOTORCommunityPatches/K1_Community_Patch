@@ -30,6 +30,7 @@
 * Corrected Dark Side transitions for female player head PFHA04
 * Corrected Dark Side transitions for female player head PFHC01
 * Corrected Dark Side transitions for female player head PFHC03
+* Switched the patrolling Sith soldiers in Taris Upper City South to use bark bubbles like those in Upper City North
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
