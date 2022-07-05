@@ -36,6 +36,7 @@
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
 * Revised the pre-Leviathan scene on the Ebon Hawk to properly hide Carth's equipped mask
 * Adjusted the trigger script for the Saul showdown cutscene on the Leviathan Bridge to strip Force Speed from Bastila and the player
+* Prevented Zaedra playing her ambient animations in the background while speaking to Gadon in the Taris Hidden Bek Base
 
 ## v1.9.2 - March 27, 2022
 ### Additions
