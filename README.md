@@ -388,6 +388,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The two Sith officers at the back of the DS ending cutscene in the Unknown World Temple Summit faced the wrong direction [ISSUE #538](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/538)
 * The Unknown World Temple in the end cutscenes lacked some static doors to fill empty doorways (Reported by N-DReW25) [ISSUE #643](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/643)
 * The Unknown World Temple Main Floor had some gaps in the walls, camera clipping, and light bleed around a doorway (Reported by La Ingobernable) [ISSUE #643](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/643)
+* The Unknown World Temple Summit had a number of lightmap issues in the Dark Side ending cutscene version [ISSUE #643](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/643)
 * The Unknown World Temple Summit had light bleed around a doorway and lacked some static doors (Reported by La Ingobernable) [ISSUE #643](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/643)
 * The Valley of the Dark Lords on Korriban had some distorted UVs on the cliff edge (Reported by djh269) [ISSUE #191](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/191)
 * The variant appearance entries for Mandalorians had some minor differences like footstep sounds and body bag type (Reported by JCarter426) [ISSUE #447](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/447)

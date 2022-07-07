@@ -31,6 +31,7 @@
 * Corrected Dark Side transitions for female player head PFHC01
 * Corrected Dark Side transitions for female player head PFHC03
 * Switched the patrolling Sith soldiers in Taris Upper City South to use bark bubbles like those in Upper City North
+* Revised some lightmap UVs and rebaked all lightmaps for the Unknown World Temple Summit to address a number of artefacts and add missing shadows
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
