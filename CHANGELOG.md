@@ -1,7 +1,6 @@
 # CHANGELOG
 ## v1.10.0 - TBA
 ### Additions
-
 * Adjusted the eyelid and mouthbox UVs for the old black male head 2 to move them from the beard texture
 * Prevented the inadvertent removal of the first journal entry of the "Dwindling Supplies" quest on the Ebon Hawk
 * Destroyed the moisture vaporators after giving them to the Chieftain in the Tatooine Sand People Enclave to prevent them dropping as loot if the Sand People turn hostile
@@ -42,6 +41,7 @@
 * Prevented Zaedra playing her ambient animations in the background while speaking to Gadon in the Taris Hidden Bek Base
 * Corrected the config for the torture scene in the Leviathan Prison Block to properly assign static cameras on nodes where they were missing
 * Revised the conversation for the rep in the Tatooine Czerka Office to finally prevent her line being spoken off-screen when Force Persuaded (for real this time)
+* Tweaked party member facings and hid masks for the Griff and Greeta conversions in the Tatooine Czerka Office
 
 ## v1.9.2 - March 27, 2022
 ### Additions

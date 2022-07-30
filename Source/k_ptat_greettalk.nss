@@ -10,12 +10,15 @@
 	performing a talk animation at the same time. To prevent this, the party is now
 	jumped into position before the conversation begins.
 	
+	Updated 2022-07-30 to revise the starting angles of the party members and make
+	some other minor tweaks.
+	
 	See also cp_tat17_griftlk.
 	
 	Issue #265: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265
 	
-	DP 2020-09-16																*/
+	DP 2020-09-16 / DP 2022-07-30												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -28,18 +31,20 @@ void main() {
 	object oPM2 = CP_GetPartyMember(2);
 	object oMiss = GetObjectByTag("mission", 0);
 	object oGreeta = GetObjectByTag("tat17_10greet_01", 0);
-	location lPC = Location(Vector(-2.416,3.773,1.436), -141.777);
-	location lPM2 = Location(Vector(-0.487,4.018,1.386), -141.777);
-	location lMiss = Location(Vector(-1.722,5.586,1.386), -141.777);
+	location lPC = Location(Vector(-2.42,3.77,1.44), 220.00);
+	location lPM2 = Location(Vector(-1.72,5.59,1.39), 240.00);
+	location lMiss = Location(Vector(-0.49,4.02,1.39), 200.00);
 	
 	if (GetIsPC(oEntering) == TRUE)
 		{
-			if (GetGlobalBoolean("Tat_Greet_Griff") == TRUE)
+			if (GetGlobalBoolean("Tat_Greet_Griff"))
 				{
 					SetPartyLeader(NPC_PLAYER);
 					
 					SetGlobalFadeOut();
 					SetGlobalFadeIn(0.5, 0.5);
+					
+					NoClicksFor(1.0);
 					
 					CP_PartyJump(oPC, lPC);
 					
@@ -47,11 +52,11 @@ void main() {
 						{
 							CP_PartyJump(oMiss, lMiss);
 							
-							if (GetTag(oPM1) != "mission")
+							if (oPM1 != oMiss)
 								{
 									CP_PartyJump(oPM1, lPM2);
 								}
-								else if (GetTag(oPM2) != "mission")
+								else if (oPM2 != oMiss)
 									{
 										CP_PartyJump(oPM2, lPM2);
 									}
@@ -63,7 +68,8 @@ void main() {
 							}
 					
 					AssignCommand(oGreeta, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
-					DestroyObject(OBJECT_SELF);
+					
+					DelayCommand(0.2, DestroyObject(OBJECT_SELF));
 				}
 		}
 }
