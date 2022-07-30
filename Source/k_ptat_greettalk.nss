@@ -13,8 +13,6 @@
 	Updated 2022-07-30 to revise the starting angles of the party members and make
 	some other minor tweaks.
 	
-	See also cp_tat17_griftlk.
-	
 	Issue #265: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265
 	

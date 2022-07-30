@@ -11,8 +11,6 @@
 	Updated 2022-07-30 to revise the starting angles of the party members and
 	ensure that the player is the party leader.
 	
-	See also k_ptat_greettalk.
-	
 	Issue #265: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265
 	

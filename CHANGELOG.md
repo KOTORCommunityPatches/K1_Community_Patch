@@ -41,6 +41,7 @@
 * Prevented Zaedra playing her ambient animations in the background while speaking to Gadon in the Taris Hidden Bek Base
 * Corrected the config for the torture scene in the Leviathan Prison Block to properly assign static cameras on nodes where they were missing
 * Revised the conversation for the rep in the Tatooine Czerka Office to finally prevent her line being spoken off-screen when Force Persuaded (for real this time)
+* Herded the party for the conversation with the rep in the Tatooine Czerka Office to ensure correct static camera framing
 * Tweaked party member facings and hid masks for the Griff and Greeta conversions in the Tatooine Czerka Office
 
 ## v1.9.2 - March 27, 2022
