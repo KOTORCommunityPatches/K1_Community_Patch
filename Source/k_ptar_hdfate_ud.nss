@@ -10,13 +10,19 @@
 	resolved. It now also destroys the vanilla trigger, since that no longer has
 	a use.
 	
+	Updated 2022-08-01 to face Hendar towards the Rakghoul and ensure that he
+	gets attack commands so that he doesn't stand around gormlessly.
+	
 	See also cp_tar04_miskill, k_ptar_addmissio, k_ptar_desmis, k_ptar_miscrt_en,
 	k_ptar_misrun, k_ptar_rakrun.
 	
 	Issue #472: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/472
 	
-	DP 2021-10-30																*/
+	Issue #543: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/543
+	
+	DP 2021-10-30 / 2022-08-01													*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_tar"
@@ -109,21 +115,32 @@ void main() {
 			object oHendar = GetObjectByTag("OutcastMan046", 0);
 			object oSelf = OBJECT_SELF;
 			
+			// Face Hendar towards the Rakghoul.
+			AssignCommand(oHendar, SetFacingPoint(GetPosition(oSelf)));
+			
 			SetPlotFlag(OBJECT_SELF, FALSE);
+			
 			ChangeToStandardFaction(oHendar, STANDARD_FACTION_FRIENDLY_1);
 			ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_FRIENDLY_2);
-			ActionWait(1.0);
-			ActionAttack(oHendar);
+			
+			DelayCommand(1.0, AssignCommand(oHendar, GN_DetermineCombatRound(oSelf)));
+			DelayCommand(1.0, GN_DetermineCombatRound(oHendar));
 		}
     else if (nUser == 3000) // PLAYER AGREES TO HELP HENDAR
 		{
 			object oHendar = GetObjectByTag("OutcastMan046", 0);
 			object oSelf = OBJECT_SELF;
 			
+			// Face Hendar towards the Rakghoul.
+			AssignCommand(oHendar, SetFacingPoint(GetPosition(oSelf)));
+			
 			SetPlotFlag(OBJECT_SELF, FALSE);
+			
 			ChangeToStandardFaction(oHendar, STANDARD_FACTION_FRIENDLY_1);
 			ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_HOSTILE_1);
+			
 			GN_DetermineCombatRound(oHendar);
+			AssignCommand(oHendar, GN_DetermineCombatRound(oSelf));
 		}
     else if (nUser == HOSTILE_RETREAT)
 		{
