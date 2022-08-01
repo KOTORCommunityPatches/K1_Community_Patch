@@ -35,6 +35,7 @@
 * Corrected the stunt Revan models so that the cape properly animated during the revelation cutscene
 * Added some thickness to the hallway walls in the Unknown World Temple torture cutscene
 * Adjusted the UserDefine of the Rakghoul that attacks Hendar in the Taris Undercity to make sure Hendar acts a little quicker
+* Stripped the party of Force Speed to prevent them power walking during the cutscene outside The One's compound in Unknown World North Beach
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
