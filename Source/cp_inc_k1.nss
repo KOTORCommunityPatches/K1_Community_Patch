@@ -72,6 +72,10 @@ void CP_ReturnToBase(location lLoc, int nRun = FALSE);
 // Commands an NPC to face towards the specified target object.
 void CP_FaceNPC(object oNPC, object oFace);
 
+// Removes Burst of Speed / Knight Speed / Master Speed from the designated target object.
+void CP_RemoveForceSpeed(object oTarget);
+
+
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
 	
@@ -83,21 +87,21 @@ void CP_FaceNPC(object oNPC, object oFace);
 //////////////////////////////////////////////////////////////////////////////////
 string CP_NPCToTag(int nNPC) {
 
-switch( nNPC ) {
-	case NPC_BASTILA: return "Bastila";
-	case NPC_CANDEROUS: return "Cand";
-	case NPC_CARTH: return "Carth";
-	case NPC_HK_47: return "HK47";
-	case NPC_JOLEE: return "Jolee";
-	case NPC_JUHANI: return "Juhani";
-	case NPC_MISSION: return "Mission";
-	case NPC_T3_M4: return "T3M4";
-	case NPC_ZAALBAR: return "Zaalbar";
-	}
-return "";
-
+	switch (nNPC)
+		{
+			case NPC_BASTILA: return "Bastila";
+			case NPC_CANDEROUS: return "Cand";
+			case NPC_CARTH: return "Carth";
+			case NPC_HK_47: return "HK47";
+			case NPC_JOLEE: return "Jolee";
+			case NPC_JUHANI: return "Juhani";
+			case NPC_MISSION: return "Mission";
+			case NPC_T3_M4: return "T3M4";
+			case NPC_ZAALBAR: return "Zaalbar";
+		}
+	
+	return "";
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyJump()
@@ -112,12 +116,9 @@ return "";
 //////////////////////////////////////////////////////////////////////////////////
 void CP_PartyJump(object oPM, location lLoc) {
  
-AssignCommand(oPM, ClearAllActions());
-//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
-AssignCommand(oPM, ActionJumpToLocation(lLoc));	
-
+	AssignCommand(oPM, ClearAllActions());
+	AssignCommand(oPM, ActionJumpToLocation(lLoc));	
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyJumpObject()
@@ -133,10 +134,8 @@ AssignCommand(oPM, ActionJumpToLocation(lLoc));
 void CP_PartyJumpObject(object oPM, object oJumpTo) {
  
 	AssignCommand(oPM, ClearAllActions());
-	//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
 	AssignCommand(oPM, ActionJumpToObject(oJumpTo));
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyMove()
@@ -152,12 +151,9 @@ void CP_PartyJumpObject(object oPM, object oJumpTo) {
 //////////////////////////////////////////////////////////////////////////////////
 void CP_PartyMove(object oPM, location lLoc, int nRun = FALSE) {
  
-AssignCommand(oPM, ClearAllActions());
-//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
-AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
-
+	AssignCommand(oPM, ClearAllActions());
+	AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyMoveObject()
@@ -174,10 +170,8 @@ AssignCommand(oPM, ActionMoveToLocation(lLoc, nRun));
 void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE) {
  
 	AssignCommand(oPM, ClearAllActions());
-	//AssignCommand(oPM, ActionDoCommand(SetCommandable(TRUE, oPM)));
 	AssignCommand(oPM, ActionMoveToObject(oMoveTo, nRun));
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_PartyHerder()
@@ -194,38 +188,71 @@ void CP_PartyMoveObject(object oPM, object oMoveTo, int nRun = FALSE) {
 //////////////////////////////////////////////////////////////////////////////////
 void CP_PartyHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE) {
 
-object oPC = GetFirstPC();
-int i = 0;
-// Loop to get first party member
-object oPM1 = OBJECT_INVALID;
-while( !GetIsObjectValid(oPM1) && i <= 8 ) {
-	oPM1 = GetObjectByTag(CP_NPCToTag(i), 0);
-	if( !IsObjectPartyMember(oPM1) ) oPM1 = OBJECT_INVALID;
-	i++;
-	}
-// Loop to get second party member
-object oPM2 = OBJECT_INVALID;
-while( !GetIsObjectValid(oPM2) && i <= 8 ) {
-	oPM2 = GetObjectByTag(CP_NPCToTag(i), 0);
-	if( !IsObjectPartyMember(oPM2) ) oPM2 = OBJECT_INVALID;
-	i++;
-	}
-// Herd party into position
-if( nJump == TRUE ) {
-	// Jump
-	CP_PartyJump(oPC, lPC);
-	if( GetIsObjectValid(oPM1) ) CP_PartyJump(oPM1, lPM1);
-	if( GetIsObjectValid(oPM2) ) CP_PartyJump(oPM2, lPM2);
-	}
-else {
-	// Walk/run
-	CP_PartyMove(oPC, lPC, nRun);
-	if( GetIsObjectValid(oPM1) ) CP_PartyMove(oPM1, lPM1, nRun);
-	if( GetIsObjectValid(oPM2) ) CP_PartyMove(oPM2, lPM2, nRun);
-	}
-
+	object oPC = GetFirstPC();
+	int i = 0;
+	
+	// Loop to get first party member
+	object oPM1 = OBJECT_INVALID;
+	
+	while (!GetIsObjectValid(oPM1) && i <= 8)
+		{
+			oPM1 = GetObjectByTag(CP_NPCToTag(i), 0);
+			
+			if (!IsObjectPartyMember(oPM1))
+				{
+					oPM1 = OBJECT_INVALID;
+				}
+			
+			i++;
+		}
+	
+	// Loop to get second party member
+	object oPM2 = OBJECT_INVALID;
+	
+	while (!GetIsObjectValid(oPM2) && i <= 8 )
+		{
+			oPM2 = GetObjectByTag(CP_NPCToTag(i), 0);
+			
+			if (!IsObjectPartyMember(oPM2))
+				{
+					oPM2 = OBJECT_INVALID;
+				}
+			
+			i++;
+		}
+	
+	// Herd party into position
+	if (nJump == TRUE)
+		{
+			// Jump
+			CP_PartyJump(oPC, lPC);
+			
+			if (GetIsObjectValid(oPM1))
+				{
+					CP_PartyJump(oPM1, lPM1);
+				}
+			
+			if (GetIsObjectValid(oPM2))
+				{
+					CP_PartyJump(oPM2, lPM2);
+				}
+		}
+		else
+			{
+				// Walk/run
+				CP_PartyMove(oPC, lPC, nRun);
+				
+				if (GetIsObjectValid(oPM1))
+					{
+						CP_PartyMove(oPM1, lPM1, nRun);
+					}
+				
+				if (GetIsObjectValid(oPM2))
+					{
+						CP_PartyMove(oPM2, lPM2, nRun);
+					}
+			}
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_GetPartyMember()
@@ -246,34 +273,62 @@ else {
 //////////////////////////////////////////////////////////////////////////////////
 object CP_GetPartyMember(int nIndex) {
 
-object oPC = GetFirstPC();
-// 0 returns PC
-if( nIndex == 0 ) return oPC;
-// Otherwise, loop
-int i = 0;
-// Loop to get first party member
-object oPM1 = OBJECT_INVALID;
-while( !GetIsObjectValid(oPM1) && i <= 8 ) {
-	oPM1 = GetObjectByTag(CP_NPCToTag(i), 0);
-	if( !IsObjectPartyMember(oPM1) ) oPM1 = OBJECT_INVALID;
-	i++;
-	}
-// Return 1st party member if that's what we're looking for
-if( nIndex == 1 && GetIsObjectValid(oPM1) ) return oPM1;
-// Loop to get second party member
-object oPM2 = OBJECT_INVALID;
-while( !GetIsObjectValid(oPM2) && i <= 8 ) {
-	oPM2 = GetObjectByTag(CP_NPCToTag(i), 0);
-	if( !IsObjectPartyMember(oPM2) ) oPM2 = OBJECT_INVALID;
-	i++;
-	}
-// Return 2nd party member if that's what we're looking for
-if( nIndex == 2 && GetIsObjectValid(oPM2) ) return oPM2;
-// If nothing worked, return invalid
-return OBJECT_INVALID;
-
+	object oPC = GetFirstPC();
+	
+	// 0 returns PC
+	if (nIndex == 0)
+		{
+			return oPC;
+		}
+	
+	// Otherwise, loop
+	int i = 0;
+	
+	// Loop to get first party member
+	object oPM1 = OBJECT_INVALID;
+	
+	while (!GetIsObjectValid(oPM1) && i <= 8 )
+		{
+			oPM1 = GetObjectByTag(CP_NPCToTag(i), 0);
+			
+			if (!IsObjectPartyMember(oPM1))
+				{
+					oPM1 = OBJECT_INVALID;
+				}
+			
+			i++;
+		}
+	
+	// Return 1st party member if that's what we're looking for
+	if (nIndex == 1 && GetIsObjectValid(oPM1))
+		{
+			return oPM1;
+		}
+	
+	// Loop to get second party member
+	object oPM2 = OBJECT_INVALID;
+	
+	while (!GetIsObjectValid(oPM2) && i <= 8 )
+		{
+			oPM2 = GetObjectByTag(CP_NPCToTag(i), 0);
+			
+			if (!IsObjectPartyMember(oPM2))
+				{
+					oPM2 = OBJECT_INVALID;
+				}
+			
+			i++;
+		}
+	
+	// Return 2nd party member if that's what we're looking for
+	if (nIndex == 2 && GetIsObjectValid(oPM2))
+		{
+			return oPM2;
+		}
+	
+	// If nothing worked, return invalid
+	return OBJECT_INVALID;
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	A note on dialogues:
@@ -304,32 +359,36 @@ return OBJECT_INVALID;
 //////////////////////////////////////////////////////////////////////////////////
 void CP_DLGSetup(string sNPCTag) {
 
-object oNPC = GetObjectByTag(sNPCTag);
-object oPC = GetFirstPC();
-// Heal party
-UT_RestorePartyToOneHealth();
-// NPC must exist
-if (GetIsObjectValid(oNPC) == TRUE) {
-	if (oPC == GetPartyMemberByIndex(0)) {
-		// Player already in control
-		AssignCommand(oPC, ClearAllActions());
-		AssignCommand(oNPC, ClearAllActions());
-		CancelCombat(oPC);
+	object oNPC = GetObjectByTag(sNPCTag);
+	object oPC = GetFirstPC();
+	
+	// Heal party
+	UT_RestorePartyToOneHealth();
+	
+	// NPC must exist
+	if (GetIsObjectValid(oNPC) == TRUE)
+		{
+			if (oPC == GetPartyMemberByIndex(0))
+				{
+					// Player already in control
+					AssignCommand(oPC, ClearAllActions());
+					AssignCommand(oNPC, ClearAllActions());
+					CancelCombat(oPC);
+				}
+				else
+					{
+						// Fade to black, switch player control to the main character
+						SetGlobalFadeOut();
+						SetPartyLeader(NPC_PLAYER);
+						
+						// Cancel all actions & player input
+						NoClicksFor(0.7);
+						AssignCommand(oPC, ClearAllActions());
+						AssignCommand(oNPC, ClearAllActions());
+						CancelCombat(oPC);
+					}
 		}
-	else {
-		// Fade to black, switch player control to the main character
-		SetGlobalFadeOut();
-		SetPartyLeader(NPC_PLAYER);
-		// Cancel all actions & player input
-		NoClicksFor(0.7);
-		AssignCommand(oPC, ClearAllActions());
-		AssignCommand(oNPC, ClearAllActions());
-		CancelCombat(oPC);
-		}
-	}
-
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_DLGHerder()
@@ -349,13 +408,19 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 //////////////////////////////////////////////////////////////////////////////////
 void CP_DLGHerder(location lPC, location lPM1, location lPM2, int nJump = TRUE, int nRun = FALSE) {
 
-float fDelay;
-if( nJump == TRUE ) fDelay = 0.2;
-else fDelay = 0.55;
-AssignCommand(GetFirstPC(), DelayCommand(fDelay, CP_PartyHerder(lPC, lPM1, lPM2, nJump, nRun)));
-
+	float fDelay;
+	
+	if (nJump == TRUE)
+		{
+			fDelay = 0.2;
+		}
+		else
+			{
+				fDelay = 0.55;
+			}
+	
+	AssignCommand(GetFirstPC(), DelayCommand(fDelay, CP_PartyHerder(lPC, lPM1, lPM2, nJump, nRun)));
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_DLGInit()
@@ -377,32 +442,42 @@ AssignCommand(GetFirstPC(), DelayCommand(fDelay, CP_PartyHerder(lPC, lPM1, lPM2,
 //////////////////////////////////////////////////////////////////////////////////
 void CP_DLGInit(string sNPCTag, string sDLG = "", int nJump = FALSE, float fWait = 0.5, float fFade = 2.0) {
 
-object oNPC = GetObjectByTag(sNPCTag);
-object oPC = GetFirstPC();
-object oPM1 = GetPartyMemberByIndex(1);
-object oPM2 = GetPartyMemberByIndex(2);
-float fDelay;
-if( nJump == TRUE ) fDelay = 0.4;
-else fDelay = 0.6;
-// NPC must exist
-if (GetIsObjectValid(oNPC) == TRUE) {
-	// If we didn't run our own jump, jump to NPC
-	if( nJump == TRUE ) {
-		AssignCommand(oPC, DelayCommand(0.2, JumpToObject(oNPC)));
-		AssignCommand(oPM1, DelayCommand(0.5, JumpToObject(oPC)));
-		AssignCommand(oPM2, DelayCommand(0.5, JumpToObject(oPC)));
+	object oNPC = GetObjectByTag(sNPCTag);
+	object oPC = GetFirstPC();
+	object oPM1 = GetPartyMemberByIndex(1);
+	object oPM2 = GetPartyMemberByIndex(2);
+	float fDelay;
+	
+	if (nJump == TRUE)
+		{
+			fDelay = 0.4;
 		}
-	// Party faces NPC
-	AssignCommand(oPC, DelayCommand(fDelay, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
-	AssignCommand(oPM1, DelayCommand(fDelay + 0.3, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
-	AssignCommand(oPM2, DelayCommand(fDelay + 0.3, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
-	// Fade in, begin conversation
-	AssignCommand(oNPC, ActionDoCommand(SetGlobalFadeIn(fWait, fFade)));
-	DelayCommand(0.5, AssignCommand(oNPC, ActionStartConversation(oPC, sDLG, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
-	}
-
+		else
+			{
+				fDelay = 0.6;
+			}
+	
+	// NPC must exist
+	if (GetIsObjectValid(oNPC) == TRUE)
+		{
+			// If we didn't run our own jump, jump to NPC
+			if (nJump == TRUE)
+				{
+					AssignCommand(oPC, DelayCommand(0.2, JumpToObject(oNPC)));
+					AssignCommand(oPM1, DelayCommand(0.5, JumpToObject(oPC)));
+					AssignCommand(oPM2, DelayCommand(0.5, JumpToObject(oPC)));
+				}
+			
+			// Party faces NPC
+			AssignCommand(oPC, DelayCommand(fDelay, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
+			AssignCommand(oPM1, DelayCommand(fDelay + 0.3, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
+			AssignCommand(oPM2, DelayCommand(fDelay + 0.3, ActionDoCommand(SetFacingPoint(GetPosition(oNPC)))));
+			
+			// Fade in, begin conversation
+			AssignCommand(oNPC, ActionDoCommand(SetGlobalFadeIn(fWait, fFade)));
+			DelayCommand(0.5, AssignCommand(oNPC, ActionStartConversation(oPC, sDLG, FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+		}
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_EquipFirstWeapon()
@@ -416,57 +491,63 @@ if (GetIsObjectValid(oNPC) == TRUE) {
 //////////////////////////////////////////////////////////////////////////////////
 void CP_EquipFirstWeapon(object oCreature, int nInstant = FALSE) {
 
-object oRWeapon = GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oCreature);
-if( !GetIsObjectValid(oRWeapon) ) {
-	object oItem = GetFirstItemInInventory(oCreature);
-	object oEquip = OBJECT_INVALID;
-	while( GetIsObjectValid(oItem) ) {
-		int nBaseItem = GetBaseItemType(oItem);
-		switch( nBaseItem ) {
-			case BASE_ITEM_DOUBLE_BLADED_LIGHTSABER:
-			case BASE_ITEM_DOUBLE_BLADED_SWORD:
-			case BASE_ITEM_GAMMOREAN_BATTLEAXE:
-			case BASE_ITEM_GHAFFI_STICK:
-			case BASE_ITEM_LIGHTSABER:
-			case BASE_ITEM_LONG_SWORD:
-			case BASE_ITEM_QUARTER_STAFF:
-			case BASE_ITEM_SHORT_LIGHTSABER:
-			case BASE_ITEM_SHORT_SWORD:
-			case BASE_ITEM_STUN_BATON:
-			case BASE_ITEM_VIBRO_BLADE:
-			case BASE_ITEM_VIBRO_DOUBLE_BLADE:
-			case BASE_ITEM_VIBRO_SWORD:
-			case BASE_ITEM_WOOKIE_WARBLADE:
-			case BASE_ITEM_BLASTER_CARBINE:
-			case BASE_ITEM_BLASTER_PISTOL:
-			case BASE_ITEM_BLASTER_RIFLE:
-			case BASE_ITEM_BOWCASTER:
-			case BASE_ITEM_DISRUPTER_PISTOL:
-			case BASE_ITEM_DISRUPTER_RIFLE:
-			case BASE_ITEM_HEAVY_BLASTER:
-			case BASE_ITEM_HEAVY_REPEATING_BLASTER:
-			case BASE_ITEM_HOLD_OUT_BLASTER:
-			case BASE_ITEM_ION_BLASTER:
-			case BASE_ITEM_ION_RIFLE:
-			case BASE_ITEM_REPEATING_BLASTER:
-			case BASE_ITEM_SONIC_PISTOL:
-			case BASE_ITEM_SONIC_RIFLE:
-			case BASE_ITEM_SONIC_PISTOL:
-				oEquip = oItem;
-				oItem = OBJECT_INVALID;
-				break;
-			default:
-				oItem = GetNextItemInInventory(oCreature);
-				break;
-			}
+	object oRWeapon = GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oCreature);
+	
+	if (!GetIsObjectValid(oRWeapon))
+		{
+			object oItem = GetFirstItemInInventory(oCreature);
+			object oEquip = OBJECT_INVALID;
+			
+			while (GetIsObjectValid(oItem))
+				{
+					int nBaseItem = GetBaseItemType(oItem);
+					
+					switch(nBaseItem)
+						{
+							case BASE_ITEM_DOUBLE_BLADED_LIGHTSABER:
+							case BASE_ITEM_DOUBLE_BLADED_SWORD:
+							case BASE_ITEM_GAMMOREAN_BATTLEAXE:
+							case BASE_ITEM_GHAFFI_STICK:
+							case BASE_ITEM_LIGHTSABER:
+							case BASE_ITEM_LONG_SWORD:
+							case BASE_ITEM_QUARTER_STAFF:
+							case BASE_ITEM_SHORT_LIGHTSABER:
+							case BASE_ITEM_SHORT_SWORD:
+							case BASE_ITEM_STUN_BATON:
+							case BASE_ITEM_VIBRO_BLADE:
+							case BASE_ITEM_VIBRO_DOUBLE_BLADE:
+							case BASE_ITEM_VIBRO_SWORD:
+							case BASE_ITEM_WOOKIE_WARBLADE:
+							case BASE_ITEM_BLASTER_CARBINE:
+							case BASE_ITEM_BLASTER_PISTOL:
+							case BASE_ITEM_BLASTER_RIFLE:
+							case BASE_ITEM_BOWCASTER:
+							case BASE_ITEM_DISRUPTER_PISTOL:
+							case BASE_ITEM_DISRUPTER_RIFLE:
+							case BASE_ITEM_HEAVY_BLASTER:
+							case BASE_ITEM_HEAVY_REPEATING_BLASTER:
+							case BASE_ITEM_HOLD_OUT_BLASTER:
+							case BASE_ITEM_ION_BLASTER:
+							case BASE_ITEM_ION_RIFLE:
+							case BASE_ITEM_REPEATING_BLASTER:
+							case BASE_ITEM_SONIC_PISTOL:
+							case BASE_ITEM_SONIC_RIFLE:
+							case BASE_ITEM_SONIC_PISTOL:
+								oEquip = oItem;
+								oItem = OBJECT_INVALID;
+								break;
+							default:
+								oItem = GetNextItemInInventory(oCreature);
+								break;
+						}
+				}
+			
+			if (GetIsObjectValid(oEquip))
+				{
+					AssignCommand(oCreature, ActionEquipItem(oEquip, INVENTORY_SLOT_RIGHTWEAPON, nInstant));
+				}
 		}
-	if( GetIsObjectValid(oEquip) ) {
-		AssignCommand(oCreature, ActionEquipItem(oEquip, INVENTORY_SLOT_RIGHTWEAPON, nInstant));
-		}
-	}
-
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_DestroyCreatures()
@@ -479,21 +560,21 @@ if( !GetIsObjectValid(oRWeapon) ) {
 //////////////////////////////////////////////////////////////////////////////////
 void CP_DestroyCreatures(string sTag) {
 
-int i = 0;
-for(;;) {
-	i++;
-	object oCreature = GetNearestObjectByTag(sTag, GetFirstPC(), i);
-	if( GetIsObjectValid(oCreature) ){
-		// Safety condition to prevent the destruction of a party member
-		// (because that breaks the game)
-		if( !IsObjectPartyMember(oCreature) ) {
-			AssignCommand(oCreature, SetIsDestroyable(TRUE, FALSE, FALSE));
-			DestroyObject(oCreature, 0.0, FALSE);
+	int i = 0;
+	
+	for(;;) {
+		i++;
+		object oCreature = GetNearestObjectByTag(sTag, GetFirstPC(), i);
+		if( GetIsObjectValid(oCreature) ){
+			// Safety condition to prevent the destruction of a party member
+			// (because that breaks the game)
+			if( !IsObjectPartyMember(oCreature) ) {
+				AssignCommand(oCreature, SetIsDestroyable(TRUE, FALSE, FALSE));
+				DestroyObject(oCreature, 0.0, FALSE);
+				}
 			}
+		else break;
 		}
-	else break;
-	}
-
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -519,7 +600,6 @@ int CP_HasNeverTriggered() {
 	
 	return bReturn;
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_HasNeverTalkedTo()
@@ -559,6 +639,7 @@ int CP_HasNeverTalkedTo() {
 	DP 2019-10-03																*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_DisableAI(int nState) {
+	
 	SetLocalBoolean(OBJECT_SELF, 62, nState);
 }
 
@@ -734,6 +815,7 @@ void CP_DupeEquipment(object oNPC, object oGive, int nRWeap = TRUE, int nLWeap =
 	DP 2021-11-29																*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_ReturnToBase(location lLoc, int nRun = FALSE) {
+	
 	ClearAllActions();
 	ActionMoveToLocation(lLoc, nRun);
 	ActionDoCommand(SetFacing(GetFacingFromLocation(lLoc)));
@@ -752,6 +834,35 @@ void CP_ReturnToBase(location lLoc, int nRun = FALSE) {
 	DP 2021-12-12																*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_FaceNPC(object oNPC, object oFace) {
+	
 	AssignCommand(oNPC, ActionDoCommand(SetFacingPoint(GetPosition(oFace))));
 	DelayCommand(0.2, AssignCommand(oNPC, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.1)));
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_RemoveForceSpeed()
+	
+	Checks the target for any of the three levels of Force Speed and removes
+	them, if present. A targeted alternative to ClearAllEffects. Derived from
+	Sp_RemoveSpecificEffect and Sp_RemoveSpellEffectsGeneral in k_inc_force.
+	
+	DP 2022-08-01																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_RemoveForceSpeed(object oTarget) {
+	
+	effect eSpeed;
+	
+	eSpeed = GetFirstEffect(oTarget);
+	
+	while (GetIsEffectValid(eSpeed))
+		{
+			if (GetEffectSpellId(eSpeed) == FORCE_POWER_SPEED_BURST
+			|| GetEffectSpellId(eSpeed) == FORCE_POWER_KNIGHT_SPEED
+			|| GetEffectSpellId(eSpeed) == FORCE_POWER_SPEED_MASTERY)
+				{
+					RemoveEffect(oTarget, eSpeed);
+				}
+			
+			eSpeed = GetNextEffect(oTarget);
+		}
 }
