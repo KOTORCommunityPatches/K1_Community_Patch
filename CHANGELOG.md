@@ -47,6 +47,7 @@
 * Herded the party for the conversation with the rep in the Tatooine Czerka Office to ensure correct static camera framing
 * Tweaked party member facings and hid masks for the Griff and Greeta conversions in the Tatooine Czerka Office
 * Added additional party jump for Matrik convos in the Taris Lower City Apartments (East) when wearing a Sith disguise to prevent an endless black screen
+* Corrected some additional offscreen party member interjections in the convo with Matton in the Kashyyyk Landing Pad
 
 ## v1.9.2 - March 27, 2022
 ### Additions
