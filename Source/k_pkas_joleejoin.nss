@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by kas24_jolee_02.dlg in kas_m24aa (Kashyyyk Upper Shadowlands).
@@ -11,30 +11,64 @@
 	him in front of the player while the screen is masking it. The solution is
 	to jump NPC Jolee behind some scenery before knocking him on the head, and
 	adding in a brief fade out/in to hide the jump.
-
+	
+	Updated 2022-08-04 to now jump party Jolee into the position stunt Jolee
+	was previously standing in for a bit more consistency.
+	
 	Issue #122: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/122
 
-	DP 2019-05-20                                                             */
-////////////////////////////////////////////////////////////////////////////////
-
+	DP 2019-05-20 / DP 2022-08-04												*/
+//////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
 
+void CP_JoleeJump() {
+	object oPC = GetFirstPC();
+	object oJolee;
+	int nCnt = 1;
+	location lJmp = Location(Vector(147.3,140.8,7.0), 17.37);
+	
+	oJolee = GetNearestObjectByTag("jolee", oPC, nCnt);
+	
+	while (GetIsObjectValid(oJolee))
+		{
+			if (IsObjectPartyMember(oJolee))
+				{
+					CP_PartyJump(oJolee, lJmp);
+					DelayCommand(0.25, CP_FaceNPC(oJolee, oPC));
+				}
+			
+			if (!IsObjectPartyMember(oJolee))
+				{
+					DelayCommand(5.0, DestroyObject(oJolee));
+				}
+			
+			nCnt++;
+			
+			oJolee = GetNearestObjectByTag("jolee", oPC, nCnt);
+		}
+}
+
 void main() {
 	
-	location lWoodshed = Location(Vector(83.0,142.0,4.62), 0.0);
+	location lWoodshed = Location(Vector(83.0,142.0,5.0), 0.0);
 	
 	SetGlobalFadeOut();
 	
-	SetGlobalBoolean("G_JoleeJoined", 1);
-	AddAvailableNPCByTemplate(4, "p_jolee");
-	ShowPartySelectionGUI("", 4, -1);
+	// Take stunt Jolee out behind the wood shed.
+	JumpToLocation(lWoodshed);
 	
-	SetGlobalFadeIn(0.5, 0.5);
+	SetGlobalBoolean("G_JoleeJoined", TRUE);
 	
-	//Take NPC Jolee out behind the wood shed
-	CP_PartyJump(OBJECT_SELF, lWoodshed);
-	// Before giving him the Old Yella treatment
-	DelayCommand(1.0, DestroyObject(OBJECT_SELF, 0.0, 0, 0.0));
+	AddAvailableNPCByTemplate(NPC_JOLEE, "p_jolee");
+	
+	// Force Jolee as a required party member. Fire an exit script that jumps the party
+	// version of Jolee into the spot stunt Jolee was standing.
+	ShowPartySelectionGUI("", NPC_JOLEE, -1);
+	
+	// Jump party Jolee to the place stunt Jolee was standing, give stunt Jolee the Old Yeller treatment.
+	DelayCommand(0.5, CP_JoleeJump());
+	
+	DelayCommand(1.0, SetGlobalFadeIn(0.5, 0.5));
 }

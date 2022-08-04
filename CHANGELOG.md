@@ -48,6 +48,7 @@
 * Tweaked party member facings and hid masks for the Griff and Greeta conversions in the Tatooine Czerka Office
 * Added additional party jump for Matrik convos in the Taris Lower City Apartments (East) when wearing a Sith disguise to prevent an endless black screen
 * Corrected some additional offscreen party member interjections in the convo with Matton in the Kashyyyk Landing Pad
+* Revised Jolee's joining script in Kashyyyk Upper Shadowlands to improve visual consistency and jumped party for his conversation
 
 ## v1.9.2 - March 27, 2022
 ### Additions
