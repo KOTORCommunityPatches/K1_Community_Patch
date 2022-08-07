@@ -417,6 +417,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Two Black Vulkar lieutenants in the upper level of the Black Vulkar base on Taris dropped duplicate pass cards (Reported by A Future Pilot) [ISSUE #364](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/364)
 * Two Czerka supply containers in the Kashyyyk Great Walkway clipped into a wall [ISSUE #514](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/514)
 * Two female Jedi in the Dantooine enclave stop walking after being talked to (Reported by ebmar) [ISSUE #31](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/31)
+* Two lightsaber crystals could be found in rubble piles inside the Krayt cave in the Tatooine Eastern Dune Sea while there was a more logical Jedi corpse nearby [ISSUE #210](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/210)
 * Two pilots standing right next to each other in the Korriban Dreshdae cantina wear the same clothes [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Two Twi'lek Czerka Liaison Officers on Kashyyyk didn't respond well to interruption (Reported by Salk) [ISSUE #23](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/23)
 * Tyvark's conversation on Manaan had some incorrectly configured checks on available lines (Reported by Salk) [ISSUE #194](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/194)

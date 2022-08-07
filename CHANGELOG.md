@@ -37,6 +37,7 @@
 * Adjusted the UserDefine of the Rakghoul that attacks Hendar in the Taris Undercity to make sure Hendar acts a little quicker
 * Stripped the party of Force Speed to prevent them power walking during the cutscene outside The One's compound in Unknown World North Beach
 * Ensured that the sound effect for the cell forcefield doors in the Leviathan Prison Block looped correctly and restarted after the doors were closed
+* Moved the two lightsaber crystals inside the Krayt cave in the Tatooine Eastern Dune Sea to from rubble to the Jedi corpse
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
