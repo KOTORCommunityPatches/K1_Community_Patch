@@ -538,7 +538,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Fixed the position of the strongbox in the Taris Lower City apartments (Reported by DarthParametric) [ISSUE #68](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/68)
 * Hidden Beks didn’t react quickly to intruders (Reported by DarthParametric)
 * It was possible to interact with a transformer in the Sith base on Taris—though it did nothing of particular interest
-* It was possible to miss out on HK’s backstory and leave his whole storyline hanging [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
+* It was possible to miss out on HK’s backstory and leave his whole storyline hanging (with additional corrections by Salk) [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 * Killing Dustil before completing Carth's quest would leave its status unresolved (with additions by DarthParametric) [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
 * Pazaak player Kudos on Tatooine would only bet 50 credits instead of 500 for the final matches
@@ -573,6 +573,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### Leilukin:
 * Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
+* Carth’s romance check during the post-Leviathan scene was accurate only for one possible quest state.
+
 
 ### Markus Ramikin:
 * If you've talked with Bastila after kissing her, some dialog isn't available on the Rakatan Temple: [Bastila Romance Scriptfix 1.1](http://deadlystream.com/forum/files/file/1086-bastila-romance-scriptfix/)

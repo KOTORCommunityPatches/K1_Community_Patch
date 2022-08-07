@@ -52,6 +52,7 @@
 * Corrected some additional offscreen party member interjections in the convo with Matton in the Kashyyyk Landing Pad
 * Revised Jolee's joining script in Kashyyyk Upper Shadowlands to improve visual consistency and jumped party for his conversation
 * Addressed player's facing after one of Bastila's interjections during the first meeting with the Council in the Dantooine Jedi Enclave
+* Corrected post-Leviathan scene Carth romance checks
 
 ## v1.9.2 - March 27, 2022
 ### Additions
