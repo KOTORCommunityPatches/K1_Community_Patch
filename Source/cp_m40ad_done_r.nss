@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	cp_m40ad_done_r
+	Starting Conditional for ebo_carth.dlg in ebo_m40ad (Ebon Hawk Post-Leviathan).
 	
 	Checks if the player is done with the post-Leviathan scene.
 	

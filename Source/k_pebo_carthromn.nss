@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	k_pebo_carthromn
+	Starting Conditional for ebo_carth.dlg in ebo_m40ad (Ebon Hawk Post-Leviathan).
 	
 	Carth romance check for post-Leviathan scene.
 	
