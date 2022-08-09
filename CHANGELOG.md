@@ -39,6 +39,7 @@
 * Ensured that the sound effect for the cell forcefield doors in the Leviathan Prison Block looped correctly and restarted after the doors were closed
 * Moved the two lightsaber crystals inside the Krayt cave in the Tatooine Eastern Dune Sea to from rubble to the Jedi corpse
 * Prevented needing to loot the two crates outside the Czerka office in the Kashyyyk Landing Pad twice in order for their loot to spawn
+* Forced the Gizka on the Ebon Hawk to keep clear of the party member spawn points
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
