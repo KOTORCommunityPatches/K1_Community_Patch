@@ -8,15 +8,23 @@
 	having sided with Chuundar. This prevents the brief hiccup that otherwise
 	occurs before the cutscene triggers.
 	
+	Updated 2022-08-09 to spawn random loot into the two crates outside the Czerka
+	office. The placeables originally used generic treasure scripts in their OnOpen
+	slots, which resulted in needing to loot them twice.
+	
 	See also k_pkas_captcut02.
 	
 	Issue #119: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/119
 	
-	DP 2021-11-15																*/
+	Issue #626: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/626
+	
+	DP 2021-11-15 / DP 2022-08-09												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_kas"
+#include "k_inc_treasure"
 
 void Spawn_Komad() {
 	CreateObject(OBJECT_TYPE_CREATURE, "kas22_xkomad_01", GetLocation(GetWaypointByTag("kas22_komadspawn")), 0);
@@ -50,6 +58,24 @@ void main() {
 	object oWP_Janos = GetWaypointByTag("WP_kas22_janos_01_01");
 	object oEntering = GetEnteringObject();
 	object oDroidHead = GetItemPossessedBy(oPC, "kas24_droidhead");
+	object oCrate06 = GetObjectByTag("kas22aa_cont_06", 0);
+	object oCrate07 = GetObjectByTag("kas22aa_cont_07", 0);
+	
+	// Populate the crates outside the Czerka office with random loot.
+	if (!GetLoadFromSaveGame())
+		{
+			if (!UT_GetTalkedToBooleanFlag(oCrate06))
+				{
+					UT_SetTalkedToBooleanFlag(oCrate06, TRUE);
+					SWTR_PopulateTreasure(oCrate06, SWTR_TABLE_MILITARY_CONTAINER_LOW, 3);
+				}
+			
+			if (!UT_GetTalkedToBooleanFlag(oCrate07))
+				{
+					UT_SetTalkedToBooleanFlag(oCrate07, TRUE);
+					SWTR_PopulateTreasure(oCrate07, SWTR_TABLE_MILITARY_CONTAINER_MID, 3);
+				}
+		}
 	
 	// When siding with Chuundar, hold the module's fade-in until the cutscene starts.
 	if (!GetLoadFromSaveGame() && !UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_10) && oEntering == oPC && GetFreyyrDeadGlobal())
