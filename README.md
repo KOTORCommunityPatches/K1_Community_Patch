@@ -476,6 +476,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When the party exited the airlock on the Leviathan Bridge, they'd end up facing back the way they just came [ISSUE #526](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/526)
 * When War Droids were defeated, the sparks from their torso shot out behind them instead of forwards [ISSUE #492](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/492)
 * Xor's final encounter was extremely buggy, prone to ending in an unresolvable broken state (Reported by Yulaw9460) [ISSUE #397](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/397)
+* Zaalbar had a visible seam between his neck and torso meshes when standing in front of a bright light source [ISSUE #395](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/395)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)
 * Zaalbar's return to the party on Kashyyyk briefly revealed his stunt double (Reported by StellarExile and ancient-animal) [ISSUE #460](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/460)
 * Zhar doesn't properly face the player in the post-montage conversation [ISSUE #83](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/83)
