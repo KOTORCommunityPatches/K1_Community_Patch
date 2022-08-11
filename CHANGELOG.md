@@ -40,6 +40,7 @@
 * Moved the two lightsaber crystals inside the Krayt cave in the Tatooine Eastern Dune Sea to from rubble to the Jedi corpse
 * Prevented needing to loot the two crates outside the Czerka office in the Kashyyyk Landing Pad twice in order for their loot to spawn
 * Forced the Gizka on the Ebon Hawk to keep clear of the party member spawn points
+* Hid any equipped masks and weapons for the initial conversation with Bastila and the post-vision conversation with Carth when first entering the Dantooine Jedi Enclave
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
