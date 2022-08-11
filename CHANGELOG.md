@@ -56,6 +56,7 @@
 * Addressed player's facing after one of Bastila's interjections during the first meeting with the Council in the Dantooine Jedi Enclave
 * Corrected post-Leviathan scene Carth romance checks
 * Removed the ported TSL blue male Twi'lek appearance and reverted the sole use of it in the Taris Lower City Javyar's Cantina back to vanilla green
+* Replaced the higher resolution N_CommF07/M07 textures with the correct versions (renamed N_CommFD01/MD01)
 
 ## v1.9.2 - March 27, 2022
 ### Additions
