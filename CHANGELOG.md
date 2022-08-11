@@ -43,6 +43,7 @@
 * Hid any equipped masks and weapons for the initial conversation with Bastila and the post-vision conversation with Carth when first entering the Dantooine Jedi Enclave
 * Plugged a gap between the torso and head of Zaalbar's model
 * Replaced the empty Sith Apprentice soundset with the Sith Apprentice Male soundset
+* Changed the item type of the Rakghoul Serum in the Taris Undercity from Adrenaline to Plot Useable Item as it was in the Xbox version of the game
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
