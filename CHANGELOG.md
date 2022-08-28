@@ -45,6 +45,7 @@
 * Replaced the empty Sith Apprentice soundset with the Sith Apprentice Male soundset
 * Changed the item type of the Rakghoul Serum in the Taris Undercity from Adrenaline to Plot Useable Item as it was in the Xbox version of the game
 * Prevented an exploit in the Tatooine Eastern Dune Sea that allowed the player to bypass the Calo Nord and/or Darth Bandon fights
+* Prevented an exploit in the Manaan Docking Bay that allowed the player to bypass the exile for tainting the kolto supply
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
