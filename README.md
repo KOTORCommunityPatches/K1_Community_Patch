@@ -251,6 +251,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Council on Dantooine float a few inches off the ground
 * The crazed mercenary in Manaan Hrakert Station would talk about the player returning to the surface even if they hadn't done so (Reported by Salk) [ISSUE #378](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/378)
 * The cutscene in the Ebon Hawk after arriving on the Unknown World had various facing issues (With input from ebmar) [ISSUE #174](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/174)
+* The cutscene of Calo Nord in the Lower City Apartments (West) could be disrupted by the player skipping dialogue (Reported by Salk) [ISSUE #669](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/669)
 * The cutscene of Calo Nord in the Lower City Cantina had some facing issues and an incorrect number of SFX (Reported by A Future Pilot) [ISSUE #359](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/359)
 * The cutscene of Shaardan giving Uthar a fake Ajunta Pall sword in the Korriban Academy had some facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The cutscene of the party approaching the ruins in the Dantooine Jedi Enclave Courtyard could trigger without Bastila in the party (Reported by muitafruita) [ISSUE #608](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/608)
