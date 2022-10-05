@@ -47,6 +47,9 @@
 * Prevented an exploit in the Tatooine Eastern Dune Sea that allowed the player to bypass the Calo Nord and/or Darth Bandon fights
 * Prevented an exploit in the Manaan Docking Bay that allowed the player to bypass the exile for tainting the kolto supply
 * Made the cutscene of Calo Nord's hunting Rodian bounties in the Taris Lower City Apartments (West) unskippable
+* Adjusted the timing of the VFX in the cutscene of the Sith Master sparring a droid in the Unknown World Temple Main Floor to sync with the animations and made Jolee and Juhani join the fight
+* Forced Jolee and Juhani to participate in the fight against the two Dark Jedi outside the Sith Master's room in the Unknown World Temple Main Floor
+
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -64,6 +67,7 @@
 * Corrected post-Leviathan scene Carth romance checks
 * Removed the ported TSL blue male Twi'lek appearance and reverted the sole use of it in the Taris Lower City Javyar's Cantina back to vanilla green
 * Replaced the higher resolution N_CommF07/M07 textures with the correct versions (renamed N_CommFD01/MD01)
+* Made some further tweaks to the intro of the cutscene of the Sith Master in the Unknown World Temple Main Floor
 
 ## v1.9.2 - March 27, 2022
 ### Additions
