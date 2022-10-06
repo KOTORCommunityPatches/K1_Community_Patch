@@ -237,6 +237,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
 * The check for having the Sith base passcard was incorrect when talking to the interrogator in the Republic base in Manaan East Central (Reported by Salk) [ISSUE #344](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/344)
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
+* The computer panel on the Kashyyyk Great Walkway was misaligned just enough to trigger OCD [ISSUE #514](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/514)
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The confrontation with The One when siding with The Elders on the Unknown World had some timing issues and bad textures due to widescreen [ISSUE #287](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/287)
 * The conversation with Canderous in the Taris Lower City cantina could have facing issues due to a scattered party [ISSUE #251](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/251)

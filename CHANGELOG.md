@@ -49,6 +49,7 @@
 * Made the cutscene of Calo Nord's hunting Rodian bounties in the Taris Lower City Apartments (West) unskippable
 * Forced Jolee and Juhani to participate in the fight against the two Dark Jedi outside the Sith Master's room in the Unknown World Temple Main Floor
 * Adjusted the timing of the VFX in the cutscene of the Sith Master sparring a droid in the Unknown World Temple Main Floor to sync with the animations and made Jolee and Juhani join the fight
+* Tweaked the orientation of the computer panel on the Kashyyyk Great Walkway to align with the walkway edge
 
 
 ### Changes/Updates/Revisions
