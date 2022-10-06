@@ -1,7 +1,7 @@
 # CHANGELOG
 ## v1.10.0 - TBA
 ### Additions
-* Adjusted the eyelid and mouthbox UVs for the old black male head 2 to move them from the beard texture
+* Adjusted the eyelid and mouthbox UVs for the NPC head old_b_m2 to move them from the beard texture
 * Prevented the inadvertent removal of the first journal entry of the "Dwindling Supplies" quest on the Ebon Hawk
 * Destroyed the moisture vaporators after giving them to the Chieftain in the Tatooine Sand People Enclave to prevent them dropping as loot if the Sand People turn hostile
 * Corrected the orientation of the walkmesh for the force cage placeable
@@ -11,8 +11,8 @@
 * Made the Rakatan hologram in the Kashyyyk Lower Shadowlands immortal to prevent it being killed as collateral damage by the guard droids
 * Replaced the incorrect Dark Side underwear texture for the male Scoundrel with the Xbox version
 * Corrected the texture assignment for the first Rodian appearance
-* Plugged some gaps in the Leviathan Hangar central hallway
-* Switched the appearances of a Republic Soldier and Officer in the group arguing with the Sith in Manaan East Central
+* Plugged some gaps in the walls of the Leviathan Hangar central hallway
+* Switched the appearances of a Republic Soldier and Officer in the group arguing with the Sith in Manaan East Central to match their ranks
 * Removed the plot flag from the rough-cut Upari amulet gained in the Kashyyyk Lower Shadowlands
 * Removed the plot flags from Ajunta Pall's sword and the Naga Sadow ceremonial lightsaber when returning to the Korriban Sith Academy post-final trial
 * Prevented the "Invisible Mandalorians" journal entry on the Unknown World being orphaned if the Rakata turned hostile before completing it
@@ -34,10 +34,10 @@
 * Added missing DS hits when choosing to kill Largo in the Taris Upper City North Apartments
 * Corrected the stunt Revan models so that the cape properly animated during the revelation cutscene
 * Added some thickness to the hallway walls in the Unknown World Temple torture cutscene
-* Adjusted the UserDefine of the Rakghoul that attacks Hendar in the Taris Undercity to make sure Hendar acts a little quicker
+* Adjusted the scene of the Rakghoul that attacks Hendar in the Taris Undercity to make sure Hendar acts a little quicker
 * Stripped the party of Force Speed to prevent them power walking during the cutscene outside The One's compound in Unknown World North Beach
 * Ensured that the sound effect for the cell forcefield doors in the Leviathan Prison Block looped correctly and restarted after the doors were closed
-* Moved the two lightsaber crystals inside the Krayt cave in the Tatooine Eastern Dune Sea to from rubble to the Jedi corpse
+* Moved the two lightsaber crystals inside the Krayt cave in the Tatooine Eastern Dune Sea from rubble to the Jedi corpse
 * Prevented needing to loot the two crates outside the Czerka office in the Kashyyyk Landing Pad twice in order for their loot to spawn
 * Forced the Gizka on the Ebon Hawk to keep clear of the party member spawn points
 * Hid any equipped masks and weapons for the initial conversation with Bastila and the post-vision conversation with Carth when first entering the Dantooine Jedi Enclave
@@ -47,8 +47,8 @@
 * Prevented an exploit in the Tatooine Eastern Dune Sea that allowed the player to bypass the Calo Nord and/or Darth Bandon fights
 * Prevented an exploit in the Manaan Docking Bay that allowed the player to bypass the exile for tainting the kolto supply
 * Made the cutscene of Calo Nord's hunting Rodian bounties in the Taris Lower City Apartments (West) unskippable
-* Adjusted the timing of the VFX in the cutscene of the Sith Master sparring a droid in the Unknown World Temple Main Floor to sync with the animations and made Jolee and Juhani join the fight
 * Forced Jolee and Juhani to participate in the fight against the two Dark Jedi outside the Sith Master's room in the Unknown World Temple Main Floor
+* Adjusted the timing of the VFX in the cutscene of the Sith Master sparring a droid in the Unknown World Temple Main Floor to sync with the animations and made Jolee and Juhani join the fight
 
 
 ### Changes/Updates/Revisions
