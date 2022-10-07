@@ -325,6 +325,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Jagi that appeared in the Tatooine Dune Sea was a stunt double that didn't update the quest correctly [ISSUE #518](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/518)
 * The janitor in the Taris Upper City South apartments spoke a line of dialogue off-screen [ISSUE #79](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/79)
 * The Jorak Uln encounter in the Korriban Tomb of Tulak Hord had various cosmetic issues and occasionally missing companions [ISSUE #165](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/165)
+* The kolto machinery pods and computer terminal in the Manaan Hrakert Rift were floating slightly above the ground [ISSUE #672](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/672)
 * The lamps in the Unknown World Temple interior could appear black in certain spots due to no inherent lightmapping and had some geometry holes [ISSUE #375](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/375)
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
 * The name of the invisible placeable for the Gamorrean ambush in the Tatooine Dune Sea showed up in the Feedback screen [ISSUE #552](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/552)
