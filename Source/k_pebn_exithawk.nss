@@ -10,6 +10,9 @@
 	in the new module. A simple check has been added to always make the player the
 	party leader.
 	
+	Updated 2021-11-16 to correct the Unknown World condition, since that should
+	omit the starting waypoint.
+	
 	Updated 2022-10-10 to add in the setting of the global boolean that flags if
 	the party is on the Ebon Hawk or not. There is what appears to be a module
 	OnExit script that was intended to do this, k_pebn_hawkgo, but it is unused.
@@ -22,7 +25,7 @@
 	Issue #673: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/673
 	
-	DP 2021-05-23 / DP 2022-10-10												*/
+	DP 2021-05-23 / DP 2021-11-16 / DP 2022-10-10								*/
 //////////////////////////////////////////////////////////////////////////////////
 
 void main() {
@@ -71,7 +74,7 @@ void main() {
 									}
 									else if (nGlobal == 45) // UNKNOWN WORLD
 										{
-											StartNewModule("unk_m41aa", "k_unk_ebon_hawk_transition");
+											StartNewModule("unk_m41aa");
 										}
 										else if (nGlobal == 50) // STAR FORGE
 											{
@@ -102,4 +105,3 @@ void main() {
 																		StartNewModule("liv_m99af", "k_live6_ebon_hawk_transition");
 																	}
 }
-
