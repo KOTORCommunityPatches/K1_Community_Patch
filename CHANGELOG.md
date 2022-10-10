@@ -51,6 +51,7 @@
 * Adjusted the timing of the VFX in the cutscene of the Sith Master sparring a droid in the Unknown World Temple Main Floor to sync with the animations and made Jolee and Juhani join the fight
 * Tweaked the orientation of the computer panel on the Kashyyyk Great Walkway to align with the walkway edge
 * Adjusted the positions of the kolto tanks and computer terminal in the Manaan Hrakert Rift to prevent them floating above the terrain
+* Fixed faulty setting of the global for the party being on the Ebon Hawk that was preventing asking Juhani about the current planet
 
 
 ### Changes/Updates/Revisions
