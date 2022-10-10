@@ -52,6 +52,7 @@
 * Tweaked the orientation of the computer panel on the Kashyyyk Great Walkway to align with the walkway edge
 * Adjusted the positions of the kolto tanks and computer terminal in the Manaan Hrakert Rift to prevent them floating above the terrain
 * Fixed faulty setting of the global for the party being on the Ebon Hawk that was preventing asking Juhani about the current planet
+* Corrected the module name check in the starting conditionals for Jolee and Juhani's lines when spoken to inside the Unknown World temple
 
 
 ### Changes/Updates/Revisions
