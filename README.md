@@ -588,7 +588,8 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### Leilukin:
 * Xor is non-human, while he was human in the XBox version: [Human Xor Restoration 1.0](http://deadlystream.com/forum/files/file/1091-human-xor-restoration/)
-* Carth’s romance check during the post-Leviathan scene was accurate only for one possible quest state.
+* Carth’s romance check during the post-Leviathan scene was accurate only for one possible quest state
+* One of HK's lines was spoken off-screen when talking to the Storyteller in the Tatooine Sandpeople Enclave [ISSUE #674](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/674)
 
 
 ### Markus Ramikin:

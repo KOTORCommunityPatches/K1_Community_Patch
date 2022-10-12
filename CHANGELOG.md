@@ -72,6 +72,7 @@
 * Removed the ported TSL blue male Twi'lek appearance and reverted the sole use of it in the Taris Lower City Javyar's Cantina back to vanilla green
 * Replaced the higher resolution N_CommF07/M07 textures with the correct versions (renamed N_CommFD01/MD01)
 * Made some further tweaks to the intro of the cutscene of the Sith Master in the Unknown World Temple Main Floor
+* Fixed an additional HK line when talking to the Storyteller in the Tatooine Sandpeople Enclave
 
 ## v1.9.2 - March 27, 2022
 ### Additions
