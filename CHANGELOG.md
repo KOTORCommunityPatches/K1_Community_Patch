@@ -53,6 +53,7 @@
 * Adjusted the positions of the kolto tanks and computer terminal in the Manaan Hrakert Rift to prevent them floating above the terrain
 * Fixed faulty setting of the global for the party being on the Ebon Hawk that was preventing asking Juhani about the current planet
 * Corrected the module name check in the starting conditionals for Jolee and Juhani's lines when spoken to inside the Unknown World temple
+* Prevented Bastila from using the wrong underwear texture when unequipping certain items
 
 
 ### Changes/Updates/Revisions

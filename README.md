@@ -121,6 +121,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Asking Juhani about the planet you were currently on was impossible due to a faulty global setting (Reported by Leilukin) [ISSUE #673](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/673)
 * Assault droids in the Manaan Hrakert Station lacked the programming to use basic weapons (Reported by Sniggles) [ISSUE #223](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/223)
 * Bandon's lackeys in Hrakert Station were keen to start the fight right away, forgetting the rule of bad guy monologuing [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
+* Bastila could use the wrong underwear texture when unequipping items using texture variant 02 (Reported by N-DReW25) [ISSUE #677](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/677)
 * Bastila had doubled-up speaker and listener tags in one of the DLG nodes for the conversation with Helena in the Tatooine Cantina (Reported by Gimmick5000) [ISSUE #208](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/208)
 * Bastila's "How can I help?" line had a couple of variants that were sped up/pitch shifted and sounded odd (Reported by ancient-animal) [ISSUE #451](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/451)
 * Bastila's clothing had some unintended transparency due to a missing reference to an environment map [ISSUE #545](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/545)
