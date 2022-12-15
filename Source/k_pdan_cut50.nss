@@ -12,6 +12,9 @@
 	Updated 2022-12-15 to tweak the location positions to match the adjustment
 	of the Star Map position to the centerline of the room.
 	
+	Issue #105: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105
+	
 	Issue #656: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/656
 	
