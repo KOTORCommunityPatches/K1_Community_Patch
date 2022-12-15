@@ -56,6 +56,7 @@
 * Prevented Bastila from using the wrong underwear texture when unequipping certain items
 * Shunted the Star Map across to the centerline of the room in the Dantooine Ruins
 * Adjusted Affliction and Plague power effects to match their descriptions
+* Tweaked some camera angles in the final Carth romance dialogue on the Star Forge for DS female players
 
 
 ### Changes/Updates/Revisions
