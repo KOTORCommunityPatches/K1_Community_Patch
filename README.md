@@ -513,6 +513,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Tach in Kashyyyk's Shadowlands had an obnoxiously loud screech (with input from "robot ears" AFP) [ISSUE #127](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/127)
 * The training droids in the Manaan Sith Base seem like they were intended to look like probe droids, not war droids [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
 
+### Frykas:
+* The effects of the Affliction and Plague Force powers did not match their in-game descriptions (Reported by WRFan and Salk): [TSL Plague and Affliction Fix](https://deadlystream.com/files/file/2114-tsl-plague-and-affliction-fix) (Partial, adjusted for K1) [ISSUE #657](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/657)
+
 ### Gimmick5000:
 * One of Canderous' lines when recounting his backstory had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
 * One of Jolee's lines in the post-crash conversation on the Unknown World had no visible subtitles (Reported by DarthParametric) [ISSUE #148](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/148)
