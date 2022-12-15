@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by cp_dan15_starmap.dlg in danm15 (Dantooine Ruins).
@@ -9,11 +9,14 @@
 	
 	See also k_pdan_cut51, k_pdan_starmap02, k_pdan_starmap05, and cp_dan15_facemap.
 	
-	Issue #105: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105
+	Updated 2022-12-15 to tweak the location positions to match the adjustment
+	of the Star Map position to the centerline of the room.
 	
-	DP 2019-08-01                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	Issue #656: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/656
+	
+	DP 2019-08-01 / DP 2022-12-15												*/
+//////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
 
@@ -23,9 +26,9 @@ void main() {
 	object oBast = GetObjectByTag("bastila", 0);
 	object oPM1 = CP_GetPartyMember(1);
 	object oPM2 = CP_GetPartyMember(2);
-	location lPC = Location(Vector(147.5,182.653,4.417), 55.0);
-	location lBast = Location(Vector(149.0,180.5,4.417), 125.0);
-	location lPM2 = Location(Vector(146.0,180.5,4.417), 90.0);
+	location lPC = Location(Vector(145.42,187.36,4.42), 55.00);
+	location lBast = Location(Vector(149.64,187.37,4.42), 125.00);
+	location lPM2 = Location(Vector(147.52,185.07,4.42), 90.00);
 	
 	NoClicksFor(4.0);
 	
