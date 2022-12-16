@@ -58,6 +58,7 @@
 * Adjusted Affliction and Plague power effects to match their descriptions
 * Tweaked some camera angles in the final Carth romance dialogue on the Star Forge for DS female players
 * Added a missing starting conditional for a persuade check during conversation with Lurze in Korriban Dreshdae
+* Prevented the player being locked out of a Crattis DLG branch in the Dantooine Jedi Enclave by progressing the main plot too quickly
 
 
 ### Changes/Updates/Revisions
