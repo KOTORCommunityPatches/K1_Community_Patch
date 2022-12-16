@@ -57,6 +57,7 @@
 * Shunted the Star Map across to the centerline of the room in the Dantooine Ruins
 * Adjusted Affliction and Plague power effects to match their descriptions
 * Tweaked some camera angles in the final Carth romance dialogue on the Star Forge for DS female players
+* Added a missing starting conditional for a persuade check during conversation with Lurze in Korriban Dreshdae
 
 
 ### Changes/Updates/Revisions
