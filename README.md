@@ -230,6 +230,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Some non-dancer Twi'lek female NPCs wear armour instead of commoner clothes [ISSUE #14](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/14)
 * Some NPCs have wrong or missing sounds in their soundsets
 * Some of Juhani's lines were spoken off-screen during her first encounter with Xor [ISSUE #556](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/556)
+* Some of the background NPCs in the Taris Hidden Bek Base used the wrong soundsets (Reported by muitafruita) [ISSUE #651](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/651)
 * Some of the companion personal quest messengers on Dantooine liked to play hide and seek inside Aratech Mercantile [ISSUE #262](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/262)
 * Some Rakghouls and droids in the Taris Lower and Upper Sewers used the wrong soundsets (Reported by N-DReW25) [ISSUE #587](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/587)
 * Some wall pillars in the Unknown World temple had some gaps in their geometry (Reported by ancient-animal) [ISSUE #453](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/453)

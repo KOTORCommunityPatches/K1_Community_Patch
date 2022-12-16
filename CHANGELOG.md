@@ -59,7 +59,7 @@
 * Tweaked some camera angles in the final Carth romance dialogue on the Star Forge for DS female players
 * Added a missing starting conditional for a persuade check during conversation with Lurze in Korriban Dreshdae
 * Prevented the player being locked out of a Crattis DLG branch in the Dantooine Jedi Enclave by progressing the main plot too quickly
-
+* Corrected the soundsets for various NPCs in the Taris Hidden Bek Base
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
