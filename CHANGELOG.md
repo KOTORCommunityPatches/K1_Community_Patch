@@ -77,6 +77,9 @@
 * Replaced the higher resolution N_CommF07/M07 textures with the correct versions (renamed N_CommFD01/MD01)
 * Made some further tweaks to the intro of the cutscene of the Sith Master in the Unknown World Temple Main Floor
 * Fixed an additional HK line when talking to the Storyteller in the Tatooine Sandpeople Enclave
+* Renamed and converted two MP3s to proper KOTOR VO format (fake WAV header)
+* Appended ExclusiveColumn flags to all added 2DA rows to prevent duplicates
+* Moved some loose LIP files from the Override to Lips folder MOD injection
 
 ## v1.9.2 - March 27, 2022
 ### Additions
