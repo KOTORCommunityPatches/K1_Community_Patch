@@ -82,6 +82,7 @@
 * Renamed and converted two MP3s to proper KOTOR VO format (fake WAV header)
 * Appended ExclusiveColumn flags to all added 2DA rows to prevent duplicates
 * Moved some loose LIP files from the Override to Lips folder MOD injection
+* Adjusted the appearance of Calo Nord's thugs in Manaan Hrakert Rift to reduce clone NPCs
 
 ## v1.9.2 - March 27, 2022
 ### Additions
