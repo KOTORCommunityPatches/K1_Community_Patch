@@ -81,6 +81,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Jedi Sentinel and Consular classes appeared to have their class skill assignments swapped: [Consular Sentinel Class Skill Swap 1.0](https://deadlystream.com/files/file/854-consular-sentinel-class-skill-swap/) [ISSUE #381](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/381)
  
 ### DarthParametric:
+* Canderous would quickly change his outfit when breaking the party out of jail on the Leviathan: [All Hands on Deck for the Leviathan Prison Break](https://deadlystream.com/files/file/2097-all-hands-on-deck-for-the-leviathan-prison-break/) (Partial script use) [ISSUE #569](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/569)
 * Handon on Dantooine didn't look injured like he was supposed to be: [Handon's Enhanced Waistline](https://deadlystream.com/files/file/1367-tor-ports-handons-enhanced-waistline/) (Scripts only) [ISSUE #38](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/38)
 * Multiple fixes for the Endar Spire level models: [Endar Spire Hull Repairs 1.4](https://deadlystream.com/files/file/1357-endar-spire-hull-repairs)
 * Opponents in the Taris duel ring played their intro animations out of sync with their introduction: [Taris Dueling Arena Adjustment 1.2](https://deadlystream.com/files/file/1404-taris-dueling-arena-adjustment/) (Partial) [ISSUE #89](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/89)

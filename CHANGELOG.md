@@ -60,6 +60,7 @@
 * Added a missing starting conditional for a persuade check during conversation with Lurze in Korriban Dreshdae
 * Prevented the player being locked out of a Crattis DLG branch in the Dantooine Jedi Enclave by progressing the main plot too quickly
 * Corrected the soundsets for various NPCs in the Taris Hidden Bek Base
+* Made sure Canderous kept his gear if he was the jail breaker in the Leviathan Prison Block
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
