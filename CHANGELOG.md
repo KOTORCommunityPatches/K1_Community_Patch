@@ -84,6 +84,7 @@
 * Appended ExclusiveColumn flags to all added 2DA rows to prevent duplicates
 * Moved some loose LIP files from the Override to Lips folder MOD injection
 * Adjusted the appearance of Calo Nord's thugs in Manaan Hrakert Rift to reduce clone NPCs
+* Switched both of Gana Lavin's appearances on Taris to the Asian Commoner that she used in Upper City South to prevent a clone issue with Sarna in the Upper City Cantina
 
 ## v1.9.2 - March 27, 2022
 ### Additions
