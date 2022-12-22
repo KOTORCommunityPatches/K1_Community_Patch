@@ -17,10 +17,7 @@ void CP_SandRepFix();
 // Spawns Griff and his guards inside the Sand People Enclave.
 void CP_SpawnGriff();
 
-// Equips the target with a set of basic clothing.
-void CP_EquipClothes(object oTarget);
-
-// Removes the Sand People disguise from the target.
+// Removes the Sand People disguise from the target and equips basic clothing.
 void CP_StripDisguise(object oTarget);
 
 
@@ -142,6 +139,7 @@ void CP_SandRepFix() {
 	DP 2021-11-29																*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_SpawnGriff() {
+	
 	if (GetGlobalNumber("Mis_MissionTalk") == 9 && !GetIsObjectValid(GetObjectByTag("tat20_griff")))
 		{
 			int SW_PLOT_BOOLEAN_01 = 0;
@@ -159,58 +157,27 @@ void CP_SpawnGriff() {
 
 
 //////////////////////////////////////////////////////////////////////////////////
-/*	CP_EquipClothes()
-	
-	A modified version of the EquipBasicClothing function from k_inc_tat. Equips
-	the target NPC with clothing from the player's inventory, or spawns a new
-	set if no clothing exists. For use in conjunction with CP_StripDisguise when
-	removing the Sand People disguises from the party in the Sand People Enclave.
-	
-	DP 2021-12-18																*/
-//////////////////////////////////////////////////////////////////////////////////
-void CP_EquipClothes(object oTarget) {
-	
-	object oInvItem;
-	int bFound = FALSE;
-	
-	if (GetTag(oTarget) != "HK47" && GetTag(oTarget) != "T3M4")
-		{
-			oInvItem = GetFirstItemInInventory(oTarget);
-			
-			while (GetIsObjectValid(oInvItem) == TRUE && bFound == FALSE)
-				{
-					if (GetBaseItemType(oInvItem) == BASE_ITEM_BASIC_CLOTHING && GetItemInSlot(INVENTORY_SLOT_BODY, oTarget) != oInvItem)
-						{
-							AssignCommand(oTarget, ActionEquipItem(oInvItem, INVENTORY_SLOT_BODY, TRUE));
-							bFound = TRUE;
-						}
-					
-					oInvItem = GetNextItemInInventory(oTarget);
-				}
-
-			if (bFound == FALSE)
-				{
-					oInvItem = CreateItemOnObject("g_a_clothes01", oTarget);
-					AssignCommand(oTarget, ActionEquipItem(oInvItem, INVENTORY_SLOT_BODY,TRUE));
-				}
-		}
-}
-
-
-//////////////////////////////////////////////////////////////////////////////////
 /*	CP_StripDisguise()
 	
 	Removes the Sand People disguise if it is equipped on the target NPC and equips
-	basic clothing via CP_EquipClothes.
+	basic clothing.
 	
-	DP 2021-12-18																*/
+	Updated 2022-12-22 to simply things by equipping clothing directly rather than
+	doing so via a different function, since that was apparently causing crashes.
+	
+	DP 2021-12-18 / DP 2022-12-22												*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_StripDisguise(object oTarget) {
+	
 	object oTorsoItem = GetItemInSlot(INVENTORY_SLOT_BODY, oTarget);
+	object oClothes = CreateItemOnObject("g_a_clothes01", oTarget);
 
 	if (GetTag(oTorsoItem) == "tat17_sandperdis")
 		{
 			AssignCommand(oTarget, ClearAllActions());
-			CP_EquipClothes(oTarget);
+			AssignCommand(oTarget, ActionUnequipItem(oTorsoItem, TRUE));
+			DestroyObject(oTorsoItem);
+			AssignCommand(oTarget, ClearAllEffects());
+			DelayCommand(0.1, AssignCommand(oTarget, ActionEquipItem(oClothes, INVENTORY_SLOT_BODY, TRUE)));
 		}
 }

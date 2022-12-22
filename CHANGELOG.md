@@ -87,6 +87,8 @@
 * Adjusted the appearance of Calo Nord's thugs in Manaan Hrakert Rift to reduce clone NPCs
 * Switched both of Gana Lavin's appearances on Taris to the Asian Commoner that she used in Upper City South to prevent a clone issue with Sarna in the Upper City Cantina
 * Added hiding of equipped masks and weapons during the conversation with Griff in the Tatooine Sand People Enclave
+* Streamlined the disguise stripping function used in the Tatooine Sand People Enclave, since it could potentially lead to crashes
+* Made sure the player couldn't skip through the "Attack them all" dialogue in the Tatooine Sand People Enclave, which would reveal the party's disguises being stripped
 
 ## v1.9.2 - March 27, 2022
 ### Additions
