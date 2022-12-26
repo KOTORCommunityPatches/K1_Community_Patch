@@ -63,6 +63,7 @@
 * Made sure Canderous kept his gear if he was the jail breaker in the Leviathan Prison Block
 * Tweaked the scene with the hologram outside the Elder's Compound in Unknown World South Beach to force the party to move as intended
 * Jumped the party for the conversation with Jon in the Dantooine Jedi Enclave Courtyard and moved the patrolling Jedi back out of the way
+* Removed unnecessary Security UI from the locked doors in the Taris Hidden Bek Base and corrected non-openable control room door
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
