@@ -64,6 +64,7 @@
 * Tweaked the scene with the hologram outside the Elder's Compound in Unknown World South Beach to force the party to move as intended
 * Jumped the party for the conversation with Jon in the Dantooine Jedi Enclave Courtyard and moved the patrolling Jedi back out of the way
 * Removed unnecessary Security UI from the locked doors in the Taris Hidden Bek Base and corrected non-openable control room door
+* Jumped the party for the scene of the Sith and Republic troops arguing outside the Hawk's hangar in the Manaan Docking Bay
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break

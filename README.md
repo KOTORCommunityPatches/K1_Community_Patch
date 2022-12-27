@@ -345,6 +345,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The old black male head 2 had some poorly positioned UVs for the eyelids and mouthbox (Reported by muitafruita) [ISSUE #622](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/622)
 * The opening shot of the scene with Sherruk in the Dantooine Grove could randomly have the camera buried in the grass [ISSUE #258](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/258)
 * The party could be a bit scrambled when entering the Taris Sith Base for the first time and talking to the receptionist [ISSUE #253](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/253)
+* The party could be a little scattered during the scene of the Sith and Republic troopers arguing outside the Hawk's hangar in the Manaan Docking Bay [ISSUE #519](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/519)
 * The party could power walk during the initial encounter cutscene with the Black Rakata in Unknown World North Beach [ISSUE #531](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/531)
 * The party could run into each other and the camera could clip through terrain when chasing Vorn's droid in the Tatooine Sand People Territory [ISSUE #327](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/327)
 * The party would bump into each other and get confused during the cutscene after giving the sacred tome to The One [ISSUE #170](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/170)
