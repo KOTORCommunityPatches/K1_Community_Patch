@@ -65,6 +65,7 @@
 * Jumped the party for the conversation with Jon in the Dantooine Jedi Enclave Courtyard and moved the patrolling Jedi back out of the way
 * Removed unnecessary Security UI from the locked doors in the Taris Hidden Bek Base and corrected non-openable control room door
 * Jumped the party for the scene of the Sith and Republic troops arguing outside the Hawk's hangar in the Manaan Docking Bay
+* Wrangled the party for the scene in the Kashyyyk Czerka Landing Port when Zaalbar is not in the active party
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -92,6 +93,7 @@
 * Added hiding of equipped masks and weapons during the conversation with Griff in the Tatooine Sand People Enclave
 * Streamlined the disguise stripping function used in the Tatooine Sand People Enclave, since it could potentially lead to crashes
 * Made sure the player couldn't skip through the "Attack them all" dialogue in the Tatooine Sand People Enclave, which would reveal the party's disguises being stripped
+* Tweaked the scene in the Kashyyyk Great Walkway when Zaalbar is not in the active party
 
 ## v1.9.2 - March 27, 2022
 ### Additions
