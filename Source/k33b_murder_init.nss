@@ -27,11 +27,6 @@
 
 #include "cp_inc_k1"
 
-void CP_FaceNPC(object oNPC, object oFace) {
-	AssignCommand(oNPC, SetFacingPoint(GetPosition(oFace)));
-	DelayCommand(0.2, AssignCommand(oNPC, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.1)));
-}
-
 void main() {
 	
 	object oPC = GetFirstPC();
