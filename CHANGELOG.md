@@ -95,6 +95,7 @@
 * Streamlined the disguise stripping function used in the Tatooine Sand People Enclave, since it could potentially lead to crashes
 * Made sure the player couldn't skip through the "Attack them all" dialogue in the Tatooine Sand People Enclave, which would reveal the party's disguises being stripped
 * Tweaked the scene in the Kashyyyk Great Walkway when Zaalbar is not in the active party
+* Made sure that the Hidden Bek door guard in Taris Lower City also reoriented after conversation
 
 ## v1.9.2 - March 27, 2022
 ### Additions
