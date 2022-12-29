@@ -6,7 +6,7 @@
 	Include script for K1 Community Patch		
 																				*/
 //////////////////////////////////////////////////////////////////////////////////
-#include "k_inc_generic"
+
 #include "k_inc_utility"
 
 
@@ -574,7 +574,7 @@ int CP_HasNeverTalkedTo() {
 	A function to allow toggling creature AI. Useful when you need to prevent
 	them doing something like ambient animations, etc.
 	
-	The index (62) is SW_FLAG_AI_OFF. 
+	The index (62) is SW_FLAG_AI_OFF from k_inc_generic. 
 	
 	FALSE - Default state. AI is active.
 	TRUE - AI is disabled. Should be re-enabled before combat.
@@ -582,7 +582,7 @@ int CP_HasNeverTalkedTo() {
 	DP 2019-10-03																*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_DisableAI(int bState) {
-	SetLocalBoolean(OBJECT_SELF, SW_FLAG_AI_OFF, bState);
+	SetLocalBoolean(OBJECT_SELF, 62, bState);
 }
 
 //////////////////////////////////////////////////////////////////////////////////
