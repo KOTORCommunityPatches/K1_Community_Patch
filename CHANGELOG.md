@@ -67,6 +67,7 @@
 * Jumped the party for the scene of the Sith and Republic troops arguing outside the Hawk's hangar in the Manaan Docking Bay
 * Wrangled the party for the scene in the Kashyyyk Czerka Landing Port when Zaalbar is not in the active party
 * Jumped any party members out of the player's way for the lightsaber construction scene in the Dantooine Jedi Enclave
+* Made sure the party members attacked if the Sith patrol in the Taris Undercity turned hostile
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
