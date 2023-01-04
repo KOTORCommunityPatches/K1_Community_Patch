@@ -498,6 +498,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When talking to the Rakatan hologram in the Kashyyyk Lower Shadowlands, the player could freeze and the hologram could get stuck in an animation [ISSUE #346](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/346)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * When the party exited the airlock on the Leviathan Bridge, they'd end up facing back the way they just came [ISSUE #526](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/526)
+* When using Force persuade on the customs officer in the Tatooine Docking Bay, the animation would occur off-screen (Reported by darthbdaman) [ISSUE #308](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/308)
 * When War Droids were defeated, the sparks from their torso shot out behind them instead of forwards [ISSUE #492](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/492)
 * Xor's final encounter was extremely buggy, prone to ending in an unresolvable broken state (Reported by Yulaw9460) [ISSUE #397](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/397)
 * Zaalbar had a visible seam between his neck and torso meshes when standing in front of a bright light source [ISSUE #395](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/395)
