@@ -341,6 +341,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The male player head PMHC01 has some deformation issues along the jawline
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 * The Mandalorian ambush scene in the Unknown World Temple Exterior had some pathing issues, causing party members to get in the way [ISSUE #286](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/286)
+* The Mandalorians in the Kashyyyk Lower Shadowlands would drop multiple duplicates of their datapads [ISSUE #271](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/271)
 * The merc in Hrakert Station would go out of frame every time he performed the Horror animation [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * The Mysterious Man on Manaan would speak one of his lines off-screen and was briefly visible running away after the conversation ended [ISSUE #138](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/138)
 * The old black male head 2 had some poorly positioned UVs for the eyelids and mouthbox (Reported by muitafruita) [ISSUE #622](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/622)
