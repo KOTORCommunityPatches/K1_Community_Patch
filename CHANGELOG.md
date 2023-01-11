@@ -70,6 +70,7 @@
 * Made sure the party members attacked if the Sith patrol in the Taris Undercity turned hostile
 * Corrected off-screen Force persuade animation when dealing with the customs officer in the Tatooine Docking Bay
 * Prevented the Mandalorians in the Kashyyyk Lower Shadowlands from dropping duplicate datapads
+* Made sure messenger Malare didn't hang around after Bastila was done speaking to her
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
