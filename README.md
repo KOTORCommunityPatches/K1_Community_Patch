@@ -302,6 +302,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The female player head PFHC03 had some eyeball texture issues for the Dark Side transitions (Reported by muitafruita) [ISSUE #652](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/652)
 * The female Republic officer head had a very twitchy eyelid (Reported by Salk) [ISSUE #463](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/463)
 * The female Republic soldier head had some unweighted vertices (Reported by N-DReW25) [ISSUE #478](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/478)
+* The fight with the two Sith on the Bridge of the Endar Spire could prevent the door shutting as intended (Reported by N-DReW25) [ISSUE #490](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/490)
 * The final confrontation in the Tomb of Naga Sadow on Korriban had various facing issues and pathing issues with a door (With input from ebmar) [ISSUE #167](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/167)
 * The final conversation with Bastila on the Star Forge for Light Side players had her talking to herself (Reported by nt7788) [ISSUE #420](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/420)
 * The final cutscene for the Light Side ending had a raft of issues with stunt animations and framing in widescreen resolutions [ISSUE #186](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/186)
