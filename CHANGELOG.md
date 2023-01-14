@@ -72,6 +72,7 @@
 * Prevented the Mandalorians in the Kashyyyk Lower Shadowlands from dropping duplicate datapads
 * Made sure messenger Malare didn't hang around after Bastila was done speaking to her
 * Forcibly jumped the party after they dispatched the two Sith on the Bridge of the Endar Spire and closed the door in an added cutscene
+* Added missing player level checks to Bastila's romance dialogue scripts to better pace its progression
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
