@@ -101,6 +101,7 @@
 * Made sure the player couldn't skip through the "Attack them all" dialogue in the Tatooine Sand People Enclave, which would reveal the party's disguises being stripped
 * Tweaked the scene in the Kashyyyk Great Walkway when Zaalbar is not in the active party
 * Made sure that the Hidden Bek door guard in Taris Lower City also reoriented after conversation
+* Switched Vandar's dialogue edits in the Dantooine Jedi Enclave to a straight DLG replace rather than patching to streamline the install process
 
 ## v1.9.2 - March 27, 2022
 ### Additions
