@@ -76,6 +76,7 @@
 * Jumped the party for the conversation with the injured Elder Rakata prisoner and fixed a missing sound effect in Unknown World The One's Settlement
 * Prevented the security room droid in Manaan Hrakert Station from activating a second shield
 * The player's name in message logs was incorrect following the swoop race
+* Ensured that Force Persuading Suvam on Yavin Station to give you a Pazaak deck was gated by a starting conditional check
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
