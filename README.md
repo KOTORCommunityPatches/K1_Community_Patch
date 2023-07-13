@@ -643,6 +643,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### Salk:
 * A guard droid in the Manaan West Central foyer had its back legs clipping into the wall [ISSUE #302](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/302)
+* After rescuing Hendar in the Taris Undercity, you could miss a Light Side alignment gain if you spoke to him instead of Hester (Reported by zappepappe) [ISSUE #680](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/680)
 * Certain ambient NPC barks on Manaan would fail to trigger due to some incorrect scripts [ISSUE #342](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/342)
 * Lashowe was air typing in front of her console in the Korriban Sith Academy [ISSUE #423](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/423)
 * Numerous placeables inside the back entrance of the Korriban Sith Academy were facing in completely wrong directions [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)

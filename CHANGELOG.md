@@ -77,6 +77,7 @@
 * Prevented the security room droid in Manaan Hrakert Station from activating a second shield
 * The player's name in message logs was incorrect following the swoop race
 * Ensured that Force Persuading Suvam on Yavin Station to give you a Pazaak deck was gated by a starting conditional check
+* Added a missing LS gain to Hendar's post-rescue dialogue in the Taris Undercity
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
