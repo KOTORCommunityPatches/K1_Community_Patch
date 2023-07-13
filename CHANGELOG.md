@@ -291,6 +291,7 @@
 * Removed player appearance.2da walk changes since they were deprecated and conflicting with creaturespeed.2da changes
 * Stripped Force Speed from player during the walk with Uthar in the Korriban Sith Academy when leaving for the Tomb of Naga Sadow
 * Prevented party from being in their underwear and T-posing if choosing to attack when entering the Tatooine Sand People Enclave the first time
+* Corrected the head assignment for the added appearance fat commoner white male 03
 
 ## v1.8 - December 02, 2019
 ### Additions
