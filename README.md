@@ -685,6 +685,7 @@ You may, however, do whatever you want with any of A Future Pilot's fixes with o
 * bead-v - For MDLEdit and KOTORMax
 * ndix UR - For TGA2TPC, TPCView, and MDLOps v1.0+
 * seedhartha - For KOTORBlender fork for Blender 2.8+
+* Cortisol - For Holocron Toolset
 * Fair Strides - For various tools and updates to older tools
 * DrMcCoy - For Xoreos Tools
 * Snigaroo - For maintaining mod builds on the /r/kotor subreddit
