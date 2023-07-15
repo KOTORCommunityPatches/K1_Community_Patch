@@ -82,6 +82,8 @@ void CP_FaceNPC(object oNPC, object oFace);
 // Removes Burst of Speed / Knight Speed / Master Speed from the designated target object.
 void CP_RemoveForceSpeed(object oTarget);
 
+// Destroys the item with the specified tag possessed by the player/party.
+void CP_DestroyPartyItem(string sTag);
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
@@ -755,4 +757,15 @@ void CP_RemoveForceSpeed(object oTarget) {
 		}
 		eSpeed = GetNextEffect(oTarget);
 	}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_DestroyPartyItem()
+	
+	Destroys the item with the specified tag possessed by the player/party.
+	
+	DP 2023-07-15																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_DestroyPartyItem(string sTag) {
+	DestroyObject(GetItemPossessedBy(GetFirstPC(), sTag));
 }
