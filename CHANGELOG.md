@@ -79,6 +79,7 @@
 * Ensured that Force Persuading Suvam on Yavin Station to give you a Pazaak deck was gated by a starting conditional check
 * Added a missing LS gain to Hendar's post-rescue dialogue in the Taris Undercity
 * Corrected and expanded the post-Hrakert quest item cleanup when returning to Roland Wann in Manaan East Central
+* Prevented a door in Manaan Hrakert Station from closing when Calo or Bandon weren't scheduled to turn up
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
