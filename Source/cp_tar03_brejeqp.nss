@@ -8,13 +8,16 @@
 	impending combat. Ditto for the player, since their weapons were unequipped to
 	prevent them self-impaling during the bowing scene.
 	
+	Updated 2023-07-23 to add an animation command to Bastila so she doesn't freeze
+	after her previous line of dialogue. Replaces in-DLG anim.
+	
 	See also cp_tar03_brejfce, k_ptar_brejikatk, k_ptar_brejik_sp, k_ptar_dieswoopy,
 	k_ptar_swpie_ud.
 	
 	Issue #345: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/345
 	
-	DP 2020-06-18																*/
+	DP 2020-06-18 / DP 2023-07-23												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 void CP_WeapEquip() {
@@ -26,7 +29,9 @@ void CP_WeapEquip() {
 	object oLWeapStore = GetFirstItemInInventory(oStoreL);
 	object oRWeap;
 	object oLWeap;
-		
+	
+	AssignCommand(oPC, ClearAllActions());
+	
 	if (GetIsObjectValid(oRWeapStore))
 		{
 			oRWeap = GetFirstItemInInventory(oPC);
@@ -70,10 +75,14 @@ void main() {
 	
 	object oPC = GetFirstPC();
 	object oBrejik = GetObjectByTag("Brejik031", 0);
+	object oBastila = GetObjectByTag("Bastilla03", 0);
 	object oBlaster = GetItemPossessedBy(oBrejik, "g_w_blstrpstl001");
 	
 	AssignCommand(oBrejik, ActionEquipItem(oBlaster, INVENTORY_SLOT_RIGHTWEAPON, TRUE));
 	
+	AssignCommand(oBastila, ActionPlayAnimation(ANIMATION_LOOPING_READY, 1.0, 5.5));
+	
 	CP_WeapEquip();
+	
 	DelayCommand(0.5, AssignCommand(oPC, ActionPlayAnimation(ANIMATION_LOOPING_READY, 1.0, 5.081)));
 }
