@@ -114,6 +114,7 @@
 * Corrected the head assignment for the added appearance fat commoner white male 03
 * Moved relocated Jedi loot (originally from Hrakert Station) to the Sith Master's personal footlocker in the Manaan Sith Base
 * Revised previous duplicate pass card fix in the Black Vulkar Base (Upper) to make it simpler and actually install it properly
+* Further tweaked the scene when entering the Unknown World North Beach for the first time to keep the Rancors from wandering off
 
 ## v1.9.2 - March 27, 2022
 ### Additions
