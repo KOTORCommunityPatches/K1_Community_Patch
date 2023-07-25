@@ -81,6 +81,7 @@
 * Corrected and expanded the post-Hrakert quest item cleanup when returning to Roland Wann in Manaan East Central
 * Prevented a door in Manaan Hrakert Station from closing when Calo or Bandon weren't scheduled to turn up
 * Added missing quest update when Force persuading Gluupor in Manaan East Central
+* Adjusted the scene with the infected Republic soldier in the Taris Undercity to ensure his animations played correctly and all the Rakghouls attacked
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
