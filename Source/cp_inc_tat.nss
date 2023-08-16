@@ -56,6 +56,9 @@ void CP_AdjustSandRep(object oTarget, int nHostile) {
 	
 	Used in area enter and heartbeat scripts.
 	
+	Updated 2023-08-16 to correctly set the disguise global to true when the whole
+	party is all wearing disguises (and/or made up of droids).
+	
 	JC 2019-09-01																*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_SandRepFix() {
@@ -100,12 +103,12 @@ void CP_SandRepFix() {
 			if (nCheck0 == TRUE && nCheck1 == TRUE && nCheck2 == TRUE)
 				{
 					CP_AdjustSandRep(oSandFaction, FALSE);
-					SetGlobalBoolean("tat_TuskenSuit", FALSE);
+					SetGlobalBoolean("tat_TuskenSuit", TRUE);
 				}
 				// If somebody isn't disguised and the player isn't working for the Chieftain, make Sand People hostile but don't change the disguise global
 				else if (GetGlobalBoolean("tat_TuskenJob") == FALSE)
 					{
-					CP_AdjustSandRep(oSandFaction, TRUE);
+						CP_AdjustSandRep(oSandFaction, TRUE);
 					}
 		}
 	
