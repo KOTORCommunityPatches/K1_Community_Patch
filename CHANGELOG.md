@@ -86,6 +86,7 @@
 * Removed the weird camera zoom and herded the party during the cutscene of the first duel in the Taris Upper City Cantina
 * Jumped the party for the scene with Janos when landing on Kashyyyk for the first time
 * Jumped the party when initiating conversation with Iziz in Tatooine Anchorhead
+* Made sure that Tanis in the Tatooine Dune Sea always responded appropriately when spoken to by someone wearing the Sandpeople disguise
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
