@@ -123,6 +123,7 @@
 * Made some further facing tweaks to the scene with Gurney in the Taris Upper City South medical clinic
 * Corrected a mistake in the Tatooine include function that failed to properly set the global for wearing the Sandpeople disguise, merged vanilla functions into scripts requiring them
 * Fixed broken walkmeshes in edited Ebon Hawk room models that were causing rendering issues for some players
+* Changed some older DLG edits from Override dumps to module injection
 
 ## v1.9.2 - March 27, 2022
 ### Additions
