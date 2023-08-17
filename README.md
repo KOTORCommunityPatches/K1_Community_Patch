@@ -124,6 +124,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * All the male Twi'leks in Javyar's Cantina on Taris use the same green head [ISSUE #72](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/72)
 * Asking Juhani about the planet you were currently on was impossible due to a faulty global setting (Reported by Leilukin) [ISSUE #673](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/673)
 * Assault droids in the Manaan Hrakert Station lacked the programming to use basic weapons (Reported by Sniggles) [ISSUE #223](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/223)
+* At the conclusion of the "A Wookiee Lost" quest on Kashyyyk, a quest item is left in the player's inventory [ISSUE #521](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/521)
 * Bandon's lackeys in Hrakert Station were keen to start the fight right away, forgetting the rule of bad guy monologuing [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * Bastila could use the wrong underwear texture when unequipping items using texture variant 02 (Reported by N-DReW25) [ISSUE #677](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/677)
 * Bastila had doubled-up speaker and listener tags in one of the DLG nodes for the conversation with Helena in the Tatooine Cantina (Reported by Gimmick5000) [ISSUE #208](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/208)
