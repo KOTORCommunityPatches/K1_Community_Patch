@@ -277,6 +277,7 @@
 * Changed invisible placeable name for the Gamorrean ambush in the Tatooine Dune Sea since it showed up in the Feedback panel
 * Gave Jordo a Czerka uniform and fixed some camera angles and speaker/listener tags for his messenger conversation with Carth
 * Added some speaker/listener tags and changed some camera angles in Xor's messenger conversation with Juhani
+* Made some facing and camera angle adjustments during the break out scene in the Leviathan Prison Block
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -311,6 +312,7 @@
 * Stripped Force Speed from player during the walk with Uthar in the Korriban Sith Academy when leaving for the Tomb of Naga Sadow
 * Prevented party from being in their underwear and T-posing if choosing to attack when entering the Tatooine Sand People Enclave the first time
 * Corrected the head assignment for the added appearance fat commoner white male 03
+* Reverted the unintentional spawning of a duplicate stunt Canderous when he wasn't the chosen jail breaker on the Leviathan
 
 ## v1.8 - December 02, 2019
 ### Additions
