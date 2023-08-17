@@ -89,6 +89,8 @@
 * Made sure that Tanis in the Tatooine Dune Sea always responded appropriately when spoken to by someone wearing the Sandpeople disguise
 * Added a missing persuade starting conditional when convincing Sunry to confess to having an affair with Elassa in Manaan Ahto West
 * Destroyed leftover plot items (cell key, passcard, ICE Breaker) after completing the escape from the Leviathan
+* Made some facing and camera angle adjustments during the break out scene in the Leviathan Prison Block
+* Changed the Leviathan elevator floor selection label "Bridge" to "Command Deck" on both the Prison Block and Command Deck
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -127,6 +129,7 @@
 * Corrected a mistake in the Tatooine include function that failed to properly set the global for wearing the Sandpeople disguise, merged vanilla functions into scripts requiring them
 * Fixed broken walkmeshes in edited Ebon Hawk room models that were causing rendering issues for some players
 * Changed some older DLG edits from Override dumps to module injection
+* Reverted the unintentional spawning of a duplicate stunt Canderous when he wasn't the chosen jail breaker on the Leviathan
 
 ## v1.9.2 - March 27, 2022
 ### Additions
@@ -277,7 +280,6 @@
 * Changed invisible placeable name for the Gamorrean ambush in the Tatooine Dune Sea since it showed up in the Feedback panel
 * Gave Jordo a Czerka uniform and fixed some camera angles and speaker/listener tags for his messenger conversation with Carth
 * Added some speaker/listener tags and changed some camera angles in Xor's messenger conversation with Juhani
-* Made some facing and camera angle adjustments during the break out scene in the Leviathan Prison Block
 
 ### Changes/Updates/Revisions
 * Revised previously adjusted lightmap UVs for the floor of the training room in the Manaan Sith Base, adding a new, cleaner custom lightmap
@@ -312,7 +314,6 @@
 * Stripped Force Speed from player during the walk with Uthar in the Korriban Sith Academy when leaving for the Tomb of Naga Sadow
 * Prevented party from being in their underwear and T-posing if choosing to attack when entering the Tatooine Sand People Enclave the first time
 * Corrected the head assignment for the added appearance fat commoner white male 03
-* Reverted the unintentional spawning of a duplicate stunt Canderous when he wasn't the chosen jail breaker on the Leviathan
 
 ## v1.8 - December 02, 2019
 ### Additions

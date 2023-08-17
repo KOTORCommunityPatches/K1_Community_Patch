@@ -317,6 +317,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The first conversation with Yuthura inside the Korriban Academy could leave the party jumbled, causing facing issues [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The first Rodian appearance used the wrong texture (Reported by N-DReW25) [ISSUE #582](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/582)
 * The floor of the training room in the Manaan Sith Base had some lightmap UV issues [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
+* The floor selection labels in the Leviathan's elevators incorrectly showed "Bridge" instead of "Command Deck" [ISSUE #145](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145)
 * The footlockers in Uthar's room in the Korriban Sith Academy were oddly positioned/oriented (Reported by Salk) [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
 * The force cage placeable had an incorrectly rotated walkmesh, potentially causing minor pathfinding issues [ISSUE #595](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/595)
