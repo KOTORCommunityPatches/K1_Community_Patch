@@ -105,6 +105,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * A few Sith technicians on the Leviathan attacked with their fists instead of equipping weapons [ISSUE #147](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/147)
 * A Jedi corpse in the Tatooine Eastern Dune Sea was carrying a blaster, which seemed out of place, so it was moved to another nearby corpse (Reported by djh269) [ISSUE #210](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/210)
 * A number of male NPC appearances were duplicated in the Taris Upper City Cantina (Reported by A Future Pilot) [ISSUE #376](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/376)
+* A number of plot items remain in the player's inventory after completing the escape from the Leviathan [ISSUE #145](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145)
 * A placeable bench can occasionally be unintentionally spawned when fighting the Tuk'ata Mother in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * A replacement Sith war droid guarding the exterior of the Sith base in Manaan Ahto East appeared too quickly [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
 * A Rodian "sitter" in the Mercenary Enclave in Manaan Ahto West was clipping into a table [ISSUE #328](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/328)

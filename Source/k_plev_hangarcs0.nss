@@ -10,10 +10,16 @@
 	fade-out happens quicker. Since the player is now slower, Carth gets an
 	increased delay to keep a suitable distance behind.
 	
+	Updated 2023-08-17 to remove some leftover plot items after the prison
+	break.
+	
 	Issue #130: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/130
 	
-	DP 2020-11-26																*/
+	Issue #145: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145
+	
+	DP 2020-11-26 / DP 2023-08-17												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 void Herd_PM(string sWP, float fWait) {
@@ -26,13 +32,18 @@ void Herd_PM(string sWP, float fWait) {
 
 void main() {
 	
-	int nCount = 0;
+	object oPC = GetFirstPC();
 	object oNPC;
+	int nCount = 0;
 	
 	NoClicksFor(8.0);
 	
 	SetGlobalFadeIn(0.5, 0.5);
 	SetGlobalFadeOut(4.5, 2.0);
+	
+	DestroyObject(GetItemPossessedBy(oPC, "lev09_starcellkey"));
+	DestroyObject(GetItemPossessedBy(oPC, "lev40_detcard"));
+	DestroyObject(GetItemPossessedBy(oPC, "tar09_icebreaker"));
 	
 	while (nCount < GetPartyMemberCount())
 		{

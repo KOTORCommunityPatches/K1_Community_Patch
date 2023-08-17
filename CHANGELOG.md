@@ -88,6 +88,7 @@
 * Jumped the party when initiating conversation with Iziz in Tatooine Anchorhead
 * Made sure that Tanis in the Tatooine Dune Sea always responded appropriately when spoken to by someone wearing the Sandpeople disguise
 * Added a missing persuade starting conditional when convincing Sunry to confess to having an affair with Elassa in Manaan Ahto West
+* Destroyed leftover plot items (cell key, passcard, ICE Breaker) after completing the escape from the Leviathan
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
