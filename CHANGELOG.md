@@ -92,6 +92,7 @@
 * Made some facing and camera angle adjustments during the break out scene in the Leviathan Prison Block
 * Changed the Leviathan elevator floor selection label "Bridge" to "Command Deck" on both the Prison Block and Command Deck
 * Destroyed the slaver contract datapad at the conclusion of the "A Wookiee Lost" quest in Kashyyyk Worrroznor's Home
+* Revised the interrogation scenes with the Mandalorian prisoner in the Korriban Sith Academy to improve framing and party positioning
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
