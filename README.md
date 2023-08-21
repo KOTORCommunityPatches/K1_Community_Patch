@@ -677,6 +677,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### Thrak Farelle:
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
 
+### WildKarrde:
+* One of the Taris window glass textures caused objects behind it to render incorrectly [ISSUE #692](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/692)
+
 ## 5. Bugs:
 These are the currently known bugs/issues with KOTOR or the mod that the K1CP is looking to resolve: 
 
