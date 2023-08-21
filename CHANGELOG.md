@@ -95,6 +95,7 @@
 * Revised the interrogation scenes with the Mandalorian prisoner in the Korriban Sith Academy to improve framing and party positioning
 * Edited the alpha blending of one of the transparent Taris window textures to make sure other textures behind it rendered correctly
 * Corrected some UV distortion in the floor mesh of the sub bay in Manaan Hrakert Station
+* Adjusted render order and fixed pivots of the forcefield beacon poles in Taris Davik's Estate
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
