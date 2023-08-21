@@ -679,6 +679,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### WildKarrde:
 * One of the Taris window glass textures caused objects behind it to render incorrectly [ISSUE #692](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/692)
+* The floor of the sub bay in Manaan Hrakert Station had some obvious texture distortion [ISSUE #693](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/693)
 
 ## 5. Bugs:
 These are the currently known bugs/issues with KOTOR or the mod that the K1CP is looking to resolve: 

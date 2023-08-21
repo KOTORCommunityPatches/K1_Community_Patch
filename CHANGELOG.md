@@ -94,6 +94,7 @@
 * Destroyed the slaver contract datapad at the conclusion of the "A Wookiee Lost" quest in Kashyyyk Worrroznor's Home
 * Revised the interrogation scenes with the Mandalorian prisoner in the Korriban Sith Academy to improve framing and party positioning
 * Edited the alpha blending of one of the transparent Taris window textures to make sure other textures behind it rendered correctly
+* Corrected some UV distortion in the floor mesh of the sub bay in Manaan Hrakert Station
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
