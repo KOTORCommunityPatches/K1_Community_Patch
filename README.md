@@ -220,6 +220,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * One of the Czerka guards in the Tatooine docking bay would get in the way of messenger conversations [ISSUE #177](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/177)
 * One of the Gamorreans in the Taris sewers was quietly relaxing in a corner, oblivious to what was going on (Reported by ebmar) [ISSUE #95](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/95)
 * One of the seated officers on Dodonna's capital ship was levitating next to their chair (Reported by Kexikus) [ISSUE #187](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/187)
+* One of the small female medium armour models (PFBES) had some texture misalignment on its upper left arm [ISSUE #695](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/695)
 * One of the thugs working for Hulas liked the boss a little too much, wearing the same outfit (Reported by Salk) [ISSUE #399](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/399)
 * One of the trees just outside the Wookiee village in the Kashyyyk Great Walkway had a gap in its trunk (Reported by Kexikus) [ISSUE #415](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/415)
 * One of the wall textures in the Taris Hidden Bek Base had a noticeable seam where it tiled [ISSUE #496](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/496)

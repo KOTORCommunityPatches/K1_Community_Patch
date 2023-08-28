@@ -96,6 +96,7 @@
 * Edited the alpha blending of one of the transparent Taris window textures to make sure other textures behind it rendered correctly
 * Corrected some UV distortion in the floor mesh of the sub bay in Manaan Hrakert Station
 * Adjusted render order and fixed pivots of the forcefield beacon poles in Taris Davik's Estate
+* Corrected the UVs of the upper left arm of the small class 6 medium female armour model (PFBES) to fix some texture misalignment
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
