@@ -142,6 +142,7 @@
 * Reverted the unintentional spawning of a duplicate stunt Canderous when he wasn't the chosen jail breaker on the Leviathan
 * Made some further tweaks to the torture scene in the Leviathan Prison Block to address facing, camera angles, and the scene transition fade-out/in
 * Plugged another hole in the Ebon Hawk mesh in the Leviathan Hangar Bay
+* Added back a missing PlotIndex adjustment that somehow got lost from an earlier fix to Motta the Hutt's dialogue in the Tatooine Swoop Registration
 
 ## v1.9.2 - March 27, 2022
 ### Additions
