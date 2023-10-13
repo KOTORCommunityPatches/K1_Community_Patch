@@ -18,6 +18,9 @@
 	Issue #472: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/472
 	
+	Issue #697: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/697
+	
 	DP 2021-10-30 / Salk 2023-10-13												*/
 //////////////////////////////////////////////////////////////////////////////////
 
