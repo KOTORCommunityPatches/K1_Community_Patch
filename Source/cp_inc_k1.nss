@@ -85,6 +85,9 @@ void CP_RemoveForceSpeed(object oTarget);
 // Destroys the item with the specified tag possessed by the player/party.
 void CP_DestroyPartyItem(string sTag);
 
+// Gives all plot items possessed by the target object to the player.
+void CP_GivePCPlotItems(object oTarget);
+
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
 	
@@ -768,4 +771,32 @@ void CP_RemoveForceSpeed(object oTarget) {
 //////////////////////////////////////////////////////////////////////////////////
 void CP_DestroyPartyItem(string sTag) {
 	DestroyObject(GetItemPossessedBy(GetFirstPC(), sTag));
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_GivePCPlotItems()
+	
+	Searches the target object's inventory and gives any plot items that it
+	possesses to the player.
+	
+	DP 2023-10-13																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_GivePCPlotItems(object oTarget) {
+	
+	object oPC = GetFirstPC();
+	object oItem;
+	
+	oItem = GetFirstItemInInventory(oTarget);
+	
+	while (GetIsObjectValid(oItem))
+		{
+			if (GetPlotFlag(oItem))
+				{
+					// Add a delay to prevent premature termination of the loop halfway through the inventory's contents.
+					DelayCommand(0.2, GiveItem(oItem, oPC));
+				}
+			
+			oItem = GetNextItemInInventory(oTarget);
+		}
 }
