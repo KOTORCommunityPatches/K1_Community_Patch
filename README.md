@@ -15,10 +15,10 @@ Current Version: *v1.10.0*
 Release Date: *TBA*
 
 ## 1. Description:
-This mod is a compilation of various bugfix mods (as well as a few original fixes) put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who created these mods, and gave me permission to include them in this patch.
+This mod is a compilation of various bugfix mods and custom fixes put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who have contributed.
 
 ## 2. Install:
-Run INSTALL.exe and navigate to your K1 install folder. Generally speaking, this mod should be installed before anything else, except mods that do hard edits/overwrites of 2DA, TLK or MOD (module) files.
+Run INSTALL.exe and navigate to your K1 install folder. Generally speaking, this mod should be installed before anything else, except mods that do hard overwrites of 2DA, TLK or MOD (module) files.
 
 ## 3. Uninstall:
 Given the complexity of this mod, a clean install of KOTOR is recommended. However, you can check through the installation log file if you wish to undo the changes made.
@@ -706,15 +706,16 @@ You may, however, do whatever you want with any of A Future Pilot's fixes with o
 * Fred Tetra - For KOTOR Tool
 * tk102 - For DLGEditor and K-GFF
 * JdNoa/Dashus - For DeNCS
-* Stoffe - For TSLPatcher
+* stoffe - For TSLPatcher
 * bead-v - For MDLEdit and KOTORMax
 * ndix UR - For TGA2TPC, TPCView, and MDLOps v1.0+
 * seedhartha - For KOTORBlender fork for Blender 2.8+
-* Cortisol - For Holocron Toolset
+* Cortsol - For Holocron Toolset and HoloPatcher/PyKotor
+* th3w1zard1 - For additional customisation and feature improvement of HoloPatcher
 * Fair Strides - For various tools and updates to older tools
 * DrMcCoy - For Xoreos Tools
 * Snigaroo - For maintaining mod builds on the /r/kotor subreddit
 * danil-ch - For the original info.rtf template
 * Many thanks to ebmar, Salk, and KnifeMaster for providing numerous bug reports and beta testing certain fixes
 
-**THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/OBSIDIAN ENTERTAINMENT OR LUCASARTS OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
+**THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/LUCASFILM/DISNEY OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR ARE NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
