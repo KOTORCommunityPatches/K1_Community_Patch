@@ -143,6 +143,7 @@
 * Made some further tweaks to the torture scene in the Leviathan Prison Block to address facing, camera angles, and the scene transition fade-out/in
 * Plugged another hole in the Ebon Hawk mesh in the Leviathan Hangar Bay
 * Added back a missing PlotIndex adjustment that somehow got lost from an earlier fix to Motta the Hutt's dialogue in the Tatooine Swoop Registration
+* Corrected broken config block for the Gamorrean ambush recording speaker
 
 ## v1.9.2 - March 27, 2022
 ### Additions
