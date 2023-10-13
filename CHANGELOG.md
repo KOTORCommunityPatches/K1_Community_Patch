@@ -98,6 +98,7 @@
 * Adjusted render order and fixed pivots of the forcefield beacon poles in Taris Davik's Estate
 * Corrected the UVs of the upper left arm of the small class 6 medium female armour model (PFBES) to fix some texture misalignment
 * Fixed transparency rendering issues for the windows on the Endar Spire
+* Made sure that combat music was turned off after leaving Hendar to his fate in the Taris Undercity
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
