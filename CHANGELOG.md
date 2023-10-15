@@ -104,6 +104,7 @@
 * Made the Dark Jedi in the Kashyyyk Great Walkway drop the datapad they were carrying and changed it and the Tatooine datapad's name to something more descriptive
 * Changed the damage type the steam vents do in the Manaan Sith Base from universal to fire
 * Corrected the PC's facing when opening the door in front of the steam vents in the Manaan Sith Base
+* Added higher resolution font textures from Aspyr's TSL patch
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
