@@ -101,6 +101,7 @@
 * Made sure that combat music was turned off after leaving Hendar to his fate in the Taris Undercity
 * Prevented The Way of the Sith quest being orphaned if choosing to betray both Uthar and Yuthura in the Korriban Tomb of Naga Sadow
 * Ensured plot/quest items are returned to the player post-Leviathan prison break, even if they don't retrieve their former inventory
+* Made the Dark Jedi in the Kashyyyk Great Walkway drop the datapad they were carrying and changed it and the Tatooine datapad's name to something more descriptive
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
