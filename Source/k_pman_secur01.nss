@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	UserDefine forman27_sithdip.utc in manm27aa (Manaan Sith Base).
+	UserDefine for man27_sithdip.utc in manm27aa (Manaan Sith Base).
 	
 	This is the revised OUD for the Sith diplomat. The original script was not
 	formatted as an OUD, but presumably fired because only a single event (0)
