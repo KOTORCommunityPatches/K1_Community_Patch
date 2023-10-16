@@ -688,6 +688,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * One of the Taris window glass textures caused objects behind it to render incorrectly [ISSUE #692](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/692)
 * The floor of the sub bay in Manaan Hrakert Station had some obvious texture distortion [ISSUE #693](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/693)
 * The forcefield beacon poles in the hangar of Davik's Estate on Taris didn't render correctly and wobbled when they rotated [ISSUE #694](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/694)
+* The frame of the main window in the central room of Yavin Station had some lightmapping issues [ISSUE #702](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/702)
 * The windows on the Endar Spire didn't render correctly due to engine issues with overlapping transparency [ISSUE #699](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/699)
 * The wrecked speeder placeables didn’t use the proper glass texture for their windows [ISSUE #703](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/703)
 

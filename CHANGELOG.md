@@ -150,6 +150,7 @@
 * Added back a missing PlotIndex adjustment that somehow got lost from an earlier fix to Motta the Hutt's dialogue in the Tatooine Swoop Registration
 * Corrected broken config block for the Gamorrean ambush recording speaker
 * Updated scene with the receptionist in the Manaan Sith Base to make sure she faced in the right directions as intended and make party members attack when combat started
+* Further tweaks of the central room of Yavin Station to fix some lightmapping issues around the walkway window frame
 
 ## v1.9.2 - March 27, 2022
 ### Additions
