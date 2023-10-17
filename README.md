@@ -121,6 +121,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * After killing Lorgal in the Manaan East Central Republic Embassy for the Genoharadan, his corpse remains permanently [ISSUE #333](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/333)
 * After winning the swoop race on Taris, the player could skewer themselves in the head when bowing if they had a sword equipped (Reported by KnifeMaster) [ISSUE #301](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/301)
 * Ahlan Matale was able to channel his rage in order to use Force levitation in the Council chambers [ISSUE #55](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/55)
+* After meeting Chuundar the first time and being ejected to the Kashyyyk Village of Rwookrrorro, the party would get in each other's way [ISSUE #515](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/515)
 * All the civilians in Davik's estate wore the same outfit [ISSUE #102](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/102)
 * All the male Twi'leks in Javyar's Cantina on Taris use the same green head [ISSUE #72](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/72)
 * Asking Juhani about the planet you were currently on was impossible due to a faulty global setting (Reported by Leilukin) [ISSUE #673](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/673)
