@@ -285,6 +285,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Dark Jedi in the Kashyyyk Great Walkway didn't drop the datapad they were carrying and the datapad's name wasn't very descriptive (Reported by N-DReW25) [ISSUE #689](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/689)
 * The Dark Side underwear texture for the male Scoundrel was incorrect, using Saul Karath's body texture (Reported by ebmar) [ISSUE #564](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/564)
 * The datapad for Dustil's quest could still be obtained after the Sith Academy on Korriban went hostile, making Carth look out of touch [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
+* The decomissioned droid in the Leviathan Command Deck didn't properly ram into the locked storage door (Reported by Salk) [ISSUE #414](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/414)
 * The door guard for the Hidden Beks in the Taris Lower City could be left facing the wrong direction after helping out in combat [ISSUE #498](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/498)
 * The door to the Sith hangar in the Manaan Docking Bay showed an unnecessary Security UI when it required a key [ISSUE #558](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/558)
 * The door to the Tomb of Naga Sadow in the Korriban Valley of the Dark Lords is unlocked for some reason [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
