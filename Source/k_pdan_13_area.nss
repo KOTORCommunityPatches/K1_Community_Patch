@@ -7,10 +7,16 @@
 	items that are left over. The vanilla script failed to delete the Twisted
 	Rancor Trio datapad however, so this has been added.
 	
+	Updated 2023-10-18 to add the missing spawn block for Sharina, which Bioware
+	had mistakenly put in danm14aa's OnEnter.
+	
 	Issue #504: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/504
 	
-	DP 2021-12-09																*/
+	Issue #705: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/705	
+	
+	DP 2021-12-09 / DP 2023-10-18												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_dan"
@@ -107,21 +113,26 @@ void main() {
 						{
 							PlaceNPC("dan13_kelalgwinn", "");
 						}
+					
+					if (GetGlobalBoolean("tat_SharinaPaidFull"))
+						{
+							PlaceNPC("dan13_zzshari", "");
+						}
 				}
+				else
+					{
+						object oCarth = GetObjectByTag("carth", 0);
+						object oBastila = GetObjectByTag("bastila", 0);
+						
+						if (GetIsObjectValid(oCarth))
+							{
+								SetAvailableNPCId(NPC_CARTH, oCarth);
+							}
+						
+						if (GetIsObjectValid(oBastila))
+							{
+								SetAvailableNPCId(NPC_BASTILA, oBastila);
+							}
+					}
 		}
-		else
-			{
-				object oCarth = GetObjectByTag("carth", 0);
-				object oBastila = GetObjectByTag("bastila", 0);
-				
-				if (GetIsObjectValid(oCarth))
-					{
-						SetAvailableNPCId(NPC_CARTH, oCarth);
-					}
-				
-				if (GetIsObjectValid(oBastila))
-					{
-						SetAvailableNPCId(NPC_BASTILA, oBastila);
-					}
-			}
 }

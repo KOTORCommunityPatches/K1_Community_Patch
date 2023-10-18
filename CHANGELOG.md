@@ -108,6 +108,7 @@
 * Changed the texture assignment for the glass windscreens of the wrecked speeder placeables
 * Wrangled the party when entering the Kashyyyk Village of Rwookrrorro after meeting Chuundar to prevent pathing issues
 * Ensured that the decomissioned droid in the Leviathan Command Deck properly rammed into the locked storage door and opened it when commanded to do so
+* Corrected the spawn behaviour for Sharina to make sure she appeared in the Dantooine Jedi Enclave if the player gave her the full value of her wraid plate
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
