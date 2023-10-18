@@ -154,6 +154,7 @@
 * Corrected broken config block for the Gamorrean ambush recording speaker
 * Updated scene with the receptionist in the Manaan Sith Base to make sure she faced in the right directions as intended and make party members attack when combat started
 * Further tweaks of the central room of Yavin Station to fix some lightmapping issues around the walkway window frame
+* Condensed a script hijack for the scientists in Manaan Hraakert Kolto Control down to a single vanilla replacement
 
 ## v1.9.2 - March 27, 2022
 ### Additions
