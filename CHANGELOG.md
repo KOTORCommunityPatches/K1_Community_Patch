@@ -109,6 +109,7 @@
 * Wrangled the party when entering the Kashyyyk Village of Rwookrrorro after meeting Chuundar to prevent pathing issues
 * Ensured that the decomissioned droid in the Leviathan Command Deck properly rammed into the locked storage door and opened it when commanded to do so
 * Corrected the spawn behaviour for Sharina to make sure she appeared in the Dantooine Jedi Enclave if the player gave her the full value of her wraid plate
+* Made sure the sealed doors couldn't be sliced during the decompression in Manaan Hraakert Kolto Control
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -155,6 +156,7 @@
 * Updated scene with the receptionist in the Manaan Sith Base to make sure she faced in the right directions as intended and make party members attack when combat started
 * Further tweaks of the central room of Yavin Station to fix some lightmapping issues around the walkway window frame
 * Condensed a script hijack for the scientists in Manaan Hraakert Kolto Control down to a single vanilla replacement
+* Further adjusted some facing, camera angles, and player positioning during the confrontation with the scientists in Manaan Hraakert Kolto Control
 
 ## v1.9.2 - March 27, 2022
 ### Additions
