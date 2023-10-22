@@ -88,6 +88,9 @@ void CP_DestroyPartyItem(string sTag);
 // Gives all plot items possessed by the target object to the player.
 void CP_GivePCPlotItems(object oTarget);
 
+// An alternative to UT_ExitArea that can take an arbitrary location input rather than an exit waypoint.
+void CP_ExitArea(location lExit, int bRun = FALSE);
+
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
 	
@@ -799,4 +802,22 @@ void CP_GivePCPlotItems(object oTarget) {
 			
 			oItem = GetNextItemInInventory(oTarget);
 		}
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_ExitArea()
+	
+	An alternative to UT_ExitArea that can take an arbitrary location input rather
+	than the predefined exit waypoints (K_EXIT or SW_EXIT). Commands an NPC to
+	walk/run to the designated point and then destroy itself.
+	
+	DP 2023-10-22																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_ExitArea(location lExit, int bRun = FALSE) {
+	
+	ActionForceMoveToLocation(lExit, bRun, 10.0);
+	ActionDoCommand(SetCommandable(TRUE));
+	ActionDoCommand(DestroyObject(OBJECT_SELF));
+	SetCommandable(FALSE);
 }
