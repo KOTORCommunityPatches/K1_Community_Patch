@@ -110,6 +110,7 @@
 * Ensured that the decomissioned droid in the Leviathan Command Deck properly rammed into the locked storage door and opened it when commanded to do so
 * Corrected the spawn behaviour for Sharina to make sure she appeared in the Dantooine Jedi Enclave if the player gave her the full value of her wraid plate
 * Made sure the sealed doors couldn't be sliced during the decompression in Manaan Hraakert Kolto Control
+* Tweaked the scene with Canderous in the Taris Undercity to jump the party, adjust some facing and camera angles, and have him leave via an area exit
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
