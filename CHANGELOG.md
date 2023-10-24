@@ -111,6 +111,7 @@
 * Corrected the spawn behaviour for Sharina to make sure she appeared in the Dantooine Jedi Enclave if the player gave her the full value of her wraid plate
 * Made sure the sealed doors couldn't be sliced during the decompression in Manaan Hraakert Kolto Control
 * Tweaked the scene with Canderous in the Taris Undercity to jump the party, adjust some facing and camera angles, and have him leave via an area exit
+* Adjusted facing and camera angles in the conversation with Shasa and her friends in the Manaan Sith Base, and made all of them leave at the same time
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break

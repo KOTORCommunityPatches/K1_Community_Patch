@@ -266,6 +266,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The conversation with Helena in the Tatooine Cantina had lots of facing/framing issues [ISSUE #208](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/208)
 * The conversation with Maana in Tatooine Anchorhead had some facing issues during Bastila's interjections [ISSUE #261](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/261)
 * The conversation with Nurik and Rahasia in the Dantooine Sandral Estate had a number of facing and positioning issues [ISSUE #259](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/259)
+* The conversation with Shasa in the Manaan Sith Base had some facing and camera angle issues, and her friends left too soon [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
 * The conversations with Chuundar and Freyyr in the Chieftain's Hall on Kashyyyk had numerous facing, party positioning, and camera clipping issues [ISSUE #121](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/121)
 * The conversations with Yuka Laka and HK-47 in the Tatooine Droid Shop had numerous facing and party positioning issues [ISSUE #310](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/310)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
