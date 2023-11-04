@@ -4,3 +4,7 @@
 
 # RTF MS Word temp file
 ~$*.rtf*
+backup/*
+*.exe
+installlog.txt
+uninstall/*
