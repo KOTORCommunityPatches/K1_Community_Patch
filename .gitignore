@@ -4,6 +4,8 @@
 
 # RTF MS Word temp file
 ~$*.rtf*
+
+# HoloPatcher ignores (for people crazy enough to run it directly from the repo)
 backup/*
 *.exe
 installlog.txt
