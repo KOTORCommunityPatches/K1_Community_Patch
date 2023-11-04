@@ -688,6 +688,9 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When selecting T3 for the Leviathan prison break, one DLG branch updated the quest to the wrong stage [ISSUE #485](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/485)
 * When talking to Lurze in Korriban Dreshdae, it was possible to persuade him without the proper skill check [ISSUE #676](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/676)
 
+### th3w1zard1:
+* When talking to the slaves in Davik's Estate on Taris, they wouldn't face the player correctly after a companion interjection (Reported by DarthParametric) [ISSUE #312](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/312)
+
 ### Thrak Farelle:
 * Droid classes’ feat gain was reversed: [Droid Feat Gain Fix 1.0](https://deadlystream.com/files/file/865-kotor-droid-feat-gain-fix/)
 
