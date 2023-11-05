@@ -114,6 +114,7 @@
 * Adjusted facing and camera angles in the conversation with Shasa and her friends in the Manaan Sith Base, and made all of them leave at the same time
 * Added corrected shadowcasting meshes for the skirt of the female Revan/Star Forge robes model
 * Adjusted NPC facing after companion interjections during the conversations with the slaves in Davik's Estate on Taris
+* Set the correct listeners for companion interjections during conversation with Motta the Hutt in the Tatooine Swoop Registration
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
