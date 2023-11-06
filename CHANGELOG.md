@@ -116,6 +116,7 @@
 * Adjusted NPC facing after companion interjections during the conversations with the slaves in Davik's Estate on Taris
 * Set the correct listeners for companion interjections during conversation with Motta the Hutt in the Tatooine Swoop Registration
 * Jumped the party and moved the waiter out of the way for the conversation with Gana Lavin in the Taris Upper City Cantina
+* Added and tweaked unused static camera views when overloading the harvesting machine in Manaan Hrakert Rift
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
