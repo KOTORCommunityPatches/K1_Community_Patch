@@ -148,6 +148,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Conversations with the Chieftain in the Tatooine Sand People Enclave had various facing issues due to party positioning [ISSUE #293](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
 * Darth Malak misplaced his unique lightsaber for all his cutscenes on the Star Forge Decks 1, 2, and 3 [ISSUE #533](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/533)
+* During Calo Nord's last stand in the hangar of Davik's Estate on Taris, he would stop holding his thermal detonator up [ISSUE #368](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/368)
 * During the arrest outside the Sith base in Manaan Ahto East, party members could end up standing in front of the player [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
 * During the break out scene in the Leviathan Prison Block, there were some facing and camera angle issues [ISSUE #145](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145)
 * During the credits sequence of the Dark Side ending, you could still hear the wind sound effects from the background of the previous cutscene [ISSUE #538](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/538)
