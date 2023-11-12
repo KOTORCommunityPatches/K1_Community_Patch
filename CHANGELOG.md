@@ -119,6 +119,7 @@
 * Added and tweaked unused static camera views when overloading the harvesting machine in Manaan Hrakert Rift
 * Prevented the initial Calo/Davik escape scene triggering more than once and ensured combat started afterwards in Taris Davik's Estate
 * Gave Calo Nord a stunt animation during his last stand in the hangar of Davik's Estate on Taris to ensure he kept holding his thermal detonator up
+* Migrated the ini from TSLPatcher to HoloPatcher to address deficiencies in the former and take advantage of added features in the latter
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
