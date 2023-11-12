@@ -166,6 +166,7 @@
 * Further tweaks of the central room of Yavin Station to fix some lightmapping issues around the walkway window frame
 * Condensed a script hijack for the scientists in Manaan Hraakert Kolto Control down to a single vanilla replacement
 * Further adjusted some facing, camera angles, and player positioning during the confrontation with the scientists in Manaan Hraakert Kolto Control
+* Added some camera angle tweaks to the Sith standing in the doorway in the interrogation scene in the Taris Upper City North Apartments
 
 ## v1.9.2 - March 27, 2022
 ### Additions
