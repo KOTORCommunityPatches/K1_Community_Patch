@@ -121,6 +121,7 @@
 * Gave Calo Nord a stunt animation during his last stand in the hangar of Davik's Estate on Taris to ensure he kept holding his thermal detonator up
 * Migrated the ini from TSLPatcher to HoloPatcher to address deficiencies in the former and take advantage of added features in the latter
 * Replaced the line where Jolee refers to the player as their "old friend" only when speaking to Davin on Manaan
+* Prevented prematurely unlocking access to Jolee's dialogue branches about Sunry
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
