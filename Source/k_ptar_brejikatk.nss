@@ -1,4 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 
 	Fired by tar03_brejik031.dlg in tar_m03af (Taris Swoop Platform).
@@ -9,6 +9,9 @@
 	away along with the other civilians when combat starts. Bastila is also given
 	a command to initiate combat so she doesn't stand around. Revised to include
 	original source directly now that it has been reconstructed.
+	
+	Updated 2023-11-14 to prevent Brejik's corpse from fading out after he is killed
+	in case Bastila needs to walk over and loot him during her post-fight conversation.
 	
 	See also cp_tar03_brejeqp, cp_tar03_brejfce, k_ptar_brejik_sp, k_ptar_dieswoopy,
 	k_ptar_playermec, k_ptar_swoop0, k_ptar_swoopnew, k_ptar_swpie_ud.
@@ -22,12 +25,12 @@
 	Issue #345: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/345
 	
-	JC 2019-05-07 / DP 2019-11-14 / DP 2020-06-18 / DP 2023-07-23				*/
-//////////////////////////////////////////////////////////////////////////////////
+	JC 2019-05-07 / DP 2019-11-14 / DP 2020-06-18 / DP 2023-07-23 / DP 2023-11-14	*/
+//////////////////////////////////////////////////////////////////////////////////////
 
+#include "cp_inc_k1"
 #include "k_inc_tar"
 #include "k_inc_generic"
-#include "cp_inc_k1"
 
 void main() {
 	
@@ -41,6 +44,9 @@ void main() {
 	object oFan;
 	int nCnt;
 	int nCount;
+	
+	// Make Brejik's corpse stick around.
+	AssignCommand(oBrejik, SetIsDestroyable(FALSE, FALSE, TRUE));
 	
 	AssignCommand(GetObjectByTag("anglu", 0), TAR_PlotMoveObject(oWPFlee, TRUE));
 	AssignCommand(GetObjectByTag("tar03_doba", 0), TAR_PlotMoveObject(oWPFlee, TRUE));
