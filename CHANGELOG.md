@@ -123,6 +123,7 @@
 * Replaced the line where Jolee refers to the player as their "old friend" only when speaking to Davin on Manaan
 * Prevented prematurely unlocking access to Jolee's dialogue branches about Sunry
 * Moved the movie of Bastila fighting Revan from the swoop platform module transition to between the two conversations when returning to the Taris Upper City Hideout with Bastila
+* Added a missing door to the flow control room of the Manaan Sith Base and renamed one of the doors to the adjoining room
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
