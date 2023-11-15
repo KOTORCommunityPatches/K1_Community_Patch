@@ -124,6 +124,8 @@
 * Prevented prematurely unlocking access to Jolee's dialogue branches about Sunry
 * Moved the movie of Bastila fighting Revan from the swoop platform module transition to between the two conversations when returning to the Taris Upper City Hideout with Bastila
 * Added a missing door to the flow control room of the Manaan Sith Base and renamed one of the doors to the adjoining room
+* Changed the soundsets of the various Republic soldiers in the Endar Spire Command Module to reduce the number of cloned death cries during cutscenes
+* Made Carth face towards the player when they finally meet in the Endar Spire Starboard Section
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
