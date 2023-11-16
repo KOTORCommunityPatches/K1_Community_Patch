@@ -126,6 +126,7 @@
 * Added a missing door to the flow control room of the Manaan Sith Base and renamed one of the doors to the adjoining room
 * Changed the soundsets of the various Republic soldiers in the Endar Spire Command Module to reduce the number of cloned death cries during cutscenes
 * Made Carth face towards the player when they finally meet in the Endar Spire Starboard Section
+* Jumped the party for Elora's conversations in Manaan Ahto West to alleviate issues with facing and camera angles
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -175,6 +176,7 @@
 * Further adjusted some facing, camera angles, and player positioning during the confrontation with the scientists in Manaan Hraakert Kolto Control
 * Added some camera angle tweaks to the Sith standing in the doorway in the interrogation scene in the Taris Upper City North Apartments
 * Tweaked post-battle scene with Bastila in the Taris Swoop Platform to make sure Brejik's corpse doesn't despawn and the player watches when Bastila loots it
+* Removed a missing starting conditional script that was gating off most of Jolee's branch with Elora in Manaan Ahto West
 
 ## v1.9.2 - March 27, 2022
 ### Additions

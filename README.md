@@ -534,6 +534,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When standing in the entrance of the kitchen in the Taris Black Vulkar base, the elevator room wasn't rendered (and vice-versa) [ISSUE #238](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/238)
 * When taking T3 to the Taris Sith Base entrance, it was possible to bypass the trigger that played the scene of him opening the door [ISSUE #400](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/400)
 * When talking to Dak in the Korriban Valley of the Dark Lords, Juhani had some facing issues on her interjections [ISSUE #281](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/281)
+* When talking to Elora in Manaan Ahto West, a scattered party could lead to issues with facing and camera angles [ISSUE #135](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/135)
 * When talking to Freyyr in the Kashyyyk Lower Shadowlands, some of the companion interjections could be spoken off-screen [ISSUE #269](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/269)
 * When talking to Gana Lavin in the Taris Upper City Cantina, the waiter would freak out trying to walk past [ISSUE #232](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/232)
 * When talking to Greeta about Griff in the Tatooine Czerka Office, Mission could skate along the floor during her interjection [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
@@ -608,7 +609,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Dak was a little too fond of the Dreshdae cantina [ISSUE #7](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/7)
 * Dia was a member of the attacking with fists club, despite threatening to cut the player (Reported by DarthParametric)
 * During the Sandral-Matale Feud, the player had the option to claim Ahlan Matale had offered a reward, even if no such conversation took place
-* Elora’s exposition was unnecessary if the player had already heard about Sunry's situation from Davin (with assistance from DarthParametric & ebmar)
 * Fixed Elise’s walking pace when she exits so she runs away when upset and walks away otherwise
 * Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
 * Fixed the height of the workbench on Dantooine
