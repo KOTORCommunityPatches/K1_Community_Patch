@@ -127,6 +127,8 @@
 * Changed the soundsets of the various Republic soldiers in the Endar Spire Command Module to reduce the number of cloned death cries during cutscenes
 * Made Carth face towards the player when they finally meet in the Endar Spire Starboard Section
 * Jumped the party for Elora's conversations in Manaan Ahto West to alleviate issues with facing and camera angles
+* Adjusted the VO of one of Sunry's lines and corrected the subtitles for another when speaking to him while in jail in Manaan Ahto West
+* Jumped the party when speaking to Sunry in jail in Manaan Ahto West to alleviate issues with facing and camera angles
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
