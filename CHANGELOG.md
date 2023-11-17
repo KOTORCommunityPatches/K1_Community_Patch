@@ -129,6 +129,9 @@
 * Jumped the party for Elora's conversations in Manaan Ahto West to alleviate issues with facing and camera angles
 * Adjusted the VO of one of Sunry's lines and corrected the subtitles for another when speaking to him while in jail in Manaan Ahto West
 * Jumped the party when speaking to Sunry in jail in Manaan Ahto West to alleviate issues with facing and camera angles
+* Adjusted some camera angles and jumped the party for the Republic vs Sith trial in the Manaan Ahto West courtroom, and made the diplomats walk away at the end
+* Jumped the party for the individual conversations with the judges in the Manaan Ahto West courtroom, and fixed companion interjections being off-screen
+* Tweaked the position of one of the judge's desks in the Manaan Ahto West courtroom to prevent it clipping into the one next to it
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
