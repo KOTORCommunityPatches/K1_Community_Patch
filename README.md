@@ -365,6 +365,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The merc in Hrakert Station would go out of frame every time he performed the Horror animation [ISSUE #142](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/142)
 * The messenger for Bastila, the Twi'lek Malare, would hang around eavesdropping after Bastila was finished speaking to her [ISSUE #508](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/508)
 * The Mysterious Man on Manaan would speak one of his lines off-screen and was briefly visible running away after the conversation ended [ISSUE #138](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/138)
+* The notification for the transition to the Ebon Hawk in the Manaan Docking Bay didn't display correctly from some angles [ISSUE #710](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/710)
 * The old black male head 2 had some poorly positioned UVs for the eyelids and mouthbox (Reported by muitafruita) [ISSUE #622](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/622)
 * The opening shot of the scene with Sherruk in the Dantooine Grove could randomly have the camera buried in the grass [ISSUE #258](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/258)
 * The party could be a bit scrambled when entering the Taris Sith Base for the first time and talking to the receptionist [ISSUE #253](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/253)
