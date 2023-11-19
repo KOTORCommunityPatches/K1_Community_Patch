@@ -435,6 +435,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The technician in the Republic Embassy in Manaan East Central was an avid typist, doing so in conversations and in mid-air [ISSUE #273](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/273)
 * The training montage on Dantooine had a number of minor animation issues [ISSUE #16](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/16)
 * The training room in the Manaan Sith Base had some gaps in the ceiling (Reported by ebmar) [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
+* The trial of the player in Manaan Ahto West post-Sith Base had some camera angles issues, some problem with party and NPC herding, and faded back in too quickly at the end [ISSUE #136](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/136)
 * The Tuk'ata mother's posse in the Korriban Valley of the Dark Lords face in odd directions and run into each other [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * The Twi'lek females in Dreshdae on Korriban all use the dancer appearance, running around half-naked [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * The Twi'lek messenger that appears after winning the swoop race on Taris had consecutive lines where he repeated the same phrase (Reported by A Future Pilot) [ISSUE #247](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/247)
