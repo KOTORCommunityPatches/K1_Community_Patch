@@ -135,6 +135,7 @@
 * Adjusted the geometry of the Ebon Hawk transition trigger in the Manaan Docking Bay so the notification for it displays correctly when looking directly at it
 * Corrected some camera angles, fixed the party and NPC jumps, and adjusted the fade-out/in timings for the post-Sith Base trial of the player in Manaan Ahto West
 * Added custom party member starting conditionals for cutscenes that move party members more than 10m away from the player
+* Adjusted camera angles, corrected facing, and fixed broken companion interjections during the Sunry murder trial in Manaan Ahto West
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
