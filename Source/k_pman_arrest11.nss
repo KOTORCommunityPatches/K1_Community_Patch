@@ -9,8 +9,7 @@
 	party members, destroys the two guard droids, and then destroys the DLG owner.
 	The original script jumped the two lawyers into the wrong positions (they were
 	switched), so if the player hadn't previously triggered their cutscene then all
-	their lines would be spoken off-screen.
-	
+	their lines would be spoken off-screen. It now also refaces the judges.
 	
 	Issue #136: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/136
@@ -24,6 +23,8 @@ void main() {
  	
 	object oRep = GetObjectByTag("man26_repac", 0);
 	object oSith = GetObjectByTag("man26_sithac", 0);
+	object oJudge;
+	int nIdx = 1;
  	location lRep = GetLocation(GetObjectByTag("wp_man26_replaw", 0));
 	location lSith = GetLocation(GetObjectByTag("wp_man26_sithlaw", 0));
 	
@@ -31,6 +32,19 @@ void main() {
  	
 	CP_PartyJump(oRep, lRep);
 	CP_PartyJump(oSith, lSith);
+	
+	oJudge = GetObjectByTag("man26_seljud" + IntToString(nIdx));
+	
+	while (GetIsObjectValid(oJudge))
+		{
+			AssignCommand(oJudge, ActionDoCommand(SetLockOrientationInDialog(oJudge, FALSE)));
+			AssignCommand(oJudge, ActionDoCommand(SetFacing(DIRECTION_WEST)));
+			AssignCommand(oJudge, ActionPlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.1));
+			
+			nIdx++;
+			
+			oJudge = GetObjectByTag("man26_seljud" + IntToString(nIdx));
+		}
 	
 	DelayCommand(0.1, AssignCommand(CP_GetPartyMember(1), CP_DisableAI(FALSE)));
 	DelayCommand(0.1, AssignCommand(CP_GetPartyMember(2), CP_DisableAI(FALSE)));

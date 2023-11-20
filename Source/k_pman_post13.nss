@@ -21,11 +21,12 @@
 
 void main() {
  	
+	object oPC = GetFirstPC();
 	object oJudge;
-	object oWP_PC = GetObjectByTag("cut_player", 0);
 	int nCnt = 1;
-	location lPM1 = Location(Vector(39.56,-6.95,59.16), 180.00);
-	location lPM2 = Location(Vector(39.72,-3.33,59.16), 180.00);
+	location lPC = Location(Vector(37.13,-4.58,59.16), 180.00);
+	location lPM1 = Location(Vector(38.34,-5.58,59.16), 180.00);
+	location lPM2 = Location(Vector(38.34,-3.58,59.16), 180.00);
 	
 	ActionPauseConversation();
 	
@@ -48,9 +49,11 @@ void main() {
 			oJudge = GetObjectByTag("man26_seljud" + IntToString(nCnt));
 		}
  	
-	DelayCommand(1.0, CP_PartyJumpObject(GetFirstPC(), oWP_PC));
-	DelayCommand(1.0, CP_PartyJump(CP_GetPartyMember(1), lPM1));
-	DelayCommand(1.0, CP_PartyJump(CP_GetPartyMember(2), lPM2));
+	SetLockOrientationInDialog(oPC, FALSE);
+	
+	DelayCommand(0.25, CP_PartyJump(oPC, lPC));
+	DelayCommand(0.5, CP_PartyJump(CP_GetPartyMember(1), lPM1));
+	DelayCommand(0.5, CP_PartyJump(CP_GetPartyMember(2), lPM2));
 	
 	DelayCommand(1.1, ActionResumeConversation());
 }
