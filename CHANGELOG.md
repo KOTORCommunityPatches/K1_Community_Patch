@@ -136,6 +136,7 @@
 * Corrected some camera angles, fixed the party and NPC jumps, and adjusted the fade-out/in timings for the post-Sith Base trial of the player in Manaan Ahto West
 * Added custom party member starting conditionals for cutscenes that move party members more than 10m away from the player
 * Adjusted camera angles, corrected facing, and fixed broken companion interjections during the Sunry murder trial in Manaan Ahto West
+* The player being jumped during their arrest outside the Sith Base in Manaan Ahto East was visible in widescreen resolutions, and only a single droid escorted them away
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -250,9 +251,9 @@
 * Wrangled the party into proper positions based on the entry point, cleaned up some facing, and tweaked some camera angles during the cutscene in the foyer of the Sith Base on Manaan
 * Gave a Sith captain in the Manaan Sith Base the correct soundset for his appearance
 * Swapped the appearance of the training droids in the Manaan Sith Base to match their soundset and template name
-* Cleaned up the party's positioning during the player's arrest outside the Sith base in Manaan Ahto East
-* Changed the variant of the war droids used by Selkath security during the player's arrest outside the Sith base in Manaan Ahto East to differentiate them from the Sith droids
-* Delayed the spawn-in of a replacement Sith war droid outside the Sith base in Manaan Ahto East until after the player's trial
+* Cleaned up the party's positioning during the player's arrest outside the Sith Base in Manaan Ahto East
+* Changed the variant of the war droids used by Selkath security during the player's arrest outside the Sith Base in Manaan Ahto East to differentiate them from the Sith droids
+* Delayed the spawn-in of a replacement Sith war droid outside the Sith Base in Manaan Ahto East until after the player's trial
 * Adjusted the walkmesh for the Yavin station to prevent the player escaping the level and the camera clipping through the observation window
 * Tweaked Jolee's global dialogue to prevent him talking about Rakatan influence on the Wookiees before having opened the Kashyyyk Star Map
 * Edited female Republic officer head model to correct offset pivot for left eyelid mesh and remove spurious skin weights
@@ -285,7 +286,7 @@
 * Edited the female child head and body models to reduce some clipping with the eyelids and skirt
 * Corrected some spurious skin weight assignments for the female Republic soldier head model
 * Changed one of the quest updates for the Leviathan prison break to the correct one
-* Corrected starting conditional for having the Sith base passcard when talking to the interrogator in the Republic base in Manaan East Central
+* Corrected starting conditional for having the Sith Base passcard when talking to the interrogator in the Republic base in Manaan East Central
 * Herded party, prevented NPCs running into each other, and forced entry direction during the post-ending cutscenes in the Kashyyyk Landing Pad
 * Repositioned the party and the hostile Rakata during the first encounter on the Unknown World Central Beach
 * Corrected scripts for injured Wookiee in the Kashyyyk Lower Shadowlands to grant the Upari amulet and properly account for the party's healing abilities
@@ -503,7 +504,7 @@
 * Set Bandon's Dark Jedi offsiders to neutral to prevent them getting twitchy before their boss is ready to fight
 * Switched previous hard overwrite of Hrakert Station GIT to patcher setup
 * Added a conditional script for one player response during the Sandral-Matale Feud so it's only available if the player spoke to Ahlan Matale about a reward
-* Made a transformer in the Sith base on Taris non-interactable
+* Made a transformer in the Sith Base on Taris non-interactable
 * Removed an infinite DS point exploit from the Sasha encounter
 * Removed an infinite DS point exploit from Roland Wann post-Hrakert Rift
 * Added a check to remove the Czerka miners in the Dune Sea once they have been talked to and the Sandpeople enclave is done

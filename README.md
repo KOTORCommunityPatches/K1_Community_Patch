@@ -107,7 +107,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * A number of male NPC appearances were duplicated in the Taris Upper City Cantina (Reported by A Future Pilot) [ISSUE #376](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/376)
 * A number of plot items remained in the player's inventory after completing the escape from the Leviathan [ISSUE #145](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145)
 * A placeable bench can occasionally be unintentionally spawned when fighting the Tuk'ata Mother in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
-* A replacement Sith war droid guarding the exterior of the Sith base in Manaan Ahto East appeared too quickly [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
+* A replacement Sith war droid guarding the exterior of the Sith Base in Manaan Ahto East appeared too quickly [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
 * A Rodian "sitter" in the Mercenary Enclave in Manaan Ahto West was clipping into a table [ISSUE #328](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/328)
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar) [ISSUE #35](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/35)
 * A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar) [ISSUE #36](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/36)
@@ -150,7 +150,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Darth Malak didn't have any sound effects for his lightsaber during his taunt animation (Reported by ebmar) [ISSUE #189](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/189)
 * Darth Malak misplaced his unique lightsaber for all his cutscenes on the Star Forge Decks 1, 2, and 3 [ISSUE #533](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/533)
 * During Calo Nord's last stand in the hangar of Davik's Estate on Taris, he would stop holding his thermal detonator up [ISSUE #368](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/368)
-* During the arrest outside the Sith base in Manaan Ahto East, party members could end up standing in front of the player [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
+* During the arrest outside the Sith Base in Manaan Ahto East, party members could end up standing in front of the player [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
 * During the break out scene in the Leviathan Prison Block, there were some facing and camera angle issues [ISSUE #145](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145)
 * During the credits sequence of the Dark Side ending, you could still hear the wind sound effects from the background of the previous cutscene [ISSUE #538](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/538)
 * During the cutscene of Calo Nord collecting some bounties in the Taris Lower City Apartments (West), subtitles for one of the Rodian's lines disappeared halfway through [ISSUE #542](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/542)
@@ -257,7 +257,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Black Vulkar base on Taris had some pipes that lacked backfaces, leading to some noticeable geometry culling issues [ISSUE #410](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/410)
 * The camera could clip through the observation window of Yavin Station [ISSUE #461](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/461)
 * The cantina on Manaan had a couple of gaps in its seated booths (Reported by ebmar) [ISSUE #82](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/82)
-* The check for having the Sith base passcard was incorrect when talking to the interrogator in the Republic base in Manaan East Central (Reported by Salk) [ISSUE #344](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/344)
+* The check for having the Sith Base passcard was incorrect when talking to the interrogator in the Republic base in Manaan East Central (Reported by Salk) [ISSUE #344](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/344)
 * The commoner Asian male head comm_a_m had incorrectly named eye trimeshes
 * The computer panel on the Kashyyyk Great Walkway was misaligned just enough to trigger OCD [ISSUE #514](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/514)
 * The confrontation with Lashowe in Dreshdae on Korriban had a number of facing issues and problems with a wandering NPC [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
@@ -452,7 +452,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The VFX for the Sith Master zapping a droid in the Unknown World Temple Main Floor didn't sync with his animations [ISSUE #325](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/325)
 * The Viper Kinrath in the Kashyyyk Lower Shadowlands continue dropping a quest item after it is no longer needed [ISSUE #124](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/124)
 * The Vulkar base lower level had a couple of noticeable lightmap artefacts outside the Garage Head's room [ISSUE #61](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/61)
-* The war droids used by Selkath security during the arrest outside the Sith base in Manaan Ahto East looked identical to the Sith droids [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
+* The war droids used by Selkath security during the arrest outside the Sith Base in Manaan Ahto East looked identical to the Sith droids [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
 * The white commoner female head (e.g. Belaya) had extremely pointy ear lobes [ISSUE #503](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/503)
 * The witnesses in the Sunry murder trial in Manaan Ahto West had different appearances than the first time you meet them (Reported by KnifeMaster) [ISSUE #318](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/318)
 * There are two clones standing right next to each other in the Taris Upper City Cantina [ISSUE #77](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/77)
@@ -552,6 +552,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When talking to the Rakatan hologram in the Kashyyyk Lower Shadowlands, the player could freeze and the hologram could get stuck in an animation [ISSUE #346](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/346)
 * When talking to Yuthura in the Korriban Dreshdae cantina, the party could end up poorly positioned due to the cramped space [ISSUE #160](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/160)
 * When the party exited the airlock on the Leviathan Bridge, they'd end up facing back the way they just came [ISSUE #526](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/526)
+* When the player was arrested outside the Sith Base in Manaan Ahto East, they weren't properly escorted away and were visible being jumped in widescreen resolutions [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
 * When trying to escape on the Hawk in Davik's Estate on Taris, the initial cutscene could be triggered repeatedly (Reported by th3w1zard1) [ISSUE #708](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/708)
 * When using Force persuade on the customs officer in the Tatooine Docking Bay, the animation would occur off-screen (Reported by darthbdaman) [ISSUE #308](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/308)
 * When War Droids were defeated, the sparks from their torso shot out behind them instead of forwards [ISSUE #492](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/492)
@@ -623,7 +624,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Fixed the height of the workbench on Dantooine
 * Fixed the position of the strongbox in the Taris Lower City apartments (Reported by DarthParametric) [ISSUE #68](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/68)
 * Hidden Beks didn’t react quickly to intruders (Reported by DarthParametric)
-* It was possible to interact with a transformer in the Sith base on Taris—though it did nothing of particular interest
+* It was possible to interact with a transformer in the Sith Base on Taris—though it did nothing of particular interest
 * It was possible to miss out on HK’s backstory and leave his whole storyline hanging (with additional corrections by Salk) [ISSUE #3](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/3)
 * Killing Dustil before completing Carth's quest would leave its status unresolved (with additions by DarthParametric) [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * Party members in stealth during the post-Leviathan scene were game breaking (workaround/partial fix) [ISSUE #9](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/9)
