@@ -137,8 +137,8 @@
 * Added custom party member starting conditionals for cutscenes that move party members more than 10m away from the player
 * Adjusted camera angles, corrected facing, and fixed broken companion interjections during the Sunry murder trial in Manaan Ahto West
 * The player being jumped during their arrest outside the Sith Base in Manaan Ahto East was visible in widescreen resolutions, and only a single droid escorted them away
-* The corpse placeable for Rukil's apprentice in the Taris Undercity used a male appearance despite being a young woman
-* The corpse placeables for Rukil's father and grandfather in the Taris Lower Sewers were fresh looking, despite being decades old
+* Changed the appearance for the corpse of Rukil's apprentice in the Taris Undercity to female
+* Changed the appearance for the corpse placeables for Rukil's father and grandfather in the Taris Lower Sewers to desiccated remains
 * Removed unnecessary Security UI from the forcefield in the Taris Lower Sewers
 
 ### Changes/Updates/Revisions
