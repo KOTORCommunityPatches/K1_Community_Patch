@@ -336,6 +336,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The force cage containing the Sith prisoner in the Manaan Republic Embassy stayed on even after the prisoner was gone [ISSUE #137](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/137)
 * The force cage placeable had an incorrectly rotated walkmesh, potentially causing minor pathfinding issues [ISSUE #595](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/595)
 * The forced level-up conversation on the bridge of the Endar Spire Command Module had some poor framing due to player positioning [ISSUE #490](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/490)
+* The forcefield in the Taris Lower Sewers showed a Security icon when it was not meant to be unlockable [ISSUE #715](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/715)
 * The galaxy map in the crashed Ebon Hawk could briefly show an empty bark bubble when accessed [ISSUE #471](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/471)
 * The Gamorreans setting an ambush in the Tatooine Dune Sea used a super frag mine, which could wipe out low health players (Reported by JCarter426) [ISSUE #216](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/216)
 * The generic doors inside the Taris Black Vulkar Base weren't at full health [ISSUE #237](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/237)

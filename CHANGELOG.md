@@ -139,6 +139,7 @@
 * The player being jumped during their arrest outside the Sith Base in Manaan Ahto East was visible in widescreen resolutions, and only a single droid escorted them away
 * The corpse placeable for Rukil's apprentice in the Taris Undercity used a male appearance despite being a young woman
 * The corpse placeables for Rukil's father and grandfather in the Taris Lower Sewers were fresh looking, despite being decades old
+* Removed unnecessary Security UI from the forcefield in the Taris Lower Sewers
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break

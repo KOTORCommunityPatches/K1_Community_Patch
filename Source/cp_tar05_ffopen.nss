@@ -6,12 +6,15 @@
 	This script has Mission entering the codes into the terminal and then shuts
 	down the forcefield with an added sound effect.
 	
-	See also cp_tar05_ffend, cp_tar05_ffopen, cp_tar05_ffstart, cp_tar05_ffwalk, k_ptar_startconv.
+	Updated 2023-11-24 to add an unlock command, since the UTD had a key added.
+	
+	See also cp_tar05_ffend, cp_tar05_ffopen, cp_tar05_ffstart, cp_tar05_ffwalk,
+	k_ptar_startconv.
 	
 	Issue #66: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/66
 	
-	DP 2020-06-09																*/
+	DP 2020-06-09 / DP 2023-11-24												*/
 ////////////////////////////////////////////////////////////////////////////////// 
 
 void main() {
@@ -26,6 +29,7 @@ void main() {
 	AssignCommand(oMission, SetFacing(135.0));
 	AssignCommand(oMission, ActionPlayAnimation(ANIMATION_FIREFORGET_USE_COMPUTER));
 	
+	DelayCommand(4.9, SetLocked(oForcefield, FALSE));
 	DelayCommand(5.0, AssignCommand(oForcefield, ActionOpenDoor(oForcefield)));
 	DelayCommand(5.75, SoundObjectPlay(oFFOff));
 	
