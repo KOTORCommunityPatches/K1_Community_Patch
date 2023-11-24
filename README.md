@@ -274,6 +274,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The conversations with Yuka Laka and HK-47 in the Tatooine Droid Shop had numerous facing and party positioning issues [ISSUE #310](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/310)
 * The corpse in the Dantooine Murder Mystery looked a bit crusty for such a fresh kill (Suggested by A Future Pilot) [ISSUE #37](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/37)
 * The corpse pile in the Taris Upper Sewers erroneously remained interactive after the Rancor was dead, and the Give Item UI was cluttered with the player's full inventory (With input from JCarter426) [ISSUE #430](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/430)
+* The corpses related to the Promised Land quest in the Taris Undercity and Lower Sewers didn't match their descriptions (Reported by ancient-animal) [ISSUE #713](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/713)
 * The Council on Dantooine float a few inches off the ground
 * The crazed mercenary in Manaan Hrakert Station would talk about the player returning to the surface even if they hadn't done so (Reported by Salk) [ISSUE #378](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/378)
 * The cutscene in the Ebon Hawk after arriving on the Unknown World had various facing issues (With input from ebmar) [ISSUE #174](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/174)
