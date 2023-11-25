@@ -140,6 +140,7 @@
 * Changed the appearance for the corpse of Rukil's apprentice in the Taris Undercity to female
 * Changed the appearance for the corpse placeables for Rukil's father and grandfather in the Taris Lower Sewers to desiccated remains
 * Removed unnecessary Security UI from the forcefield in the Taris Lower Sewers
+* Adjusted camera angles and listener tags for companion interjections during conversations in Kashyyyk Woorwill's Home 
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
