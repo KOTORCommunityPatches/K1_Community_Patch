@@ -435,6 +435,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The stranded Duros scene on the Unknown World Central Beach had a character out of shot, suffered from camera wiggle, and was missing a fade-out [ISSUE #285](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/285)
 * The surrendering Vulkar in the Taris Black Vulkar Base used an inappropriate animation when pleading for his life [ISSUE #239](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/239)
 * The swaying cables in the Anchorhead droid shop were clipping into some boxes [ISSUE #114](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/114)
+* The swoop mechanics in the Taris Black Vulkar Base (Lower/Garage) would attack with their fists [ISSUE #240](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/240)
 * The sword of Ajunta Pall and the ceremonial lightsaber needlessly remained quest items after completing Korriban (Reported by muitafruita) [ISSUE #638](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/638)
 * The Tatooine docking bay was missing exit waypoints, causing messengers to fade out in-place instead of leaving [ISSUE #129](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/129)
 * The Tatooine white female commoner head (e.g. Sharina) and Asian female commoner heads (e.g. Elora) had shading, clipping, and UV problems [ISSUE #126](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/126)
