@@ -169,6 +169,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Dustil's conversation in the Korriban Academy had some facing issues with Carth and the player [ISSUE #162](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/162)
 * Dustil's quest state didn't update properly when the datapad in Uthar's room in the Korriban Sith Academy was found and the footlocker containing it could trigger Carth's conversation repeatedly [ISSUE #4](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/4)
 * Gaps in the Leviathan Prison Block walkmesh allowed targeting (and shooting) certain enemies through walls [ISSUE #132](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/132)
+* Gaps in the Taris Black Vulkar Base (Lower/Garage) walkmesh allowed certain enemies to engage the party through walls [ISSUE #716](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/716)
 * Generic droids incorrectly used the Bantha soundset (Reported by ebmar) [ISSUE #159](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/159)
 * Generic Wookiees, males and females, had an incorrect texture assignment on their mouth interiors and males had an invisible tongue (Reported by ebmar) [ISSUE #295](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/295)
 * Giving Freyyr the sword blade in the Shadowlands didn't remove it from the inventory (Reported by ebmar) [ISSUE #43](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/43)

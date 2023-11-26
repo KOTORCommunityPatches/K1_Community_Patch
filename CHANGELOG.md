@@ -142,6 +142,7 @@
 * Removed unnecessary Security UI from the forcefield in the Taris Lower Sewers
 * Adjusted camera angles and listener tags for companion interjections during conversations in Kashyyyk Woorwill's Home 
 * Removed unnecessary Security UI from the loading dock door in the Black Vulkar Base (Lower/Garage) on Taris
+* Plugged some gaps in the walkmesh which allowed enemies to aggro through walls in the Black Vulkar Base (Lower/Garage) on Taris
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
