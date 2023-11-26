@@ -141,6 +141,7 @@
 * Changed the appearance for the corpse placeables for Rukil's father and grandfather in the Taris Lower Sewers to desiccated remains
 * Removed unnecessary Security UI from the forcefield in the Taris Lower Sewers
 * Adjusted camera angles and listener tags for companion interjections during conversations in Kashyyyk Woorwill's Home 
+* Removed unnecessary Security UI from the loading dock door in the Black Vulkar Base (Lower/Garage) on Taris
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -225,7 +226,7 @@
 * Edited player head PFHB03 to fix clipping, UV issues, and odd geometry
 * Changed ambient colour value for referenced lamp model in the Unknown World Temple interior to account for no lightmapping and fixed some sloppy geometry
 * Edited player head PFHB04 to fix sloppy eyeball UVs
-* Added some backfaces to various pipes in the Taris Black Vulkar base to prevent culling issues
+* Added some backfaces to various pipes in the Taris Black Vulkar Base to prevent culling issues
 * Added speaker tag to Taris Upper Sewers cutscene so the Rancor's snorting would be properly attributed
 * Changed corpse pile placeable in the Taris Upper Sewers so it is destroyed after the Rancor is dead, and added a filter to the Give Item UI to only show relevant items
 * Temporarily disabled the AI of the droids in the Korriban Tomb of Ajunta Pall to prevent them activating prematurely, and stopped them reorienting on the player if clicked on
@@ -445,7 +446,7 @@
 * Repositioned two invisible placeables for security terminals in the Taris Sith Base to a more suitable height
 * Fixed placeable heights on the Ebon Hawk to reduce floor clipping & floating
 * Fixed the height of the workbench on Dantooine
-* Raised the height of the invisible placeable for the Garage Head's desk in the Vulkar base
+* Raised the height of the invisible placeable for the Garage Head's desk in the Vulkar Base
 * Fixed the position of the strongbox in the Taris Lower City apartments
 * Changed Bolook's skin color from orange to green on account of VO saying so
 * After much wailing and gnashing of teeth, finally got Zhar to face the player post-montage, and stop throwing a tantrum afterwards (thanks to JC)
@@ -472,8 +473,8 @@
 * Gave the repairable Vulkar bar droid a blaster rifle and disabled its plot flag
 * Made various changes to the initial Davik conversation to resolve the usual facing and positional crimes
 * Fixed some bad lightmaping on the dais in Davik's throne room
-* Fixed some bad lightmaping on the walls of the Vulkar base's lower level
-* Forced some mooks in the Vulkar base to equip their stored weapons to prevent unarmed attacks
+* Fixed some bad lightmaping on the walls of the Vulkar Base's lower level
+* Forced some mooks in the Vulkar Base to equip their stored weapons to prevent unarmed attacks
 * Changed some Twi'lek male appearances in Javyar's cantina to diversify things a bit.
 * Added a new orange Twi'lek male appearance using the unused Twi'lek male body orange handed texture variant
 * Added a new blue Twi'lek male head, ported from TSL
@@ -586,7 +587,7 @@
 * Added a missing stage update for Dustil's quest when taking the datapad found in Uthar's room in the Sith Academy on Korriban and prevented multiple triggers of the related conversation
 * Incorporated JC's Republic Soldier Fix
 * Equipped Tariga and a couple other Sith students with lightsabers
-* Prevented re-entering the Vulkar base on Taris post-swoop race (and the Bek base if Gadon is dead)
+* Prevented re-entering the Vulkar Base on Taris post-swoop race (and the Bek base if Gadon is dead)
 * Fixed the momentary fade-in before the intro cutscene in the Korriban Tomb of Naga Sadow starts
 * Edited the conditionals that check how many Tach glands the player has when talking to the Czerka officer in the Kashyyyk Upper Shadowlands to count the stack size properly
 * Corrected an invalid ResRef in Roland Wann's reward script in Manaan East Central
