@@ -1,20 +1,23 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 
-	This is an amended version of the script that fires at the end of every
-	branch of the Sandral-Matale Feud DLG. By default, this will destroy
-	Casus' diary, which we no longer want to do as we have restored the
-	Sandral protocol droid to enable the Casus quest to be completed post-Feud
-	(for non-DS conclusions).
+	Fired by dan14_cutscene.dlg in danm14ad (Dantooine Sandral Grounds).
 	
-	Issue #27: 
-	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/27
+	This is an amended version of the script that fires at the end of every branch
+	of the Sandral-Matale Feud scene. By default, this will destroy Casus' diary,
+	which we no longer want to do as we have restored the Sandral protocol droid
+	to enable the Casus quest to be completed post-Feud (for non-DS conclusions).
 	
-	DP 2019-02-04                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	Updated 2023-11-27 to also destroy the key to Shen's room inside the estate.
+	
+	Issue #158: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/158
+	
+	DP 2019-02-04 / DP 2023-11-27												*/
+//////////////////////////////////////////////////////////////////////////////////
 
 void main() {
 	
-	//DestroyObject(GetItemPossessedBy(GetPCSpeaker(), "dan14_diary"), 0.0, 0, 0.0);  // COMMENTING THIS OUT TO RETAIN DIARY
-	DestroyObject(GetItemPossessedBy(GetPCSpeaker(), "dan16_key"), 0.0, 0, 0.0);
+	DestroyObject(GetItemPossessedBy(GetFirstPC(), "dan16_key"));
+	DestroyObject(GetItemPossessedBy(GetFirstPC(), "shenkey"));
 }
