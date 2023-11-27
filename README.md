@@ -563,6 +563,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * When trying to escape Davik's Estate on Taris, the hangar cutscene with Davik and Calo could be triggered repeatedly (Reported by th3w1zard1) [ISSUE #708](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/708)
 * When using Force persuade on the customs officer in the Tatooine Docking Bay, the animation would occur off-screen (Reported by darthbdaman) [ISSUE #308](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/308)
 * When War Droids were defeated, the sparks from their torso shot out behind them instead of forwards [ISSUE #492](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/492)
+* When Zaalbar talked to the player about his family in the Kashyyyk Great Walkway, the party positioning was poor [ISSUE #719](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/719)
 * Xor's final encounter was extremely buggy, prone to ending in an unresolvable broken state (Reported by Yulaw9460) [ISSUE #397](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/397)
 * Zaalbar had a visible seam between his neck and torso meshes when standing in front of a bright light source [ISSUE #395](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/395)
 * Zaalbar's removal from the party on Kashyyyk allowed for an item duplication exploit (Reported by Jellypumpkin) [ISSUE #278](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/278)

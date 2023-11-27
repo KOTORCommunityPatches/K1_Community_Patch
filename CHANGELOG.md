@@ -145,6 +145,7 @@
 * Plugged some gaps in the walkmesh which allowed enemies to aggro through walls in the Black Vulkar Base (Lower/Garage) on Taris
 * Prevented the mechanics in the Taris Black Vulkar Base (Lower/Garage) from attacking with their fists
 * Jumped the party and adjusted camera angles for the scene with Patrol Captain Dehno and the dead Wookiee in the Kashyyyk Great Walkway
+* Jumped the party for the scene with Zaalbar talking about his family in the Kashyyyk Great Walkway
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
