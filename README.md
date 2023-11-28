@@ -364,6 +364,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The leader of the rebels in the Korriban Shyrack Caves would turn her back on the party when ordering her group to attack [ISSUE #166](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/166)
 * The loading dock door in the Black Vulkar Base (Lower/Garage) showed a Security icon when it was not meant to be unlockable [ISSUE #717](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/717)
 * The name of the invisible placeable for the Gamorrean ambush in the Tatooine Dune Sea showed up in the Feedback screen [ISSUE #552](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/552)
+* The main gate of the village in the Taris Undercity showed a Security icon when it was not meant to be unlockable [ISSUE #543](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/543)
 * The male player head PMHC01 has some deformation issues along the jawline
 * The male Twi'lek head has clipping issues with certain animations [ISSUE #84](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/84)
 * The Mandalorian ambush scene in the Unknown World Temple Exterior had some pathing issues, causing party members to get in the way [ISSUE #286](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/286)
