@@ -149,6 +149,7 @@
 * Corrected facing issues for party member interjections when talking to Jolee outside his hut in Kashyyyk Upper Shadowlands
 * Changed camera angles, facing, and scripted actions in the finale cutscene of the Sandral-Matale feud in the Dantooine Sandral Grounds
 * Removed unnecessary Security UI from the village main gate in the Taris Undercity
+* Removed unnecessary Security UI from Zaalbar's jail door in the Taris Lower Sewers
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
