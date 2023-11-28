@@ -15,7 +15,10 @@
 	killing both mooks simultaneously, which could result in the final cutscene
 	not firing. Hopefully resolved for realsies this time.
 	
-	See also cp_xor_ptyjmpend, k_kas_xorattack, k_kas_xor_user.
+	Updated 2023-11-28 to mirror the tweaks made in Xor's OUD to the pre-convo
+	wrangling under the fade-out, like disabling the party AI.
+	
+	See also cp_xor_invis_ud, cp_xor_ptyjmpend, k_kas_xorattack, k_kas_xor_user.
 
 	Issue #8: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/8
@@ -23,22 +26,22 @@
 	Issue #397: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/397
 	
-	DP 2021-12-06																*/
+	DP 2021-12-06 / DP 2022-03-27 / DP 2023-11-28								*/
 //////////////////////////////////////////////////////////////////////////////////
 
-#include "k_inc_utility"
+#include "cp_inc_k1"
 
 void CP_ClearNPC(object oNPC) {
+	AssignCommand(oNPC, ClearAllActions());
 	CancelCombat(oNPC);
 	AssignCommand(oNPC, ClearAllEffects());
-	AssignCommand(oNPC, ClearAllActions());
 }
 
 void main() {
 	
-	object oPM0 = GetPartyMemberByIndex(0);
-	object oPM1 = GetPartyMemberByIndex(1);
-	object oPM2 = GetPartyMemberByIndex(2);
+	object oPC = GetFirstPC();
+	object oPM1 = CP_GetPartyMember(1);
+	object oPM2 = CP_GetPartyMember(2);
 	object oXor = GetObjectByTag("kas_xor1", 0);
 	int nUser = GetUserDefinedEventNumber();
 
@@ -85,13 +88,20 @@ void main() {
 				{
 					SetGlobalFadeOut();
 					
-					NoClicksFor(1.0);
+					NoClicksFor(1.5);
 					
 					SetPartyLeader(NPC_PLAYER);
 					
-					CP_ClearNPC(oPM0);
-					CP_ClearNPC(oPM1);
-					CP_ClearNPC(oPM2);
+					// Disable the party AI.
+					AssignCommand(oPM1, CP_DisableAI(TRUE));
+					AssignCommand(oPM2, CP_DisableAI(TRUE));
+					
+					DelayCommand(0.25, CP_ClearNPC(oXor));
+					DelayCommand(0.5, CP_ClearNPC(oPC));
+					DelayCommand(0.5, CP_ClearNPC(oPM1));
+					DelayCommand(0.5, CP_ClearNPC(oPM2));
+					
+					DelayCommand(0.6, CP_PartyJumpObject(oXor, GetObjectByTag("kas_xor1_spawn", 0)));
 					
 					DelayCommand(1.0, AssignCommand(GetObjectByTag("invis_xor_conv", 0), ActionStartConversation(OBJECT_SELF, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 				}

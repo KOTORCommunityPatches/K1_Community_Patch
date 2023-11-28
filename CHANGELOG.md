@@ -198,6 +198,7 @@
 * Added some camera angle tweaks to the Sith standing in the doorway in the interrogation scene in the Taris Upper City North Apartments
 * Tweaked post-battle scene with Bastila in the Taris Swoop Platform to make sure Brejik's corpse doesn't despawn and the player watches when Bastila loots it
 * Removed a missing starting conditional script that was gating off most of Jolee's branch with Elora in Manaan Ahto West
+* Made some further party herding and facing tweaks to the final post-battle scene with Xor
 
 ## v1.9.2 - March 27, 2022
 ### Additions
