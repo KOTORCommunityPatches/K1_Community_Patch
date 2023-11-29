@@ -150,6 +150,7 @@
 * Changed camera angles, facing, and scripted actions in the finale cutscene of the Sandral-Matale feud in the Dantooine Sandral Grounds
 * Removed unnecessary Security UI from the village main gate in the Taris Undercity
 * Removed unnecessary Security UI from Zaalbar's jail door in the Taris Lower Sewers
+* Jumped the party, had them follow when showing the journals to Gendar, and herded ambient NPCs out of the way for conversations with Rukil in the Taris Undercity
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
