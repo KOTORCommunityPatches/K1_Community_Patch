@@ -203,6 +203,7 @@
 * Removed a missing starting conditional script that was gating off most of Jolee's branch with Elora in Manaan Ahto West
 * Made some further party herding and facing tweaks to the final post-battle scene with Xor
 * Fixed some ropey shading around the eye sockets of the Asian male head, added fixed versions of the two texture variant models
+* Applied eye socket shading adjustment to previously edited female commoner heads
 
 ## v1.9.2 - March 27, 2022
 ### Additions
