@@ -202,6 +202,7 @@
 * Tweaked post-battle scene with Bastila in the Taris Swoop Platform to make sure Brejik's corpse doesn't despawn and the player watches when Bastila loots it
 * Removed a missing starting conditional script that was gating off most of Jolee's branch with Elora in Manaan Ahto West
 * Made some further party herding and facing tweaks to the final post-battle scene with Xor
+* Fixed some ropey shading around the eye sockets of the Asian male head, added fixed versions of the two texture variant models
 
 ## v1.9.2 - March 27, 2022
 ### Additions
