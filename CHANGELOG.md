@@ -152,6 +152,7 @@
 * Removed unnecessary Security UI from Zaalbar's jail door in the Taris Lower Sewers
 * Jumped the party, had them follow when showing the journals to Gendar, and herded ambient NPCs out of the way for conversations with Rukil in the Taris Undercity
 * Prevented the party accidentally (or on purpose) escaping into the Hawk when fighting Xor in one of the docking bay modules
+* Adjusted the position and rotation of one of the footlocker placeables in the sub bay of Manaan Hrakert Station that was sticking out into the middle of a walkway
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -206,6 +207,7 @@
 * Fixed some ropey shading around the eye sockets of the Asian male head, added fixed versions of the two texture variant models
 * Applied eye socket shading adjustment to previously edited female commoner heads
 * Added the missing templates that were preventing added triggers spawning in Korriban Dreshdae
+* Changed the removal of the Dark Jedi corpse and its loot in Manaan Hrakert Station to a less intrusive implementation, refactoring the GIT's creature and placeable lists
 
 ## v1.9.2 - March 27, 2022
 ### Additions
