@@ -153,6 +153,7 @@
 * Jumped the party, had them follow when showing the journals to Gendar, and herded ambient NPCs out of the way for conversations with Rukil in the Taris Undercity
 * Prevented the party accidentally (or on purpose) escaping into the Hawk when fighting Xor in one of the docking bay modules
 * Adjusted the position and rotation of one of the footlocker placeables in the sub bay of Manaan Hrakert Station that was sticking out into the middle of a walkway
+* Tried to ensure both of Malak's Jedi captives on the Star Forge Deck 3/Command Center played the appropriate animation, and prevented the player freezing at the end of the scene
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
