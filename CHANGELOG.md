@@ -212,6 +212,7 @@
 * Added the missing templates that were preventing added triggers spawning in Korriban Dreshdae
 * Changed the removal of the Dark Jedi corpse and its loot in Manaan Hrakert Station to a less intrusive implementation, refactoring the GIT's creature and placeable lists
 * Revised the adjustments to the scene with Lashowe in Korriban Valley of the Dark Lords, including making her properly loot the holocron from the Mother's corpse as per developer intent
+* Ensured that the initial triggered conversation with Nilko Bwaas in Manaan Ahto West was synced correctly with the fade-in
 
 ## v1.9.2 - March 27, 2022
 ### Additions
