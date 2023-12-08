@@ -157,6 +157,7 @@
 * Adjusted facing, camera angles, animations, and prevented the party running into each other for the Light Side ending escape sequence on the Star Forge Deck 1
 * Made the Sith Master face Malak at the start of the second cutscene about the invading Jedi in the Star Forge Deck 2
 * Adjusted party herding, camera angles, and facing for companion interjections in the scene with the Sith Master and his Selkath apprentices in the Manaan Sith Base
+* Prevented an invisible placeable's name showing up in the Feedback panel after the comm messages from Canderous in the Leviathan Prison Block and Hangar
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
