@@ -14,19 +14,23 @@
 	and rejig the script to more closely replicate the original, since that has now
 	been decompiled fully.
 	
+	Updated 2023-12-08 to swap the invisible placeable DLG owner from starting a
+	conversation with itself to starting it with the PC. The former approach made
+	all of the PC's lines in the feedback window show up as being spoken by the
+	placeable.
+	
 	Issue #145: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145
 	
 	Issue #569: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/569
 	
-	DP 2022-12-17 / DP 2023-08-17												*/
+	DP 2022-12-17 / DP 2023-08-17 / DP 2023-12-08								*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_utility"
 
 void Start_Scene() {
-	
 	object oInvis = GetObjectByTag("lev40_freetalker", 0);
 	int nJailBreaker = GetGlobalNumber("Lev_Escape");
 	location lCand = Location(Vector(22.88,59.06,9.00), -90.00);
@@ -34,7 +38,7 @@ void Start_Scene() {
 	// Switch controlled character from the jail breaker to the PC.
 	SwitchPlayerCharacter(NPC_PLAYER);
 	
-	AssignCommand(GetFirstPC(), ActionJumpToObject(GetObjectByTag("lev40_wppcesc", 0), FALSE));
+	DelayCommand(0.1, AssignCommand(GetFirstPC(), ActionJumpToObject(GetObjectByTag("lev40_wppcesc", 0), FALSE)));
 	
 	// Spawn Canderous if he was the jail breaker, since he got nuked by the SwitchPlayerCharacter call.
 	// Use the party table version to preserve any equipped gear.
@@ -43,7 +47,7 @@ void Start_Scene() {
 			UT_SpawnAvailableNPC(NPC_CANDEROUS, lCand);
 		}
 	
-	DelayCommand(0.1, AssignCommand(oInvis, ActionStartConversation(oInvis)));
+	DelayCommand(0.2, AssignCommand(oInvis, ActionStartConversation(GetFirstPC())));
 }
 
 void main() {
@@ -53,7 +57,6 @@ void main() {
 	object oGrndZero = GetObjectByTag("lev40_groundzero", 0);
 	object oCage;
 	int nCnt;
-	string sPC = GetTag(GetFirstPC());
 	
 	SetGlobalFadeOut();
 	
