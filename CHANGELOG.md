@@ -155,6 +155,7 @@
 * Adjusted the position and rotation of one of the footlocker placeables in the sub bay of Manaan Hrakert Station that was sticking out into the middle of a walkway
 * Tried to ensure both of Malak's Jedi captives on the Star Forge Deck 3/Command Center played the appropriate animation, and prevented the player freezing at the end of the scene
 * Adjusted facing, camera angles, animations, and prevented the party running into each other for the Light Side ending escape sequence on the Star Forge Deck 1
+* Made the Sith Master face Malak at the start of the second cutscene about the invading Jedi in the Star Forge Deck 2
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
