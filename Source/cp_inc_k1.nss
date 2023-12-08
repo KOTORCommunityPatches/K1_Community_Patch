@@ -67,6 +67,9 @@ int CP_HasNeverTalkedTo();
 // Allows toggling creature AI on and off.
 void CP_DisableAI(int bState);
 
+// Disables the supplied creature's AI for the specified amount of time before toggling it back on.
+void CP_ToggleAI(object oNPC, float fDelay = 1.0f);
+
 // Modified version of the Messenger spawning function called in the various landing zone modules.
 void CP_JumpMessenger();
 
@@ -90,6 +93,9 @@ void CP_GivePCPlotItems(object oTarget);
 
 // An alternative to UT_ExitArea that can take an arbitrary location input rather than an exit waypoint.
 void CP_ExitArea(location lExit, int bRun = FALSE);
+
+// A wrapper for locking/unlocking orientation and head tracking in dialogue.
+void CP_DLGLock(object oNPC, int bLock);
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
@@ -594,6 +600,20 @@ void CP_DisableAI(int bState) {
 }
 
 //////////////////////////////////////////////////////////////////////////////////
+/*	CP_ToggleAI()
+	
+	Disables the supplied creature's AI for the specified amount of time before
+	toggling it back on. Can be useful for herding NPCs at the beginning of a
+	conversation.
+	
+	DP 2023-12-07																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_ToggleAI(object oNPC, float fDelay = 1.0f) {
+	AssignCommand(oNPC, CP_DisableAI(TRUE));
+	DelayCommand(fDelay, AssignCommand(oNPC, CP_DisableAI(FALSE)));
+}
+
+//////////////////////////////////////////////////////////////////////////////////
 /*	CP_JumpMessenger()
 	
 	Modified version of the Messenger spawning function called in the various
@@ -776,7 +796,6 @@ void CP_DestroyPartyItem(string sTag) {
 	DestroyObject(GetItemPossessedBy(GetFirstPC(), sTag));
 }
 
-
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_GivePCPlotItems()
 	
@@ -804,7 +823,6 @@ void CP_GivePCPlotItems(object oTarget) {
 		}
 }
 
-
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_ExitArea()
 	
@@ -820,4 +838,16 @@ void CP_ExitArea(location lExit, int bRun = FALSE) {
 	ActionDoCommand(SetCommandable(TRUE));
 	ActionDoCommand(DestroyObject(OBJECT_SELF));
 	SetCommandable(FALSE);
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_DLGLock()
+	
+	A wrapper for locking/unlocking orientation and head tracking in dialogue.
+	
+	DP 2023-12-08																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_DLGLock(object oNPC, int bLock) {
+	SetLockOrientationInDialog(oNPC, bLock);
+	SetLockHeadFollowInDialog(oNPC, bLock);
 }
