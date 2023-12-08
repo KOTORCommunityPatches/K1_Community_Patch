@@ -102,7 +102,7 @@
 * Prevented The Way of the Sith quest being orphaned if choosing to betray both Uthar and Yuthura in the Korriban Tomb of Naga Sadow
 * Ensured plot/quest items are returned to the player post-Leviathan prison break, even if they don't retrieve their former inventory
 * Made the Dark Jedi in the Kashyyyk Great Walkway drop the datapad they were carrying and changed it and the Tatooine datapad's name to something more descriptive
-* Changed the damage type the steam vents do in the Manaan Sith Base from universal to fire
+* Changed the damage type the steam vents do in the Manaan Sith Base from universal to fire and gave them all the same name in the Feedback panel
 * Corrected the PC's facing when opening the door in front of the steam vents in the Manaan Sith Base
 * Added higher resolution font textures from Aspyr's TSL patch
 * Changed the texture assignment for the glass windscreens of the wrecked speeder placeables
