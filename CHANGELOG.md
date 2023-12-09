@@ -159,6 +159,7 @@
 * Adjusted party herding, camera angles, and facing for companion interjections in the scene with the Sith Master and his Selkath apprentices in the Manaan Sith Base
 * Prevented an invisible placeable's name showing up in the Feedback panel after the comm messages from Canderous in the Leviathan Prison Block and Hangar
 * Made sure the shot length of Bastila and Carth being tortured because of a defiant PC in the Leviathan Prison Block matched the animations
+* Adjusted facing, animation timings, and started the cell forcefield closed during Jolee's scene when he is the jail breaker in the Leviathan Prison Block
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
