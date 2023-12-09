@@ -216,6 +216,7 @@
 * Revised the adjustments to the scene with Lashowe in Korriban Valley of the Dark Lords, including making her properly loot the holocron from the Mother's corpse as per developer intent
 * Ensured that the initial triggered conversation with Nilko Bwaas in Manaan Ahto West was synced correctly with the fade-in
 * Added an extra failsafe animation to try and prevent Bastila freezing after the conversation with her messenger Malare
+* Disarmed stunt Canderous when he wasn't the chosen jail breaker in the Leviathan Prison Block
 
 ## v1.9.2 - March 27, 2022
 ### Additions

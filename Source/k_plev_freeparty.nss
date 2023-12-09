@@ -17,7 +17,8 @@
 	Updated 2023-12-08 to swap the invisible placeable DLG owner from starting a
 	conversation with itself to starting it with the PC. The former approach made
 	all of the PC's lines in the feedback window show up as being spoken by the
-	placeable.
+	placeable. Also unequipped the stunt version of Canderous when he wasn't the
+	chosen jail breaker, since otherwise he is fully armed and operational.
 	
 	Issue #145: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145
@@ -38,7 +39,7 @@ void Start_Scene() {
 	// Switch controlled character from the jail breaker to the PC.
 	SwitchPlayerCharacter(NPC_PLAYER);
 	
-	DelayCommand(0.1, AssignCommand(GetFirstPC(), ActionJumpToObject(GetObjectByTag("lev40_wppcesc", 0), FALSE)));
+	DelayCommand(0.2, AssignCommand(GetFirstPC(), ActionJumpToObject(GetObjectByTag("lev40_wppcesc", 0), FALSE)));
 	
 	// Spawn Canderous if he was the jail breaker, since he got nuked by the SwitchPlayerCharacter call.
 	// Use the party table version to preserve any equipped gear.
@@ -46,8 +47,16 @@ void Start_Scene() {
 		{
 			UT_SpawnAvailableNPC(NPC_CANDEROUS, lCand);
 		}
+		else
+			{
+				// If Canderous wasn't the jail breaker then a dummy version using his global template was
+				// already spawned previously. Make sure to disarm him since he was supposed to be in jail.
+				object oStuntCand = GetObjectByTag("cand", 0);
+				AssignCommand(oStuntCand, ActionUnequipItem(GetItemInSlot(INVENTORY_SLOT_LEFTWEAPON, oStuntCand), TRUE));
+				AssignCommand(oStuntCand, ActionUnequipItem(GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, oStuntCand), TRUE));
+			}
 	
-	DelayCommand(0.2, AssignCommand(oInvis, ActionStartConversation(GetFirstPC())));
+	DelayCommand(0.5, AssignCommand(oInvis, ActionStartConversation(GetFirstPC())));
 }
 
 void main() {
@@ -60,7 +69,7 @@ void main() {
 	
 	SetGlobalFadeOut();
 	
-	NoClicksFor(0.5);
+	NoClicksFor(1.5);
 	
 	SetGlobalNumber("LEV_ELEVATOR", 1);
 	SetGlobalBoolean("LEV_RESCUE", TRUE);
