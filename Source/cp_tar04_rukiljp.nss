@@ -43,9 +43,12 @@ void main() {
 	object oOut3 = GetObjectByTag("OutcastWom041", 0);
 	object oOut4 = GetObjectByTag("OutcastWom042", 0);
 	object oOut5 = GetObjectByTag("OutcastWom042", 1);
-	location lPC = Location(Vector(206.06,144.34,1.50), 90.00);
-	location lPM1 = Location(Vector(204.56,144.42,1.50), 40.00);
-	location lPM2 = Location(Vector(207.56,144.42,1.50), 140.00);
+	location lPC = Location(Vector(206.06,143.00,1.50), 90.00);
+	location lPM1 = Location(Vector(204.56,143.08,1.50), 60.00);
+	location lPM2 = Location(Vector(207.56,143.08,1.50), 120.00);
+	
+	SetGlobalFadeOut();
+	SetGlobalFadeIn(0.6, 1.0);
 	
 	CP_PartyHerder(lPC, lPM1, lPM2);
 	
