@@ -108,6 +108,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * A number of plot items remained in the player's inventory after completing the escape from the Leviathan [ISSUE #145](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/145)
 * A placeable bench can occasionally be unintentionally spawned when fighting the Tuk'ata Mother in the Korriban Valley of the Dark Lords [ISSUE #163](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163)
 * A replacement Sith war droid guarding the exterior of the Sith Base in Manaan Ahto East appeared too quickly [ISSUE #139](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/139)
+* A Republic soldier that was killed by an exploding barrel in the Endar Spire Command Module took too long to die [ISSUE #490](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/490)
 * A Rodian "sitter" in the Mercenary Enclave in Manaan Ahto West was clipping into a table [ISSUE #328](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/328)
 * A Sith NPC in the background of a Leviathan bridge cutscene had poor weapon discipline (Reported by ebmar) [ISSUE #35](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/35)
 * A Sith NPC in the background of a Leviathan bridge cutscene was having a bad hair day (Reported by ebmar) [ISSUE #36](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/36)
