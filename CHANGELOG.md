@@ -544,7 +544,6 @@
 * Removed an infinite DS point exploit from the Sasha encounter
 * Removed an infinite DS point exploit from Roland Wann post-Hrakert Rift
 * Added a check to remove the Czerka miners in the Dune Sea once they have been talked to and the Sandpeople enclave is done
-* Tweaked Elora's dialogue to remove some lines if the player already heard about Sunry's situation from Davin
 * Fixed some bad lightmap UVs on the floor of the training room in the Manaan Sith Base
 * Tweaked the script that adds Jolee to the party in the Upper Shadowlands to hide the switch between NPC and Party versions
 * Made some alterations to make Trask stay in the same spot when he joins the party instead of jumping behind the player
