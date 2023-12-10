@@ -221,6 +221,7 @@
 * Added an extra failsafe animation to try and prevent Bastila freezing after the conversation with her messenger Malare
 * Disarmed stunt Canderous when he wasn't the chosen jail breaker in the Leviathan Prison Block
 * Changed the camera angles for the brief scene when Bastila finds her father's holocron in the Krayt cave in the Tatooine Eastern Dune Sea
+* Further adjusted the camera angles in Jolee's messenger conversation with Davin
 
 ## v1.9.2 - March 27, 2022
 ### Additions
