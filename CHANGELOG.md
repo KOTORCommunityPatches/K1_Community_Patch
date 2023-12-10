@@ -222,6 +222,7 @@
 * Disarmed stunt Canderous when he wasn't the chosen jail breaker in the Leviathan Prison Block
 * Changed the camera angles for the brief scene when Bastila finds her father's holocron in the Krayt cave in the Tatooine Eastern Dune Sea
 * Further adjusted the camera angles in Jolee's messenger conversation with Davin
+* Tweaked Hendar's post-fight actions to cancel him out of combat if he survives the Rakghoul in the Taris Undercity
 
 ## v1.9.2 - March 27, 2022
 ### Additions

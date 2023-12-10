@@ -13,6 +13,10 @@
 	Updated 2022-08-01 to face Hendar towards the Rakghoul and ensure that he
 	gets attack commands so that he doesn't stand around gormlessly.
 	
+	Updated 2023-12-10 to tweak Hendar's post-fight actions if he survives, since
+	he was threatening Hester with his fists. Now he gets cancelled out of combat
+	before disarming and running off to Hester.
+	
 	See also cp_tar04_miskill, k_ptar_addmissio, k_ptar_desmis, k_ptar_miscrt_en,
 	k_ptar_misrun, k_ptar_rakrun.
 	
@@ -22,15 +26,17 @@
 	Issue #543: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/543
 	
-	DP 2021-10-30 / 2022-08-01													*/
+	DP 2021-10-30 / DP 2022-08-01 / DP 2023-12-10								*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_tar"
 #include "k_inc_generic"
 
 void Holster_Weapon(object oObject) {
-	ActionUnequipItem(GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, OBJECT_SELF), FALSE);
-	TAR_PlotMoveObject(oObject, TRUE);
+	ClearAllActions();
+	CancelCombat(OBJECT_SELF);
+	DelayCommand(0.2, ActionUnequipItem(GetItemInSlot(INVENTORY_SLOT_RIGHTWEAPON, OBJECT_SELF), FALSE));
+	DelayCommand(1.0, TAR_PlotMoveObject(oObject, TRUE));
 }
 
 void main() {
