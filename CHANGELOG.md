@@ -220,6 +220,7 @@
 * Ensured that the initial triggered conversation with Nilko Bwaas in Manaan Ahto West was synced correctly with the fade-in
 * Added an extra failsafe animation to try and prevent Bastila freezing after the conversation with her messenger Malare
 * Disarmed stunt Canderous when he wasn't the chosen jail breaker in the Leviathan Prison Block
+* Changed the camera angles for the brief scene when Bastila finds her father's holocron in the Krayt cave in the Tatooine Eastern Dune Sea
 
 ## v1.9.2 - March 27, 2022
 ### Additions
