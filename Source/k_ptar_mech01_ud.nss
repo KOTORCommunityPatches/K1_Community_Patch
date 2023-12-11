@@ -12,12 +12,17 @@
 	failsafes in a Heartbeat check and a pseudo shout from an adjacent mechanic.
 	This was done since perception events seem to be extremely unreliable.
 	
-	See also k_ptar_mech01_sp.
+	Updated 2023-12-11 to add an event signalled from a door OnOpen, since the 
+	OnPerception event was failing to fire far too often to be acceptable. This
+	event turns them hostile but doesn't apply the GN_DetermineCombatRound just
+	in case the door was opened via slicing the computer terminal.
+	
+	See also cp_tar10_vulmecd, k_ptar_mech01_sp.
 	
 	Issue #240: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/240
 	
-	DP 2023-11-26																*/
+	DP 2023-11-26 / DP 2023-12-11												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -54,13 +59,10 @@ void CP_SendAlert() {
 	SignalEvent(GetObjectByTag(sTarget), EventUserDefined(999));
 }
 
-void CP_TurnHostile() {
-	int SW_FLAG_EVENT_ON_PERCEPTION = 20;
-	int SW_FLAG_EVENT_ON_HEARTBEAT = 28;
-	
+void CP_TurnHostile1() {
 	SetLocalBoolean(OBJECT_SELF, SW_PLOT_BOOLEAN_09, TRUE);
-	SetLocalBoolean(OBJECT_SELF, SW_FLAG_EVENT_ON_HEARTBEAT, FALSE);
-	SetLocalBoolean(OBJECT_SELF, SW_FLAG_EVENT_ON_PERCEPTION, FALSE);
+	SetLocalBoolean(OBJECT_SELF, 20, FALSE); // SW_FLAG_EVENT_ON_PERCEPTION
+	SetLocalBoolean(OBJECT_SELF, 28, FALSE); // SW_FLAG_EVENT_ON_HEARTBEAT
 	CP_SendAlert();
 	ClearAllActions();
 	DelayCommand(0.2, CP_EquipFirstWeapon(OBJECT_SELF, FALSE));
@@ -68,15 +70,32 @@ void CP_TurnHostile() {
 	DelayCommand(0.5, ActionDoCommand(ExecuteScript("k_ai_master", OBJECT_SELF, 3001)));
 }
 
+void CP_TurnHostile2() {
+	SetLocalBoolean(OBJECT_SELF, SW_PLOT_BOOLEAN_09, TRUE);
+	SetLocalBoolean(OBJECT_SELF, 20, FALSE); // SW_FLAG_EVENT_ON_PERCEPTION
+	SetLocalBoolean(OBJECT_SELF, 28, FALSE); // SW_FLAG_EVENT_ON_HEARTBEAT
+	ClearAllActions();
+	DelayCommand(0.1, PlayAnimation(ANIMATION_LOOPING_PAUSE, 1.0, 0.1));
+	DelayCommand(0.2, ActionDoCommand(CP_EquipFirstWeapon(OBJECT_SELF, FALSE)));
+	DelayCommand(0.3, ActionDoCommand(ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_HOSTILE_1)));
+}
+
 void main() {
 	
 	int nUser = GetUserDefinedEventNumber();
 	
-	if (nUser == 999) // CUSTOM EVENT - PSEUDO SHOUT
+	if (nUser == 888) // CUSTOM EVENT - DOOR ONOPEN SIGNAL
 		{
 			if (!GetLocalBoolean(OBJECT_SELF, SW_PLOT_BOOLEAN_09))
 				{
-					CP_TurnHostile();
+					CP_TurnHostile2();
+				}
+		}
+	else if (nUser == 999) // CUSTOM EVENT - PSEUDO SHOUT
+		{
+			if (!GetLocalBoolean(OBJECT_SELF, SW_PLOT_BOOLEAN_09))
+				{
+					CP_TurnHostile1();
 				}
 		}
 	else if (nUser == 1001) // HEARTBEAT
@@ -95,9 +114,9 @@ void main() {
 						{
 							if (GetIsPC(oNearest) || GetStandardFaction(oNearest) == STANDARD_FACTION_FRIENDLY_1 || GetStandardFaction(oNearest) == STANDARD_FACTION_FRIENDLY_2)
 								{
-									if (GetDistanceBetween(OBJECT_SELF, oNearest) <= 4.5)
+									if (GetDistanceBetween(OBJECT_SELF, oNearest) <= 5.0)
 										{
-											CP_TurnHostile();
+											CP_TurnHostile1();
 										}
 								}
 							
@@ -119,12 +138,12 @@ void main() {
 						{
 							if (GetLastPerceptionSeen())
 								{
-									CP_TurnHostile();
+									CP_TurnHostile1();
 								}
-								else if (GetLastPerceptionHeard() && GetDistanceBetween(OBJECT_SELF, oPerceived) < 4.6)
+								else if (GetLastPerceptionHeard() && GetDistanceBetween(OBJECT_SELF, oPerceived) < 5.0)
 									{
 										// Attempted fallback, but I have never seen this trigger in practice if the seen check fails.
-										CP_TurnHostile();
+										CP_TurnHostile1();
 									}
 						}
 				}
