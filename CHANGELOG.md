@@ -225,6 +225,7 @@
 * Changed the camera angles for the brief scene when Bastila finds her father's holocron in the Krayt cave in the Tatooine Eastern Dune Sea
 * Further adjusted the camera angles in Jolee's messenger conversation with Davin
 * Tweaked Hendar's post-fight actions to cancel him out of combat if he survives the Rakghoul in the Taris Undercity
+* Streamlined Tatooine OnEnters by pushing functions out to the include, made further revisions to the Sand People disguise fix to hopefully prevent it from failing to fire
 
 ## v1.9.2 - March 27, 2022
 ### Additions

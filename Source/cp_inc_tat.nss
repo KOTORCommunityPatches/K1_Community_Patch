@@ -7,6 +7,8 @@
 																				*/
 //////////////////////////////////////////////////////////////////////////////////
 
+//#include "cp_inc_debug"
+
 
 // Adjusts Sand People reputation to either hostile or neutral.
 void CP_AdjustSandRep(object oTarget, int nHostile);
@@ -19,6 +21,42 @@ void CP_SpawnGriff();
 
 // Removes the Sand People disguise from the target and equips basic clothing.
 void CP_StripDisguise(object oTarget);
+
+// Spawns a herd of Wraid type 1 in the Dune Sea.
+void CP_SpawnWraidHerdA(location lLocation);
+
+// Spawns a herd of Wraid type 2 in the Dune Sea.
+void CP_SpawnWraidHerdB(location lLocation);
+
+// Spawns a herd of Wraid type 3 in the Dune Sea.
+void CP_SpawnWraidHerdC(location lLocation);
+
+// Spawns the NPCs for the GenoHaradan fight in the Dune Sea.
+void CP_SpawnGenoFight();
+
+// Spawns the Sand People guard in the Sand People Territory outside their Enclave.
+void CP_SpawnGuard();
+
+// Spawns Vorn and his droid in the Sand People Territory for the GenoHaradan quest.
+void CP_VornSpawn();
+
+// Spawns the holocron of Bastila's father in the Krayt cave of the Eastern Dune Sea.
+void CP_CreateHolocron();
+
+// Sets any Sand People disguises the party has to useable. Taken from k_inc_tat.
+void CP_SandpeopleDisguiseUsable();
+
+// Returns the state of the global for working for the Sand People chieftain. Taken from k_inc_tat.
+int CP_GetTuskenJobGlobal();
+
+// Sets the state of the global for working for the Sand People chieftain. Taken from k_inc_tat.
+void CP_SetTuskenJobGlobal(int bValue);
+
+// Gets the state of the local for spawning the guard when working for the Sand People chieftain. Taken from k_inc_tat.
+int CP_GetTuskenDoneLocal();
+
+// Sets the state of the local for spawning the guard when working for the Sand People chieftain. Taken from k_inc_tat.
+void CP_SetTuskenDoneLocal(int bValue);
 
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -39,14 +77,15 @@ void CP_AdjustSandRep(object oTarget, int nHostile) {
 	
 	if (nHostile == TRUE)
 		{
+			//CP_DebugMsg("SAND PEOPLE REP CURRENTLY " + IntToString(GetReputation(oTarget, oPC)) + ", ADJUSTING TO HOSTILE.");
 			AdjustReputation(oPC, oTarget, -GetReputation(oTarget, oPC));
 		}
 		else
 			{
+				//CP_DebugMsg("SAND PEOPLE REP CURRENTLY " + IntToString(GetReputation(oTarget, oPC)) + ", ADJUSTING TO NEUTRAL.");
 				AdjustReputation(oPC, oTarget, 50 - GetReputation(oTarget, oPC));
 			}
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_SandRepFix()
@@ -59,7 +98,11 @@ void CP_AdjustSandRep(object oTarget, int nHostile) {
 	Updated 2023-08-16 to correctly set the disguise global to true when the whole
 	party is all wearing disguises (and/or made up of droids).
 	
-	JC 2019-09-01																*/
+	Updated 2023-12-11 to set the suit global to false when the party is no longer
+	disguised. Prevents it getting permanently set true when working for the chief
+	even when not wearing them, which can mess with certain dialogues.
+	
+	JC 2019-09-01 / DP 2023-12-11												*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_SandRepFix() {
 
@@ -90,9 +133,22 @@ void CP_SandRepFix() {
 			nCheck2 = TRUE;
 		}
 	
+	/*CP_DebugMsg(CP_GetGlobalState("tat_TuskenSuit") + " / " + CP_GetGlobalState("tat_TuskenJob") + " / " + CP_GetGlobalState("tat_TuskenMad")
+	+ " / " + CP_NPCName(oPM0) + " SUIT = " + CP_BoolToString(nCheck0) + " / " + CP_NPCName(oPM1) + " SUIT = " + CP_BoolToString(nCheck1)
+	+ " / " + CP_NPCName(oPM2) + " SUIT = " + CP_BoolToString(nCheck2));*/
+	
+	// If the disguise global is true but the party is not wearing the disguise then set the global back to false but don't adjust rep. Prevents it getting
+	// permanently set true if working for the chief, since some DLGs use it to gate specific lines about wearing the disguise.
+		if (GetGlobalBoolean("tat_TuskenSuit") == TRUE && ( nCheck0 == FALSE || nCheck1 == FALSE || nCheck2 == FALSE ))
+			{
+				//CP_DebugMsg("SUIT GLOBAL TRUE BUT PARTY NOT DISGUISED. SET GLOBAL FALSE.");
+				SetGlobalBoolean("tat_TuskenSuit", FALSE);
+			}
+	
 	// If the player is working for the Chieftain, make the Sand People friendly
 	if (GetGlobalBoolean("tat_TuskenJob") == TRUE & GetGlobalBoolean("tat_TuskenMad") == FALSE)
 		{
+			//CP_DebugMsg("WORKING FOR CHIEFTAIN AND SAND PEOPLE NOT MAD. ADJUST REP NEUTRAL.");
 			CP_AdjustSandRep(oSandFaction, FALSE);
 		}
 	
@@ -102,12 +158,14 @@ void CP_SandRepFix() {
 			// If the whole party is disguised, set the disguise global and make Sand People friendly
 			if (nCheck0 == TRUE && nCheck1 == TRUE && nCheck2 == TRUE)
 				{
+					//CP_DebugMsg("PARTY DISGUISED AND SAND PEOPLE NOT MAD. SUIT GLOBAL FALSE, SET TRUE AND ADJUST REP NEUTRAL.");
 					CP_AdjustSandRep(oSandFaction, FALSE);
 					SetGlobalBoolean("tat_TuskenSuit", TRUE);
 				}
 				// If somebody isn't disguised and the player isn't working for the Chieftain, make Sand People hostile but don't change the disguise global
 				else if (GetGlobalBoolean("tat_TuskenJob") == FALSE)
 					{
+						//CP_DebugMsg("NOT WORKING FOR CHIEFTAIN, SAND PEOPLE NOT MAD, PARTY NOT DISGUISED. SUIT GLOBAL FALSE BUT DON'T CHANGE. ADJUST REP HOSTILE.");
 						CP_AdjustSandRep(oSandFaction, TRUE);
 					}
 		}
@@ -118,12 +176,12 @@ void CP_SandRepFix() {
 			// If anybody isn't disguised or if the Sand People have been angered, and the player isn't working for the Chieftain, make Sand People hostile and set the disguise global
 			if ((nCheck0 == FALSE || nCheck1 == FALSE || nCheck2 == FALSE || GetGlobalBoolean("tat_TuskenMad") == TRUE) && GetGlobalBoolean("tat_TuskenJob") == FALSE)
 				{
+					//CP_DebugMsg("NOT WORKING FOR CHIEFTAIN, PARTY NOT DISGUISED OR SAND PEOPLE MAD. ADJUST REP HOSTILE, SET SUIT GLOBAL FALSE.");
 					CP_AdjustSandRep(oSandFaction, TRUE);
 					SetGlobalBoolean("tat_TuskenSuit", FALSE);
 				}
 		}
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_SpawnGriff()
@@ -155,9 +213,9 @@ void CP_SpawnGriff() {
 			CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 1)));
 			CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 2)));
 			CreateObject(OBJECT_TYPE_CREATURE, "tat20_09warr_01", GetLocation(GetObjectByTag("tat20_griffguard", 3)));
+			//DelayCommand(0.5, CP_DebugMsg("SPAWNING GRIFF AND 4 GUARDS"));
 		}
 }
-
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_StripDisguise()
@@ -183,4 +241,267 @@ void CP_StripDisguise(object oTarget) {
 			AssignCommand(oTarget, ClearAllEffects());
 			DelayCommand(0.1, AssignCommand(oTarget, ActionEquipItem(oClothes, INVENTORY_SLOT_BODY, TRUE)));
 		}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_SpawnWraidHerdA()
+	
+	Spawns a herd of Wraid type 1 in the Dune Sea.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_SpawnWraidHerdA(location lLocation) {
+	
+	object oPC = GetFirstPC();
+	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
+	
+	if (nLevel > 11)
+		{
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid21", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid21", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid21", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid21", lLocation, FALSE);
+			//DelayCommand(0.5, CP_DebugMsg("SPAWN WRAID HERD A > 11"));
+		}
+		else
+			{
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid01", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid01", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid01", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid01", lLocation, FALSE);
+				//DelayCommand(0.5, CP_DebugMsg("SPAWN WRAID HERD A <= 11"));
+			}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_SpawnWraidHerdB()
+	
+	Spawns a herd of Wraid type 2 in the Dune Sea.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_SpawnWraidHerdB(location lLocation) {
+	
+	object oPC = GetFirstPC();
+	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
+	
+	if (nLevel > 11)
+		{
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid22", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid22", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid22", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid22", lLocation, FALSE);
+			//DelayCommand(0.5, CP_DebugMsg("SPAWN WRAID HERD B > 11"));
+		}
+		else
+			{
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid02", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid02", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid02", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid02", lLocation, FALSE);
+				//DelayCommand(0.5, CP_DebugMsg("SPAWN WRAID HERD B <= 11"));
+			}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_SpawnWraidHerdC()
+	
+	Spawns a herd of Wraid type 3 in the Dune Sea.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_SpawnWraidHerdC(location lLocation) {
+	
+	object oPC = GetFirstPC();
+	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
+	
+	if (nLevel > 11)
+		{
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid23", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid23", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid23", lLocation, FALSE);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid23", lLocation, FALSE);
+			//DelayCommand(0.5, CP_DebugMsg("SPAWN WRAID HERD C > 11"));
+		}
+		else
+			{
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid03", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid03", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid03", lLocation, FALSE);
+				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid03", lLocation, FALSE);
+				//DelayCommand(0.5, CP_DebugMsg("SPAWN WRAID HERD C <= 11"));
+			}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_SpawnGenoFight()
+	
+	Spawns the NPCs for the GenoHaradan fight in the Dune Sea.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_SpawnGenoFight() {
+			location location1 = GetLocation(GetObjectByTag("tat_bh_hulas_wp", 0));
+			location location3 = GetLocation(GetObjectByTag("tat_bh_senni_wp", 0));
+			location location5 = GetLocation(GetObjectByTag("tat_bh_bounty_wp", 0));
+			location location7 = GetLocation(GetObjectByTag("tat_bh_thug1_wp", 0));
+			location location9 = GetLocation(GetObjectByTag("tat_bh_thug2_wp", 0));
+			location location11 = GetLocation(GetObjectByTag("tat_bh_thug3_wp", 0));
+			location location13 = GetLocation(GetObjectByTag("tat_bh_thug4_wp", 0));
+			location location15 = GetLocation(GetObjectByTag("tat_bh_bike1_wp", 0));
+			location location17 = GetLocation(GetObjectByTag("tat_bh_bike2_wp", 0));
+			location location19 = GetLocation(GetObjectByTag("tat_bh_bike3_wp", 0));
+			location location21 = GetLocation(GetObjectByTag("tat_bh_speeder1_wp", 0));
+			location location23 = GetLocation(GetObjectByTag("tat_bh_speeder2_wp", 0));
+			
+			CreateObject(OBJECT_TYPE_CREATURE, "n_duros001", location1, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_senni", location3, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_bounty", location5, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug1", location7, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug2", location9, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug3", location11, 0);
+			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug4", location13, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location15, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location17, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location19, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_speeder1", location21, 0);
+			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_speeder1", location23, 0);
+			//DelayCommand(0.5, CP_DebugMsg("SPAWNING GENO FIGHT"));
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_SpawnGuard()
+	
+	Spawns the Sand People guard in the Sand People Territory outside their Enclave.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_SpawnGuard() {
+	object oWP = GetWaypointByTag("tat18_wp_sguard");
+	location lSpawn = GetLocation(oWP);
+	
+	CreateObject(OBJECT_TYPE_CREATURE, "tat18_14sandg_01", lSpawn, FALSE);
+	//DelayCommand(0.5, CP_DebugMsg("SPAWNING SAND PEOPLE GUARD"));
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_VornSpawn()
+	
+	Spawns Vorn and his droid in the Sand People Territory for the GenoHaradan quest.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_VornSpawn() {
+	vector vBike = Vector(242.835114, 286.128601, 89.715797);
+	location lBike = Location(vBike, 55.75);
+	
+	CreateObject(OBJECT_TYPE_PLACEABLE, "Vornsbike", lBike, FALSE);
+	CreateObject(OBJECT_TYPE_CREATURE, "Vornsdroid", GetLocation(GetObjectByTag("wp_Vorndroidspawn", 0)), FALSE);
+	CreateObject(OBJECT_TYPE_PLACEABLE, "tat_hide", GetLocation(GetObjectByTag("tat_hide_wp", 0)), FALSE);
+	CreateObject(OBJECT_TYPE_PLACEABLE, "tat_junk", GetLocation(GetObjectByTag("tat_junk_wp", 0)), FALSE);
+	//DelayCommand(0.5, CP_DebugMsg("SPAWNING GENO VORN"));
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_CreateHolocron()
+	
+	Spawns the holocron of Bastila's father in the Krayt cave of the Eastern Dune
+	Sea as part of her personal quest.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_CreateHolocron() {
+	
+	object oWP = GetWaypointByTag("K_SWG_BODY_LOC");
+	location lWP = GetLocation(oWP);
+	
+	CreateObject(OBJECT_TYPE_PLACEABLE, "k_swg_helena01", lWP);
+	//DelayCommand(0.5, CP_DebugMsg("SPAWNING BASTILA'S HOLOCRON"));
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_SandpeopleDisguiseUsable()
+	
+	Sets any Sand People disguises the party has to useable. Taken from k_inc_tat.
+	Added here to reduce unnecessary vanilla include guff.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_SandpeopleDisguiseUsable() {
+	object oPC = GetFirstPC();
+	object oItem = GetFirstItemInInventory(oPC);
+	
+	while (GetIsObjectValid(oItem))
+		{
+			if (GetTag(oItem) == "tat17_sandperdis")
+				{
+					SetItemNonEquippable(oItem, FALSE);
+				}
+			
+			oItem = GetNextItemInInventory(oPC);
+		}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_GetTuskenJobGlobal()
+	
+	Returns the state of the global for working for the Sand People chieftain.
+	Taken from k_inc_tat. Added here to reduce unnecessary vanilla include guff.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+int CP_GetTuskenJobGlobal() {
+	return GetGlobalBoolean("tat_TuskenJob");
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_SetTuskenJobGlobal()
+	
+	Sets the state of the global for working for the Sand People chieftain. Taken
+	from k_inc_tat. Added here to reduce unnecessary vanilla include guff.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_SetTuskenJobGlobal(int bValue) {
+	if (bValue == TRUE || bValue == FALSE)
+		{
+			SetGlobalBoolean("tat_TuskenJob", bValue);
+		}
+	
+	return;
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_GetTuskenDoneLocal()
+	
+	Gets the state of the local for spawning the guard when working for the Sand
+	People chieftain. Taken from k_inc_tat. Added here to reduce unnecessary vanilla
+	include guff.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+int CP_GetTuskenDoneLocal() {
+	int SW_PLOT_BOOLEAN_01 = 0;
+	
+	return GetLocalBoolean(GetArea(OBJECT_SELF), SW_PLOT_BOOLEAN_01);
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_SetTuskenDoneLocal()
+	
+	Sets the state of the local for spawning the guard when working for the Sand
+	People chieftain. Taken from k_inc_tat. Added here to reduce unnecessary vanilla
+	include guff.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_SetTuskenDoneLocal(int bValue) {
+	int SW_PLOT_BOOLEAN_01 = 0;
+	
+	if (bValue == TRUE || bValue == FALSE)
+		{
+			SetLocalBoolean(GetArea(OBJECT_SELF), SW_PLOT_BOOLEAN_01, bValue);
+		}
+    
+	return;
 }

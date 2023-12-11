@@ -12,6 +12,8 @@
 	back to Anchorhead soon after the player has rescued them. Also includes the
 	Sand People reputation fix so it gets set correctly on module load.
 	
+	Updated 2023-12-11 to move the wraid spawn functions out to the include.
+	
 	Issue #21: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/21
 	
@@ -21,79 +23,16 @@
 	Issue #217: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/217
 	
-	JC 2019-09-29 / DP 2020-05-19 / DP 2020-06-15                               */
+	JC 2019-09-29 / DP 2020-05-19 / DP 2020-06-15 / DP 2023-12-11				*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_tat"
-#include "k_inc_tat"
-
-void SpawnWraidHerdC(location lLocation) {
-	
-	object oPC = GetFirstPC();
-	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
-	
-	if (nLevel > 11)
-		{
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid23", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid23", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid23", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid23", lLocation, FALSE);
-		}
-		else
-			{
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid03", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid03", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid03", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid03", lLocation, FALSE);
-			}
-}
-
-void SpawnWraidHerdB(location lLocation) {
-	
-	object oPC = GetFirstPC();
-	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
-	
-	if (nLevel > 11)
-		{
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid22", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid22", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid22", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid22", lLocation, FALSE);
-		}
-		else
-			{
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid02", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid02", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid02", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid02", lLocation, FALSE);
-			}
-}
-
-void SpawnWraidHerdA(location lLocation) {
-	
-	object oPC = GetFirstPC();
-	int nLevel = (GetLevelByPosition(1, oPC) + GetLevelByPosition(2, oPC) + GetLevelByPosition(3, oPC));
-	
-	if (nLevel > 11)
-		{
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid21", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid21", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid21", lLocation, FALSE);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid21", lLocation, FALSE);
-		}
-		else
-			{
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid01", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid01", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid01", lLocation, FALSE);
-				CreateObject(OBJECT_TYPE_CREATURE, "tat18_wraid01", lLocation, FALSE);
-			}
-}
 
 void main() {
 	
 	int nCount = 0;
 	object oPC = GetFirstPC();
+	object oEntering = GetEnteringObject();
 	object oMinerCap = GetObjectByTag("tat18_13craw2_01", 0);
 	object oMinerGrunt = GetObjectByTag("tat18_13craw1_01", nCount);
 	object oSPWarrior1 = GetObjectByTag("tat18_tusken", 0);
@@ -110,6 +49,9 @@ void main() {
 	location lWP_Wraid1 = GetLocation(oWP_Wraid1);
 	location lWP_Wraid2 = GetLocation(oWP_Wraid2);
 	location lWP_Wraid3 = GetLocation(oWP_Wraid3);
+	
+	DelayCommand(0.1, CP_SandRepFix());
+	DelayCommand(0.2, CP_SandpeopleDisguiseUsable());
 	
 	if ((GetLocalBoolean(oMinerCap, 53) && GetGlobalBoolean("tat_TuskenDead")))
 		{
@@ -131,35 +73,10 @@ void main() {
 				}
 		}
 	
-	if (GetGlobalNumber("k_genoharadan") == 50 && GetIsPC(GetEnteringObject()))
+	if (GetGlobalNumber("k_genoharadan") == 50 && GetIsPC(oEntering))
 		{
 			SetGlobalNumber("k_genoharadan", 60);
-			
-			location location1 = GetLocation(GetObjectByTag("tat_bh_hulas_wp", 0));
-			location location3 = GetLocation(GetObjectByTag("tat_bh_senni_wp", 0));
-			location location5 = GetLocation(GetObjectByTag("tat_bh_bounty_wp", 0));
-			location location7 = GetLocation(GetObjectByTag("tat_bh_thug1_wp", 0));
-			location location9 = GetLocation(GetObjectByTag("tat_bh_thug2_wp", 0));
-			location location11 = GetLocation(GetObjectByTag("tat_bh_thug3_wp", 0));
-			location location13 = GetLocation(GetObjectByTag("tat_bh_thug4_wp", 0));
-			location location15 = GetLocation(GetObjectByTag("tat_bh_bike1_wp", 0));
-			location location17 = GetLocation(GetObjectByTag("tat_bh_bike2_wp", 0));
-			location location19 = GetLocation(GetObjectByTag("tat_bh_bike3_wp", 0));
-			location location21 = GetLocation(GetObjectByTag("tat_bh_speeder1_wp", 0));
-			location location23 = GetLocation(GetObjectByTag("tat_bh_speeder2_wp", 0));
-			
-			CreateObject(OBJECT_TYPE_CREATURE, "n_duros001", location1, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_senni", location3, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_bounty", location5, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug1", location7, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug2", location9, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug3", location11, 0);
-			CreateObject(OBJECT_TYPE_CREATURE, "tat_thug4", location13, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location15, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location17, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_bike1", location19, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_speeder1", location21, 0);
-			CreateObject(OBJECT_TYPE_PLACEABLE, "tat_speeder1", location23, 0);
+			CP_SpawnGenoFight();
 		}
 	
 	if (GetGlobalBoolean("tat_DuneSea") == FALSE)
@@ -167,9 +84,7 @@ void main() {
 			SetGlobalBoolean("tat_DuneSea", TRUE);
 		}
 	
-	SandpeopleDisguiseUsable();
-	
-	if ((GetTuskenJobGlobal() == TRUE && GetIsObjectValid(oSPWarrior1)) || GetIsObjectValid(oSPWarrior2) || GetIsObjectValid(oSPWarrior3) || GetIsObjectValid(oSPEncounter))
+	if ((CP_GetTuskenJobGlobal() && GetIsObjectValid(oSPWarrior1)) || GetIsObjectValid(oSPWarrior2) || GetIsObjectValid(oSPWarrior3) || GetIsObjectValid(oSPEncounter))
 		{
 			oTusken = GetFirstObjectInArea(OBJECT_INVALID, OBJECT_TYPE_ALL);
 			
@@ -184,39 +99,24 @@ void main() {
 				}
 		}
 	
-	if (GetEnteringObject() == GetFirstPC())
+	if (GetIsPC(oEntering) && !GetIsObjectValid(oWraid1) && !GetIsObjectValid(oWraid2) && !GetIsObjectValid(oWraid3))
 		{
 			switch (GetGlobalNumber("tat_WraidHerd"))
 				{
 					case 0:
-						if (GetIsObjectValid(oWraid1) == FALSE && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
-							{
-								DelayCommand(1.0, SpawnWraidHerdA(lWP_Wraid1));
-								SetGlobalNumber("tat_WraidHerd", 1);
-							}
-						
-						break;
+							DelayCommand(1.0, CP_SpawnWraidHerdA(lWP_Wraid1));
+							SetGlobalNumber("tat_WraidHerd", 1);
+					break;
 					
 					case 1:
-						if (GetIsObjectValid(oWraid1) == FALSE && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
-							{
-								DelayCommand(1.0, SpawnWraidHerdB(lWP_Wraid2));
-								SetGlobalNumber("tat_WraidHerd", 2);
-							}
-						
-						break;
+							DelayCommand(1.0, CP_SpawnWraidHerdB(lWP_Wraid2));
+							SetGlobalNumber("tat_WraidHerd", 2);
+					break;
 					
 					case 2:
-						if (GetIsObjectValid(oWraid1) == FALSE && GetIsObjectValid(oWraid2) == FALSE && GetIsObjectValid(oWraid3) == FALSE)
-							{
-								DelayCommand(1.0, SpawnWraidHerdC(lWP_Wraid3));
-								SetGlobalNumber("tat_WraidHerd", 0);
-							}
-						
-						break;
+							DelayCommand(1.0, CP_SpawnWraidHerdC(lWP_Wraid3));
+							SetGlobalNumber("tat_WraidHerd", 0);
+					break;
 				}
 		}
-	
-	// Sand People reputation fix
-	CP_SandRepFix();
 }

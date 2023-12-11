@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 
-	OnHeartbeat script for tat_m18aa (Tatooine Dune Sea).
+	Module OnHeartbeat script for tat_m18aa (Tatooine Dune Sea).
 	
 	Fixes an issue with the Sand People hostility state not being set correctly
 	after the player uses the rapid transit system.
@@ -31,7 +31,7 @@ void main() {
 	int nCheck2 = FALSE;
 	string sDisguise = "tat17_sandperdis";
 	
-	CP_SandRepFix();
+	DelayCommand(0.1, CP_SandRepFix());
 	
 	if (GetTag(oPM0) == "HK47" || GetTag(oPM0) == "T3M4" || GetTag(GetItemInSlot(INVENTORY_SLOT_BODY, oPM0)) == sDisguise)
 		{

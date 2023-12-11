@@ -37,6 +37,9 @@ void main() {
 	object oVaporator = GetItemPossessedBy(oPC, "tat17_vaporator");
 	object oChief = GetObjectByTag("tat20_09chief_01", 0);
 	
+	DelayCommand(0.1, CP_SandRepFix());
+	DelayCommand(0.3, CP_SpawnGriff());
+	
 	SetGlobalNumber("tat_AreaLocator", 4);
 	
 	if (GetIsObjectValid(oVaporator) == TRUE)
@@ -45,8 +48,4 @@ void main() {
 			NoClicksFor(0.7);
 			DelayCommand(0.5, AssignCommand(oChief, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 		}
-	
-	CP_SpawnGriff();
-	
-	CP_SandRepFix();
 }
