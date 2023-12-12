@@ -227,6 +227,7 @@
 * Tweaked Hendar's post-fight actions to cancel him out of combat if he survives the Rakghoul in the Taris Undercity
 * Streamlined Tatooine OnEnters by pushing functions out to the include, made further revisions to the Sand People disguise fix to hopefully prevent it from failing to fire
 * Prevented a player freeze and jumped the party to prevent companion pathing issues during the Murder Mystery quest in the Dantooine Grove
+* Made further changes to the scene with the surrendering Vulkar in the Taris Black Vulkar Base (Upper) to prevent the camera clipping inside him when the player was too close
 
 ## v1.9.2 - March 27, 2022
 ### Additions
