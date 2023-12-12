@@ -8,12 +8,15 @@
 	trial cleanup. Now the judges get refaced, the party gets herded, and the guard
 	gets properly jumped back to his post outside the jail door.
 	
+	Updated 2023-12-12 to move locking the player's orientation back into the DLG
+	and adding an unlock for it in the cleanup event.
+	
 	See also k_pman_murder81, k_pman_trial05, k_pman_wit02.
 	
 	Issue #136: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/136
 	
-	DP 2023-11-20																*/
+	DP 2023-11-20 / DP 2023-12-12												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -81,7 +84,6 @@ void main() {
 					DelayCommand(0.1, CP_FaceNPC(oPC, oFace));
 					DelayCommand(0.1, CP_FaceNPC(oPM1, oFace));
 					DelayCommand(0.1, CP_FaceNPC(oPM2, oFace));
-					DelayCommand(0.3, AssignCommand(oPC, ActionDoCommand(SetLockOrientationInDialog(oPC, TRUE))));
 					
 					DelayCommand(0.5, SignalEvent(oInvis, EventUserDefined(10)));
 				}
@@ -95,7 +97,7 @@ void main() {
 				}
 			break;
 			
-			case 130:	// Sunry trial post-conclusion cleanup (man26_trial.dlg R11/R29).
+			case 130:	// Sunry trial post-conclusion cleanup (man26_trial.dlg R11/R29/R39).
 				{
 					object oGuard = GetObjectByTag("man26_selguard");
 					object oJudge;
@@ -107,6 +109,8 @@ void main() {
 					SetGlobalFadeOut();
 					
 					NoClicksFor(3.0);
+					
+					SetLockOrientationInDialog(GetFirstPC(), FALSE);
 					
 					DestroyObject(GetObjectByTag("man26_ignus"));
 					DestroyObject(GetObjectByTag("man26_firith"));
