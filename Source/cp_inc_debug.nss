@@ -54,6 +54,9 @@ string CP_GetGlobalState(string sGlobal, int bIsBoolean = TRUE);
 // Returns a string that reports the current stage of Star Map progression.
 string CP_GetStarMapState();
 
+// Returns the current state of the supplied NPC's AI flag.
+string CP_NPCAIState(object oNPC);
+
 
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_DebugMsg()
@@ -1196,5 +1199,28 @@ string CP_GetStarMapState() {
 			case 50: return "5TH MAP ACTIVATED";
 		}
 	
-	return "INVALID VALUE (" + IntToString(nMap) + ")";
+	return "INVALID VALUE FOR K_STAR_MAP (" + IntToString(nMap) + ")";
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_NPCAIState()
+	
+	Returns the current state of the supplied NPC's AI flag.
+	
+	DP 2023-12-11																*/
+//////////////////////////////////////////////////////////////////////////////////
+string CP_NPCAIState(object oNPC) {
+	int nState = GetLocalBoolean(oNPC, 62); // SW_FLAG_AI_OFF
+	string sState;
+	
+	if (!nState) // FALSE. AI is active.
+		{
+			sState = "ACTIVE (DEFAULT)";
+		}
+		else // TRUE. AI is disabled.
+			{
+				sState = "DISABLED";
+			}
+	
+	return CP_NPCName(oNPC) + "'S AI STATE IS CURRENTLY SET TO " + sState;
 }
