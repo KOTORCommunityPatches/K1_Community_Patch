@@ -164,6 +164,7 @@
 * Jumped the party and herded ambient NPCs out of the way for conversations with Gendar in the Taris Undercity
 * Made the Republic soldier killed by the exploding barrel on the Endar Spire Command Module die immediately
 * Adjusted and locked the facing of the judges and the player during the post-Hrakert Rift trial in Manaan Ahto West
+* Corrected the deactivate SFX for the star map placeable declared in the placeable sounds 2DA
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
