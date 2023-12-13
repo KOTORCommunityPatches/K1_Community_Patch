@@ -97,6 +97,16 @@ void CP_ExitArea(location lExit, int bRun = FALSE);
 // A wrapper for locking/unlocking orientation and head tracking in dialogue.
 void CP_DLGLock(object oNPC, int bLock);
 
+// Returns a float for the delay value to be used when playing the various star map animations.
+float CP_StarMapAnimLength(int nMap);
+
+// A streamlined version of UT_StarMap1VariableSet to removed unnecessary/unused debug cruft.
+void CP_StarMapSetState();
+
+// A replacement for, and merge of, UT_StarMap2PlayAnimation and UT_StarMap4RunStarMap that plays the star map animations.
+void CP_StarMapPlayAnim();
+
+
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_NPCToTag()
 	
@@ -556,10 +566,11 @@ void CP_DestroyCreatures(string sTag) {
 	DP 2019-09-30 / DP 2022-06-22												*/
 //////////////////////////////////////////////////////////////////////////////////
 int CP_HasNeverTriggered() {
-	if( !UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01) ) {
-		UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01, TRUE);
-		return TRUE;
-	}
+	if (!UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01))
+		{
+			UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_BOOLEAN_01, TRUE);
+			return TRUE;
+		}
 	return FALSE;
 }
 
@@ -575,10 +586,11 @@ int CP_HasNeverTriggered() {
 	DP 2019-10-03 / DP 2022-06-22												*/
 //////////////////////////////////////////////////////////////////////////////////
 int CP_HasNeverTalkedTo() {
-	if( !UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO) ) {
-		UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO, TRUE);
-		return TRUE;
-	}
+	if (!UT_GetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO))
+		{
+			UT_SetPlotBooleanFlag(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO, TRUE);
+			return TRUE;
+		}
 	return FALSE;
 }
 
@@ -721,13 +733,15 @@ void CP_JumpMessenger() {
 //////////////////////////////////////////////////////////////////////////////////
 void CP_DupeEquipment(object oNPC, object oGive, int nMask) {
 	int i;
-	for( i = 0; i < NUM_INVENTORY_SLOTS; ++i ) {
-		if( nMask & (1 << i) ) {
-			object oItem = GetItemInSlot(i, oNPC);
-			if( GetIsObjectValid(oItem) )
-				CreateItemOnObject(GetStringLowerCase(GetTag(oItem)), oNPC); 
+	for (i = 0; i < NUM_INVENTORY_SLOTS; ++i)
+		{
+			if (nMask & (1 << i))
+				{
+					object oItem = GetItemInSlot(i, oNPC);
+					if (GetIsObjectValid(oItem))
+						CreateItemOnObject(GetStringLowerCase(GetTag(oItem)), oNPC); 
+				}
 		}
-	}
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -774,15 +788,18 @@ void CP_FaceNPC(object oNPC, object oFace) {
 //////////////////////////////////////////////////////////////////////////////////
 void CP_RemoveForceSpeed(object oTarget) {
 	effect eSpeed  = GetFirstEffect(oTarget);
-	while( GetIsEffectValid(eSpeed) ) {
-		switch( GetEffectSpellId(eSpeed) ) {
-		case FORCE_POWER_SPEED_BURST:
-		case FORCE_POWER_KNIGHT_SPEED:
-		case FORCE_POWER_SPEED_MASTERY:
-			RemoveEffect(oTarget, eSpeed);
+	
+	while (GetIsEffectValid(eSpeed))
+		{
+			switch (GetEffectSpellId(eSpeed))
+				{
+					case FORCE_POWER_SPEED_BURST:
+					case FORCE_POWER_KNIGHT_SPEED:
+					case FORCE_POWER_SPEED_MASTERY:
+						RemoveEffect(oTarget, eSpeed);
+				}
+			eSpeed = GetNextEffect(oTarget);
 		}
-		eSpeed = GetNextEffect(oTarget);
-	}
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -805,7 +822,6 @@ void CP_DestroyPartyItem(string sTag) {
 	DP 2023-10-13																*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_GivePCPlotItems(object oTarget) {
-	
 	object oPC = GetFirstPC();
 	object oItem;
 	
@@ -833,7 +849,6 @@ void CP_GivePCPlotItems(object oTarget) {
 	DP 2023-10-22																*/
 //////////////////////////////////////////////////////////////////////////////////
 void CP_ExitArea(location lExit, int bRun = FALSE) {
-	
 	ActionForceMoveToLocation(lExit, bRun, 10.0);
 	ActionDoCommand(SetCommandable(TRUE));
 	ActionDoCommand(DestroyObject(OBJECT_SELF));
@@ -850,4 +865,111 @@ void CP_ExitArea(location lExit, int bRun = FALSE) {
 void CP_DLGLock(object oNPC, int bLock) {
 	SetLockOrientationInDialog(oNPC, bLock);
 	SetLockHeadFollowInDialog(oNPC, bLock);
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_StarMapAnimLength()
+	
+	Returns a float for the delay value to be used when playing the various star
+	map animations.
+	
+	DP 2023-12-13																*/
+//////////////////////////////////////////////////////////////////////////////////
+float CP_StarMapAnimLength(int nMap) {
+	switch (nMap)
+		{
+			case 0: return 23.6;		// 3x ANIMATION_PLACEABLE_ANIMLOOP01
+			case 10: return 23.7;		// 3x ANIMATION_PLACEABLE_ANIMLOOP02
+			case 20: return 23.7;		// 3x ANIMATION_PLACEABLE_ANIMLOOP03
+			case 30: return 23.7;		// 3x ANIMATION_PLACEABLE_ANIMLOOP04
+			case 40: return 46.6667;	// 1x ANIMATION_PLACEABLE_ANIMLOOP06
+		}
+	return 7.9;
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_StarMapAnimLength()
+	
+	A streamlined version of UT_StarMap1VariableSet to removed unnecessary/unused
+	debug cruft.
+	
+	DP 2023-12-13																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_StarMapSetState() {
+	int nStar = GetGlobalNumber("K_STAR_MAP");
+	int nBast = GetGlobalNumber("K_SWG_BASTILA");
+	int nTalk = GetLocalBoolean(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO);
+
+	if (!nTalk)
+		{
+			nStar = nStar + 10;
+			SetGlobalNumber("K_STAR_MAP", nStar);
+			
+			if (nStar == 30)
+				{
+					if(nBast < 3)
+						{
+							SetGlobalNumber("K_SWG_BASTILA", 99);
+						}
+				}
+				else if(nStar == 40)
+					{
+						//The player should now be captured by the Leviathan
+						SetGlobalNumber("K_CAPTURED_LEV", 5);
+						
+						if (nBast < 5)
+							{
+								SetGlobalNumber("K_SWG_BASTILA", 99);
+							}
+					}
+					else if (nStar == 50)
+						{
+							//The player should now have access to the Unknown World.
+							SetGlobalNumber("K_KOTOR_MASTER", 30);
+						}
+			SetLocalBoolean(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO, TRUE);
+			UT_SetStarmapJournal();
+		}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_StarMapPlayAnim()
+	
+	A replacement for, and merge of, the vanilla UT_StarMap2PlayAnimation and
+	UT_StarMap4RunStarMap functions that handles playing the appropriate star map
+	animation for the given stage of the plot. Makes use of more precise timings
+	to match the anim lengths and adds a custom deactivation anim for use with the
+	final map anim (animloop 6), added in an edited version of the star map model.
+	
+	DP 2023-12-13																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_StarMapPlayAnim() {
+	int nStar = GetGlobalNumber("K_STAR_MAP");
+	int nTalk = GetLocalBoolean(OBJECT_SELF, SW_PLOT_HAS_TALKED_TO);
+	float fAnim = CP_StarMapAnimLength(nStar);
+	float fDelay = 13.1 + fAnim; // Account for activation animation, since placeable loop anims don't stack like creature anims.
+	
+	if (!nTalk)
+		{
+			PlaySound("pl_starmap_open");
+			ActionPlayAnimation(ANIMATION_PLACEABLE_ACTIVATE);
+			ActionPlayAnimation(UT_StarMap3GetLoopAnim(nStar));
+			
+			if (nStar < 40)
+				{
+					DelayCommand(fDelay, PlaySound("pl_starmap_close"));
+					DelayCommand(fDelay, ActionPlayAnimation(ANIMATION_PLACEABLE_DEACTIVATE));
+				}
+				else
+					{
+						DelayCommand(fDelay - 0.05, PlaySound("pl_starmap_close"));
+						// An added On2Off variant for use with animloop 6. Requires custom star map placeable model.
+						// Clip off the end of the animloop 6 anim slightly to prevent it starting a new loop.
+						DelayCommand(fDelay - 0.05, ActionPlayAnimation(ANIMATION_PLACEABLE_ANIMLOOP08)); 
+						// Force into an instant off state after the above has played once, since it's a loop not fire and forget.
+						DelayCommand(fDelay + 10.35, PlayAnimation(ANIMATION_PLACEABLE_CLOSE));
+					}
+			
+			DelayCommand(0.1, CP_StarMapSetState());
+		}
 }
