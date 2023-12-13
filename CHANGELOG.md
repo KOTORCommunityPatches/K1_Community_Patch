@@ -229,6 +229,7 @@
 * Streamlined Tatooine OnEnters by pushing functions out to the include, made further revisions to the Sand People disguise fix to hopefully prevent it from failing to fire
 * Prevented a player freeze and jumped the party to prevent companion pathing issues during the Murder Mystery quest in the Dantooine Grove
 * Made further changes to the scene with the surrendering Vulkar in the Taris Black Vulkar Base (Upper) to prevent the camera clipping inside him when the player was too close
+* Corrected alterations to the scene for the star map in the Tatooine Eastern Dune Sea that were causing the animation for the final map to glitch out
 
 ## v1.9.2 - March 27, 2022
 ### Additions
