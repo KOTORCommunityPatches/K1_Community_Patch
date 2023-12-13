@@ -15,11 +15,11 @@
 	
 	Issue #123: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/315
-
+	
 	Issue #756: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/756
-
-	DP 2019-05-13 / DP 2019-05-19 / DP 2023-12-13								*/
+	
+	DP 2023-12-13																*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
