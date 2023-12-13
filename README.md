@@ -434,6 +434,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The skirt of the female Revan/Star Forge robes didn't cast the correct shadow [ISSUE #706](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/706)
 * The smuggler NPC appearance lacked proper racial variants, resulting in mismatched hand and head skin tones (Reported by KnifeMaster) [ISSUE #319](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/319)
 * The sound effects for the forcefield cell doors in the Leviathan Prison Block didn't loop or restart correctly (Reported by Salk) [ISSUE #660](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/660)
+* The Star Map in Manaan Hrakert Rift never closed, unlike the other Star Maps (reported by WildKarrde1138) [ISSUE #734](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/734)
 * The Star Map in the Dantooine Ruins was slightly offset from the centerline of the room (Reported by muitafruita) [ISSUE #656](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/656)
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The Star Map opening sequence in the Dantooine Ruins was split in two instead of being one continuous scene [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105)
