@@ -233,6 +233,7 @@
 * Made further changes to the scene with the surrendering Vulkar in the Taris Black Vulkar Base (Upper) to prevent the camera clipping inside him when the player was too close
 * Corrected alterations to the scene for the star map in the Tatooine Eastern Dune Sea that were causing the animation for the final map to glitch out
 * Corrected alterations to the scene for the star map in the Kashyyyk Lower Shadowlands that were causing the animation for the final map to glitch out
+* Tweaked the interrupted date night scene in Taris Davik's Estate to make sure the slave girl could be seen running out
 
 ## v1.9.2 - March 27, 2022
 ### Additions
