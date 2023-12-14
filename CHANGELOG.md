@@ -167,6 +167,7 @@
 * Corrected the deactivate SFX for the star map placeable declared in the placeable sounds 2DA
 * Ensured that the star map in Manaan Hrakert Rift ran the appropriate animation and then closed afterwards to match the other maps
 * Jumped the party into a better position for the scene with the Duros conservationist in the Tatooine Czerka Office
+* Fixed distorted UVs for the bridge lights in the Dantooine Grove and Sandral Grounds
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break

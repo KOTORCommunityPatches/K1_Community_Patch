@@ -745,6 +745,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 
 ### WildKarrde:
 * One of the Taris window glass textures caused objects behind it to render incorrectly [ISSUE #692](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/692)
+* The bridges in the Dantooine Grove and Sandral Estate modules had distorted UVs for their light fixtures (Reported by ConansHair) [ISSUE #755](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/755)
 * The floor of the sub bay in Manaan Hrakert Station had some obvious texture distortion [ISSUE #693](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/693)
 * The forcefield beacon poles in the hangar of Davik's Estate on Taris didn't render correctly and wobbled when they rotated [ISSUE #694](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/694)
 * The frame of the main window in the central room of Yavin Station had some lightmapping issues [ISSUE #702](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/702)
