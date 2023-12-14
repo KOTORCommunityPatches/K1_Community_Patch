@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by tar11_zaerdra111.dlg in tar_m11aa (Taris Hidden Beks Base)
@@ -15,22 +15,32 @@
 	get close enough to initiate the conversation. To prevent this, this script
 	initiates Gadon's dialogue right after Zaerdra's finishes, having previously
 	jumped the party into a more desirable position (see k_ptar_zaeclg_en).
-
+	
+	Updated 2023-12-14 to switch to include functions and give Zaedra an anim to
+	flush her, since she could be seen frozen after switching to Gadon's DLG.
+	
+	See also k_ptar_zaeclg_en.
+	
 	Issue #70: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/70
 
-	DP 2019-05-01                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	DP 2019-05-01 / DP 2023-12-14												*/
+//////////////////////////////////////////////////////////////////////////////////
+
+#include "cp_inc_k1"
 
 void main() {
 
 	object oPC = GetFirstPC();
-	object oPM1 = GetPartyMemberByIndex(1);
-	object oPM2 = GetPartyMemberByIndex(2);
+	object oPM1 = CP_GetPartyMember(1);
+	object oPM2 = CP_GetPartyMember(2);
 	object oGadon = GetObjectByTag("GadonThek112", 0);
+	object oZaedra = OBJECT_SELF;
 	
-	AssignCommand(oPC, DelayCommand(0.1, SetFacingPoint(GetPosition(oGadon))));
-	AssignCommand(oPM1, DelayCommand(0.1, SetFacingPoint(GetPosition(oGadon))));
-	AssignCommand(oPM2, DelayCommand(0.1, SetFacingPoint(GetPosition(oGadon))));
+	CP_FaceNPC(oPC, oGadon);
+	CP_FaceNPC(oPM1, oGadon);
+	CP_FaceNPC(oPM2, oGadon);
+	CP_FaceNPC(oZaedra, oPC);
+	
 	AssignCommand(oGadon, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
 }
