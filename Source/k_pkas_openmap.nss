@@ -22,15 +22,21 @@
 	or where the switch to the Jolee dialogue could cause a similar issue for
 	any of the anims.
 	
-	See also k_pkas_starmap.
+	Updated 2023-12-14 to push out the quest related elements until after the
+	subsequent DLG with the party members fires.
+	
+	See also k_pkas_starmap, k_pkas_starcut.
 	
 	Issue #123: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/315
-
+	
+	Issue #517: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/517
+	
 	Issue #756: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/756
-
-	DP 2019-05-13 / DP 2019-05-19 / DP 2023-12-13								*/
+	
+	DP 2019-05-13 / DP 2019-05-19 / DP 2023-12-13 / DP 2023-12-14				*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -48,9 +54,6 @@ void main() {
 	NoClicksFor(fDelay);
 	
 	SetGlobalBoolean("kas_ComputerDown", TRUE);
-	SetGlobalBoolean("kas_StarMap", TRUE);
-	
-	CreateItemOnObject("kas_starpad", oPC, 1);
 	
 	DelayCommand(1.0, AssignCommand(oStarMap, CP_StarMapPlayAnim()));
 }

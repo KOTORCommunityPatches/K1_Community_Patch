@@ -439,6 +439,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The Star Map in the Dantooine Ruins was slightly offset from the centerline of the room (Reported by muitafruita) [ISSUE #656](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/656)
 * The Star Map on Kashyyyk didn't stay open long enough and could occasionally get stuck mid-animation [ISSUE #123](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/123)
 * The Star Map opening sequence in the Dantooine Ruins was split in two instead of being one continuous scene [ISSUE #105](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105)
+* The Star Map opening sequence in the Kashyyyk Lower Shadowlands had an intrusive quest update pop-up between scenes [ISSUE #517](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/517)
 * The Star Map opening sequence in the Korriban Tomb of Naga Sadow only showed the map from the doorway [ISSUE #756](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/756)
 * The Star Map opening sequence in the Tatooine Eastern Dune Sea had some companion facing issues and the animation was a bit short [ISSUE #315](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/315)
 * The steam vents in the Manaan Sith Base did universal damage instead of more appropriate fire damage [ISSUE #141](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141)
