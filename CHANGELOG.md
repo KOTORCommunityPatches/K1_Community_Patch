@@ -164,10 +164,11 @@
 * Jumped the party and herded ambient NPCs out of the way for conversations with Gendar in the Taris Undercity
 * Made the Republic soldier killed by the exploding barrel on the Endar Spire Command Module die immediately
 * Adjusted and locked the facing of the judges and the player during the post-Hrakert Rift trial in Manaan Ahto West
-* Corrected the deactivate SFX for the star map placeable declared in the placeable sounds 2DA
-* Ensured that the star map in Manaan Hrakert Rift ran the appropriate animation and then closed afterwards to match the other maps
+* Corrected the deactivate SFX for the Star Map placeable declared in the placeable sounds 2DA
+* Ensured that the Star Map in Manaan Hrakert Rift ran the appropriate animation and then closed afterwards to match the other maps
 * Jumped the party into a better position for the scene with the Duros conservationist in the Tatooine Czerka Office
 * Fixed distorted UVs for the bridge lights in the Dantooine Grove and Sandral Grounds
+* Tweaked the Star Map sequence in the Korriban Tomb of Naga Sadow to utilise the animation changes made for the scenes on other planets
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -233,8 +234,8 @@
 * Streamlined Tatooine OnEnters by pushing functions out to the include, made further revisions to the Sand People disguise fix to hopefully prevent it from failing to fire
 * Prevented a player freeze and jumped the party to prevent companion pathing issues during the Murder Mystery quest in the Dantooine Grove
 * Made further changes to the scene with the surrendering Vulkar in the Taris Black Vulkar Base (Upper) to prevent the camera clipping inside him when the player was too close
-* Corrected alterations to the scene for the star map in the Tatooine Eastern Dune Sea that were causing the animation for the final map to glitch out
-* Corrected alterations to the scene for the star map in the Kashyyyk Lower Shadowlands that were causing the animation for the final map to glitch out
+* Corrected alterations to the scene for the Star Map in the Tatooine Eastern Dune Sea that were causing the animation for the final map to glitch out
+* Corrected alterations to the scene for the Star Map in the Kashyyyk Lower Shadowlands that were causing the animation for the final map to glitch out
 * Tweaked the interrupted date night scene in Taris Davik's Estate to make sure the slave girl could be seen running out
 * Prevented Zaedra freezing on the switch to Gadon and better masked the party setup during the first scene in the Taris Hidden Bek Base
 * Changed camera angles when Griff switches between Mission and the player in the Tatooine Czerka Office
