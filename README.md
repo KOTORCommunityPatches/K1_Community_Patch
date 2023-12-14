@@ -308,6 +308,7 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The drama of the scene on the Ebon Hawk just prior to being captured by the Leviathan could be somewhat lessened when Carth was wearing a goofy face mask [ISSUE #559](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/559)
 * The droids in the Tomb of Ajunta Pall on Korriban could activate prematurely when the player used Critical Strike attacks on the Tuk'ata, and would reorient on the player if clicked on (With input from JCarter426) [ISSUE #431](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/431)
 * The drunks in Taris Upper City North all wore the same clothes, and had some conversation facing issues [ISSUE #74](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/74)
+* The party was in an awkward position for the scene with the Duros conservationist in the Tatooine Czerka Office [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * The Duros guards in Davik's Estate on Taris had the wrong soundset [ISSUE #311](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/311)
 * The Duros in the Taris Upper City South Apartments could freeze at the end of the conversation after the Sith raid [ISSUE #540](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/540)
 * The Duros prisoner in the Sith Base on Taris uses the wrong appearance (Reported by KnifeMaster and ecdye) [ISSUE #373](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/373)
