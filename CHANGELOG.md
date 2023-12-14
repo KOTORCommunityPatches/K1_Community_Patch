@@ -239,6 +239,7 @@
 * Tweaked the interrupted date night scene in Taris Davik's Estate to make sure the slave girl could be seen running out
 * Prevented Zaedra freezing on the switch to Gadon and better masked the party setup during the first scene in the Taris Hidden Bek Base
 * Changed camera angles when Griff switches between Mission and the player in the Tatooine Czerka Office
+* Adjusted the party jump for the Dantooine Ruins Star Map cutscene to match the map's new position in the centerline of the room
 
 ## v1.9.2 - March 27, 2022
 ### Additions

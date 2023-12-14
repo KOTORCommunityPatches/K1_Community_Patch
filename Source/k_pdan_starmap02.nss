@@ -12,13 +12,16 @@
 	static camera focused on the map animation rather than waiting for them to
 	walk to it.
 	
+	Updated 2023-12-14 to change the jump locations to match the revised position
+	of the map in the center of the room.
+	
 	See also cp_dan15_facemap, cp_dan15_mapstrt, k_pdan_cut50, k_pdan_cut51,
 	k_pdan_starmap05.
 	
 	Issue #105: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/105
 	
-	DP 2019-08-01 / DP 2021-12-06												*/
+	DP 2019-08-01 / DP 2021-12-06 / DP 2023-12-14								*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -29,9 +32,9 @@ void main() {
 	object oBast = GetObjectByTag("bastila", 0);
 	object oPM2 = CP_GetPartyMember(2);
 	object oStarmap = GetObjectByTag("dan15_starmap", 0);
-	location lPC = Location(Vector(146.129,187.5,4.417), 55.0);
-	location lBast = Location(Vector(150.129,187.5,4.417), 125.0);
-	location lPM2 = Location(Vector(148.129,185.247,4.417), 90.0);
+	location lPC = Location(Vector(145.42,187.36,4.42), 55.00);
+	location lBast = Location(Vector(149.64,187.37,4.42), 125.00);
+	location lPM2 = Location(Vector(147.52,185.07,4.42), 90.00);
 	
 	ActionPauseConversation();
 	
