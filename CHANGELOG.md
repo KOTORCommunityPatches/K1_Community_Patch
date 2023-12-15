@@ -218,7 +218,7 @@
 * Condensed a script hijack for the scientists in Manaan Hraakert Kolto Control down to a single vanilla replacement
 * Further adjusted some facing, camera angles, and player positioning during the confrontation with the scientists in Manaan Hraakert Kolto Control
 * Added some camera angle tweaks to the Sith standing in the doorway in the interrogation scene in the Taris Upper City North Apartments
-* Tweaked post-battle scene with Bastila in the Taris Swoop Platform to make sure Brejik's corpse doesn't despawn and the player watches when Bastila loots it
+* Tweaked post-battle scene with Bastila in the Taris Swoop Platform to make the player watch if Bastila loots it
 * Removed a missing starting conditional script that was gating off most of Jolee's branch with Elora in Manaan Ahto West
 * Made some further party herding and facing tweaks to the final post-battle scene with Xor
 * Fixed some ropey shading around the eye sockets of the Asian male head, added fixed versions of the two texture variant models

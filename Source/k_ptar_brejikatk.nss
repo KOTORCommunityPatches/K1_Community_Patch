@@ -10,8 +10,9 @@
 	a command to initiate combat so she doesn't stand around. Revised to include
 	original source directly now that it has been reconstructed.
 	
-	Updated 2023-11-14 to prevent Brejik's corpse from fading out after he is killed
-	in case Bastila needs to walk over and loot him during her post-fight conversation.
+	Updated 2023-12-15 to remove k_inc_tar and k_inc_generic includes to streamline
+	things a little. Reverted the use of SetIsDestroyable on Brejik, since it made
+	him unlootable.
 	
 	See also cp_tar03_brejeqp, cp_tar03_brejfce, k_ptar_brejik_sp, k_ptar_dieswoopy,
 	k_ptar_playermec, k_ptar_swoop0, k_ptar_swoopnew, k_ptar_swpie_ud.
@@ -25,12 +26,10 @@
 	Issue #345: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/345
 	
-	JC 2019-05-07 / DP 2019-11-14 / DP 2020-06-18 / DP 2023-07-23 / DP 2023-11-14	*/
+	JC 2019-05-07 / DP 2019-11-14 / DP 2020-06-18 / DP 2023-07-23 / DP 2023-12-15	*/
 //////////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
-#include "k_inc_tar"
-#include "k_inc_generic"
 
 void main() {
 	
@@ -42,17 +41,15 @@ void main() {
 	object oWPFlee = GetObjectByTag("tar03_wpflee", 0);
 	object oVulkar;
 	object oFan;
+	location lFlee = GetLocation(oWPFlee);
 	int nCnt;
 	int nCount;
 	
-	// Make Brejik's corpse stick around.
-	AssignCommand(oBrejik, SetIsDestroyable(FALSE, FALSE, TRUE));
-	
-	AssignCommand(GetObjectByTag("anglu", 0), TAR_PlotMoveObject(oWPFlee, TRUE));
-	AssignCommand(GetObjectByTag("tar03_doba", 0), TAR_PlotMoveObject(oWPFlee, TRUE));
-	AssignCommand(GetObjectByTag("tar03_mechanic", 0), TAR_PlotMoveObject(oWPFlee, TRUE));
-	AssignCommand(GetObjectByTag("tar03_phirk", 0), TAR_PlotMoveObject(oWPFlee, TRUE));
-	AssignCommand(GetObjectByTag("raceannoun031", 0), TAR_PlotMoveObject(oWPFlee, TRUE));
+	AssignCommand(GetObjectByTag("anglu", 0), CP_ExitArea(lFlee, TRUE));
+	AssignCommand(GetObjectByTag("tar03_doba", 0), CP_ExitArea(lFlee, TRUE));
+	AssignCommand(GetObjectByTag("tar03_mechanic", 0), CP_ExitArea(lFlee, TRUE));
+	AssignCommand(GetObjectByTag("tar03_phirk", 0), CP_ExitArea(lFlee, TRUE));
+	AssignCommand(GetObjectByTag("raceannoun031", 0), CP_ExitArea(lFlee, TRUE));
 	
 	nCount = 2;
 	
@@ -67,24 +64,24 @@ void main() {
 	
 	AssignCommand(oRedros, CP_EquipFirstWeapon(oRedros));
 	DelayCommand(0.1, ChangeToStandardFaction(oRedros, STANDARD_FACTION_HOSTILE_1));
-	DelayCommand(0.2, AssignCommand(oRedros, GN_DetermineCombatRound()));
+	DelayCommand(0.2, ExecuteScript("k_ai_master", oRedros, 3001));
 	
 	ChangeToStandardFaction(oBrejik, STANDARD_FACTION_HOSTILE_1);
 	DelayCommand(0.1, AssignCommand(oBrejik, ActionAttack(oPC, FALSE)));
 	
 	ChangeToStandardFaction(oGuard, STANDARD_FACTION_HOSTILE_1);
-	DelayCommand(0.1, AssignCommand(oGuard, GN_DetermineCombatRound()));
+	DelayCommand(0.1, ExecuteScript("k_ai_master", oGuard, 3001));
 	
 	nCnt = 0;
 	
 	while (GetIsObjectValid(oVulkar = GetObjectByTag("tar03_vulkguard", nCnt)))
 		{
 			ChangeToStandardFaction(oVulkar, STANDARD_FACTION_HOSTILE_1);
-			AssignCommand(oVulkar, GN_DetermineCombatRound());
+			ExecuteScript("k_ai_master", oVulkar, 3001);
 			
 			nCnt++;
 		}
 	
 	AssignCommand(oBastila, ClearAllActions());
-	DelayCommand(0.2, AssignCommand(oBastila, GN_DetermineCombatRound()));
+	DelayCommand(0.2, ExecuteScript("k_ai_master", oBastila, 3001));
 }
