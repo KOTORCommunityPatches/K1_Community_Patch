@@ -8,10 +8,13 @@
 	Czerka Office. It has been altered to jump the party into a better position to
 	keep them out of the way when the Duros exits.
 	
+	Updated 2023-12-17 to add a missing check to prevent the trigger firing more
+	than once.
+	
 	Issue #265: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265
 	
-	DP 2023-12-14																*/
+	DP 2023-12-14 / DP 2023-12-17												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -25,7 +28,7 @@ void main() {
 	location lPM1 = Location(Vector(4.04,1.74,1.39), 100.00);
 	location lPM2 = Location(Vector(5.80,2.69,1.39), 140.00);
 	
-	if (GetIsPC(oEntering))
+	if (GetIsPC(oEntering) && CP_HasNeverTriggered())
 		{
 			HoldWorldFadeInForDialog();
 			
