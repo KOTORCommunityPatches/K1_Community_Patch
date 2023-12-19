@@ -243,6 +243,7 @@
 * Adjusted the party jump for the Dantooine Ruins Star Map cutscene to match the map's new position in the centerline of the room
 * Extended the stealth belt check fix to the entrance trigger that has a war droid fire a random barkstring in the Korriban Tomb of Marka Ragnos
 * Prevented duplicate Xor combat encounters spawning on multiple planets due to triggering him without Juhani present
+* Corrected some additional camera angle, listener, and facing issues during the Murder Mystery quest in the Dantooine Grove
 
 ## v1.9.2 - March 27, 2022
 ### Additions
