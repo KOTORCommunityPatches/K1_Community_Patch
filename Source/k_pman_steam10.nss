@@ -12,10 +12,13 @@
 	Updated 2023-12-08 to jump the party, since the former change of DLG owner
 	wasn't sufficient.
 	
+	Updated 2023-12-19 to adjust the fade-in to prevent it lifting too early.
+	Also disabled the party member AI for the jump to make sure they obey.
+	
 	Issue #141: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/141
 	
-	DP 2023-10-15 / DP 2023-12-08												*/
+	DP 2023-10-15 / DP 2023-12-08 / DP 2023-12-19								*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -34,15 +37,18 @@ void main() {
 	if (CP_HasNeverTriggered())
 		{
 			SetGlobalFadeOut();
-			SetGlobalFadeIn(0.7, 0.5);
+			SetGlobalFadeIn(1.0, 0.5);
 			
 			NoClicksFor(2.5);
 			
-			CP_PartyHerder(lPC, lPM1, lPM2);
+			CP_ToggleAI(oPM1);
+			CP_ToggleAI(oPM2);
 			
-			DelayCommand(0.5, AssignCommand(oPM1, ActionMoveToLocation(lEndPM1, FALSE)));
-			DelayCommand(0.5, AssignCommand(oPM2, ActionMoveToLocation(lEndPM2, FALSE)));
+			DelayCommand(0.1, CP_PartyHerder(lPC, lPM1, lPM2));
 			
-			DelayCommand(0.5, AssignCommand(OBJECT_SELF, ActionStartConversation(oPC, "man27_cut01", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
+			DelayCommand(0.6, AssignCommand(oPM1, ActionMoveToLocation(lEndPM1, FALSE)));
+			DelayCommand(0.6, AssignCommand(oPM2, ActionMoveToLocation(lEndPM2, FALSE)));
+			
+			DelayCommand(0.8, AssignCommand(OBJECT_SELF, ActionStartConversation(oPC, "man27_cut01", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 		}
 }
