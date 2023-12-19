@@ -70,6 +70,9 @@ void CP_DisableAI(int bState);
 // Disables the supplied creature's AI for the specified amount of time before toggling it back on.
 void CP_ToggleAI(object oNPC, float fDelay = 1.0f);
 
+// Disables the supplied creature's ambient animations for the specified amount of time before toggling it back on.
+void CP_ToggleAmbientAnims(object oNPC, float fDelay = 5.0);
+
 // Modified version of the Messenger spawning function called in the various landing zone modules.
 void CP_JumpMessenger();
 
@@ -623,6 +626,23 @@ void CP_DisableAI(int bState) {
 void CP_ToggleAI(object oNPC, float fDelay = 1.0f) {
 	AssignCommand(oNPC, CP_DisableAI(TRUE));
 	DelayCommand(fDelay, AssignCommand(oNPC, CP_DisableAI(FALSE)));
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_ToggleAmbientAnims()
+	
+	Disables the supplied creature's ambient animations OnSpawn flag for the
+	specified amount of time before toggling it back on. Can be useful for an
+	NPC that needs to initiate a conversation with the player.
+	
+	DP 2023-12-20																*/
+//////////////////////////////////////////////////////////////////////////////////
+void CP_ToggleAmbientAnims(object oNPC, float fDelay = 5.0) {
+	int SW_FLAG_AMBIENT_ANIMATIONS = 29;
+	
+	SetLocalBoolean(oNPC, SW_FLAG_AMBIENT_ANIMATIONS, FALSE);
+	AssignCommand(oNPC, ClearAllActions());
+	DelayCommand(fDelay, SetLocalBoolean(oNPC, SW_FLAG_AMBIENT_ANIMATIONS, TRUE));
 }
 
 //////////////////////////////////////////////////////////////////////////////////
