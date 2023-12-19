@@ -13,10 +13,14 @@
 	Updated 2023-12-08 to rejig the conversation initialisation to ensure that it
 	starts before the fade-in.
 	
+	Updated 2023-12-20 to disable Nilko's ambient animations to really ensure that
+	the conversation starts before the fade-in. Also toggle off the party member
+	AI for the jump for good measure.
+	
 	Issue #272: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/272
 	
-	DP 2019-10-01 / DP 2023-12-08												*/
+	DP 2019-10-01 / DP 2023-12-08 / DP 2023-12-20								*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -24,6 +28,8 @@
 void main() {
 	
 	object oPC = GetFirstPC();
+	object oPM1 = CP_GetPartyMember(1);
+	object oPM2 = CP_GetPartyMember(2);
 	object oEntering = GetEnteringObject();
 	object oNilko = GetObjectByTag("man26_nilko");
 	location lPC = Location(Vector(-25.0,29.183,59.158), 180.0);
@@ -32,10 +38,6 @@ void main() {
 	
 	if (GetIsPC(oEntering) && CP_HasNeverTriggered())
 		{
-			// In order to skip the "I wish to speak to you" bit, set the Talked To
-			// flag on Nilko first so he will jump straight into the main convo
-			UT_SetTalkedToBooleanFlag(oNilko);
-			
 			SetGlobalFadeOut();
 			DelayCommand(1.5, SetGlobalFadeIn(0.1, 1.0));
 			
@@ -43,9 +45,19 @@ void main() {
 			
 			SetPartyLeader(NPC_PLAYER);
 			
+			// In order to skip the "I wish to speak to you" bit, set the Talked To
+			// flag on Nilko first so he will jump straight into the main convo
+			UT_SetTalkedToBooleanFlag(oNilko);
+			
+			// Disable his ambient anims temporarily.
+			CP_ToggleAmbientAnims(oNilko);
+			
+			CP_ToggleAI(oPM1);
+			CP_ToggleAI(oPM2);
+			
 			DelayCommand(0.1, CP_PartyHerder(lPC, lPM1, lPM2));
 			
-			DelayCommand(0.75, CP_FaceNPC(oNilko, oPC));
+			DelayCommand(0.6, CP_FaceNPC(oNilko, oPC));
 			DelayCommand(1.0, AssignCommand(oNilko, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE)));
 		}
 }
