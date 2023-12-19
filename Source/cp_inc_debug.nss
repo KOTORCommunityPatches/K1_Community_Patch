@@ -51,11 +51,23 @@ string CP_MainPlotState();
 // Returns a string that reports the state of the supplied global boolean/number.
 string CP_GetGlobalState(string sGlobal, int bIsBoolean = TRUE);
 
+// Returns a string that reports the state of the supplied local boolean on the target object.
+string CP_GetLocalBoolState(object oNPC, int nIndex);
+
+// Returns a string for the name of the supplied local boolean flag.
+string CP_GetLocalBoolName(int nIndex);
+
 // Returns a string that reports the current stage of Star Map progression.
 string CP_GetStarMapState();
 
 // Returns the current state of the supplied NPC's AI flag.
 string CP_NPCAIState(object oNPC);
+
+// Returns the input float as a trimmed string without the carriage return.
+string CP_FloatToString(float fFloat);
+
+// Returns the input location as a string.
+string CP_LocationToString(location lLoc);
 
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -92,7 +104,8 @@ void CP_ListEffects(object oTarget) {
 //////////////////////////////////////////////////////////////////////////////////
 /*	CP_BoolToString()
 	
-	Converts a TRUE/FALSE value into a string for debug messages.
+	Converts a TRUE/FALSE value into a string for debug messages. Note that local
+	booleans can return spurious values.
 	
 	DP 2023-12-11																*/
 //////////////////////////////////////////////////////////////////////////////////
@@ -103,7 +116,7 @@ string CP_BoolToString(int bBool) {
 			case TRUE: return "TRUE";
 		}
 	
-	return "INVALID";
+	return "INVALID VALUE (" + IntToString(bBool) + ")";
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -190,6 +203,7 @@ void CP_PtyQuestState() {
 			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("G_JUHANI_PLOT", FALSE));
 			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("K_MESS_JUHANI", TRUE));
 			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("K_XOR_AMBUSH", FALSE));
+			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("K_XOR_AMBUSH_FIX", TRUE));
 			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("KOR_WHO_DAK", FALSE));
 		}
 	
@@ -237,7 +251,7 @@ string CP_PtyToName(int nNPC) {
 			case NPC_ZAALBAR: return "ZAALBAR";
 		}
 	
-	return "INVALID";
+	return "INVALID VALUE (" + IntToString(nNPC) + ")";
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -285,223 +299,82 @@ string CP_NPCName(object oTarget) {
 //////////////////////////////////////////////////////////////////////////////////
 string CP_EffectType(effect eEffect) {
 	int nType = GetEffectType(eEffect);
-	string sType;
 	
 	switch (nType)
 		{
-			case EFFECT_TYPE_INVALIDEFFECT:
-				sType = "INVALID EFFECT";
-			break;
-			case EFFECT_TYPE_DAMAGE_RESISTANCE:
-				sType = "DAMAGE RESISTANCE";
-			break;
-			case EFFECT_TYPE_REGENERATE:
-				sType = "REGENERATE";
-			break;
-			case EFFECT_TYPE_DAMAGE_REDUCTION:
-				sType = "DAMAGE REDUCTION";
-			break;
-			case EFFECT_TYPE_TEMPORARY_HITPOINTS:
-				sType = "TEMPORARY HITPOINTS";
-			break;
-			case EFFECT_TYPE_ENTANGLE:
-				sType = "ENTANGLE";
-			break;
-			case EFFECT_TYPE_INVULNERABLE:
-				sType = "INVULNERABLE";
-			break;
-			case EFFECT_TYPE_DEAF:
-				sType = "DEAF";
-			break;
-			case EFFECT_TYPE_RESURRECTION:
-				sType = "RESURRECTION";
-			break;
-			case EFFECT_TYPE_IMMUNITY:
-				sType = "IMMUNITY";
-			break;
-			case EFFECT_TYPE_ENEMY_ATTACK_BONUS:
-				sType = "ENEMY ATTACK BONUS";
-			break;
-			case EFFECT_TYPE_ARCANE_SPELL_FAILURE:
-				sType = "ARCANE SPELL FAILURE";
-			break;
-			case EFFECT_TYPE_AREA_OF_EFFECT:
-				sType = "AREA OF EFFECT";
-			break;
-			case EFFECT_TYPE_BEAM:
-				sType = "BEAM";
-			break;
-			case EFFECT_TYPE_CHARMED:
-				sType = "CHARMED";
-			break;
-			case EFFECT_TYPE_CONFUSED:
-				sType = "CONFUSED";
-			break;
-			case EFFECT_TYPE_FRIGHTENED:
-				sType = "FRIGHTENED";
-			break;
-			case EFFECT_TYPE_DOMINATED:
-				sType = "DOMINATED";
-			break;
-			case EFFECT_TYPE_PARALYZE:
-				sType = "PARALYZE";
-			break;
-			case EFFECT_TYPE_DAZED:
-				sType = "DAZED";
-			break;
-			case EFFECT_TYPE_STUNNED:
-				sType = "STUNNED";
-			break;
-			case EFFECT_TYPE_SLEEP:
-				sType = "SLEEP";
-			break;
-			case EFFECT_TYPE_POISON:
-				sType = "POISON";
-			break;
-			case EFFECT_TYPE_DISEASE:
-				sType = "DISEASE";
-			break;
-			case EFFECT_TYPE_CURSE:
-				sType = "CURSE";
-			break;
-			case EFFECT_TYPE_SILENCE:
-				sType = "SILENCE";
-			break;
-			case EFFECT_TYPE_TURNED:
-				sType = "TURNED";
-			break;
-			case EFFECT_TYPE_HASTE:
-				sType = "HASTE";
-			break;
-			case EFFECT_TYPE_SLOW:
-				sType = "SLOW";
-			break;
-			case EFFECT_TYPE_ABILITY_INCREASE:
-				sType = "ABILITY INCREASE";
-			break;
-			case EFFECT_TYPE_ABILITY_DECREASE:
-				sType = "ABILITY DECREASE";
-			break;
-			case EFFECT_TYPE_ATTACK_INCREASE:
-				sType = "ATTACK INCREASE";
-			break;
-			case EFFECT_TYPE_ATTACK_DECREASE:
-				sType = "ATTACK DECREASE";
-			break;
-			case EFFECT_TYPE_DAMAGE_INCREASE:
-				sType = "DAMAGE INCREASE";
-			break;
-			case EFFECT_TYPE_DAMAGE_DECREASE:
-				sType = "DAMAGE DECREASE";
-			break;
-			case EFFECT_TYPE_DAMAGE_IMMUNITY_INCREASE:
-				sType = "DAMAGE IMMUNITY INCREASE";
-			break;
-			case EFFECT_TYPE_DAMAGE_IMMUNITY_DECREASE:
-				sType = "DAMAGE IMMUNITY DECREASE";
-			break;
-			case EFFECT_TYPE_AC_INCREASE:
-				sType = "AC INCREASE";
-			break;
-			case EFFECT_TYPE_AC_DECREASE:
-				sType = "AC DECREASE";
-			break;
-			case EFFECT_TYPE_MOVEMENT_SPEED_INCREASE:
-				sType = "MOVEMENT SPEED INCREASE";
-			break;
-			case EFFECT_TYPE_MOVEMENT_SPEED_DECREASE:
-				sType = "MOVEMENT SPEED DECREASE";
-			break;
-			case EFFECT_TYPE_SAVING_THROW_INCREASE:
-				sType = "SAVING THROW INCREASE";
-			break;
-			case EFFECT_TYPE_SAVING_THROW_DECREASE:
-				sType = "SAVING THROW DECREASE";
-			break;
-			case EFFECT_TYPE_FORCE_RESISTANCE_INCREASE:
-				sType = "FORCE RESISTANCE INCREASE";
-			break;
-			case EFFECT_TYPE_FORCE_RESISTANCE_DECREASE:
-				sType = "FORCE RESISTANCE DECREASE";
-			break;
-			case EFFECT_TYPE_SKILL_INCREASE:
-				sType = "SKILL INCREASE";
-			break;
-			case EFFECT_TYPE_SKILL_DECREASE:
-				sType = "SKILL DECREASE";
-			break;
-			case EFFECT_TYPE_INVISIBILITY:
-				sType = "INVISIBILITY";
-			break;
-			case EFFECT_TYPE_IMPROVEDINVISIBILITY:
-				sType = "IMPROVED INVISIBILITY";
-			break;
-			case EFFECT_TYPE_DARKNESS:
-				sType = "DARKNESS";
-			break;
-			case EFFECT_TYPE_DISPELMAGICALL:
-				sType = "DISPEL MAGICALL";
-			break;
-			case EFFECT_TYPE_ELEMENTALSHIELD:
-				sType = "ELEMENTAL SHIELD";
-			break;
-			case EFFECT_TYPE_NEGATIVELEVEL:
-				sType = "NEGATIVE LEVEL";
-			break;
-			case EFFECT_TYPE_DISGUISE:
-				sType = "DISGUISE";
-			break;
-			case EFFECT_TYPE_SANCTUARY:
-				sType = "SANCTUARY";
-			break;
-			case EFFECT_TYPE_TRUESEEING:
-				sType = "TRUE SEEING";
-			break;
-			case EFFECT_TYPE_SEEINVISIBLE:
-				sType = "SEE INVISIBLE";
-			break;
-			case EFFECT_TYPE_TIMESTOP:
-				sType = "TIMESTOP";
-			break;
-			case EFFECT_TYPE_BLINDNESS:
-				sType = "BLINDNESS";
-			break;
-			case EFFECT_TYPE_SPELLLEVELABSORPTION:
-				sType = "SPELL LEVEL ABSORPTION";
-			break;
-			case EFFECT_TYPE_DISPELMAGICBEST:
-				sType = "DISPEL MAGIC BEST";
-			break;
-			case EFFECT_TYPE_ULTRAVISION:
-				sType = "ULTRAVISION";
-			break;
-			case EFFECT_TYPE_MISS_CHANCE:
-				sType = "MISS CHANCE";
-			break;
-			case EFFECT_TYPE_CONCEALMENT:
-				sType = "CONCEALMENT";
-			break;
-			case EFFECT_TYPE_SPELL_IMMUNITY:
-				sType = "SPELL IMMUNITY";
-			break;
-			case EFFECT_TYPE_ASSUREDHIT:
-				sType = "ASSURED HIT";
-			break;
-			case EFFECT_TYPE_VISUAL:
-				sType = "VISUAL";
-			break;
-			case EFFECT_TYPE_LIGHTSABERTHROW:
-				sType = "LIGHTSABER THROW";
-			break;
-			case EFFECT_TYPE_FORCEJUMP:
-				sType = "FORCE JUMP";
-			break;
-			case EFFECT_TYPE_ASSUREDDEFLECTION:
-				sType = "ASSURED DEFLECTION";
-			break;
+			case EFFECT_TYPE_INVALIDEFFECT: return "INVALID EFFECT";
+			case EFFECT_TYPE_DAMAGE_RESISTANCE: return "DAMAGE RESISTANCE";
+			case EFFECT_TYPE_REGENERATE: return "REGENERATE";
+			case EFFECT_TYPE_DAMAGE_REDUCTION: return "DAMAGE REDUCTION";
+			case EFFECT_TYPE_TEMPORARY_HITPOINTS: return "TEMPORARY HITPOINTS";
+			case EFFECT_TYPE_ENTANGLE: return "ENTANGLE";
+			case EFFECT_TYPE_INVULNERABLE: return "INVULNERABLE";
+			case EFFECT_TYPE_DEAF: return "DEAF";
+			case EFFECT_TYPE_RESURRECTION: return "RESURRECTION";
+			case EFFECT_TYPE_IMMUNITY: return "IMMUNITY";
+			case EFFECT_TYPE_ENEMY_ATTACK_BONUS: return "ENEMY ATTACK BONUS";
+			case EFFECT_TYPE_ARCANE_SPELL_FAILURE: return "ARCANE SPELL FAILURE";
+			case EFFECT_TYPE_AREA_OF_EFFECT: return "AREA OF EFFECT";
+			case EFFECT_TYPE_BEAM: return "BEAM";
+			case EFFECT_TYPE_CHARMED: return "CHARMED";
+			case EFFECT_TYPE_CONFUSED: return "CONFUSED";
+			case EFFECT_TYPE_FRIGHTENED: return "FRIGHTENED";
+			case EFFECT_TYPE_DOMINATED: return "DOMINATED";
+			case EFFECT_TYPE_PARALYZE: return "PARALYZE";
+			case EFFECT_TYPE_DAZED: return "DAZED";
+			case EFFECT_TYPE_STUNNED: return "STUNNED";
+			case EFFECT_TYPE_SLEEP: return "SLEEP";
+			case EFFECT_TYPE_POISON: return "POISON";
+			case EFFECT_TYPE_DISEASE: return "DISEASE";
+			case EFFECT_TYPE_CURSE: return "CURSE";
+			case EFFECT_TYPE_SILENCE: return "SILENCE";
+			case EFFECT_TYPE_TURNED: return "TURNED";
+			case EFFECT_TYPE_HASTE: return "HASTE";
+			case EFFECT_TYPE_SLOW: return "SLOW";
+			case EFFECT_TYPE_ABILITY_INCREASE: return "ABILITY INCREASE";
+			case EFFECT_TYPE_ABILITY_DECREASE: return "ABILITY DECREASE";
+			case EFFECT_TYPE_ATTACK_INCREASE: return "ATTACK INCREASE";
+			case EFFECT_TYPE_ATTACK_DECREASE: return "ATTACK DECREASE";
+			case EFFECT_TYPE_DAMAGE_INCREASE: return "DAMAGE INCREASE";
+			case EFFECT_TYPE_DAMAGE_DECREASE: return "DAMAGE DECREASE";
+			case EFFECT_TYPE_DAMAGE_IMMUNITY_INCREASE: return "DAMAGE IMMUNITY INCREASE";
+			case EFFECT_TYPE_DAMAGE_IMMUNITY_DECREASE: return "DAMAGE IMMUNITY DECREASE";
+			case EFFECT_TYPE_AC_INCREASE: return "AC INCREASE";
+			case EFFECT_TYPE_AC_DECREASE: return "AC DECREASE";
+			case EFFECT_TYPE_MOVEMENT_SPEED_INCREASE: return "MOVEMENT SPEED INCREASE";
+			case EFFECT_TYPE_MOVEMENT_SPEED_DECREASE: return "MOVEMENT SPEED DECREASE";
+			case EFFECT_TYPE_SAVING_THROW_INCREASE: return "SAVING THROW INCREASE";
+			case EFFECT_TYPE_SAVING_THROW_DECREASE: return "SAVING THROW DECREASE";
+			case EFFECT_TYPE_FORCE_RESISTANCE_INCREASE: return "FORCE RESISTANCE INCREASE";
+			case EFFECT_TYPE_FORCE_RESISTANCE_DECREASE: return "FORCE RESISTANCE DECREASE";
+			case EFFECT_TYPE_SKILL_INCREASE: return "SKILL INCREASE";
+			case EFFECT_TYPE_SKILL_DECREASE: return "SKILL DECREASE";
+			case EFFECT_TYPE_INVISIBILITY: return "INVISIBILITY";
+			case EFFECT_TYPE_IMPROVEDINVISIBILITY: return "IMPROVED INVISIBILITY";
+			case EFFECT_TYPE_DARKNESS: return "DARKNESS";
+			case EFFECT_TYPE_DISPELMAGICALL: return "DISPEL MAGICALL";
+			case EFFECT_TYPE_ELEMENTALSHIELD: return "ELEMENTAL SHIELD";
+			case EFFECT_TYPE_NEGATIVELEVEL: return "NEGATIVE LEVEL";
+			case EFFECT_TYPE_DISGUISE: return "DISGUISE";
+			case EFFECT_TYPE_SANCTUARY: return "SANCTUARY";
+			case EFFECT_TYPE_TRUESEEING: return "TRUE SEEING";
+			case EFFECT_TYPE_SEEINVISIBLE: return "SEE INVISIBLE";
+			case EFFECT_TYPE_TIMESTOP: return "TIMESTOP";
+			case EFFECT_TYPE_BLINDNESS: return "BLINDNESS";
+			case EFFECT_TYPE_SPELLLEVELABSORPTION: return "SPELL LEVEL ABSORPTION";
+			case EFFECT_TYPE_DISPELMAGICBEST: return "DISPEL MAGIC BEST";
+			case EFFECT_TYPE_ULTRAVISION: return "ULTRAVISION";
+			case EFFECT_TYPE_MISS_CHANCE: return "MISS CHANCE";
+			case EFFECT_TYPE_CONCEALMENT: return "CONCEALMENT";
+			case EFFECT_TYPE_SPELL_IMMUNITY: return "SPELL IMMUNITY";
+			case EFFECT_TYPE_ASSUREDHIT: return "ASSURED HIT";
+			case EFFECT_TYPE_VISUAL: return "VISUAL";
+			case EFFECT_TYPE_LIGHTSABERTHROW: return "LIGHTSABER THROW";
+			case EFFECT_TYPE_FORCEJUMP: return "FORCE JUMP";
+			case EFFECT_TYPE_ASSUREDDEFLECTION: return "ASSURED DEFLECTION";
 		}
 	
-	return sType;
+	return "INVALID VALUE (" + IntToString(nType) + ")";
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -513,22 +386,15 @@ string CP_EffectType(effect eEffect) {
 //////////////////////////////////////////////////////////////////////////////////
 string CP_EffectSubType(effect eEffect) {
 	int nSubType = GetEffectSubType(eEffect);
-	string sSub;
 	
 	switch (nSubType)
 		{
-			case SUBTYPE_MAGICAL:
-				sSub = "MAGICAL";
-			break;
-			case SUBTYPE_SUPERNATURAL:
-				sSub = "SUPERNATURAL";
-			break;
-			case SUBTYPE_EXTRAORDINARY:
-				sSub = "EXTRAORDINARY";
-			break;
+			case SUBTYPE_MAGICAL: return "MAGICAL";
+			case SUBTYPE_SUPERNATURAL: return "SUPERNATURAL";
+			case SUBTYPE_EXTRAORDINARY: return "EXTRAORDINARY";
 		}
 	
-	return sSub;
+	return "INVALID VALUE (" + IntToString(nSubType) + ")";
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -540,22 +406,15 @@ string CP_EffectSubType(effect eEffect) {
 //////////////////////////////////////////////////////////////////////////////////
 string CP_EffectDuration(effect eEffect) {
 	int nDur = GetEffectDurationType(eEffect);
-	string sDur;
 	
 	switch (nDur)
 		{
-			case DURATION_TYPE_INSTANT:
-				sDur = "INSTANT";
-			break;
-			case DURATION_TYPE_TEMPORARY:
-				sDur = "TEMPORARY";
-			break;
-			case DURATION_TYPE_PERMANENT:
-				sDur = "PERMANENT";
-			break;
+			case DURATION_TYPE_INSTANT: return "INSTANT";
+			case DURATION_TYPE_TEMPORARY: return "TEMPORARY";
+			case DURATION_TYPE_PERMANENT: return "PERMANENT";
 		}
 	
-	return sDur;
+	return "INVALID VALUE (" + IntToString(nDur) + ")";
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -567,208 +426,77 @@ string CP_EffectDuration(effect eEffect) {
 //////////////////////////////////////////////////////////////////////////////////
 string CP_SpellType(effect eEffect) {
 	int nType = GetEffectSpellId(eEffect);
-	string sType;
 	
 	switch (nType)
 		{
-			case FORCE_POWER_ALL_FORCE_POWERS:
-				sType = "INVALID / IMMUNITY";
-			break;
-			case FORCE_POWER_MASTER_ALTER:
-				sType = "MASTER ALTER";
-			break;
-			case FORCE_POWER_MASTER_CONTROL:
-				sType = "MASTER CONTROL";
-			break;
-			case FORCE_POWER_MASTER_SENSE:
-				sType = "MASTER SENSE";
-			break;
-			case FORCE_POWER_FORCE_JUMP_ADVANCED:
-				sType = "FORCE JUMP ADVANCED";
-			break;
-			case FORCE_POWER_LIGHT_SABER_THROW_ADVANCED:
-				sType = "LIGHTSABER THROW ADVANCED";
-			break;
-			case FORCE_POWER_REGNERATION_ADVANCED:
-				sType = "REGNERATION ADVANCED";
-			break;
-			case FORCE_POWER_AFFECT_MIND:
-				sType = "AFFECT MIND";
-			break;
-			case FORCE_POWER_AFFLICTION:
-				sType = "AFFLICTION";
-			break;
-			case FORCE_POWER_SPEED_BURST:
-				sType = "BURST OF SPEED";
-			break;
-			case FORCE_POWER_CHOKE:
-				sType = "CHOKE";
-			break;
-			case FORCE_POWER_CURE:
-				sType = "CURE";
-			break;
-			case FORCE_POWER_DEATH_FIELD:
-				sType = "DEATH FIELD";
-			break;
-			case FORCE_POWER_DROID_DISABLE:
-				sType = "DISABLE DROID";
-			break;
-			case FORCE_POWER_DROID_DESTROY:
-				sType = "DESTROY DROID";
-			break;
-			case FORCE_POWER_DOMINATE:
-				sType = "DOMINATE";
-			break;
-			case FORCE_POWER_DRAIN_LIFE:
-				sType = "DRAIN LIFE";
-			break;
-			case FORCE_POWER_FEAR:
-				sType = "FEAR";
-			break;
-			case FORCE_POWER_FORCE_ARMOR:
-				sType = "FORCE ARMOR";
-			break;
-			case FORCE_POWER_FORCE_AURA:
-				sType = "FORCE AURA";
-			break;
-			case FORCE_POWER_FORCE_BREACH:
-				sType = "FORCE BREACH";
-			break;
-			case FORCE_POWER_FORCE_IMMUNITY:
-				sType = "FORCE IMMUNITY";
-			break;
-			case FORCE_POWER_FORCE_JUMP:
-				sType = "FORCE JUMP";
-			break;
-			case FORCE_POWER_FORCE_MIND:
-				sType = "FORCE MIND";
-			break;
-			case FORCE_POWER_FORCE_PUSH:
-				sType = "FORCE PUSH";
-			break;
-			case FORCE_POWER_FORCE_SHIELD:
-				sType = "FORCE SHIELD";
-			break;
-			case FORCE_POWER_FORCE_STORM:
-				sType = "FORCE STORM";
-			break;
-			case FORCE_POWER_FORCE_WAVE:
-				sType = "FORCE WAVE";
-			break;
-			case FORCE_POWER_FORCE_WHIRLWIND:
-				sType = "FORCE WHIRLWIND";
-			break;
-			case FORCE_POWER_HEAL:
-				sType = "HEAL";
-			break;
-			case FORCE_POWER_HOLD:
-				sType = "HOLD";
-			break;
-			case FORCE_POWER_HORROR:
-				sType = "HORROR";
-			break;
-			case FORCE_POWER_INSANITY:
-				sType = "INSANITY";
-			break;
-			case FORCE_POWER_KILL:
-				sType = "KILL";
-			break;
-			case FORCE_POWER_KNIGHT_MIND:
-				sType = "KNIGHT MIND";
-			break;
-			case FORCE_POWER_KNIGHT_SPEED:
-				sType = "KNIGHT SPEED";
-			break;
-			case FORCE_POWER_LIGHTNING:
-				sType = "LIGHTNING";
-			break;
-			case FORCE_POWER_MIND_MASTERY:
-				sType = "MIND MASTERY";
-			break;
-			case FORCE_POWER_SPEED_MASTERY:
-				sType = "SPEED MASTERY";
-			break;
-			case FORCE_POWER_PLAGUE:
-				sType = "PLAGUE";
-			break;
-			case FORCE_POWER_REGENERATION:
-				sType = "REGENERATION";
-			break;
-			case FORCE_POWER_RESIST_COLD_HEAT_ENERGY:
-				sType = "RESIST COLD / HEAT / ENERGY";
-			break;
-			case FORCE_POWER_RESIST_FORCE:
-				sType = "RESIST FORCE";
-			break;
-			case FORCE_POWER_RESIST_POISON_DISEASE_SONIC:
-				sType = "RESIST POISON / DISEASE / SONIC";
-			break;
-			case FORCE_POWER_SHOCK:
-				sType = "SHOCK";
-			break;
-			case FORCE_POWER_SLEEP:
-				sType = "SLEEP";
-			break;
-			case FORCE_POWER_SLOW:
-				sType = "SLOW";
-			break;
-			case FORCE_POWER_STUN:
-				sType = "STUN";
-			break;
-			case FORCE_POWER_DROID_STUN:
-				sType = "STUN DROID";
-			break;
-			case FORCE_POWER_SUPRESS_FORCE:
-				sType = "SUPRESS FORCE";
-			break;
-			case FORCE_POWER_LIGHT_SABER_THROW:
-				sType = "LIGHTSABER THROW";
-			break;
-			case FORCE_POWER_WOUND:
-				sType = "WOUND";
-			break;
-			case SPECIAL_ABILITY_BATTLE_MEDITATION:
-				sType = "SPECIAL ABILITY BATTLE MEDITATION";
-			break;
-			case SPECIAL_ABILITY_BODY_FUEL:
-				sType = "SPECIAL ABILITY BODY FUEL";
-			break;
-			case SPECIAL_ABILITY_COMBAT_REGENERATION:
-				sType = "SPECIAL ABILITY COMBAT REGENERATION";
-			break;
-			case SPECIAL_ABILITY_WARRIOR_STANCE:
-				sType = "SPECIAL ABILITY WARRIOR STANCE";
-			break;
-			case SPECIAL_ABILITY_SENTINEL_STANCE:
-				sType = "SPECIAL ABILITY SENTINEL STANCE";
-			break;
-			case SPECIAL_ABILITY_DOMINATE_MIND:
-				sType = "SPECIAL ABILITY DOMINATE MIND";
-			break;
-			case SPECIAL_ABILITY_PSYCHIC_STANCE:
-				sType = "SPECIAL ABILITY PSYCHIC STANCE";
-			break;
-			case SPECIAL_ABILITY_CATHAR_REFLEXES:
-				sType = "SPECIAL ABILITY CATHAR REFLEXES";
-			break;
-			case SPECIAL_ABILITY_ENHANCED_SENSES:
-				sType = "SPECIAL ABILITY ENHANCED SENSES";
-			break;
-			case SPECIAL_ABILITY_CAMOFLAGE:
-				sType = "SPECIAL ABILITY CAMOFLAGE";
-			break;
-			case SPECIAL_ABILITY_TAUNT:
-				sType = "SPECIAL ABILITY TAUNT";
-			break;
-			case SPECIAL_ABILITY_WHIRLING_DERVISH:
-				sType = "SPECIAL ABILITY WHIRLING DERVISH";
-			break;
-			case SPECIAL_ABILITY_RAGE:
-				sType = "SPECIAL ABILITY RAGE";
-			break;
+			case FORCE_POWER_ALL_FORCE_POWERS: return "INVALID / IMMUNITY";
+			case FORCE_POWER_MASTER_ALTER: return "MASTER ALTER";
+			case FORCE_POWER_MASTER_CONTROL: return "MASTER CONTROL";
+			case FORCE_POWER_MASTER_SENSE: return "MASTER SENSE";
+			case FORCE_POWER_FORCE_JUMP_ADVANCED: return "FORCE JUMP ADVANCED";
+			case FORCE_POWER_LIGHT_SABER_THROW_ADVANCED: return "LIGHTSABER THROW ADVANCED";
+			case FORCE_POWER_REGNERATION_ADVANCED: return "REGNERATION ADVANCED";
+			case FORCE_POWER_AFFECT_MIND: return "AFFECT MIND";
+			case FORCE_POWER_AFFLICTION: return "AFFLICTION";
+			case FORCE_POWER_SPEED_BURST: return "BURST OF SPEED";
+			case FORCE_POWER_CHOKE: return "CHOKE";
+			case FORCE_POWER_CURE: return "CURE";
+			case FORCE_POWER_DEATH_FIELD: return "DEATH FIELD";
+			case FORCE_POWER_DROID_DISABLE: return "DISABLE DROID";
+			case FORCE_POWER_DROID_DESTROY: return "DESTROY DROID";
+			case FORCE_POWER_DOMINATE: return "DOMINATE";
+			case FORCE_POWER_DRAIN_LIFE: return "DRAIN LIFE";
+			case FORCE_POWER_FEAR: return "FEAR";
+			case FORCE_POWER_FORCE_ARMOR: return "FORCE ARMOR";
+			case FORCE_POWER_FORCE_AURA: return "FORCE AURA";
+			case FORCE_POWER_FORCE_BREACH: return "FORCE BREACH";
+			case FORCE_POWER_FORCE_IMMUNITY: return "FORCE IMMUNITY";
+			case FORCE_POWER_FORCE_JUMP: return "FORCE JUMP";
+			case FORCE_POWER_FORCE_MIND: return "FORCE MIND";
+			case FORCE_POWER_FORCE_PUSH: return "FORCE PUSH";
+			case FORCE_POWER_FORCE_SHIELD: return "FORCE SHIELD";
+			case FORCE_POWER_FORCE_STORM: return "FORCE STORM";
+			case FORCE_POWER_FORCE_WAVE: return "FORCE WAVE";
+			case FORCE_POWER_FORCE_WHIRLWIND: return "FORCE WHIRLWIND";
+			case FORCE_POWER_HEAL: return "HEAL";
+			case FORCE_POWER_HOLD: return "HOLD";
+			case FORCE_POWER_HORROR: return "HORROR";
+			case FORCE_POWER_INSANITY: return "INSANITY";
+			case FORCE_POWER_KILL: return "KILL";
+			case FORCE_POWER_KNIGHT_MIND: return "KNIGHT MIND";
+			case FORCE_POWER_KNIGHT_SPEED: return "KNIGHT SPEED";
+			case FORCE_POWER_LIGHTNING: return "LIGHTNING";
+			case FORCE_POWER_MIND_MASTERY: return "MIND MASTERY";
+			case FORCE_POWER_SPEED_MASTERY: return "SPEED MASTERY";
+			case FORCE_POWER_PLAGUE: return "PLAGUE";
+			case FORCE_POWER_REGENERATION: return "REGENERATION";
+			case FORCE_POWER_RESIST_COLD_HEAT_ENERGY: return "RESIST COLD / HEAT / ENERGY";
+			case FORCE_POWER_RESIST_FORCE: return "RESIST FORCE";
+			case FORCE_POWER_RESIST_POISON_DISEASE_SONIC: return "RESIST POISON / DISEASE / SONIC";
+			case FORCE_POWER_SHOCK: return "SHOCK";
+			case FORCE_POWER_SLEEP: return "SLEEP";
+			case FORCE_POWER_SLOW: return "SLOW";
+			case FORCE_POWER_STUN: return "STUN";
+			case FORCE_POWER_DROID_STUN: return "STUN DROID";
+			case FORCE_POWER_SUPRESS_FORCE: return "SUPRESS FORCE";
+			case FORCE_POWER_LIGHT_SABER_THROW: return "LIGHTSABER THROW";
+			case FORCE_POWER_WOUND: return "WOUND";
+			case SPECIAL_ABILITY_BATTLE_MEDITATION: return "SPECIAL ABILITY BATTLE MEDITATION";
+			case SPECIAL_ABILITY_BODY_FUEL: return "SPECIAL ABILITY BODY FUEL";
+			case SPECIAL_ABILITY_COMBAT_REGENERATION: return "SPECIAL ABILITY COMBAT REGENERATION";
+			case SPECIAL_ABILITY_WARRIOR_STANCE: return "SPECIAL ABILITY WARRIOR STANCE";
+			case SPECIAL_ABILITY_SENTINEL_STANCE: return "SPECIAL ABILITY SENTINEL STANCE";
+			case SPECIAL_ABILITY_DOMINATE_MIND: return "SPECIAL ABILITY DOMINATE MIND";
+			case SPECIAL_ABILITY_PSYCHIC_STANCE: return "SPECIAL ABILITY PSYCHIC STANCE";
+			case SPECIAL_ABILITY_CATHAR_REFLEXES: return "SPECIAL ABILITY CATHAR REFLEXES";
+			case SPECIAL_ABILITY_ENHANCED_SENSES: return "SPECIAL ABILITY ENHANCED SENSES";
+			case SPECIAL_ABILITY_CAMOFLAGE: return "SPECIAL ABILITY CAMOFLAGE";
+			case SPECIAL_ABILITY_TAUNT: return "SPECIAL ABILITY TAUNT";
+			case SPECIAL_ABILITY_WHIRLING_DERVISH: return "SPECIAL ABILITY WHIRLING DERVISH";
+			case SPECIAL_ABILITY_RAGE: return "SPECIAL ABILITY RAGE";
 		}
 	
-	return sType;
+	return "INVALID VALUE (" + IntToString(nType) + ")";
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -780,271 +508,98 @@ string CP_SpellType(effect eEffect) {
 //////////////////////////////////////////////////////////////////////////////////
 string CP_ItemType(object oItem) {
 	int nItem = GetBaseItemType(oItem);
-	string sType;
 	
 	switch (nItem)
 		{
-			case BASE_ITEM_INVALID:
-				sType = "INVALID";
-			break;
-			case BASE_ITEM_QUARTER_STAFF:
-				sType = "QUARTER STAFF";
-			break;
-			case BASE_ITEM_STUN_BATON:
-				sType = "STUN BATON";
-			break;
-			case BASE_ITEM_LONG_SWORD:
-				sType = "LONG SWORD";
-			break;
-			case BASE_ITEM_VIBRO_SWORD:
-				sType = "VIBROSWORD";
-			break;
-			case BASE_ITEM_SHORT_SWORD:
-				sType = "SHORT SWORD";
-			break;
-			case BASE_ITEM_VIBRO_BLADE:
-				sType = "VIBROBLADE";
-			break;
-			case BASE_ITEM_DOUBLE_BLADED_SWORD:
-				sType = "DOUBLE BLADED SWORD";
-			break;
-			case BASE_ITEM_VIBRO_DOUBLE_BLADE:
-				sType = "VIBRO DOUBLEBLADE";
-			break;
-			case BASE_ITEM_LIGHTSABER:
-				sType = "LIGHTSABER";
-			break;
-			case BASE_ITEM_DOUBLE_BLADED_LIGHTSABER:
-				sType = "DOUBLE BLADED LIGHTSABER";
-			break;
-			case BASE_ITEM_SHORT_LIGHTSABER:
-				sType = "SHORT LIGHTSABER";
-			break;
-			case BASE_ITEM_LIGHTSABER_CRYSTALS:
-				sType = "LIGHTSABER CRYSTAL";
-			break;
-			case BASE_ITEM_BLASTER_PISTOL:
-				sType = "BLASTER PISTOL";
-			break;
-			case BASE_ITEM_HEAVY_BLASTER:
-				sType = "HEAVY BLASTER";
-			break;
-			case BASE_ITEM_HOLD_OUT_BLASTER:
-				sType = "HOLDOUT BLASTER";
-			break;
-			case BASE_ITEM_ION_BLASTER:
-				sType = "ION BLASTER";
-			break;
-			case BASE_ITEM_DISRUPTER_PISTOL:
-				sType = "DISRUPTER PISTOL";
-			break;
-			case BASE_ITEM_SONIC_PISTOL:
-				sType = "SONIC PISTOL";
-			break;
-			case BASE_ITEM_ION_RIFLE:
-				sType = "ION RIFLE";
-			break;
-			case BASE_ITEM_BOWCASTER:
-				sType = "BOWCASTER";
-			break;
-			case BASE_ITEM_BLASTER_CARBINE:
-				sType = "BLASTER CARBINE";
-			break;
-			case BASE_ITEM_DISRUPTER_RIFLE:
-				sType = "DISRUPTER RIFLE";
-			break;
-			case BASE_ITEM_SONIC_RIFLE:
-				sType = "SONIC RIFLE";
-			break;
-			case BASE_ITEM_REPEATING_BLASTER:
-				sType = "REPEATING BLASTER RIFLE";
-			break;
-			case BASE_ITEM_HEAVY_REPEATING_BLASTER:
-				sType = "HEAVY REPEATING BLASTER";
-			break;
-			case BASE_ITEM_FRAGMENTATION_GRENADES:
-				sType = "FRAGMENTATION GRENADE";
-			break;
-			case BASE_ITEM_STUN_GRENADES:
-				sType = "STUN GRENADE";
-			break;
-			case BASE_ITEM_THERMAL_DETONATOR:
-				sType = "THERMAL DETONATOR";
-			break;
-			case BASE_ITEM_POISON_GRENADE:
-				sType = "POISON GRENADE";
-			break;
-			case BASE_ITEM_FLASH_GRENADE:
-				sType = "FLASH GRENADE";
-			break;
-			case BASE_ITEM_SONIC_GRENADE:
-				sType = "SONIC GRENADE";
-			break;
-			case BASE_ITEM_ADHESIVE_GRENADE:
-				sType = "ADHESIVE GRENADE";
-			break;
-			case BASE_ITEM_CRYOBAN_GRENADE:
-				sType = "CRYOBAN GRENADE";
-			break;
-			case BASE_ITEM_FIRE_GRENADE:
-				sType = "FIRE GRENADE";
-			break;
-			case BASE_ITEM_ION_GRENADE:
-				sType = "ION GRENADE";
-			break;
-			case BASE_ITEM_JEDI_ROBE:
-				sType = "JEDI ROBE";
-			break;
-			case BASE_ITEM_JEDI_KNIGHT_ROBE:
-				sType = "JEDI KNIGHT ROBE";
-			break;
-			case BASE_ITEM_JEDI_MASTER_ROBE:
-				sType = "JEDI MASTER ROBE";
-			break;
-			case BASE_ITEM_ARMOR_CLASS_4:
-				sType = "ARMOUR CLASS 4";
-			break;
-			case BASE_ITEM_ARMOR_CLASS_5:
-				sType = "ARMOUR CLASS 5";
-			break;
-			case BASE_ITEM_ARMOR_CLASS_6:
-				sType = "ARMOUR CLASS 6";
-			break;
-			case BASE_ITEM_ARMOR_CLASS_7:
-				sType = "ARMOUR CLASS 7";
-			break;
-			case BASE_ITEM_ARMOR_CLASS_8:
-				sType = "ARMOUR CLASS 8";
-			break;
-			case BASE_ITEM_ARMOR_CLASS_9:
-				sType = "ARMOUR CLASS 9";
-			break;
-			case BASE_ITEM_MASK:
-				sType = "MASK";
-			break;
-			case BASE_ITEM_GAUNTLETS:
-				sType = "GLOVES";
-			break;
-			case BASE_ITEM_FOREARM_BANDS:
-				sType = "FOREARM SHIELD";
-			break;
-			case BASE_ITEM_BELT:
-				sType = "BELT";
-			break;
-			case BASE_ITEM_IMPLANT_1:
-				sType = "IMPLANT LVL 1";
-			break;
-			case BASE_ITEM_IMPLANT_2:
-				sType = "IMPLANT LVL 2";
-			break;
-			case BASE_ITEM_IMPLANT_3:
-				sType = "IMPLANT LVL 3";
-			break;
-			case BASE_ITEM_DATA_PAD:
-				sType = "DATAPAD";
-			break;
-			case BASE_ITEM_ADRENALINE:
-				sType = "ADRENALINE";
-			break;
-			case BASE_ITEM_COMBAT_SHOTS:
-				sType = "COMBAT SHOT";
-			break;
-			case BASE_ITEM_MEDICAL_EQUIPMENT:
-				sType = "MEDICAL EQUIPMENT";
-			break;
-			case BASE_ITEM_DROID_REPAIR_EQUIPMENT:
-				sType = "DROID REPAIR EQUIPMENT";
-			break;
-			case BASE_ITEM_CREDITS:
-				sType = "CREDITS";
-			break;
-			case BASE_ITEM_TRAP_KIT:
-				sType = "MINE";
-			break;
-			case BASE_ITEM_SECURITY_SPIKES:
-				sType = "SECURITY SPIKES";
-			break;
-			case BASE_ITEM_PROGRAMMING_SPIKES:
-				sType = "PROGRAMMING SPIKES";
-			break;
-			case BASE_ITEM_GLOW_ROD:
-				sType = "GLOW ROD";
-			break;
-			case BASE_ITEM_COLLAR_LIGHT:
-				sType = "COLLAR LIGHT";
-			break;
-			case BASE_ITEM_TORCH:
-				sType = "TORCH";
-			break;
-			case BASE_ITEM_PLOT_USEABLE_ITEMS:
-				sType = "PLOT USEABLE";
-			break;
-			case BASE_ITEM_AESTHETIC_ITEM:
-				sType = "AESTHETIC";
-			break;
-			case BASE_ITEM_DROID_LIGHT_PLATING:
-				sType = "DROID LIGHT PLATING";
-			break;
-			case BASE_ITEM_DROID_MEDIUM_PLATING:
-				sType = "DROID MEDIUM PLATING";
-			break;
-			case BASE_ITEM_DROID_HEAVY_PLATING:
-				sType = "DROID HEAVY PLATING";
-			break;
-			case BASE_ITEM_DROID_SEARCH_SCOPE:
-				sType = "DROID SEARCH SCOPE";
-			break;
-			case BASE_ITEM_DROID_MOTION_SENSORS:
-				sType = "DROID MOTION SENSOR";
-			break;
-			case BASE_ITEM_DROID_SONIC_SENSORS:
-				sType = "DROID SONIC SENSOR";
-			break;
-			case BASE_ITEM_DROID_TARGETING_COMPUTERS:
-				sType = "DROID TARGETING COMPUTER";
-			break;
-			case BASE_ITEM_DROID_COMPUTER_SPIKE_MOUNT:
-				sType = "DROID COMPUTER SPIKE";
-			break;
-			case BASE_ITEM_DROID_SECURITY_SPIKE_MOUNT:
-				sType = "DROID SECURITY SPIKE";
-			break;
-			case BASE_ITEM_DROID_SHIELD:
-				sType = "DROID SHIELD";
-			break;
-			case BASE_ITEM_DROID_UTILITY_DEVICE:
-				sType = "DROID UTILITY DEVICE";
-			break;
-			case BASE_ITEM_BLASTER_RIFLE:
-				sType = "BLASTER RIFLE";
-			break;
-			case BASE_ITEM_GHAFFI_STICK:
-				sType = "GAFFI STICK";
-			break;
-			case BASE_ITEM_WOOKIE_WARBLADE:
-				sType = "WOOKIE WARBLADE";
-			break;
-			case BASE_ITEM_GAMMOREAN_BATTLEAXE:
-				sType = "GAMMOREAN BATTLEAXE";
-			break;
-			case BASE_ITEM_CREATURE_ITEM_SLASH:
-				sType = "CREATURE WEAPON SLASH";
-			break;
-			case BASE_ITEM_CREATURE_ITEM_PIERCE:
-				sType = "CREATURE WEAPON PIERCE";
-			break;
-			case BASE_ITEM_CREATURE_WEAPON_SL_PRC:
-				sType = "CREATURE WEAPON SLASH / PIERCE";
-			break;
-			case BASE_ITEM_CREATURE_HIDE_ITEM:
-				sType = "CREATURE HIDE";
-			break;
-			case BASE_ITEM_BASIC_CLOTHING:
-				sType = "BASIC CLOTHING";
-			break;
+			case BASE_ITEM_INVALID: return "INVALID";
+			case BASE_ITEM_QUARTER_STAFF: return "QUARTER STAFF";
+			case BASE_ITEM_STUN_BATON: return "STUN BATON";
+			case BASE_ITEM_LONG_SWORD: return "LONG SWORD";
+			case BASE_ITEM_VIBRO_SWORD: return "VIBROSWORD";
+			case BASE_ITEM_SHORT_SWORD: return "SHORT SWORD";
+			case BASE_ITEM_VIBRO_BLADE: return "VIBROBLADE";
+			case BASE_ITEM_DOUBLE_BLADED_SWORD: return "DOUBLE BLADED SWORD";
+			case BASE_ITEM_VIBRO_DOUBLE_BLADE: return "VIBRO DOUBLEBLADE";
+			case BASE_ITEM_LIGHTSABER: return "LIGHTSABER";
+			case BASE_ITEM_DOUBLE_BLADED_LIGHTSABER: return "DOUBLE BLADED LIGHTSABER";
+			case BASE_ITEM_SHORT_LIGHTSABER: return "SHORT LIGHTSABER";
+			case BASE_ITEM_LIGHTSABER_CRYSTALS: return "LIGHTSABER CRYSTAL";
+			case BASE_ITEM_BLASTER_PISTOL: return "BLASTER PISTOL";
+			case BASE_ITEM_HEAVY_BLASTER: return "HEAVY BLASTER";
+			case BASE_ITEM_HOLD_OUT_BLASTER: return "HOLDOUT BLASTER";
+			case BASE_ITEM_ION_BLASTER: return "ION BLASTER";
+			case BASE_ITEM_DISRUPTER_PISTOL: return "DISRUPTER PISTOL";
+			case BASE_ITEM_SONIC_PISTOL: return "SONIC PISTOL";
+			case BASE_ITEM_ION_RIFLE: return "ION RIFLE";
+			case BASE_ITEM_BOWCASTER: return "BOWCASTER";
+			case BASE_ITEM_BLASTER_CARBINE: return "BLASTER CARBINE";
+			case BASE_ITEM_DISRUPTER_RIFLE: return "DISRUPTER RIFLE";
+			case BASE_ITEM_SONIC_RIFLE: return "SONIC RIFLE";
+			case BASE_ITEM_REPEATING_BLASTER: return "REPEATING BLASTER RIFLE";
+			case BASE_ITEM_HEAVY_REPEATING_BLASTER: return "HEAVY REPEATING BLASTER";
+			case BASE_ITEM_FRAGMENTATION_GRENADES: return "FRAGMENTATION GRENADE";
+			case BASE_ITEM_STUN_GRENADES: return "STUN GRENADE";
+			case BASE_ITEM_THERMAL_DETONATOR: return "THERMAL DETONATOR";
+			case BASE_ITEM_POISON_GRENADE: return "POISON GRENADE";
+			case BASE_ITEM_FLASH_GRENADE: return "FLASH GRENADE";
+			case BASE_ITEM_SONIC_GRENADE: return "SONIC GRENADE";
+			case BASE_ITEM_ADHESIVE_GRENADE: return "ADHESIVE GRENADE";
+			case BASE_ITEM_CRYOBAN_GRENADE: return "CRYOBAN GRENADE";
+			case BASE_ITEM_FIRE_GRENADE: return "FIRE GRENADE";
+			case BASE_ITEM_ION_GRENADE: return "ION GRENADE";
+			case BASE_ITEM_JEDI_ROBE: return "JEDI ROBE";
+			case BASE_ITEM_JEDI_KNIGHT_ROBE: return "JEDI KNIGHT ROBE";
+			case BASE_ITEM_JEDI_MASTER_ROBE: return "JEDI MASTER ROBE";
+			case BASE_ITEM_ARMOR_CLASS_4: return "ARMOUR CLASS 4";
+			case BASE_ITEM_ARMOR_CLASS_5: return "ARMOUR CLASS 5";
+			case BASE_ITEM_ARMOR_CLASS_6: return "ARMOUR CLASS 6";
+			case BASE_ITEM_ARMOR_CLASS_7: return "ARMOUR CLASS 7";
+			case BASE_ITEM_ARMOR_CLASS_8: return "ARMOUR CLASS 8";
+			case BASE_ITEM_ARMOR_CLASS_9: return "ARMOUR CLASS 9";
+			case BASE_ITEM_MASK: return "MASK";
+			case BASE_ITEM_GAUNTLETS: return "GLOVES";
+			case BASE_ITEM_FOREARM_BANDS: return "FOREARM SHIELD";
+			case BASE_ITEM_BELT: return "BELT";
+			case BASE_ITEM_IMPLANT_1: return "IMPLANT LVL 1";
+			case BASE_ITEM_IMPLANT_2: return "IMPLANT LVL 2";
+			case BASE_ITEM_IMPLANT_3: return "IMPLANT LVL 3";
+			case BASE_ITEM_DATA_PAD: return "DATAPAD";
+			case BASE_ITEM_ADRENALINE: return "ADRENALINE";
+			case BASE_ITEM_COMBAT_SHOTS: return "COMBAT SHOT";
+			case BASE_ITEM_MEDICAL_EQUIPMENT: return "MEDICAL EQUIPMENT";
+			case BASE_ITEM_DROID_REPAIR_EQUIPMENT: return "DROID REPAIR EQUIPMENT";
+			case BASE_ITEM_CREDITS: return "CREDITS";
+			case BASE_ITEM_TRAP_KIT: return "MINE";
+			case BASE_ITEM_SECURITY_SPIKES: return "SECURITY SPIKES";
+			case BASE_ITEM_PROGRAMMING_SPIKES: return "PROGRAMMING SPIKES";
+			case BASE_ITEM_GLOW_ROD: return "GLOW ROD";
+			case BASE_ITEM_COLLAR_LIGHT: return "COLLAR LIGHT";
+			case BASE_ITEM_TORCH: return "TORCH";
+			case BASE_ITEM_PLOT_USEABLE_ITEMS: return "PLOT USEABLE";
+			case BASE_ITEM_AESTHETIC_ITEM: return "AESTHETIC";
+			case BASE_ITEM_DROID_LIGHT_PLATING: return "DROID LIGHT PLATING";
+			case BASE_ITEM_DROID_MEDIUM_PLATING: return "DROID MEDIUM PLATING";
+			case BASE_ITEM_DROID_HEAVY_PLATING: return "DROID HEAVY PLATING";
+			case BASE_ITEM_DROID_SEARCH_SCOPE: return "DROID SEARCH SCOPE";
+			case BASE_ITEM_DROID_MOTION_SENSORS: return "DROID MOTION SENSOR";
+			case BASE_ITEM_DROID_SONIC_SENSORS: return "DROID SONIC SENSOR";
+			case BASE_ITEM_DROID_TARGETING_COMPUTERS: return "DROID TARGETING COMPUTER";
+			case BASE_ITEM_DROID_COMPUTER_SPIKE_MOUNT: return "DROID COMPUTER SPIKE";
+			case BASE_ITEM_DROID_SECURITY_SPIKE_MOUNT: return "DROID SECURITY SPIKE";
+			case BASE_ITEM_DROID_SHIELD: return "DROID SHIELD";
+			case BASE_ITEM_DROID_UTILITY_DEVICE: return "DROID UTILITY DEVICE";
+			case BASE_ITEM_BLASTER_RIFLE: return "BLASTER RIFLE";
+			case BASE_ITEM_GHAFFI_STICK: return "GAFFI STICK";
+			case BASE_ITEM_WOOKIE_WARBLADE: return "WOOKIE WARBLADE";
+			case BASE_ITEM_GAMMOREAN_BATTLEAXE: return "GAMMOREAN BATTLEAXE";
+			case BASE_ITEM_CREATURE_ITEM_SLASH: return "CREATURE WEAPON SLASH";
+			case BASE_ITEM_CREATURE_ITEM_PIERCE: return "CREATURE WEAPON PIERCE";
+			case BASE_ITEM_CREATURE_WEAPON_SL_PRC: return "CREATURE WEAPON SLASH / PIERCE";
+			case BASE_ITEM_CREATURE_HIDE_ITEM: return "CREATURE HIDE";
+			case BASE_ITEM_BASIC_CLOTHING: return "BASIC CLOTHING";
 		}
 	
-	return sType;
+	return "INVALID VALUE (" + IntToString(nItem) + ")";
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -1057,76 +612,33 @@ string CP_ItemType(object oItem) {
 //////////////////////////////////////////////////////////////////////////////////
 string CP_GetFaction(object oTarget) {
 	int nFaction = GetStandardFaction(oTarget);
-	string sFac;
 	
 	switch (nFaction)
 		{
-			case INVALID_STANDARD_FACTION:
-				sFac = "INVALID";
-			break;
-			case STANDARD_FACTION_HOSTILE_1:
-				sFac = "HOSTILE 1";
-			break;
-			case STANDARD_FACTION_FRIENDLY_1:
-				sFac = "FRIENDLY 1";
-			break;
-			case STANDARD_FACTION_HOSTILE_2:
-				sFac = "HOSTILE 2";
-			break;
-			case STANDARD_FACTION_FRIENDLY_2:
-				sFac = "FRIENDLY 2";
-			break;
-			case STANDARD_FACTION_NEUTRAL:
-				sFac = "NEUTRAL";
-			break;
-			case STANDARD_FACTION_INSANE:
-				sFac = "INSANE";
-			break;
-			case STANDARD_FACTION_PTAT_TUSKAN:
-				sFac = "SAND PEOPLE";
-			break;
-			case STANDARD_FACTION_GLB_XOR:
-				sFac = "XOR";
-			break;
-			case STANDARD_FACTION_SURRENDER_1:
-				sFac = "SURRENDER 1";
-			break;
-			case STANDARD_FACTION_SURRENDER_2:
-				sFac = "SURRENDER 2";
-			break;
-			case STANDARD_FACTION_PREDATOR:
-				sFac = "PREDATOR";
-			break;
-			case STANDARD_FACTION_PREY:
-				sFac = "PREY";
-			break;
-			case STANDARD_FACTION_TRAP:
-				sFac = "TRAP";
-			break;
-			case STANDARD_FACTION_ENDAR_SPIRE:
-				sFac = "ENDAR SPIRE";
-			break;
-			case STANDARD_FACTION_RANCOR:
-				sFac = "RANCOR";
-			break;
-			case STANDARD_FACTION_GIZKA_1:
-				sFac = "GIZKA 1";
-			break;
-			case STANDARD_FACTION_GIZKA_2:
-				sFac = "GIZKA 2";
-			break;
-			case 18: // STANDARD_FACTION_CZERKA
-				sFac = "CZERKA";
-			break;
-			case 19: // STANDARD_FACTION_ZONE_CONTROLLER
-				sFac = "ZONE CONTROLLER";
-			break;
-			case 20: // STANDARD_FACTION_SACRIFICE
-				sFac = "SACRIFICE";
-			break;
+			case INVALID_STANDARD_FACTION: return "INVALID";
+			case STANDARD_FACTION_HOSTILE_1: return "HOSTILE 1";
+			case STANDARD_FACTION_FRIENDLY_1: return "FRIENDLY 1";
+			case STANDARD_FACTION_HOSTILE_2: return "HOSTILE 2";
+			case STANDARD_FACTION_FRIENDLY_2: return "FRIENDLY 2";
+			case STANDARD_FACTION_NEUTRAL: return "NEUTRAL";
+			case STANDARD_FACTION_INSANE: return "INSANE";
+			case STANDARD_FACTION_PTAT_TUSKAN: return "SAND PEOPLE";
+			case STANDARD_FACTION_GLB_XOR: return "XOR";
+			case STANDARD_FACTION_SURRENDER_1: return "SURRENDER 1";
+			case STANDARD_FACTION_SURRENDER_2: return "SURRENDER 2";
+			case STANDARD_FACTION_PREDATOR: return "PREDATOR";
+			case STANDARD_FACTION_PREY: return "PREY";
+			case STANDARD_FACTION_TRAP: return "TRAP";
+			case STANDARD_FACTION_ENDAR_SPIRE: return "ENDAR SPIRE";
+			case STANDARD_FACTION_RANCOR: return "RANCOR";
+			case STANDARD_FACTION_GIZKA_1: return "GIZKA 1";
+			case STANDARD_FACTION_GIZKA_2: return "GIZKA 2";
+			case 18: return "CZERKA"; // STANDARD_FACTION_CZERKA
+			case 19: return "ZONE CONTROLLER"; // STANDARD_FACTION_ZONE_CONTROLLER
+			case 20: return "SACRIFICE"; // STANDARD_FACTION_SACRIFICE
 		}
 	
-	return sFac;
+	return "INVALID VALUE (" + IntToString(nFaction) + ")";
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -1180,7 +692,102 @@ string CP_GetGlobalState(string sGlobal, int bIsBoolean = TRUE) {
 }
 
 //////////////////////////////////////////////////////////////////////////////////
-/*	CP_GetGlobalState()
+/*	CP_GetLocalState()
+	
+	Returns a string that reports the state of the supplied local boolean on the
+	target object. Effectively a modified version of GN_GetSpawnInCondition from
+	k_inc_walkways.
+	
+	DP 2023-12-20																*/
+//////////////////////////////////////////////////////////////////////////////////
+string CP_GetLocalBoolState(object oNPC, int nIndex) {
+	int nLocal = GetLocalBoolean(oNPC, nIndex);
+	
+	if (nLocal > 0)
+		{
+			return CP_GetLocalBoolName(nIndex) + " = TRUE";
+		}
+		else
+			{
+				return CP_GetLocalBoolName(nIndex) + " = FALSE";
+			}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_GetLocalBoolName()
+	
+	Returns a string for the name of the supplied local boolean flag.
+	
+	DP 2023-12-20																*/
+//////////////////////////////////////////////////////////////////////////////////
+string CP_GetLocalBoolName(int nIndex) {
+	switch (nIndex)
+		{
+			case 0: return "SW_PLOT_BOOLEAN_01";
+			case 1: return "SW_PLOT_BOOLEAN_02";
+			case 2: return "SW_PLOT_BOOLEAN_03";
+			case 3: return "SW_PLOT_BOOLEAN_04";
+			case 4: return "SW_PLOT_BOOLEAN_05";
+			case 5: return "SW_PLOT_BOOLEAN_06";
+			case 6: return "SW_PLOT_BOOLEAN_07";
+			case 7: return "SW_PLOT_BOOLEAN_08";
+			case 8: return "SW_PLOT_BOOLEAN_09";
+			case 9: return "SW_PLOT_BOOLEAN_10";
+			case 10: return "SW_PLOT_HAS_TALKED_TO";
+			case 11: return "SW_PLOT_COMPUTER_OPEN_DOORS";
+			case 12: return "SW_PLOT_COMPUTER_USE_GAS";
+			case 13: return "SW_PLOT_COMPUTER_DEACTIVATE_TURRETS";
+			case 14: return "SW_PLOT_COMPUTER_DEACTIVATE_DROIDS";
+			case 15: return "SW_PLOT_COMPUTER_MODIFY_DROID";
+			case 16: return "SW_PLOT_REPAIR_WEAPONS";
+			case 17: return "SW_PLOT_REPAIR_TARGETING_COMPUTER";
+			case 18: return "SW_PLOT_REPAIR_SHIELDS";
+			case 19: return "SW_PLOT_REPAIR_ACTIVATE_PATROL_ROUTE";
+			case 20: return "SW_FLAG_EVENT_ON_PERCEPTION";
+			case 21: return "SW_FLAG_EVENT_ON_ATTACKED";
+			case 22: return "SW_FLAG_EVENT_ON_DAMAGED";
+			case 23: return "SW_FLAG_EVENT_ON_FORCE_AFFECTED";
+			case 24: return "SW_FLAG_EVENT_ON_DISTURBED";
+			case 25: return "SW_FLAG_EVENT_ON_COMBAT_ROUND_END";
+			case 26: return "SW_FLAG_EVENT_ON_DIALOGUE";
+			case 27: return "SW_FLAG_EVENT_ON_DEATH";
+			case 28: return "SW_FLAG_EVENT_ON_HEARTBEAT";
+			case 29: return "SW_FLAG_AMBIENT_ANIMATIONS";
+			case 30: return "SW_FLAG_AMBIENT_ANIMATIONS_MOBILE";
+			case 34: return "SW_FLAG_WAYPOINT_WALK_ONCE";
+			case 35: return "SW_FLAG_WAYPOINT_WALK_CIRCULAR";
+			case 36: return "SW_FLAG_WAYPOINT_WALK_PATH";
+			case 37: return "SW_FLAG_WAYPOINT_WALK_STOP";
+			case 38: return "SW_FLAG_WAYPOINT_WALK_RANDOM";
+			case 39: return "SW_FLAG_WAYPOINT_WALK_RUN";
+			case 41: return "SW_FLAG_WAYPOINT_DIRECTION";
+			case 42: return "SW_FLAG_WAYPOINT_DEACTIVATE";
+			case 44: return "SW_FLAG_EVENT_ON_SPELL_CAST_AT";
+			case 45: return "SW_FLAG_EVENT_ON_BLOCKED";
+			case 46: return "SW_FLAG_WAYPOINT_WALK_STOP_LONG";
+			case 47: return "SW_FLAG_WAYPOINT_WALK_STOP_RANDOM";
+			case 48: return "SW_FLAG_ON_DIALOGUE_COMPUTER";
+			case 59: return "SW_FLAG_TARGET_FRIEND";
+			case 60: return "SW_FLAG_COMMONER_BEHAVIOR";
+			case 61: return "SW_FLAG_SPECTATOR_STATE";
+			case 62: return "SW_FLAG_AI_OFF";
+			case 63: return "SW_CANDEROUS_COMBAT_REGEN";
+			case 64: return "SW_FLAG_BOSS_AI";
+			case 65: return "SW_FLAG_SHIELD_USED";
+			case 66: return "SW_FLAG_EVENT_ON_DIALOGUE_END";
+			case 67: return "SW_FLAG_RESISTANCES_APPLIED";
+			case 68: return "SW_FLAG_EVENT_DIALOGUE_END";
+			case 69: return "SW_FLAG_STATE_AGITATED";
+			case 70: return "SW_FLAG_MALAK_AI_ON";
+			case 71: return "SW_FLAG_DYNAMIC_COMBAT_ZONE";
+			case 72: return "SW_FLAG_EVENT_ON_DIALOGUE_INTERRUPT";
+		}
+	
+	return "UNKNOWN FLAG (" + IntToString(nIndex) + ")";
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_GetStarMapState()
 	
 	Returns a string that reports the current stage of Star Map progression.
 	
@@ -1223,4 +830,36 @@ string CP_NPCAIState(object oNPC) {
 			}
 	
 	return CP_NPCName(oNPC) + "'S AI STATE IS CURRENTLY SET TO " + sState;
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_FloatToString()
+	
+	Returns the input float as a trimmed string, since the use of FloatToString
+	by itself introduces an unwanted carriage return. Credit to Star Admiral's
+	Utility Armbands mod for the idea.
+	
+	DP 2023-12-20																*/
+//////////////////////////////////////////////////////////////////////////////////
+string CP_FloatToString(float fFloat) {
+	string sFloat = FloatToString(fFloat, 6, 6);
+	string sTrim = GetStringLeft(sFloat, GetStringLength(sFloat) - 1);
+	
+	return sTrim;
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/*	CP_LocationToString()
+	
+	Returns the input location as a string. Credit to Star Admiral's Utility
+	Armbands mod for the idea.
+	
+	DP 2023-12-20																*/
+//////////////////////////////////////////////////////////////////////////////////
+string CP_LocationToString(location lLoc) {
+	vector vLoc = GetPositionFromLocation(lLoc);
+	float fFace = GetFacingFromLocation(lLoc);
+	string sLoc = "Location(Vector(" + CP_FloatToString(vLoc.x) + ", " + CP_FloatToString(vLoc.y) + ", " + CP_FloatToString(vLoc.z) + "), " + CP_FloatToString(fFace) + ")";
+	
+	return sLoc;
 }
