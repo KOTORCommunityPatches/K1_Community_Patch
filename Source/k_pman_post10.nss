@@ -1,16 +1,22 @@
 ////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
-	EndConversation/EndConverAbort for man26_pcexile.dlg in manm26aa (Manaan Ahto West).
+	EndConversation/EndConverAbort for man26_pcexile.dlg in manm26aa (Manaan
+	Ahto West).
 	
 	This script fires on the exit of the player's post-Hrakert Rift trial. The
-	vanilla script had some deficiencies, so it has been adjusted to bring it in
-	line with the other post-trial scripts.
+	vanilla script had some deficiencies, so it has been adjusted to bring it
+	in-line with the other post-trial scripts.
+	
+	Updated 2023-12-19 to jump the Sith and Republic lawyers into their correct
+	positions (they were previously swapped).
+	
+	See also k_pman_post07, k_pman_pc03.
 	
 	Issue #136: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/136
 	
-	DP 2023-12-12																*/
+	DP 2023-12-12 / DP 2023-12-19												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -46,8 +52,8 @@ void main() {
 				NoClicksFor(1.5);
 				
 				SetLockOrientationInDialog(oSithDip, FALSE);
-				AssignCommand(oRepDip, JumpToLocation(lSith));
-				AssignCommand(oSithDip, JumpToLocation(lRep));
+				AssignCommand(oRepDip, JumpToLocation(lRep));
+				AssignCommand(oSithDip, JumpToLocation(lSith));
 				
 				oJudge = GetObjectByTag("man26_seljud" + IntToString(nCnt));
 				

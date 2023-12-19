@@ -163,7 +163,7 @@
 * Corrected facing, adjusted camera angles, and wrangled party for scene of Shaardan terrorising students in Korriban Dreshdae
 * Jumped the party and herded ambient NPCs out of the way for conversations with Gendar in the Taris Undercity
 * Made the Republic soldier killed by the exploding barrel on the Endar Spire Command Module die immediately
-* Adjusted and locked the facing of the judges and the player during the post-Hrakert Rift trial in Manaan Ahto West
+* Adjusted and locked the facing of the judges and the player, positioned the party appropriately, and adjusted camera angles during the post-Hrakert Rift trial in Manaan Ahto West
 * Corrected the deactivate SFX for the Star Map placeable declared in the placeable sounds 2DA
 * Ensured that the Star Map in Manaan Hrakert Rift ran the appropriate animation and then closed afterwards to match the other maps
 * Jumped the party into a better position for the scene with the Duros conservationist in the Tatooine Czerka Office
