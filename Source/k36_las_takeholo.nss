@@ -10,9 +10,15 @@
 	where she will mimic looting Brejik's corpse after the Mother sets a global
 	location for her corpse's position.
 	
+	Updated 2023-12-20 to have Lashowe face the PC before walking to them, to
+	prevent her moonwalking if the PC is behind her and in close proximity.
+	
 	See also cp_kor36_lashtrn, k36_ud_tukqueen.
 	
-	DP 2023-12-07																*/
+	Issue #163: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163
+	
+	DP 2023-12-07 / DP 2023-12-20												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 void main() {
@@ -25,14 +31,12 @@ void main() {
 	NoClicksFor(5.0);
 	
 	ActionMoveToLocation(GetGlobalLocation("TAR_BREJIKCORPSE"), 0);
-	
 	ActionDoCommand(AssignCommand(oPC, SetFacingPoint(GetPosition(oLash))));
-	
 	ActionPlayAnimation(ANIMATION_LOOPING_GET_LOW, 1.0, 3.0);
+	ActionDoCommand(SetFacingPoint(GetPosition(oPC)));
+	ActionMoveToObject(oPC, FALSE, 1.5);
 	
 	CreateItemOnObject("k36_itm_holocron", oLash, 1);
-	
-	ActionMoveToObject(oPC, FALSE, 1.5);
 	
 	ActionResumeConversation();
 }

@@ -2,7 +2,7 @@
 /*	KOTOR Community Patch
 	
 	Fired by kor36_lashowe.dlg in korr_m36aa (Korriban Valley of Dark Lords).
-
+	
 	This script is fired during the conversation with Lashowe if you agreed
 	to help her kill a Tukata mother to get a holocron after her "ahhh, here
 	she comes now" line. It has the Tukata run towards the party. In the vanilla
@@ -12,12 +12,12 @@
 	locations for each Tukata so they run in straight lines.
 	
 	See also k_pkor_lashtukat and k36_las_tukatasp.
-
+	
 	Issue #163: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163
-
-	DP 2019-08-04                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	
+	DP 2019-08-04																*/
+//////////////////////////////////////////////////////////////////////////////////
 
 void main() {
 	

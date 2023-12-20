@@ -10,6 +10,9 @@
 	
 	See also k36_las_takeholo, k36_ud_tukqueen.
 	
+	Issue #163: 
+	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163
+	
 	DP 2023-12-07																*/
 //////////////////////////////////////////////////////////////////////////////////
 

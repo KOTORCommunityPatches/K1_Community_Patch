@@ -1,8 +1,8 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by kor36_lashowe.dlg in korr_m36aa (Korriban Valley of Dark Lords).
-
+	
 	This script is fired at the end of the conversation with Lashowe if you
 	agreed to help her kill a Tukata mother to get a holocron. It sets the
 	faction states of the Tukata and Lashowe and assigns attack orders. In
@@ -15,12 +15,12 @@
 	combat.
 	
 	See also k_pkor_lashqueen and k_pkor_lashtukat.
-
+	
 	Issue #163: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163
-
-	DP 2019-08-04                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	
+	DP 2019-08-04																*/
+//////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
 #include "k_inc_generic"

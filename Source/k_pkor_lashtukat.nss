@@ -1,8 +1,8 @@
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 /*	KOTOR Community Patch
 	
 	Fired by kor36_lashowe.dlg in korr_m36aa (Korriban Valley of Dark Lords).
-
+	
 	This script is fired at the start of the conversation with Lashowe if you
 	agreed to help her kill a Tukata mother to get a holocron. It spawns the
 	three Tukata off-screen while Lashowe is talking. The vanilla positioning
@@ -12,12 +12,12 @@
 	that they are facing the camera for their reveal shot.
 	
 	See also k_pkor_lashqueen and k36_las_tukatasp.
-
+	
 	Issue #163: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/163
-
-	DP 2019-08-04                                                             */
-////////////////////////////////////////////////////////////////////////////////
+	
+	DP 2019-08-04																*/
+//////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_utility"
 #include "k_inc_generic"
