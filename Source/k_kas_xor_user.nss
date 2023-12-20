@@ -23,6 +23,10 @@
 	behave, and add an OnDeath event for triggering Juhani's related personal
 	conversation.
 	
+	Updated 2023-12-20 to remove the OnDeath event for now, since it will require
+	a custom DLG to only fire the two desired convos. Save for inclusion post-1.10.0
+	when there's more time to work on it properly.
+	
 	See also cp_xor_invis_ud, cp_xor_ptyjmpend, k_kas_xorattack, k_kas_xorthug_ud.
 
 	Issue #8: 
@@ -31,7 +35,7 @@
 	Issue #397: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/397
 	
-	DP 2021-12-06 / DP 2022-03-27 / DP 2023-11-28								*/
+	DP 2021-12-06 / DP 2022-03-27 / DP 2023-11-28 / DP 2023-12-20				*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -126,8 +130,7 @@ void main() {
 		}
 	else if (nUser == 1007) // DEATH
 		{
-			// Have Juhani start a conversation with the PC post-Xor's death.
-			SignalEvent(oInvis, EventUserDefined(99));
+
 		}
 	else if (nUser == 1008) // DISTURBED
 		{
