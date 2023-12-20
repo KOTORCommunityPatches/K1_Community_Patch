@@ -170,6 +170,7 @@
 * Fixed distorted UVs for the bridge lights in the Dantooine Grove and Sandral Grounds
 * Tweaked the Star Map sequence in the Korriban Tomb of Naga Sadow to utilise the animation changes made for the scenes on other planets
 * Removed the quest update pop-up between the Star Map sequence and the conversation with Jolee in the Kashyyyk Lower Shadowlands
+* Prevented Zaalbar skating along the ground and adjusted camera angles for the conversation with the Wookiee village gate guard in Kashyyyk Great Walkway
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
