@@ -246,6 +246,7 @@
 * Corrected some additional camera angle, listener, and facing issues during the Murder Mystery quest in the Dantooine Grove
 * Prevented Griff's spawn-in being visible to the player in the Tatooine Czerka Office
 * Tweaked the jump when arriving in the Tatooine Docking Bay for the first time to make sure party members did as they were told
+* Attempted to prevent Jolee and Juhani's AI from deactivating during the final fight if siding with Bastila on the Unknown World Temple Summit
 
 ## v1.9.2 - March 27, 2022
 ### Additions
