@@ -38,7 +38,7 @@
 * Stripped the party of Force Speed to prevent them power walking during the cutscene outside The One's compound in Unknown World North Beach
 * Ensured that the sound effect for the cell forcefield doors in the Leviathan Prison Block looped correctly and restarted after the doors were closed
 * Moved the two lightsaber crystals inside the Krayt cave in the Tatooine Eastern Dune Sea from rubble to the Jedi corpse
-* Prevented needing to loot the two crates outside the Czerka office in the Kashyyyk Landing Pad twice in order for their loot to spawn
+* Prevented needing to loot the two crates outside the Czerka office in the Kashyyyk Czerka Landing Port twice in order for their loot to spawn
 * Forced the Gizka on the Ebon Hawk to keep clear of the party member spawn points
 * Hid any equipped masks and weapons for the initial conversation with Bastila and the post-vision conversation with Carth when first entering the Dantooine Jedi Enclave
 * Plugged a gap between the torso and head of Zaalbar's model
@@ -171,6 +171,7 @@
 * Tweaked the Star Map sequence in the Korriban Tomb of Naga Sadow to utilise the animation changes made for the scenes on other planets
 * Removed the quest update pop-up between the Star Map sequence and the conversation with Jolee in the Kashyyyk Lower Shadowlands
 * Prevented Zaalbar skating along the ground and adjusted camera angles for the conversation with the Wookiee village gate guard in Kashyyyk Great Walkway
+* Jumped the party for the scene when entering the Kashyyyk Czerka Landing Port for the first time with Zaalbar present
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
@@ -182,7 +183,7 @@
 * Herded the party for the conversation with the rep in the Tatooine Czerka Office to ensure correct static camera framing
 * Tweaked party member facings and hid masks/weapons for the Griff and Greeta conversions in the Tatooine Czerka Office
 * Added additional party jump for Matrik convos in the Taris Lower City Apartments (East) when wearing a Sith disguise to prevent an endless black screen
-* Corrected some additional offscreen party member interjections in the convo with Matton in the Kashyyyk Landing Pad
+* Corrected some additional offscreen party member interjections in the convo with Matton in the Kashyyyk Czerka Landing Port
 * Revised Jolee's joining script in Kashyyyk Upper Shadowlands to improve visual consistency and jumped party for his conversation
 * Addressed player's facing after one of Bastila's interjections during the first meeting with the Council in the Dantooine Jedi Enclave
 * Corrected post-Leviathan scene Carth romance checks
@@ -248,6 +249,7 @@
 * Prevented Griff's spawn-in being visible to the player in the Tatooine Czerka Office
 * Tweaked the jump when arriving in the Tatooine Docking Bay for the first time to make sure party members did as they were told
 * Attempted to prevent Jolee and Juhani's AI from deactivating during the final fight if siding with Bastila on the Unknown World Temple Summit
+* Enabled the branch with Canderous and Juhani having a back and forth in the scene when entering the Kashyyyk Czerka Landing Port for the first time without Zaalbar
 
 ## v1.9.2 - March 27, 2022
 ### Additions
@@ -264,7 +266,7 @@
 * Removed a repeated VO line from Komad in the Tatooine Eastern Dune Sea and adjusted the cropping on another
 * Herded the party and prevented the speaking party member looking at the ground during the Zaalbar-less scene at the start of the Great Walkway on Kashyyyk
 * Plugged some holes in the ceiling of the training room in the Manaan Sith Base
-* Addressed a number of problems with Eli and Matton in the Kashyyyk Landing Pad, including a potential soft-lock, duplicate outfits, a missing DLG line, and lack of continuance between some scenes
+* Addressed a number of problems with Eli and Matton in the Kashyyyk Czerka Landing Port, including a potential soft-lock, duplicate outfits, a missing DLG line, and lack of continuance between some scenes
 * Fixed numerous issues with the springing Zaalbar from prison scene in the Taris Lower Sewers, correcting facing, herding the party, changing camera angles, and correcting one of Mission's lines that had contradictory information
 * Tweaked the hood of the cutscene Revan model to prevent certain hair models clipping through
 * Fixed some incorrect skin weights on Admiral Dodonna's body model
@@ -348,7 +350,7 @@
 * Corrected some spurious skin weight assignments for the female Republic soldier head model
 * Changed one of the quest updates for the Leviathan prison break to the correct one
 * Corrected starting conditional for having the Sith Base passcard when talking to the interrogator in the Republic base in Manaan East Central
-* Herded party, prevented NPCs running into each other, and forced entry direction during the post-ending cutscenes in the Kashyyyk Landing Pad
+* Herded party, prevented NPCs running into each other, and forced entry direction during the post-ending cutscenes in the Kashyyyk Czerka Landing Port
 * Repositioned the party and the hostile Rakata during the first encounter on the Unknown World Central Beach
 * Corrected scripts for injured Wookiee in the Kashyyyk Lower Shadowlands to grant the Upari amulet and properly account for the party's healing abilities
 * Revised the Unknown World Central Beach post-temple scenes, cleaning up party positioning, facing, camera angles, etc.
