@@ -179,7 +179,7 @@
 * Corrected the config for the torture scene in the Leviathan Prison Block to properly assign static cameras on nodes where they were missing
 * Revised the conversation for the rep in the Tatooine Czerka Office to finally prevent her line being spoken off-screen when Force Persuaded (for real this time)
 * Herded the party for the conversation with the rep in the Tatooine Czerka Office to ensure correct static camera framing
-* Tweaked party member facings and hid masks for the Griff and Greeta conversions in the Tatooine Czerka Office
+* Tweaked party member facings and hid masks/weapons for the Griff and Greeta conversions in the Tatooine Czerka Office
 * Added additional party jump for Matrik convos in the Taris Lower City Apartments (East) when wearing a Sith disguise to prevent an endless black screen
 * Corrected some additional offscreen party member interjections in the convo with Matton in the Kashyyyk Landing Pad
 * Revised Jolee's joining script in Kashyyyk Upper Shadowlands to improve visual consistency and jumped party for his conversation
@@ -244,6 +244,7 @@
 * Extended the stealth belt check fix to the entrance trigger that has a war droid fire a random barkstring in the Korriban Tomb of Marka Ragnos
 * Prevented duplicate Xor combat encounters spawning on multiple planets due to triggering him without Juhani present
 * Corrected some additional camera angle, listener, and facing issues during the Murder Mystery quest in the Dantooine Grove
+* Prevented Griff's spawn-in being visible to the player in the Tatooine Czerka Office
 
 ## v1.9.2 - March 27, 2022
 ### Additions
