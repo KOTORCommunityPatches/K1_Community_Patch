@@ -10,10 +10,13 @@
 	Malak, which looked kind of weird. It prevents Malak being instantly refaced
 	on the subsequent line due to speaker/listener tags.
 	
+	Updated 2023-12-20 to walk the Sith directly to Malak, in combination with a
+	DLG listener and camera angle change.
+	
 	Issue #173: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/173
 	
-	DP 2023-12-08																*/
+	DP 2023-12-08 / DP 2023-12-20												*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "cp_inc_k1"
@@ -22,12 +25,11 @@ void main() {
 	
 	object oMalak = GetObjectByTag("sta45b_malak", 0);
 	object oMaster = GetNearestObjectByTag("SithMaster", OBJECT_SELF, 1);
-	object oWP = GetObjectByTag("K_PSTA_SITH_WP", 0);
 	
 	ActionPauseConversation();
 	
-	AssignCommand(oMaster, ActionMoveToObject(oWP));
-	AssignCommand(oMaster, ActionDoCommand(CP_FaceNPC(oMaster, oMalak)));
+	AssignCommand(oMaster, SetFacingPoint(GetPosition(oMalak)));
+	AssignCommand(oMaster, ActionMoveToObject(oMalak));
 	AssignCommand(oMaster, ActionDoCommand(DelayCommand(0.5, CP_FaceNPC(oMalak, oMaster))));
 	
 	ActionWait(4.3);
