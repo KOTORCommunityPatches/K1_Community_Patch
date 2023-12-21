@@ -251,6 +251,7 @@
 * Attempted to prevent Jolee and Juhani's AI from deactivating during the final fight if siding with Bastila on the Unknown World Temple Summit
 * Enabled the branch with Canderous and Juhani having a back and forth in the scene when entering the Kashyyyk Czerka Landing Port for the first time without Zaalbar
 * Adjusted the conversation when returning to Kandon in the Taris Black Vulkar Base to trigger as soon as the party enters
+* Tweaked pre-swoop race scene when siding with the Vulkars to correct player orientation in the Taris Black Vulkar Base
 
 ## v1.9.2 - March 27, 2022
 ### Additions
