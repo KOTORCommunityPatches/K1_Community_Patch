@@ -173,6 +173,7 @@
 * Prevented Zaalbar skating along the ground and adjusted camera angles for the conversation with the Wookiee village gate guard in Kashyyyk Great Walkway
 * Jumped the party for the scene when entering the Kashyyyk Czerka Landing Port for the first time with Zaalbar present
 * Wrangled the party and tweaked timings/animations for the post-Hrakert Rift arrest scene outside the Republic embassy in Manaan East Central
+* Moved the initial messenger spawn-in waypoint out of sight in Manaan Docking Bay
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
