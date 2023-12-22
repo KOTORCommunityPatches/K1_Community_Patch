@@ -780,7 +780,7 @@ You may, however, do whatever you want with any of A Future Pilot's fixes with o
 * Fred Tetra - For KOTOR Tool
 * tk102 - For DLGEditor and K-GFF
 * JdNoa/Dashus - For DeNCS
-* stoffe - For TSLPatcher
+* stoffe - For TSLPatcher/ChangeEdit/TalkEd
 * bead-v - For MDLEdit and KOTORMax
 * ndix UR - For TGA2TPC, TPCView, and MDLOps v1.0+
 * seedhartha - For KOTORBlender fork for Blender 2.8+
@@ -792,4 +792,4 @@ You may, however, do whatever you want with any of A Future Pilot's fixes with o
 * danil-ch - For the original info.rtf template
 * Many thanks to ebmar, Salk, and KnifeMaster for providing numerous bug reports and beta testing certain fixes
 
-**THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/LUCASFILM/DISNEY OR ANY LICENSERS/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR ARE NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
+**THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE/LUCASFILM/DISNEY OR ANY LICENSEES/SPONSORS OF THE MENTIONED COMPANIES. USE OF THIS MODIFICATION IS AT YOUR OWN RISK AND THE ABOVE MENTIONED COMPANIES OR THE AUTHOR ARE NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS MODIFICATION.**
