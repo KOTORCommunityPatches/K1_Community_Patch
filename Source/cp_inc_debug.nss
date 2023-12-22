@@ -692,7 +692,7 @@ string CP_GetGlobalState(string sGlobal, int bIsBoolean = TRUE) {
 }
 
 //////////////////////////////////////////////////////////////////////////////////
-/*	CP_GetLocalState()
+/*	CP_GetLocalBoolState()
 	
 	Returns a string that reports the state of the supplied local boolean on the
 	target object. Effectively a modified version of GN_GetSpawnInCondition from
