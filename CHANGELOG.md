@@ -1,5 +1,5 @@
 # CHANGELOG
-## v1.10.0 - TBA
+## v1.10.0 - December 22, 2023
 ### Additions
 * Adjusted the eyelid and mouthbox UVs for the NPC head old_b_m2 to move them from the beard texture
 * Prevented the inadvertent removal of the first journal entry of the "Dwindling Supplies" quest on the Ebon Hawk

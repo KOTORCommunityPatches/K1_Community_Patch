@@ -12,7 +12,7 @@ Prior Version Release Date: *March 27, 2022*
 
 Current Version: *v1.10.0*
 
-Release Date: *TBA*
+Release Date: *December 22, 2023*
 
 ## 1. Description:
 This mod is a compilation of various bugfix mods and custom fixes put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who have contributed.
