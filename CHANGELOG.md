@@ -174,6 +174,7 @@
 * Jumped the party for the scene when entering the Kashyyyk Czerka Landing Port for the first time with Zaalbar present
 * Wrangled the party and tweaked timings/animations for the post-Hrakert Rift arrest scene outside the Republic embassy in Manaan East Central
 * Moved the initial messenger spawn-in waypoint out of sight in Manaan Docking Bay
+* Gave Nurik inside the Dantooine Sandral Estate the same clothing variant that he wears outside in the feud showdown
 
 ### Changes/Updates/Revisions
 * Revised the function order for the script that triggers the Star Map cutscene in the Dantooine Ruins to (hopefully) prevent a potential sequence break
