@@ -1,4 +1,12 @@
 # CHANGELOG
+## v1.11.0 - TBA
+### Additions
+* Added French and Russian translations of added/edited TLK StrRefs
+* Switched female fat commoner appearance row to use regular commoner model and textures
+
+### Changes/Updates/Revisions
+* Corrected male fat commoner appearance row to use regular commoner model, not just textures, after previous reversion of custom model
+
 ## v1.10.0 - December 22, 2023
 ### Additions
 * Adjusted the eyelid and mouthbox UVs for the NPC head old_b_m2 to move them from the beard texture

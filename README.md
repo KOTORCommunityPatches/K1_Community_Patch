@@ -8,11 +8,11 @@
 
 Original Release Date: *April 17, 2018*
 
-Prior Version Release Date: *March 27, 2022*
+Prior Version Release Date: *December 22, 2023*
 
-Current Version: *v1.10.0*
+Current Version: *v1.11.0*
 
-Release Date: *December 22, 2023*
+Release Date: *TBA*
 
 ## 1. Description:
 This mod is a compilation of various bugfix mods and custom fixes put together with the intention of fixing all the known bugs with the last official patch of KOTOR 1. A huge thanks to all of the mod authors who have contributed.
@@ -181,7 +181,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * Griff could be seen popping into existence right in front of the player in the Tatooine Czerka Office [ISSUE #265](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/265)
 * Griff's conversation in the Tatooine Sand People Enclave had a few facing issues [ISSUE #116](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/116)
 * Handon and Rickard wear the same outfit [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
-* Handon is implied to be overweight and was likely meant to use the fat commoner appearance [ISSUE #52](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/52)
 * Helena wears Jedi robes instead of regular clothes
 * Higher poly replacements for the placeable human "sitters" (cantina Pazaak players/drinkers)
 * HK-47's stunt double was briefly visible when adding him to the party immediately in the Tatooine Droid Shop [ISSUE #310](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/310)
@@ -322,7 +321,6 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The entrance section of Manaan West Central had gaps in several corners (Reported by Salk) [ISSUE #303](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/303)
 * The exit in the Sith Base on Taris was labelled incorrectly (Reported by 134340Goat) [ISSUE #25](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/25)
 * The exploding pillar in the Tomb of Ajunta Pall on Korriban could cause permanent disabling of AI for companions and suffered from UI glitches during the cutscene [ISSUE #164](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/164)
-* The fat commoner male model had some UV issues and didn't use the regular commoner clothes textures [ISSUE #90](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/90)
 * The female child head and body models had some clipping with the eyelids and skirt during certain animations (Reported by N-DReW25) [ISSUE #483](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/483)
 * The female player head PFHA04 had some hair accessory texture issues for the Dark Side transitions (Reported by muitafruita) [ISSUE #653](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/653)
 * The female player head PFHB03 had some clipping issues with its eyelids, poor UVs for the eyeballs, and an oddly bumpy scalp (Reported by Dark Hope and muitafruita) [ISSUE #401](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/401)
@@ -761,7 +759,14 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 * The windows on the Endar Spire didn't render correctly due to engine issues with overlapping transparency [ISSUE #699](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/699)
 * The wrecked speeder placeables didn’t use the proper glass texture for their windows [ISSUE #703](https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/703)
 
-## 5. Bugs:
+## 5. Translation:
+### Harlockin:
+* French / Français 
+
+### olegkuz1997:
+* Russian / Русский
+
+## 6. Bugs:
 These are the currently known bugs/issues with KOTOR or the mod that the K1CP is looking to resolve: 
 
 https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues
@@ -770,12 +775,12 @@ Please report any bugs or other problems on the Github issue page or Deadly Stre
 
 https://deadlystream.com/files/file/1258-kotor-1-community-patch
 
-## 6. Permissions:
+## 7. Permissions:
 Due to this mod being a compilation from many different authors, please do not distribute/rehost it.
 
 You may, however, do whatever you want with any of A Future Pilot's fixes with or without credit (though AFP would appreciate credit if you can).
 
-## 7. Special Thanks/Acknowledgements:
+## 8. Special Thanks/Acknowledgements:
 * All of the mod authors who have helped make this patch a reality - thank you! - especially for agreeing to distribution outside of Deadly Stream
 * Fred Tetra - For KOTOR Tool
 * tk102 - For DLGEditor and K-GFF
