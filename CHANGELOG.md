@@ -6,6 +6,7 @@
 
 ### Changes/Updates/Revisions
 * Corrected male fat commoner appearance row to use regular commoner model, not just textures, after previous reversion of custom model
+* Removed the droppable flags from most of the inventory items of Calo Nord's various edited ambush incarnations, bringing them in line with the vanilla versions
 
 ## v1.10.0 - December 22, 2023
 ### Additions
