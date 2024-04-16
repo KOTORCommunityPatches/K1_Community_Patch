@@ -7,6 +7,7 @@
 ### Changes/Updates/Revisions
 * Corrected male fat commoner appearance row to use regular commoner model, not just textures, after previous reversion of custom model
 * Removed the droppable flags from most of the inventory items of Calo Nord's various edited ambush incarnations, bringing them in line with the vanilla versions
+* Updated the Rodian variation of Calo Nord's thugs on Tatooine to match the texture used by the placeable sitters in the speeders, mismatch due to previous Rodian appearance.2da fix
 
 ## v1.10.0 - December 22, 2023
 ### Additions
