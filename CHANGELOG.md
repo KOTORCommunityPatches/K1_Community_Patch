@@ -10,6 +10,7 @@
 * Removed the droppable flags from most of the inventory items of Calo Nord's various edited ambush incarnations, bringing them in line with the vanilla versions
 * Updated the Rodian variation of Calo Nord's thugs on Tatooine to match the texture used by the placeable sitters in the speeders, mismatch due to previous Rodian appearance.2da fix
 * Adjusted the model variation of Calo Nord's blasters so that their appearance is consistent across the game
+* Corrected the script that actually spawns Calo/Bandon in the Tatooine Eastern Dune Sea to properly prevent the trigger bypass exploit
 
 ## v1.10.0 - December 22, 2023
 ### Additions
