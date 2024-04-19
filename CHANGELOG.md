@@ -4,6 +4,7 @@
 * Added French and Russian translations of added/edited TLK StrRefs
 * Switched female fat commoner appearance row to use regular commoner model and textures
 * Prevented the dialogue with the Governor in the Taris Sith Base from reinitiating a second time
+* Corrected the VIS for Taris Upper City South to make sure the medical clinic was rendered while in the apartment-end of the main thoroughfare
 
 ### Changes/Updates/Revisions
 * Corrected male fat commoner appearance row to use regular commoner model, not just textures, after previous reversion of custom model
