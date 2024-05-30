@@ -204,6 +204,7 @@ void CP_PtyQuestState() {
 			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("K_MESS_JUHANI", TRUE));
 			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("K_XOR_AMBUSH", FALSE));
 			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("K_XOR_AMBUSH_FIX", TRUE));
+			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("K1CP_XOR_SPAWNED", TRUE));
 			CP_DebugMsg("JUHANI: " + CP_GetGlobalState("KOR_WHO_DAK", FALSE));
 		}
 	
@@ -267,6 +268,11 @@ string CP_PtyToName(int nNPC) {
 string CP_NPCName(object oTarget) {
 	object oPty = OBJECT_INVALID;
 	int i = 0;
+	
+	if (!GetIsObjectValid(oTarget))
+		{
+			return "ERROR, OBJECT INVALID";
+		}
 	
 	if (oTarget == GetFirstPC())
 		{
@@ -613,6 +619,11 @@ string CP_ItemType(object oItem) {
 string CP_GetFaction(object oTarget) {
 	int nFaction = GetStandardFaction(oTarget);
 	
+	if (!GetIsObjectValid(oTarget))
+		{
+			return "ERROR, OBJECT INVALID";
+		}
+	
 	switch (nFaction)
 		{
 			case INVALID_STANDARD_FACTION: return "INVALID";
@@ -675,7 +686,6 @@ string CP_MainPlotState() {
 //////////////////////////////////////////////////////////////////////////////////
 string CP_GetGlobalState(string sGlobal, int bIsBoolean = TRUE) {
 	int nGlobal;
-	string sState = "INVALID";
 	
 	if (bIsBoolean == TRUE)
 		{
@@ -702,6 +712,11 @@ string CP_GetGlobalState(string sGlobal, int bIsBoolean = TRUE) {
 //////////////////////////////////////////////////////////////////////////////////
 string CP_GetLocalBoolState(object oNPC, int nIndex) {
 	int nLocal = GetLocalBoolean(oNPC, nIndex);
+	
+	if (!GetIsObjectValid(oNPC))
+		{
+			return "ERROR, OBJECT INVALID";
+		}
 	
 	if (nLocal > 0)
 		{
@@ -819,6 +834,11 @@ string CP_GetStarMapState() {
 string CP_NPCAIState(object oNPC) {
 	int nState = GetLocalBoolean(oNPC, 62); // SW_FLAG_AI_OFF
 	string sState;
+	
+	if (!GetIsObjectValid(oNPC))
+		{
+			return "ERROR, OBJECT INVALID";
+		}
 	
 	if (!nState) // FALSE. AI is active.
 		{
