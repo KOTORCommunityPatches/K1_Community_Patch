@@ -614,7 +614,9 @@ string CP_ItemType(object oItem) {
 	Returns the name of the faction the input creature belongs to as a string for
 	debug messages.
 	
-	DP 2023-12-04																*/
+	Updated 2024-12-31 to account for the player/party faction.
+	
+	DP 2023-12-04 / DP 2024-12-31												*/
 //////////////////////////////////////////////////////////////////////////////////
 string CP_GetFaction(object oTarget) {
 	int nFaction = GetStandardFaction(oTarget);
@@ -627,6 +629,7 @@ string CP_GetFaction(object oTarget) {
 	switch (nFaction)
 		{
 			case INVALID_STANDARD_FACTION: return "INVALID";
+			case 0: return "PLAYER/PARTY";
 			case STANDARD_FACTION_HOSTILE_1: return "HOSTILE 1";
 			case STANDARD_FACTION_FRIENDLY_1: return "FRIENDLY 1";
 			case STANDARD_FACTION_HOSTILE_2: return "HOSTILE 2";
