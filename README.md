@@ -766,7 +766,13 @@ Given the complexity of this mod, a clean install of KOTOR is recommended. Howev
 ### Harlockin:
 * French / Français 
 
+### Ian Starrider:
+* German / Deutsche
+
 ### olegkuz1997:
+* Russian / Русский
+
+### JayDominus:
 * Russian / Русский
 
 ## 6. Bugs:
