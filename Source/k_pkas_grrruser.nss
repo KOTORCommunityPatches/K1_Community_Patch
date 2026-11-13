@@ -3,21 +3,20 @@
 	
 	UserDefine for kas25_hurt_01.utc in kas_m25aa (Kashyyyk Lower Shadowlands).
 	
-	This is Grrrwahrr's OUD. It has been modified from the original to walk him
-	back to his spawn point once the attacking Mandos are defeated rather than
-	initiate a conversation with the player immediately, as the vanilla script
-	did. This is done in conjunction with a party jump on the first node of the
-	DLG.
+	Modified to fade to black, teleport the party into cutscene position
+	(via CP_PartyHerder) BEFORE calling ActionStartConversation so that
+	starting the conversation does not fail when GetFirstPC() is far away.
 	
 	See also cp_kas25_jumppty.
 	
 	Issue #486: 
 	https://github.com/KOTORCommunityPatches/K1_Community_Patch/issues/486
 	
-	DP 2021-12-04																*/
+	DP 2021-12-04 (modified)													*/
 //////////////////////////////////////////////////////////////////////////////////
 
 #include "k_inc_utility"
+#include "cp_inc_k1"
 
 void CP_ClearNPC(object oNPC) {
 	CancelCombat(oNPC);
@@ -25,9 +24,22 @@ void CP_ClearNPC(object oNPC) {
 	AssignCommand(oNPC, ClearAllActions());
 }
 
+void CP_JumpPartyToWook(location lPC, location lPM1, location lPM2) {
+	SetPartyLeader(NPC_PLAYER);
+	CP_PartyHerder(lPC, lPM1, lPM2);
+}
+
+void CP_DelayedConvo(object oPC) {
+	DelayCommand(0.2, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
+}
+
 void CP_WookHome() {
 	object oPC = GetFirstPC();
 	location lHome = GetLocation(GetWaypointByTag("kas25_wp_hurthome"));
+	location lPC = Location(Vector(134.51,194.45,10.44), 148.54);
+	location lPM1 = Location(Vector(137.19,194.57,10.44), 148.54);
+	location lPM2 = Location(Vector(135.63,192.01,10.44), 148.54);
+
 	CancelCombat(OBJECT_SELF);
 	ClearAllActions();
 	if (GetDistanceBetweenLocations(GetLocation(OBJECT_SELF), lHome) > 1.5)
@@ -35,14 +47,17 @@ void CP_WookHome() {
 			ActionMoveToLocation(lHome);
 			ActionDoCommand(SetFacing(-33.75));
 			ActionDoCommand(SetGlobalFadeOut());
+			ActionDoCommand(CP_JumpPartyToWook(lPC, lPM1, lPM2));
 			ActionDoCommand(SetCommandable(TRUE, OBJECT_SELF));
-			ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE);
+			ActionDoCommand(CP_DelayedConvo(oPC));
 			SetCommandable(FALSE, OBJECT_SELF);
 		}
 		else
 			{
 				SetGlobalFadeOut();
-				ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE);
+				SetPartyLeader(NPC_PLAYER);
+				CP_PartyHerder(lPC, lPM1, lPM2);
+				DelayCommand(0.2, ActionStartConversation(oPC, "", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));
 			}
 }
 
@@ -65,14 +80,13 @@ void main() {
 					
 					ChangeToStandardFaction(OBJECT_SELF, STANDARD_FACTION_NEUTRAL);
 					DestroyObject(oRWeap);
-					CP_WookHome();
 					
 					CP_ClearNPC(oPC);
 					CP_ClearNPC(oPM1);
 					CP_ClearNPC(oPM2);
+					CP_WookHome();
 				}
-				
-			if (GetCurrentHitPoints(OBJECT_SELF) < FloatToInt(GetMaxHitPoints(OBJECT_SELF) / 2.0) && !GetIsInCombat(OBJECT_SELF) && !GetIsInConversation(OBJECT_SELF))
+			else if (GetCurrentHitPoints(OBJECT_SELF) < FloatToInt(GetMaxHitPoints(OBJECT_SELF) / 2.0) && !GetIsInCombat(OBJECT_SELF) && !GetIsInConversation(OBJECT_SELF))
 				{
 					if (GetIsObjectValid(oRWeap))
 						{
